@@ -1,10 +1,10 @@
-const CACHE_VERSION = 'portal-keperawatan-v1.0.0';
+const CACHE_VERSION = 'portal-keperawatan-v1.0.1';
 const STATIC_CACHE = CACHE_VERSION + '-static';
 const RUNTIME_CACHE = CACHE_VERSION + '-runtime';
 const APP_SHELL = [
   './',
   './index.html',
-  './assets/css/styles.css',
+  './assets/css/styles.css?v=1.0.1',
   './assets/js/app.js',
   './assets/data/modules.json',
   './manifest.webmanifest',
