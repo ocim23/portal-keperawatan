@@ -1,0 +1,23 @@
+PORTAL KEPERAWATAN — GITHUB PAGES / PWA
+
+Status                     : Siap unggah
+Modul                      : 8
+Poster utama               : 27
+Ukuran folder              : 6.77 MB
+JavaScript                 : Valid
+Apps Script                : Tidak digunakan
+Google Drive/Sheet runtime : Tidak digunakan
+PWA / instal ke HP         : Aktif
+Cache poster               : Aktif saat pernah dibuka
+Favorit/riwayat            : localStorage perangkat
+Routing                    : Hash routing, aman untuk GitHub Pages
+Noindex                    : Aktif
+
+Koreksi urutan aset:
+- PPI: 6 langkah → durasi → 5 momen → pemilahan → etika batuk
+- Spill Kit: amankan area → APD → tangani tumpahan → buang APD/bersihkan alat
+
+Pengelolaan:
+- Urutan, judul, caption, soal, dan referensi dapat diedit melalui content/*.json
+- Gambar dapat diganti tanpa membangun ulang aplikasi
+- Naikkan nilai version pada slide untuk memaksa cache mengambil gambar baru
