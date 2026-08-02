@@ -1,0 +1,287 @@
+{
+  "id": "hak",
+  "title": "Hak dan Kewajiban Pasien",
+  "short": "Hak Pasien",
+  "desc": "Informasi, privasi, partisipasi, pengaduan, dan tanggung jawab pasien.",
+  "category": "Etika",
+  "color": "#0EA5A8",
+  "soft": "#E9FBFB",
+  "icon": "rights",
+  "minutes": 12,
+  "updated": "2 Agustus 2026",
+  "keywords": [
+    "hak pasien",
+    "kewajiban pasien",
+    "privasi",
+    "consent",
+    "pengaduan",
+    "informasi"
+  ],
+  "slides": [
+    {
+      "type": "html",
+      "template": "rights-full",
+      "title": "Hak Pasien · Daftar Lengkap",
+      "caption": "Pelajari seluruh hak, lalu latih kemampuan menyebutkan minimal lima hak tanpa melihat daftar.",
+      "order": 1,
+      "version": 1
+    },
+    {
+      "type": "html",
+      "template": "duties-full",
+      "title": "Kewajiban Pasien · Daftar Lengkap",
+      "caption": "Kewajiban pasien mendukung pelayanan yang aman, tertib, dan saling menghormati.",
+      "order": 2,
+      "version": 1
+    },
+    {
+      "type": "html",
+      "template": "rights-practice",
+      "title": "Latihan Wawancara Surveior",
+      "caption": "Sebutkan lima hak dan lima kewajiban, lalu buka jawaban untuk memeriksa kelengkapan.",
+      "order": 3,
+      "version": 1
+    }
+  ],
+  "essentials": [
+    {
+      "title": "Berhak memahami",
+      "text": "Informasi disampaikan dengan bahasa yang jelas mengenai kondisi dan rencana pelayanan."
+    },
+    {
+      "title": "Berhak terlibat",
+      "text": "Pasien dapat memberi persetujuan, menolak, dan menyampaikan preferensi."
+    },
+    {
+      "title": "Privasi dijaga",
+      "text": "Informasi dan tindakan dilakukan dengan menjaga martabat serta kerahasiaan."
+    },
+    {
+      "title": "Keluhan ditanggapi",
+      "text": "Pasien dapat menyampaikan keluhan tanpa mengurangi hak atas pelayanan."
+    },
+    {
+      "title": "Informasi harus jujur",
+      "text": "Pasien berkewajiban memberi informasi yang benar dan mengikuti kesepakatan pelayanan."
+    }
+  ],
+  "do": [
+    "Jaga privasi saat berbicara.",
+    "Minta izin sebelum membagikan informasi.",
+    "Gunakan bahasa yang mudah dipahami.",
+    "Tunjukkan jalur pengaduan."
+  ],
+  "dont": [
+    "Membicarakan kondisi pasien di ruang publik.",
+    "Menganggap keluarga otomatis boleh menerima semua informasi.",
+    "Memaksa keputusan tanpa penjelasan.",
+    "Mengabaikan keluhan pasien."
+  ],
+  "quiz": [
+    {
+      "q": "Pasien sadar dan kompeten meminta agar hasil pemeriksaan tidak disampaikan kepada anggota keluarga tertentu. Keluarga tersebut kemudian bertanya kepada perawat. Respons terbaik adalah…",
+      "options": [
+        "Hormati preferensi pasien, jelaskan batas informasi kepada keluarga, dan konfirmasi siapa yang diizinkan menerima informasi",
+        "Memberikan hasil karena keluarga dianggap selalu berhak tahu",
+        "Menolak berbicara tanpa penjelasan apa pun",
+        "Menyampaikan informasi hanya bila keluarga berjanji merahasiakan"
+      ],
+      "answer": 0,
+      "why": "Pasien menentukan pihak yang boleh menerima informasi, kecuali ada dasar hukum atau kondisi khusus yang mengatur lain.",
+      "optionWhy": [
+        "Pilihan ini menjaga privasi sambil tetap berkomunikasi profesional.",
+        "Hubungan keluarga tidak otomatis memberi akses seluruh informasi.",
+        "Penolakan kaku dapat menimbulkan konflik dan tidak menjelaskan hak pasien.",
+        "Janji keluarga tidak menggantikan izin pasien."
+      ]
+    },
+    {
+      "q": "Pasien menolak tindakan setelah mendapat penjelasan, tetapi keluarga mendesak agar tindakan tetap dilakukan. Langkah paling tepat adalah…",
+      "options": [
+        "Pastikan kapasitas pasien, ulangi penjelasan risiko/alternatif, hormati keputusan yang sah, dan dokumentasikan",
+        "Mengikuti keluarga karena jumlah mereka lebih banyak",
+        "Melakukan tindakan tanpa persetujuan agar tidak disalahkan",
+        "Menghentikan seluruh pelayanan kepada pasien"
+      ],
+      "answer": 0,
+      "why": "Persetujuan atau penolakan pasien yang kompeten dihormati setelah proses informasi yang memadai dan dokumentasi.",
+      "optionWhy": [
+        "Pilihan ini menyeimbangkan otonomi, keselamatan, dan akuntabilitas.",
+        "Keluarga tidak menggantikan keputusan pasien kompeten.",
+        "Tindakan tanpa persetujuan dapat melanggar hak pasien.",
+        "Penolakan satu tindakan tidak berarti semua pelayanan dihentikan."
+      ]
+    },
+    {
+      "q": "Percakapan tentang diagnosis pasien dilakukan di koridor dan dapat didengar pengunjung. Hak yang paling langsung terancam adalah…",
+      "options": [
+        "Privasi dan kerahasiaan informasi pasien",
+        "Hak memilih kelas perawatan",
+        "Hak meminta pendamping rohani",
+        "Hak memperoleh perkiraan biaya"
+      ],
+      "answer": 0,
+      "why": "Lokasi dan volume percakapan harus mencegah informasi kesehatan terdengar oleh pihak yang tidak berhak.",
+      "optionWhy": [
+        "Ini merupakan inti masalah pada skenario.",
+        "Pemilihan kelas tidak terkait kebocoran informasi.",
+        "Pendamping rohani tidak terkait lokasi percakapan.",
+        "Biaya bukan informasi utama yang terancam."
+      ]
+    },
+    {
+      "q": "Pasien ingin pendapat dokter lain mengenai rencana operasi. Respons petugas yang paling tepat adalah…",
+      "options": [
+        "Jelaskan proses permintaan second opinion sesuai ketentuan tanpa menghambat pelayanan",
+        "Mengatakan bahwa permintaan tersebut menunjukkan pasien tidak percaya",
+        "Menunda seluruh perawatan sampai pasien membatalkan permintaan",
+        "Meminta pasien mencari dokter lain tanpa bantuan informasi"
+      ],
+      "answer": 0,
+      "why": "Meminta konsultasi atau pendapat lain merupakan hak pasien yang difasilitasi sesuai aturan dan kesinambungan pelayanan.",
+      "optionWhy": [
+        "Pilihan ini menghormati hak dan menjaga alur klinis.",
+        "Menghakimi pasien menghambat partisipasi.",
+        "Permintaan second opinion tidak otomatis menghentikan semua perawatan.",
+        "Petugas tetap perlu menjelaskan proses yang tersedia."
+      ]
+    },
+    {
+      "q": "Manakah kombinasi yang seluruhnya merupakan hak pasien?",
+      "options": [
+        "Mendapat informasi, menjaga privasi, menyampaikan keluhan, dan memberi persetujuan atau penolakan",
+        "Menggunakan fasilitas secara bertanggung jawab, membayar jasa, dan mematuhi tata tertib",
+        "Memberikan informasi finansial, mengikuti terapi, dan menghormati pasien lain",
+        "Menerima konsekuensi penolakan, menjaga fasilitas, dan memenuhi administrasi"
+      ],
+      "answer": 0,
+      "why": "Pilihan A berisi hak pasien; pilihan lain terutama berisi kewajiban pasien.",
+      "optionWhy": [
+        "Keempat unsur merupakan hak.",
+        "Ini merupakan kewajiban.",
+        "Ini merupakan kewajiban.",
+        "Ini merupakan kewajiban."
+      ]
+    },
+    {
+      "q": "Pasien tidak menyampaikan obat herbal yang rutin digunakan, sehingga terjadi interaksi dengan terapi rumah sakit. Kewajiban yang paling relevan adalah…",
+      "options": [
+        "Memberikan informasi kesehatan secara jujur, lengkap, dan akurat",
+        "Memilih dokter lain",
+        "Mengajukan keluhan",
+        "Menolak bimbingan rohani"
+      ],
+      "answer": 0,
+      "why": "Informasi obat, alergi, riwayat, dan kebiasaan terapi merupakan bagian penting dari kewajiban memberi informasi kesehatan.",
+      "optionWhy": [
+        "Pilihan ini langsung berkaitan dengan keselamatan terapi.",
+        "Pemilihan dokter bukan isu utama.",
+        "Keluhan tidak menggantikan kewajiban memberi informasi.",
+        "Bimbingan rohani tidak terkait interaksi obat."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Undang-Undang Nomor 17 Tahun 2023 tentang Kesehatan",
+      "org": "JDIH Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/common/dokumen/2023uu017.pdf"
+    },
+    {
+      "title": "Peraturan Pemerintah Nomor 28 Tahun 2024",
+      "org": "Peraturan Pelaksanaan UU Kesehatan",
+      "url": "https://peraturan.bpk.go.id/Download/353434/PP%20Nomor%2028%20Tahun%202024.pdf"
+    },
+    {
+      "title": "Peraturan Menteri Kesehatan Nomor 4 Tahun 2018",
+      "org": "Kewajiban Rumah Sakit dan Kewajiban Pasien",
+      "url": "https://jdih.kemkes.go.id/documents/peraturan-menteri-kesehatan-nomor-4-tahun-2018"
+    },
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    }
+  ],
+  "notice": "Daftar lengkap berikut mengikuti materi internal yang selama ini digunakan. Wording dan dasar hukum perlu selalu diselaraskan dengan regulasi terbaru serta daftar resmi rumah sakit.",
+  "rightsList": [
+    "Memperoleh informasi mengenai tata tertib dan peraturan yang berlaku di rumah sakit.",
+    "Memperoleh informasi tentang hak dan kewajiban pasien.",
+    "Memperoleh layanan yang manusiawi, adil, jujur, dan tanpa diskriminasi.",
+    "Memperoleh layanan kesehatan yang bermutu sesuai standar profesi dan standar prosedur operasional.",
+    "Memperoleh layanan yang efektif dan efisien sehingga pasien terhindar dari kerugian fisik dan materi.",
+    "Mengajukan pengaduan atas kualitas pelayanan yang didapatkan.",
+    "Memilih dokter dan kelas perawatan sesuai keinginan dan peraturan yang berlaku di rumah sakit.",
+    "Meminta konsultasi tentang penyakit yang diderita kepada dokter lain yang mempunyai Surat Izin Praktik, baik di dalam maupun di luar rumah sakit.",
+    "Mendapatkan privasi dan kerahasiaan penyakit yang diderita, termasuk data medis.",
+    "Mendapat informasi yang meliputi diagnosis dan tata cara tindakan medis, tujuan tindakan, alternatif tindakan, risiko dan komplikasi yang mungkin terjadi, prognosis, serta perkiraan biaya pengobatan.",
+    "Memberikan persetujuan atau menolak tindakan yang akan dilakukan oleh tenaga kesehatan terhadap penyakit yang diderita.",
+    "Didampingi keluarga dalam keadaan kritis.",
+    "Menjalankan ibadah sesuai agama atau kepercayaan selama tidak mengganggu pasien lainnya.",
+    "Memperoleh keamanan dan keselamatan selama dalam perawatan di rumah sakit.",
+    "Mengajukan usul, saran, perbaikan, atau perlakuan rumah sakit terhadap dirinya.",
+    "Menolak pelayanan bimbingan rohani yang tidak sesuai dengan agama dan kepercayaan yang dianut.",
+    "Menggugat atau menuntut rumah sakit apabila diduga memberikan pelayanan yang tidak sesuai dengan standar, baik secara perdata maupun pidana.",
+    "Mengeluhkan pelayanan rumah sakit yang tidak sesuai dengan standar melalui media cetak dan elektronik sesuai ketentuan peraturan perundang-undangan."
+  ],
+  "dutiesList": [
+    "Mematuhi peraturan yang berlaku di rumah sakit.",
+    "Menggunakan fasilitas rumah sakit secara bertanggung jawab.",
+    "Menghormati hak pasien lain, pengunjung, serta hak tenaga kesehatan dan petugas lain yang bekerja di rumah sakit.",
+    "Memberikan informasi yang jujur, lengkap, dan akurat sesuai kemampuan dan pengetahuannya tentang masalah kesehatannya.",
+    "Memberikan informasi mengenai kemampuan finansial dan jaminan kesehatan yang dimiliki.",
+    "Mematuhi rencana terapi yang direkomendasikan setelah mendapatkan penjelasan sesuai ketentuan.",
+    "Menerima segala konsekuensi atas keputusan pribadi untuk menolak rencana terapi atau tidak mematuhi petunjuk yang diberikan untuk penyembuhan penyakit atau masalah kesehatannya.",
+    "Memberikan imbalan jasa atas pelayanan yang diterima sesuai ketentuan."
+  ],
+  "summarySections": [
+    {
+      "title": "Informasi dan akses pelayanan",
+      "points": [
+        "Pasien berhak mengetahui tata tertib, hak-kewajiban, layanan, kondisi, rencana tindakan, risiko, alternatif, prognosis, dan biaya.",
+        "Informasi diberikan dengan bahasa yang dipahami dan sesuai kebutuhan komunikasi pasien.",
+        "Pasien dapat memilih dokter/kelas perawatan atau meminta pendapat lain sesuai ketentuan."
+      ]
+    },
+    {
+      "title": "Privasi, martabat, dan keselamatan",
+      "points": [
+        "Pelayanan diberikan manusiawi, adil, jujur, tanpa diskriminasi, dan sesuai standar.",
+        "Data medis serta kondisi pasien dijaga kerahasiaannya.",
+        "Keamanan, keselamatan, ibadah, pendampingan saat kritis, dan kebutuhan spiritual dihormati."
+      ]
+    },
+    {
+      "title": "Persetujuan, penolakan, dan partisipasi",
+      "points": [
+        "Pasien berhak terlibat dalam keputusan setelah mendapatkan penjelasan memadai.",
+        "Persetujuan atau penolakan didokumentasikan sesuai jenis tindakan dan ketentuan.",
+        "Penolakan tidak menghapus kewajiban petugas untuk menjelaskan konsekuensi dan pilihan yang tersedia."
+      ]
+    },
+    {
+      "title": "Keluhan dan perbaikan",
+      "points": [
+        "Pasien dapat mengajukan keluhan, usul, atau saran tanpa mengurangi pelayanan.",
+        "Petugas mengarahkan pasien pada jalur pengaduan yang tersedia dan menjaga komunikasi profesional.",
+        "Keluhan menjadi bahan perbaikan mutu, bukan alasan menyalahkan pasien."
+      ]
+    },
+    {
+      "title": "Kewajiban pasien",
+      "points": [
+        "Memberikan informasi kesehatan dan administratif secara jujur serta lengkap.",
+        "Mematuhi aturan fasilitas dan rencana terapi yang telah dijelaskan/disepakati.",
+        "Menghormati hak orang lain, menggunakan fasilitas secara bertanggung jawab, dan memenuhi kewajiban biaya sesuai ketentuan."
+      ]
+    },
+    {
+      "title": "Latihan cepat",
+      "points": [
+        "Mampu menyebutkan sedikitnya lima hak dan lima kewajiban dengan bahasa sendiri.",
+        "Mampu memberi contoh bagaimana menjaga privasi dan meminta persetujuan.",
+        "Mampu menunjukkan jalur pengaduan yang tersedia di fasilitas."
+      ]
+    }
+  ]
+}

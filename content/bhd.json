@@ -1,0 +1,320 @@
+{
+  "id": "bhd",
+  "title": "Bantuan Hidup Dasar",
+  "short": "BHD",
+  "desc": "Pengenalan henti jantung, aktivasi bantuan, CPR berkualitas, AED, dan tersedak.",
+  "category": "Resusitasi",
+  "color": "#EF3340",
+  "soft": "#FFF0F1",
+  "icon": "heart",
+  "minutes": 10,
+  "updated": "2 Agustus 2026",
+  "keywords": [
+    "bhd",
+    "cpr",
+    "kompresi",
+    "aed",
+    "code blue",
+    "tersedak",
+    "bayi"
+  ],
+  "notice": "Poster lama memuat label “AHA 2026”. Rujukan aplikasi menggunakan AHA Guidelines 2025. Aktivasi kegawatdaruratan di rumah sakit mengikuti kode biru/sistem respons internal yang berlaku.",
+  "slides": [
+    {
+      "type": "image",
+      "asset": "bhd_1",
+      "title": "Langkah 1 · Amankan Lokasi",
+      "caption": "Pastikan penolong, korban, dan lingkungan aman; gunakan permukaan datar dan keras.",
+      "order": 1,
+      "image": "assets/images/main/bhd/bhd-01-amankan-lokasi.webp",
+      "thumbnail": "assets/images/thumb/bhd/bhd-01-amankan-lokasi-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "bhd_2",
+      "title": "Langkah 2 · Cek Respons dan Napas",
+      "caption": "Nilai respons serta napas normal secara cepat; gasping bukan napas normal.",
+      "order": 2,
+      "image": "assets/images/main/bhd/bhd-02-cek-respons-napas.webp",
+      "thumbnail": "assets/images/thumb/bhd/bhd-02-cek-respons-napas-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "bhd_3",
+      "title": "Langkah 3 · Aktivasi Sistem Darurat dan AED",
+      "caption": "Aktifkan sistem darurat internal dan minta AED/defibrillator.",
+      "order": 3,
+      "image": "assets/images/main/bhd/bhd-03-aktivasi-aed.webp",
+      "thumbnail": "assets/images/thumb/bhd/bhd-03-aktivasi-aed-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "bhd_4",
+      "title": "Langkah 4 · Kompresi Berkualitas",
+      "caption": "Kecepatan 100–120/menit, kedalaman 5–6 cm, recoil penuh, interupsi minimal.",
+      "order": 4,
+      "image": "assets/images/main/bhd/bhd-04-kompresi-berkualitas.webp",
+      "thumbnail": "assets/images/thumb/bhd/bhd-04-kompresi-berkualitas-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "bhd_5",
+      "title": "Langkah 5 · Kompresi dan Napas",
+      "caption": "Bila terlatih, lakukan rasio 30:2 dengan interupsi sesingkat mungkin.",
+      "order": 5,
+      "image": "assets/images/main/bhd/bhd-05-kompresi-dan-napas.webp",
+      "thumbnail": "assets/images/thumb/bhd/bhd-05-kompresi-dan-napas-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "bhd_6",
+      "title": "Langkah 6 · Tersedak Dewasa",
+      "caption": "Berikan siklus tepukan punggung dan hentakan perut sesuai pedoman serta kondisi korban.",
+      "order": 6,
+      "image": "assets/images/main/bhd/bhd-06-tersedak-dewasa.webp",
+      "thumbnail": "assets/images/thumb/bhd/bhd-06-tersedak-dewasa-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "bhd_7",
+      "title": "Langkah 7 · Kompresi Bayi",
+      "caption": "Gunakan teknik kompresi bayi yang tepat sesuai jumlah penolong dan pelatihan.",
+      "order": 7,
+      "image": "assets/images/main/bhd/bhd-07-kompresi-bayi.webp",
+      "thumbnail": "assets/images/thumb/bhd/bhd-07-kompresi-bayi-thumb.webp",
+      "version": 1
+    }
+  ],
+  "essentials": [
+    {
+      "title": "Kenali cepat",
+      "text": "Tidak responsif dan tidak bernapas normal/gasping adalah tanda bahaya."
+    },
+    {
+      "title": "Aktifkan bantuan",
+      "text": "Panggil sistem darurat internal dan minta AED/defibrillator."
+    },
+    {
+      "title": "100–120/menit",
+      "text": "Lakukan kompresi dengan kecepatan yang konsisten."
+    },
+    {
+      "title": "5–6 cm",
+      "text": "Kedalaman kompresi dada dewasa dengan recoil penuh."
+    },
+    {
+      "title": "30 : 2",
+      "text": "Rasio kompresi dan ventilasi bila penolong terlatih dan belum ada advanced airway."
+    },
+    {
+      "title": "Interupsi minimal",
+      "text": "Lanjutkan kompresi segera setelah analisis atau kejut."
+    }
+  ],
+  "do": [
+    "Mulai kompresi tanpa penundaan yang tidak perlu.",
+    "Letakkan tangan di tengah dada.",
+    "Biarkan dada kembali mengembang penuh.",
+    "Gunakan AED sesegera mungkin."
+  ],
+  "dont": [
+    "Memeriksa nadi terlalu lama.",
+    "Kompresi terlalu lambat atau dangkal.",
+    "Bersandar pada dada.",
+    "Menghentikan CPR untuk tindakan yang tidak perlu."
+  ],
+  "quiz": [
+    {
+      "q": "Seorang pasien tiba-tiba kolaps di koridor. Ada kabel listrik terkelupas dekat tubuh pasien. Tindakan pertama paling tepat adalah…",
+      "options": [
+        "Amankan bahaya listrik atau minta bantuan mengisolasi sumber sebelum menyentuh pasien",
+        "Segera memeriksa nadi sambil berdiri di atas area basah",
+        "Menarik pasien dengan memegang tangan telanjang",
+        "Memulai kompresi tanpa memperhatikan lingkungan"
+      ],
+      "answer": 0,
+      "why": "Keselamatan penolong dan korban adalah langkah awal; penolong yang ikut cedera tidak dapat memberikan bantuan.",
+      "optionWhy": [
+        "Pilihan ini mencegah korban tambahan sebelum asesmen dimulai.",
+        "Kontak di area berbahaya dapat menyetrum penolong.",
+        "Menarik pasien tanpa mengamankan sumber tetap berisiko.",
+        "CPR tidak dimulai sebelum lokasi cukup aman."
+      ]
+    },
+    {
+      "q": "Pasien tidak responsif, hanya gasping, dan nadi tidak teraba pasti setelah pemeriksaan bersamaan selama 10 detik. Tindakan berikutnya adalah…",
+      "options": [
+        "Mulai kompresi dada dan aktifkan sistem resusitasi",
+        "Mengulang pemeriksaan nadi selama 30 detik",
+        "Memberikan oksigen tanpa kompresi sambil menunggu dokter",
+        "Memposisikan pasien duduk agar lebih mudah bernapas"
+      ],
+      "answer": 0,
+      "why": "Gasping bukan napas normal. Bila nadi tidak teraba pasti dalam 10 detik, petugas memulai CPR dan aktivasi bantuan.",
+      "optionWhy": [
+        "Pilihan ini meminimalkan keterlambatan perfusi.",
+        "Pemeriksaan nadi yang terlalu lama menunda CPR.",
+        "Oksigen saja tidak menggantikan sirkulasi pada henti jantung.",
+        "Posisi duduk tidak sesuai pada pasien tidak responsif tanpa nadi."
+      ]
+    },
+    {
+      "q": "Dua petugas berada di ruangan. Satu mulai kompresi, sedangkan yang lain belum melakukan apa pun. Tugas paling prioritas bagi petugas kedua adalah…",
+      "options": [
+        "Aktifkan kode biru dan membawa AED/crash cart sambil mengoordinasikan bantuan",
+        "Mencari seluruh rekam medis sebelum memanggil bantuan",
+        "Menunggu dua menit untuk menilai kualitas kompresi",
+        "Menghubungi keluarga sebelum mengambil AED"
+      ],
+      "answer": 0,
+      "why": "CPR berkualitas dan defibrilasi dini berjalan paralel melalui pembagian peran.",
+      "optionWhy": [
+        "Pilihan ini mempercepat kedatangan tim dan defibrilasi.",
+        "Informasi lengkap tidak boleh menunda respons awal.",
+        "Petugas kedua dibutuhkan segera untuk aktivasi dan alat.",
+        "Komunikasi keluarga bukan prioritas sebelum resusitasi awal."
+      ]
+    },
+    {
+      "q": "Kompresor melakukan 140 kompresi/menit, kedalaman sekitar 4 cm, dan tetap bersandar pada dada. Koreksi terpenting adalah…",
+      "options": [
+        "Turunkan frekuensi ke 100–120/menit, capai kedalaman 5–6 cm, dan berikan recoil penuh",
+        "Pertahankan frekuensi karena lebih cepat selalu lebih baik",
+        "Kurangi kedalaman agar tidak terjadi cedera",
+        "Hentikan kompresi setiap 15 detik untuk memeriksa nadi"
+      ],
+      "answer": 0,
+      "why": "Kompresi dewasa berkualitas memerlukan frekuensi, kedalaman, dan recoil yang tepat dengan interupsi minimal.",
+      "optionWhy": [
+        "Pilihan ini memperbaiki tiga komponen kualitas utama.",
+        "Terlalu cepat dapat menurunkan kedalaman dan recoil.",
+        "Kompresi terlalu dangkal tidak menghasilkan perfusi memadai.",
+        "Pemeriksaan nadi berulang menciptakan jeda yang tidak perlu."
+      ]
+    },
+    {
+      "q": "Dua penolong terlatih melakukan CPR dewasa tanpa advanced airway. Setelah 30 kompresi, pemberian napas yang paling tepat adalah…",
+      "options": [
+        "Berikan 2 napas, masing-masing sekitar 1 detik hingga dada terlihat naik, lalu segera lanjutkan kompresi",
+        "Berikan napas terus-menerus selama 10 detik",
+        "Berikan 5 napas kuat agar saturasi cepat naik",
+        "Hentikan kompresi untuk memasang akses intravena terlebih dahulu"
+      ],
+      "answer": 0,
+      "why": "Pada CPR 30:2, dua napas diberikan secukupnya hingga dada naik dengan jeda kompresi seminimal mungkin.",
+      "optionWhy": [
+        "Pilihan ini memberi ventilasi tanpa jeda panjang dan tanpa hiperventilasi.",
+        "Ventilasi terus-menerus sebelum advanced airway memperpanjang interupsi.",
+        "Napas berlebihan dapat merugikan hemodinamik.",
+        "Akses intravena tidak lebih prioritas daripada CPR berkualitas."
+      ]
+    },
+    {
+      "q": "Dewasa sadar memegang leher, tidak dapat berbicara atau batuk efektif, dan masih berdiri. Respons paling tepat adalah…",
+      "options": [
+        "Berikan 5 tepukan punggung bergantian dengan 5 hentakan perut sampai benda keluar atau korban tidak responsif",
+        "Berikan air agar benda terdorong",
+        "Lakukan blind finger sweep",
+        "Langsung mulai kompresi dada di lantai meski korban masih responsif"
+      ],
+      "answer": 0,
+      "why": "Sumbatan berat pada dewasa sadar ditangani dengan siklus 5 back blows dan 5 abdominal thrusts menurut pembaruan AHA 2025.",
+      "optionWhy": [
+        "Pilihan ini sesuai alur sumbatan berat pada korban sadar.",
+        "Air dapat memperburuk aspirasi dan menunda tindakan.",
+        "Blind finger sweep dapat mendorong benda lebih dalam.",
+        "CPR dimulai bila korban menjadi tidak responsif."
+      ]
+    },
+    {
+      "q": "Bayi tidak responsif dan memerlukan kompresi dada. Teknik yang paling sesuai pada resusitasi bayi adalah…",
+      "options": [
+        "Gunakan teknik dua ibu jari melingkar atau tumit satu tangan sesuai situasi dan target kedalaman",
+        "Gunakan dua jari sebagai teknik utama pada semua kondisi",
+        "Tekan dengan kedua telapak seperti orang dewasa",
+        "Lakukan hentakan perut saat bayi telentang"
+      ],
+      "answer": 0,
+      "why": "Pedoman 2025 menekankan teknik dua ibu jari melingkar atau tumit satu tangan untuk kompresi bayi yang efektif; teknik dua jari tidak lagi direkomendasikan sebagai teknik utama.",
+      "optionWhy": [
+        "Pilihan ini memberi tekanan lebih efektif sambil mempertahankan posisi yang sesuai.",
+        "Teknik dua jari dapat tidak mencapai kedalaman yang memadai.",
+        "Dua telapak terlalu besar untuk dada bayi.",
+        "Hentakan perut bukan teknik kompresi henti jantung bayi."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "2025 Guidelines for CPR and ECC",
+      "org": "American Heart Association",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "title": "Adult Basic Life Support",
+      "org": "American Heart Association",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
+    },
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Kenali henti jantung",
+      "points": [
+        "Pastikan lingkungan aman dan gunakan APD sesuai risiko.",
+        "Pasien tidak responsif dengan napas tidak normal/gasping memerlukan penilaian cepat.",
+        "Petugas kesehatan memeriksa napas dan nadi secara bersamaan tidak lebih dari 10 detik."
+      ]
+    },
+    {
+      "title": "Aktifkan bantuan",
+      "points": [
+        "Aktifkan kode biru/sistem darurat internal dan minta crash cart serta AED/defibrillator.",
+        "Bagi tugas secara jelas agar kompresi, ventilasi, alat, dan komunikasi berjalan bersamaan.",
+        "Jangan menunda CPR untuk mencari informasi yang tidak esensial."
+      ]
+    },
+    {
+      "title": "Kompresi berkualitas",
+      "points": [
+        "Frekuensi 100–120/menit dan kedalaman dewasa 5–6 cm.",
+        "Biarkan dada kembali penuh dan minimalkan interupsi.",
+        "Ganti kompresor sekitar setiap 2 menit atau lebih cepat bila kualitas menurun."
+      ]
+    },
+    {
+      "title": "Ventilasi dan AED",
+      "points": [
+        "Rasio 30:2 digunakan bila belum ada advanced airway dan petugas terlatih memberi napas.",
+        "Pasang AED/defibrillator sesegera mungkin dan ikuti instruksi analisis/kejut.",
+        "Lanjutkan kompresi segera setelah kejut atau keputusan tidak shock."
+      ]
+    },
+    {
+      "title": "Sumbatan jalan napas",
+      "points": [
+        "Pada dewasa/anak sadar dengan sumbatan berat, gunakan siklus 5 tepukan punggung dan 5 hentakan perut sesuai pedoman 2025.",
+        "Pada bayi dengan sumbatan berat, gunakan 5 tepukan punggung dan 5 hentakan dada.",
+        "Bila korban tidak responsif, mulai alur CPR dan lihat mulut hanya saat membuka jalan napas."
+      ]
+    },
+    {
+      "title": "Kesalahan yang menurunkan kualitas",
+      "points": [
+        "Pemeriksaan nadi terlalu lama, kompresi dangkal/lambat, bersandar pada dada, atau jeda panjang.",
+        "Menunda AED atau menghentikan kompresi untuk tindakan yang tidak esensial.",
+        "Ventilasi berlebihan yang mengurangi aliran darah dan meningkatkan tekanan intratorakal."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": "komunikasi",
+  "title": "Komunikasi Efektif",
+  "short": "Komunikasi",
+  "desc": "SBAR, TBaK, teach-back, handover, dan dokumentasi tindak lanjut.",
+  "category": "Keselamatan",
+  "color": "#2563EB",
+  "soft": "#ECF3FF",
+  "icon": "chat",
+  "minutes": 10,
+  "updated": "2 Agustus 2026",
+  "keywords": [
+    "sbar",
+    "tbak",
+    "teach back",
+    "handover",
+    "komunikasi efektif",
+    "read back"
+  ],
+  "slides": [
+    {
+      "type": "html",
+      "template": "comm-why",
+      "title": "Mengapa Harus Terstandar?",
+      "caption": "Pesan yang akurat dan terkonfirmasi mengurangi risiko salah tafsir.",
+      "order": 1,
+      "version": 1
+    },
+    {
+      "type": "html",
+      "template": "comm-sbar",
+      "title": "SBAR",
+      "caption": "Situation, Background, Assessment, Recommendation.",
+      "order": 2,
+      "version": 1
+    },
+    {
+      "type": "html",
+      "template": "comm-scenario",
+      "title": "Contoh SBAR Neurologis",
+      "caption": "Sampaikan perubahan utama, data terbaru, dan kebutuhan evaluasi secara ringkas.",
+      "order": 3,
+      "version": 1
+    },
+    {
+      "type": "html",
+      "template": "comm-tbak",
+      "title": "TBaK",
+      "caption": "Tulis, baca kembali, konfirmasi, lalu dokumentasikan.",
+      "order": 4,
+      "version": 1
+    },
+    {
+      "type": "html",
+      "template": "comm-teachback",
+      "title": "Teach-Back",
+      "caption": "Minta pasien menjelaskan kembali dengan kata-katanya sendiri.",
+      "order": 5,
+      "version": 1
+    }
+  ],
+  "essentials": [
+    {
+      "title": "Siapkan data",
+      "text": "Identitas, lokasi, tanda vital, skor, perubahan, dan tujuan komunikasi."
+    },
+    {
+      "title": "Gunakan struktur",
+      "text": "SBAR membuat pesan singkat, logis, dan mudah ditindaklanjuti."
+    },
+    {
+      "title": "Verifikasi pesan",
+      "text": "Instruksi verbal/telepon dicatat, dibaca kembali, dan dikonfirmasi."
+    },
+    {
+      "title": "Periksa pemahaman",
+      "text": "Teach-back menilai apakah penjelasan petugas sudah jelas."
+    },
+    {
+      "title": "Tutup lingkaran",
+      "text": "Pastikan siapa melakukan apa, kapan, dan bagaimana tindak lanjut didokumentasikan."
+    }
+  ],
+  "do": [
+    "Sebutkan identitas dan lokasi pasien.",
+    "Gunakan data terbaru dan relevan.",
+    "Berikan rekomendasi atau permintaan yang jelas.",
+    "Dokumentasikan hasil komunikasi."
+  ],
+  "dont": [
+    "Mengatakan “pasiennya jelek” tanpa data.",
+    "Mengandalkan singkatan tidak baku.",
+    "Mengakhiri komunikasi tanpa konfirmasi.",
+    "Menggunakan “sudah paham?” sebagai satu-satunya evaluasi."
+  ],
+  "quiz": [
+    {
+      "q": "Perawat akan menghubungi dokter tentang pasien yang memburuk. Kalimat Situation yang paling efektif adalah…",
+      "options": [
+        "Dok, saya perawat ruang saraf. Tn. A tiba-tiba menurun kesadaran dari GCS 15 menjadi 10 dalam 20 menit",
+        "Dok, pasien ini punya riwayat panjang dan keluarganya cemas",
+        "Dok, saya ingin melaporkan seluruh data pasien dari awal masuk",
+        "Dok, sepertinya ada sesuatu yang tidak beres, tetapi saya belum cek tanda vital"
+      ],
+      "answer": 0,
+      "why": "Situation harus segera menyebut siapa, lokasi, perubahan utama, dan urgensi.",
+      "optionWhy": [
+        "Pilihan ini singkat, terukur, dan berorientasi masalah sekarang.",
+        "Kecemasan keluarga dapat relevan tetapi tidak menggantikan masalah klinis utama.",
+        "Seluruh riwayat bukan Situation.",
+        "Pesan tanpa asesmen dasar tidak cukup untuk pengambilan keputusan."
+      ]
+    },
+    {
+      "q": "Pasien stroke mengalami penurunan kesadaran. Informasi Background yang paling relevan adalah…",
+      "options": [
+        "Diagnosis stroke infark dua hari lalu, terapi antiplatelet, dan GCS sebelumnya 15",
+        "Warna seragam petugas yang merawat kemarin",
+        "Menu makan pasien saat pagi",
+        "Seluruh daftar kunjungan keluarga sejak masuk"
+      ],
+      "answer": 0,
+      "why": "Background dipilih berdasarkan hubungannya dengan masalah saat ini.",
+      "optionWhy": [
+        "Pilihan ini membantu memahami perubahan neurologis.",
+        "Tidak relevan terhadap masalah klinis.",
+        "Tidak menjadi latar utama pada penurunan kesadaran akut.",
+        "Tidak membantu pengambilan keputusan klinis saat ini."
+      ]
+    },
+    {
+      "q": "Dalam SBAR, perawat menyampaikan: GCS 10, TD 200/110, nadi 55, kelemahan kanan memberat, dan khawatir terjadi perburukan neurologis. Bagian ini adalah…",
+      "options": [
+        "Assessment",
+        "Situation",
+        "Background",
+        "Recommendation"
+      ],
+      "answer": 0,
+      "why": "Assessment memuat temuan objektif, tren, dan interpretasi/kekhawatiran klinis.",
+      "optionWhy": [
+        "Benar—data dan penilaian berada pada Assessment.",
+        "Situation hanya ringkasan masalah saat ini.",
+        "Background adalah latar klinis relevan.",
+        "Recommendation adalah respons yang diminta."
+      ]
+    },
+    {
+      "q": "Setelah SBAR, kalimat Recommendation yang paling kuat adalah…",
+      "options": [
+        "Mohon evaluasi segera di ruangan dalam beberapa menit; apakah ada instruksi sambil menunggu?",
+        "Dok, terserah apa yang harus dilakukan",
+        "Saya hanya ingin memberi tahu",
+        "Mohon dilihat saat sempat tanpa batas waktu"
+      ],
+      "answer": 0,
+      "why": "Recommendation menyatakan kebutuhan, urgensi, dan tindak lanjut yang diharapkan.",
+      "optionWhy": [
+        "Pilihan ini jelas, dapat ditindaklanjuti, dan menyebut urgensi.",
+        "Tidak menyatakan kebutuhan spesifik.",
+        "Tidak menutup loop tindakan.",
+        "Tidak sesuai dengan kondisi yang membutuhkan respons segera."
+      ]
+    },
+    {
+      "q": "Dokter melalui telepon berkata, “Berikan furosemide empat puluh miligram IV sekarang.” Perawat mendengar “empat belas”. Langkah terbaik adalah…",
+      "options": [
+        "Tulis instruksi, baca kembali dengan menyebut “empat puluh”, eja bila perlu, dan minta konfirmasi sebelum pelaksanaan",
+        "Memilih dosis yang lebih kecil agar lebih aman",
+        "Bertanya kepada rekan dosis yang biasanya diberikan",
+        "Melaksanakan empat belas miligram lalu mengonfirmasi setelahnya"
+      ],
+      "answer": 0,
+      "why": "Ketidakjelasan angka atau obat harus diselesaikan melalui read-back/check-back sebelum tindakan.",
+      "optionWhy": [
+        "Pilihan ini mengoreksi potensi salah dengar secara langsung.",
+        "Mengubah dosis tanpa instruksi bukan pengamanan.",
+        "Kebiasaan unit tidak menggantikan konfirmasi pemberi instruksi.",
+        "Konfirmasi setelah pemberian sudah terlambat."
+      ]
+    },
+    {
+      "q": "Setelah edukasi obat pulang, pasien mengangguk dan berkata sudah paham. Kalimat teach-back terbaik adalah…",
+      "options": [
+        "Agar saya yakin penjelasan saya jelas, boleh Bapak ceritakan kapan dan bagaimana obat ini diminum?",
+        "Bapak sudah paham, kan?",
+        "Silakan tanda tangan bahwa sudah dijelaskan",
+        "Kalau lupa, nanti baca etiket sendiri"
+      ],
+      "answer": 0,
+      "why": "Teach-back meminta pasien menjelaskan tindakan dengan kata-kata sendiri dan menempatkan tanggung jawab pada kejelasan penjelasan petugas.",
+      "optionWhy": [
+        "Pilihan ini menilai pemahaman secara nyata dan tidak menyalahkan pasien.",
+        "Pertanyaan ya/tidak tidak membuktikan pemahaman.",
+        "Tanda tangan tidak menggantikan evaluasi pemahaman.",
+        "Etiket dapat membantu tetapi bukan pengganti teach-back."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Tool: SBAR",
+      "org": "Agency for Healthcare Research and Quality",
+      "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html"
+    },
+    {
+      "title": "Tool: Check-Back (Repeat-Back)",
+      "org": "Agency for Healthcare Research and Quality",
+      "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/checkback.html"
+    },
+    {
+      "title": "Tool: Teach-Back",
+      "org": "Agency for Healthcare Research and Quality",
+      "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/teachback.html"
+    },
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Siapkan sebelum menghubungi",
+      "points": [
+        "Pastikan identitas, lokasi, diagnosis/masalah aktif, tanda vital, skor, terapi, dan perubahan terbaru.",
+        "Tentukan tujuan: meminta evaluasi, keputusan, klarifikasi, atau bantuan.",
+        "Pisahkan fakta, interpretasi, dan kebutuhan agar pesan tidak berputar."
+      ]
+    },
+    {
+      "title": "SBAR yang kuat",
+      "points": [
+        "Situation menyebut masalah sekarang dan urgensinya.",
+        "Background hanya memuat latar yang relevan terhadap masalah.",
+        "Assessment menyampaikan data, tren, dan kekhawatiran klinis.",
+        "Recommendation menyatakan respons yang dibutuhkan dan batas waktunya."
+      ]
+    },
+    {
+      "title": "TBaK dan closed-loop",
+      "points": [
+        "Instruksi verbal/telepon dicatat lengkap, dibaca kembali, dan dikonfirmasi.",
+        "Nama obat sulit/LASA dieja bila diperlukan.",
+        "Pemberi pesan memverifikasi bahwa penerima memahami pesan dengan benar."
+      ]
+    },
+    {
+      "title": "Handover",
+      "points": [
+        "Soroti risiko aktif, perubahan, tindakan tertunda, hasil yang harus dipantau, dan rencana eskalasi.",
+        "Beri kesempatan penerima bertanya dan mengonfirmasi tanggung jawab.",
+        "Jangan hanya membacakan seluruh catatan tanpa prioritas."
+      ]
+    },
+    {
+      "title": "Teach-back",
+      "points": [
+        "Minta pasien/keluarga menjelaskan kembali dengan kata-kata sendiri.",
+        "Bila belum tepat, perbaiki penjelasan lalu ulangi teach-back.",
+        "Metode ini menilai kejelasan penjelasan petugas, bukan menguji kecerdasan pasien."
+      ]
+    },
+    {
+      "title": "Dokumentasi dan tindak lanjut",
+      "points": [
+        "Catat waktu, pihak yang dihubungi, informasi penting, instruksi, dan respons.",
+        "Pastikan tindakan dilakukan dan hasilnya dievaluasi.",
+        "Eskalasi kembali bila respons tidak sesuai urgensi atau kondisi memburuk."
+      ]
+    }
+  ]
+}

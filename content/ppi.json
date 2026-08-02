@@ -1,0 +1,260 @@
+{
+  "id": "ppi",
+  "title": "Pencegahan dan Pengendalian Infeksi",
+  "short": "PPI",
+  "desc": "Kebersihan tangan, lima momen, etika batuk, serta pemilahan limbah.",
+  "category": "Infeksi",
+  "color": "#2577D5",
+  "soft": "#EAF2FF",
+  "icon": "hands",
+  "minutes": 8,
+  "updated": "2 Agustus 2026",
+  "keywords": [
+    "cuci tangan",
+    "hand hygiene",
+    "lima momen",
+    "limbah",
+    "etika batuk",
+    "ppi"
+  ],
+  "slides": [
+    {
+      "type": "image",
+      "asset": "ppi_1",
+      "title": "6 Langkah Cuci Tangan",
+      "caption": "Gosok seluruh permukaan tangan dan ulangi gerakan pada kedua tangan.",
+      "order": 1,
+      "image": "assets/images/main/ppi/ppi-01-enam-langkah-cuci-tangan.webp",
+      "thumbnail": "assets/images/thumb/ppi/ppi-01-enam-langkah-cuci-tangan-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "ppi_2",
+      "title": "Durasi Kebersihan Tangan",
+      "caption": "Handrub 20–30 detik; sabun dan air mengalir 40–60 detik.",
+      "order": 2,
+      "image": "assets/images/main/ppi/ppi-02-durasi-kebersihan-tangan.webp",
+      "thumbnail": "assets/images/thumb/ppi/ppi-02-durasi-kebersihan-tangan-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "ppi_3",
+      "title": "5 Momen Kebersihan Tangan",
+      "caption": "Lakukan pada momen yang tepat untuk melindungi pasien, petugas, dan lingkungan.",
+      "order": 3,
+      "image": "assets/images/main/ppi/ppi-03-lima-momen.webp",
+      "thumbnail": "assets/images/thumb/ppi/ppi-03-lima-momen-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "ppi_4",
+      "title": "Pemilahan Sampah Medis",
+      "caption": "Pisahkan limbah sesuai jenis dan wadah yang ditetapkan.",
+      "order": 4,
+      "image": "assets/images/main/ppi/ppi-04-pemilahan-sampah-medis.webp",
+      "thumbnail": "assets/images/thumb/ppi/ppi-04-pemilahan-sampah-medis-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "ppi_5",
+      "title": "Etika Batuk",
+      "caption": "Tutup hidung dan mulut, buang tisu, bersihkan tangan, dan gunakan masker bila perlu.",
+      "order": 5,
+      "image": "assets/images/main/ppi/ppi-05-etika-batuk.webp",
+      "thumbnail": "assets/images/thumb/ppi/ppi-05-etika-batuk-thumb.webp",
+      "version": 1
+    }
+  ],
+  "essentials": [
+    {
+      "title": "Teknik",
+      "text": "Semua permukaan tangan digosok dengan urutan yang benar."
+    },
+    {
+      "title": "Durasi",
+      "text": "Handrub 20–30 detik; sabun dan air 40–60 detik."
+    },
+    {
+      "title": "Momen",
+      "text": "Sebelum kontak, sebelum aseptik, setelah cairan tubuh, setelah pasien, setelah lingkungan pasien."
+    },
+    {
+      "title": "Limbah",
+      "text": "Pisahkan limbah infeksius, noninfeksius, dan benda tajam pada wadah yang sesuai."
+    },
+    {
+      "title": "Etika batuk",
+      "text": "Gunakan tisu atau lipatan siku, buang tisu, dan lakukan kebersihan tangan."
+    }
+  ],
+  "do": [
+    "Lakukan hand hygiene sebelum tindakan aseptik.",
+    "Ganti sarung tangan antarprosedur dan antarpasien.",
+    "Buang benda tajam langsung ke safety box.",
+    "Gunakan sabun dan air bila tangan tampak kotor."
+  ],
+  "dont": [
+    "Menganggap sarung tangan menggantikan hand hygiene.",
+    "Menyentuh ponsel dengan sarung tangan terkontaminasi.",
+    "Menutup kembali jarum dengan dua tangan.",
+    "Mencampur limbah tanpa memilah."
+  ],
+  "quiz": [
+    {
+      "q": "Perawat selesai mengukur tekanan darah pasien A, lalu akan memeriksa pasien B. Manset digunakan bersama dan tangan tidak tampak kotor. Urutan paling tepat adalah…",
+      "options": [
+        "Bersihkan alat sesuai kebutuhan, lakukan handrub, lalu kontak dengan pasien B",
+        "Langsung ke pasien B karena tidak ada kontak dengan cairan tubuh",
+        "Memakai sarung tangan baru tanpa hand hygiene",
+        "Melakukan handrub setelah selesai memeriksa pasien B"
+      ],
+      "answer": 0,
+      "why": "Perpindahan antar pasien memerlukan kebersihan tangan; alat bersama juga dikelola agar tidak menjadi media transmisi.",
+      "optionWhy": [
+        "Pilihan ini mengamankan tangan dan alat sebelum kontak berikutnya.",
+        "Kontak tanpa cairan tubuh tetap dapat memindahkan mikroorganisme.",
+        "Sarung tangan baru tidak menghilangkan kontaminasi tangan.",
+        "Hand hygiene harus dilakukan sebelum menyentuh pasien berikutnya."
+      ]
+    },
+    {
+      "q": "Saat mengganti balutan, perawat telah membersihkan area kulit sekitar yang kotor dan akan menyentuh kateter pada area bersih dengan sarung tangan yang sama. Tindakan paling tepat adalah…",
+      "options": [
+        "Lepas sarung tangan, lakukan kebersihan tangan, lalu gunakan sarung tangan baru sesuai kebutuhan aseptik",
+        "Melanjutkan karena masih pada pasien yang sama",
+        "Menyemprot sarung tangan dengan alkohol lalu melanjutkan",
+        "Menutup area kotor dengan kasa dan tetap memakai sarung tangan yang sama"
+      ],
+      "answer": 0,
+      "why": "Perpindahan dari area kotor ke area bersih/aseptik pada pasien yang sama memerlukan pergantian sarung tangan dan kebersihan tangan.",
+      "optionWhy": [
+        "Pilihan ini mencegah kontaminasi silang ke area bersih.",
+        "Pasien yang sama tetap memiliki area tubuh dengan tingkat kontaminasi berbeda.",
+        "Mendisinfeksi sarung tangan bukan praktik standar pengganti pergantian.",
+        "Menutup area kotor tidak membuat sarung tangan menjadi bersih."
+      ]
+    },
+    {
+      "q": "Setelah merawat pasien dengan diare, tangan perawat tampak kotor secara visual. Metode paling tepat adalah…",
+      "options": [
+        "Cuci tangan dengan sabun dan air mengalir",
+        "Handrub singkat selama beberapa detik",
+        "Memakai sarung tangan baru tanpa membersihkan tangan",
+        "Mengelap tangan dengan tisu kering"
+      ],
+      "answer": 0,
+      "why": "Tangan yang tampak kotor memerlukan sabun dan air mengalir; handrub tidak dipilih sebagai satu-satunya metode pada kondisi ini.",
+      "optionWhy": [
+        "Pilihan ini menghilangkan kotoran yang tampak dan membersihkan seluruh permukaan tangan.",
+        "Handrub saja tidak memadai ketika tangan tampak kotor.",
+        "Sarung tangan tidak membersihkan tangan.",
+        "Tisu kering tidak menggantikan hand hygiene."
+      ]
+    },
+    {
+      "q": "Jarum bekas injeksi masih terpasang pada spuit. Safety box berada satu langkah dari tempat tindakan dan belum penuh. Tindakan paling aman adalah…",
+      "options": [
+        "Buang segera jarum dan spuit ke safety box tanpa menutup ulang jarum",
+        "Menutup ulang jarum dengan dua tangan agar tidak menusuk orang lain",
+        "Melepas jarum dengan tangan lalu membuang spuit terpisah",
+        "Meletakkan spuit di baki dan membuangnya setelah semua tindakan selesai"
+      ],
+      "answer": 0,
+      "why": "Benda tajam dibuang segera pada titik penggunaan ke safety box tanpa recapping atau manipulasi yang menambah risiko pajanan.",
+      "optionWhy": [
+        "Pilihan ini meminimalkan pemindahan dan manipulasi benda tajam.",
+        "Recapping dua tangan meningkatkan risiko tertusuk.",
+        "Melepas jarum dengan tangan adalah manipulasi berisiko.",
+        "Menunda pembuangan menciptakan paparan bagi petugas lain."
+      ]
+    },
+    {
+      "q": "Pasien batuk akan dipindahkan ke radiologi. Ia mampu memakai masker dan mengikuti instruksi. Langkah paling tepat adalah…",
+      "options": [
+        "Pasang masker pada pasien, lakukan etika batuk, hand hygiene, dan komunikasikan kebutuhan pencegahan saat transport",
+        "Petugas saja yang memakai sarung tangan; pasien tidak perlu masker",
+        "Menunda seluruh pemeriksaan tanpa menilai kebutuhan klinis",
+        "Membuka masker pasien selama perjalanan agar lebih nyaman"
+      ],
+      "answer": 0,
+      "why": "Source control pada pasien, kebersihan tangan, dan komunikasi antarunit membantu mengurangi penyebaran selama transport.",
+      "optionWhy": [
+        "Pilihan ini mengendalikan sumber droplet dan menyiapkan unit penerima.",
+        "Sarung tangan petugas tidak mengendalikan droplet dari pasien.",
+        "Pemeriksaan tidak otomatis dibatalkan; risiko dikelola sesuai kebutuhan.",
+        "Melepas masker mengurangi source control."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Five Moments for Hand Hygiene",
+      "org": "World Health Organization",
+      "url": "https://www.who.int/publications/m/item/five-moments-for-hand-hygiene"
+    },
+    {
+      "title": "Hand Hygiene: Why, How & When?",
+      "org": "World Health Organization",
+      "url": "https://cdn.who.int/media/docs/default-source/documents/health-topics/hand-hygiene-why-how-and-when-brochure.pdf"
+    },
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Kewaspadaan standar",
+      "points": [
+        "Diterapkan kepada semua pasien berdasarkan risiko pajanan, bukan berdasarkan diagnosis saja.",
+        "Kebersihan tangan, APD, benda tajam, limbah, alat, linen, dan lingkungan merupakan satu rangkaian.",
+        "Sarung tangan tidak menggantikan kebersihan tangan."
+      ]
+    },
+    {
+      "title": "Lima momen kebersihan tangan",
+      "points": [
+        "Sebelum menyentuh pasien dan sebelum tindakan bersih/aseptik.",
+        "Setelah risiko cairan tubuh, setelah menyentuh pasien, dan setelah menyentuh lingkungan pasien.",
+        "Perpindahan dari area tubuh kotor ke area bersih pada pasien yang sama juga memerlukan kebersihan tangan dan pergantian sarung tangan."
+      ]
+    },
+    {
+      "title": "Pilih metode yang tepat",
+      "points": [
+        "Handrub berbasis alkohol digunakan ketika tangan tidak tampak kotor.",
+        "Sabun dan air mengalir digunakan ketika tangan tampak kotor atau sesuai indikasi khusus.",
+        "Seluruh permukaan tangan harus terkena dan digosok selama durasi yang dianjurkan."
+      ]
+    },
+    {
+      "title": "APD berdasarkan risiko",
+      "points": [
+        "Gunakan APD sesuai potensi kontak dengan darah, cairan tubuh, droplet, aerosol, atau permukaan terkontaminasi.",
+        "Lepaskan APD tanpa menyentuh bagian terkontaminasi dan akhiri dengan kebersihan tangan.",
+        "APD tidak dipakai melintasi area atau pasien bila sudah terkontaminasi."
+      ]
+    },
+    {
+      "title": "Benda tajam, limbah, dan lingkungan",
+      "points": [
+        "Buang benda tajam langsung ke safety box tanpa manipulasi yang tidak perlu.",
+        "Pilah limbah pada sumbernya sesuai kategori dan wadah yang digunakan fasilitas.",
+        "Bersihkan alat serta permukaan setelah digunakan dan saat terkontaminasi."
+      ]
+    },
+    {
+      "title": "Kesalahan yang sering terjadi",
+      "points": [
+        "Menggunakan sarung tangan untuk menyentuh ponsel, komputer, pintu, atau berkas.",
+        "Melewatkan hand hygiene karena tangan terlihat bersih.",
+        "Menyimpan safety box terlalu penuh atau menutup ulang jarum."
+      ]
+    }
+  ]
+}

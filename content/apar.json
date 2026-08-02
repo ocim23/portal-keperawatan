@@ -1,0 +1,248 @@
+{
+  "id": "apar",
+  "title": "APAR dan Respons Awal Kebakaran",
+  "short": "APAR",
+  "desc": "Pengecekan alat, posisi aman, teknik penyemprotan, dan keputusan mundur.",
+  "category": "K3",
+  "color": "#F59E0B",
+  "soft": "#FFF5DD",
+  "icon": "fire",
+  "minutes": 7,
+  "updated": "2 Agustus 2026",
+  "keywords": [
+    "apar",
+    "kebakaran",
+    "api",
+    "tats",
+    "pass",
+    "evakuasi"
+  ],
+  "slides": [
+    {
+      "type": "image",
+      "asset": "apar_1",
+      "title": "Langkah 1 · Pengecekan Awal",
+      "caption": "Periksa kondisi alat, manometer, segel, selang, dan cara membawa.",
+      "order": 1,
+      "image": "assets/images/main/apar/apar-01-pengecekan-awal.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-01-pengecekan-awal-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "apar_2",
+      "title": "Langkah 2 · Pelepasan Pin dan Uji Kesiapan",
+      "caption": "Lepas pin saat siap dan ikuti petunjuk alat serta kebijakan fasilitas.",
+      "order": 2,
+      "image": "assets/images/main/apar/apar-02-pin-uji-kesiapan.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-02-pin-uji-kesiapan-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "apar_3",
+      "title": "Langkah 3 · Posisi dan Jarak Aman",
+      "caption": "Jaga jalur keluar, posisi stabil, dan jarak aman dari api.",
+      "order": 3,
+      "image": "assets/images/main/apar/apar-03-posisi-jarak-aman.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-03-posisi-jarak-aman-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "apar_4",
+      "title": "Langkah 4 · Teknik Menyemprot",
+      "caption": "Arahkan ke pangkal api dan sapukan dari sisi ke sisi.",
+      "order": 4,
+      "image": "assets/images/main/apar/apar-04-teknik-menyemprot.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-04-teknik-menyemprot-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "apar_5",
+      "title": "Langkah 5 · Mundur dengan Waspada",
+      "caption": "Setelah padam, mundur sambil mengawasi kemungkinan api menyala kembali.",
+      "order": 5,
+      "image": "assets/images/main/apar/apar-05-mundur-waspada.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-05-mundur-waspada-thumb.webp",
+      "version": 1
+    }
+  ],
+  "essentials": [
+    {
+      "title": "Aktifkan bantuan",
+      "text": "Beri alarm/kode dan pastikan orang di sekitar mengetahui bahaya."
+    },
+    {
+      "title": "Nilai kelayakan",
+      "text": "APAR hanya digunakan untuk api awal, jenis alat sesuai, dan jalur keluar aman."
+    },
+    {
+      "title": "Arahkan ke pangkal",
+      "text": "Bukan ke bagian atas nyala; lakukan sapuan kiri–kanan."
+    },
+    {
+      "title": "Jaga jalur keluar",
+      "text": "Posisikan jalur evakuasi di belakang petugas."
+    },
+    {
+      "title": "Hentikan bila tidak aman",
+      "text": "Mundur dan evakuasi bila api membesar, asap menebal, atau jalur keluar terancam."
+    }
+  ],
+  "do": [
+    "Periksa akses, pin/segel, tekanan, dan selang.",
+    "Pastikan jalur keluar tetap terbuka.",
+    "Arahkan nozzle ke pangkal api.",
+    "Laporkan APAR yang telah digunakan."
+  ],
+  "dont": [
+    "Mencoba memadamkan api besar sendirian.",
+    "Membelakangi jalur keluar.",
+    "Mengarahkan semprotan ke bagian atas nyala.",
+    "Tetap mendekat saat asap menebal."
+  ],
+  "quiz": [
+    {
+      "q": "Petugas melihat api kecil pada tempat sampah, tetapi belum mengaktifkan alarm dan ada pasien di dekat area. Tindakan awal paling tepat adalah…",
+      "options": [
+        "Aktifkan respons kebakaran dan amankan orang yang terancam sebelum mencoba memadamkan bila kondisi memungkinkan",
+        "Langsung menyemprot APAR agar tidak membuang waktu",
+        "Membuka semua pintu agar asap keluar",
+        "Memindahkan tempat sampah yang terbakar dengan tangan"
+      ],
+      "answer": 0,
+      "why": "Respons awal menempatkan keselamatan orang dan aktivasi bantuan sebelum upaya pemadaman oleh petugas.",
+      "optionWhy": [
+        "Pilihan ini memastikan bantuan bergerak dan korban tidak tertinggal.",
+        "Memadamkan tanpa alarm dapat menunda respons jika api berkembang.",
+        "Membuka pintu dapat memasok oksigen dan menyebarkan asap.",
+        "Memindahkan benda terbakar dapat memperluas kebakaran dan melukai petugas."
+      ]
+    },
+    {
+      "q": "Sebelum mendekati api, indikator tekanan APAR berada di luar zona layak dan segel rusak. Keputusan paling aman adalah…",
+      "options": [
+        "Jangan mengandalkan APAR tersebut; gunakan alat lain yang layak atau evakuasi sesuai kondisi",
+        "Tetap gunakan karena tabung masih terasa berat",
+        "Mengguncang tabung lalu mencoba dari jarak dekat",
+        "Melepas selang untuk memeriksa isi secara manual"
+      ],
+      "answer": 0,
+      "why": "APAR dengan indikator atau segel tidak layak tidak boleh diandalkan pada keadaan darurat.",
+      "optionWhy": [
+        "Pilihan ini menghindari kegagalan alat saat petugas sudah berada dekat api.",
+        "Berat tabung tidak menjamin tekanan dan fungsi.",
+        "Mencoba alat tidak layak dapat menempatkan petugas dalam bahaya.",
+        "Membongkar APAR bukan tindakan pengguna saat kebakaran."
+      ]
+    },
+    {
+      "q": "Petugas akan menggunakan APAR pada api awal di lantai. Posisi yang paling aman adalah…",
+      "options": [
+        "Berjarak sesuai jangkauan APAR, tubuh stabil, arah angin/asap diperhatikan, dan jalur keluar di belakang",
+        "Berdiri sedekat mungkin agar semprotan lebih kuat",
+        "Berdiri membelakangi pintu agar fokus ke api",
+        "Berlutut di antara api dan satu-satunya jalur keluar"
+      ],
+      "answer": 0,
+      "why": "Posisi aman mempertahankan jarak, stabilitas, visibilitas, dan akses mundur.",
+      "optionWhy": [
+        "Pilihan ini memungkinkan petugas mengendalikan api sambil tetap dapat keluar.",
+        "Terlalu dekat meningkatkan paparan panas dan mengurangi efektivitas pola semprotan.",
+        "Jalur keluar harus terlihat dan tetap berada di belakang.",
+        "Memutus akses keluar menciptakan jebakan."
+      ]
+    },
+    {
+      "q": "Saat menyemprot, nyala di bagian atas berkurang tetapi sumber api di dasar masih menyala. Koreksi teknik yang paling tepat adalah…",
+      "options": [
+        "Arahkan media ke pangkal api dan sapukan secara terkendali dari sisi ke sisi",
+        "Arahkan ke asap di atas api",
+        "Semprotkan ke dinding sekitar agar menjadi dingin",
+        "Hentikan semprotan setiap satu detik agar tabung awet"
+      ],
+      "answer": 0,
+      "why": "Media pemadam diarahkan ke pangkal sumber api dan disapukan untuk menutup area terbakar.",
+      "optionWhy": [
+        "Pilihan ini menargetkan sumber pembakaran.",
+        "Menyemprot asap tidak memadamkan sumber api.",
+        "Dinding sekitar bukan sasaran utama ketika sumber masih aktif.",
+        "Semprotan terputus-putus tanpa alasan dapat mengurangi efektivitas."
+      ]
+    },
+    {
+      "q": "Api tampak padam, tetapi area masih panas dan terdapat asap tipis. Tindakan terbaik adalah…",
+      "options": [
+        "Mundur perlahan sambil tetap mengawasi area dan siap evakuasi bila terjadi reflash",
+        "Membelakangi area dan segera meninggalkan APAR di lantai",
+        "Mendekati sisa bara dengan tangan untuk memastikan",
+        "Membuka seluruh ventilasi tanpa koordinasi"
+      ],
+      "answer": 0,
+      "why": "Setelah api tampak padam, petugas tetap mengamati kemungkinan nyala kembali sambil mempertahankan jalur keluar.",
+      "optionWhy": [
+        "Pilihan ini menjaga kewaspadaan terhadap reflash.",
+        "Membelakangi sumber mengurangi kemampuan merespons perubahan.",
+        "Mendekati sumber panas dengan tangan tidak aman.",
+        "Perubahan ventilasi dapat memengaruhi api dan harus dikoordinasikan."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Portable Fire Extinguishers – Use",
+      "org": "Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/use"
+    },
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    }
+  ],
+  "notice": "Gunakan APAR hanya bila api masih pada tahap awal, jenis APAR sesuai, dan jalur keluar tetap aman. Bagian uji semprot pada poster perlu diselaraskan dengan petunjuk pabrikan serta prosedur K3/MFK fasilitas.",
+  "summarySections": [
+    {
+      "title": "Prioritas pertama",
+      "points": [
+        "Kenali bahaya, aktifkan alarm/kode, dan beri tahu lokasi secara jelas.",
+        "Selamatkan orang yang terancam bila aman dan batasi penyebaran dengan menutup pintu.",
+        "APAR bukan pengganti evakuasi atau respons tim kebakaran."
+      ]
+    },
+    {
+      "title": "Kapan boleh menggunakan APAR",
+      "points": [
+        "Api masih kecil dan terbatas pada tahap awal.",
+        "Jenis APAR sesuai dengan kelas kebakaran.",
+        "Asap belum menghalangi pandangan dan jalur keluar berada di belakang petugas."
+      ]
+    },
+    {
+      "title": "Teknik dasar",
+      "points": [
+        "Tarik pin, arahkan nozzle ke pangkal api, tekan tuas, dan sapukan kiri–kanan.",
+        "Pertahankan posisi stabil dan jarak sesuai karakter APAR.",
+        "Awasi kemungkinan api menyala kembali setelah tampak padam."
+      ]
+    },
+    {
+      "title": "Tanda harus berhenti",
+      "points": [
+        "Api membesar, panas meningkat, asap menebal, atau pandangan berkurang.",
+        "APAR habis/tidak efektif atau sumber api tidak dapat dikendalikan.",
+        "Jalur keluar terancam atau petugas ragu terhadap keselamatan."
+      ]
+    },
+    {
+      "title": "Setelah penggunaan",
+      "points": [
+        "Mundur sambil tetap menghadap area kebakaran.",
+        "Laporkan penggunaan APAR meski hanya sedikit.",
+        "APAR yang sudah digunakan harus diganti atau diisi ulang sebelum dikembalikan."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "id": "ews",
+  "title": "Early Warning System",
+  "short": "EWS",
+  "desc": "Deteksi dini perburukan kondisi melalui NEWS2, PEWS, dan MEOWS.",
+  "category": "Deteksi Dini",
+  "color": "#0F766E",
+  "soft": "#E7F7F4",
+  "icon": "monitor",
+  "minutes": 12,
+  "updated": "2 Agustus 2026",
+  "keywords": [
+    "ews",
+    "news2",
+    "pews",
+    "meows",
+    "tanda vital",
+    "eskalasi",
+    "perburukan"
+  ],
+  "notice": "NEWS2, PEWS, dan MEOWS digunakan pada populasi berbeda. Skor, trigger, dan respons harus mengikuti instrumen yang ditetapkan fasilitas; penilaian klinis tetap diutamakan.",
+  "slides": [
+    {
+      "type": "html",
+      "template": "ews-overview",
+      "title": "Apa itu EWS?",
+      "caption": "Sistem penilaian berbasis tanda vital untuk mendeteksi perburukan klinis secara dini.",
+      "order": 1,
+      "version": 1
+    },
+    {
+      "type": "html",
+      "template": "ews-population",
+      "title": "Pilih Sistem Sesuai Populasi",
+      "caption": "NEWS2 untuk dewasa, PEWS untuk anak, dan MEOWS untuk kehamilan/nifas.",
+      "order": 2,
+      "version": 1
+    },
+    {
+      "type": "html",
+      "template": "ews-news",
+      "title": "NEWS2 · Dewasa",
+      "caption": "Menilai parameter fisiologis utama dan kebutuhan oksigen.",
+      "order": 3,
+      "version": 1
+    },
+    {
+      "type": "html",
+      "template": "ews-news-table",
+      "title": "Tabel NEWS2",
+      "caption": "Skor yang lebih tinggi menunjukkan risiko klinis yang lebih besar.",
+      "order": 4,
+      "version": 1
+    },
+    {
+      "type": "html",
+      "template": "ews-pews",
+      "title": "PEWS · Anak",
+      "caption": "Fokus pada Behavior, Cardiovascular, dan Respiratory sesuai sistem yang digunakan.",
+      "order": 5,
+      "version": 1
+    },
+    {
+      "type": "html",
+      "template": "ews-meows",
+      "title": "MEOWS · Kehamilan dan Nifas",
+      "caption": "Mempertimbangkan fisiologi dan tanda bahaya obstetri.",
+      "order": 6,
+      "version": 1
+    },
+    {
+      "type": "html",
+      "template": "ews-response",
+      "title": "Respons dan Eskalasi",
+      "caption": "Lihat tren, lakukan respons awal, eskalasi, reassessment, dan dokumentasi.",
+      "order": 7,
+      "version": 1
+    }
+  ],
+  "essentials": [
+    {
+      "title": "Pilih instrumen tepat",
+      "text": "Dewasa, anak, dan obstetri memiliki sistem dan parameter yang berbeda."
+    },
+    {
+      "title": "Ukur dengan benar",
+      "text": "Nilai tanda vital dan kesadaran dengan alat serta teknik yang tepat."
+    },
+    {
+      "title": "Lihat tren",
+      "text": "Kenaikan skor dan perubahan kondisi lebih penting daripada satu angka terisolasi."
+    },
+    {
+      "title": "Eskalasi selesai",
+      "text": "Menghubungi saja belum cukup; pastikan respons diterima dan ditindaklanjuti."
+    },
+    {
+      "title": "Reassessment",
+      "text": "Ukur ulang setelah intervensi dan sesuai interval yang ditetapkan."
+    }
+  ],
+  "do": [
+    "Gunakan instrumen sesuai populasi.",
+    "Hitung skor segera setelah parameter lengkap.",
+    "Sampaikan skor, tren, dan kekhawatiran klinis.",
+    "Lakukan reassessment setelah intervensi."
+  ],
+  "dont": [
+    "Menggunakan NEWS2 pada anak atau ibu hamil.",
+    "Mengubah angka agar skor tampak rendah.",
+    "Menunggu jadwal berikutnya saat pasien memburuk.",
+    "Mengandalkan skor tanpa penilaian klinis."
+  ],
+  "quiz": [
+    {
+      "q": "Pasien dewasa berusia 45 tahun dirawat di bangsal umum. Instrumen awal yang paling sesuai untuk deteksi perburukan adalah…",
+      "options": [
+        "NEWS2, kecuali ada alasan khusus menggunakan sistem lain yang ditetapkan fasilitas",
+        "PEWS karena semua pasien dapat dinilai dengan sistem anak",
+        "MEOWS karena lebih banyak parameter",
+        "Memilih chart berdasarkan skor yang paling rendah"
+      ],
+      "answer": 0,
+      "why": "NEWS2 ditujukan untuk pasien dewasa; sistem dipilih berdasarkan populasi, bukan hasil yang diinginkan.",
+      "optionWhy": [
+        "Pilihan ini sesuai populasi dewasa.",
+        "PEWS untuk anak.",
+        "MEOWS untuk kehamilan/nifas.",
+        "Pemilihan instrumen tidak boleh untuk menurunkan skor."
+      ]
+    },
+    {
+      "q": "NEWS2: RR 26, SpO₂ 95% skala 1, suhu 37°C, sistolik 115 mmHg, nadi 96/menit, sadar, tanpa oksigen tambahan. Total skor adalah…",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "7"
+      ],
+      "answer": 0,
+      "why": "RR ≥25 = 3, SpO₂ 94–95 = 1, nadi 91–110 = 1; parameter lain 0. Total 5.",
+      "optionWhy": [
+        "Benar: 3 + 1 + 1 = 5.",
+        "Hanya menghitung RR dan mengabaikan parameter lain.",
+        "Belum memasukkan skor nadi atau SpO₂ secara lengkap.",
+        "Terlalu tinggi untuk data yang diberikan."
+      ]
+    },
+    {
+      "q": "Pada PEWS internal: anak tidur tetapi mudah dibangunkan (1), pucat dengan CRT 3 detik (1), RR >20 di atas normal dengan retraksi sedang dan kebutuhan O₂ >3 L/menit (2). Total skor adalah…",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": 0,
+      "why": "Jumlah komponen Behavior 1 + Cardiovascular 1 + Respiratory 2 = 4.",
+      "optionWhy": [
+        "Benar: total 4.",
+        "Menghilangkan salah satu komponen.",
+        "Menambahkan skor yang tidak ada pada skenario.",
+        "Menggandakan salah satu komponen."
+      ]
+    },
+    {
+      "q": "Ibu nifas memiliki tekanan darah 145/95 mmHg pada tabel MEOWS materi internal. Sistolik dan diastolik masing-masing masuk zona kuning. Interpretasi paling tepat adalah…",
+      "options": [
+        "Dua parameter kuning memerlukan perhatian/eskalasi sesuai sistem pemicu yang digunakan",
+        "Normal karena tidak ada parameter merah",
+        "Gunakan NEWS2 dan abaikan MEOWS",
+        "Tunggu pengukuran berikutnya tanpa asesmen"
+      ],
+      "answer": 0,
+      "why": "Materi internal MEOWS menggunakan satu merah atau dua kuning sebagai pemicu perhatian medis segera.",
+      "optionWhy": [
+        "Pilihan ini mengikuti trigger yang dinyatakan pada materi.",
+        "Dua kuning bukan kategori normal.",
+        "Populasi obstetri memerlukan sistem yang sesuai.",
+        "Penundaan tanpa asesmen dapat melewatkan perburukan."
+      ]
+    },
+    {
+      "q": "Skor total pasien masih rendah, tetapi frekuensi napas memburuk dan perawat merasa pasien tampak jauh lebih sakit. Tindakan terbaik adalah…",
+      "options": [
+        "Lakukan asesmen dan eskalasi berdasarkan parameter/tren serta kekhawatiran klinis",
+        "Menunggu skor mencapai ambang tinggi",
+        "Mengubah nilai frekuensi napas agar sesuai tampilan pasien",
+        "Menghapus skor sebelumnya agar tren tidak membingungkan"
+      ],
+      "answer": 0,
+      "why": "EWS mendukung penilaian klinis. Parameter tunggal, tren, dan concern dapat memicu respons meski total belum tinggi.",
+      "optionWhy": [
+        "Pilihan ini mengutamakan deteksi dini.",
+        "Menunggu ambang dapat menunda pertolongan.",
+        "Data tidak boleh diubah.",
+        "Riwayat skor penting untuk melihat tren."
+      ]
+    },
+    {
+      "q": "Perawat sudah menelepon dokter tentang skor meningkat, tetapi belum ada respons dan pasien makin mengantuk. Langkah paling tepat adalah…",
+      "options": [
+        "Eskalasi ke tingkat berikutnya sesuai protokol sambil melakukan respons awal dan monitoring ketat",
+        "Menganggap tugas selesai karena sudah menelepon",
+        "Menunggu pergantian dinas",
+        "Mencatat “dokter belum menjawab” tanpa tindakan lain"
+      ],
+      "answer": 0,
+      "why": "Eskalasi dianggap selesai bila pesan diterima dan respons/tindakan terjadi. Kondisi memburuk memerlukan eskalasi ulang.",
+      "optionWhy": [
+        "Pilihan ini menutup loop komunikasi dan menjaga keselamatan.",
+        "Panggilan tanpa respons bukan penyelesaian.",
+        "Pergantian dinas terlalu lama.",
+        "Dokumentasi penting tetapi tidak menggantikan tindakan."
+      ]
+    },
+    {
+      "q": "Setelah oksigen dan intervensi awal, skor EWS pasien turun. Tindakan berikutnya yang paling tepat adalah…",
+      "options": [
+        "Lakukan reassessment sesuai interval, dokumentasikan respons, dan lanjutkan pemantauan berdasarkan chart",
+        "Hentikan seluruh observasi karena skor sudah turun",
+        "Hapus skor tinggi sebelumnya",
+        "Kembalikan frekuensi monitoring ke rutin tanpa menilai kondisi klinis"
+      ],
+      "answer": 0,
+      "why": "Perbaikan perlu dikonfirmasi melalui reassessment dan tren; keputusan monitoring mengikuti response chart dan kondisi klinis.",
+      "optionWhy": [
+        "Pilihan ini memastikan perbaikan stabil dan terdokumentasi.",
+        "Skor turun sekali belum menjamin stabilitas.",
+        "Skor sebelumnya diperlukan untuk tren.",
+        "Frekuensi monitoring tidak diturunkan otomatis tanpa penilaian."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Materi EWS: NEWS2, PEWS, MEOWS",
+      "org": "Ns. Abdul Khasim, S.Kep · materi internal",
+      "url": ""
+    },
+    {
+      "title": "National Early Warning Score (NEWS) 2",
+      "org": "Royal College of Physicians",
+      "url": "https://www.rcp.ac.uk/resources/national-early-warning-score-news-2/"
+    },
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Tujuan EWS",
+      "points": [
+        "Mendeteksi perburukan lebih dini dari perubahan fisiologis dan kesadaran.",
+        "Memicu peningkatan observasi, asesmen, eskalasi, dan respons yang tepat waktu.",
+        "Mendukung penilaian klinis—bukan menggantikannya."
+      ]
+    },
+    {
+      "title": "Pilih sistem sesuai populasi",
+      "points": [
+        "NEWS2 untuk dewasa; tidak digunakan sebagai sistem anak atau obstetri.",
+        "PEWS menggunakan rentang/indikator sesuai usia dan sistem yang ditetapkan fasilitas.",
+        "MEOWS digunakan pada kehamilan dan nifas dengan tanda bahaya obstetri."
+      ]
+    },
+    {
+      "title": "Akurasi pengukuran",
+      "points": [
+        "Hitung frekuensi napas dengan benar dan catat terapi oksigen.",
+        "Validasi hasil yang tidak sesuai kondisi pasien atau alat.",
+        "Nilai kesadaran serta kebingungan baru secara konsisten."
+      ]
+    },
+    {
+      "title": "Lihat tren dan parameter tunggal",
+      "points": [
+        "Kenaikan skor berulang dapat lebih bermakna daripada satu skor terisolasi.",
+        "Satu parameter yang sangat abnormal dapat memicu respons walau total tidak tinggi.",
+        "Kekhawatiran klinis tetap menjadi alasan untuk eskalasi."
+      ]
+    },
+    {
+      "title": "Eskalasi yang selesai",
+      "points": [
+        "Sampaikan skor, parameter penyebab, tren, kondisi klinis, dan respons awal.",
+        "Pastikan pesan diterima oleh orang yang tepat dan ada keputusan/tindakan.",
+        "Eskalasi kembali bila respons terlambat atau kondisi memburuk."
+      ]
+    },
+    {
+      "title": "Reassessment dan dokumentasi",
+      "points": [
+        "Ukur ulang setelah intervensi dan sesuai interval pada response chart.",
+        "Catat waktu, skor, pihak yang dihubungi, instruksi, tindakan, dan hasil.",
+        "Jangan menyalin skor lama tanpa pengukuran baru."
+      ]
+    }
+  ]
+}

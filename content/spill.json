@@ -1,0 +1,215 @@
+{
+  "id": "spill",
+  "title": "Spill Kit · Tumpahan Darah dan Cairan Tubuh",
+  "short": "Spill Kit",
+  "desc": "Penanganan aman tumpahan darah atau cairan tubuh—bukan seluruh jenis B3.",
+  "category": "Keselamatan",
+  "color": "#6B5DD3",
+  "soft": "#F1EFFF",
+  "icon": "spill",
+  "minutes": 7,
+  "updated": "2 Agustus 2026",
+  "keywords": [
+    "spill kit",
+    "tumpahan darah",
+    "cairan tubuh",
+    "apd",
+    "dekontaminasi"
+  ],
+  "notice": "Materi ini khusus untuk tumpahan darah/cairan tubuh. Tumpahan bahan kimia, sitotoksik, merkuri, atau bahan tidak dikenal mengikuti spill kit, SDS, dan alur khusus.",
+  "slides": [
+    {
+      "type": "image",
+      "asset": "spill_1",
+      "title": "Langkah 1 · Temukan Tumpahan dan Amankan Area",
+      "caption": "Hentikan aktivitas, pasang peringatan, dan siapkan area sebelum pembersihan.",
+      "order": 1,
+      "image": "assets/images/main/spill/spill-01-amankan-area.webp",
+      "thumbnail": "assets/images/thumb/spill/spill-01-amankan-area-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "spill_2",
+      "title": "Langkah 2 · Buka Spill Kit dan Gunakan APD",
+      "caption": "Gunakan APD sesuai risiko sebelum mendekati tumpahan.",
+      "order": 2,
+      "image": "assets/images/main/spill/spill-02-gunakan-apd.webp",
+      "thumbnail": "assets/images/thumb/spill/spill-02-gunakan-apd-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "spill_3",
+      "title": "Langkah 3 · Tangani Tumpahan Darah",
+      "caption": "Batasi penyebaran, gunakan bahan penyerap, dan disinfeksi sesuai prosedur.",
+      "order": 3,
+      "image": "assets/images/main/spill/spill-03-tangani-tumpahan.webp",
+      "thumbnail": "assets/images/thumb/spill/spill-03-tangani-tumpahan-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "spill_4",
+      "title": "Langkah 4 · Buang APD dan Bersihkan Alat",
+      "caption": "Kemas limbah, lepas APD aman, dekontaminasi alat, dan lakukan hand hygiene.",
+      "order": 4,
+      "image": "assets/images/main/spill/spill-04-buang-apd-bersihkan-alat.webp",
+      "thumbnail": "assets/images/thumb/spill/spill-04-buang-apd-bersihkan-alat-thumb.webp",
+      "version": 1
+    }
+  ],
+  "essentials": [
+    {
+      "title": "Amankan area",
+      "text": "Hentikan aktivitas dan cegah orang melewati lokasi tumpahan."
+    },
+    {
+      "title": "Gunakan APD",
+      "text": "Pilih APD sebelum melakukan kontak dengan tumpahan."
+    },
+    {
+      "title": "Kendalikan penyebaran",
+      "text": "Tangani dari tepi ke tengah menggunakan bahan penyerap."
+    },
+    {
+      "title": "Disinfeksi dan kemas",
+      "text": "Gunakan disinfektan serta wadah limbah sesuai prosedur."
+    },
+    {
+      "title": "Lepas APD dan lapor",
+      "text": "Lepas APD dengan aman, hand hygiene, dan dokumentasikan kejadian bila diwajibkan."
+    }
+  ],
+  "do": [
+    "Pasang tanda peringatan.",
+    "Gunakan spill kit dan APD yang sesuai.",
+    "Bersihkan perlahan dari tepi ke tengah.",
+    "Lakukan hand hygiene setelah selesai."
+  ],
+  "dont": [
+    "Menyentuh tumpahan tanpa APD.",
+    "Membiarkan orang melintasi area.",
+    "Mencampur bahan pembersih sembarangan.",
+    "Membuang limbah ke tempat sampah umum."
+  ],
+  "quiz": [
+    {
+      "q": "Tumpahan darah ditemukan di koridor yang ramai dan belum diketahui siapa sumbernya. Langkah awal paling tepat adalah…",
+      "options": [
+        "Batasi area, hentikan lalu lintas, pasang tanda peringatan, dan siapkan respons",
+        "Langsung mengepel agar orang tidak melihat",
+        "Menutup tumpahan dengan tisu lalu meninggalkannya",
+        "Meminta pengunjung melangkahi area dengan hati-hati"
+      ],
+      "answer": 0,
+      "why": "Pengendalian awal mencegah terpeleset, kontak, dan penyebaran sebelum pembersihan dilakukan.",
+      "optionWhy": [
+        "Pilihan ini melindungi semua orang dan menyiapkan pembersihan aman.",
+        "Pembersihan tanpa pengamanan dan APD meningkatkan pajanan.",
+        "Menutup tanpa menangani tidak menghilangkan risiko.",
+        "Membiarkan lalu lintas menyebarkan kontaminasi."
+      ]
+    },
+    {
+      "q": "Petugas telah membuka spill kit. Tumpahan berisiko memercik saat diserap. Pemilihan APD paling tepat adalah…",
+      "options": [
+        "Gunakan sarung tangan dan tambahan pelindung wajah/apron sesuai penilaian risiko percikan",
+        "Gunakan masker saja karena darah tidak menembus masker",
+        "Gunakan sarung tangan kain agar lebih menyerap",
+        "Tidak perlu APD bila pembersihan dilakukan cepat"
+      ],
+      "answer": 0,
+      "why": "APD dipilih berdasarkan kemungkinan kontak kulit, pakaian, dan mukosa terhadap percikan.",
+      "optionWhy": [
+        "Pilihan ini menyesuaikan APD dengan jalur pajanan.",
+        "Masker saja tidak melindungi tangan, mata, dan pakaian.",
+        "Sarung tangan kain tidak sesuai untuk cairan tubuh.",
+        "Kecepatan tidak menghilangkan risiko pajanan."
+      ]
+    },
+    {
+      "q": "Tumpahan darah cukup luas tetapi masih dapat ditangani kit unit. Cara kerja yang paling aman adalah…",
+      "options": [
+        "Kendalikan dari tepi menuju tengah, gunakan bahan penyerap, lalu disinfeksi sesuai waktu kontak SOP",
+        "Semprot cairan bertekanan tinggi agar cepat tersebar tipis",
+        "Menggosok kuat dari tengah ke luar",
+        "Mencampur dua disinfektan agar lebih efektif"
+      ],
+      "answer": 0,
+      "why": "Pendekatan dari tepi mencegah perluasan; absorbent dan disinfektan digunakan sesuai prosedur.",
+      "optionWhy": [
+        "Pilihan ini mengendalikan penyebaran dan memastikan dekontaminasi.",
+        "Semprotan bertekanan dapat menimbulkan percikan/aerosol.",
+        "Gerakan dari tengah ke luar memperluas area.",
+        "Mencampur bahan kimia dapat menghasilkan reaksi berbahaya."
+      ]
+    },
+    {
+      "q": "Setelah pembersihan, goggles dapat digunakan ulang dan APD sekali pakai sudah dilepas. Tindakan berikutnya yang paling tepat adalah…",
+      "options": [
+        "Masukkan APD sekali pakai ke limbah yang sesuai, dekontaminasi goggles, lakukan hand hygiene, dan laporkan",
+        "Menyimpan goggles tanpa dibersihkan karena tidak tampak kotor",
+        "Mencuci semua limbah ke wastafel",
+        "Mengembalikan spill kit tanpa mengecek isi yang terpakai"
+      ],
+      "answer": 0,
+      "why": "Penutupan insiden mencakup pemilahan limbah, dekontaminasi alat, kebersihan tangan, dokumentasi, dan pengisian ulang kit.",
+      "optionWhy": [
+        "Pilihan ini menyelesaikan seluruh rantai pengamanan.",
+        "Kontaminasi tidak selalu terlihat.",
+        "Limbah tidak dibuang ke wastafel sembarangan.",
+        "Kit harus dipastikan siap untuk kejadian berikutnya."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Amankan area",
+      "points": [
+        "Hentikan aktivitas di sekitar tumpahan dan pasang tanda peringatan.",
+        "Jauhkan pasien, pengunjung, dan petugas yang tidak berkepentingan.",
+        "Nilai jenis, luas, dan kemungkinan pajanan sebelum membersihkan."
+      ]
+    },
+    {
+      "title": "Pilih APD dan alat",
+      "points": [
+        "Gunakan APD sesuai risiko percikan dan kontak kulit.",
+        "Siapkan absorbent, alat pengambil, disinfektan, kantong limbah, dan penanda.",
+        "Jangan memulai bila bahan tidak dikenal atau melebihi kemampuan kit/unit."
+      ]
+    },
+    {
+      "title": "Kendalikan tumpahan",
+      "points": [
+        "Lingkari area dari luar agar cairan tidak melebar.",
+        "Serap cairan secara perlahan dan gunakan disinfektan sesuai prosedur serta waktu kontak.",
+        "Hindari gerakan yang menimbulkan percikan atau aerosol."
+      ]
+    },
+    {
+      "title": "Buang dan dekontaminasi",
+      "points": [
+        "Masukkan bahan penyerap dan APD sekali pakai ke wadah limbah yang sesuai.",
+        "Pisahkan alat yang dapat digunakan ulang untuk proses dekontaminasi.",
+        "Bersihkan area, lepas APD dengan aman, dan lakukan kebersihan tangan."
+      ]
+    },
+    {
+      "title": "Pajanan dan pelaporan",
+      "points": [
+        "Bila terjadi kontak mata/kulit atau luka tusuk, lakukan pertolongan pertama dan laporkan segera.",
+        "Dokumentasikan kejadian serta penggantian isi spill kit.",
+        "Pastikan area aman sebelum dibuka kembali."
+      ]
+    }
+  ]
+}

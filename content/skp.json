@@ -1,0 +1,282 @@
+{
+  "id": "skp",
+  "title": "6 Sasaran Keselamatan Pasien",
+  "short": "6 SKP",
+  "desc": "Enam kebiasaan keselamatan yang harus tampak dalam pelayanan sehari-hari.",
+  "category": "Keselamatan",
+  "color": "#007C87",
+  "soft": "#E7F7F7",
+  "icon": "shield",
+  "minutes": 7,
+  "updated": "2 Agustus 2026",
+  "keywords": [
+    "identifikasi",
+    "komunikasi",
+    "obat",
+    "operasi",
+    "infeksi",
+    "jatuh",
+    "skp"
+  ],
+  "slides": [
+    {
+      "type": "image",
+      "asset": "skp_1",
+      "title": "SKP 1 · Identifikasi Pasien",
+      "caption": "Gunakan minimal dua identitas yang ditetapkan; bukan nomor kamar atau tempat tidur.",
+      "order": 1,
+      "image": "assets/images/main/skp/skp-01-identifikasi-pasien.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-01-identifikasi-pasien-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "skp_2",
+      "title": "SKP 2 · Komunikasi Efektif",
+      "caption": "Gunakan komunikasi terstruktur dan verifikasi pesan kritis.",
+      "order": 2,
+      "image": "assets/images/main/skp/skp-02-komunikasi-efektif.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-02-komunikasi-efektif-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "skp_3",
+      "title": "SKP 3 · Keamanan Obat",
+      "caption": "Kenali obat high-alert/LASA dan lakukan pengamanan sesuai kebijakan.",
+      "order": 3,
+      "image": "assets/images/main/skp/skp-03-keamanan-obat.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-03-keamanan-obat-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "skp_4",
+      "title": "SKP 4 · Tepat Pasien, Prosedur, dan Lokasi",
+      "caption": "Lakukan verifikasi serta time-out sebelum tindakan invasif.",
+      "order": 4,
+      "image": "assets/images/main/skp/skp-04-tepat-pasien-prosedur-lokasi.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-04-tepat-pasien-prosedur-lokasi-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "skp_5",
+      "title": "SKP 5 · Pengurangan Risiko Infeksi",
+      "caption": "Lakukan kebersihan tangan dan tindakan pencegahan infeksi secara konsisten.",
+      "order": 5,
+      "image": "assets/images/main/skp/skp-05-pencegahan-infeksi.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-05-pencegahan-infeksi-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "skp_6",
+      "title": "SKP 6 · Pengurangan Risiko Jatuh",
+      "caption": "Skrining, intervensi, edukasi, dan reassessment saat kondisi berubah.",
+      "order": 6,
+      "image": "assets/images/main/skp/skp-06-pencegahan-jatuh.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-06-pencegahan-jatuh-thumb.webp",
+      "version": 1
+    }
+  ],
+  "essentials": [
+    {
+      "title": "Identifikasi benar",
+      "text": "Minimal dua identitas; cocokkan sebelum obat, darah, spesimen, dan tindakan."
+    },
+    {
+      "title": "Pesan terkonfirmasi",
+      "text": "Gunakan struktur komunikasi, baca ulang, konfirmasi, dan dokumentasikan."
+    },
+    {
+      "title": "Obat berisiko diamankan",
+      "text": "Label, penyimpanan, dan double-check mengikuti kebijakan fasilitas."
+    },
+    {
+      "title": "Tindakan diverifikasi",
+      "text": "Pastikan pasien, prosedur, dan lokasi benar; lakukan time-out."
+    },
+    {
+      "title": "Infeksi dicegah",
+      "text": "Hand hygiene, APD, teknik aseptik, dan pengelolaan lingkungan."
+    },
+    {
+      "title": "Jatuh dicegah",
+      "text": "Nilai risiko, pasang intervensi, edukasi, dan lakukan reassessment."
+    }
+  ],
+  "do": [
+    "Sebutkan identitas pasien secara aktif.",
+    "Gunakan komunikasi terstruktur dan closed-loop.",
+    "Lakukan time-out sebelum tindakan invasif.",
+    "Reassessment risiko ketika kondisi pasien berubah."
+  ],
+  "dont": [
+    "Menggunakan nomor kamar sebagai identitas.",
+    "Menganggap pesan sudah dipahami tanpa konfirmasi.",
+    "Melewatkan double-check yang diwajibkan.",
+    "Menunda dokumentasi sampai akhir dinas."
+  ],
+  "quiz": [
+    {
+      "q": "Sebelum obat diberikan, pasien menyebut nama yang sesuai dengan resep. Gelang menunjukkan nama sama, tetapi tanggal lahir pada gelang berbeda dengan rekam medis. Tindakan paling tepat adalah…",
+      "options": [
+        "Menunda obat, hentikan proses, dan selesaikan ketidaksesuaian identitas sebelum melanjutkan",
+        "Menggunakan nama pasien saja karena sudah cocok",
+        "Meminta keluarga memastikan pasien yang dimaksud lalu memberikan obat",
+        "Mengganti tanggal lahir pada gelang berdasarkan ucapan pasien"
+      ],
+      "answer": 0,
+      "why": "Ketidaksesuaian satu identitas harus diselesaikan sebelum pelayanan dilanjutkan. Dua identitas bukan formalitas; keduanya harus cocok dengan sumber yang sah.",
+      "optionWhy": [
+        "Ini menghentikan risiko salah pasien dan memicu verifikasi yang benar.",
+        "Nama saja tidak cukup ketika identitas lain tidak sesuai.",
+        "Konfirmasi keluarga dapat membantu, tetapi tidak menggantikan rekonsiliasi identitas resmi.",
+        "Gelang tidak boleh diubah tanpa proses verifikasi dan pencetakan ulang yang sah."
+      ]
+    },
+    {
+      "q": "Di ruang yang bising, dokter melalui telepon menginstruksikan obat dengan nama yang terdengar mirip obat lain. Perawat sudah menulis dosis dan rute. Langkah berikutnya yang paling aman adalah…",
+      "options": [
+        "Membaca kembali seluruh instruksi, mengeja nama obat bila perlu, lalu meminta konfirmasi",
+        "Melaksanakan segera karena dosis dan rute sudah jelas",
+        "Meminta rekan menebak obat berdasarkan diagnosis pasien",
+        "Menunda dokumentasi sampai dokter datang ke ruangan"
+      ],
+      "answer": 0,
+      "why": "Pesan berisiko salah dengar perlu closed-loop communication: tulis, baca kembali secara lengkap, eja bila perlu, konfirmasi, dan dokumentasikan.",
+      "optionWhy": [
+        "Pilihan ini memverifikasi kesamaan pesan pada nama, dosis, rute, dan waktu.",
+        "Dosis dan rute yang jelas tidak menghilangkan risiko salah nama obat.",
+        "Pendapat rekan tidak menggantikan konfirmasi pemberi instruksi.",
+        "Dokumentasi dan verifikasi tidak perlu menunggu dokter hadir."
+      ]
+    },
+    {
+      "q": "Dua perawat diminta melakukan double-check independen obat high-alert. Praktik yang paling sesuai adalah…",
+      "options": [
+        "Masing-masing memeriksa data penting secara terpisah lalu membandingkan hasil",
+        "Perawat kedua hanya menandatangani hasil perawat pertama",
+        "Keduanya membaca perhitungan yang sama secara bersamaan",
+        "Perawat pertama menjelaskan hasil, lalu perawat kedua menyatakan setuju"
+      ],
+      "answer": 0,
+      "why": "Double-check independen mengurangi bias konfirmasi karena pemeriksa kedua menilai unsur penting tanpa diarahkan hasil pemeriksa pertama.",
+      "optionWhy": [
+        "Pemeriksaan terpisah memberi peluang menemukan kesalahan secara mandiri.",
+        "Tanda tangan tanpa pemeriksaan tidak menambah pengamanan.",
+        "Membaca bersama dapat membuat pemeriksa kedua mengikuti hasil pertama.",
+        "Persetujuan lisan setelah diberi hasil bukan pemeriksaan independen."
+      ]
+    },
+    {
+      "q": "Pasien sudah berada di kamar operasi dan telah mendapat sedasi ringan. Tim menemukan penandaan lokasi operasi tidak terlihat, sedangkan dokumen menyebut sisi kanan. Tindakan terbaik adalah…",
+      "options": [
+        "Hentikan proses dan selesaikan verifikasi serta penandaan sesuai prosedur sebelum tindakan",
+        "Melanjutkan karena sisi kanan tertulis di dokumen",
+        "Meminta salah satu anggota tim menandai lokasi tanpa verifikasi pasien",
+        "Melakukan time-out setelah insisi agar tidak menunda jadwal"
+      ],
+      "answer": 0,
+      "why": "Ketidaksesuaian atau ketiadaan penandaan harus diselesaikan sebelum prosedur dimulai. Time-out adalah verifikasi akhir sebelum tindakan.",
+      "optionWhy": [
+        "Ini menjaga pasien, prosedur, dan lokasi tetap benar sebelum titik tanpa balik.",
+        "Dokumen saja tidak menggantikan seluruh proses verifikasi.",
+        "Penandaan tanpa verifikasi dan keterlibatan yang diwajibkan tidak aman.",
+        "Time-out setelah insisi sudah terlambat."
+      ]
+    },
+    {
+      "q": "Setelah merawat luka, perawat melepas sarung tangan dan akan memasukkan dokumentasi pada komputer di samping tempat tidur. Tindakan paling tepat adalah…",
+      "options": [
+        "Melakukan kebersihan tangan sebelum menyentuh komputer",
+        "Memakai sarung tangan bersih untuk mengetik lalu melepasnya",
+        "Mengetik terlebih dahulu karena komputer masih berada di lingkungan pasien",
+        "Membersihkan keyboard setelah dokumentasi tanpa melakukan kebersihan tangan"
+      ],
+      "answer": 0,
+      "why": "Setelah risiko pajanan cairan tubuh dan pelepasan sarung tangan, kebersihan tangan dilakukan sebelum menyentuh lingkungan atau alat lain.",
+      "optionWhy": [
+        "Ini memutus perpindahan mikroorganisme dari tindakan ke lingkungan.",
+        "Sarung tangan bersih bukan pengganti hand hygiene dan dapat mengontaminasi keyboard.",
+        "Lingkungan pasien tetap dapat menjadi jalur transmisi.",
+        "Pembersihan keyboard tidak menggantikan kebersihan tangan petugas."
+      ]
+    },
+    {
+      "q": "Pasien awalnya berisiko jatuh rendah. Setelah mendapat sedatif, ia tampak mengantuk dan tekanan darah menurun saat berdiri. Respons paling tepat adalah…",
+      "options": [
+        "Lakukan reassessment segera, sesuaikan intervensi, dan komunikasikan perubahan risiko",
+        "Pertahankan kategori awal karena skrining sudah dilakukan saat masuk",
+        "Menunggu sampai pasien benar-benar jatuh untuk mengubah kategori",
+        "Membatasi pasien di tempat tidur tanpa asesmen ulang atau edukasi"
+      ],
+      "answer": 0,
+      "why": "Risiko jatuh bersifat dinamis. Perubahan obat, kesadaran, hemodinamik, dan mobilitas memerlukan penilaian ulang serta intervensi yang sesuai.",
+      "optionWhy": [
+        "Pilihan ini menghubungkan perubahan kondisi dengan pengamanan baru.",
+        "Skrining awal tidak berlaku permanen.",
+        "Menunggu insiden bertentangan dengan pencegahan.",
+        "Pembatasan tanpa asesmen, indikasi, dan komunikasi bukan respons yang tepat."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Cara berpikir keselamatan",
+      "points": [
+        "Kenali titik risiko sebelum tindakan, bukan setelah insiden terjadi.",
+        "Gunakan pengaman yang diwajibkan: identifikasi, komunikasi tertutup, label, checklist, time-out, hand hygiene, dan intervensi risiko jatuh.",
+        "Konfirmasi hasil pengaman dan dokumentasikan tindak lanjut tepat waktu."
+      ]
+    },
+    {
+      "title": "SKP 1 · Identifikasi pasien",
+      "points": [
+        "Gunakan minimal dua identitas yang ditetapkan rumah sakit.",
+        "Nomor kamar atau tempat tidur bukan identitas pasien.",
+        "Cocokkan sebelum obat, transfusi, spesimen, tindakan, dan perpindahan pelayanan."
+      ]
+    },
+    {
+      "title": "SKP 2 · Komunikasi efektif",
+      "points": [
+        "Gunakan struktur seperti SBAR untuk perubahan kondisi dan serah terima.",
+        "Instruksi verbal/telepon harus dicatat, dibaca kembali, dikonfirmasi, lalu didokumentasikan.",
+        "Pastikan siapa melakukan apa, kapan, dan bagaimana evaluasinya."
+      ]
+    },
+    {
+      "title": "SKP 3–4 · Obat dan tindakan berisiko",
+      "points": [
+        "High-alert dan LASA memerlukan pengamanan, label, penyimpanan, serta verifikasi sesuai kebijakan.",
+        "Verifikasi pasien, prosedur, lokasi, dokumen, dan kesiapan sebelum tindakan invasif.",
+        "Time-out dilakukan segera sebelum tindakan dimulai bersama tim yang terlibat."
+      ]
+    },
+    {
+      "title": "SKP 5–6 · Infeksi dan jatuh",
+      "points": [
+        "Kebersihan tangan dan kewaspadaan standar diterapkan pada momen yang tepat.",
+        "Risiko jatuh dinilai saat awal dan dinilai ulang ketika kondisi, terapi, atau mobilitas berubah.",
+        "Intervensi harus spesifik terhadap risiko pasien dan dikomunikasikan kepada pasien/keluarga."
+      ]
+    },
+    {
+      "title": "Yang sering diamati surveior",
+      "points": [
+        "Petugas mampu menjelaskan dan memperagakan praktik, bukan hanya menunjukkan dokumen.",
+        "Jawaban antarpetugas konsisten dengan praktik dan dokumentasi di unit.",
+        "Petugas tahu apa yang dilakukan ketika menemukan ketidaksesuaian atau risiko baru."
+      ]
+    }
+  ]
+}
