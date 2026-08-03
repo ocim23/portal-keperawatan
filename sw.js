@@ -1,11 +1,11 @@
-const CACHE_VERSION = 'portal-keperawatan-v1.0.1';
+const CACHE_VERSION = 'portal-keperawatan-v2.1.0';
 const STATIC_CACHE = CACHE_VERSION + '-static';
 const RUNTIME_CACHE = CACHE_VERSION + '-runtime';
 const APP_SHELL = [
   './',
   './index.html',
-  './assets/css/styles.css?v=1.0.1',
-  './assets/js/app.js',
+  './assets/css/styles.css?v=2.1.0',
+  './assets/js/app.js?v=2.1.0',
   './assets/data/modules.json',
   './manifest.webmanifest',
   './assets/icons/icon-192.png',

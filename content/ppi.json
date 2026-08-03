@@ -1,28 +1,37 @@
 {
   "id": "ppi",
-  "title": "Pencegahan dan Pengendalian Infeksi",
+  "title": "PPI & Keselamatan Kerja",
   "short": "PPI",
-  "desc": "Kebersihan tangan, lima momen, etika batuk, serta pemilahan limbah.",
-  "category": "Infeksi",
-  "color": "#2577D5",
-  "soft": "#EAF2FF",
+  "desc": "Kebersihan tangan, APD, isolasi, limbah, spill kit, dan pajanan darah/cairan tubuh.",
+  "category": "Pencegahan Infeksi",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
   "icon": "hands",
-  "minutes": 8,
-  "updated": "2 Agustus 2026",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
   "keywords": [
-    "cuci tangan",
-    "hand hygiene",
-    "lima momen",
+    "ppi",
+    "dan",
+    "darah",
+    "kerja",
+    "apd",
+    "tangan",
+    "cairan",
+    "keselamatan",
     "limbah",
-    "etika batuk",
-    "ppi"
+    "pajanan",
+    "spill",
+    "kit",
+    "tubuh",
+    "kebersihan",
+    "isolasi"
   ],
   "slides": [
     {
       "type": "image",
-      "asset": "ppi_1",
-      "title": "6 Langkah Cuci Tangan",
-      "caption": "Gosok seluruh permukaan tangan dan ulangi gerakan pada kedua tangan.",
+      "asset": "ppi-01-enam-langkah-cuci-tangan",
+      "title": "Enam Langkah Kebersihan Tangan",
+      "caption": "Urutan gerakan kebersihan tangan.",
       "order": 1,
       "image": "assets/images/main/ppi/ppi-01-enam-langkah-cuci-tangan.webp",
       "thumbnail": "assets/images/thumb/ppi/ppi-01-enam-langkah-cuci-tangan-thumb.webp",
@@ -30,9 +39,9 @@
     },
     {
       "type": "image",
-      "asset": "ppi_2",
+      "asset": "ppi-02-durasi-kebersihan-tangan",
       "title": "Durasi Kebersihan Tangan",
-      "caption": "Handrub 20–30 detik; sabun dan air mengalir 40–60 detik.",
+      "caption": "Perbedaan durasi handrub dan handwash.",
       "order": 2,
       "image": "assets/images/main/ppi/ppi-02-durasi-kebersihan-tangan.webp",
       "thumbnail": "assets/images/thumb/ppi/ppi-02-durasi-kebersihan-tangan-thumb.webp",
@@ -40,9 +49,9 @@
     },
     {
       "type": "image",
-      "asset": "ppi_3",
-      "title": "5 Momen Kebersihan Tangan",
-      "caption": "Lakukan pada momen yang tepat untuk melindungi pasien, petugas, dan lingkungan.",
+      "asset": "ppi-03-lima-momen",
+      "title": "Lima Momen Kebersihan Tangan",
+      "caption": "Kapan kebersihan tangan harus dilakukan.",
       "order": 3,
       "image": "assets/images/main/ppi/ppi-03-lima-momen.webp",
       "thumbnail": "assets/images/thumb/ppi/ppi-03-lima-momen-thumb.webp",
@@ -50,211 +59,363 @@
     },
     {
       "type": "image",
-      "asset": "ppi_4",
-      "title": "Pemilahan Sampah Medis",
-      "caption": "Pisahkan limbah sesuai jenis dan wadah yang ditetapkan.",
+      "asset": "ppi-new-01-apd",
+      "title": "Urutan APD",
+      "caption": "Cara memakai dan melepas alat pelindung diri dengan aman.",
       "order": 4,
-      "image": "assets/images/main/ppi/ppi-04-pemilahan-sampah-medis.webp",
-      "thumbnail": "assets/images/thumb/ppi/ppi-04-pemilahan-sampah-medis-thumb.webp",
+      "image": "assets/images/main/ppi/ppi-new-01-apd.webp",
+      "thumbnail": "assets/images/thumb/ppi/ppi-new-01-apd-thumb.webp",
       "version": 1
     },
     {
       "type": "image",
-      "asset": "ppi_5",
+      "asset": "ppi-05-etika-batuk",
       "title": "Etika Batuk",
-      "caption": "Tutup hidung dan mulut, buang tisu, bersihkan tangan, dan gunakan masker bila perlu.",
+      "caption": "Langkah sederhana mencegah penyebaran droplet.",
       "order": 5,
       "image": "assets/images/main/ppi/ppi-05-etika-batuk.webp",
       "thumbnail": "assets/images/thumb/ppi/ppi-05-etika-batuk-thumb.webp",
       "version": 1
-    }
-  ],
-  "essentials": [
-    {
-      "title": "Teknik",
-      "text": "Semua permukaan tangan digosok dengan urutan yang benar."
     },
     {
-      "title": "Durasi",
-      "text": "Handrub 20–30 detik; sabun dan air 40–60 detik."
+      "type": "image",
+      "asset": "ppi-new-02-limbah",
+      "title": "Panduan Warna Kantong Limbah Medis",
+      "caption": "Kuning, ungu, cokelat, merah, hitam, dan safety box sesuai jenis limbah.",
+      "order": 6,
+      "image": "assets/images/main/ppi/ppi-new-02-limbah.webp",
+      "thumbnail": "assets/images/thumb/ppi/ppi-new-02-limbah-thumb.webp",
+      "version": 1
     },
     {
-      "title": "Momen",
-      "text": "Sebelum kontak, sebelum aseptik, setelah cairan tubuh, setelah pasien, setelah lingkungan pasien."
+      "type": "image",
+      "asset": "spill-01-amankan-area",
+      "title": "Spill Kit 1 · Amankan Area",
+      "caption": "Batasi area dan siapkan perlengkapan.",
+      "order": 7,
+      "image": "assets/images/main/spill/spill-01-amankan-area.webp",
+      "thumbnail": "assets/images/thumb/spill/spill-01-amankan-area-thumb.webp",
+      "version": 1
     },
     {
-      "title": "Limbah",
-      "text": "Pisahkan limbah infeksius, noninfeksius, dan benda tajam pada wadah yang sesuai."
+      "type": "image",
+      "asset": "spill-02-gunakan-apd",
+      "title": "Spill Kit 2 · Gunakan APD",
+      "caption": "Gunakan APD sesuai risiko pajanan.",
+      "order": 8,
+      "image": "assets/images/main/spill/spill-02-gunakan-apd.webp",
+      "thumbnail": "assets/images/thumb/spill/spill-02-gunakan-apd-thumb.webp",
+      "version": 1
     },
     {
-      "title": "Etika batuk",
-      "text": "Gunakan tisu atau lipatan siku, buang tisu, dan lakukan kebersihan tangan."
-    }
-  ],
-  "do": [
-    "Lakukan hand hygiene sebelum tindakan aseptik.",
-    "Ganti sarung tangan antarprosedur dan antarpasien.",
-    "Buang benda tajam langsung ke safety box.",
-    "Gunakan sabun dan air bila tangan tampak kotor."
-  ],
-  "dont": [
-    "Menganggap sarung tangan menggantikan hand hygiene.",
-    "Menyentuh ponsel dengan sarung tangan terkontaminasi.",
-    "Menutup kembali jarum dengan dua tangan.",
-    "Mencampur limbah tanpa memilah."
-  ],
-  "quiz": [
-    {
-      "q": "Perawat selesai mengukur tekanan darah pasien A, lalu akan memeriksa pasien B. Manset digunakan bersama dan tangan tidak tampak kotor. Urutan paling tepat adalah…",
-      "options": [
-        "Bersihkan alat sesuai kebutuhan, lakukan handrub, lalu kontak dengan pasien B",
-        "Langsung ke pasien B karena tidak ada kontak dengan cairan tubuh",
-        "Memakai sarung tangan baru tanpa hand hygiene",
-        "Melakukan handrub setelah selesai memeriksa pasien B"
-      ],
-      "answer": 0,
-      "why": "Perpindahan antar pasien memerlukan kebersihan tangan; alat bersama juga dikelola agar tidak menjadi media transmisi.",
-      "optionWhy": [
-        "Pilihan ini mengamankan tangan dan alat sebelum kontak berikutnya.",
-        "Kontak tanpa cairan tubuh tetap dapat memindahkan mikroorganisme.",
-        "Sarung tangan baru tidak menghilangkan kontaminasi tangan.",
-        "Hand hygiene harus dilakukan sebelum menyentuh pasien berikutnya."
-      ]
+      "type": "image",
+      "asset": "spill-03-tangani-tumpahan",
+      "title": "Spill Kit 3 · Tangani Tumpahan",
+      "caption": "Serap, bersihkan, dan lakukan disinfeksi sesuai prosedur.",
+      "order": 9,
+      "image": "assets/images/main/spill/spill-03-tangani-tumpahan.webp",
+      "thumbnail": "assets/images/thumb/spill/spill-03-tangani-tumpahan-thumb.webp",
+      "version": 1
     },
     {
-      "q": "Saat mengganti balutan, perawat telah membersihkan area kulit sekitar yang kotor dan akan menyentuh kateter pada area bersih dengan sarung tangan yang sama. Tindakan paling tepat adalah…",
-      "options": [
-        "Lepas sarung tangan, lakukan kebersihan tangan, lalu gunakan sarung tangan baru sesuai kebutuhan aseptik",
-        "Melanjutkan karena masih pada pasien yang sama",
-        "Menyemprot sarung tangan dengan alkohol lalu melanjutkan",
-        "Menutup area kotor dengan kasa dan tetap memakai sarung tangan yang sama"
-      ],
-      "answer": 0,
-      "why": "Perpindahan dari area kotor ke area bersih/aseptik pada pasien yang sama memerlukan pergantian sarung tangan dan kebersihan tangan.",
-      "optionWhy": [
-        "Pilihan ini mencegah kontaminasi silang ke area bersih.",
-        "Pasien yang sama tetap memiliki area tubuh dengan tingkat kontaminasi berbeda.",
-        "Mendisinfeksi sarung tangan bukan praktik standar pengganti pergantian.",
-        "Menutup area kotor tidak membuat sarung tangan menjadi bersih."
-      ]
+      "type": "image",
+      "asset": "spill-04-buang-apd-bersihkan-alat",
+      "title": "Spill Kit 4 · Akhiri dengan Aman",
+      "caption": "Buang limbah, bersihkan alat, lepas APD, dan lakukan kebersihan tangan.",
+      "order": 10,
+      "image": "assets/images/main/spill/spill-04-buang-apd-bersihkan-alat.webp",
+      "thumbnail": "assets/images/thumb/spill/spill-04-buang-apd-bersihkan-alat-thumb.webp",
+      "version": 1
     },
     {
-      "q": "Setelah merawat pasien dengan diare, tangan perawat tampak kotor secara visual. Metode paling tepat adalah…",
-      "options": [
-        "Cuci tangan dengan sabun dan air mengalir",
-        "Handrub singkat selama beberapa detik",
-        "Memakai sarung tangan baru tanpa membersihkan tangan",
-        "Mengelap tangan dengan tisu kering"
-      ],
-      "answer": 0,
-      "why": "Tangan yang tampak kotor memerlukan sabun dan air mengalir; handrub tidak dipilih sebagai satu-satunya metode pada kondisi ini.",
-      "optionWhy": [
-        "Pilihan ini menghilangkan kotoran yang tampak dan membersihkan seluruh permukaan tangan.",
-        "Handrub saja tidak memadai ketika tangan tampak kotor.",
-        "Sarung tangan tidak membersihkan tangan.",
-        "Tisu kering tidak menggantikan hand hygiene."
-      ]
+      "type": "html",
+      "title": "Kewaspadaan standar untuk setiap pasien",
+      "caption": "Pilih tindakan berdasarkan risiko pajanan, bukan hanya diagnosis.",
+      "order": 11,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kebersihan tangan",
+            "text": "Lakukan pada lima momen dan setelah melepas sarung tangan/APD."
+          },
+          {
+            "title": "APD sesuai risiko",
+            "text": "Sarung tangan, masker, pelindung mata, dan gaun dipilih berdasarkan potensi pajanan."
+          },
+          {
+            "title": "Keselamatan injeksi",
+            "text": "Gunakan teknik aseptik dan buang benda tajam segera ke safety box."
+          },
+          {
+            "title": "Lingkungan & limbah",
+            "text": "Bersihkan peralatan/area dan pilah limbah sejak sumbernya."
+          }
+        ],
+        "note": "",
+        "columns": 2
+      }
     },
     {
-      "q": "Jarum bekas injeksi masih terpasang pada spuit. Safety box berada satu langkah dari tempat tindakan dan belum penuh. Tindakan paling aman adalah…",
-      "options": [
-        "Buang segera jarum dan spuit ke safety box tanpa menutup ulang jarum",
-        "Menutup ulang jarum dengan dua tangan agar tidak menusuk orang lain",
-        "Melepas jarum dengan tangan lalu membuang spuit terpisah",
-        "Meletakkan spuit di baki dan membuangnya setelah semua tindakan selesai"
-      ],
-      "answer": 0,
-      "why": "Benda tajam dibuang segera pada titik penggunaan ke safety box tanpa recapping atau manipulasi yang menambah risiko pajanan.",
-      "optionWhy": [
-        "Pilihan ini meminimalkan pemindahan dan manipulasi benda tajam.",
-        "Recapping dua tangan meningkatkan risiko tertusuk.",
-        "Melepas jarum dengan tangan adalah manipulasi berisiko.",
-        "Menunda pembuangan menciptakan paparan bagi petugas lain."
-      ]
+      "type": "html",
+      "title": "Lima momen kebersihan tangan",
+      "caption": "Kebersihan tangan dilakukan pada peluang yang tepat.",
+      "order": 12,
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Sebelum menyentuh pasien",
+            "text": "Melindungi pasien dari kuman pada tangan petugas."
+          },
+          {
+            "title": "Sebelum prosedur aseptik",
+            "text": "Contoh: infus, perawatan luka, kateter, injeksi."
+          },
+          {
+            "title": "Setelah risiko cairan tubuh",
+            "text": "Termasuk setelah melepas sarung tangan."
+          },
+          {
+            "title": "Setelah menyentuh pasien",
+            "text": "Mencegah penyebaran ke lingkungan atau pasien lain."
+          },
+          {
+            "title": "Setelah menyentuh lingkungan pasien",
+            "text": "Termasuk tempat tidur dan peralatan di sekitar pasien."
+          }
+        ],
+        "note": "",
+        "columns": 5
+      }
     },
     {
-      "q": "Pasien batuk akan dipindahkan ke radiologi. Ia mampu memakai masker dan mengikuti instruksi. Langkah paling tepat adalah…",
-      "options": [
-        "Pasang masker pada pasien, lakukan etika batuk, hand hygiene, dan komunikasikan kebutuhan pencegahan saat transport",
-        "Petugas saja yang memakai sarung tangan; pasien tidak perlu masker",
-        "Menunda seluruh pemeriksaan tanpa menilai kebutuhan klinis",
-        "Membuka masker pasien selama perjalanan agar lebih nyaman"
-      ],
-      "answer": 0,
-      "why": "Source control pada pasien, kebersihan tangan, dan komunikasi antarunit membantu mengurangi penyebaran selama transport.",
-      "optionWhy": [
-        "Pilihan ini mengendalikan sumber droplet dan menyiapkan unit penerima.",
-        "Sarung tangan petugas tidak mengendalikan droplet dari pasien.",
-        "Pemeriksaan tidak otomatis dibatalkan; risiko dikelola sesuai kebutuhan.",
-        "Melepas masker mengurangi source control."
-      ]
-    }
-  ],
-  "references": [
-    {
-      "title": "Five Moments for Hand Hygiene",
-      "org": "World Health Organization",
-      "url": "https://www.who.int/publications/m/item/five-moments-for-hand-hygiene"
+      "type": "html",
+      "title": "Pemilihan APD",
+      "caption": "APD dipilih sesuai jenis pajanan yang mungkin terjadi.",
+      "order": 13,
+      "template": {
+        "style": "matrix",
+        "items": [
+          {
+            "title": "Sarung tangan",
+            "text": "Kontak darah/cairan tubuh, mukosa, kulit tidak utuh, atau bahan terkontaminasi."
+          },
+          {
+            "title": "Masker medis",
+            "text": "Risiko droplet atau percikan ke hidung/mulut."
+          },
+          {
+            "title": "Respirator",
+            "text": "Risiko airborne sesuai indikasi dan program fit testing."
+          },
+          {
+            "title": "Pelindung mata/wajah",
+            "text": "Risiko percikan ke mata atau wajah."
+          },
+          {
+            "title": "Gaun/apron",
+            "text": "Risiko kontaminasi pakaian atau kulit."
+          }
+        ],
+        "note": "",
+        "columns": 3
+      }
     },
     {
-      "title": "Hand Hygiene: Why, How & When?",
-      "org": "World Health Organization",
-      "url": "https://cdn.who.int/media/docs/default-source/documents/health-topics/hand-hygiene-why-how-and-when-brochure.pdf"
+      "type": "html",
+      "title": "Warna kantong limbah",
+      "caption": "Pilah di sumber. Benda tajam tidak masuk kantong—gunakan safety box.",
+      "order": 14,
+      "template": {
+        "style": "waste",
+        "items": [
+          {
+            "color": "#1F2937",
+            "title": "Hitam",
+            "text": "Limbah domestik/noninfeksius."
+          },
+          {
+            "color": "#FACC15",
+            "title": "Kuning",
+            "text": "Limbah infeksius, patologis, dan anatomi."
+          },
+          {
+            "color": "#8B2BB3",
+            "title": "Ungu",
+            "text": "Limbah sitotoksik."
+          },
+          {
+            "color": "#8B5A2B",
+            "title": "Cokelat",
+            "text": "Limbah kimia dan farmasi."
+          },
+          {
+            "color": "#D62828",
+            "title": "Merah",
+            "text": "Limbah radioaktif."
+          },
+          {
+            "color": "#F2F5F7",
+            "title": "Safety box",
+            "text": "Jarum, lancet, ampul pecah, dan benda tajam; wadah tahan tusuk dan bocor."
+          }
+        ],
+        "note": "",
+        "columns": 2
+      }
     },
     {
-      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+      "type": "html",
+      "title": "Spill kit darah/cairan tubuh",
+      "caption": "Tangani secara aman tanpa menyebarkan kontaminasi.",
+      "order": 15,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Amankan area",
+            "text": "Batasi akses dan pasang tanda bila diperlukan."
+          },
+          {
+            "title": "Gunakan APD",
+            "text": "Pilih berdasarkan volume, jenis cairan, dan risiko percikan."
+          },
+          {
+            "title": "Serap & dekontaminasi",
+            "text": "Gunakan bahan dan disinfektan sesuai prosedur."
+          },
+          {
+            "title": "Buang & bersihkan",
+            "text": "Pilah limbah, lepaskan APD aman, lalu kebersihan tangan."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
+    },
+    {
+      "type": "html",
+      "title": "Pajanan darah atau cairan tubuh",
+      "caption": "Pertolongan pertama dan pelaporan harus segera.",
+      "order": 16,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Hentikan pajanan",
+            "text": "Cuci kulit dengan air dan sabun; bilas mukosa dengan air mengalir."
+          },
+          {
+            "title": "Jangan memencet luka berlebihan",
+            "text": "Hindari bahan iritatif yang merusak jaringan."
+          },
+          {
+            "title": "Laporkan segera",
+            "text": "Ikuti alur kesehatan kerja/PPI untuk penilaian risiko."
+          },
+          {
+            "title": "Evaluasi & tindak lanjut",
+            "text": "Pemeriksaan, profilaksis bila terindikasi, dan dokumentasi sesuai prosedur."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
     }
   ],
   "summarySections": [
     {
-      "title": "Kewaspadaan standar",
+      "title": "Kewaspadaan standar berlaku universal",
       "points": [
-        "Diterapkan kepada semua pasien berdasarkan risiko pajanan, bukan berdasarkan diagnosis saja.",
-        "Kebersihan tangan, APD, benda tajam, limbah, alat, linen, dan lingkungan merupakan satu rangkaian.",
-        "Sarung tangan tidak menggantikan kebersihan tangan."
+        "Terapkan pada setiap pasien; tambahan kewaspadaan kontak, droplet, atau airborne diberikan sesuai risiko transmisi."
       ]
     },
     {
-      "title": "Lima momen kebersihan tangan",
+      "title": "APD bukan pengganti kebersihan tangan",
       "points": [
-        "Sebelum menyentuh pasien dan sebelum tindakan bersih/aseptik.",
-        "Setelah risiko cairan tubuh, setelah menyentuh pasien, dan setelah menyentuh lingkungan pasien.",
-        "Perpindahan dari area tubuh kotor ke area bersih pada pasien yang sama juga memerlukan kebersihan tangan dan pergantian sarung tangan."
+        "Lakukan kebersihan tangan pada momen yang tepat dan setelah melepas sarung tangan/APD."
       ]
     },
     {
-      "title": "Pilih metode yang tepat",
+      "title": "Pemilahan dimulai dari sumber",
       "points": [
-        "Handrub berbasis alkohol digunakan ketika tangan tidak tampak kotor.",
-        "Sabun dan air mengalir digunakan ketika tangan tampak kotor atau sesuai indikasi khusus.",
-        "Seluruh permukaan tangan harus terkena dan digosok selama durasi yang dianjurkan."
-      ]
-    },
-    {
-      "title": "APD berdasarkan risiko",
-      "points": [
-        "Gunakan APD sesuai potensi kontak dengan darah, cairan tubuh, droplet, aerosol, atau permukaan terkontaminasi.",
-        "Lepaskan APD tanpa menyentuh bagian terkontaminasi dan akhiri dengan kebersihan tangan.",
-        "APD tidak dipakai melintasi area atau pasien bila sudah terkontaminasi."
-      ]
-    },
-    {
-      "title": "Benda tajam, limbah, dan lingkungan",
-      "points": [
-        "Buang benda tajam langsung ke safety box tanpa manipulasi yang tidak perlu.",
-        "Pilah limbah pada sumbernya sesuai kategori dan wadah yang digunakan fasilitas.",
-        "Bersihkan alat serta permukaan setelah digunakan dan saat terkontaminasi."
-      ]
-    },
-    {
-      "title": "Kesalahan yang sering terjadi",
-      "points": [
-        "Menggunakan sarung tangan untuk menyentuh ponsel, komputer, pintu, atau berkas.",
-        "Melewatkan hand hygiene karena tangan terlihat bersih.",
-        "Menyimpan safety box terlalu penuh atau menutup ulang jarum."
+        "Hitam domestik, kuning infeksius/patologis/anatomi, ungu sitotoksik, cokelat kimia/farmasi, merah radioaktif; benda tajam ke safety box."
       ]
     }
-  ]
+  ],
+  "do": [
+    "Pilih APD berdasarkan risiko pajanan.",
+    "Pilah limbah sejak sumbernya.",
+    "Laporkan pajanan segera."
+  ],
+  "dont": [
+    "Menggunakan sarung tangan sebagai pengganti kebersihan tangan.",
+    "Memasukkan benda tajam ke kantong kuning.",
+    "Menunda pelaporan pajanan."
+  ],
+  "quiz": [
+    {
+      "q": "Bahan yang terkontaminasi obat kemoterapi sitotoksik dibuang ke kantong…",
+      "options": [
+        "Hitam",
+        "Kuning",
+        "Ungu",
+        "Merah"
+      ],
+      "answer": 2,
+      "why": "Ungu digunakan untuk limbah sitotoksik."
+    },
+    {
+      "q": "Jarum bekas harus dibuang ke…",
+      "options": [
+        "Kantong kuning",
+        "Safety box tahan tusuk dan bocor",
+        "Kantong hitam",
+        "Kantong cokelat"
+      ],
+      "answer": 1,
+      "why": "Benda tajam memerlukan wadah khusus tahan tusuk dan bocor."
+    },
+    {
+      "q": "Setelah melepas sarung tangan, petugas…",
+      "options": [
+        "Tidak perlu kebersihan tangan",
+        "Tetap melakukan kebersihan tangan",
+        "Menggunakan sarung tangan baru tanpa membersihkan tangan",
+        "Mencuci sarung tangan"
+      ],
+      "answer": 1,
+      "why": "Sarung tangan tidak menggantikan kebersihan tangan."
+    },
+    {
+      "q": "Pajanan percikan ke mata ditangani pertama dengan…",
+      "options": [
+        "Menggosok mata",
+        "Membilas dengan air mengalir dan melapor segera",
+        "Menunggu gejala",
+        "Meneteskan bahan iritatif"
+      ],
+      "answer": 1,
+      "why": "Mukosa perlu segera dibilas dan pajanan dilaporkan untuk penilaian risiko."
+    }
+  ],
+  "references": [
+    {
+      "title": "Keputusan Menteri Kesehatan HK.01.07/MENKES/1596/2024 dan Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Peraturan Menteri Kesehatan Nomor 27 Tahun 2017 tentang Pedoman PPI di Fasilitas Pelayanan Kesehatan",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://peraturan.bpk.go.id/Details/112075/permenkes-no-27-tahun-2017"
+    },
+    {
+      "title": "Limbah Medis—warna kantong limbah fasilitas pelayanan kesehatan",
+      "org": "Direktorat Jenderal Kesehatan Lanjutan, Kemenkes RI",
+      "url": "https://keslan.kemkes.go.id/view_artikel/3680/limbah-medis"
+    }
+  ],
+  "notice": "Terapkan kewaspadaan standar pada setiap pasien. Pilih APD berdasarkan risiko, pilah limbah dari sumber, dan ikuti alur pajanan yang berlaku."
 }

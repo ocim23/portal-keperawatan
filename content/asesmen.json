@@ -1,0 +1,297 @@
+{
+  "id": "asesmen",
+  "title": "Asesmen Pasien",
+  "short": "Asesmen",
+  "desc": "Asesmen awal, skrining risiko, asesmen ulang, dokumentasi, dan eskalasi temuan abnormal.",
+  "category": "Pengkajian Pasien",
+  "color": "#0F766E",
+  "soft": "#E7F7F4",
+  "icon": "monitor",
+  "minutes": 12,
+  "updated": "3 Agustus 2026",
+  "keywords": [
+    "dan",
+    "pasien",
+    "ulang",
+    "abnormal",
+    "skrining",
+    "eskalasi",
+    "awal",
+    "risiko",
+    "dokumentasi",
+    "temuan",
+    "asesmen"
+  ],
+  "slides": [
+    {
+      "type": "image",
+      "asset": "asesmen-01-ringkasan",
+      "title": "Asesmen Pasien",
+      "caption": "Alur pengkajian, skrining risiko, asesmen ulang, dokumentasi, dan tindak lanjut.",
+      "order": 1,
+      "image": "assets/images/main/asesmen/asesmen-01-ringkasan.webp",
+      "thumbnail": "assets/images/thumb/asesmen/asesmen-01-ringkasan-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Alur asesmen keperawatan",
+      "caption": "Asesmen bukan sekali isi: kaji, tindak lanjuti, dan nilai ulang.",
+      "order": 2,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Kaji",
+            "text": "Kumpulkan data subjektif dan objektif yang relevan."
+          },
+          {
+            "title": "Kenali risiko",
+            "text": "Nyeri, jatuh, nutrisi, luka tekan, fungsi, dan kebutuhan khusus."
+          },
+          {
+            "title": "Tindak lanjuti",
+            "text": "Susun rencana, lakukan intervensi, dan eskalasi bila abnormal."
+          },
+          {
+            "title": "Nilai ulang",
+            "text": "Evaluasi respons dan dokumentasikan kondisi terbaru."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
+    },
+    {
+      "type": "html",
+      "title": "Komponen asesmen awal",
+      "caption": "Isi disesuaikan dengan populasi dan unit pelayanan.",
+      "order": 3,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kondisi klinis",
+            "text": "Keluhan, riwayat, tanda vital, pemeriksaan fisik, dan obat yang digunakan."
+          },
+          {
+            "title": "Risiko & fungsi",
+            "text": "Nyeri, jatuh, nutrisi, luka tekan, mobilitas, aktivitas sehari-hari, dan risiko aspirasi bila relevan."
+          },
+          {
+            "title": "Psikososial",
+            "text": "Komunikasi, psikologis, sosial, budaya, spiritual, dan dukungan keluarga."
+          },
+          {
+            "title": "Edukasi",
+            "text": "Kebutuhan belajar, hambatan komunikasi, dan kesiapan menerima informasi."
+          }
+        ],
+        "note": "",
+        "columns": 2
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kapan asesmen ulang?",
+      "caption": "Lakukan saat kondisi atau kebutuhan pasien berubah.",
+      "order": 4,
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Setelah intervensi",
+            "text": "Contoh: setelah analgesik, oksigen, terapi, atau tindakan keperawatan."
+          },
+          {
+            "title": "Perubahan kondisi",
+            "text": "Tanda vital, kesadaran, nyeri, fungsi, perilaku, atau keluhan baru."
+          },
+          {
+            "title": "Transisi pelayanan",
+            "text": "Saat penerimaan, perpindahan unit, pascatindakan, atau menjelang pulang."
+          },
+          {
+            "title": "Sesuai interval",
+            "text": "Ikuti tingkat risiko, instrumen pemantauan, dan ketentuan pelayanan."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
+    },
+    {
+      "type": "html",
+      "title": "Temuan abnormal: jangan berhenti di dokumentasi",
+      "caption": "Gunakan alur yang konsisten sampai respons diterima.",
+      "order": 5,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Validasi",
+            "text": "Ulangi pengukuran bila hasil tidak masuk akal dan cek kondisi pasien."
+          },
+          {
+            "title": "Tindakan awal",
+            "text": "Lakukan intervensi sesuai kewenangan dan kebutuhan segera."
+          },
+          {
+            "title": "Eskalasi SBAR",
+            "text": "Sampaikan situasi, latar, asesmen, dan rekomendasi."
+          },
+          {
+            "title": "Reassessment",
+            "text": "Pastikan ada respons, nilai ulang, dan dokumentasikan tindak lanjut."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
+    },
+    {
+      "type": "html",
+      "title": "Hak pasien dalam proses asesmen",
+      "caption": "Asesmen harus tetap menghormati martabat, privasi, dan partisipasi pasien.",
+      "order": 6,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Privasi",
+            "text": "Jaga tubuh, percakapan, dan informasi pasien dari pihak yang tidak berhak."
+          },
+          {
+            "title": "Informasi",
+            "text": "Jelaskan tujuan pertanyaan atau pemeriksaan dengan bahasa yang dipahami."
+          },
+          {
+            "title": "Partisipasi",
+            "text": "Libatkan pasien/keluarga yang berwenang dalam keputusan dan kebutuhan pelayanan."
+          },
+          {
+            "title": "Kerahasiaan",
+            "text": "Akses dan bagikan data hanya untuk kepentingan pelayanan sesuai ketentuan."
+          }
+        ],
+        "note": "",
+        "columns": 2
+      }
+    },
+    {
+      "type": "html",
+      "title": "Yang sering ditanya surveior",
+      "caption": "Jawaban yang baik selalu menghubungkan asesmen, tindakan, eskalasi, dan evaluasi.",
+      "order": 7,
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Apa skrining wajib di unit Anda?",
+            "text": "Sebutkan instrumen dan tindak lanjutnya."
+          },
+          {
+            "title": "Kapan Anda melakukan asesmen ulang?",
+            "text": "Berikan contoh nyata setelah perubahan kondisi atau intervensi."
+          },
+          {
+            "title": "Apa yang dilakukan bila hasil abnormal?",
+            "text": "Validasi, tindakan awal, eskalasi, reassessment, dokumentasi."
+          }
+        ],
+        "note": "",
+        "columns": 1
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Asesmen berkelanjutan",
+      "points": [
+        "Asesmen awal menjadi dasar rencana asuhan, tetapi kondisi pasien harus terus dinilai ulang.",
+        "Data lama tidak boleh disalin tanpa memverifikasi kondisi aktual."
+      ]
+    },
+    {
+      "title": "Skrining harus ditindaklanjuti",
+      "points": [
+        "Skor risiko tidak cukup hanya dicatat; hasilnya harus memicu intervensi, edukasi, dan pemantauan sesuai risiko."
+      ]
+    },
+    {
+      "title": "Dokumentasi mencerminkan proses klinis",
+      "points": [
+        "Temuan abnormal, komunikasi, tindakan, respons, dan reassessment perlu terlihat berkesinambungan."
+      ]
+    }
+  ],
+  "do": [
+    "Gunakan instrumen sesuai usia dan populasi.",
+    "Lakukan asesmen ulang setelah intervensi atau perubahan kondisi.",
+    "Eskalasi temuan abnormal dan pastikan respons diterima."
+  ],
+  "dont": [
+    "Menyalin asesmen lama tanpa validasi.",
+    "Mencatat skor tanpa intervensi.",
+    "Menganggap dokumentasi sebagai akhir proses."
+  ],
+  "quiz": [
+    {
+      "q": "Pasien mendapat analgesik IV untuk nyeri 7/10. Dokumentasi berikutnya hanya mencatat obat telah diberikan. Kekurangan utama adalah…",
+      "options": [
+        "Tidak ada tanda tangan keluarga",
+        "Tidak ada asesmen ulang nyeri dan respons terapi",
+        "Tidak ada diagnosis medis baru",
+        "Tidak ada foto tindakan"
+      ],
+      "answer": 1,
+      "why": "Efektivitas intervensi harus dievaluasi melalui asesmen ulang dan didokumentasikan."
+    },
+    {
+      "q": "Saat menemukan tekanan darah sangat rendah yang tidak sesuai kondisi pasien, tindakan pertama yang paling tepat adalah…",
+      "options": [
+        "Langsung menghapus hasil",
+        "Validasi pengukuran dan menilai pasien",
+        "Menunggu ronde berikutnya",
+        "Mencatat tanpa tindak lanjut"
+      ],
+      "answer": 1,
+      "why": "Hasil tidak masuk akal perlu divalidasi sambil menilai kondisi klinis pasien."
+    },
+    {
+      "q": "Hasil skrining risiko jatuh tinggi telah dicatat. Langkah berikutnya adalah…",
+      "options": [
+        "Tidak perlu tindakan lain",
+        "Menerapkan intervensi pencegahan dan edukasi sesuai risiko",
+        "Menunggu pasien jatuh",
+        "Mengganti instrumen"
+      ],
+      "answer": 1,
+      "why": "Skrining harus diikuti intervensi, edukasi, dan pemantauan."
+    },
+    {
+      "q": "Pasien pindah dari IGD ke ruang rawat. Asesmen IGD lengkap. Perawat ruang rawat sebaiknya…",
+      "options": [
+        "Menyalin seluruh data tanpa melihat pasien",
+        "Memverifikasi kondisi aktual dan melakukan asesmen penerimaan/ulang yang diperlukan",
+        "Mengabaikan data IGD",
+        "Menunggu dokter"
+      ],
+      "answer": 1,
+      "why": "Transisi pelayanan memerlukan verifikasi kondisi aktual dan kesinambungan asesmen."
+    }
+  ],
+  "references": [
+    {
+      "title": "Keputusan Menteri Kesehatan HK.01.07/MENKES/1596/2024 dan Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Undang-Undang Nomor 17 Tahun 2023 tentang Kesehatan",
+      "org": "Republik Indonesia",
+      "url": "https://peraturan.bpk.go.id/Details/258028/uu-no-17-tahun-2023"
+    }
+  ],
+  "notice": "Asesmen membantu mengenali kebutuhan dan risiko pasien. Gunakan instrumen sesuai populasi, tindak lanjuti temuan, dan lakukan asesmen ulang bila kondisi berubah."
+}

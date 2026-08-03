@@ -1,0 +1,320 @@
+{
+  "id": "mutu",
+  "title": "Mutu & Insiden Keselamatan Pasien",
+  "short": "Mutu & IKP",
+  "desc": "Indikator Nasional Mutu, budaya keselamatan, klasifikasi insiden, pelaporan, dan pembelajaran.",
+  "category": "Peningkatan Mutu",
+  "color": "#155E9A",
+  "soft": "#E9F4FF",
+  "icon": "target",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "keywords": [
+    "dan",
+    "pasien",
+    "klasifikasi",
+    "insiden",
+    "pembelajaran",
+    "indikator",
+    "keselamatan",
+    "nasional",
+    "pelaporan",
+    "mutu",
+    "budaya"
+  ],
+  "slides": [
+    {
+      "type": "image",
+      "asset": "mutu-01-ikp",
+      "title": "Pelaporan Insiden Keselamatan Pasien",
+      "caption": "Utamakan keselamatan, laporkan segera, catat objektif, dan gunakan hasil untuk perbaikan sistem.",
+      "order": 1,
+      "image": "assets/images/main/mutu/mutu-01-ikp.webp",
+      "thumbnail": "assets/images/thumb/mutu/mutu-01-ikp-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "mutu-02-inm",
+      "title": "Indikator Mutu Nasional",
+      "caption": "Peran tenaga keperawatan dalam pencatatan, pelaporan, dan perbaikan mutu.",
+      "order": 2,
+      "image": "assets/images/main/mutu/mutu-02-inm.webp",
+      "thumbnail": "assets/images/thumb/mutu/mutu-02-inm-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Mutu adalah pekerjaan sehari-hari",
+      "caption": "Data mutu berasal dari praktik di unit pelayanan.",
+      "order": 3,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Ukur",
+            "text": "Gunakan definisi indikator, numerator, denominator, dan sumber data yang benar."
+          },
+          {
+            "title": "Analisis",
+            "text": "Lihat tren, variasi, penyebab, dan area prioritas."
+          },
+          {
+            "title": "Perbaiki",
+            "text": "Rancang tindakan yang spesifik dan dapat diuji."
+          },
+          {
+            "title": "Pantau ulang",
+            "text": "Nilai apakah perubahan benar-benar memperbaiki hasil."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
+    },
+    {
+      "type": "html",
+      "title": "13 Indikator Nasional Mutu Rumah Sakit",
+      "caption": "Permenkes 30/2022 menetapkan indikator yang wajib diukur sesuai layanan.",
+      "order": 4,
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Keselamatan dasar",
+            "text": "Kebersihan tangan, penggunaan APD, identifikasi pasien, pencegahan risiko jatuh."
+          },
+          {
+            "title": "Ketepatan waktu",
+            "text": "Seksio sesarea emergensi, waktu tunggu rawat jalan, penundaan operasi elektif, waktu visite dokter."
+          },
+          {
+            "title": "Proses klinis",
+            "text": "Pelaporan hasil kritis laboratorium, formularium nasional, clinical pathway."
+          },
+          {
+            "title": "Pengalaman pasien",
+            "text": "Kecepatan respons komplain dan kepuasan pasien."
+          }
+        ],
+        "note": "",
+        "columns": 2
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat dalam INM",
+      "caption": "Perawat berkontribusi melalui praktik dan kualitas data.",
+      "order": 5,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kebersihan tangan & APD",
+            "text": "Lakukan sesuai peluang/indikasi; bukan hanya saat diawasi."
+          },
+          {
+            "title": "Identifikasi pasien",
+            "text": "Verifikasi aktif di setiap titik kritis."
+          },
+          {
+            "title": "Risiko jatuh",
+            "text": "Skrining, intervensi, edukasi, dan evaluasi."
+          },
+          {
+            "title": "Data yang benar",
+            "text": "Dokumentasi tepat waktu, lengkap, dan sesuai definisi indikator."
+          }
+        ],
+        "note": "",
+        "columns": 2
+      }
+    },
+    {
+      "type": "html",
+      "title": "Klasifikasi Insiden Keselamatan Pasien",
+      "caption": "Tujuan pelaporan adalah pembelajaran dan pencegahan berulang.",
+      "order": 6,
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "KPCS",
+            "title": "Kondisi Potensial Cedera Signifikan",
+            "text": "Kondisi berbahaya yang berpotensi menyebabkan cedera."
+          },
+          {
+            "level": "KNC",
+            "title": "Kejadian Nyaris Cedera",
+            "text": "Insiden belum mencapai pasien."
+          },
+          {
+            "level": "KTC",
+            "title": "Kejadian Tidak Cedera",
+            "text": "Insiden mencapai pasien tetapi tidak menimbulkan cedera."
+          },
+          {
+            "level": "KTD",
+            "title": "Kejadian Tidak Diharapkan",
+            "text": "Insiden mengakibatkan cedera yang tidak terkait perjalanan penyakit."
+          },
+          {
+            "level": "Sentinel",
+            "title": "Kejadian Sentinel",
+            "text": "Kejadian serius yang memerlukan respons dan analisis mendalam sesuai kriteria."
+          }
+        ],
+        "note": "",
+        "columns": 1
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur saat insiden terjadi",
+      "caption": "Keselamatan pasien didahulukan; laporan bukan pengganti dokumentasi klinis.",
+      "order": 7,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Amankan pasien",
+            "text": "Lakukan pertolongan, asesmen, dan eskalasi."
+          },
+          {
+            "title": "Dokumentasi klinis",
+            "text": "Catat fakta kondisi, tindakan, dan respons di rekam medis."
+          },
+          {
+            "title": "Laporan insiden",
+            "text": "Laporkan melalui sistem internal sesuai waktu dan jalur."
+          },
+          {
+            "title": "Analisis & perbaikan",
+            "text": "Grading, investigasi/RCA sesuai risiko, tindak lanjut, dan monitoring."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
+    },
+    {
+      "type": "html",
+      "title": "Budaya keselamatan",
+      "caption": "Pelaporan yang baik mencari perbaikan sistem, bukan menyederhanakan masalah menjadi siapa yang salah.",
+      "order": 8,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Terbuka dan adil",
+            "text": "Bedakan human error, perilaku berisiko, dan pelanggaran sengaja."
+          },
+          {
+            "title": "Belajar dari near miss",
+            "text": "KNC sering menunjukkan celah sebelum terjadi cedera."
+          },
+          {
+            "title": "Umpan balik",
+            "text": "Pelapor dan unit perlu mengetahui pembelajaran serta perbaikan."
+          }
+        ],
+        "note": "",
+        "columns": 3
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "INM rumah sakit terdiri dari 13 indikator",
+      "points": [
+        "Indikator mencakup kepatuhan keselamatan dasar, ketepatan waktu, proses klinis, respons komplain, dan kepuasan pasien."
+      ]
+    },
+    {
+      "title": "Pelaporan IKP berbeda dari dokumentasi klinis",
+      "points": [
+        "Rekam medis mencatat kondisi dan pelayanan pasien; laporan insiden digunakan untuk analisis dan pembelajaran sistem."
+      ]
+    },
+    {
+      "title": "Near miss tetap penting",
+      "points": [
+        "Kejadian yang belum mencapai pasien dapat mengungkap risiko sebelum menimbulkan cedera."
+      ]
+    }
+  ],
+  "do": [
+    "Laporkan insiden secara faktual dan tepat waktu.",
+    "Utamakan pertolongan pasien.",
+    "Gunakan data untuk perbaikan berkelanjutan."
+  ],
+  "dont": [
+    "Menutupi KNC karena belum ada cedera.",
+    "Menulis opini atau menyalahkan individu dalam laporan.",
+    "Menganggap indikator hanya tugas komite mutu."
+  ],
+  "quiz": [
+    {
+      "q": "Obat salah sudah disiapkan tetapi diketahui sebelum diberikan kepada pasien. Klasifikasinya adalah…",
+      "options": [
+        "KNC",
+        "KTC",
+        "KTD",
+        "Sentinel"
+      ],
+      "answer": 0,
+      "why": "Insiden belum mencapai pasien sehingga termasuk kejadian nyaris cedera."
+    },
+    {
+      "q": "Insiden mencapai pasien tetapi tidak menimbulkan cedera disebut…",
+      "options": [
+        "KPCS",
+        "KNC",
+        "KTC",
+        "KTD"
+      ],
+      "answer": 2,
+      "why": "KTC adalah kejadian yang mencapai pasien namun tidak menimbulkan cedera."
+    },
+    {
+      "q": "Saat insiden terjadi, prioritas pertama adalah…",
+      "options": [
+        "Mengisi laporan",
+        "Mengamankan dan menangani pasien",
+        "Mencari siapa yang salah",
+        "Menghapus bukti"
+      ],
+      "answer": 1,
+      "why": "Keselamatan dan penanganan klinis pasien selalu didahulukan."
+    },
+    {
+      "q": "Salah satu INM rumah sakit yang sangat terkait perawat adalah…",
+      "options": [
+        "Kepatuhan upaya pencegahan risiko pasien jatuh",
+        "Jumlah parkir",
+        "Warna seragam",
+        "Jumlah rapat"
+      ],
+      "answer": 0,
+      "why": "Pencegahan risiko jatuh adalah salah satu dari 13 INM rumah sakit."
+    }
+  ],
+  "references": [
+    {
+      "title": "Keputusan Menteri Kesehatan HK.01.07/MENKES/1596/2024 dan Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Peraturan Menteri Kesehatan Nomor 30 Tahun 2022 tentang Indikator Nasional Mutu",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/peraturan-menteri-kesehatan-nomor-30-tahun-2022"
+    },
+    {
+      "title": "Peraturan Menteri Kesehatan Nomor 11 Tahun 2017 tentang Keselamatan Pasien",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://peraturan.bpk.go.id/Details/112075/permenkes-no-11-tahun-2017"
+    }
+  ],
+  "notice": "Mutu dibangun dari praktik yang konsisten dan data yang benar. Pelaporan insiden bertujuan melindungi pasien dan memperbaiki sistem, bukan mencari kambing hitam."
+}

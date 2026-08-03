@@ -1,0 +1,360 @@
+{
+  "id": "kegawatdaruratan",
+  "title": "Kegawatdaruratan Klinis",
+  "short": "Kegawatdaruratan",
+  "desc": "EWS, eskalasi klinis, Bantuan Hidup Dasar AHA 2025, dan aktivasi Code Blue.",
+  "category": "Respons Klinis",
+  "color": "#D93045",
+  "soft": "#FFF0F2",
+  "icon": "heart",
+  "minutes": 16,
+  "updated": "3 Agustus 2026",
+  "keywords": [
+    "dan",
+    "code",
+    "bantuan",
+    "klinis",
+    "aktivasi",
+    "eskalasi",
+    "hidup",
+    "ews",
+    "2025",
+    "dasar",
+    "aha",
+    "blue",
+    "kegawatdaruratan"
+  ],
+  "slides": [
+    {
+      "type": "image",
+      "asset": "kegawat-01-code-blue",
+      "title": "Code Blue di Rumah Sakit",
+      "caption": "Kenali kondisi gawat, aktifkan sistem, mulai bantuan dasar, siapkan alat, dan kolaborasi tim.",
+      "order": 1,
+      "image": "assets/images/main/kegawatdaruratan/kegawat-01-code-blue.webp",
+      "thumbnail": "assets/images/thumb/kegawatdaruratan/kegawat-01-code-blue-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "kegawat-02-ews",
+      "title": "EWS / NEWS2",
+      "caption": "Deteksi dini perburukan pasien dan respons awal berdasarkan skor serta kondisi klinis.",
+      "order": 2,
+      "image": "assets/images/main/kegawatdaruratan/kegawat-02-ews.webp",
+      "thumbnail": "assets/images/thumb/kegawatdaruratan/kegawat-02-ews-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Deteksi dini hingga Code Blue",
+      "caption": "Kenali perburukan sebelum pasien mengalami henti napas atau henti jantung.",
+      "order": 3,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Pantau",
+            "text": "Ukur tanda vital dan amati perubahan klinis."
+          },
+          {
+            "title": "Skor & tren",
+            "text": "Gunakan EWS sesuai populasi dan bandingkan dari waktu ke waktu."
+          },
+          {
+            "title": "Eskalasi",
+            "text": "Lakukan respons awal dan komunikasikan dengan SBAR."
+          },
+          {
+            "title": "Aktivasi darurat",
+            "text": "Aktifkan sistem respons/Code Blue bila terjadi henti napas atau henti jantung."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
+    },
+    {
+      "type": "html",
+      "title": "NEWS2: parameter utama",
+      "caption": "Gunakan chart resmi dan skala SpO₂ yang sesuai.",
+      "order": 4,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Frekuensi napas",
+            "text": "Salah satu prediktor dini perburukan."
+          },
+          {
+            "title": "SpO₂ & oksigen",
+            "text": "Catat saturasi dan penggunaan oksigen tambahan."
+          },
+          {
+            "title": "Tekanan sistolik",
+            "text": "Nilai hipotensi maupun hipertensi ekstrem."
+          },
+          {
+            "title": "Nadi",
+            "text": "Perhatikan bradikardia atau takikardia."
+          },
+          {
+            "title": "Suhu",
+            "text": "Nilai hipotermia maupun demam."
+          },
+          {
+            "title": "Kesadaran",
+            "text": "AVPU dan kebingungan baru."
+          }
+        ],
+        "note": "",
+        "columns": 3
+      }
+    },
+    {
+      "type": "html",
+      "title": "NEWS2: respons klinis",
+      "caption": "Skor tidak menggantikan kekhawatiran klinis.",
+      "order": 5,
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "0",
+            "title": "Skor 0",
+            "text": "Observasi minimal setiap 12 jam bila kondisi stabil."
+          },
+          {
+            "level": "1–4",
+            "title": "Risiko rendah",
+            "text": "Observasi minimal setiap 4–6 jam dan penilaian klinis oleh perawat terdaftar."
+          },
+          {
+            "level": "3 tunggal",
+            "title": "Satu parameter skor 3",
+            "text": "Observasi minimal setiap jam dan informasikan kepada tim medis."
+          },
+          {
+            "level": "5–6",
+            "title": "Risiko sedang",
+            "text": "Observasi minimal setiap jam; asesmen segera dan pertimbangkan eskalasi ke tim dengan kompetensi critical care."
+          },
+          {
+            "level": "≥7",
+            "title": "Risiko tinggi",
+            "text": "Pemantauan kontinu, respons kegawatdaruratan, asesmen segera oleh tim kompeten critical care, dan pertimbangkan area perawatan lebih tinggi."
+          }
+        ],
+        "note": "",
+        "columns": 1
+      }
+    },
+    {
+      "type": "html",
+      "title": "PEWS dan MEOWS",
+      "caption": "Threshold NEWS2 tidak otomatis digunakan untuk anak atau maternitas.",
+      "order": 6,
+      "template": {
+        "style": "split",
+        "items": [
+          {
+            "title": "PEWS—anak",
+            "text": "Gunakan chart sesuai kelompok usia; nilai perilaku, respirasi, kardiovaskular, dan kekhawatiran orang tua/petugas."
+          },
+          {
+            "title": "MEOWS—kehamilan/nifas",
+            "text": "Gunakan chart maternitas; perhatikan tanda vital, perdarahan, nyeri abnormal, gejala preeklamsia, sepsis, dan perubahan cepat."
+          }
+        ],
+        "note": "",
+        "columns": 2
+      }
+    },
+    {
+      "type": "html",
+      "title": "BHD dewasa—AHA Guidelines 2025",
+      "caption": "Aktifkan sistem respons internal rumah sakit dan lakukan RJP berkualitas.",
+      "order": 7,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Kenali",
+            "text": "Tidak respons, tidak bernapas normal/megap-megap, cek nadi sesuai kompetensi tanpa menunda."
+          },
+          {
+            "title": "Aktifkan bantuan",
+            "text": "Panggil Code Blue dan minta AED/defibrilator."
+          },
+          {
+            "title": "Kompresi berkualitas",
+            "text": "100–120/menit, kedalaman sekitar 5–6 cm, recoil penuh, interupsi minimal."
+          },
+          {
+            "title": "AED & lanjutkan",
+            "text": "Pasang segera, ikuti instruksi, dan lanjutkan siklus sesuai algoritma."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
+    },
+    {
+      "type": "html",
+      "title": "Tersedak dewasa sadar",
+      "caption": "AHA 2025: siklus 5 tepukan punggung dan 5 hentakan perut.",
+      "order": 8,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Kenali sumbatan berat",
+            "text": "Tidak mampu bicara/batuk efektif, suara lemah, atau sianosis."
+          },
+          {
+            "title": "5 tepukan punggung",
+            "text": "Berikan di antara tulang belikat."
+          },
+          {
+            "title": "5 hentakan perut",
+            "text": "Ulangi bergantian sampai benda keluar atau pasien tidak respons."
+          },
+          {
+            "title": "Kehamilan lanjut/abdomen tidak dapat dilingkari",
+            "text": "Gunakan hentakan dada sebagai pengganti hentakan perut."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
+    },
+    {
+      "type": "html",
+      "title": "Code Blue: peran penemu pasien",
+      "caption": "Nomor panggilan, komposisi tim, dan alur lokal mengikuti sistem fasilitas.",
+      "order": 9,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Aktifkan",
+            "text": "Sebutkan lokasi secara jelas dan kondisi henti napas/jantung."
+          },
+          {
+            "title": "Mulai BHD",
+            "text": "Jangan menunggu tim datang bila aman dan kompeten."
+          },
+          {
+            "title": "Siapkan alat",
+            "text": "AED/defibrilator, emergency trolley, oksigen, suction, dan akses sesuai kebutuhan."
+          },
+          {
+            "title": "Serah terima & dokumentasi",
+            "text": "Catat waktu, tindakan, respons, dan lakukan debrief/evaluasi."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "EWS adalah sistem deteksi dan respons",
+      "points": [
+        "Gunakan instrumen sesuai populasi, lihat tren, lakukan respons awal, eskalasi, dan reassessment."
+      ]
+    },
+    {
+      "title": "NEWS2 ≥7 bukan otomatis pindah ICU",
+      "points": [
+        "Diperlukan pemantauan kontinu dan asesmen segera oleh tim kompeten critical care; transfer ke area lebih tinggi dipertimbangkan berdasarkan asesmen."
+      ]
+    },
+    {
+      "title": "Code Blue adalah sistem internal",
+      "points": [
+        "Aktivasi, nomor, lokasi tim, dan alur kerja mengikuti fasilitas; penemu pasien tetap memulai BHD segera."
+      ]
+    }
+  ],
+  "do": [
+    "Aktifkan bantuan dini.",
+    "Gunakan SBAR saat eskalasi.",
+    "Mulai BHD dan gunakan AED sesegera mungkin."
+  ],
+  "dont": [
+    "Menunggu skor tinggi bila kondisi pasien tampak memburuk.",
+    "Menunda BHD sambil menunggu tim.",
+    "Menggunakan threshold NEWS2 untuk semua populasi."
+  ],
+  "quiz": [
+    {
+      "q": "NEWS2 total 7 atau lebih membutuhkan…",
+      "options": [
+        "Observasi 12 jam",
+        "Pemantauan kontinu dan asesmen segera oleh tim kompeten critical care",
+        "Tidak perlu eskalasi bila pasien sadar",
+        "Otomatis dipulangkan"
+      ],
+      "answer": 1,
+      "why": "NEWS2 ≥7 adalah risiko tinggi dan memerlukan respons kegawatdaruratan serta asesmen critical care."
+    },
+    {
+      "q": "Satu parameter NEWS2 bernilai 3 meskipun total rendah berarti…",
+      "options": [
+        "Tidak penting",
+        "Perlu observasi minimal tiap jam dan informasi ke tim medis",
+        "Harus otomatis ICU",
+        "Tidak perlu dicatat"
+      ],
+      "answer": 1,
+      "why": "Skor tunggal 3 adalah red flag yang memerlukan respons lebih cepat."
+    },
+    {
+      "q": "Pada sumbatan jalan napas berat dewasa sadar, AHA 2025 menganjurkan…",
+      "options": [
+        "Hanya hentakan perut",
+        "5 tepukan punggung dan 5 hentakan perut bergantian",
+        "Memberi minum",
+        "Sapuan jari buta"
+      ],
+      "answer": 1,
+      "why": "Algoritma AHA 2025 menggunakan siklus 5 back blows dan 5 abdominal thrusts."
+    },
+    {
+      "q": "Saat menemukan pasien tidak respons dan tidak bernapas normal di rumah sakit, tindakan yang tepat adalah…",
+      "options": [
+        "Menunggu dokter",
+        "Aktifkan Code Blue dan mulai BHD",
+        "Memindahkan pasien tanpa penilaian",
+        "Mencari keluarga dahulu"
+      ],
+      "answer": 1,
+      "why": "Aktivasi sistem dan BHD harus dimulai segera."
+    }
+  ],
+  "references": [
+    {
+      "title": "Keputusan Menteri Kesehatan HK.01.07/MENKES/1596/2024 dan Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "2025 AHA Guidelines for CPR and ECC—Adult Basic Life Support",
+      "org": "American Heart Association",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
+    },
+    {
+      "title": "NEWS2: Standardising the assessment of acute-illness severity",
+      "org": "Royal College of Physicians",
+      "url": "https://www.rcp.ac.uk/improving-care/resources/national-early-warning-score-news-2/"
+    },
+    {
+      "title": "Mengenal Istilah Code Blue",
+      "org": "Direktorat Jenderal Kesehatan Lanjutan, Kemenkes RI",
+      "url": "https://keslan.kemkes.go.id/view_artikel/1182/mengenal-istilah-code-blue"
+    }
+  ],
+  "notice": "Materi ini membantu mengingat respons kegawatdaruratan. Dalam kondisi nyata, segera aktifkan sistem respons internal dan ikuti pelatihan serta kebijakan yang berlaku."
+}

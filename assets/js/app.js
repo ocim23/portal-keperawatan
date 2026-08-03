@@ -255,7 +255,7 @@ function renderLearn() {
           ? "<img class=\"ak-poster-image\" src=\"" + assetSrc(s.asset,'main') + "\" alt=\"" + esc(s.title) + "\" data-action=\"open-lightbox\" data-asset=\"" + s.asset + "\" loading=\"eager\" decoding=\"async\" fetchpriority=\"high\">"
           : "<div class=\"ak-missing-asset\"><div><strong>Gambar belum terhubung</strong><p>Unggah folder WebP ke Drive lalu jalankan <code>setupPortalAssets(rootFolderId)</code>.</p></div></div>";
     } else {
-        content = "<div class=\"ak-slide-html\">" + renderTemplate(s.template,m) + "</div>";
+        content = "<div class=\"ak-slide-html\">" + renderTemplate(s,m) + "</div>";
     }
 
     var prevDisabled = i === 0 ? ' disabled' : '';
@@ -273,7 +273,7 @@ function renderLearn() {
     stage.addEventListener('touchstart', function(e){ touchStartX = e.changedTouches[0].screenX; }, {passive:true});
     stage.addEventListener('touchend', function(e){
         var dx = e.changedTouches[0].screenX - touchStartX;
-        if (Math.abs(dx) > 60) setSlide(i + (dx < 0 ? 1 : -1));
+        if (Math.abs(dx) > 60 && !e.target.closest('.ak-native')) setSlide(i + (dx < 0 ? 1 : -1));
     }, {passive:true});
     var activeImg = stage.querySelector('img');
     if (activeImg) activeImg.addEventListener('error', function(){ activeImg.src = MISSING_ASSET; });
@@ -441,6 +441,23 @@ function openLightbox(asset) {
 function closeLightbox() { $('#lightbox').classList.remove('open'); }
 function zoomLightbox(delta) { lightboxZoom = Math.min(3, Math.max(.7, lightboxZoom + delta)); $('#lightboxImage').style.transform = "scale(".concat(lightboxZoom, ")"); }
 function renderTemplate(t, m) {
+    if (t && typeof t === 'object') {
+        var slide = t;
+        var cfg = slide.template || {};
+        var items = cfg.items || [];
+        var style = cfg.style || 'cards';
+        var escColor = function(v){ return /^#[0-9A-Fa-f]{6}$/.test(v || '') ? v : '#0F766E'; };
+        var item = function(x, i) {
+            var marker = x.level || String(i + 1);
+            var dot = x.color ? '<span class="ak-native-color" style="--item-color:' + escColor(x.color) + '"></span>' : '<span class="ak-native-marker">' + esc(marker) + '</span>';
+            return '<article class="ak-native-item">' + dot + '<div><h3>' + esc(x.title || '') + '</h3><p>' + esc(x.text || '') + '</p></div></article>';
+        };
+        var cls = 'ak-native ak-native-' + style;
+        var cols = Math.max(1, Math.min(5, Number(cfg.columns || 3)));
+        var body = items.map(item).join('');
+        var note = cfg.note ? '<div class="ak-native-note">' + ICONS.alert + '<span>' + esc(cfg.note) + '</span></div>' : '';
+        return '<div class="' + cls + '" style="--native-cols:' + cols + '"><div class="ak-native-head"><span class="ak-native-kicker">' + esc(m.category || '') + '</span><h2>' + esc(slide.title || '') + '</h2><p>' + esc(slide.caption || '') + '</p></div><div class="ak-native-grid">' + body + '</div>' + note + '</div>';
+    }
     var card = function (n, title, text) { return "<article class=\"ak-visual-card\"><div class=\"ak-step-badge\">".concat(n, "</div><h3>").concat(title, "</h3><p>").concat(text, "</p></article>"); };
     if (t === 'rights-full') {
         return "<div class=\"ak-full-material\"><div class=\"ak-full-head\"><h2>Hak Pasien</h2><p>Daftar lengkap yang digunakan dalam materi internal.</p></div><ol class=\"ak-full-list\">" +

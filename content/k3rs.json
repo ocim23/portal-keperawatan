@@ -1,0 +1,346 @@
+{
+  "id": "k3rs",
+  "title": "K3RS & Tanggap Darurat",
+  "short": "K3RS",
+  "desc": "APAR, respons awal kebakaran, evakuasi, keselamatan diri, dan kesiapsiagaan unit.",
+  "category": "Keselamatan Fasilitas",
+  "color": "#E47A13",
+  "soft": "#FFF3E6",
+  "icon": "fire",
+  "minutes": 11,
+  "updated": "3 Agustus 2026",
+  "keywords": [
+    "dan",
+    "diri",
+    "apar",
+    "unit",
+    "kebakaran",
+    "evakuasi",
+    "tanggap",
+    "respons",
+    "keselamatan",
+    "kesiapsiagaan",
+    "darurat",
+    "awal",
+    "k3rs"
+  ],
+  "slides": [
+    {
+      "type": "image",
+      "asset": "apar-01-pengecekan-awal",
+      "title": "APAR 1 · Pengecekan Awal",
+      "caption": "Pastikan APAR siap dan kondisi aman.",
+      "order": 1,
+      "image": "assets/images/main/apar/apar-01-pengecekan-awal.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-01-pengecekan-awal-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "apar-02-pin-uji-kesiapan",
+      "title": "APAR 2 · Pin dan Kesiapan",
+      "caption": "Lepaskan pengaman dan siapkan alat.",
+      "order": 2,
+      "image": "assets/images/main/apar/apar-02-pin-uji-kesiapan.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-02-pin-uji-kesiapan-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "apar-03-posisi-jarak-aman",
+      "title": "APAR 3 · Posisi dan Jarak Aman",
+      "caption": "Pertahankan jalur keluar dan jarak aman.",
+      "order": 3,
+      "image": "assets/images/main/apar/apar-03-posisi-jarak-aman.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-03-posisi-jarak-aman-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "apar-04-teknik-menyemprot",
+      "title": "APAR 4 · Teknik Menyemprot",
+      "caption": "Arahkan media pemadam ke pangkal api.",
+      "order": 4,
+      "image": "assets/images/main/apar/apar-04-teknik-menyemprot.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-04-teknik-menyemprot-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "asset": "apar-05-mundur-waspada",
+      "title": "APAR 5 · Mundur dan Waspada",
+      "caption": "Pantau kemungkinan api menyala kembali.",
+      "order": 5,
+      "image": "assets/images/main/apar/apar-05-mundur-waspada.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-05-mundur-waspada-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Saat melihat api atau asap",
+      "caption": "Utamakan alarm, keselamatan pasien, jalur keluar, dan keselamatan diri.",
+      "order": 6,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Rescue",
+            "text": "Selamatkan orang yang terancam langsung bila aman."
+          },
+          {
+            "title": "Alarm",
+            "text": "Aktifkan alarm/kode dan hubungi pusat informasi sesuai sistem."
+          },
+          {
+            "title": "Confine",
+            "text": "Tutup pintu untuk membatasi asap/api bila memungkinkan."
+          },
+          {
+            "title": "Extinguish/Evacuate",
+            "text": "Gunakan APAR untuk api awal atau lakukan evakuasi bila tidak aman."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
+    },
+    {
+      "type": "html",
+      "title": "Pengecekan APAR sebelum digunakan",
+      "caption": "Jangan menggunakan alat yang tidak siap atau tidak sesuai.",
+      "order": 7,
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Jenis media",
+            "text": "Pastikan sesuai kelas kebakaran."
+          },
+          {
+            "title": "Tekanan & indikator",
+            "text": "Jarum berada pada zona operasional bila menggunakan manometer."
+          },
+          {
+            "title": "Pin dan segel",
+            "text": "Utuh dan mudah dilepas saat diperlukan."
+          },
+          {
+            "title": "Selang/nozzle",
+            "text": "Tidak tersumbat, retak, atau rusak."
+          },
+          {
+            "title": "Akses & tanggal inspeksi",
+            "text": "Mudah dijangkau dan pemeriksaan masih berlaku."
+          }
+        ],
+        "note": "",
+        "columns": 2
+      }
+    },
+    {
+      "type": "html",
+      "title": "Teknik menggunakan APAR",
+      "caption": "Ambil posisi aman dengan jalur mundur tetap tersedia.",
+      "order": 8,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Tarik pin",
+            "text": "Lepaskan pengaman."
+          },
+          {
+            "title": "Arahkan nozzle",
+            "text": "Ke pangkal api, bukan ke asap atau puncak nyala."
+          },
+          {
+            "title": "Tekan tuas",
+            "text": "Uji semprot singkat bila diperlukan untuk memastikan alat bekerja."
+          },
+          {
+            "title": "Sapukan",
+            "text": "Gerakkan dari sisi ke sisi sambil menjaga jarak aman."
+          }
+        ],
+        "note": "",
+        "columns": 4
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kapan harus mundur?",
+      "caption": "APAR hanya untuk kebakaran tahap awal dan kondisi yang masih aman.",
+      "order": 9,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Api membesar cepat",
+            "text": "Hentikan pemadaman dan fokus evakuasi."
+          },
+          {
+            "title": "Asap tebal/beracun",
+            "text": "Jangan masuk tanpa perlindungan dan pelatihan."
+          },
+          {
+            "title": "Jalur keluar terancam",
+            "text": "Jangan biarkan api berada di antara Anda dan pintu keluar."
+          },
+          {
+            "title": "APAR habis/tidak efektif",
+            "text": "Tutup area bila aman dan evakuasi."
+          }
+        ],
+        "note": "",
+        "columns": 2
+      }
+    },
+    {
+      "type": "html",
+      "title": "Evakuasi pasien",
+      "caption": "Urutan dan metode mengikuti kondisi pasien serta sistem fasilitas.",
+      "order": 10,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Horizontal lebih dahulu",
+            "text": "Pindahkan ke kompartemen aman pada lantai yang sama bila memungkinkan."
+          },
+          {
+            "title": "Prioritas klinis",
+            "text": "Pasien ambulatory, bantuan kursi/bed, dan pasien kritis memerlukan strategi berbeda."
+          },
+          {
+            "title": "Peralatan penting",
+            "text": "Pertahankan oksigen, obat, rekam ringkas, dan alat penyelamat bila aman."
+          },
+          {
+            "title": "Akuntabilitas",
+            "text": "Pastikan jumlah pasien/staf dan lokasi tujuan tercatat."
+          }
+        ],
+        "note": "",
+        "columns": 2
+      }
+    },
+    {
+      "type": "html",
+      "title": "Yang harus diketahui setiap staf",
+      "caption": "Informasi lokal perlu dipelajari di unit masing-masing.",
+      "order": 11,
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Nomor alarm/kode",
+            "text": "Cara mengaktifkan respons kebakaran dan bencana."
+          },
+          {
+            "title": "APAR dan hydrant terdekat",
+            "text": "Lokasi dan jalur akses."
+          },
+          {
+            "title": "Jalur evakuasi & titik kumpul",
+            "text": "Termasuk alternatif bila jalur utama tertutup."
+          },
+          {
+            "title": "Peran saat insiden",
+            "text": "Siapa memimpin, siapa membawa pasien, alat, dan daftar."
+          }
+        ],
+        "note": "",
+        "columns": 2
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "APAR bukan satu-satunya respons",
+      "points": [
+        "Alarm, pembatasan api/asap, evakuasi, dan keselamatan diri sama pentingnya."
+      ]
+    },
+    {
+      "title": "Gunakan hanya bila aman",
+      "points": [
+        "Api masih tahap awal, alat sesuai, jalur keluar tersedia, dan petugas mampu menggunakannya."
+      ]
+    },
+    {
+      "title": "Setiap unit harus mengenali lingkungan",
+      "points": [
+        "Lokasi APAR, jalur evakuasi, titik kumpul, dan nomor aktivasi harus diketahui tanpa mencari saat insiden terjadi."
+      ]
+    }
+  ],
+  "do": [
+    "Posisikan diri dekat jalur keluar.",
+    "Arahkan nozzle ke pangkal api.",
+    "Mundur bila situasi tidak aman."
+  ],
+  "dont": [
+    "Melawan api yang membesar.",
+    "Membiarkan api menghalangi pintu keluar.",
+    "Menganggap uji semprot sebagai kesalahan otomatis."
+  ],
+  "quiz": [
+    {
+      "q": "Nozzle APAR diarahkan ke…",
+      "options": [
+        "Puncak asap",
+        "Pangkal api",
+        "Langit-langit",
+        "Tubuh orang"
+      ],
+      "answer": 1,
+      "why": "Media pemadam perlu diarahkan ke sumber/pangkal api."
+    },
+    {
+      "q": "Kondisi yang mengharuskan petugas mundur adalah…",
+      "options": [
+        "Api kecil dan jalur keluar aman",
+        "Asap tebal dan jalur keluar terancam",
+        "APAR siap digunakan",
+        "Petugas telah terlatih"
+      ],
+      "answer": 1,
+      "why": "Keselamatan diri dan jalur evakuasi harus diprioritaskan."
+    },
+    {
+      "q": "Uji semprot singkat APAR dapat dilakukan untuk…",
+      "options": [
+        "Bermain dengan alat",
+        "Memastikan alat bekerja sebelum mengarahkan ke api, sesuai prosedur",
+        "Menghabiskan isi",
+        "Menggantikan inspeksi"
+      ],
+      "answer": 1,
+      "why": "Uji semprot dapat menjadi bagian langkah penggunaan sesuai petunjuk dan prosedur."
+    },
+    {
+      "q": "Evakuasi horizontal berarti…",
+      "options": [
+        "Turun tangga langsung",
+        "Pindah ke kompartemen aman pada lantai yang sama",
+        "Keluar kota",
+        "Membawa pasien ke atap"
+      ],
+      "answer": 1,
+      "why": "Evakuasi horizontal memindahkan pasien ke area aman pada lantai yang sama."
+    }
+  ],
+  "references": [
+    {
+      "title": "Keputusan Menteri Kesehatan HK.01.07/MENKES/1596/2024 dan Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Peraturan Menteri Kesehatan Nomor 66 Tahun 2016 tentang K3 Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://peraturan.bpk.go.id/Details/114482/permenkes-no-66-tahun-2016"
+    }
+  ],
+  "notice": "Utamakan alarm, jalur evakuasi, dan keselamatan diri. Gunakan APAR hanya pada kebakaran tahap awal ketika jenis alat sesuai dan kondisi masih aman."
+}

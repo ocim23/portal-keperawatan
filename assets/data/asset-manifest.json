@@ -1,175 +1,192 @@
 {
-  "version": 1,
+  "version": 2,
   "modules": {
-    "skp": [
+    "asesmen": [
       {
         "order": 1,
-        "main": "assets/images/main/skp/skp-01-identifikasi-pasien.webp",
-        "thumbnail": "assets/images/thumb/skp/skp-01-identifikasi-pasien-thumb.webp",
+        "asset": "asesmen-01-ringkasan",
+        "main": "assets/images/main/asesmen/asesmen-01-ringkasan.webp",
+        "thumbnail": "assets/images/thumb/asesmen/asesmen-01-ringkasan-thumb.webp",
+        "version": 1
+      }
+    ],
+    "keselamatan": [
+      {
+        "order": 1,
+        "asset": "keselamatan-01-gelang",
+        "main": "assets/images/main/keselamatan/keselamatan-01-gelang.webp",
+        "thumbnail": "assets/images/thumb/keselamatan/keselamatan-01-gelang-thumb.webp",
         "version": 1
       },
       {
         "order": 2,
-        "main": "assets/images/main/skp/skp-02-komunikasi-efektif.webp",
-        "thumbnail": "assets/images/thumb/skp/skp-02-komunikasi-efektif-thumb.webp",
+        "asset": "keselamatan-02-jatuh",
+        "main": "assets/images/main/keselamatan/keselamatan-02-jatuh.webp",
+        "thumbnail": "assets/images/thumb/keselamatan/keselamatan-02-jatuh-thumb.webp",
         "version": 1
       },
       {
         "order": 3,
-        "main": "assets/images/main/skp/skp-03-keamanan-obat.webp",
-        "thumbnail": "assets/images/thumb/skp/skp-03-keamanan-obat-thumb.webp",
+        "asset": "keselamatan-03-komunikasi",
+        "main": "assets/images/main/keselamatan/keselamatan-03-komunikasi.webp",
+        "thumbnail": "assets/images/thumb/keselamatan/keselamatan-03-komunikasi-thumb.webp",
         "version": 1
       },
       {
         "order": 4,
-        "main": "assets/images/main/skp/skp-04-tepat-pasien-prosedur-lokasi.webp",
-        "thumbnail": "assets/images/thumb/skp/skp-04-tepat-pasien-prosedur-lokasi-thumb.webp",
-        "version": 1
-      },
-      {
-        "order": 5,
-        "main": "assets/images/main/skp/skp-05-pencegahan-infeksi.webp",
-        "thumbnail": "assets/images/thumb/skp/skp-05-pencegahan-infeksi-thumb.webp",
-        "version": 1
-      },
-      {
-        "order": 6,
-        "main": "assets/images/main/skp/skp-06-pencegahan-jatuh.webp",
-        "thumbnail": "assets/images/thumb/skp/skp-06-pencegahan-jatuh-thumb.webp",
+        "asset": "keselamatan-04-hak",
+        "main": "assets/images/main/keselamatan/keselamatan-04-hak.webp",
+        "thumbnail": "assets/images/thumb/keselamatan/keselamatan-04-hak-thumb.webp",
         "version": 1
       }
     ],
     "ppi": [
       {
         "order": 1,
+        "asset": "ppi-01-enam-langkah-cuci-tangan",
         "main": "assets/images/main/ppi/ppi-01-enam-langkah-cuci-tangan.webp",
         "thumbnail": "assets/images/thumb/ppi/ppi-01-enam-langkah-cuci-tangan-thumb.webp",
         "version": 1
       },
       {
         "order": 2,
+        "asset": "ppi-02-durasi-kebersihan-tangan",
         "main": "assets/images/main/ppi/ppi-02-durasi-kebersihan-tangan.webp",
         "thumbnail": "assets/images/thumb/ppi/ppi-02-durasi-kebersihan-tangan-thumb.webp",
         "version": 1
       },
       {
         "order": 3,
+        "asset": "ppi-03-lima-momen",
         "main": "assets/images/main/ppi/ppi-03-lima-momen.webp",
         "thumbnail": "assets/images/thumb/ppi/ppi-03-lima-momen-thumb.webp",
         "version": 1
       },
       {
         "order": 4,
-        "main": "assets/images/main/ppi/ppi-04-pemilahan-sampah-medis.webp",
-        "thumbnail": "assets/images/thumb/ppi/ppi-04-pemilahan-sampah-medis-thumb.webp",
+        "asset": "ppi-new-01-apd",
+        "main": "assets/images/main/ppi/ppi-new-01-apd.webp",
+        "thumbnail": "assets/images/thumb/ppi/ppi-new-01-apd-thumb.webp",
         "version": 1
       },
       {
         "order": 5,
+        "asset": "ppi-05-etika-batuk",
         "main": "assets/images/main/ppi/ppi-05-etika-batuk.webp",
         "thumbnail": "assets/images/thumb/ppi/ppi-05-etika-batuk-thumb.webp",
         "version": 1
+      },
+      {
+        "order": 6,
+        "asset": "ppi-new-02-limbah",
+        "main": "assets/images/main/ppi/ppi-new-02-limbah.webp",
+        "thumbnail": "assets/images/thumb/ppi/ppi-new-02-limbah-thumb.webp",
+        "version": 1
+      },
+      {
+        "order": 7,
+        "asset": "spill-01-amankan-area",
+        "main": "assets/images/main/spill/spill-01-amankan-area.webp",
+        "thumbnail": "assets/images/thumb/spill/spill-01-amankan-area-thumb.webp",
+        "version": 1
+      },
+      {
+        "order": 8,
+        "asset": "spill-02-gunakan-apd",
+        "main": "assets/images/main/spill/spill-02-gunakan-apd.webp",
+        "thumbnail": "assets/images/thumb/spill/spill-02-gunakan-apd-thumb.webp",
+        "version": 1
+      },
+      {
+        "order": 9,
+        "asset": "spill-03-tangani-tumpahan",
+        "main": "assets/images/main/spill/spill-03-tangani-tumpahan.webp",
+        "thumbnail": "assets/images/thumb/spill/spill-03-tangani-tumpahan-thumb.webp",
+        "version": 1
+      },
+      {
+        "order": 10,
+        "asset": "spill-04-buang-apd-bersihkan-alat",
+        "main": "assets/images/main/spill/spill-04-buang-apd-bersihkan-alat.webp",
+        "thumbnail": "assets/images/thumb/spill/spill-04-buang-apd-bersihkan-alat-thumb.webp",
+        "version": 1
       }
     ],
-    "apar": [
+    "kegawatdaruratan": [
       {
         "order": 1,
+        "asset": "kegawat-01-code-blue",
+        "main": "assets/images/main/kegawatdaruratan/kegawat-01-code-blue.webp",
+        "thumbnail": "assets/images/thumb/kegawatdaruratan/kegawat-01-code-blue-thumb.webp",
+        "version": 1
+      },
+      {
+        "order": 2,
+        "asset": "kegawat-02-ews",
+        "main": "assets/images/main/kegawatdaruratan/kegawat-02-ews.webp",
+        "thumbnail": "assets/images/thumb/kegawatdaruratan/kegawat-02-ews-thumb.webp",
+        "version": 1
+      }
+    ],
+    "obat": [
+      {
+        "order": 1,
+        "asset": "obat-01-keamanan",
+        "main": "assets/images/main/obat/obat-01-keamanan.webp",
+        "thumbnail": "assets/images/thumb/obat/obat-01-keamanan-thumb.webp",
+        "version": 1
+      }
+    ],
+    "mutu": [
+      {
+        "order": 1,
+        "asset": "mutu-01-ikp",
+        "main": "assets/images/main/mutu/mutu-01-ikp.webp",
+        "thumbnail": "assets/images/thumb/mutu/mutu-01-ikp-thumb.webp",
+        "version": 1
+      },
+      {
+        "order": 2,
+        "asset": "mutu-02-inm",
+        "main": "assets/images/main/mutu/mutu-02-inm.webp",
+        "thumbnail": "assets/images/thumb/mutu/mutu-02-inm-thumb.webp",
+        "version": 1
+      }
+    ],
+    "k3rs": [
+      {
+        "order": 1,
+        "asset": "apar-01-pengecekan-awal",
         "main": "assets/images/main/apar/apar-01-pengecekan-awal.webp",
         "thumbnail": "assets/images/thumb/apar/apar-01-pengecekan-awal-thumb.webp",
         "version": 1
       },
       {
         "order": 2,
+        "asset": "apar-02-pin-uji-kesiapan",
         "main": "assets/images/main/apar/apar-02-pin-uji-kesiapan.webp",
         "thumbnail": "assets/images/thumb/apar/apar-02-pin-uji-kesiapan-thumb.webp",
         "version": 1
       },
       {
         "order": 3,
+        "asset": "apar-03-posisi-jarak-aman",
         "main": "assets/images/main/apar/apar-03-posisi-jarak-aman.webp",
         "thumbnail": "assets/images/thumb/apar/apar-03-posisi-jarak-aman-thumb.webp",
         "version": 1
       },
       {
         "order": 4,
+        "asset": "apar-04-teknik-menyemprot",
         "main": "assets/images/main/apar/apar-04-teknik-menyemprot.webp",
         "thumbnail": "assets/images/thumb/apar/apar-04-teknik-menyemprot-thumb.webp",
         "version": 1
       },
       {
         "order": 5,
+        "asset": "apar-05-mundur-waspada",
         "main": "assets/images/main/apar/apar-05-mundur-waspada.webp",
         "thumbnail": "assets/images/thumb/apar/apar-05-mundur-waspada-thumb.webp",
-        "version": 1
-      }
-    ],
-    "bhd": [
-      {
-        "order": 1,
-        "main": "assets/images/main/bhd/bhd-01-amankan-lokasi.webp",
-        "thumbnail": "assets/images/thumb/bhd/bhd-01-amankan-lokasi-thumb.webp",
-        "version": 1
-      },
-      {
-        "order": 2,
-        "main": "assets/images/main/bhd/bhd-02-cek-respons-napas.webp",
-        "thumbnail": "assets/images/thumb/bhd/bhd-02-cek-respons-napas-thumb.webp",
-        "version": 1
-      },
-      {
-        "order": 3,
-        "main": "assets/images/main/bhd/bhd-03-aktivasi-aed.webp",
-        "thumbnail": "assets/images/thumb/bhd/bhd-03-aktivasi-aed-thumb.webp",
-        "version": 1
-      },
-      {
-        "order": 4,
-        "main": "assets/images/main/bhd/bhd-04-kompresi-berkualitas.webp",
-        "thumbnail": "assets/images/thumb/bhd/bhd-04-kompresi-berkualitas-thumb.webp",
-        "version": 1
-      },
-      {
-        "order": 5,
-        "main": "assets/images/main/bhd/bhd-05-kompresi-dan-napas.webp",
-        "thumbnail": "assets/images/thumb/bhd/bhd-05-kompresi-dan-napas-thumb.webp",
-        "version": 1
-      },
-      {
-        "order": 6,
-        "main": "assets/images/main/bhd/bhd-06-tersedak-dewasa.webp",
-        "thumbnail": "assets/images/thumb/bhd/bhd-06-tersedak-dewasa-thumb.webp",
-        "version": 1
-      },
-      {
-        "order": 7,
-        "main": "assets/images/main/bhd/bhd-07-kompresi-bayi.webp",
-        "thumbnail": "assets/images/thumb/bhd/bhd-07-kompresi-bayi-thumb.webp",
-        "version": 1
-      }
-    ],
-    "spill": [
-      {
-        "order": 1,
-        "main": "assets/images/main/spill/spill-01-amankan-area.webp",
-        "thumbnail": "assets/images/thumb/spill/spill-01-amankan-area-thumb.webp",
-        "version": 1
-      },
-      {
-        "order": 2,
-        "main": "assets/images/main/spill/spill-02-gunakan-apd.webp",
-        "thumbnail": "assets/images/thumb/spill/spill-02-gunakan-apd-thumb.webp",
-        "version": 1
-      },
-      {
-        "order": 3,
-        "main": "assets/images/main/spill/spill-03-tangani-tumpahan.webp",
-        "thumbnail": "assets/images/thumb/spill/spill-03-tangani-tumpahan-thumb.webp",
-        "version": 1
-      },
-      {
-        "order": 4,
-        "main": "assets/images/main/spill/spill-04-buang-apd-bersihkan-alat.webp",
-        "thumbnail": "assets/images/thumb/spill/spill-04-buang-apd-bersihkan-alat-thumb.webp",
         "version": 1
       }
     ]
