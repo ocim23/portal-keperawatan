@@ -1,10 +1,10 @@
-const CACHE = 'portal-keperawatan-v3.0.1-cache-safe';
+const CACHE = 'portal-keperawatan-v3.0.2-ux-fix';
 const CORE = [
   './',
   './index.html',
-  './assets/css/styles-v3-0-1.css?v=3.0.1',
-  './assets/js/app-v3-0-1.js?v=3.0.1',
-  './assets/data/catalog-v3-0-1.json?v=3.0.1',
+  './assets/css/styles-v3-0-2.css?v=3.0.2',
+  './assets/js/app-v3-0-2.js?v=3.0.2',
+  './assets/data/catalog-v3-0-2.json?v=3.0.2',
   './manifest.webmanifest',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png'
@@ -33,15 +33,15 @@ self.addEventListener('fetch', event => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
-  const isNavigation = req.mode === 'navigate';
-  const isDataOrCode =
+  const networkFirst =
+    req.mode === 'navigate' ||
     url.pathname.endsWith('.json') ||
     url.pathname.endsWith('.js') ||
     url.pathname.endsWith('.css');
 
-  if (isNavigation || isDataOrCode) {
+  if (networkFirst) {
     event.respondWith(
-      fetch(req, { cache: 'no-store' })
+      fetch(req, {cache:'no-store'})
         .then(res => {
           if (res && res.ok) {
             const copy = res.clone();
@@ -55,15 +55,12 @@ self.addEventListener('fetch', event => {
   }
 
   event.respondWith(
-    caches.match(req).then(cached => {
-      if (cached) return cached;
-      return fetch(req).then(res => {
-        if (res && res.ok) {
-          const copy = res.clone();
-          caches.open(CACHE).then(cache => cache.put(req, copy));
-        }
-        return res;
-      });
-    })
+    caches.match(req).then(cached => cached || fetch(req).then(res => {
+      if (res && res.ok) {
+        const copy = res.clone();
+        caches.open(CACHE).then(cache => cache.put(req, copy));
+      }
+      return res;
+    }))
   );
 });
