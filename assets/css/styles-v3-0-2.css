@@ -410,3 +410,55 @@ html,body{max-width:100%;overflow-x:clip}
   .ak-thumb>img,.ak-thumb-html{width:45px;height:40px}
 }
 .ak-mobile-module-action.active{color:#E63957;background:#FFF0F3}
+
+
+/* ================================================================
+   v3.0.2 — Clear active tabs and fully clickable cards
+   ================================================================ */
+.ak-tabs{
+  --module:#007C87;
+  --soft:#E6F7FA;
+}
+
+.ak-tab{
+  transition:background-color .18s ease,color .18s ease,border-color .18s ease,
+             box-shadow .18s ease,transform .18s ease;
+}
+
+.ak-tab:hover{
+  border-color:color-mix(in srgb,var(--module) 45%,var(--line));
+  color:var(--module);
+  background:color-mix(in srgb,var(--soft) 72%,white);
+}
+
+.ak-tab.active{
+  background:color-mix(in srgb,var(--module) 90%,white);
+  border-color:var(--module);
+  color:#fff;
+  box-shadow:
+    0 8px 20px color-mix(in srgb,var(--module) 30%,transparent),
+    inset 0 0 0 1px rgba(255,255,255,.16);
+}
+
+.ak-card[data-route]{
+  cursor:pointer;
+}
+
+.ak-card[data-route]:focus-visible{
+  outline:3px solid color-mix(in srgb,var(--module) 42%,white);
+  outline-offset:3px;
+}
+
+.ak-card[data-route]:active{
+  transform:translateY(-1px) scale(.997);
+}
+
+.ak-card[data-route] .ak-open{
+  pointer-events:none;
+}
+
+@media(max-width:820px){
+  .ak-tab.active{
+    box-shadow:0 5px 14px color-mix(in srgb,var(--module) 26%,transparent);
+  }
+}
