@@ -18,7 +18,7 @@ Portal ini adalah versi statis. Apps Script, Google Drive, dan Google Sheet tida
 9. URL biasanya berbentuk:
    `https://USERNAME.github.io/portal-keperawatan/`
 
-Routing memakai hash (`#/module/ppi`), sehingga refresh dan link langsung aman di GitHub Pages.
+Routing memakai hash (`#/group/pap` dan `#/topic/pap-bhd`), sehingga refresh dan link langsung aman di GitHub Pages.
 
 ## Membuka seperti aplikasi di HP
 
@@ -32,7 +32,7 @@ Versi terpasang memakai mode `standalone`, sehingga bilah alamat browser tidak m
 
 - Tidak ada login.
 - Tidak menyimpan email atau identitas pengguna.
-- Favorit, riwayat, posisi poster, dan progres kuis disimpan pada browser perangkat.
+- Favorit, riwayat, posisi poster dan progres kuis disimpan pada browser perangkat.
 - `robots.txt` dan meta `noindex` sudah dipasang untuk mengurangi pengindeksan.
 - Situs GitHub Pages tetap dapat dibuka oleh siapa pun yang memperoleh URL.
 

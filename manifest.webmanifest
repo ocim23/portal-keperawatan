@@ -1,7 +1,7 @@
 {
-  "name": "Portal Keperawatan",
-  "short_name": "Portal AK",
-  "description": "Media pembelajaran internal keperawatan: materi akreditasi visual, ringkas, dan praktis.",
+  "name": "Portal Keperawatan — Materi Akreditasi",
+  "short_name": "Portal Keperawatan",
+  "description": "Pembelajaran keperawatan berdasarkan kelompok standar akreditasi dan submateri mandiri.",
   "lang": "id",
   "start_url": "./#/home",
   "scope": "./",

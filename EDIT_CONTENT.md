@@ -1,70 +1,79 @@
-# Cara Mengubah Urutan, Judul, dan Gambar
+# Mengubah Kelompok, Submateri, Slide, dan Kuis
 
-Setiap materi memiliki file sendiri, misalnya:
+Portal v3 menggunakan dua tingkat:
 
-`content/ppi.json`
+`Kelompok standar → Submateri mandiri → Pembelajaran`
 
-Di dalam bagian `slides`, setiap slide memiliki data seperti:
+## 1. Daftar kelompok dan submateri
+
+Buka:
+
+`assets/data/modules.json`
+
+- `groupOrder` menentukan urutan kelompok pada portal.
+- `groups` berisi SKP, PP, PAP, PPI, PKPO, PMKP, HPK, KE, dan MFK.
+- `groups.<kode>.topics` menentukan urutan submateri dalam kelompok.
+- `topics` berisi metadata kartu submateri dan lokasi file konten.
+
+Contoh:
+
+```json
+"pap": {
+  "code": "PAP",
+  "title": "Pelayanan dan Asuhan Pasien",
+  "topics": ["pap-terintegrasi", "pap-ews", "pap-bhd"]
+}
+```
+
+## 2. Isi satu submateri
+
+Setiap submateri memiliki file sendiri, misalnya:
+
+`content/pap-bhd.json`
+
+Di dalamnya terdapat:
+
+- `slides` untuk tab Pelajari;
+- `summarySections`, `do`, dan `dont` untuk Inti Materi;
+- `quiz` untuk Uji Pemahaman;
+- `references` untuk Referensi.
+
+## 3. Mengubah urutan slide
+
+Ubah angka `order`. Aplikasi menampilkan slide dari angka terkecil ke terbesar.
+
+## 4. Mengganti poster
+
+1. Siapkan poster utama dalam WebP.
+2. Upload ke `assets/images/main/<kelompok>/`.
+3. Siapkan thumbnail WebP dan upload ke `assets/images/thumb/<kelompok>/`.
+4. Ubah nilai `image` dan `thumbnail` pada JSON submateri.
+5. Naikkan `version` pada slide.
+6. Naikkan versi cache pada `index.html` dan `sw.js` bila perubahan masih tertahan cache.
+
+Contoh slide gambar:
 
 ```json
 {
   "type": "image",
-  "asset": "ppi_2",
-  "title": "Durasi Kebersihan Tangan",
-  "caption": "Handrub 20–30 detik; sabun dan air mengalir 40–60 detik.",
+  "title": "Kompresi Dada Berkualitas Tinggi",
+  "caption": "Laju 100–120/menit, kedalaman 5–6 cm, recoil penuh, dan interupsi minimal.",
   "order": 2,
-  "image": "assets/images/main/ppi/ppi-02-durasi-kebersihan-tangan.webp",
-  "thumbnail": "assets/images/thumb/ppi/ppi-02-durasi-kebersihan-tangan-thumb.webp",
+  "image": "assets/images/main/pap/pap-bhd-02-kompresi-dada.webp",
+  "thumbnail": "assets/images/thumb/pap/pap-bhd-02-kompresi-dada-thumb.webp",
   "version": 1
 }
 ```
 
-## Mengubah urutan
+## 5. Mengubah kartu HTML
 
-Ubah angka `order`. Aplikasi selalu mengurutkan slide berdasarkan nilai tersebut.
+Slide HTML memakai `template.items`. Setiap item memiliki `title` dan `text`; slide tipe `bands` juga dapat memakai `level`.
 
-Contoh:
-- `order: 1` tampil pertama;
-- `order: 2` tampil kedua.
+## 6. Mengubah kuis
 
-Nama file tidak menentukan urutan.
-
-## Mengganti gambar
-
-1. Optimalkan gambar menjadi WebP.
-2. Upload gambar utama ke `assets/images/main/MODUL/`.
-3. Upload thumbnail ke `assets/images/thumb/MODUL/`.
-4. Ubah nilai `image` dan `thumbnail` pada JSON.
-5. Naikkan `version`, misalnya dari `1` menjadi `2`.
-6. Commit perubahan.
-
-Nilai `version` membuat browser mengambil gambar baru, bukan mempertahankan cache lama.
-
-## Mengubah judul/caption
-
-Edit langsung `title` dan `caption`, lalu commit.
-
-## Menambah slide
-
-Salin satu objek slide, lalu ubah:
-- `asset` agar unik;
-- `title`;
-- `caption`;
-- `order`;
-- path gambar;
-- `version`.
-
-## Menghapus slide
-
-Hapus objek slide tersebut dari array `slides`.
-
-## Mengubah soal
-
-Pada file materi yang sama, buka bagian `quiz`.
 - `q` = pertanyaan;
-- `options` = pilihan;
+- `options` = pilihan jawaban;
 - `answer` = indeks jawaban benar, dimulai dari `0`;
-- `why` = pembahasan jawaban paling tepat;
-- `optionWhy` = telaah setiap pilihan.
+- `why` = pembahasan.
 
-Contoh `answer: 1` berarti jawaban B.
+Contoh: `answer: 1` berarti jawaban B.
