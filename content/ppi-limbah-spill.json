@@ -1,0 +1,148 @@
+{
+  "id": "ppi-limbah-spill",
+  "group": "ppi",
+  "title": "Limbah Medis, Spill Kit, dan Pajanan",
+  "short": "Limbah & Spill",
+  "desc": "Pemilahan warna, safety box, tumpahan darah/cairan tubuh, dan pajanan.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "minutes": 18,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "Pemilahan Limbah Medis",
+      "caption": "Pisahkan sesuai jenis, warna, simbol, dan ketentuan.",
+      "order": 1,
+      "image": "assets/images/main/ppi/ppi-07-limbah.webp",
+      "thumbnail": "assets/images/thumb/ppi/ppi-07-limbah-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "1. Amankan Area",
+      "caption": "Batasi area.",
+      "order": 2,
+      "image": "assets/images/main/spill/spill-01-amankan-area.webp",
+      "thumbnail": "assets/images/thumb/spill/spill-01-amankan-area-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "2. Gunakan APD",
+      "caption": "Pilih APD sesuai tumpahan.",
+      "order": 3,
+      "image": "assets/images/main/spill/spill-02-gunakan-apd.webp",
+      "thumbnail": "assets/images/thumb/spill/spill-02-gunakan-apd-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "3. Tangani Tumpahan",
+      "caption": "Serap, bersihkan, disinfeksi.",
+      "order": 4,
+      "image": "assets/images/main/spill/spill-03-tangani-tumpahan.webp",
+      "thumbnail": "assets/images/thumb/spill/spill-03-tangani-tumpahan-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "4. Buang dan Bersihkan",
+      "caption": "Kelola limbah, lepas APD, hand hygiene.",
+      "order": 5,
+      "image": "assets/images/main/spill/spill-04-buang-apd-bersihkan-alat.webp",
+      "thumbnail": "assets/images/thumb/spill/spill-04-buang-apd-bersihkan-alat-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Respons pajanan",
+      "caption": "Lakukan segera.",
+      "order": 6,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Pertolongan pertama",
+            "text": "Cuci kulit/irigasi mukosa."
+          },
+          {
+            "title": "Laporkan",
+            "text": "Ikuti alur PPI/K3."
+          },
+          {
+            "title": "Penilaian risiko",
+            "text": "Jenis pajanan dan sumber."
+          },
+          {
+            "title": "Follow-up",
+            "text": "Pemeriksaan/terapi sesuai layanan."
+          }
+        ],
+        "columns": 4,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Benda tajam",
+      "points": [
+        "Masuk safety box."
+      ]
+    },
+    {
+      "title": "Warna",
+      "points": [
+        "Hitam domestik, kuning infeksius, ungu sitotoksik, cokelat kimia/farmasi, merah radioaktif."
+      ]
+    }
+  ],
+  "do": [
+    "Buang tajam tanpa recap.",
+    "Tangani pajanan segera."
+  ],
+  "dont": [
+    "Padatkan safety box.",
+    "Campur limbah."
+  ],
+  "quiz": [
+    {
+      "q": "Jarum bekas ke…",
+      "options": [
+        "Hitam",
+        "Safety box",
+        "Ungu",
+        "Wastafel"
+      ],
+      "answer": 1,
+      "why": "Benda tajam ke safety box."
+    },
+    {
+      "q": "Ungu untuk…",
+      "options": [
+        "Domestik",
+        "Sitotoksik",
+        "Radioaktif",
+        "Infeksius"
+      ],
+      "answer": 1,
+      "why": "Ungu adalah sitotoksik."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

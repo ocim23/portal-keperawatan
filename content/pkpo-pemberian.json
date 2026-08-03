@@ -1,0 +1,153 @@
+{
+  "id": "pkpo-pemberian",
+  "group": "pkpo",
+  "title": "Pemberian Obat yang Aman",
+  "short": "Pemberian Obat",
+  "desc": "Verifikasi instruksi, identitas, prinsip benar, alergi, pemantauan, dokumentasi.",
+  "category": "PKPO",
+  "color": "#6D48C7",
+  "soft": "#F1ECFF",
+  "icon": "rights",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "Keamanan Obat",
+      "caption": "Prinsip mencegah medication error.",
+      "order": 1,
+      "image": "assets/images/main/pkpo/pkpo-01-keamanan-obat.webp",
+      "thumbnail": "assets/images/thumb/pkpo/pkpo-01-keamanan-obat-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Sebelum pemberian",
+      "caption": "Gunakan proses sistematis.",
+      "order": 2,
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Instruksi",
+            "text": "Nama, dosis, rute, waktu, indikasi."
+          },
+          {
+            "title": "Identitas",
+            "text": "Minimal dua identitas."
+          },
+          {
+            "title": "Alergi",
+            "text": "Jenis dan reaksi."
+          },
+          {
+            "title": "Kondisi",
+            "text": "Kontraindikasi dan parameter."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Prinsip benar",
+      "caption": "Ikuti daftar fasilitas.",
+      "order": 3,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Pasien",
+            "text": "Pasien tepat."
+          },
+          {
+            "title": "Obat",
+            "text": "Nama/sediaan tepat."
+          },
+          {
+            "title": "Dosis",
+            "text": "Perhitungan tepat."
+          },
+          {
+            "title": "Waktu",
+            "text": "Jadwal tepat."
+          },
+          {
+            "title": "Rute",
+            "text": "Cara tepat."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Catat tepat waktu."
+          },
+          {
+            "title": "Indikasi & respons",
+            "text": "Tujuan dan hasil."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Proses",
+      "points": [
+        "Risiko muncul di banyak tahap."
+      ]
+    },
+    {
+      "title": "Dokumentasi",
+      "points": [
+        "Setelah pemberian, bukan sebelumnya."
+      ]
+    }
+  ],
+  "do": [
+    "Klarifikasi instruksi.",
+    "Pantau respons."
+  ],
+  "dont": [
+    "Catat sebelum diberikan.",
+    "Mengandalkan hafalan."
+  ],
+  "quiz": [
+    {
+      "q": "Identifikasi sebelum obat…",
+      "options": [
+        "Kamar",
+        "Dua identitas",
+        "Panggilan",
+        "Wajah"
+      ],
+      "answer": 1,
+      "why": "Minimal dua identitas."
+    },
+    {
+      "q": "Dokumentasi pemberian…",
+      "options": [
+        "Sebelum",
+        "Setelah tepat waktu",
+        "Saat pulang",
+        "Jika efek samping"
+      ],
+      "answer": 1,
+      "why": "Setelah pemberian."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

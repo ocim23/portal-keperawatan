@@ -1,0 +1,135 @@
+{
+  "id": "skp-ringkasan",
+  "group": "skp",
+  "title": "Ringkasan 6 SKP",
+  "short": "6 SKP",
+  "desc": "Hafalkan enam Sasaran Keselamatan Pasien secara urut sebelum mempelajari rinciannya.",
+  "category": "SKP",
+  "color": "#0B7285",
+  "soft": "#E6F7FA",
+  "icon": "shield",
+  "minutes": 11,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "html",
+      "title": "Enam SKP nasional",
+      "caption": "Urutan ini menjadi pondasi keselamatan pasien.",
+      "order": 1,
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "1. Identifikasi pasien",
+            "text": "Mengidentifikasi pasien dengan benar."
+          },
+          {
+            "title": "2. Komunikasi efektif",
+            "text": "Meningkatkan komunikasi yang efektif."
+          },
+          {
+            "title": "3. Keamanan obat",
+            "text": "Meningkatkan keamanan obat-obatan yang harus diwaspadai."
+          },
+          {
+            "title": "4. Benar tindakan",
+            "text": "Benar pasien, prosedur, dan sisi/lokasi tindakan."
+          },
+          {
+            "title": "5. Pencegahan infeksi",
+            "text": "Mengurangi risiko infeksi akibat perawatan kesehatan."
+          },
+          {
+            "title": "6. Pencegahan jatuh",
+            "text": "Mengurangi risiko cedera pasien akibat jatuh."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Cara mengingat",
+      "caption": "Ikuti perjalanan pasien dari identitas hingga pencegahan cedera.",
+      "order": 2,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Identitas",
+            "text": "Pasien benar."
+          },
+          {
+            "title": "Komunikasi",
+            "text": "Informasi benar."
+          },
+          {
+            "title": "Obat & tindakan",
+            "text": "Terapi dan prosedur benar."
+          },
+          {
+            "title": "Infeksi & jatuh",
+            "text": "Risiko dicegah."
+          }
+        ],
+        "columns": 4,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Pondasi keselamatan",
+      "points": [
+        "Urutan SKP perlu dihafal dan dihubungkan dengan praktik nyata.",
+        "Surveior dapat menilai melalui observasi, wawancara, dokumen, dan simulasi."
+      ]
+    }
+  ],
+  "do": [
+    "Hafalkan enam SKP secara urut.",
+    "Siapkan contoh penerapan di unit."
+  ],
+  "dont": [
+    "Menghafal tanpa memahami tindakan.",
+    "Menganggap SKP hanya tugas komite."
+  ],
+  "quiz": [
+    {
+      "q": "SKP ketiga adalah…",
+      "options": [
+        "Pencegahan jatuh",
+        "Keamanan obat yang harus diwaspadai",
+        "Komunikasi efektif",
+        "Pencegahan infeksi"
+      ],
+      "answer": 1,
+      "why": "SKP 3 adalah keamanan obat yang harus diwaspadai."
+    },
+    {
+      "q": "SKP 6 berfokus pada…",
+      "options": [
+        "Risiko jatuh",
+        "Identifikasi",
+        "Tindakan invasif",
+        "Hasil kritis"
+      ],
+      "answer": 0,
+      "why": "SKP 6 mengurangi cedera akibat jatuh."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

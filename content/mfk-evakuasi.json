@@ -1,0 +1,165 @@
+{
+  "id": "mfk-evakuasi",
+  "group": "mfk",
+  "title": "Kebakaran, Evakuasi, dan Kesiapsiagaan Unit",
+  "short": "Evakuasi",
+  "desc": "Alarm, penyelamatan, pembatasan bahaya, evakuasi pasien, koordinasi.",
+  "category": "MFK",
+  "color": "#E47A13",
+  "soft": "#FFF3E6",
+  "icon": "fire",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "html",
+      "title": "Respons awal",
+      "caption": "Kode/urutan detail mengikuti fasilitas.",
+      "order": 1,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Aktifkan alarm",
+            "text": "Lokasi dan bahaya."
+          },
+          {
+            "title": "Selamatkan yang terancam",
+            "text": "Tanpa membahayakan diri."
+          },
+          {
+            "title": "Batasi penyebaran",
+            "text": "Tutup pintu sesuai prosedur."
+          },
+          {
+            "title": "Padamkan bila aman",
+            "text": "APAR tahap awal."
+          }
+        ],
+        "columns": 4,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Evakuasi pasien",
+      "caption": "Sesuaikan kondisi.",
+      "order": 2,
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Horizontal dahulu",
+            "text": "Area aman lantai sama."
+          },
+          {
+            "title": "Prioritas",
+            "text": "Bahaya, mobilitas, alat."
+          },
+          {
+            "title": "Informasi penting",
+            "text": "Identitas dan klinis."
+          },
+          {
+            "title": "Serah terima",
+            "text": "Lokasi/status diketahui."
+          },
+          {
+            "title": "Titik kumpul",
+            "text": "Ikuti fasilitas."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesiapan unit",
+      "caption": "Harus mampu memperagakan.",
+      "order": 3,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kenali jalur",
+            "text": "Pintu/tangga/kompartemen."
+          },
+          {
+            "title": "Kenali alat",
+            "text": "APAR/alarm/alat evakuasi."
+          },
+          {
+            "title": "Bagi peran",
+            "text": "Alarm, pasien, alat, catat."
+          },
+          {
+            "title": "Latihan",
+            "text": "Simulasi dan evaluasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Klinis dan keselamatan",
+      "points": [
+        "Jaga alat, obat, identitas, kesinambungan."
+      ]
+    },
+    {
+      "title": "Ikuti jalur fasilitas",
+      "points": [
+        "Tidak memakai lift kecuali sistem khusus."
+      ]
+    }
+  ],
+  "do": [
+    "Ketahui jalur unit.",
+    "Prioritaskan keselamatan."
+  ],
+  "dont": [
+    "Tunggu tanpa alarm.",
+    "Pindah tanpa identitas."
+  ],
+  "quiz": [
+    {
+      "q": "Evakuasi horizontal…",
+      "options": [
+        "Area aman lantai sama",
+        "Lift",
+        "Keluar kota",
+        "Pindah kamar biasa"
+      ],
+      "answer": 0,
+      "why": "Pindah ke kompartemen aman."
+    },
+    {
+      "q": "APAR digunakan bila…",
+      "options": [
+        "Api awal dan aman",
+        "Asap pekat",
+        "Jalur terputus",
+        "Tak terlatih"
+      ],
+      "answer": 0,
+      "why": "Kondisi aman diperlukan."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

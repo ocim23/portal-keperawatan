@@ -1,0 +1,143 @@
+{
+  "id": "pap-bhd",
+  "group": "pap",
+  "title": "Bantuan Hidup Dasar Dewasa — AHA 2025",
+  "short": "BHD Dewasa",
+  "desc": "Respons awal, bantuan dan AED, kompresi, jalan napas, ventilasi, dan tersedak.",
+  "category": "PAP",
+  "color": "#C93B50",
+  "soft": "#FFF0F2",
+  "icon": "heart",
+  "minutes": 17,
+  "updated": "3 Agustus 2026",
+  "notice": "Materi pembelajaran tenaga kesehatan. Aktivasi mengikuti code blue atau sistem internal fasilitas.",
+  "slides": [
+    {
+      "type": "image",
+      "title": "1. Respons Awal, Aktivasi Bantuan, dan AED",
+      "caption": "Pastikan aman, cek respons/napas, aktifkan bantuan, mulai kompresi, gunakan AED.",
+      "order": 1,
+      "image": "assets/images/main/pap/pap-bhd-01-respon-awal-aed.webp",
+      "thumbnail": "assets/images/thumb/pap/pap-bhd-01-respon-awal-aed-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "2. Kompresi Dada Berkualitas Tinggi",
+      "caption": "Posisi benar, 5–6 cm, 100–120/menit, recoil penuh, interupsi minimal.",
+      "order": 2,
+      "image": "assets/images/main/pap/pap-bhd-02-kompresi-dada.webp",
+      "thumbnail": "assets/images/thumb/pap/pap-bhd-02-kompresi-dada-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "3. Jalan Napas, Ventilasi, dan Tersedak",
+      "caption": "Rasio 30:2 bila terlatih; tersedak: 5 tepukan lalu 5 hentakan.",
+      "order": 3,
+      "image": "assets/images/main/pap/pap-bhd-03-jalan-napas-ventilasi-tersedak.webp",
+      "thumbnail": "assets/images/thumb/pap/pap-bhd-03-jalan-napas-ventilasi-tersedak-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Poin inti",
+      "caption": "Urutan poster dikunci.",
+      "order": 4,
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kenali henti jantung",
+            "text": "Tidak responsif dan tidak bernapas normal/gasping."
+          },
+          {
+            "title": "Aktifkan bantuan",
+            "text": "Sistem internal dan AED."
+          },
+          {
+            "title": "Kompresi",
+            "text": "100–120/menit, 5–6 cm, recoil penuh."
+          },
+          {
+            "title": "Ventilasi",
+            "text": "2 napas setelah 30 kompresi bila terlatih."
+          },
+          {
+            "title": "Tersedak sadar",
+            "text": "5 tepukan punggung lalu 5 hentakan perut."
+          },
+          {
+            "title": "Tidak responsif",
+            "text": "Mulai RJP, benda terlihat saja, tanpa blind sweep."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "AED jangan ditunda",
+      "points": [
+        "Pasang segera sambil minimalkan jeda."
+      ]
+    },
+    {
+      "title": "Tersedak 2025",
+      "points": [
+        "Dimulai dengan back blows."
+      ]
+    }
+  ],
+  "do": [
+    "Mulai kompresi segera.",
+    "Ganti penolong sekitar 2 menit."
+  ],
+  "dont": [
+    "Blind finger sweep.",
+    "Jeda kompresi lama."
+  ],
+  "quiz": [
+    {
+      "q": "Laju kompresi dewasa…",
+      "options": [
+        "60–80",
+        "80–100",
+        "100–120",
+        "140–160"
+      ],
+      "answer": 2,
+      "why": "AHA 2025: 100–120/menit."
+    },
+    {
+      "q": "Tersedak berat sadar dimulai…",
+      "options": [
+        "Hentakan perut",
+        "5 tepukan lalu 5 hentakan",
+        "Kompresi",
+        "Blind sweep"
+      ],
+      "answer": 1,
+      "why": "AHA 2025 merekomendasikan 5 back blows lalu 5 thrusts."
+    }
+  ],
+  "references": [
+    {
+      "title": "2025 AHA Guidelines — Adult Basic Life Support",
+      "org": "American Heart Association",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

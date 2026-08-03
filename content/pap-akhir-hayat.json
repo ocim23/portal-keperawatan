@@ -1,0 +1,135 @@
+{
+  "id": "pap-akhir-hayat",
+  "group": "pap",
+  "title": "Pelayanan Menjelang Akhir Hayat dan DNR",
+  "short": "Akhir Hayat & DNR",
+  "desc": "Kenyamanan, tujuan pasien, komunikasi keluarga, dan pemahaman tepat tentang DNR.",
+  "category": "PAP",
+  "color": "#C93B50",
+  "soft": "#FFF0F2",
+  "icon": "heart",
+  "minutes": 11,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "html",
+      "title": "Prinsip akhir hayat",
+      "caption": "Perawatan tetap aktif.",
+      "order": 1,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Tujuan perawatan",
+            "text": "Selaras kondisi dan preferensi."
+          },
+          {
+            "title": "Kenyamanan",
+            "text": "Nyeri, sesak, kecemasan, kebutuhan dasar."
+          },
+          {
+            "title": "Komunikasi",
+            "text": "Jujur dan empatik."
+          },
+          {
+            "title": "Dukungan keluarga",
+            "text": "Spiritual dan berduka."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Keputusan dan rencana."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "DNR",
+      "caption": "Harus didukung keputusan dan dokumentasi.",
+      "order": 2,
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "DNR",
+            "title": "Makna",
+            "text": "Tidak melakukan RJP saat henti sesuai keputusan."
+          },
+          {
+            "level": "Bukan do not treat",
+            "title": "Perawatan tetap",
+            "text": "Perawatan dan kenyamanan tetap."
+          },
+          {
+            "level": "Komunikasi",
+            "title": "Tim",
+            "text": "Status dan rencana dipahami."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "DNR bukan do not treat",
+      "points": [
+        "Hanya mengatur resusitasi."
+      ]
+    },
+    {
+      "title": "Komunikasi",
+      "points": [
+        "Mencegah tindakan tidak sesuai tujuan."
+      ]
+    }
+  ],
+  "do": [
+    "Berikan kenyamanan dan martabat.",
+    "Verifikasi keputusan DNR."
+  ],
+  "dont": [
+    "Hentikan semua perawatan.",
+    "Bahas sensitif tanpa privasi."
+  ],
+  "quiz": [
+    {
+      "q": "DNR berarti…",
+      "options": [
+        "Tidak ada perawatan",
+        "Tidak RJP saat henti sesuai keputusan",
+        "Harus pulang",
+        "Semua obat stop"
+      ],
+      "answer": 1,
+      "why": "DNR berkaitan dengan resusitasi."
+    },
+    {
+      "q": "Prioritas akhir hayat…",
+      "options": [
+        "Kenyamanan dan martabat",
+        "Hindari keluarga",
+        "Kurangi dokumentasi",
+        "Tunda gejala"
+      ],
+      "answer": 0,
+      "why": "Pelayanan berfokus kenyamanan."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

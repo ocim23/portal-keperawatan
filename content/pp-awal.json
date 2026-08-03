@@ -1,0 +1,145 @@
+{
+  "id": "pp-awal",
+  "group": "pp",
+  "title": "Pengkajian Awal dan Skrining",
+  "short": "Pengkajian Awal",
+  "desc": "Pengumpulan data, analisis kebutuhan, dan rencana pelayanan sejak pasien diterima.",
+  "category": "PP",
+  "color": "#0F766E",
+  "soft": "#E7F7F4",
+  "icon": "monitor",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "Pengkajian Pasien",
+      "caption": "Pengkajian lengkap menjadi dasar asuhan.",
+      "order": 1,
+      "image": "assets/images/main/pp/pp-01-asesmen-pasien.webp",
+      "thumbnail": "assets/images/thumb/pp/pp-01-asesmen-pasien-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Tiga proses primer",
+      "caption": "Pengkajian dinamis dan berkesinambungan.",
+      "order": 2,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Kumpulkan data",
+            "text": "Fisik, psikologis, sosial, spiritual, ekonomi, riwayat."
+          },
+          {
+            "title": "Analisis",
+            "text": "Gabungkan data klinis, lab, dan pencitraan."
+          },
+          {
+            "title": "Susun rencana",
+            "text": "Prioritas, intervensi, edukasi, tindak lanjut."
+          }
+        ],
+        "columns": 3,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Isi minimal pengkajian awal",
+      "caption": "Disesuaikan layanan dan populasi.",
+      "order": 3,
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Keluhan & fisik",
+            "text": "Keluhan, tanda vital, pemeriksaan."
+          },
+          {
+            "title": "Riwayat",
+            "text": "Kesehatan, alergi, obat."
+          },
+          {
+            "title": "Psikososial-spiritual & ekonomi",
+            "text": "Faktor yang memengaruhi pelayanan."
+          },
+          {
+            "title": "Skrining risiko",
+            "text": "Nyeri, jatuh, fungsi, nutrisi."
+          },
+          {
+            "title": "Edukasi",
+            "text": "Bahasa, budaya, hambatan belajar."
+          },
+          {
+            "title": "Discharge planning",
+            "text": "Kebutuhan pulang sejak awal."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Bukan sekadar formulir",
+      "points": [
+        "Hasil harus menghasilkan keputusan dan rencana."
+      ]
+    },
+    {
+      "title": "Sesuai populasi",
+      "points": [
+        "Kedalaman berbeda antara layanan dan pasien."
+      ]
+    }
+  ],
+  "do": [
+    "Validasi data abnormal.",
+    "Hubungkan temuan dengan rencana."
+  ],
+  "dont": [
+    "Menyalin data lama.",
+    "Skrining tanpa tindak lanjut."
+  ],
+  "quiz": [
+    {
+      "q": "Tujuan pengkajian awal adalah…",
+      "options": [
+        "Mengisi kolom",
+        "Mengidentifikasi kebutuhan dan rencana",
+        "Mengganti evaluasi",
+        "Menentukan tarif"
+      ],
+      "answer": 1,
+      "why": "Pengkajian awal menjadi dasar pelayanan."
+    },
+    {
+      "q": "Discharge planning dimulai…",
+      "options": [
+        "Saat di pintu pulang",
+        "Sejak awal sesuai kebutuhan",
+        "Setelah komplain",
+        "Oleh administrasi saja"
+      ],
+      "answer": 1,
+      "why": "Kebutuhan pulang diidentifikasi sejak awal."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

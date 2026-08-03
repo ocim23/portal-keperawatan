@@ -1,0 +1,141 @@
+{
+  "id": "ke-komunikasi",
+  "group": "ke",
+  "title": "Komunikasi Klinis: SBAR, TBaK, dan Serah Terima",
+  "short": "Komunikasi Klinis",
+  "desc": "Eskalasi, instruksi, hasil kritis, dan transisi pelayanan.",
+  "category": "KE",
+  "color": "#008A83",
+  "soft": "#E8FAF7",
+  "icon": "chat",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "Komunikasi Efektif",
+      "caption": "Struktur, closed-loop, dokumentasi.",
+      "order": 1,
+      "image": "assets/images/main/ke/ke-01-komunikasi-efektif.webp",
+      "thumbnail": "assets/images/thumb/ke/ke-01-komunikasi-efektif-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "SBAR",
+      "caption": "Membantu penerima bertindak.",
+      "order": 2,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Situation",
+            "text": "Masalah terkini."
+          },
+          {
+            "title": "Background",
+            "text": "Latar penting."
+          },
+          {
+            "title": "Assessment",
+            "text": "Penilaian klinis."
+          },
+          {
+            "title": "Recommendation",
+            "text": "Respons dibutuhkan."
+          }
+        ],
+        "columns": 4,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "TBaK/serah terima",
+      "caption": "Pastikan pesan dipahami.",
+      "order": 3,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Tulis",
+            "text": "Instruksi lengkap."
+          },
+          {
+            "title": "Baca kembali",
+            "text": "Ulangi."
+          },
+          {
+            "title": "Konfirmasi",
+            "text": "Pastikan benar."
+          },
+          {
+            "title": "Serah terima",
+            "text": "Kondisi, risiko, alat, obat, rencana."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Tepat sasaran",
+      "points": [
+        "Ke pihak yang dapat merespons."
+      ]
+    },
+    {
+      "title": "Handover",
+      "points": [
+        "Transfer tanggung jawab."
+      ]
+    }
+  ],
+  "do": [
+    "SBAR saat eskalasi.",
+    "Dokumentasikan hasil kritis."
+  ],
+  "dont": [
+    "Singkatan tak baku.",
+    "Tanpa kesempatan bertanya."
+  ],
+  "quiz": [
+    {
+      "q": "A pada SBAR…",
+      "options": [
+        "Action",
+        "Assessment",
+        "Alert",
+        "Agreement"
+      ],
+      "answer": 1,
+      "why": "A adalah Assessment."
+    },
+    {
+      "q": "Closed-loop memastikan…",
+      "options": [
+        "Pesan dikirim",
+        "Diterima dan dikonfirmasi",
+        "Dicetak",
+        "Telepon tutup"
+      ],
+      "answer": 1,
+      "why": "Penerima mengulang dan pengirim mengonfirmasi."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

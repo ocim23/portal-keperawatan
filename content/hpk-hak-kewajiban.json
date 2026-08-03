@@ -1,0 +1,116 @@
+{
+  "id": "hpk-hak-kewajiban",
+  "group": "hpk",
+  "title": "Hak dan Kewajiban Pasien",
+  "short": "Hak & Kewajiban",
+  "desc": "Hak, kewajiban, dan penerapan praktis oleh perawat.",
+  "category": "HPK",
+  "color": "#B64B73",
+  "soft": "#FFF0F6",
+  "icon": "rights",
+  "minutes": 11,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "Hak dan Kewajiban Pasien",
+      "caption": "Ringkasan pembelajaran.",
+      "order": 1,
+      "image": "assets/images/main/hpk/hpk-01-hak-kewajiban.webp",
+      "thumbnail": "assets/images/thumb/hpk/hpk-01-hak-kewajiban-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Penerapan oleh perawat",
+      "caption": "Terlihat dalam tindakan harian.",
+      "order": 2,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Informasi",
+            "text": "Bahasa yang dipahami."
+          },
+          {
+            "title": "Pelayanan aman",
+            "text": "Tanpa diskriminasi."
+          },
+          {
+            "title": "Privasi",
+            "text": "Tubuh, ruang, percakapan, data."
+          },
+          {
+            "title": "Persetujuan/penolakan",
+            "text": "Proses dan dokumentasi."
+          },
+          {
+            "title": "Keluhan",
+            "text": "Dengar dan arahkan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Sepanjang pelayanan",
+      "points": [
+        "Sejak masuk hingga pulang/rujuk."
+      ]
+    },
+    {
+      "title": "Kewajiban",
+      "points": [
+        "Informasi jujur, aturan, hormat, administrasi."
+      ]
+    }
+  ],
+  "do": [
+    "Jaga privasi.",
+    "Berikan ruang bertanya."
+  ],
+  "dont": [
+    "Bahas di publik.",
+    "Turunkan mutu karena keluhan."
+  ],
+  "quiz": [
+    {
+      "q": "Privasi diterapkan dengan…",
+      "options": [
+        "Buka tirai",
+        "Tutup tirai/batasi info",
+        "Umumkan diagnosis",
+        "Foto tanpa dasar"
+      ],
+      "answer": 1,
+      "why": "Privasi fisik dan informasi dijaga."
+    },
+    {
+      "q": "Keluhan pasien…",
+      "options": [
+        "Diabaikan",
+        "Didengar dan diarahkan",
+        "Kurangi pelayanan",
+        "Disebar"
+      ],
+      "answer": 1,
+      "why": "Keluhan menjadi masukan."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

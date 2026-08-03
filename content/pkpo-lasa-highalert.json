@@ -1,0 +1,132 @@
+{
+  "id": "pkpo-lasa-highalert",
+  "group": "pkpo",
+  "title": "LASA/NORUM, High-Alert, dan Elektrolit Konsentrat",
+  "short": "LASA & High-Alert",
+  "desc": "Pengamanan obat mirip dan obat berisiko cedera berat.",
+  "category": "PKPO",
+  "color": "#6D48C7",
+  "soft": "#F1ECFF",
+  "icon": "rights",
+  "minutes": 11,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "html",
+      "title": "LASA/NORUM",
+      "caption": "Kemiripan nama/bunyi/tampilan.",
+      "order": 1,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Pisahkan",
+            "text": "Kurangi salah ambil."
+          },
+          {
+            "title": "Label",
+            "text": "Penandaan fasilitas."
+          },
+          {
+            "title": "Tall-man",
+            "text": "Bila diterapkan."
+          },
+          {
+            "title": "Verifikasi",
+            "text": "Saat ambil, siapkan, berikan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "High-alert",
+      "caption": "Kontrol tambahan.",
+      "order": 2,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Akses",
+            "text": "Lokasi ditetapkan."
+          },
+          {
+            "title": "Konsentrasi",
+            "text": "Sediaan/label jelas."
+          },
+          {
+            "title": "Double-check",
+            "text": "Mandiri."
+          },
+          {
+            "title": "Pemantauan",
+            "text": "Parameter klinis."
+          }
+        ],
+        "columns": 4,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "High-alert",
+      "points": [
+        "Dampak kesalahan dapat berat."
+      ]
+    },
+    {
+      "title": "Double-check",
+      "points": [
+        "Harus independen."
+      ]
+    }
+  ],
+  "do": [
+    "Ketahui daftar unit.",
+    "Pisahkan obat mirip."
+  ],
+  "dont": [
+    "Andalkan warna vial.",
+    "Formalitas double-check."
+  ],
+  "quiz": [
+    {
+      "q": "LASA adalah…",
+      "options": [
+        "Nama/tampilan mirip",
+        "Mahal",
+        "Ringan",
+        "Warna"
+      ],
+      "answer": 0,
+      "why": "Look-alike sound-alike."
+    },
+    {
+      "q": "Double-check independen…",
+      "options": [
+        "Periksa mandiri",
+        "Tanda tangan saja",
+        "Pasien periksa",
+        "Tanpa hitung"
+      ],
+      "answer": 0,
+      "why": "Petugas kedua memeriksa mandiri."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

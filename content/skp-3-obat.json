@@ -1,0 +1,121 @@
+{
+  "id": "skp-3-obat",
+  "group": "skp",
+  "title": "SKP 3 — Keamanan Obat yang Harus Diwaspadai",
+  "short": "SKP 3",
+  "desc": "High-alert, LASA/NORUM, elektrolit konsentrat, dan double-check.",
+  "category": "SKP",
+  "color": "#0B7285",
+  "soft": "#E6F7FA",
+  "icon": "shield",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "SKP 3 — Keamanan Obat",
+      "caption": "Obat berisiko membutuhkan pengamanan tambahan.",
+      "order": 1,
+      "image": "assets/images/main/skp/skp-03-keamanan-obat.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-03-keamanan-obat-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "Prinsip Keamanan Obat",
+      "caption": "Verifikasi, identitas, LASA, high-alert, double-check, pemantauan.",
+      "order": 2,
+      "image": "assets/images/main/pkpo/pkpo-01-keamanan-obat.webp",
+      "thumbnail": "assets/images/thumb/pkpo/pkpo-01-keamanan-obat-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Lapisan pengaman",
+      "caption": "Daftar spesifik mengikuti fasilitas.",
+      "order": 3,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "LASA/NORUM",
+            "text": "Pisahkan dan beri label."
+          },
+          {
+            "title": "High-alert",
+            "text": "Penyimpanan dan verifikasi khusus."
+          },
+          {
+            "title": "Elektrolit konsentrat",
+            "text": "Batasi lokasi penyimpanan."
+          },
+          {
+            "title": "Double-check independen",
+            "text": "Petugas kedua memeriksa mandiri."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "High-alert",
+      "points": [
+        "Menunjukkan konsekuensi kesalahan dapat berat."
+      ]
+    },
+    {
+      "title": "Daftar lokal",
+      "points": [
+        "Staf perlu mengetahui daftar fasilitas."
+      ]
+    }
+  ],
+  "do": [
+    "Periksa identitas, obat, dosis, rute, waktu.",
+    "Klarifikasi instruksi tidak jelas."
+  ],
+  "dont": [
+    "Mengandalkan warna kemasan.",
+    "Double-check sebagai formalitas."
+  ],
+  "quiz": [
+    {
+      "q": "Tujuan double-check adalah…",
+      "options": [
+        "Mempercepat",
+        "Menambah deteksi kesalahan",
+        "Mengganti identifikasi",
+        "Mengurangi dokumentasi"
+      ],
+      "answer": 1,
+      "why": "Double-check menambah lapisan deteksi."
+    },
+    {
+      "q": "LASA berarti obat yang…",
+      "options": [
+        "Mahal",
+        "Nama/tampilan mirip",
+        "Hanya di ICU",
+        "Tanpa efek samping"
+      ],
+      "answer": 1,
+      "why": "LASA adalah look-alike sound-alike."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

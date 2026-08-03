@@ -1,0 +1,121 @@
+{
+  "id": "skp-6-jatuh",
+  "group": "skp",
+  "title": "SKP 6 — Mengurangi Risiko Cedera Akibat Jatuh",
+  "short": "SKP 6",
+  "desc": "Skrining, asesmen ulang, intervensi individual, edukasi, dan evaluasi.",
+  "category": "SKP",
+  "color": "#0B7285",
+  "soft": "#E6F7FA",
+  "icon": "shield",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "SKP 6 — Pencegahan Jatuh",
+      "caption": "Risiko harus dinilai dan ditindaklanjuti.",
+      "order": 1,
+      "image": "assets/images/main/skp/skp-06-pencegahan-jatuh.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-06-pencegahan-jatuh-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "Pencegahan Risiko Jatuh",
+      "caption": "Asesmen, penanda, lingkungan, mobilisasi, edukasi, dokumentasi.",
+      "order": 2,
+      "image": "assets/images/main/skp/skp-06-risiko-jatuh.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-06-risiko-jatuh-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Kapan asesmen ulang?",
+      "caption": "Risiko dapat berubah.",
+      "order": 3,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kondisi berubah",
+            "text": "Kesadaran, kelemahan, hipotensi."
+          },
+          {
+            "title": "Setelah obat/tindakan",
+            "text": "Sedatif, antihipertensi, anestesi."
+          },
+          {
+            "title": "Pindah unit",
+            "text": "Validasi di lingkungan baru."
+          },
+          {
+            "title": "Setelah jatuh",
+            "text": "Nilai cedera dan penyebab."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Gelang bukan satu-satunya intervensi",
+      "points": [
+        "Perlu lingkungan aman, bantuan, edukasi, pemantauan."
+      ]
+    },
+    {
+      "title": "Individual",
+      "points": [
+        "Sesuaikan mobilitas, kognitif, obat, dan eliminasi."
+      ]
+    }
+  ],
+  "do": [
+    "Bel dalam jangkauan dan tempat tidur aman.",
+    "Dokumentasikan risiko dan evaluasi."
+  ],
+  "dont": [
+    "Hanya memasang gelang.",
+    "Menganggap semua pasien sama."
+  ],
+  "quiz": [
+    {
+      "q": "Skor risiko tinggi harus diikuti…",
+      "options": [
+        "Gelang saja",
+        "Paket intervensi sesuai risiko",
+        "Bedrest semua pasien",
+        "Tanpa reassessment"
+      ],
+      "answer": 1,
+      "why": "Skor memicu intervensi individual."
+    },
+    {
+      "q": "Setelah pasien jatuh…",
+      "options": [
+        "Ubah skor saja",
+        "Nilai kondisi/cedera dan eskalasi",
+        "Sembunyikan",
+        "Lepas gelang"
+      ],
+      "answer": 1,
+      "why": "Keselamatan pasien didahulukan."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "pap-nutrisi",
+  "group": "pap",
+  "title": "Skrining, Asuhan Nutrisi, dan Pemantauan",
+  "short": "Nutrisi",
+  "desc": "Skrining risiko, pengkajian, diet, keamanan makan, dan evaluasi asupan.",
+  "category": "PAP",
+  "color": "#C93B50",
+  "soft": "#FFF0F2",
+  "icon": "heart",
+  "minutes": 11,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "html",
+      "title": "Alur nutrisi",
+      "caption": "Skrining menentukan tindak lanjut.",
+      "order": 1,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Skrining",
+            "text": "Risiko malnutrisi."
+          },
+          {
+            "title": "Pengkajian",
+            "text": "Lebih mendalam bila berisiko."
+          },
+          {
+            "title": "Rencana",
+            "text": "Diet, rute, alergi, kondisi."
+          },
+          {
+            "title": "Pemberian aman",
+            "text": "Identitas, diet, posisi, aspirasi."
+          },
+          {
+            "title": "Pemantauan",
+            "text": "Asupan, toleransi, berat, hasil."
+          }
+        ],
+        "columns": 5,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Hubungkan rencana dengan pelaksanaan.",
+      "order": 2,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Verifikasi diet",
+            "text": "Pasien, jenis, tekstur."
+          },
+          {
+            "title": "Pantau asupan",
+            "text": "Jumlah dan hambatan."
+          },
+          {
+            "title": "Aspirasi",
+            "text": "Posisi dan bantuan."
+          },
+          {
+            "title": "Edukasi",
+            "text": "Tujuan diet."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Skrining bukan diagnosis",
+      "points": [
+        "Memicu pengkajian/rujukan."
+      ]
+    },
+    {
+      "title": "Diet bagian asuhan",
+      "points": [
+        "Kesalahan dapat membahayakan."
+      ]
+    }
+  ],
+  "do": [
+    "Verifikasi identitas/diet.",
+    "Laporkan asupan buruk."
+  ],
+  "dont": [
+    "Ganti diet sendiri.",
+    "Abaikan aspirasi."
+  ],
+  "quiz": [
+    {
+      "q": "Skrining berisiko harus…",
+      "options": [
+        "Diabaikan",
+        "Ditindaklanjuti",
+        "Diagnosis pasti",
+        "Dihapus"
+      ],
+      "answer": 1,
+      "why": "Perlu tindak lanjut."
+    },
+    {
+      "q": "Sebelum makanan…",
+      "options": [
+        "Pastikan pasien/diet",
+        "Lihat kamar saja",
+        "Tunggu keluarga",
+        "Ganti tekstur"
+      ],
+      "answer": 0,
+      "why": "Identifikasi dan diet harus benar."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

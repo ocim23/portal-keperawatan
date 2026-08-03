@@ -1,0 +1,121 @@
+{
+  "id": "skp-2-komunikasi",
+  "group": "skp",
+  "title": "SKP 2 — Komunikasi Efektif",
+  "short": "SKP 2",
+  "desc": "Komunikasi kritis, instruksi verbal, serah terima, dan dokumentasi yang aman.",
+  "category": "SKP",
+  "color": "#0B7285",
+  "soft": "#E6F7FA",
+  "icon": "shield",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "SKP 2 — Komunikasi Efektif",
+      "caption": "Informasi harus akurat, lengkap, tepat waktu, dan tepat sasaran.",
+      "order": 1,
+      "image": "assets/images/main/skp/skp-02-komunikasi-efektif.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-02-komunikasi-efektif-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "Komunikasi Efektif di Rumah Sakit",
+      "caption": "SBAR, TBaK, teach-back, identifikasi, dan dokumentasi.",
+      "order": 2,
+      "image": "assets/images/main/ke/ke-01-komunikasi-efektif.webp",
+      "thumbnail": "assets/images/thumb/ke/ke-01-komunikasi-efektif-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Situasi prioritas",
+      "caption": "Gunakan struktur sesuai konteks.",
+      "order": 3,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Hasil kritis",
+            "text": "Laporkan segera dan dokumentasikan."
+          },
+          {
+            "title": "Instruksi verbal/telepon",
+            "text": "Tulis, baca kembali, konfirmasi."
+          },
+          {
+            "title": "Serah terima",
+            "text": "Sampaikan kondisi, risiko, rencana, dan tindak lanjut."
+          },
+          {
+            "title": "Eskalasi klinis",
+            "text": "Gunakan SBAR."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Closed-loop communication",
+      "points": [
+        "Penerima mengulang dan pengirim memastikan informasi benar."
+      ]
+    },
+    {
+      "title": "Dokumentasi",
+      "points": [
+        "Catat waktu, pihak, isi penting, dan respons."
+      ]
+    }
+  ],
+  "do": [
+    "Gunakan SBAR untuk eskalasi.",
+    "Gunakan TBaK untuk instruksi verbal."
+  ],
+  "dont": [
+    "Singkatan tidak baku.",
+    "Menganggap pesan terkirim berarti dipahami."
+  ],
+  "quiz": [
+    {
+      "q": "TBaK berarti…",
+      "options": [
+        "Tulis, Baca kembali, Konfirmasi",
+        "Tanya, Baca, Komunikasi",
+        "Tulis, Beri, Koreksi",
+        "Terima, Baca, Kerjakan"
+      ],
+      "answer": 0,
+      "why": "TBaK adalah Tulis, Baca kembali, Konfirmasi."
+    },
+    {
+      "q": "R pada SBAR berisi…",
+      "options": [
+        "Riwayat",
+        "Rekomendasi/tindakan yang diharapkan",
+        "Risiko jatuh",
+        "Rekam medis"
+      ],
+      "answer": 1,
+      "why": "R adalah Recommendation."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "pmkp-keselamatan",
+  "group": "pmkp",
+  "title": "Keselamatan Pasien, IKP, dan Manajemen Risiko",
+  "short": "Keselamatan & IKP",
+  "desc": "Klasifikasi insiden, pertolongan, laporan, pembelajaran, dan risiko.",
+  "category": "PMKP",
+  "color": "#155E9A",
+  "soft": "#E9F4FF",
+  "icon": "target",
+  "minutes": 17,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "Pelaporan IKP",
+      "caption": "Lapor cepat, objektif, fokus perbaikan sistem.",
+      "order": 1,
+      "image": "assets/images/main/pmkp/pmkp-02-ikp.webp",
+      "thumbnail": "assets/images/thumb/pmkp/pmkp-02-ikp-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Klasifikasi insiden",
+      "caption": "Gunakan definisi sistem.",
+      "order": 2,
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "KPCS",
+            "title": "Kondisi potensial",
+            "text": "Kondisi berbahaya."
+          },
+          {
+            "level": "KNC",
+            "title": "Nyaris cedera",
+            "text": "Belum mencapai pasien."
+          },
+          {
+            "level": "KTC",
+            "title": "Tidak cedera",
+            "text": "Mencapai pasien tanpa cedera."
+          },
+          {
+            "level": "KTD",
+            "title": "Tidak diharapkan",
+            "text": "Menimbulkan cedera."
+          },
+          {
+            "level": "Sentinel",
+            "title": "Serius",
+            "text": "Memenuhi kriteria dan perlu analisis mendalam."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur insiden",
+      "caption": "Laporan berbeda dari rekam medis.",
+      "order": 3,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Amankan pasien",
+            "text": "Asesmen dan pertolongan."
+          },
+          {
+            "title": "Dokumentasi klinis",
+            "text": "Kondisi, tindakan, respons."
+          },
+          {
+            "title": "Laporan insiden",
+            "text": "Fakta objektif."
+          },
+          {
+            "title": "Analisis",
+            "text": "Grading/investigasi/RCA."
+          },
+          {
+            "title": "Perbaikan",
+            "text": "Terapkan dan pantau."
+          }
+        ],
+        "columns": 5,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Manajemen risiko",
+      "caption": "Tidak menunggu insiden.",
+      "order": 4,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Identifikasi",
+            "text": "Proses berisiko."
+          },
+          {
+            "title": "Analisis",
+            "text": "Kemungkinan dan dampak."
+          },
+          {
+            "title": "Mitigasi",
+            "text": "Kontrol."
+          },
+          {
+            "title": "Monitor",
+            "text": "Efektivitas dan risiko sisa."
+          }
+        ],
+        "columns": 4,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Near miss",
+      "points": [
+        "KNC menunjukkan celah sistem."
+      ]
+    },
+    {
+      "title": "Budaya adil",
+      "points": [
+        "Belajar tanpa menyederhanakan menjadi siapa salah."
+      ]
+    }
+  ],
+  "do": [
+    "Utamakan pasien.",
+    "Tulis fakta objektif."
+  ],
+  "dont": [
+    "Tutup-tutupi.",
+    "Tulis opini menyalahkan."
+  ],
+  "quiz": [
+    {
+      "q": "Obat salah belum diberikan…",
+      "options": [
+        "KNC",
+        "KTD",
+        "KTC",
+        "Sentinel"
+      ],
+      "answer": 0,
+      "why": "Belum mencapai pasien."
+    },
+    {
+      "q": "Laporan insiden mengganti dokumentasi klinis.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "answer": 1,
+      "why": "Keduanya berbeda dan diperlukan."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

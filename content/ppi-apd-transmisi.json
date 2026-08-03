@@ -1,0 +1,137 @@
+{
+  "id": "ppi-apd-transmisi",
+  "group": "ppi",
+  "title": "APD dan Kewaspadaan Berdasarkan Transmisi",
+  "short": "APD & Transmisi",
+  "desc": "Pemilihan, urutan memakai/melepas APD, kontak, droplet, dan airborne.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "Urutan APD",
+      "caption": "Urutan mengikuti jenis APD dan kebijakan fasilitas.",
+      "order": 1,
+      "image": "assets/images/main/ppi/ppi-06-apd.webp",
+      "thumbnail": "assets/images/thumb/ppi/ppi-06-apd-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Kewaspadaan standar",
+      "caption": "Semua pasien berdasar risiko.",
+      "order": 2,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Hand hygiene",
+            "text": "Dasar pencegahan."
+          },
+          {
+            "title": "APD",
+            "text": "Pilih sesuai pajanan."
+          },
+          {
+            "title": "Injeksi aman",
+            "text": "Teknik aseptik."
+          },
+          {
+            "title": "Etika batuk/lingkungan",
+            "text": "Kurangi penyebaran."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Berdasarkan transmisi",
+      "caption": "Tambahan sesuai cara penularan.",
+      "order": 3,
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Kontak",
+            "text": "Sarung tangan/gown dan lingkungan."
+          },
+          {
+            "title": "Droplet",
+            "text": "Masker medis sesuai risiko."
+          },
+          {
+            "title": "Airborne",
+            "text": "Respirator dan ruang/ventilasi sesuai."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Melepas APD",
+      "points": [
+        "Tahap berisiko kontaminasi."
+      ]
+    },
+    {
+      "title": "Sesuai indikasi",
+      "points": [
+        "APD berlebihan juga bermasalah."
+      ]
+    }
+  ],
+  "do": [
+    "Nilai risiko sebelum kontak.",
+    "Lepas hati-hati dan hand hygiene."
+  ],
+  "dont": [
+    "APD sama untuk beberapa pasien.",
+    "Sentuh wajah saat melepas."
+  ],
+  "quiz": [
+    {
+      "q": "APD dipilih berdasarkan…",
+      "options": [
+        "Warna seragam",
+        "Risiko pajanan/transmisi",
+        "Teman",
+        "Jam"
+      ],
+      "answer": 1,
+      "why": "Berdasarkan risiko."
+    },
+    {
+      "q": "Airborne memerlukan…",
+      "options": [
+        "Masker kain",
+        "Respirator sesuai",
+        "Face shield saja",
+        "Sarung tangan saja"
+      ],
+      "answer": 1,
+      "why": "Respirator sesuai standar."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

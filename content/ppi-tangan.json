@@ -1,0 +1,124 @@
+{
+  "id": "ppi-tangan",
+  "group": "ppi",
+  "title": "Kebersihan Tangan",
+  "short": "Kebersihan Tangan",
+  "desc": "Lima momen, enam langkah, pemilihan handrub/handwash, dan durasi yang benar.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "minutes": 17,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "Enam Langkah",
+      "caption": "Pastikan seluruh permukaan tangan terpapar.",
+      "order": 1,
+      "image": "assets/images/main/ppi/ppi-01-enam-langkah-cuci-tangan.webp",
+      "thumbnail": "assets/images/thumb/ppi/ppi-01-enam-langkah-cuci-tangan-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "Durasi",
+      "caption": "Handrub dan handwash memiliki indikasi/durasi berbeda.",
+      "order": 2,
+      "image": "assets/images/main/ppi/ppi-02-durasi-kebersihan-tangan.webp",
+      "thumbnail": "assets/images/thumb/ppi/ppi-02-durasi-kebersihan-tangan-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "Lima Momen",
+      "caption": "Lakukan berdasarkan momen pelayanan.",
+      "order": 3,
+      "image": "assets/images/main/ppi/ppi-03-lima-momen.webp",
+      "thumbnail": "assets/images/thumb/ppi/ppi-03-lima-momen-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Pilih metode",
+      "caption": "Perhatikan kondisi tangan.",
+      "order": 4,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Handrub",
+            "text": "Bila tangan tidak tampak kotor."
+          },
+          {
+            "title": "Handwash",
+            "text": "Bila tampak kotor/indikasi tertentu."
+          },
+          {
+            "title": "Sarung tangan",
+            "text": "Tidak mengganti hand hygiene."
+          }
+        ],
+        "columns": 3,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Lima momen",
+      "points": [
+        "Berpusat pada alur pasien."
+      ]
+    },
+    {
+      "title": "Teknik/durasi",
+      "points": [
+        "Keduanya harus benar."
+      ]
+    }
+  ],
+  "do": [
+    "Hand hygiene pada momen tepat.",
+    "Biarkan kering sebelum sarung tangan."
+  ],
+  "dont": [
+    "Sarung tangan sebagai pengganti.",
+    "Menyentuh telepon dengan sarung tangan kotor."
+  ],
+  "quiz": [
+    {
+      "q": "Sarung tangan mengganti hand hygiene.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "answer": 1,
+      "why": "Tidak menggantikan."
+    },
+    {
+      "q": "Handwash dipilih saat…",
+      "options": [
+        "Tangan tampak kotor",
+        "Setelah membaca",
+        "Tidak ada air",
+        "Memakai masker"
+      ],
+      "answer": 0,
+      "why": "Sabun dan air saat tampak kotor/indikasi tertentu."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

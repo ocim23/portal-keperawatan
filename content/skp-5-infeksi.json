@@ -1,0 +1,110 @@
+{
+  "id": "skp-5-infeksi",
+  "group": "skp",
+  "title": "SKP 5 — Mengurangi Risiko Infeksi",
+  "short": "SKP 5",
+  "desc": "Kebersihan tangan, teknik aseptik, APD, dan kewaspadaan standar.",
+  "category": "SKP",
+  "color": "#0B7285",
+  "soft": "#E6F7FA",
+  "icon": "shield",
+  "minutes": 11,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "SKP 5 — Pencegahan Infeksi",
+      "caption": "Kebersihan tangan dan prosedur aman mengurangi infeksi.",
+      "order": 1,
+      "image": "assets/images/main/skp/skp-05-pencegahan-infeksi.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-05-pencegahan-infeksi-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Tindakan perawat",
+      "caption": "Pilih sesuai risiko.",
+      "order": 2,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kebersihan tangan",
+            "text": "Lima momen dan teknik benar."
+          },
+          {
+            "title": "Teknik aseptik",
+            "text": "Lindungi area dan alat kritis."
+          },
+          {
+            "title": "APD",
+            "text": "Sesuai pajanan dan transmisi."
+          },
+          {
+            "title": "Perawatan alat",
+            "text": "Pembersihan, disinfeksi, sterilisasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Sarung tangan",
+      "points": [
+        "Tidak menggantikan kebersihan tangan."
+      ]
+    },
+    {
+      "title": "Konsistensi",
+      "points": [
+        "Pencegahan infeksi dilakukan setiap saat."
+      ]
+    }
+  ],
+  "do": [
+    "Hand hygiene pada momen tepat.",
+    "APD sesuai risiko."
+  ],
+  "dont": [
+    "Sarung tangan tanpa indikasi.",
+    "Menyentuh area bersih dengan sarung tangan kotor."
+  ],
+  "quiz": [
+    {
+      "q": "Sarung tangan menggantikan hand hygiene.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "answer": 1,
+      "why": "Sarung tangan tidak menggantikan kebersihan tangan."
+    },
+    {
+      "q": "APD dipilih berdasarkan…",
+      "options": [
+        "Warna seragam",
+        "Risiko pajanan/transmisi",
+        "Keinginan pasien",
+        "Lama kerja"
+      ],
+      "answer": 1,
+      "why": "APD berdasarkan risiko."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "hpk-privasi-persetujuan",
+  "group": "hpk",
+  "title": "Privasi, Kerahasiaan, Persetujuan, dan Penolakan",
+  "short": "Privasi & Persetujuan",
+  "desc": "Lindungi informasi dan dukung keputusan setelah penjelasan.",
+  "category": "HPK",
+  "color": "#B64B73",
+  "soft": "#FFF0F6",
+  "icon": "rights",
+  "minutes": 11,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "html",
+      "title": "Privasi/kerahasiaan",
+      "caption": "Langsung dan digital.",
+      "order": 1,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Fisik",
+            "text": "Tirai dan penutup."
+          },
+          {
+            "title": "Percakapan",
+            "text": "Hindari area publik."
+          },
+          {
+            "title": "Rekam medis",
+            "text": "Akses berwenang."
+          },
+          {
+            "title": "Foto/video",
+            "text": "Dasar, tujuan, izin, pengelolaan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Persetujuan/penolakan",
+      "caption": "Tanda tangan bukan inti satu-satunya.",
+      "order": 2,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Informasi",
+            "text": "Tujuan, manfaat, risiko, alternatif."
+          },
+          {
+            "title": "Kapasitas/sukarela",
+            "text": "Pihak berwenang."
+          },
+          {
+            "title": "Pertanyaan",
+            "text": "Kesempatan klarifikasi."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Keputusan dan tindak lanjut."
+          }
+        ],
+        "columns": 4,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Keluarga",
+      "points": [
+        "Tidak otomatis menerima semua informasi."
+      ]
+    },
+    {
+      "title": "Penolakan",
+      "points": [
+        "Pastikan memahami konsekuensi."
+      ]
+    }
+  ],
+  "do": [
+    "Batasi akses info.",
+    "Pastikan penjelasan."
+  ],
+  "dont": [
+    "Formulir=consent.",
+    "Kirim data tak aman."
+  ],
+  "quiz": [
+    {
+      "q": "Inti informed consent…",
+      "options": [
+        "Tanda tangan",
+        "Informasi dan keputusan sukarela",
+        "Cap RS",
+        "Persetujuan perawat"
+      ],
+      "answer": 1,
+      "why": "Consent adalah proses komunikasi."
+    },
+    {
+      "q": "Bahas pasien di lift…",
+      "options": [
+        "Aman",
+        "Risiko kerahasiaan",
+        "Edukasi",
+        "IKP"
+      ],
+      "answer": 1,
+      "why": "Area publik tidak tepat."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

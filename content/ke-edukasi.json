@@ -1,0 +1,132 @@
+{
+  "id": "ke-edukasi",
+  "group": "ke",
+  "title": "Edukasi Pasien dan Teach-Back",
+  "short": "Edukasi & Teach-Back",
+  "desc": "Nilai kebutuhan belajar, edukasi mudah dipahami, verifikasi, dokumentasi.",
+  "category": "KE",
+  "color": "#008A83",
+  "soft": "#E8FAF7",
+  "icon": "chat",
+  "minutes": 11,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "html",
+      "title": "Siklus edukasi",
+      "caption": "Disesuaikan pasien.",
+      "order": 1,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Nilai kebutuhan",
+            "text": "Topik, bahasa, literasi, budaya."
+          },
+          {
+            "title": "Tujuan",
+            "text": "Yang perlu dipahami/dilakukan."
+          },
+          {
+            "title": "Edukasi",
+            "text": "Bahasa sederhana/media sesuai."
+          },
+          {
+            "title": "Teach-back",
+            "text": "Ulangi dengan kata sendiri."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Materi, metode, hasil."
+          }
+        ],
+        "columns": 5,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Teach-back",
+      "caption": "Bukan ujian pasien.",
+      "order": 2,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Pertanyaan terbuka",
+            "text": "Minta jelaskan kembali."
+          },
+          {
+            "title": "Koreksi empatik",
+            "text": "Jelaskan dengan cara lain."
+          },
+          {
+            "title": "Chunk and check",
+            "text": "Sedikit demi sedikit."
+          }
+        ],
+        "columns": 3,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Kolaboratif",
+      "points": [
+        "PPA sesuai kompetensi."
+      ]
+    },
+    {
+      "title": "Dokumentasi bermakna",
+      "points": [
+        "Bukan hanya 'sudah diedukasi'."
+      ]
+    }
+  ],
+  "do": [
+    "Gunakan teach-back.",
+    "Sesuaikan media."
+  ],
+  "dont": [
+    "Istilah medis tanpa penjelasan.",
+    "Tandai paham tanpa verifikasi."
+  ],
+  "quiz": [
+    {
+      "q": "Teach-back bertujuan…",
+      "options": [
+        "Uji kecerdasan",
+        "Pastikan dipahami",
+        "Kurangi waktu",
+        "Ganti dokumentasi"
+      ],
+      "answer": 1,
+      "why": "Memverifikasi penjelasan."
+    },
+    {
+      "q": "Dokumentasi edukasi memuat…",
+      "options": [
+        "Materi, metode, hasil",
+        "Nama saja",
+        "Kamar",
+        "Biaya"
+      ],
+      "answer": 0,
+      "why": "Harus menunjukkan proses dan hasil."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

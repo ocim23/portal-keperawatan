@@ -1,0 +1,136 @@
+{
+  "id": "pap-nyeri",
+  "group": "pap",
+  "title": "Pengkajian dan Pengelolaan Nyeri",
+  "short": "Pengelolaan Nyeri",
+  "desc": "Kaji nyeri, intervensi, reassessment, dan dokumentasi respons.",
+  "category": "PAP",
+  "color": "#C93B50",
+  "soft": "#FFF0F2",
+  "icon": "heart",
+  "minutes": 11,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "html",
+      "title": "Siklus nyeri",
+      "caption": "Instrumen sesuai pasien.",
+      "order": 1,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Kaji",
+            "text": "Lokasi, intensitas, kualitas, waktu, dampak."
+          },
+          {
+            "title": "Tujuan",
+            "text": "Target realistis."
+          },
+          {
+            "title": "Intervensi",
+            "text": "Farmakologis/nonfarmakologis."
+          },
+          {
+            "title": "Kaji ulang",
+            "text": "Efektivitas dan efek samping."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Skor, tindakan, waktu, hasil."
+          }
+        ],
+        "columns": 5,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Pilih instrumen",
+      "caption": "Satu skala tidak untuk semua.",
+      "order": 2,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mampu komunikasi",
+            "text": "Numerik/verbal."
+          },
+          {
+            "title": "Anak/nonverbal",
+            "text": "Observasional sesuai usia."
+          },
+          {
+            "title": "Kognitif",
+            "text": "Laporan, perilaku, keluarga."
+          },
+          {
+            "title": "Kritis",
+            "text": "Indikator perilaku/fisiologis."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Individual",
+      "points": [
+        "Nilai pasien, bukan angka saja."
+      ]
+    },
+    {
+      "title": "Reassessment",
+      "points": [
+        "Pemberian obat tanpa evaluasi belum lengkap."
+      ]
+    }
+  ],
+  "do": [
+    "Tentukan waktu reassessment.",
+    "Laporkan nyeri tak terkontrol."
+  ],
+  "dont": [
+    "Satu skala untuk semua.",
+    "Catat obat tanpa respons."
+  ],
+  "quiz": [
+    {
+      "q": "Setelah analgesik…",
+      "options": [
+        "Tidak perlu",
+        "Reassessment nyeri/efek",
+        "Hapus skor",
+        "Tunggu diminta"
+      ],
+      "answer": 1,
+      "why": "Efektivitas perlu dinilai."
+    },
+    {
+      "q": "Skala dipilih berdasarkan…",
+      "options": [
+        "Usia/komunikasi/kondisi",
+        "Gelang",
+        "Kamar",
+        "Jam"
+      ],
+      "answer": 0,
+      "why": "Instrumen sesuai pasien."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

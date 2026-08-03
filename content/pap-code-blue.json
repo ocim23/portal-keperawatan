@@ -1,0 +1,154 @@
+{
+  "id": "pap-code-blue",
+  "group": "pap",
+  "title": "Code Blue di Rumah Sakit",
+  "short": "Code Blue",
+  "desc": "Kenali kondisi, aktifkan sistem, mulai BHD, siapkan alat, kolaborasi, dokumentasi.",
+  "category": "PAP",
+  "color": "#C93B50",
+  "soft": "#FFF0F2",
+  "icon": "heart",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "Code Blue di Rumah Sakit",
+      "caption": "Nomor aktivasi, lokasi alat, dan tim mengikuti sistem internal.",
+      "order": 1,
+      "image": "assets/images/main/pap/pap-05-code-blue.webp",
+      "thumbnail": "assets/images/thumb/pap/pap-05-code-blue-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Peran penemu pasien",
+      "caption": "Jangan menunggu tim untuk BHD awal.",
+      "order": 2,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Kenali kondisi",
+            "text": "Tidak responsif/tidak bernapas normal."
+          },
+          {
+            "title": "Aktifkan code blue",
+            "text": "Lokasi dan kondisi jelas."
+          },
+          {
+            "title": "Mulai BHD",
+            "text": "Kompresi berkualitas."
+          },
+          {
+            "title": "Minta alat",
+            "text": "Crash cart, AED/defibrillator, oksigen."
+          }
+        ],
+        "columns": 4,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kolaborasi tim",
+      "caption": "Pembagian peran mengurangi kekacauan.",
+      "order": 3,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kompresi",
+            "text": "Jaga kualitas dan ganti."
+          },
+          {
+            "title": "Jalan napas",
+            "text": "Sesuai kompetensi."
+          },
+          {
+            "title": "Defibrilasi/monitor",
+            "text": "Pasang pad dan analisis."
+          },
+          {
+            "title": "Obat",
+            "text": "Siapkan sesuai instruksi."
+          },
+          {
+            "title": "Pencatat",
+            "text": "Waktu, ritme, tindakan, obat."
+          },
+          {
+            "title": "Pemimpin",
+            "text": "Koordinasi dan closed-loop."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Sistem, bukan hanya tim",
+      "points": [
+        "Aktivasi, alat, BHD, peran harus siap."
+      ]
+    },
+    {
+      "title": "Debriefing",
+      "points": [
+        "Evaluasi respons dan hambatan."
+      ]
+    }
+  ],
+  "do": [
+    "Ketahui cara aktivasi unit.",
+    "Pastikan crash cart siap."
+  ],
+  "dont": [
+    "Menunggu tim tanpa BHD.",
+    "Memakai nomor contoh sebagai universal."
+  ],
+  "quiz": [
+    {
+      "q": "Setelah menemukan pasien tidak responsif…",
+      "options": [
+        "Tunggu dokter",
+        "Aktifkan bantuan dan BHD",
+        "Cari keluarga",
+        "Isi formulir"
+      ],
+      "answer": 1,
+      "why": "Aktivasi dan BHD segera."
+    },
+    {
+      "q": "Nomor Code Blue adalah…",
+      "options": [
+        "Selalu 7777",
+        "Sistem fasilitas",
+        "Nomor kamar",
+        "Nomor pribadi"
+      ],
+      "answer": 1,
+      "why": "Aktivasi bersifat lokal."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    },
+    {
+      "title": "2025 AHA Guidelines — Adult Basic Life Support",
+      "org": "American Heart Association",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
+    }
+  ]
+}

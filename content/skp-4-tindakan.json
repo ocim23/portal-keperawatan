@@ -1,0 +1,133 @@
+{
+  "id": "skp-4-tindakan",
+  "group": "skp",
+  "title": "SKP 4 — Benar Pasien, Prosedur, dan Sisi/Lokasi",
+  "short": "SKP 4",
+  "desc": "Verifikasi pra-tindakan, penandaan lokasi, time-out, dan komunikasi tim.",
+  "category": "SKP",
+  "color": "#0B7285",
+  "soft": "#E6F7FA",
+  "icon": "shield",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "SKP 4 — Benar Pasien, Prosedur, dan Lokasi",
+      "caption": "Cegah salah pasien, prosedur, dan sisi.",
+      "order": 1,
+      "image": "assets/images/main/skp/skp-04-tepat-pasien-prosedur-lokasi.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-04-tepat-pasien-prosedur-lokasi-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Tiga pengaman",
+      "caption": "Dilakukan sesuai tindakan dan kebijakan.",
+      "order": 2,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Verifikasi pra-tindakan",
+            "text": "Identitas, prosedur, dokumen, persetujuan, alat, lokasi."
+          },
+          {
+            "title": "Penandaan lokasi",
+            "text": "Libatkan pasien bila memungkinkan."
+          },
+          {
+            "title": "Time-out",
+            "text": "Tim berhenti untuk konfirmasi akhir."
+          }
+        ],
+        "columns": 3,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Hentikan proses bila ada ketidaksesuaian.",
+      "order": 3,
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Cocokkan data",
+            "text": "Gelang, dokumen, jadwal, penandaan."
+          },
+          {
+            "title": "Suarakan keraguan",
+            "text": "Klarifikasi sebelum tindakan."
+          },
+          {
+            "title": "Dokumentasikan",
+            "text": "Catat verifikasi sesuai formulir."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Time-out aktif",
+      "points": [
+        "Semua anggota tim terlibat."
+      ]
+    },
+    {
+      "title": "Ketidaksesuaian",
+      "points": [
+        "Harus diselesaikan sebelum tindakan."
+      ]
+    }
+  ],
+  "do": [
+    "Aktif dalam time-out.",
+    "Hentikan proses bila data tidak sesuai."
+  ],
+  "dont": [
+    "Time-out setelah tindakan dimulai.",
+    "Menganggap penandaan mengganti identifikasi."
+  ],
+  "quiz": [
+    {
+      "q": "Time-out dilakukan…",
+      "options": [
+        "Setelah selesai",
+        "Segera sebelum tindakan",
+        "Saat pulang",
+        "Hanya saat masalah"
+      ],
+      "answer": 1,
+      "why": "Time-out dilakukan segera sebelum tindakan."
+    },
+    {
+      "q": "Jika sisi tindakan tidak sesuai…",
+      "options": [
+        "Lanjutkan",
+        "Hentikan dan klarifikasi",
+        "Ikuti penandaan saja",
+        "Hapus dokumen"
+      ],
+      "answer": 1,
+      "why": "Ketidaksesuaian harus diselesaikan."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

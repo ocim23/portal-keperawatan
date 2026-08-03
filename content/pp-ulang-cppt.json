@@ -1,0 +1,165 @@
+{
+  "id": "pp-ulang-cppt",
+  "group": "pp",
+  "title": "Pengkajian Ulang dan CPPT",
+  "short": "Reassessment & CPPT",
+  "desc": "Nilai perubahan, respons intervensi, efektivitas asuhan, dan dokumentasikan terintegrasi.",
+  "category": "PP",
+  "color": "#0F766E",
+  "soft": "#E7F7F4",
+  "icon": "monitor",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "html",
+      "title": "Kapan pengkajian ulang?",
+      "caption": "Frekuensi mengikuti kondisi dan kebijakan.",
+      "order": 1,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Perubahan kondisi",
+            "text": "Segera saat perburukan/temuan baru."
+          },
+          {
+            "title": "Setelah intervensi",
+            "text": "Obat, tindakan, edukasi, terapi."
+          },
+          {
+            "title": "Jadwal pemantauan",
+            "text": "Sesuai risiko, EWS, kebutuhan."
+          },
+          {
+            "title": "Transisi pelayanan",
+            "text": "Pindah unit/serah terima."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Isi CPPT",
+      "caption": "Tunjukkan kesinambungan proses.",
+      "order": 2,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Temuan",
+            "text": "Subjektif dan objektif."
+          },
+          {
+            "title": "Analisis",
+            "text": "Makna klinis dan masalah."
+          },
+          {
+            "title": "Rencana/tindakan",
+            "text": "Intervensi, komunikasi, kolaborasi."
+          },
+          {
+            "title": "Respons",
+            "text": "Hasil dan modifikasi rencana."
+          }
+        ],
+        "columns": 4,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Temuan abnormal",
+      "caption": "Jangan berhenti pada pencatatan.",
+      "order": 3,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Validasi",
+            "text": "Pastikan data benar."
+          },
+          {
+            "title": "Tindakan awal",
+            "text": "Sesuai kewenangan."
+          },
+          {
+            "title": "Eskalasi",
+            "text": "SBAR ke pihak tepat."
+          },
+          {
+            "title": "Nilai ulang",
+            "text": "Pastikan respons."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Catat seluruh proses."
+          }
+        ],
+        "columns": 5,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Reassessment",
+      "points": [
+        "Menilai efektivitas asuhan."
+      ]
+    },
+    {
+      "title": "CPPT",
+      "points": [
+        "Mendukung integrasi antar-PPA."
+      ]
+    }
+  ],
+  "do": [
+    "Reassessment setelah analgesik/intervensi.",
+    "Catat respons dan rencana."
+  ],
+  "dont": [
+    "'Keadaan baik' tanpa data.",
+    "Temuan abnormal tanpa eskalasi."
+  ],
+  "quiz": [
+    {
+      "q": "Setelah analgesik, perawat perlu…",
+      "options": [
+        "Mencatat obat saja",
+        "Reassessment nyeri/respons",
+        "Menunggu pulang",
+        "Hapus skor"
+      ],
+      "answer": 1,
+      "why": "Respons harus dinilai."
+    },
+    {
+      "q": "CPPT baik menunjukkan…",
+      "options": [
+        "Tindakan saja",
+        "Temuan, analisis, rencana, respons",
+        "Nama staf",
+        "Biaya"
+      ],
+      "answer": 1,
+      "why": "CPPT mencerminkan proses asuhan."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

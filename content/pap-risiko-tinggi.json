@@ -1,0 +1,134 @@
+{
+  "id": "pap-risiko-tinggi",
+  "group": "pap",
+  "title": "Pelayanan Pasien Risiko Tinggi",
+  "short": "Pasien Risiko Tinggi",
+  "desc": "Kenali populasi/pelayanan risiko tinggi dan siapkan kompetensi, alat, pemantauan, serta respons.",
+  "category": "PAP",
+  "color": "#C93B50",
+  "soft": "#FFF0F2",
+  "icon": "heart",
+  "minutes": 11,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "html",
+      "title": "Sumber risiko",
+      "caption": "Risiko berasal dari pasien atau jenis pelayanan.",
+      "order": 1,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kondisi pasien",
+            "text": "Kritis, tidak stabil, usia ekstrem, komorbid kompleks."
+          },
+          {
+            "title": "Pelayanan tinggi risiko",
+            "text": "Resusitasi, transfusi, obat berisiko, tindakan invasif."
+          },
+          {
+            "title": "Populasi khusus",
+            "text": "Anak, geriatri, maternitas, terminal, rentan."
+          },
+          {
+            "title": "Transisi",
+            "text": "Transportasi, pindah unit, perubahan tim."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Persiapan perawat",
+      "caption": "Sumber daya sesuai kebutuhan.",
+      "order": 2,
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kompetensi",
+            "text": "Petugas berwenang dan terampil."
+          },
+          {
+            "title": "Pemantauan",
+            "text": "Parameter dan frekuensi jelas."
+          },
+          {
+            "title": "Alat & obat",
+            "text": "Siapkan dukungan emergensi."
+          },
+          {
+            "title": "Eskalasi",
+            "text": "Kenali trigger dan sistem respons."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Risiko, rencana, tindakan, respons."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Tidak hanya ICU",
+      "points": [
+        "Risiko tinggi dapat ditemukan di berbagai area."
+      ]
+    },
+    {
+      "title": "Kondisi menentukan sumber daya",
+      "points": [
+        "Tingkat pengawasan mengikuti kebutuhan."
+      ]
+    }
+  ],
+  "do": [
+    "Kenali risiko sebelum tindakan/transfer.",
+    "Pastikan bantuan tersedia."
+  ],
+  "dont": [
+    "Transfer tanpa serah terima.",
+    "Menunggu perburukan untuk menyiapkan bantuan."
+  ],
+  "quiz": [
+    {
+      "q": "Pelayanan risiko tinggi memerlukan…",
+      "options": [
+        "Pengawasan/sumber daya sesuai risiko",
+        "Formulir lebih sedikit",
+        "Identitas tunggal",
+        "Komunikasi minimal"
+      ],
+      "answer": 0,
+      "why": "Sumber daya disesuaikan dengan risiko."
+    },
+    {
+      "q": "Pasien risiko tinggi hanya di ICU.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "answer": 1,
+      "why": "Dapat ditemukan di berbagai area."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

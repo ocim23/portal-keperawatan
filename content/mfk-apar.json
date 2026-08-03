@@ -1,0 +1,148 @@
+{
+  "id": "mfk-apar",
+  "group": "mfk",
+  "title": "APAR dan Respons Awal Kebakaran",
+  "short": "APAR",
+  "desc": "Kondisi aman, langkah penggunaan, jalur keluar, dan batas tindakan.",
+  "category": "MFK",
+  "color": "#E47A13",
+  "soft": "#FFF3E6",
+  "icon": "fire",
+  "minutes": 18,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "1. Pengecekan Awal",
+      "caption": "Jenis, tekanan, segel, akses.",
+      "order": 1,
+      "image": "assets/images/main/apar/apar-01-pengecekan-awal.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-01-pengecekan-awal-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "2. Pin dan Kesiapan",
+      "caption": "Tarik pin dan uji kesiapan.",
+      "order": 2,
+      "image": "assets/images/main/apar/apar-02-pin-uji-kesiapan.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-02-pin-uji-kesiapan-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "3. Posisi Aman",
+      "caption": "Jalur keluar di belakang.",
+      "order": 3,
+      "image": "assets/images/main/apar/apar-03-posisi-jarak-aman.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-03-posisi-jarak-aman-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "4. Menyemprot",
+      "caption": "Arahkan ke pangkal api.",
+      "order": 4,
+      "image": "assets/images/main/apar/apar-04-teknik-menyemprot.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-04-teknik-menyemprot-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "5. Mundur Waspada",
+      "caption": "Pantau api menyala kembali.",
+      "order": 5,
+      "image": "assets/images/main/apar/apar-05-mundur-waspada.webp",
+      "thumbnail": "assets/images/thumb/apar/apar-05-mundur-waspada-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Kapan tidak menggunakan APAR?",
+      "caption": "Keselamatan/evakuasi utama.",
+      "order": 6,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Api membesar",
+            "text": "Alarm dan evakuasi."
+          },
+          {
+            "title": "Asap pekat",
+            "text": "Jangan bertahan."
+          },
+          {
+            "title": "Jalur keluar terancam",
+            "text": "Mundur."
+          },
+          {
+            "title": "Jenis tidak sesuai",
+            "text": "Jangan coba."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Tahap awal",
+      "points": [
+        "APAR bila aman dan terlatih."
+      ]
+    },
+    {
+      "title": "Alarm",
+      "points": [
+        "Jangan terlambat aktivasi bantuan."
+      ]
+    }
+  ],
+  "do": [
+    "Ketahui lokasi/jalur.",
+    "Periksa kesiapan."
+  ],
+  "dont": [
+    "Jalur keluar tertutup.",
+    "Membelakangi api."
+  ],
+  "quiz": [
+    {
+      "q": "Jalur keluar saat APAR…",
+      "options": [
+        "Di belakang penolong",
+        "Di belakang api",
+        "Ditutup",
+        "Tak penting"
+      ],
+      "answer": 0,
+      "why": "Harus tersedia."
+    },
+    {
+      "q": "APAR untuk…",
+      "options": [
+        "Api awal yang aman",
+        "Semua kebakaran",
+        "Asap pekat",
+        "Evakuasi"
+      ],
+      "answer": 0,
+      "why": "Untuk kebakaran tahap awal."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

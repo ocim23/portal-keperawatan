@@ -1,0 +1,175 @@
+{
+  "id": "pmkp-mutu",
+  "group": "pmkp",
+  "title": "Mutu, Indikator, dan Perbaikan Berkelanjutan",
+  "short": "Mutu & Indikator",
+  "desc": "INM, indikator prioritas, data, validasi, analisis, dan perbaikan.",
+  "category": "PMKP",
+  "color": "#155E9A",
+  "soft": "#E9F4FF",
+  "icon": "target",
+  "minutes": 17,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "Indikator Mutu Nasional",
+      "caption": "Perawat berperan melalui praktik dan data akurat.",
+      "order": 1,
+      "image": "assets/images/main/pmkp/pmkp-01-inm.webp",
+      "thumbnail": "assets/images/thumb/pmkp/pmkp-01-inm-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Jenis indikator",
+      "caption": "Program mutu seluruh unit.",
+      "order": 2,
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "INM",
+            "text": "Indikator Nasional Mutu."
+          },
+          {
+            "title": "IMP-RS",
+            "text": "Prioritas rumah sakit."
+          },
+          {
+            "title": "IMP-Unit",
+            "text": "Prioritas unit."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Siklus data",
+      "caption": "Data objektif dan tepercaya.",
+      "order": 3,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Definisi",
+            "text": "Numerator, denominator, kriteria."
+          },
+          {
+            "title": "Kumpulkan",
+            "text": "Lengkap dan tepat waktu."
+          },
+          {
+            "title": "Validasi",
+            "text": "Konsistensi/akurasi."
+          },
+          {
+            "title": "Analisis",
+            "text": "Tren dan penyebab."
+          },
+          {
+            "title": "Perbaikan",
+            "text": "Uji dan pertahankan."
+          }
+        ],
+        "columns": 5,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Mutu dari praktik harian.",
+      "order": 4,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Patuh proses",
+            "text": "Identifikasi, hand hygiene, APD, jatuh."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Sumber data."
+          },
+          {
+            "title": "Kenali masalah",
+            "text": "Laporkan hambatan."
+          },
+          {
+            "title": "Ikut perbaikan",
+            "text": "Analisis dan uji perubahan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Bukan hanya angka",
+      "points": [
+        "Indikator menunjukkan mutu pelayanan."
+      ]
+    },
+    {
+      "title": "Data buruk",
+      "points": [
+        "Menghasilkan keputusan buruk."
+      ]
+    }
+  ],
+  "do": [
+    "Catat sesuai definisi.",
+    "Gunakan hasil untuk perbaikan."
+  ],
+  "dont": [
+    "Ubah data agar target.",
+    "Anggap tugas komite saja."
+  ],
+  "quiz": [
+    {
+      "q": "IMP-Unit adalah…",
+      "options": [
+        "Indikator prioritas unit",
+        "Insiden medis",
+        "Instruksi pribadi",
+        "Luar negeri"
+      ],
+      "answer": 0,
+      "why": "Indikator mutu prioritas unit."
+    },
+    {
+      "q": "Setelah analisis…",
+      "options": [
+        "Arsip saja",
+        "Rencana dan pantau perbaikan",
+        "Hapus data",
+        "Stop ukur"
+      ],
+      "answer": 1,
+      "why": "Data digunakan untuk perbaikan."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    },
+    {
+      "title": "Permenkes Nomor 30 Tahun 2022 — Indikator Nasional Mutu",
+      "org": "Kementerian Kesehatan RI",
+      "url": ""
+    }
+  ]
+}

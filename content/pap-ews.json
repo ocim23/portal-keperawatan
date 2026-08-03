@@ -1,0 +1,188 @@
+{
+  "id": "pap-ews",
+  "group": "pap",
+  "title": "EWS / NEWS2 dan Eskalasi Klinis",
+  "short": "EWS / NEWS2",
+  "desc": "Deteksi dini perburukan, trigger, observasi, dan eskalasi respons.",
+  "category": "PAP",
+  "color": "#C93B50",
+  "soft": "#FFF0F2",
+  "icon": "heart",
+  "minutes": 17,
+  "updated": "3 Agustus 2026",
+  "notice": "Gunakan instrumen dan jalur eskalasi fasilitas. Kondisi klinis dapat memerlukan respons meskipun skor belum tinggi.",
+  "slides": [
+    {
+      "type": "image",
+      "title": "EWS / NEWS2",
+      "caption": "Skor membantu mengenali perburukan, bukan mengganti penilaian klinis.",
+      "order": 1,
+      "image": "assets/images/main/pap/pap-03-ews-news2.webp",
+      "thumbnail": "assets/images/thumb/pap/pap-03-ews-news2-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Parameter",
+      "caption": "Gunakan instrumen fasilitas.",
+      "order": 2,
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "RR",
+            "text": "Perubahan awal perburukan."
+          },
+          {
+            "title": "SpO₂ & oksigen",
+            "text": "Skala sesuai dan kebutuhan O₂."
+          },
+          {
+            "title": "TD sistolik",
+            "text": "Hipotensi dan tren."
+          },
+          {
+            "title": "Nadi & suhu",
+            "text": "Lihat perubahan."
+          },
+          {
+            "title": "Kesadaran/kebingungan baru",
+            "text": "Respons cepat."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Trigger NEWS2",
+      "caption": "Kerangka NEWS2; alur lokal tetap berlaku.",
+      "order": 3,
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "0",
+            "title": "Rendah",
+            "text": "Rutin; minimal 12 jam."
+          },
+          {
+            "level": "1–4",
+            "title": "Rendah",
+            "text": "Review perawat; minimal 4–6 jam."
+          },
+          {
+            "level": "Satu parameter=3",
+            "title": "Red score",
+            "text": "Informasikan tim; minimal tiap jam."
+          },
+          {
+            "level": "5–6",
+            "title": "Sedang",
+            "text": "Asesmen segera; minimal tiap jam."
+          },
+          {
+            "level": "≥7",
+            "title": "Tinggi",
+            "text": "Respons emergensi dan pemantauan kontinu."
+          }
+        ],
+        "columns": 1,
+        "note": "Kondisi klinis dapat memicu eskalasi meski skor belum tinggi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur eskalasi",
+      "caption": "Pastikan respons terjadi.",
+      "order": 4,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Validasi data",
+            "text": "Ulangi yang meragukan."
+          },
+          {
+            "title": "Tindakan awal",
+            "text": "Sesuai kewenangan."
+          },
+          {
+            "title": "SBAR",
+            "text": "Skor, tren, kondisi, kebutuhan."
+          },
+          {
+            "title": "Pantau ulang",
+            "text": "Catat respons."
+          }
+        ],
+        "columns": 4,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Tren",
+      "points": [
+        "Kenaikan skor/perubahan cepat penting."
+      ]
+    },
+    {
+      "title": "Skor bukan tujuan",
+      "points": [
+        "Tujuannya respons tepat waktu."
+      ]
+    }
+  ],
+  "do": [
+    "Eskalasi bila khawatir.",
+    "Catat skor, tren, tindakan, respons."
+  ],
+  "dont": [
+    "Abaikan red score karena total rendah.",
+    "Tunggu skor 7 saat pasien memburuk."
+  ],
+  "quiz": [
+    {
+      "q": "NEWS2 ≥7 memerlukan…",
+      "options": [
+        "Rutin",
+        "Respons emergensi dan kontinu",
+        "12 jam",
+        "Tidak perlu eskalasi"
+      ],
+      "answer": 1,
+      "why": "Skor tinggi memerlukan respons segera."
+    },
+    {
+      "q": "Satu parameter 3…",
+      "options": [
+        "Diabaikan",
+        "Trigger tersendiri",
+        "Dihapus",
+        "Dibulatkan"
+      ],
+      "answer": 1,
+      "why": "Red score memerlukan review."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    },
+    {
+      "title": "National Early Warning Score (NEWS) 2",
+      "org": "Royal College of Physicians",
+      "url": "https://www.rcp.ac.uk/resources/national-early-warning-score-news-2/"
+    }
+  ]
+}

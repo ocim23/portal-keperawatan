@@ -1,0 +1,122 @@
+{
+  "id": "skp-1-identifikasi",
+  "group": "skp",
+  "title": "SKP 1 — Identifikasi Pasien",
+  "short": "SKP 1",
+  "desc": "Verifikasi minimal dua identitas pada setiap titik kritis pelayanan.",
+  "category": "SKP",
+  "color": "#0B7285",
+  "soft": "#E6F7FA",
+  "icon": "shield",
+  "minutes": 14,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "image",
+      "title": "SKP 1 — Identifikasi Pasien",
+      "caption": "Hubungkan pasien dengan pelayanan yang benar.",
+      "order": 1,
+      "image": "assets/images/main/skp/skp-01-identifikasi-pasien.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-01-identifikasi-pasien-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "image",
+      "title": "Gelang dan Penanda Pasien",
+      "caption": "Warna membantu mengenali risiko, tetapi tidak menggantikan identifikasi.",
+      "order": 2,
+      "image": "assets/images/main/skp/skp-01-gelang-penanda.webp",
+      "thumbnail": "assets/images/thumb/skp/skp-01-gelang-penanda-thumb.webp",
+      "version": 1
+    },
+    {
+      "type": "html",
+      "title": "Kapan identifikasi dilakukan?",
+      "caption": "Gunakan minimal dua identitas aktif.",
+      "order": 3,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Sebelum obat/transfusi",
+            "text": "Cocokkan pasien, instruksi, dan produk."
+          },
+          {
+            "title": "Sebelum tindakan",
+            "text": "Termasuk pemasangan jalur dan tindakan invasif."
+          },
+          {
+            "title": "Sebelum diagnostik",
+            "text": "Termasuk spesimen dan pemeriksaan penunjang."
+          },
+          {
+            "title": "Sebelum makanan",
+            "text": "Cocokkan pasien dengan diet."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Minimal dua identitas",
+      "points": [
+        "Nama lengkap dan tanggal lahir/barcode dapat digunakan sesuai regulasi.",
+        "Nomor kamar bukan identitas."
+      ]
+    },
+    {
+      "title": "Penandaan risiko",
+      "points": [
+        "Gelang alergi, jatuh, DNR, atau kondisi khusus adalah lapisan tambahan."
+      ]
+    }
+  ],
+  "do": [
+    "Tanyakan dan cocokkan dua identitas.",
+    "Label spesimen setelah verifikasi di dekat pasien."
+  ],
+  "dont": [
+    "Menggunakan nomor kamar.",
+    "Hanya mengenali wajah pasien."
+  ],
+  "quiz": [
+    {
+      "q": "Yang bukan identitas pasien adalah…",
+      "options": [
+        "Nama lengkap",
+        "Tanggal lahir",
+        "Nomor kamar",
+        "Barcode"
+      ],
+      "answer": 2,
+      "why": "Nomor kamar atau lokasi bukan identitas."
+    },
+    {
+      "q": "Gelang risiko jatuh…",
+      "options": [
+        "Menggantikan identifikasi",
+        "Menandai risiko dan memicu intervensi",
+        "Menentukan diagnosis",
+        "Menghapus reassessment"
+      ],
+      "answer": 1,
+      "why": "Gelang membantu kewaspadaan dan harus disertai intervensi."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "pap-terintegrasi",
+  "group": "pap",
+  "title": "Asuhan Terintegrasi dan Berkesinambungan",
+  "short": "Asuhan Terintegrasi",
+  "desc": "Peran DPJP, PPA, MPP, CPPT, pasien, dan keluarga dalam rencana terkoordinasi.",
+  "category": "PAP",
+  "color": "#C93B50",
+  "soft": "#FFF0F2",
+  "icon": "heart",
+  "minutes": 11,
+  "updated": "3 Agustus 2026",
+  "notice": "",
+  "slides": [
+    {
+      "type": "html",
+      "title": "Elemen asuhan terintegrasi",
+      "caption": "Asuhan dibangun dari pengkajian awal dan ulang.",
+      "order": 1,
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "DPJP",
+            "text": "Clinical leader dan koordinator arah klinis."
+          },
+          {
+            "title": "PPA",
+            "text": "Kolaborasi interdisiplin memakai PPK, pathway, algoritma, CPPT."
+          },
+          {
+            "title": "MPP/case manager",
+            "text": "Menjaga kesinambungan dan mengatasi hambatan."
+          },
+          {
+            "title": "Pasien & keluarga",
+            "text": "Dilibatkan dalam tujuan, pilihan, edukasi, evaluasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Siklus rencana asuhan",
+      "caption": "Rencana berubah bila respons berubah.",
+      "order": 2,
+      "template": {
+        "style": "flow",
+        "items": [
+          {
+            "title": "Berdasar kebutuhan unik",
+            "text": "Gunakan hasil pengkajian."
+          },
+          {
+            "title": "Diberikan kepada setiap pasien",
+            "text": "Jelas dan dapat dilaksanakan."
+          },
+          {
+            "title": "Respons dipantau",
+            "text": "Nilai hasil intervensi."
+          },
+          {
+            "title": "Rencana dimodifikasi",
+            "text": "Sesuaikan dengan kondisi."
+          }
+        ],
+        "columns": 4,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Integrasi bukan sekadar banyak profesi",
+      "points": [
+        "Semua PPA menuju tujuan pasien yang sama."
+      ]
+    },
+    {
+      "title": "CPPT",
+      "points": [
+        "Media integrasi yang harus relevan dan tepat waktu."
+      ]
+    }
+  ],
+  "do": [
+    "Baca catatan PPA lain.",
+    "Komunikasikan perubahan penting."
+  ],
+  "dont": [
+    "Bekerja dalam silo.",
+    "Menganggap CPPT hanya arsip."
+  ],
+  "quiz": [
+    {
+      "q": "Clinical leader tim PPA adalah…",
+      "options": [
+        "Administrasi",
+        "DPJP",
+        "Keluarga",
+        "Keamanan"
+      ],
+      "answer": 1,
+      "why": "DPJP menjadi clinical leader."
+    },
+    {
+      "q": "Rencana dimodifikasi bila…",
+      "options": [
+        "Formulir penuh",
+        "Respons/kondisi berubah",
+        "Shift berganti saja",
+        "Pasien bertanya"
+      ],
+      "answer": 1,
+      "why": "Rencana mengikuti kebutuhan aktual."
+    }
+  ],
+  "references": [
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    },
+    {
+      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/produkhukum"
+    }
+  ]
+}
