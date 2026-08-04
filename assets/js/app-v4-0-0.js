@@ -5,10 +5,12 @@ const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelect
 const esc=(x='')=>String(x).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
 let CATALOG,GROUPS={},TOPICS={},ICONS={},ASKEP='',CACHE={},currentId=null,current=null,currentTab='learn',quizRun=null,lbZoom=1;
 const KEY='ak_portal_state_v3', def={favorites:[],recent:[],lastTopic:null,lastSlides:{}};
+const ASSET_VERSION='4.0.1';
 let state=load();
 function load(){try{return {...def,...JSON.parse(localStorage.getItem(KEY)||'{}')}}catch{return {...def}}}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch{}}
 function icon(n){return ICONS[n]||ICONS.shield||''}
+function versionedAsset(url){if(!url)return'';const sep=String(url).includes('?')?'&':'?';return `${url}${sep}v=${ASSET_VERSION}`}
 function fav(id){return state.favorites.includes(id)}
 function toggleFav(id){
   state.favorites=fav(id)?state.favorites.filter(x=>x!==id):[id,...state.favorites];
@@ -18,7 +20,7 @@ function toggleFav(id){
 }
 function recent(id){state.recent=[id,...state.recent.filter(x=>x!==id)].slice(0,12);state.lastTopic=id;save()}
 async function getJSON(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error('Gagal memuat '+url);return r.json()}
-async function getTopic(id){if(CACHE[id])return CACHE[id];const m=TOPICS[id];if(!m)throw Error('Materi tidak ditemukan');return CACHE[id]=await getJSON(m.file+'?v=4.0.0')}
+async function getTopic(id){if(CACHE[id])return CACHE[id];const m=TOPICS[id];if(!m)throw Error('Materi tidak ditemukan');return CACHE[id]=await getJSON(m.file+'?v='+ASSET_VERSION)}
 function parse(){return (location.hash||'#/home').replace(/^#\//,'').split('/').filter(Boolean)}
 
 /* ================================================================
@@ -190,8 +192,8 @@ function htmlSlide(s){
 }
 function renderLearn(){
  const sl=current.slides,i=Math.max(0,Math.min(sl.length-1,state.lastSlides[currentId]||0)),s=sl[i];state.lastSlides[currentId]=i;save();
- const thumbs=sl.map((x,n)=>`<button class="ak-thumb ${n===i?'active':''}" data-action="set-slide" data-index="${n}">${x.type==='image'?`<img src="${x.thumbnail}" alt="" loading="lazy">`:`<span class="ak-thumb-html">${n+1}</span>`}<span>${esc(x.title)}</span></button>`).join('');
- const body=s.type==='image'?`<div class="ak-slide-stage"><img class="ak-poster-image" src="${s.image}" alt="${esc(s.title)}" data-action="open-lightbox" data-src="${s.image}"></div>`:`<div class="ak-slide-stage">${htmlSlide(s)}</div>`;
+ const thumbs=sl.map((x,n)=>`<button class="ak-thumb ${n===i?'active':''}" data-action="set-slide" data-index="${n}">${x.type==='image'?`<img src="${versionedAsset(x.thumbnail)}" alt="" loading="lazy">`:`<span class="ak-thumb-html">${n+1}</span>`}<span>${esc(x.title)}</span></button>`).join('');
+ const body=s.type==='image'?`<div class="ak-slide-stage"><img class="ak-poster-image" src="${versionedAsset(s.image)}" alt="${esc(s.title)}" data-action="open-lightbox" data-src="${versionedAsset(s.image)}"></div>`:`<div class="ak-slide-stage">${htmlSlide(s)}</div>`;
  $('#panel-learn').innerHTML=`<div class="ak-learning"><aside class="ak-slide-rail">${thumbs}</aside><div><article class="ak-slide-card">${body}<div class="ak-slide-caption"><h3>${esc(s.title)}</h3><p>${esc(s.caption)}</p></div><div class="ak-slide-controls"><button class="ak-btn ak-btn-outline" data-action="set-slide" data-index="${i-1}" ${i===0?'disabled':''}>${icon('back')} <span>Sebelumnya</span></button><span class="ak-counter">${i+1} dari ${sl.length}</span><button class="ak-btn ak-btn-primary" data-action="set-slide" data-index="${i+1}" ${i===sl.length-1?'disabled':''}><span>Berikutnya</span> ${icon('next')}</button></div></article><div class="ak-mobile-dots">${sl.map((_,n)=>`<span class="ak-dot ${n===i?'active':''}"></span>`).join('')}</div></div></div>`
 }
 function setSlide(i){if(!current)return;i=Math.max(0,Math.min(current.slides.length-1,i));state.lastSlides[currentId]=i;save();renderLearn();document.querySelector('.ak-tabs')?.scrollIntoView({behavior:'smooth',block:'start'})}
@@ -310,9 +312,9 @@ function bind(){
   });
 }
 async function init(){
-  CATALOG=await getJSON('assets/data/catalog-v4-0-0.json?v=4.0.0');
+  CATALOG=await getJSON('assets/data/catalog-v4-0-0.json?v='+ASSET_VERSION);
   if(!CATALOG || !Array.isArray(CATALOG.groupOrder) || !CATALOG.groups || !CATALOG.topics){
-    throw Error('Katalog Portal v4.0.0 tidak lengkap. Muat ulang halaman atau bersihkan cache situs.');
+    throw Error('Katalog Portal v4.0.1 tidak lengkap. Muat ulang halaman atau bersihkan cache situs.');
   }
   GROUPS=CATALOG.groups;
   TOPICS=CATALOG.topics;

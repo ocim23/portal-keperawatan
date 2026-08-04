@@ -1,10 +1,10 @@
-const CACHE = 'portal-keperawatan-v4.0.0-content-overhaul';
+const CACHE = 'portal-keperawatan-v4.0.1-poster-assets-fix';
 const CORE = [
   './',
   './index.html',
-  './assets/css/styles-v4-0-0.css?v=4.0.0',
-  './assets/js/app-v4-0-0.js?v=4.0.0',
-  './assets/data/catalog-v4-0-0.json?v=4.0.0',
+  './assets/css/styles-v4-0-0.css?v=4.0.1',
+  './assets/js/app-v4-0-0.js?v=4.0.1',
+  './assets/data/catalog-v4-0-0.json?v=4.0.1',
   './manifest.webmanifest',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png'
