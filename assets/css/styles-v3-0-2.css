@@ -575,3 +575,92 @@ html,body{max-width:100%;overflow-x:clip}
     font-size: 14px;
   }
 }
+
+/* ================================================================
+   v3.0.3 — Binder accent untuk kartu kelompok dan submateri
+   Menjaga kartu tetap minimalis, dengan identitas warna per kelompok.
+   ================================================================ */
+.ak-group-card,
+.ak-topic-card{
+  isolation:isolate;
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(in srgb,var(--module) 10%,white) 0,
+      color-mix(in srgb,var(--soft) 72%,white) 72px,
+      #fff 128px
+    );
+}
+
+.ak-group-card::before,
+.ak-topic-card::before{
+  content:"";
+  position:absolute;
+  inset:0 auto 0 0;
+  z-index:2;
+  background:var(--module);
+  pointer-events:none;
+}
+
+.ak-group-card::before{
+  width:6px;
+}
+
+.ak-topic-card::before{
+  width:4px;
+  opacity:.88;
+}
+
+.ak-group-card .ak-card-body,
+.ak-topic-card .ak-card-body{
+  position:relative;
+  z-index:1;
+}
+
+.ak-group-card:hover{
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(in srgb,var(--module) 14%,white) 0,
+      color-mix(in srgb,var(--soft) 78%,white) 82px,
+      #fff 142px
+    );
+}
+
+.ak-topic-card:hover{
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(in srgb,var(--module) 9%,white) 0,
+      color-mix(in srgb,var(--soft) 70%,white) 66px,
+      #fff 120px
+    );
+}
+
+@media(max-width:820px){
+  .ak-group-card,
+  .ak-topic-card{
+    background:
+      linear-gradient(
+        90deg,
+        color-mix(in srgb,var(--module) 10%,white) 0,
+        color-mix(in srgb,var(--soft) 68%,white) 54px,
+        #fff 96px
+      );
+  }
+
+  .ak-group-card::before{
+    width:5px;
+  }
+
+  .ak-topic-card::before{
+    width:4px;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  .ak-group-card,
+  .ak-topic-card{
+    transition:none;
+  }
+}
