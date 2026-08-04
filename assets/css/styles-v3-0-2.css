@@ -462,3 +462,116 @@ html,body{max-width:100%;overflow-x:clip}
     box-shadow:0 5px 14px color-mix(in srgb,var(--module) 26%,transparent);
   }
 }
+/* ================================================================
+   Mobile: tombol footer lebih jelas + kartu lebih ringkas
+   ================================================================ */
+@media (max-width: 820px) {
+
+  /* Kembali ke SKP dan Semua materi */
+  .ak-mobile-footer {
+    margin: 20px 0 8px;
+    gap: 6px;
+    font-size: 14px;
+  }
+
+  .ak-mobile-footer button {
+    min-height: 44px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 850;
+  }
+
+  /* Jarak antarkartu */
+  .ak-group-grid,
+  .ak-topic-grid {
+    gap: 12px;
+  }
+
+  /* Isi kartu kelompok standar dan submateri */
+  .ak-group-card .ak-card-body,
+  .ak-topic-card .ak-card-body {
+    padding: 15px;
+  }
+
+  /* Bagian atas kartu */
+  .ak-group-card .ak-card-top,
+  .ak-topic-card .ak-card-top {
+    gap: 9px;
+    align-items: center;
+  }
+
+  /* Badge SKP, PP, PAP, dan seterusnya */
+  .ak-group-card .ak-code-badge {
+    min-width: 50px;
+    height: 38px;
+    padding: 0 10px;
+    border-radius: 11px;
+    font-size: 15px;
+  }
+
+  /* Ikon kartu kelompok */
+  .ak-group-card .ak-module-icon {
+    width: 46px;
+    height: 46px;
+    padding: 10px;
+    border-radius: 14px;
+  }
+
+  /* Ikon kartu submateri */
+  .ak-topic-card .ak-card-top .ak-module-icon {
+    width: 40px;
+    height: 40px;
+    padding: 9px;
+    border-radius: 12px;
+  }
+
+  /* Judul kartu */
+  .ak-group-card h3,
+  .ak-topic-card h3 {
+    margin: 12px 0 6px;
+    font-size: 19px;
+    line-height: 1.25;
+  }
+
+  /* Deskripsi kartu */
+  .ak-group-card p,
+  .ak-topic-card p {
+    min-height: 0;
+    font-size: 13.5px;
+    line-height: 1.45;
+  }
+
+  /* Label kelompok pada kartu submateri */
+  .ak-topic-card .ak-topic-group {
+    margin-bottom: 6px;
+    padding: 4px 7px;
+    font-size: 10px;
+  }
+
+  /* Jumlah submateri, durasi, dan metadata */
+  .ak-group-card .ak-meta-row,
+  .ak-topic-card .ak-meta-row {
+    margin-top: 11px;
+    gap: 6px;
+  }
+
+  .ak-group-card .ak-chip,
+  .ak-topic-card .ak-chip {
+    padding: 6px 9px;
+    font-size: 11px;
+  }
+
+  /* Lihat submateri / Mulai belajar */
+  .ak-group-card .ak-card-action,
+  .ak-topic-card .ak-card-action {
+    margin-top: 11px;
+  }
+
+  .ak-group-card .ak-open,
+  .ak-topic-card .ak-open {
+    padding: 7px 0;
+    font-size: 14px;
+  }
+}
