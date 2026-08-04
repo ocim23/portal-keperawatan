@@ -8,8 +8,8 @@
   "color": "#5B6F9C",
   "soft": "#EEF2FF",
   "icon": "chat",
-  "minutes": 15,
-  "updated": "4 Agustus 2026",
+  "minutes": 17,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,43 @@
       "caption": "Edukasi berhasil bukan ketika perawat selesai berbicara, tetapi ketika pasien dapat memahami dan melakukan hal penting dengan aman.",
       "image": "assets/images/v4/ke-edukasi/ke-edukasi-01.webp",
       "thumbnail": "assets/images/thumb/v4/ke-edukasi/ke-edukasi-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: teach-back tanpa menguji pasien",
+      "caption": "Teach-back menguji kejelasan penjelasan petugas, bukan kecerdasan pasien.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Nilai kebutuhan dan hambatan",
+            "text": "Bahasa, literasi, pendengaran, budaya, emosi, kesiapan, dan siapa yang perlu dilibatkan."
+          },
+          {
+            "title": "2. Beri informasi sedikit demi sedikit",
+            "text": "Gunakan bahasa sederhana, satu sampai tiga pesan utama, lalu berhenti untuk mengecek."
+          },
+          {
+            "title": "3. Minta pasien menjelaskan",
+            "text": "Gunakan kalimat non-menghakimi.",
+            "example": "“Agar saya yakin penjelasan saya jelas, boleh ceritakan bagaimana obat ini akan diminum di rumah?”"
+          },
+          {
+            "title": "4. Dengarkan tanpa menyela",
+            "text": "Identifikasi bagian yang sudah benar dan bagian yang masih salah/terlewat."
+          },
+          {
+            "title": "5. Jelaskan ulang dengan cara berbeda",
+            "text": "Gunakan contoh, demonstrasi, gambar, atau show-me; lalu minta teach-back lagi."
+          },
+          {
+            "title": "6. Dokumentasikan",
+            "text": "Catat topik, peserta, metode, hasil pemahaman, hambatan, dan tindak lanjut."
+          }
+        ],
+        "columns": 2,
+        "note": "Hindari pertanyaan “Sudah paham?” karena mudah dijawab “ya” tanpa menunjukkan pemahaman."
+      }
     },
     {
       "type": "html",
@@ -205,6 +242,13 @@
       "points": [
         "Catat pemahaman, demonstrasi, hambatan, dan tindak lanjut."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Nilai kebutuhan dan hambatan: Bahasa, literasi, pendengaran, budaya, emosi, kesiapan, dan siapa yang perlu dilibatkan.",
+        "2. Beri informasi sedikit demi sedikit: Gunakan bahasa sederhana, satu sampai tiga pesan utama, lalu berhenti untuk mengecek."
+      ]
     }
   ],
   "do": [
@@ -212,14 +256,16 @@
     "Prioritaskan 1–3 pesan penting.",
     "Gunakan bahasa sederhana dan gambar/demonstrasi.",
     "Lakukan teach-back dengan empatik.",
-    "Dokumentasikan respons dan kebutuhan pengulangan."
+    "Dokumentasikan respons dan kebutuhan pengulangan.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Memberi edukasi panjang saat pasien tidak stabil.",
     "Mengandalkan pertanyaan “sudah paham?”.",
     "Menggunakan jargon tanpa penjelasan.",
     "Membuat pasien malu saat teach-back.",
-    "Menulis hanya “edukasi diberikan”."
+    "Menulis hanya “edukasi diberikan”.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +355,17 @@
       ],
       "answer": 1,
       "why": "Pendamping penting tetapi keterlibatan mengikuti preferensi dan kapasitas pasien."
+    },
+    {
+      "q": "Pasien menjawab “sudah paham” setelah edukasi insulin. Cara mengecek yang lebih kuat adalah…",
+      "options": [
+        "Mengulang pertanyaan yang sama",
+        "Meminta pasien menjelaskan atau menunjukkan kembali cara penggunaan dengan kata-katanya sendiri",
+        "Memberi brosur lalu selesai",
+        "Meminta keluarga menandatangani"
+      ],
+      "answer": 1,
+      "why": "Teach-back/show-me menunjukkan pemahaman aktual dan membantu memperbaiki penjelasan."
     }
   ],
   "references": [

@@ -8,8 +8,8 @@
   "color": "#14805E",
   "soft": "#EAF8F2",
   "icon": "hand",
-  "minutes": 12,
-  "updated": "4 Agustus 2026",
+  "minutes": 16,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,77 @@
       "caption": "Kebersihan tangan efektif bila dilakukan pada momen yang tepat, dengan metode yang sesuai, dan seluruh permukaan tangan terjangkau.",
       "image": "assets/images/v4/ppi-tangan/ppi-tangan-01.webp",
       "thumbnail": "assets/images/thumb/v4/ppi-tangan/ppi-tangan-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: 6 langkah kebersihan tangan",
+      "caption": "Lakukan pada seluruh permukaan tangan; urutan dapat berulang agar semua area terjangkau.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Telapak dengan telapak",
+            "text": "Gosok kedua telapak tangan hingga produk tersebar."
+          },
+          {
+            "title": "2. Punggung tangan dan sela jari",
+            "text": "Telapak kanan di atas punggung kiri dengan jari saling terkait, lalu sebaliknya."
+          },
+          {
+            "title": "3. Telapak dan sela jari",
+            "text": "Gosok telapak dengan telapak, jari saling terkait."
+          },
+          {
+            "title": "4. Punggung jari",
+            "text": "Kaitkan jari dan gosok punggung jari pada telapak tangan yang berlawanan."
+          },
+          {
+            "title": "5. Ibu jari",
+            "text": "Genggam ibu jari dan gosok memutar; lakukan pada kedua tangan."
+          },
+          {
+            "title": "6. Ujung jari dan kuku",
+            "text": "Gosok ujung jari memutar pada telapak, lalu bersihkan pergelangan sesuai teknik."
+          }
+        ],
+        "columns": 2,
+        "note": "Handrub umumnya 20–30 detik; handwash 40–60 detik. Ikuti indikasi dan teknik fasilitas."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik: 5 momen kebersihan tangan",
+      "caption": "Momen menjawab kapan harus membersihkan tangan dalam alur pelayanan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Sebelum menyentuh pasien",
+            "text": "Lindungi pasien dari mikroorganisme yang dibawa tangan petugas.",
+            "example": "Sebelum pemeriksaan fisik atau membantu mobilisasi."
+          },
+          {
+            "title": "2. Sebelum tindakan aseptik",
+            "text": "Lindungi pasien dari mikroorganisme, termasuk yang berasal dari tubuh pasien sendiri.",
+            "example": "Sebelum memasang infus atau merawat akses."
+          },
+          {
+            "title": "3. Setelah risiko cairan tubuh",
+            "text": "Lindungi petugas dan lingkungan setelah kemungkinan kontak dengan cairan tubuh.",
+            "example": "Setelah merawat luka atau melepas sarung tangan."
+          },
+          {
+            "title": "4. Setelah menyentuh pasien",
+            "text": "Lindungi petugas dan lingkungan setelah kontak langsung."
+          },
+          {
+            "title": "5. Setelah menyentuh lingkungan pasien",
+            "text": "Termasuk bed rail, meja, monitor, dan alat di zona pasien meski pasien tidak disentuh."
+          }
+        ],
+        "columns": 1,
+        "note": "Sarung tangan tidak menghapus satu pun momen kebersihan tangan."
+      }
     },
     {
       "type": "html",
@@ -206,6 +277,15 @@
       "points": [
         "Melindungi pasien, petugas, dan lingkungan dari perpindahan mikroorganisme."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Telapak dengan telapak: Gosok kedua telapak tangan hingga produk tersebar.",
+        "2. Punggung tangan dan sela jari: Telapak kanan di atas punggung kiri dengan jari saling terkait, lalu sebaliknya.",
+        "1. Sebelum menyentuh pasien: Lindungi pasien dari mikroorganisme yang dibawa tangan petugas.",
+        "2. Sebelum tindakan aseptik: Lindungi pasien dari mikroorganisme, termasuk yang berasal dari tubuh pasien sendiri."
+      ]
     }
   ],
   "do": [
@@ -213,14 +293,16 @@
     "Siapkan alat sebelum membersihkan tangan.",
     "Gunakan durasi dan teknik lengkap.",
     "Lakukan setelah melepas sarung tangan.",
-    "Laporkan hambatan sarana atau masalah kulit."
+    "Laporkan hambatan sarana atau masalah kulit.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Mengandalkan sarung tangan sebagai pengganti.",
     "Menyentuh telepon setelah kebersihan tangan sebelum tindakan aseptik.",
     "Memakai sarung tangan yang sama untuk area berbeda.",
     "Mengabaikan lingkungan pasien.",
-    "Melakukan handrub pada tangan yang tampak kotor."
+    "Melakukan handrub pada tangan yang tampak kotor.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -310,6 +392,17 @@
       ],
       "answer": 1,
       "why": "Keselamatan membutuhkan tindakan individual dan perbaikan sistem."
+    },
+    {
+      "q": "Saat demonstrasi handrub, petugas menyelesaikan gerakan dalam 8 detik tetapi semua langkah disebut. Penilaian terbaik adalah…",
+      "options": [
+        "Sudah benar karena urutan disebut",
+        "Belum memenuhi karena durasi dan cakupan permukaan tidak adekuat",
+        "Cukup bila memakai sarung tangan",
+        "Harus diulang hanya bila tangan kotor"
+      ],
+      "answer": 1,
+      "why": "Teknik harus mencakup seluruh permukaan selama durasi yang dianjurkan."
     }
   ],
   "references": [

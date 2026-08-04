@@ -1,16 +1,18 @@
-# Portal Keperawatan v4.0.0
+# Portal Keperawatan v4.1.0
 
-Portal microlearning akreditasi dan asuhan keperawatan untuk belajar mandiri.
+Portal pembelajaran akreditasi dan asuhan keperawatan untuk belajar mandiri. Situs ini merupakan inisiatif pribadi dan bukan portal resmi rumah sakit.
 
 ## Isi
 - 31 submateri dalam 9 kelompok standar.
-- Setiap submateri memiliki visual pembuka, konsep, alur penerapan, situasi khusus, kesalahan umum, peran perawat, inti materi, dan referensi.
-- Bank 8 soal per materi; 5 soal kasus ditampilkan secara acak setiap percobaan.
-- Pencarian mencakup isi lengkap materi, bukan hanya judul.
-- Favorit, terakhir dibuka, posisi slide, PWA, dan pemulihan posisi scroll tetap dipertahankan.
+- 226 bagian pembelajaran: visual pembuka, konsep, praktik/simulasi, alur, situasi khusus, kesalahan umum, dan peran perawat.
+- 279 soal dalam bank kuis; 5 soal ditampilkan secara acak setiap percobaan.
+- Format visual clean: infografik, tabel, kartu, checklist, dan alur.
+- Swipe slide di HP, navigasi Back yang memulihkan posisi, serta PWA.
 
 ## Deploy GitHub Pages
-Unggah seluruh isi folder ini ke root repository, commit, lalu tunggu GitHub Pages memperbarui situs. Bila PWA lama masih tampil, tutup aplikasi dari recent apps dan buka kembali; cache v4 memiliki nama baru sehingga akan menggantikan versi lama.
+1. Ekstrak ZIP.
+2. Unggah **seluruh isi folder ini** ke root repository dan timpa versi lama.
+3. Commit, lalu tunggu GitHub Pages selesai deploy.
+4. Tutup PWA dari recent apps dan buka kembali agar service worker v4.1.0 aktif.
 
-## Batasan
-Portal ini bukan situs resmi rumah sakit dan tidak menggantikan regulasi, kewenangan klinis, instrumen akreditasi, atau kebijakan fasilitas. Tidak memuat data pasien.
+Bila upload melalui browser GitHub, unggah bertahap bila jumlah file melebihi batas upload browser.

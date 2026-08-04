@@ -8,8 +8,8 @@
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 20,
-  "updated": "4 Agustus 2026",
+  "minutes": 22,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,43 @@
       "caption": "Identifikasi menghubungkan orang yang benar dengan obat, tindakan, spesimen, diet, darah, dan informasi yang benar.",
       "image": "assets/images/v4/skp-1-identifikasi/skp-1-identifikasi-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-1-identifikasi/skp-1-identifikasi-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: identifikasi pasien secara aktif",
+      "caption": "Urutan yang aman saat melakukan obat, spesimen, transfusi, diet, atau tindakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Siapkan sumber pembanding",
+            "text": "Buka order, label, gelang, rekam medis, atau dokumen yang sah sebelum memulai."
+          },
+          {
+            "title": "2. Tanyakan identitas",
+            "text": "Minta pasien menyebutkan identitasnya; hindari pertanyaan yang hanya dijawab “ya/tidak”.",
+            "example": "“Mohon sebutkan nama lengkap dan tanggal lahir Bapak/Ibu.”"
+          },
+          {
+            "title": "3. Cocokkan minimal dua identitas",
+            "text": "Pastikan data yang disebut pasien sama dengan sumber pembanding. Nomor kamar atau bed bukan identitas."
+          },
+          {
+            "title": "4. Cocokkan dengan tindakan",
+            "text": "Pastikan obat, darah, spesimen, diet, atau prosedur memang ditujukan untuk pasien tersebut."
+          },
+          {
+            "title": "5. Tangani kondisi khusus",
+            "text": "Bila pasien tidak mampu menjawab, gunakan gelang/dokumen dan sumber lain yang sah sesuai kebijakan; jangan menebak."
+          },
+          {
+            "title": "6. Label di dekat pasien",
+            "text": "Label spesimen segera setelah pengambilan di hadapan/dekat pasien, lalu verifikasi kembali sebelum meninggalkan area."
+          }
+        ],
+        "columns": 2,
+        "note": "Gelang membantu, tetapi tidak menggantikan proses identifikasi aktif."
+      }
     },
     {
       "type": "html",
@@ -202,6 +239,13 @@
       "points": [
         "Makna warna tidak boleh dianggap universal; ikuti ketentuan fasilitas dan tetap lakukan identifikasi aktif."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Siapkan sumber pembanding: Buka order, label, gelang, rekam medis, atau dokumen yang sah sebelum memulai.",
+        "2. Tanyakan identitas: Minta pasien menyebutkan identitasnya; hindari pertanyaan yang hanya dijawab “ya/tidak”."
+      ]
     }
   ],
   "do": [
@@ -209,14 +253,16 @@
     "Cocokkan minimal dua identitas dengan sumber resmi.",
     "Lakukan verifikasi tepat sebelum pelayanan.",
     "Label spesimen di dekat pasien setelah verifikasi.",
-    "Hentikan proses bila data tidak cocok."
+    "Hentikan proses bila data tidak cocok.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menggunakan nomor kamar atau lokasi.",
     "Mengandalkan wajah atau ingatan.",
     "Mengajukan pertanyaan yang mengarahkan.",
     "Menganggap gelang risiko sebagai identitas.",
-    "Melabel spesimen jauh dari pasien."
+    "Melabel spesimen jauh dari pasien.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -306,6 +352,17 @@
       ],
       "answer": 1,
       "why": "Nomor kamar adalah lokasi, bukan identitas person-spesifik."
+    },
+    {
+      "q": "Pasien menjawab “ya” saat ditanya “Bapak Andi, ya?” sebelum obat diberikan. Tindakan berikutnya adalah…",
+      "options": [
+        "Melanjutkan karena pasien sudah mengiyakan",
+        "Meminta pasien menyebutkan sendiri minimal dua identitas dan mencocokkan dengan order",
+        "Memakai nomor bed sebagai identitas kedua",
+        "Menanyakan kepada pasien di sebelahnya"
+      ],
+      "answer": 1,
+      "why": "Pertanyaan tertutup mudah menghasilkan konfirmasi yang keliru; identifikasi aktif meminta pasien menyebutkan data."
     }
   ],
   "references": [

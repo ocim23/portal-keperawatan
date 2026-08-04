@@ -8,8 +8,8 @@
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 22,
-  "updated": "4 Agustus 2026",
+  "minutes": 24,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "Risiko malnutrisi dan aspirasi harus ditemukan dini; diet yang benar tidak bermanfaat bila tidak masuk, tidak ditoleransi, atau diberikan kepada pasien yang salah.",
       "image": "assets/images/v4/pap-nutrisi/pap-nutrisi-01.webp",
       "thumbnail": "assets/images/thumb/v4/pap-nutrisi/pap-nutrisi-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: skrining, rujuk, intervensi, dan pantau",
+      "caption": "Skrining cepat menentukan siapa yang memerlukan pengkajian nutrisi lebih mendalam.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Lakukan skrining",
+            "text": "Gunakan instrumen sesuai populasi dan waktu yang ditetapkan; pahami arti hasilnya."
+          },
+          {
+            "title": "Kenali red flags",
+            "text": "Penurunan berat badan, intake rendah, disfagia, mual, kondisi katabolik, atau risiko aspirasi."
+          },
+          {
+            "title": "Rujuk/kolaborasi",
+            "text": "Sampaikan hasil positif kepada tenaga gizi/dokter/tim terkait sesuai urgensi."
+          },
+          {
+            "title": "Pastikan diet tepat",
+            "text": "Cocokkan jenis diet, tekstur, rute, alergi, posisi, dan kebutuhan bantuan makan."
+          },
+          {
+            "title": "Pantau toleransi dan asupan",
+            "text": "Catat jumlah asupan, mual/muntah, residu bila relevan, tanda aspirasi, dan perubahan berat."
+          },
+          {
+            "title": "Evaluasi dan modifikasi",
+            "text": "Nilai efektivitas rencana dan eskalasi bila target tidak tercapai."
+          }
+        ],
+        "columns": 2,
+        "note": "Skrining bukan diagnosis malnutrisi; hasil positif memicu proses lanjut."
+      }
     },
     {
       "type": "html",
@@ -209,6 +245,13 @@
       "points": [
         "Risiko atau intake buruk memerlukan kolaborasi, intervensi, dan evaluasi hasil."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Lakukan skrining: Gunakan instrumen sesuai populasi dan waktu yang ditetapkan; pahami arti hasilnya.",
+        "Kenali red flags: Penurunan berat badan, intake rendah, disfagia, mual, kondisi katabolik, atau risiko aspirasi."
+      ]
     }
   ],
   "do": [
@@ -216,14 +259,16 @@
     "Cocokkan diet dengan identitas dan kondisi.",
     "Posisikan pasien dengan aman.",
     "Pantau intake dan tanda aspirasi.",
-    "Koordinasikan perubahan dengan tim gizi dan medis."
+    "Koordinasikan perubahan dengan tim gizi dan medis.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Memberi diet tanpa verifikasi.",
     "Melanjutkan makan saat ada tanda aspirasi.",
     "Mencatat intake berdasarkan perkiraan.",
     "Mengabaikan penurunan asupan berulang.",
-    "Menganggap skrining sama dengan asesmen lengkap."
+    "Menganggap skrining sama dengan asesmen lengkap.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -313,6 +358,17 @@
       ],
       "answer": 1,
       "why": "Gejala baru dapat menandakan intoleransi atau komplikasi."
+    },
+    {
+      "q": "Skrining malnutrisi positif. Langkah berikutnya adalah…",
+      "options": [
+        "Menganggap pasien sudah terdiagnosis malnutrisi",
+        "Melanjutkan pengkajian/rujukan dan menyusun intervensi serta pemantauan",
+        "Mengulang skrining setiap jam tanpa tindakan",
+        "Memberi diet tinggi kalori untuk semua pasien"
+      ],
+      "answer": 1,
+      "why": "Skrining mengidentifikasi risiko dan memicu proses lanjut."
     }
   ],
   "references": [

@@ -8,8 +8,8 @@
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 22,
-  "updated": "4 Agustus 2026",
+  "minutes": 24,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "Pesan keselamatan belum selesai sampai penerima memahami, mengonfirmasi, dan menindaklanjutinya.",
       "image": "assets/images/v4/skp-2-komunikasi/skp-2-komunikasi-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-2-komunikasi/skp-2-komunikasi-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: TBaK dan closed-loop",
+      "caption": "Instruksi verbal/telepon harus ditangkap, dibaca kembali, dan dikonfirmasi.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Dengarkan tanpa menebak",
+            "text": "Pastikan nama pasien, pesan, angka, satuan, waktu, dan konteks terdengar jelas."
+          },
+          {
+            "title": "2. Tulis lengkap",
+            "text": "Catat instruksi atau hasil kritis pada media yang sah; jangan hanya mengandalkan ingatan."
+          },
+          {
+            "title": "3. Bacakan kembali",
+            "text": "Baca nama pasien, obat/hasil, dosis, rute, frekuensi, waktu, dan bagian penting lain secara utuh."
+          },
+          {
+            "title": "4. Minta konfirmasi",
+            "text": "Pemberi pesan harus menyatakan bahwa pembacaan kembali benar atau melakukan koreksi."
+          },
+          {
+            "title": "5. Tutup lingkar komunikasi",
+            "text": "Sebutkan tindakan berikutnya dan waktu pelaksanaan; penerima tugas mengonfirmasi telah memahami."
+          },
+          {
+            "title": "6. Dokumentasikan",
+            "text": "Catat waktu, identitas pemberi/penerima, isi pesan, hasil read-back, dan tindak lanjut sesuai ketentuan."
+          }
+        ],
+        "columns": 2,
+        "note": "Bila ada angka atau nama obat yang meragukan, minta ejaan/penegasan—jangan mengisi sendiri."
+      }
     },
     {
       "type": "html",
@@ -205,6 +241,13 @@
       "points": [
         "Sertakan kondisi, risiko, terapi, alat, hasil pending, dan rencana. Berikan kesempatan bertanya."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Dengarkan tanpa menebak: Pastikan nama pasien, pesan, angka, satuan, waktu, dan konteks terdengar jelas.",
+        "2. Tulis lengkap: Catat instruksi atau hasil kritis pada media yang sah; jangan hanya mengandalkan ingatan."
+      ]
     }
   ],
   "do": [
@@ -212,14 +255,16 @@
     "Gunakan SBAR untuk pesan klinis penting.",
     "Lakukan TBaK pada instruksi verbal/telepon.",
     "Dokumentasikan waktu, isi, penerima, dan tindak lanjut.",
-    "Tutup loop dengan memastikan tugas selesai."
+    "Tutup loop dengan memastikan tugas selesai.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menebak pesan yang tidak jelas.",
     "Menggunakan singkatan tidak baku.",
     "Memberi handover tanpa kesempatan bertanya.",
     "Mengabaikan hasil kritis karena penerima sulit dihubungi.",
-    "Menyampaikan informasi pasien kepada pihak yang tidak berwenang."
+    "Menyampaikan informasi pasien kepada pihak yang tidak berwenang.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +354,17 @@
       ],
       "answer": 1,
       "why": "Terapi berisiko tinggi harus diserahterimakan secara lengkap agar tidak terputus atau salah titrasi."
+    },
+    {
+      "q": "Setelah read-back, pemberi instruksi diam dan menutup telepon. Penerima sebaiknya…",
+      "options": [
+        "Menganggap instruksi benar",
+        "Meminta konfirmasi eksplisit sebelum melaksanakan",
+        "Menambahkan bagian yang kurang menurut kebiasaan",
+        "Menghapus catatan"
+      ],
+      "answer": 1,
+      "why": "Read-back harus diikuti konfirmasi/koreksi dari pemberi pesan agar lingkar komunikasi tertutup."
     }
   ],
   "references": [

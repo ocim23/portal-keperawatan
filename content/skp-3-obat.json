@@ -8,8 +8,8 @@
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 22,
-  "updated": "4 Agustus 2026",
+  "minutes": 24,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "Obat berisiko tidak cukup diamankan dengan kewaspadaan pribadi; sistem harus mencegah, mendeteksi, dan mengurangi dampak kesalahan.",
       "image": "assets/images/v4/skp-3-obat/skp-3-obat-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-3-obat/skp-3-obat-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: pengamanan LASA dan high-alert",
+      "caption": "Fokus pada sistem yang mencegah salah ambil, salah hitung, dan salah pemberian.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Kenali sebelum menyiapkan",
+            "text": "Periksa label, konsentrasi, bentuk sediaan, pasien, alergi, dan instruksi. Jangan mengandalkan warna kemasan."
+          },
+          {
+            "title": "Pisahkan dan beri penanda",
+            "text": "Simpan LASA/high-alert/elektrolit konsentrat sesuai sistem pengamanan fasilitas dan batasi akses."
+          },
+          {
+            "title": "Baca label berulang",
+            "text": "Baca saat mengambil, saat menyiapkan, dan sebelum mengembalikan/membuang kemasan."
+          },
+          {
+            "title": "Hitung secara mandiri",
+            "text": "Untuk verifikasi independen, petugas kedua melakukan pemeriksaan sendiri sebelum membandingkan hasil."
+          },
+          {
+            "title": "Pantau pasien",
+            "text": "Kenali parameter sebelum pemberian, efek yang diharapkan, dan tanda toksisitas/komplikasi."
+          },
+          {
+            "title": "Hentikan bila tidak cocok",
+            "text": "Jangan memaksa proses bila order, label, konsentrasi, perhitungan, atau identitas tidak selaras."
+          }
+        ],
+        "columns": 2,
+        "note": "Daftar obat dan bentuk double-check mengikuti kebijakan fasilitas; prinsipnya tetap mencegah error sebelum mencapai pasien."
+      }
     },
     {
       "type": "html",
@@ -205,6 +241,13 @@
       "points": [
         "Verifikasi, penyiapan aman, pemberian, pemantauan, dokumentasi, dan pelaporan celah sistem."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Kenali sebelum menyiapkan: Periksa label, konsentrasi, bentuk sediaan, pasien, alergi, dan instruksi. Jangan mengandalkan warna kemasan.",
+        "Pisahkan dan beri penanda: Simpan LASA/high-alert/elektrolit konsentrat sesuai sistem pengamanan fasilitas dan batasi akses."
+      ]
     }
   ],
   "do": [
@@ -212,14 +255,16 @@
     "Cocokkan obat dengan indikasi dan kondisi pasien.",
     "Labeli semua sediaan yang dipindahkan.",
     "Lakukan double-check independen bila dipersyaratkan.",
-    "Pantau efek terapi dan tanda toksisitas."
+    "Pantau efek terapi dan tanda toksisitas.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menyimpan LASA berdampingan tanpa pengaman.",
     "Mengandalkan warna label saja.",
     "Melakukan double-check sebagai tanda tangan formal.",
     "Menggunakan singkatan dosis yang ambigu.",
-    "Memberikan obat tanpa menilai parameter yang relevan."
+    "Memberikan obat tanpa menilai parameter yang relevan.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +354,17 @@
       ],
       "answer": 2,
       "why": "Monitoring adalah bagian dari proses penggunaan obat yang aman."
+    },
+    {
+      "q": "Dalam double-check insulin, petugas kedua hanya melihat hasil hitung petugas pertama lalu berkata “setuju”. Masalah utamanya adalah…",
+      "options": [
+        "Tidak memakai kalkulator",
+        "Tidak melakukan verifikasi secara independen sehingga mudah terkena bias konfirmasi",
+        "Tidak menuliskan warna kemasan",
+        "Tidak menanyakan nama dokter"
+      ],
+      "answer": 1,
+      "why": "Verifikasi independen berarti petugas kedua memeriksa sendiri sebelum membandingkan hasil."
     }
   ],
   "references": [

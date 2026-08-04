@@ -8,8 +8,8 @@
   "color": "#9A5B12",
   "soft": "#FFF5E8",
   "icon": "pill",
-  "minutes": 13,
-  "updated": "4 Agustus 2026",
+  "minutes": 15,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,50 @@
       "caption": "Keselamatan obat dimulai sebelum obat disiapkan dan berlanjut sampai respons pasien dinilai serta dicatat.",
       "image": "assets/images/v4/pkpo-pemberian/pkpo-pemberian-01.webp",
       "thumbnail": "assets/images/thumb/v4/pkpo-pemberian/pkpo-pemberian-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: pemberian obat yang aman",
+      "caption": "Gunakan proses berlapis dari verifikasi order sampai evaluasi respons.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Verifikasi order",
+            "text": "Pastikan pasien, obat, dosis, rute, waktu, indikasi, duplikasi, dan kejelasan instruksi."
+          },
+          {
+            "title": "2. Kaji pasien",
+            "text": "Identitas, alergi, kondisi klinis, hasil laboratorium, kemampuan menelan, akses, dan kontraindikasi."
+          },
+          {
+            "title": "3. Siapkan satu pasien pada satu waktu",
+            "text": "Kurangi interupsi, baca label berulang, hitung dengan benar, dan jangan memakai obat tanpa identitas jelas."
+          },
+          {
+            "title": "4. Lakukan verifikasi tambahan",
+            "text": "Ikuti double-check independen untuk obat/proses yang dipersyaratkan."
+          },
+          {
+            "title": "5. Identifikasi di sisi pasien",
+            "text": "Gunakan minimal dua identitas dan jelaskan obat secara singkat."
+          },
+          {
+            "title": "6. Berikan dengan teknik benar",
+            "text": "Rute, kecepatan, kompatibilitas, posisi, dan teknik aseptik sesuai obat."
+          },
+          {
+            "title": "7. Dokumentasikan setelah diberikan",
+            "text": "Catat waktu, dosis, rute, lokasi bila relevan, penolakan/tertunda, dan alasan."
+          },
+          {
+            "title": "8. Pantau respons",
+            "text": "Nilai efek terapi, reaksi alergi, efek samping, dan parameter yang perlu dievaluasi."
+          }
+        ],
+        "columns": 2,
+        "note": "Bila ada ketidaksesuaian, hentikan proses dan klarifikasi sebelum obat mencapai pasien."
+      }
     },
     {
       "type": "html",
@@ -205,6 +249,13 @@
       "points": [
         "Dokumentasikan kejadian nyata, pantau respons, dan tindak lanjuti masalah."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Verifikasi order: Pastikan pasien, obat, dosis, rute, waktu, indikasi, duplikasi, dan kejelasan instruksi.",
+        "2. Kaji pasien: Identitas, alergi, kondisi klinis, hasil laboratorium, kemampuan menelan, akses, dan kontraindikasi."
+      ]
     }
   ],
   "do": [
@@ -212,14 +263,16 @@
     "Gunakan dua identitas aktif.",
     "Periksa alergi dan parameter sebelum obat.",
     "Dokumentasikan setelah kejadian.",
-    "Pantau efek dan eskalasi perubahan."
+    "Pantau efek dan eskalasi perubahan.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menebak dosis atau singkatan.",
     "Mendokumentasikan sebelum memberi.",
     "Mengulang obat setelah muntah tanpa klarifikasi.",
     "Menghancurkan tablet tanpa verifikasi.",
-    "Menyembunyikan near miss atau kesalahan."
+    "Menyembunyikan near miss atau kesalahan.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +362,17 @@
       ],
       "answer": 1,
       "why": "Near miss memberi peluang belajar sebelum terjadi cedera."
+    },
+    {
+      "q": "Perawat sudah menyiapkan obat untuk dua pasien di satu baki agar cepat. Risiko utamanya adalah…",
+      "options": [
+        "Obat menjadi lebih dingin",
+        "Meningkatkan peluang tertukar; sebaiknya siapkan satu pasien pada satu waktu",
+        "Dokumentasi menjadi terlalu singkat",
+        "Pasien harus menunggu lebih lama"
+      ],
+      "answer": 1,
+      "why": "Pemisahan satu pasien pada satu waktu merupakan pengendalian penting terhadap salah obat/pasien."
     }
   ],
   "references": [

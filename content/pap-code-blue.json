@@ -8,8 +8,8 @@
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 22,
-  "updated": "4 Agustus 2026",
+  "minutes": 24,
+  "updated": "2026-08-05",
   "notice": "Nomor, kriteria aktivasi, dan pembagian peran mengikuti sistem Code Blue fasilitas.",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,46 @@
       "caption": "Code Blue bukan hanya panggilan; keberhasilannya bergantung pada deteksi, aktivasi, BHD awal, tim, alat, komunikasi, dan evaluasi.",
       "image": "assets/images/v4/pap-code-blue/pap-code-blue-01.webp",
       "thumbnail": "assets/images/thumb/v4/pap-code-blue/pap-code-blue-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: aktivasi dan peran awal Code Blue",
+      "caption": "Penemu pasien memulai respons; jangan menunggu tim datang untuk melakukan tindakan dasar.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Kenali kondisi",
+            "text": "Pasien tidak responsif, tidak bernapas normal, atau tidak ada nadi teraba pasti."
+          },
+          {
+            "title": "Aktifkan sistem",
+            "text": "Sebutkan lokasi spesifik, kondisi, identitas/unit, dan akses tercepat sesuai alur fasilitas."
+          },
+          {
+            "title": "Mulai BHD",
+            "text": "Kompresi berkualitas dan ventilasi sesuai kemampuan; minta AED/crash cart."
+          },
+          {
+            "title": "Bagi peran awal",
+            "text": "Kompresi, jalan napas, AED/monitor, obat/akses, pencatat waktu, dan pengendali area."
+          },
+          {
+            "title": "Gunakan closed-loop",
+            "text": "Instruksi menyebut nama/tugas; penerima mengulang dan melaporkan selesai."
+          },
+          {
+            "title": "Serahkan informasi",
+            "text": "Sampaikan waktu ditemukan, kondisi awal, RJP, shock, obat, respons, dan riwayat penting."
+          },
+          {
+            "title": "Dokumentasi dan debrief",
+            "text": "Catat waktu/tindakan secara real-time dan lakukan evaluasi setelah kejadian."
+          }
+        ],
+        "columns": 2,
+        "note": "Nomor aktivasi, komposisi tim, dan lokasi crash cart mengikuti fasilitas."
+      }
     },
     {
       "type": "html",
@@ -209,6 +249,13 @@
       "points": [
         "Dokumentasi, handover, pemulihan crash cart, debrief, dan tindak lanjut sistem."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Kenali kondisi: Pasien tidak responsif, tidak bernapas normal, atau tidak ada nadi teraba pasti.",
+        "Aktifkan sistem: Sebutkan lokasi spesifik, kondisi, identitas/unit, dan akses tercepat sesuai alur fasilitas."
+      ]
     }
   ],
   "do": [
@@ -216,14 +263,16 @@
     "Mulai BHD/AED tanpa menunggu tim.",
     "Gunakan closed-loop.",
     "Catat waktu dan tindakan.",
-    "Pulihkan crash cart dan lakukan debrief."
+    "Pulihkan crash cart dan lakukan debrief.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menunggu tim sebelum kompresi.",
     "Memberi lokasi yang tidak jelas.",
     "Membiarkan banyak pemimpin.",
     "Mengabaikan keselamatan area.",
-    "Meninggalkan alat tanpa restock."
+    "Meninggalkan alat tanpa restock.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -313,6 +362,17 @@
       ],
       "answer": 1,
       "why": "Jalur aktivasi adalah kebijakan lokal yang wajib diketahui setiap staf."
+    },
+    {
+      "q": "Tim Code Blue belum tiba. Penemu pasien sebaiknya…",
+      "options": [
+        "Menunggu agar dokumentasi rapi",
+        "Memulai BHD dan meminta AED/crash cart sambil bantuan diaktifkan",
+        "Memindahkan pasien sendiri ke ICU",
+        "Mencari rekam medis terlebih dahulu"
+      ],
+      "answer": 1,
+      "why": "Tindakan dasar harus dimulai segera; aktivasi tim tidak menggantikan BHD awal."
     }
   ],
   "references": [

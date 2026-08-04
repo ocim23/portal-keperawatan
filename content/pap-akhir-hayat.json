@@ -9,7 +9,7 @@
   "soft": "#FFF0F2",
   "icon": "heart",
   "minutes": 25,
-  "updated": "4 Agustus 2026",
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "DNR hanya berkaitan dengan CPR saat henti jantung/napas; pasien tetap berhak menerima perawatan, kenyamanan, dan dukungan yang sesuai.",
       "image": "assets/images/v4/pap-akhir-hayat/pap-akhir-hayat-01.webp",
       "thumbnail": "assets/images/thumb/v4/pap-akhir-hayat/pap-akhir-hayat-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Simulasi: merawat pasien akhir hayat dan memahami DNR",
+      "caption": "Fokus pada tujuan perawatan, kenyamanan, komunikasi, dan kejelasan dokumentasi.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Konfirmasi tujuan dan status",
+            "text": "Pastikan keputusan dan dokumentasi yang sah dapat dikenali tim; bila tidak jelas, segera eskalasi."
+          },
+          {
+            "title": "Nilai gejala",
+            "text": "Nyeri, sesak, delirium, sekresi, mual, kecemasan, kebutuhan mulut/kulit, dan kenyamanan posisi."
+          },
+          {
+            "title": "Berikan asuhan bermartabat",
+            "text": "Jaga privasi, kebersihan, komunikasi, kebutuhan spiritual/budaya, dan kehadiran keluarga sesuai keinginan."
+          },
+          {
+            "title": "Jelaskan DNR dengan tepat",
+            "text": "DNR berkaitan dengan resusitasi saat henti jantung/napas; bukan otomatis menghentikan seluruh perawatan."
+          },
+          {
+            "title": "Komunikasikan perubahan",
+            "text": "Sampaikan perubahan kondisi, respons, tujuan, dan kebutuhan keluarga kepada tim secara konsisten."
+          },
+          {
+            "title": "Dokumentasikan",
+            "text": "Catat penilaian, intervensi, respons, komunikasi, dan keputusan yang relevan."
+          }
+        ],
+        "columns": 2,
+        "note": "Perawat tidak menetapkan DNR sendiri; peran utamanya memastikan asuhan, komunikasi, dan dokumentasi berjalan aman."
+      }
     },
     {
       "type": "html",
@@ -209,6 +245,13 @@
       "points": [
         "Status, tujuan, keputusan, dan rencana harus jelas pada seluruh transisi."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Konfirmasi tujuan dan status: Pastikan keputusan dan dokumentasi yang sah dapat dikenali tim; bila tidak jelas, segera eskalasi.",
+        "Nilai gejala: Nyeri, sesak, delirium, sekresi, mual, kecemasan, kebutuhan mulut/kulit, dan kenyamanan posisi."
+      ]
     }
   ],
   "do": [
@@ -216,14 +259,16 @@
     "Nilai gejala secara berulang.",
     "Libatkan pasien sesuai kapasitas dan preferensi.",
     "Jaga privasi, martabat, dan kebutuhan dasar.",
-    "Serah terimakan keputusan serta batas terapi secara jelas."
+    "Serah terimakan keputusan serta batas terapi secara jelas.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menganggap DNR berarti menghentikan semua perawatan.",
     "Membuat keputusan sendiri tanpa kewenangan.",
     "Menghindari komunikasi sulit.",
     "Mengabaikan gejala karena pasien “sudah terminal”.",
-    "Membahas informasi sensitif tanpa privasi."
+    "Membahas informasi sensitif tanpa privasi.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -313,6 +358,17 @@
       ],
       "answer": 1,
       "why": "Kejelasan status mencegah keterlambatan atau tindakan yang tidak sesuai."
+    },
+    {
+      "q": "Pasien berstatus DNR mengalami nyeri berat. Tindakan perawat adalah…",
+      "options": [
+        "Tidak memberikan terapi karena DNR",
+        "Tetap melakukan penilaian dan penanganan nyeri sesuai tujuan perawatan",
+        "Mengaktifkan RJP",
+        "Menghentikan semua pemantauan otomatis"
+      ],
+      "answer": 1,
+      "why": "DNR tidak berarti menghentikan seluruh perawatan; kenyamanan dan terapi lain tetap diberikan sesuai rencana."
     }
   ],
   "references": [

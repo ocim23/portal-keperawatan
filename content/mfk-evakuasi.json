@@ -8,8 +8,8 @@
   "color": "#B75A24",
   "soft": "#FFF1E8",
   "icon": "fire",
-  "minutes": 15,
-  "updated": "4 Agustus 2026",
+  "minutes": 17,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,46 @@
       "caption": "Evakuasi rumah sakit bukan sekadar keluar gedung: pasien harus diprioritaskan, dipindahkan dengan aman, dilacak, dan diserahterimakan.",
       "image": "assets/images/v4/mfk-evakuasi/mfk-evakuasi-01.webp",
       "thumbnail": "assets/images/thumb/v4/mfk-evakuasi/mfk-evakuasi-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: respons kebakaran dan evakuasi unit",
+      "caption": "Tujuan awal adalah menyelamatkan orang, membatasi bahaya, dan memindahkan pasien secara terkoordinasi.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Aktifkan alarm dan bantuan",
+            "text": "Sebutkan lokasi, jenis bahaya, unit, dan kebutuhan khusus; gunakan jalur fasilitas."
+          },
+          {
+            "title": "Selamatkan yang langsung terancam",
+            "text": "Pindahkan dari bahaya segera bila aman tanpa menunggu evakuasi total."
+          },
+          {
+            "title": "Batasi asap/api",
+            "text": "Tutup pintu, hentikan sumber tertentu bila aman, dan jangan membuka pintu panas tanpa penilaian."
+          },
+          {
+            "title": "Pilih arah evakuasi",
+            "text": "Utamakan evakuasi horizontal ke kompartemen aman; vertikal sesuai instruksi dan kondisi."
+          },
+          {
+            "title": "Prioritaskan pasien",
+            "text": "Pertimbangkan ambulasi, ketergantungan alat/oksigen, kondisi kritis, dan jumlah petugas."
+          },
+          {
+            "title": "Bawa informasi penting",
+            "text": "Identitas, obat/terapi penting, alat penunjang, dan daftar lokasi pasien sesuai rencana."
+          },
+          {
+            "title": "Lakukan accounting dan handover",
+            "text": "Pastikan siapa sudah dipindahkan, ke mana, siapa bertanggung jawab, dan apa kebutuhan lanjutnya."
+          }
+        ],
+        "columns": 2,
+        "note": "Kode, jalur, titik kumpul, dan teknik pemindahan harus mengikuti rencana serta latihan fasilitas."
+      }
     },
     {
       "type": "html",
@@ -205,6 +245,13 @@
       "points": [
         "Identitas, lokasi, alat, obat, terapi, dan serah terima tidak boleh hilang."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Aktifkan alarm dan bantuan: Sebutkan lokasi, jenis bahaya, unit, dan kebutuhan khusus; gunakan jalur fasilitas.",
+        "Selamatkan yang langsung terancam: Pindahkan dari bahaya segera bila aman tanpa menunggu evakuasi total."
+      ]
     }
   ],
   "do": [
@@ -212,14 +259,16 @@
     "Bagi peran secara jelas.",
     "Prioritaskan pasien berdasarkan ancaman dan kebutuhan.",
     "Pertahankan identitas dan pelacakan.",
-    "Asesmen ulang di area aman."
+    "Asesmen ulang di area aman.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menggunakan lift tanpa mengikuti rencana.",
     "Membuka pintu ke area berasap tanpa penilaian.",
     "Membawa barang tidak penting.",
     "Memindahkan pasien tanpa pencatatan tujuan.",
-    "Kembali ke area bahaya tanpa izin."
+    "Kembali ke area bahaya tanpa izin.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +358,17 @@
       ],
       "answer": 1,
       "why": "Temuan latihan harus menghasilkan perbaikan yang dapat diukur."
+    },
+    {
+      "q": "Saat evakuasi, pasien telah dipindah tetapi tidak ada pencatatan lokasi barunya. Risiko utama adalah…",
+      "options": [
+        "Pasien dapat tidak terlacak dan tindak lanjut terputus",
+        "Evakuasi menjadi terlalu cepat",
+        "Alarm berbunyi lebih lama",
+        "APAR menjadi kosong"
+      ],
+      "answer": 0,
+      "why": "Accounting dan handover lokasi pasien penting untuk keselamatan dan kesinambungan pelayanan."
     }
   ],
   "references": [

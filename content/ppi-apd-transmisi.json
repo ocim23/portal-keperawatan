@@ -8,8 +8,8 @@
   "color": "#14805E",
   "soft": "#EAF8F2",
   "icon": "hand",
-  "minutes": 13,
-  "updated": "4 Agustus 2026",
+  "minutes": 17,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,70 @@
       "caption": "APD dipilih berdasarkan aktivitas dan risiko pajanan—bukan hanya berdasarkan diagnosis pasien.",
       "image": "assets/images/v4/ppi-apd-transmisi/ppi-apd-transmisi-01.webp",
       "thumbnail": "assets/images/thumb/v4/ppi-apd-transmisi/ppi-apd-transmisi-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: memakai APD (contoh urutan)",
+      "caption": "Pilih APD berdasarkan risiko pajanan dan jenis kewaspadaan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Kebersihan tangan",
+            "text": "Pastikan ukuran APD sesuai dan semua komponen tersedia."
+          },
+          {
+            "title": "2. Gaun",
+            "text": "Tutupi badan dari leher sampai lutut dan lengan sampai pergelangan; ikat dengan benar."
+          },
+          {
+            "title": "3. Masker atau respirator",
+            "text": "Pasang rapat; lakukan fit-check untuk respirator sesuai program."
+          },
+          {
+            "title": "4. Pelindung mata/wajah",
+            "text": "Atur agar menutup area mata/wajah dan tidak mengganggu APD lain."
+          },
+          {
+            "title": "5. Sarung tangan",
+            "text": "Tutupi manset gaun dan hindari menyentuh area bersih setelah masuk zona pasien."
+          }
+        ],
+        "columns": 2,
+        "note": "Ini contoh urutan CDC; kombinasi/urutan dapat disesuaikan dengan APD dan kewaspadaan yang digunakan."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik: melepas APD tanpa mencemari diri",
+      "caption": "Bagian depan/luar dianggap paling berisiko terkontaminasi.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Lepas sarung tangan",
+            "text": "Hindari menyentuh kulit; buang sesuai tempat."
+          },
+          {
+            "title": "2. Lepas pelindung mata/wajah",
+            "text": "Pegang dari bagian belakang/tali; proses ulang atau buang sesuai ketentuan."
+          },
+          {
+            "title": "3. Lepas gaun",
+            "text": "Buka ikatan, tarik menjauhi tubuh, balik bagian terkontaminasi ke dalam, lalu gulung."
+          },
+          {
+            "title": "4. Lepas masker/respirator",
+            "text": "Pegang tali dari belakang; jangan menyentuh bagian depan. Respirator dilepas setelah keluar sesuai protokol."
+          },
+          {
+            "title": "5. Kebersihan tangan",
+            "text": "Lakukan segera setelah semua APD dilepas dan bila tangan terkontaminasi di tengah proses."
+          }
+        ],
+        "columns": 1,
+        "note": "Prosedur harus disesuaikan dengan kombinasi APD dan agen berisiko tinggi; gunakan observer bila dipersyaratkan."
+      }
     },
     {
       "type": "html",
@@ -205,6 +269,15 @@
       "points": [
         "Gerakan lambat, area kotor tidak menyentuh kulit, lalu kebersihan tangan."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Kebersihan tangan: Pastikan ukuran APD sesuai dan semua komponen tersedia.",
+        "2. Gaun: Tutupi badan dari leher sampai lutut dan lengan sampai pergelangan; ikat dengan benar.",
+        "1. Lepas sarung tangan: Hindari menyentuh kulit; buang sesuai tempat.",
+        "2. Lepas pelindung mata/wajah: Pegang dari bagian belakang/tali; proses ulang atau buang sesuai ketentuan."
+      ]
     }
   ],
   "do": [
@@ -212,14 +285,16 @@
     "Gunakan ukuran dan jenis APD yang tepat.",
     "Lakukan seal check respirator sesuai jenisnya.",
     "Lepas APD perlahan dan terstruktur.",
-    "Lakukan kebersihan tangan serta evaluasi pajanan."
+    "Lakukan kebersihan tangan serta evaluasi pajanan.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Memakai APD yang sama antar pasien.",
     "Menyentuh telepon dengan sarung tangan terkontaminasi.",
     "Menurunkan masker ke dagu untuk dipakai kembali.",
     "Memaksakan tindakan berisiko tanpa APD memadai.",
-    "Menganggap satu urutan doffing cocok untuk semua kombinasi tanpa panduan."
+    "Menganggap satu urutan doffing cocok untuk semua kombinasi tanpa panduan.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +384,17 @@
       ],
       "answer": 1,
       "why": "Transportasi harus mempertahankan pencegahan transmisi dan kesinambungan informasi."
+    },
+    {
+      "q": "Saat melepas masker, petugas memegang bagian depan masker. Risiko utamanya adalah…",
+      "options": [
+        "Masker menjadi terlalu longgar",
+        "Kontaminasi tangan/wajah dari permukaan depan yang dianggap terkontaminasi",
+        "Tali masker rusak",
+        "Durasi pelepasan terlalu cepat"
+      ],
+      "answer": 1,
+      "why": "Bagian depan PPE berpotensi terkontaminasi dan harus dihindari saat pelepasan."
     }
   ],
   "references": [

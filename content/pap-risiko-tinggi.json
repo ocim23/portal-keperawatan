@@ -8,8 +8,8 @@
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 21,
-  "updated": "4 Agustus 2026",
+  "minutes": 23,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "“Risiko tinggi” bukan sekadar label; status ini mengubah kompetensi petugas, pemantauan, kesiapan alat, komunikasi, dan eskalasi.",
       "image": "assets/images/v4/pap-risiko-tinggi/pap-risiko-tinggi-01.webp",
       "thumbnail": "assets/images/thumb/v4/pap-risiko-tinggi/pap-risiko-tinggi-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: kesiapan merawat pasien risiko tinggi",
+      "caption": "Risiko tinggi menuntut kompetensi, pemantauan, alat, dan eskalasi yang lebih terencana.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Kenali sumber risiko",
+            "text": "Kondisi kritis, usia, terapi, sedasi, transfusi, alat invasif, isolasi, gangguan komunikasi, atau transisi."
+          },
+          {
+            "title": "Pastikan kompetensi dan bantuan",
+            "text": "Petugas mengetahui batas kewenangan, cara meminta bantuan, serta tim yang harus dihubungi."
+          },
+          {
+            "title": "Siapkan alat dan obat",
+            "text": "Periksa fungsi alat, emergency equipment, obat, akses, dan cadangan sebelum tindakan."
+          },
+          {
+            "title": "Tetapkan pemantauan",
+            "text": "Tentukan parameter, frekuensi, target, dan tanda bahaya yang memicu eskalasi."
+          },
+          {
+            "title": "Handover berisiko tinggi",
+            "text": "Sampaikan diagnosis/masalah, tren, terapi, risiko, akses, alergi, dan tindakan tertunda."
+          },
+          {
+            "title": "Evaluasi setelah tindakan/transisi",
+            "text": "Nilai komplikasi, respons, dan kebutuhan tingkat perawatan yang berbeda."
+          }
+        ],
+        "columns": 2,
+        "note": "Risiko tinggi tidak selalu berarti pasien di ICU; konteks tindakan dan kemampuan unit juga menentukan."
+      }
     },
     {
       "type": "html",
@@ -209,6 +245,13 @@
       "points": [
         "Tim harus tahu apa yang dilakukan, kapan, dan oleh siapa."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Kenali sumber risiko: Kondisi kritis, usia, terapi, sedasi, transfusi, alat invasif, isolasi, gangguan komunikasi, atau transisi.",
+        "Pastikan kompetensi dan bantuan: Petugas mengetahui batas kewenangan, cara meminta bantuan, serta tim yang harus dihubungi."
+      ]
     }
   ],
   "do": [
@@ -216,14 +259,16 @@
     "Pastikan petugas dan alat sesuai.",
     "Lakukan asesmen ulang.",
     "Serah terimakan pengamanan aktif.",
-    "Libatkan pasien dan keluarga."
+    "Libatkan pasien dan keluarga.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menggunakan label tanpa tindakan.",
     "Memulai prosedur tanpa kesiapan rescue.",
     "Mengumpulkan data tanpa respons.",
     "Menurunkan pengamanan tanpa penilaian.",
-    "Membiarkan risiko hilang saat transfer."
+    "Membiarkan risiko hilang saat transfer.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -313,6 +358,17 @@
       ],
       "answer": 1,
       "why": "Penerima membutuhkan informasi yang memengaruhi keselamatan segera."
+    },
+    {
+      "q": "Pasien dengan obat vasoaktif dipindah tanpa menyampaikan dosis, akses, tren tekanan darah, dan target. Risiko utama adalah…",
+      "options": [
+        "Serah terima tidak membawa informasi yang menentukan pemantauan dan respons",
+        "Dokumen terlalu panjang",
+        "Warna bed berbeda",
+        "Pasien belum makan"
+      ],
+      "answer": 0,
+      "why": "Transisi pasien risiko tinggi harus memuat terapi aktif, akses, tren, target, dan contingency plan."
     }
   ],
   "references": [

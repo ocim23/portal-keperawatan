@@ -1,14 +1,24 @@
-# CHANGELOG — v4.0.0
+# Changelog
 
-Tanggal: 4 Agustus 2026
+## v4.1.0 — 5 Agustus 2026
 
-## Perubahan besar
-- Membangun ulang isi seluruh 31 submateri agar tidak lagi berupa daftar istilah singkat.
-- Menambahkan definisi, alasan, penerapan, situasi khusus, kesalahan umum, peran perawat, dan contoh.
-- Mengganti seluruh visual pembuka dengan poster WebP baru yang sesuai judul materi.
-- Memperbaiki materi INM: definisi, 13 INM rumah sakit, numerator, denominator, formula, contoh hitung, validasi, analisis, dan siklus perbaikan.
-- Memperbarui BHD sesuai arah AHA 2025, NEWS2, kebersihan tangan, APD, high-alert, teach-back, DNR, serta APAR.
-- Meningkatkan kuis menjadi bank 8 soal per materi dengan 5 soal acak berbasis kasus.
-- Memperluas pencarian ke isi materi lengkap.
-- Mempertahankan navigasi maju/kembali dan pemulihan posisi scroll versi sebelumnya.
-- Memperbarui cache PWA dan fallback JSON offline.
+### Penguatan pembelajaran
+- Seluruh 31 submateri mendapat slide praktik/simulasi yang lebih konkret.
+- Materi demonstrasi utama mendapat infografik khusus: identifikasi, TBaK, time-out, jatuh, NEWS2, BHD, Code Blue, 6 langkah dan 5 momen kebersihan tangan, memakai/melepas APD, spill kit, pajanan, obat aman, teach-back, APAR, dan evakuasi.
+- Total 226 bagian pembelajaran dan 279 soal dalam bank kuis.
+- Bagian Inti Materi ditambah ringkasan “Saat diminta praktik”.
+- Satu soal praktik baru ditambahkan pada seluruh submateri.
+
+### UX
+- Poster tampil utuh di desktop; halaman melakukan scroll normal.
+- Slide berikutnya/sebelumnya dan perpindahan tab dimulai dari awal konten.
+- Perpindahan halaman menggunakan fade singkat, tanpa smooth-scroll panjang.
+- Tab Pelajari, Inti Materi, Uji Pemahaman, dan Referensi diperbesar.
+- Swipe kiri/kanan aktif pada tab Pelajari di HP.
+- Setiap kali materi dibuka kembali setelah ditinggalkan, Pelajari dimulai dari slide pertama.
+- Selama masih berada pada materi yang sama, perpindahan tab tetap mempertahankan slide aktif.
+
+### Visual
+- Gaya clean berupa tabel, kartu, checklist, dan alur dipertahankan.
+- Badge “AK LEARNING” diperpanjang pada seluruh poster WebP.
+- Poster ilustratif lama tidak digunakan sebagai pola utama.

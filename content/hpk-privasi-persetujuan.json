@@ -8,8 +8,8 @@
   "color": "#A34D78",
   "soft": "#FFF0F7",
   "icon": "rights",
-  "minutes": 17,
-  "updated": "4 Agustus 2026",
+  "minutes": 19,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "Privasi melindungi ruang dan tubuh; kerahasiaan melindungi informasi; persetujuan/penolakan adalah proses keputusan setelah informasi memadai.",
       "image": "assets/images/v4/hpk-privasi-persetujuan/hpk-privasi-persetujuan-01.webp",
       "thumbnail": "assets/images/thumb/v4/hpk-privasi-persetujuan/hpk-privasi-persetujuan-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Simulasi: privasi, kerahasiaan, persetujuan, dan penolakan",
+      "caption": "Empat konsep ini saling terkait tetapi tidak sama.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Privasi fisik",
+            "text": "Tutup tirai/pintu, tutupi tubuh, batasi orang yang hadir, dan minta izin sebelum pemeriksaan atau foto."
+          },
+          {
+            "title": "Kerahasiaan informasi",
+            "text": "Bicarakan data hanya dengan pihak berwenang; amankan layar, dokumen, pesan, dan hasil pemeriksaan."
+          },
+          {
+            "title": "Pastikan kapasitas dan pihak yang tepat",
+            "text": "Nilai kemampuan memahami/menentukan pilihan; gunakan wakil sesuai ketentuan bila diperlukan."
+          },
+          {
+            "title": "Informasi sebelum persetujuan",
+            "text": "Tujuan, prosedur, manfaat, risiko, alternatif, konsekuensi penolakan, dan kesempatan bertanya."
+          },
+          {
+            "title": "Keputusan sukarela",
+            "text": "Hindari tekanan; pastikan pasien memahami dan memiliki waktu yang layak kecuali keadaan darurat."
+          },
+          {
+            "title": "Dokumentasi dan eskalasi",
+            "text": "Catat proses, keputusan, saksi bila perlu, serta eskalasi bila ada konflik atau keadaan tidak jelas."
+          }
+        ],
+        "columns": 2,
+        "note": "Formulir bukan pengganti proses komunikasi dan pemahaman."
+      }
     },
     {
       "type": "html",
@@ -205,6 +241,13 @@
       "points": [
         "Gali alasan, jelaskan risiko/alternatif, hormati keputusan, dokumentasikan, dan tindak lanjuti."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Privasi fisik: Tutup tirai/pintu, tutupi tubuh, batasi orang yang hadir, dan minta izin sebelum pemeriksaan atau foto.",
+        "Kerahasiaan informasi: Bicarakan data hanya dengan pihak berwenang; amankan layar, dokumen, pesan, dan hasil pemeriksaan."
+      ]
     }
   ],
   "do": [
@@ -212,14 +255,16 @@
     "Verifikasi penerima informasi.",
     "Pastikan persetujuan diberikan tanpa paksaan.",
     "Gunakan saluran digital resmi.",
-    "Dokumentasikan penolakan dan tindak lanjut."
+    "Dokumentasikan penolakan dan tindak lanjut.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menganggap tanda tangan cukup.",
     "Memakai perangkat pribadi untuk foto klinis tanpa dasar.",
     "Membagi data ke grup umum.",
     "Membiarkan keluarga memaksa pasien berkapasitas.",
-    "Membahas pasien di lift atau koridor."
+    "Membahas pasien di lift atau koridor.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +354,17 @@
       ],
       "answer": 1,
       "why": "Permintaan data harus diproses melalui mekanisme resmi dan terotorisasi."
+    },
+    {
+      "q": "Keluarga meminta hasil diagnosis melalui grup WhatsApp tanpa bukti kewenangan pasien. Tindakan adalah…",
+      "options": [
+        "Mengirim agar keluarga tenang",
+        "Menahan informasi dan memverifikasi kewenangan serta kanal komunikasi yang sah",
+        "Mengirim sebagian foto rekam medis",
+        "Menanyakan di grup siapa yang paling dekat"
+      ],
+      "answer": 1,
+      "why": "Kerahasiaan menuntut verifikasi pihak dan saluran sebelum informasi dibagikan."
     }
   ],
   "references": [

@@ -8,8 +8,8 @@
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 22,
-  "updated": "4 Agustus 2026",
+  "minutes": 24,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "Skor nyeri adalah awal percakapan, bukan seluruh pengkajian; tujuan terapi adalah kenyamanan dan fungsi yang bermakna bagi pasien.",
       "image": "assets/images/v4/pap-nyeri/pap-nyeri-01.webp",
       "thumbnail": "assets/images/thumb/v4/pap-nyeri/pap-nyeri-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: kaji–intervensi–nilai ulang nyeri",
+      "caption": "Angka nyeri bermakna bila dikaitkan dengan fungsi, karakteristik, dan respons terhadap terapi.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pilih skala yang sesuai",
+            "text": "Gunakan skala berdasarkan usia, kemampuan komunikasi, dan kondisi pasien."
+          },
+          {
+            "title": "Kaji lengkap",
+            "text": "Lokasi, kualitas, intensitas, waktu, pencetus/pereda, dampak fungsi/tidur, dan gejala penyerta."
+          },
+          {
+            "title": "Tetapkan target",
+            "text": "Sepakati target realistis—misalnya dapat bernapas dalam atau mobilisasi—bukan hanya angka nol."
+          },
+          {
+            "title": "Berikan intervensi",
+            "text": "Farmakologis dan nonfarmakologis sesuai program, kontraindikasi, dan kondisi pasien."
+          },
+          {
+            "title": "Pantau efek samping",
+            "text": "Sedasi, napas, mual, tekanan darah, alergi, atau komplikasi lain sesuai terapi."
+          },
+          {
+            "title": "Nilai ulang tepat waktu",
+            "text": "Catat perubahan intensitas/fungsi dan eskalasi bila nyeri tidak terkontrol atau pola berubah."
+          }
+        ],
+        "columns": 2,
+        "note": "Nyeri baru yang berat atau tidak sesuai pola memerlukan penilaian penyebab, bukan sekadar penambahan analgesik."
+      }
     },
     {
       "type": "html",
@@ -209,6 +245,13 @@
       "points": [
         "Tindakan belum lengkap sampai efek dan keamanan dinilai ulang."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Pilih skala yang sesuai: Gunakan skala berdasarkan usia, kemampuan komunikasi, dan kondisi pasien.",
+        "Kaji lengkap: Lokasi, kualitas, intensitas, waktu, pencetus/pereda, dampak fungsi/tidur, dan gejala penyerta."
+      ]
     }
   ],
   "do": [
@@ -216,14 +259,16 @@
     "Kaji karakteristik dan dampak fungsi.",
     "Sepakati target realistis.",
     "Pantau efek samping.",
-    "Lakukan reassessment dan tindak lanjut."
+    "Lakukan reassessment dan tindak lanjut.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Mengandalkan angka saja.",
     "Menganggap pasien melebih-lebihkan.",
     "Mengulang obat tanpa menilai red flag.",
     "Mengejar skor nol dengan risiko berlebihan.",
-    "Tidak mengevaluasi efek intervensi."
+    "Tidak mengevaluasi efek intervensi.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -313,6 +358,17 @@
       ],
       "answer": 1,
       "why": "Tanda vital bukan ukuran tunggal nyeri."
+    },
+    {
+      "q": "Setelah analgesik, skor turun dari 8 menjadi 5 tetapi pasien tetap tidak dapat bernapas dalam. Kesimpulan terbaik adalah…",
+      "options": [
+        "Terapi pasti berhasil karena angka turun",
+        "Respons belum mencapai target fungsi dan perlu evaluasi lanjut",
+        "Skala nyeri tidak berguna",
+        "Tidak perlu dokumentasi"
+      ],
+      "answer": 1,
+      "why": "Evaluasi nyeri mencakup intensitas dan fungsi/tujuan yang disepakati."
     }
   ],
   "references": [

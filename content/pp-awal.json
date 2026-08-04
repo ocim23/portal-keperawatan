@@ -8,8 +8,8 @@
   "color": "#7B5EA7",
   "soft": "#F4EEFF",
   "icon": "clipboard",
-  "minutes": 22,
-  "updated": "4 Agustus 2026",
+  "minutes": 24,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "Pengkajian bukan kumpulan kotak centang; setiap temuan harus mengarah pada kebutuhan, prioritas, dan rencana asuhan.",
       "image": "assets/images/v4/pp-awal/pp-awal-01.webp",
       "thumbnail": "assets/images/thumb/v4/pp-awal/pp-awal-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: pengkajian awal yang menghasilkan rencana",
+      "caption": "Pengkajian bukan daftar centang; setiap temuan penting harus memengaruhi prioritas dan tindak lanjut.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Mulai dari keselamatan",
+            "text": "Nilai kegawatan, jalan napas, pernapasan, sirkulasi, kesadaran, nyeri, dan risiko segera."
+          },
+          {
+            "title": "Kumpulkan data terarah",
+            "text": "Gabungkan keluhan, riwayat, pemeriksaan, obat, alergi, fungsi, psikososial, nutrisi, dan kebutuhan edukasi."
+          },
+          {
+            "title": "Validasi data",
+            "text": "Bandingkan informasi pasien/keluarga dengan temuan objektif dan sumber lain yang sah."
+          },
+          {
+            "title": "Identifikasi masalah dan risiko",
+            "text": "Pisahkan masalah aktual, risiko, kebutuhan kolaborasi, dan kebutuhan pemulangan."
+          },
+          {
+            "title": "Susun rencana terukur",
+            "text": "Tetapkan tujuan, intervensi, frekuensi pemantauan, edukasi, dan kriteria eskalasi."
+          },
+          {
+            "title": "Dokumentasikan tepat waktu",
+            "text": "Catatan harus menunjukkan alasan klinis dan kesinambungan, bukan sekadar semua kolom terisi."
+          }
+        ],
+        "columns": 2,
+        "note": "Temuan abnormal atau risiko tinggi harus ditindaklanjuti, bukan hanya dicatat."
+      }
     },
     {
       "type": "html",
@@ -209,6 +245,13 @@
       "points": [
         "Kebutuhan edukasi, dukungan, alat, obat, dan tindak lanjut dinilai lebih dini."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Mulai dari keselamatan: Nilai kegawatan, jalan napas, pernapasan, sirkulasi, kesadaran, nyeri, dan risiko segera.",
+        "Kumpulkan data terarah: Gabungkan keluhan, riwayat, pemeriksaan, obat, alergi, fungsi, psikososial, nutrisi, dan kebutuhan edukasi."
+      ]
     }
   ],
   "do": [
@@ -216,14 +259,16 @@
     "Gunakan data subjektif dan objektif.",
     "Validasi informasi yang tidak cocok.",
     "Tindak lanjuti skrining positif.",
-    "Hubungkan temuan dengan rencana asuhan."
+    "Hubungkan temuan dengan rencana asuhan.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menyalin data lama tanpa verifikasi.",
     "Mengisi formulir tanpa analisis.",
     "Mengabaikan hambatan komunikasi.",
     "Menunda discharge planning sampai hari pulang.",
-    "Membiarkan temuan risiko tanpa eskalasi."
+    "Membiarkan temuan risiko tanpa eskalasi.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -313,6 +358,17 @@
       ],
       "answer": 1,
       "why": "Nilai pengkajian terletak pada keputusan asuhan yang dihasilkan."
+    },
+    {
+      "q": "Pengkajian awal lengkap, tetapi temuan sesak dan saturasi menurun hanya dicatat tanpa tindak lanjut. Kekurangan utamanya adalah…",
+      "options": [
+        "Tidak memakai warna tertentu",
+        "Pengkajian tidak menghasilkan prioritas, tindakan, dan eskalasi",
+        "Tidak mencetak formulir",
+        "Tidak menambah diagnosis sebanyak mungkin"
+      ],
+      "answer": 1,
+      "why": "Data bermakna harus memicu analisis dan tindakan, bukan berhenti sebagai dokumentasi."
     }
   ],
   "references": [

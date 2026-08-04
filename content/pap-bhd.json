@@ -9,7 +9,7 @@
   "soft": "#FFF0F2",
   "icon": "heart",
   "minutes": 25,
-  "updated": "4 Agustus 2026",
+  "updated": "2026-08-05",
   "notice": "Materi untuk tenaga kesehatan. Aktivasi bantuan, alat, dan pembagian peran mengikuti sistem fasilitas.",
   "quizDisplayCount": 5,
   "slides": [
@@ -33,6 +33,50 @@
       "caption": "Berikan napas efektif tanpa menunda kompresi dan tangani sumbatan dengan urutan yang benar.",
       "image": "assets/images/v4/pap-bhd/pap-bhd-03.webp",
       "thumbnail": "assets/images/thumb/v4/pap-bhd/pap-bhd-03.webp"
+    },
+    {
+      "type": "html",
+      "title": "Checklist demonstrasi BHD dewasa",
+      "caption": "Urutan inti untuk tenaga kesehatan pada korban dewasa tidak responsif.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Pastikan aman dan cek respons",
+            "text": "Nilai keselamatan, sentuh/panggil korban, dan cari respons."
+          },
+          {
+            "title": "2. Aktifkan bantuan dan minta AED",
+            "text": "Panggil sistem respons/Code Blue sesuai fasilitas dan minta AED/emergency equipment."
+          },
+          {
+            "title": "3. Nilai napas dan nadi bersamaan",
+            "text": "Maksimal 10 detik; gasping bukan napas normal. Bila nadi tidak teraba pasti, perlakukan sebagai tanpa nadi."
+          },
+          {
+            "title": "4. Mulai kompresi berkualitas",
+            "text": "Tengah dada, laju 100–120/menit, kedalaman 5–6 cm, recoil penuh, interupsi minimal."
+          },
+          {
+            "title": "5. Berikan 30:2",
+            "text": "Buka jalan napas dan berikan dua napas yang membuat dada naik; hindari ventilasi berlebihan."
+          },
+          {
+            "title": "6. Gunakan AED secepatnya",
+            "text": "Pasang pad, pastikan semua menjauh saat analisis/shock, lalu segera lanjutkan RJP sekitar 2 menit."
+          },
+          {
+            "title": "7. Ganti penolong",
+            "text": "Bila memungkinkan setiap sekitar 2 menit agar kualitas kompresi terjaga."
+          },
+          {
+            "title": "8. Lanjutkan sampai ada perubahan",
+            "text": "Hentikan/ubah tindakan bila tim lanjut mengambil alih, korban menunjukkan tanda hidup, atau kondisi tidak aman."
+          }
+        ],
+        "columns": 2,
+        "note": "Bila nadi ada tetapi napas tidak normal: berikan 1 napas tiap 6 detik dan cek nadi tiap 2 menit."
+      }
     },
     {
       "type": "html",
@@ -223,6 +267,13 @@
       "points": [
         "5 back blows lalu 5 abdominal thrusts; bila tidak responsif mulai RJP dan jangan blind sweep."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Pastikan aman dan cek respons: Nilai keselamatan, sentuh/panggil korban, dan cari respons.",
+        "2. Aktifkan bantuan dan minta AED: Panggil sistem respons/Code Blue sesuai fasilitas dan minta AED/emergency equipment."
+      ]
     }
   ],
   "do": [
@@ -230,14 +281,16 @@
     "Mulai kompresi segera bila henti jantung dicurigai.",
     "Pertahankan laju, kedalaman, dan recoil.",
     "Gunakan AED secepat mungkin.",
-    "Lakukan closed-loop dan catat waktu penting."
+    "Lakukan closed-loop dan catat waktu penting.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menunggu terlalu lama untuk memastikan nadi.",
     "Memberi ventilasi berlebihan.",
     "Menghentikan kompresi lama.",
     "Melakukan blind finger sweep.",
-    "Menunda AED karena menunggu tim lengkap."
+    "Menunda AED karena menunggu tim lengkap.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -327,6 +380,17 @@
       ],
       "answer": 1,
       "why": "Benda hanya diambil bila terlihat; blind sweep dilarang."
+    },
+    {
+      "q": "Saat penilaian 10 detik, petugas tidak yakin ada nadi dan pasien gasping. Tindakan adalah…",
+      "options": [
+        "Melanjutkan pemeriksaan satu menit",
+        "Mulai RJP dan aktifkan bantuan/AED",
+        "Memberi oksigen saja",
+        "Menunggu EKG"
+      ],
+      "answer": 1,
+      "why": "Bila nadi tidak teraba pasti dan napas tidak normal, mulai RJP tanpa menunda."
     }
   ],
   "references": [

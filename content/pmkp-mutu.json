@@ -8,8 +8,8 @@
   "color": "#155E9A",
   "soft": "#E9F4FF",
   "icon": "target",
-  "minutes": 18,
-  "updated": "4 Agustus 2026",
+  "minutes": 20,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -26,6 +26,46 @@
       "caption": "Daftar lengkap INM rumah sakit sesuai Permenkes Nomor 30 Tahun 2022.",
       "image": "assets/images/v4/pmkp-mutu/pmkp-mutu-02.webp",
       "thumbnail": "assets/images/thumb/v4/pmkp-mutu/pmkp-mutu-02.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: membaca profil indikator dan menghitung capaian",
+      "caption": "Jangan menghitung sebelum memahami siapa yang masuk dan apa yang dianggap patuh.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Baca definisi operasional",
+            "text": "Pastikan seluruh pengumpul data memahami kejadian yang dinilai dengan cara yang sama."
+          },
+          {
+            "title": "2. Tentukan inklusi–eksklusi",
+            "text": "Identifikasi kasus yang masuk dan tidak masuk denominator."
+          },
+          {
+            "title": "3. Tentukan numerator",
+            "text": "Hitung bagian denominator yang memenuhi ketentuan indikator."
+          },
+          {
+            "title": "4. Gunakan formula",
+            "text": "Capaian = numerator ÷ denominator × 100% bila profil menggunakan persentase."
+          },
+          {
+            "title": "5. Validasi",
+            "text": "Periksa sumber, duplikasi, data kosong, periode, sampling, dan konsistensi antar-pengumpul."
+          },
+          {
+            "title": "6. Analisis tren dan penyebab",
+            "text": "Bandingkan waktu/unit, cari pola, dan hindari kesimpulan hanya dari satu angka."
+          },
+          {
+            "title": "7. Uji perbaikan",
+            "text": "Lakukan perubahan, ukur kembali, dan pertahankan proses yang terbukti efektif."
+          }
+        ],
+        "columns": 2,
+        "note": "Contoh: 18 observasi sesuai dari 20 yang memenuhi syarat → 18/20 × 100% = 90%."
+      }
     },
     {
       "type": "html",
@@ -234,6 +274,13 @@
       "points": [
         "Validasi → analisis → uji perubahan → ukur ulang → pertahankan."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Baca definisi operasional: Pastikan seluruh pengumpul data memahami kejadian yang dinilai dengan cara yang sama.",
+        "2. Tentukan inklusi–eksklusi: Identifikasi kasus yang masuk dan tidak masuk denominator."
+      ]
     }
   ],
   "do": [
@@ -241,14 +288,16 @@
     "Gunakan definisi operasional secara konsisten.",
     "Validasi data kosong, ganda, atau tidak masuk akal.",
     "Analisis tren dan penyebab, bukan angka tunggal.",
-    "Ukur ulang setelah perubahan."
+    "Ukur ulang setelah perubahan.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menganggap INM hanya enam.",
     "Menukar numerator dan denominator.",
     "Mengubah definisi agar target tercapai.",
     "Mengisi berdasarkan perkiraan.",
-    "Berhenti pada pelaporan tanpa perbaikan."
+    "Berhenti pada pelaporan tanpa perbaikan.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -338,6 +387,17 @@
       ],
       "answer": 1,
       "why": "Indikator merupakan alat belajar dan perbaikan sistem."
+    },
+    {
+      "q": "Sebelum menghitung capaian, langkah paling penting adalah…",
+      "options": [
+        "Menentukan warna grafik",
+        "Memahami definisi operasional, inklusi, eksklusi, numerator, dan denominator",
+        "Memilih angka target tertinggi",
+        "Menghapus data yang tidak sesuai target"
+      ],
+      "answer": 1,
+      "why": "Perhitungan tanpa profil indikator yang dipahami dapat menghasilkan angka tidak valid."
     }
   ],
   "references": [

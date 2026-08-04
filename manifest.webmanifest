@@ -1,7 +1,7 @@
 {
   "name": "Portal Keperawatan — Akreditasi & Asuhan Keperawatan",
   "short_name": "Portal Keperawatan",
-  "description": "Portal microlearning keperawatan dengan materi akreditasi mendalam, visual, contoh penerapan, dan kuis kasus.",
+  "description": "Portal pembelajaran keperawatan dengan materi mendalam, infografik praktik, simulasi surveior, dan kuis kasus.",
   "lang": "id",
   "start_url": "./#/home",
   "scope": "./",

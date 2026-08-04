@@ -8,8 +8,8 @@
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 18,
-  "updated": "4 Agustus 2026",
+  "minutes": 20,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "Risiko infeksi dikurangi dengan tindakan yang konsisten pada setiap kontak, bukan hanya saat pasien diketahui menular.",
       "image": "assets/images/v4/skp-5-infeksi/skp-5-infeksi-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-5-infeksi/skp-5-infeksi-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: putus rantai transmisi saat memberikan asuhan",
+      "caption": "Pilih tindakan pencegahan berdasarkan aktivitas dan kemungkinan pajanan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Sebelum kontak",
+            "text": "Lakukan kebersihan tangan dan siapkan alat bersih/steril sesuai kebutuhan."
+          },
+          {
+            "title": "Sebelum tindakan aseptik",
+            "text": "Jaga area bersih, hindari menyentuh bagian kritis, dan ulangi kebersihan tangan bila terkontaminasi."
+          },
+          {
+            "title": "Saat ada risiko cairan tubuh",
+            "text": "Pilih APD berdasarkan pajanan yang diperkirakan; sarung tangan tidak menggantikan kebersihan tangan."
+          },
+          {
+            "title": "Setelah tindakan",
+            "text": "Lepas APD dengan aman, kelola limbah/alat, bersihkan lingkungan, lalu kebersihan tangan."
+          },
+          {
+            "title": "Antarpasien/antararea",
+            "text": "Ganti APD dan lakukan kebersihan tangan; jangan membawa alat terkontaminasi ke area bersih."
+          },
+          {
+            "title": "Bila terjadi pajanan",
+            "text": "Lakukan pertolongan pertama, laporkan segera, dan ikuti penilaian serta tindak lanjut."
+          }
+        ],
+        "columns": 2,
+        "note": "Detail kewaspadaan kontak, droplet, dan airborne dibahas pada materi PPI."
+      }
     },
     {
       "type": "html",
@@ -205,6 +241,13 @@
       "points": [
         "Melakukan, memantau, mengedukasi, dan melaporkan risiko infeksi di titik pelayanan."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Sebelum kontak: Lakukan kebersihan tangan dan siapkan alat bersih/steril sesuai kebutuhan.",
+        "Sebelum tindakan aseptik: Jaga area bersih, hindari menyentuh bagian kritis, dan ulangi kebersihan tangan bila terkontaminasi."
+      ]
     }
   ],
   "do": [
@@ -212,14 +255,16 @@
     "Pertahankan teknik aseptik.",
     "Pilih APD berdasarkan risiko.",
     "Nilai kebutuhan alat invasif setiap hari.",
-    "Edukasi pasien dan keluarga."
+    "Edukasi pasien dan keluarga.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menunggu diagnosis sebelum menggunakan kewaspadaan standar.",
     "Menggunakan sarung tangan sebagai pengganti kebersihan tangan.",
     "Menyentuh area bersih dengan sarung tangan kotor.",
     "Membiarkan alat invasif tanpa evaluasi.",
-    "Mengabaikan kebersihan alat dan lingkungan."
+    "Mengabaikan kebersihan alat dan lingkungan.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +354,17 @@
       ],
       "answer": 1,
       "why": "Ketersediaan sarana adalah bagian sistem pencegahan infeksi."
+    },
+    {
+      "q": "Setelah membersihkan area perineum, perawat akan menyentuh akses intravena pasien yang sama. Tindakan aman adalah…",
+      "options": [
+        "Tetap dengan sarung tangan yang sama",
+        "Lepas sarung tangan, kebersihan tangan, dan gunakan APD baru sesuai kebutuhan",
+        "Semprot sarung tangan dengan alkohol",
+        "Hanya mengganti sarung tangan tanpa kebersihan tangan"
+      ],
+      "answer": 1,
+      "why": "Perpindahan dari area kotor ke tindakan aseptik memerlukan pelepasan sarung tangan dan kebersihan tangan."
     }
   ],
   "references": [

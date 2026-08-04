@@ -8,8 +8,8 @@
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 20,
-  "updated": "4 Agustus 2026",
+  "minutes": 22,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,46 @@
       "caption": "Tanda risiko saja tidak mencegah jatuh; intervensi harus sesuai penyebab dan berubah mengikuti kondisi pasien.",
       "image": "assets/images/v4/skp-6-jatuh/skp-6-jatuh-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-6-jatuh/skp-6-jatuh-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: pencegahan jatuh dan mobilisasi aman",
+      "caption": "Intervensi harus mengikuti faktor risiko pasien, bukan hanya warna penanda.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Nilai sebelum mobilisasi",
+            "text": "Tinjau kesadaran, kekuatan, nyeri, tekanan darah, obat, alat invasif, alas kaki, dan kebutuhan bantuan."
+          },
+          {
+            "title": "2. Jelaskan rencana",
+            "text": "Beritahu pasien cara meminta bantuan dan apa yang akan dilakukan saat berdiri/berjalan."
+          },
+          {
+            "title": "3. Siapkan lingkungan",
+            "text": "Kunci roda, atur tinggi bed, singkirkan hambatan, dekatkan bel, dan siapkan alat bantu."
+          },
+          {
+            "title": "4. Bantu bertahap",
+            "text": "Duduk di tepi bed, nilai toleransi, berdiri dengan teknik aman, lalu berjalan sesuai kemampuan."
+          },
+          {
+            "title": "5. Jangan tinggalkan pasien berisiko",
+            "text": "Pastikan pendampingan pada toilet, transfer, atau aktivitas yang telah diidentifikasi berisiko."
+          },
+          {
+            "title": "6. Asesmen ulang",
+            "text": "Ulangi setelah perubahan kondisi, obat sedatif, prosedur, transfer, atau kejadian hampir jatuh/jatuh."
+          },
+          {
+            "title": "7. Evaluasi dan dokumentasikan",
+            "text": "Catat faktor risiko, intervensi, edukasi, respons, dan tindak lanjut."
+          }
+        ],
+        "columns": 2,
+        "note": "Penanda risiko hanya pengingat; keselamatan ditentukan oleh intervensi yang benar-benar dilakukan."
+      }
     },
     {
       "type": "html",
@@ -205,6 +245,13 @@
       "points": [
         "Nilai cedera, tangani pasien, laporkan, analisis penyebab, dan revisi rencana."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Nilai sebelum mobilisasi: Tinjau kesadaran, kekuatan, nyeri, tekanan darah, obat, alat invasif, alas kaki, dan kebutuhan bantuan.",
+        "2. Jelaskan rencana: Beritahu pasien cara meminta bantuan dan apa yang akan dilakukan saat berdiri/berjalan."
+      ]
     }
   ],
   "do": [
@@ -212,14 +259,16 @@
     "Pastikan bel dan barang penting terjangkau.",
     "Tentukan bantuan mobilisasi yang jelas.",
     "Serah terimakan faktor risiko dan intervensi.",
-    "Lakukan post-fall review."
+    "Lakukan post-fall review.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Mengandalkan gelang atau skor saja.",
     "Menggunakan restriksi tanpa alasan dan evaluasi.",
     "Membiarkan pasien ke toilet tanpa bantuan yang diperlukan.",
     "Tidak menilai cedera setelah jatuh.",
-    "Menyalahkan pasien atau keluarga."
+    "Menyalahkan pasien atau keluarga.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +358,17 @@
       ],
       "answer": 1,
       "why": "Review berfokus pada pembelajaran dan pencegahan kejadian berulang."
+    },
+    {
+      "q": "Pasien awalnya risiko rendah, lalu mendapat sedatif dan tampak limbung. Tindakan yang tepat adalah…",
+      "options": [
+        "Mempertahankan skor awal sampai besok",
+        "Melakukan asesmen ulang dan menyesuaikan intervensi",
+        "Hanya memasang penanda risiko",
+        "Melarang pasien bergerak tanpa penilaian"
+      ],
+      "answer": 1,
+      "why": "Perubahan obat/kondisi adalah pemicu asesmen ulang dan intervensi individual."
     }
   ],
   "references": [

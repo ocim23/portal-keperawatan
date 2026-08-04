@@ -8,8 +8,8 @@
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 18,
-  "updated": "4 Agustus 2026",
+  "minutes": 20,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,48 @@
       "caption": "Enam sasaran, satu tujuan: mencegah pasien menerima pelayanan yang salah atau tidak aman.",
       "image": "assets/images/v4/skp-ringkasan/skp-ringkasan-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-ringkasan/skp-ringkasan-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Simulasi: hubungkan 6 SKP dengan praktik",
+      "caption": "Jangan hanya menghafal urutan; jelaskan risiko yang dicegah dan contoh penerapannya.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "SKP 1 — Identifikasi",
+            "text": "Sebutkan dua identitas, cocokkan secara aktif, dan ulangi sebelum obat, spesimen, transfusi, atau tindakan.",
+            "tag": "Pasien benar"
+          },
+          {
+            "title": "SKP 2 — Komunikasi",
+            "text": "Gunakan struktur, tulis instruksi, baca kembali, dan pastikan pemberi mengonfirmasi.",
+            "tag": "Pesan benar"
+          },
+          {
+            "title": "SKP 3 — Obat berisiko",
+            "text": "Kenali LASA/high-alert, ikuti pengamanan, dan lakukan verifikasi independen bila dipersyaratkan.",
+            "tag": "Obat aman"
+          },
+          {
+            "title": "SKP 4 — Tindakan benar",
+            "text": "Verifikasi pasien, prosedur, sisi/lokasi, dokumen, alat, dan lakukan time-out sebelum mulai.",
+            "tag": "Tindakan benar"
+          },
+          {
+            "title": "SKP 5 — Infeksi",
+            "text": "Terapkan kebersihan tangan, teknik aseptik, APD, dan pengelolaan alat/lingkungan sesuai risiko.",
+            "tag": "Putus transmisi"
+          },
+          {
+            "title": "SKP 6 — Jatuh",
+            "text": "Nilai risiko, lakukan intervensi individual, asesmen ulang, edukasi, dan evaluasi setelah perubahan kondisi.",
+            "tag": "Cegah cedera"
+          }
+        ],
+        "columns": 2,
+        "note": "Saat ditanya surveior, berikan contoh nyata dari unit tanpa menyebut data pasien."
+      }
     },
     {
       "type": "html",
@@ -189,6 +231,13 @@
       "points": [
         "Bukan sekadar patuh standar, tetapi mencegah cedera yang sebenarnya dapat dicegah."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "SKP 1 — Identifikasi: Sebutkan dua identitas, cocokkan secara aktif, dan ulangi sebelum obat, spesimen, transfusi, atau tindakan.",
+        "SKP 2 — Komunikasi: Gunakan struktur, tulis instruksi, baca kembali, dan pastikan pemberi mengonfirmasi."
+      ]
     }
   ],
   "do": [
@@ -196,14 +245,16 @@
     "Gunakan verifikasi aktif pada titik kritis.",
     "Sampaikan ketidaksesuaian tanpa takut disalahkan.",
     "Libatkan pasien dan keluarga sebagai lapisan pengaman.",
-    "Catat tindakan dan tindak lanjut secara jelas."
+    "Catat tindakan dan tindak lanjut secara jelas.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Mengandalkan hafalan tanpa praktik.",
     "Melewati verifikasi karena pasien sudah dikenal.",
     "Menganggap risiko kecil tidak perlu dilaporkan.",
     "Menunda eskalasi ketika kondisi berubah.",
-    "Menganggap SKP hanya penting menjelang survei."
+    "Menganggap SKP hanya penting menjelang survei.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -293,6 +344,17 @@
       ],
       "answer": 1,
       "why": "Preferensi pasien dan kerahasiaan perlu dihormati sambil tetap memastikan informasi klinis yang diperlukan tersedia bagi tim perawatan."
+    },
+    {
+      "q": "Surveior bertanya mengapa enam SKP tidak cukup hanya dihafal. Jawaban terbaik adalah…",
+      "options": [
+        "Karena setiap SKP harus dihubungkan dengan risiko, tindakan, dan contoh penerapan",
+        "Karena urutannya selalu berubah setiap hari",
+        "Karena hanya komite yang wajib paham",
+        "Karena SKP tidak berkaitan dengan praktik"
+      ],
+      "answer": 0,
+      "why": "SKP dinilai melalui penerapan nyata; hafalan tanpa tindakan tidak menunjukkan keselamatan."
     }
   ],
   "references": [

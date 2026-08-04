@@ -8,8 +8,8 @@
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 20,
-  "updated": "4 Agustus 2026",
+  "minutes": 22,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "Tidak ada tindakan dimulai sebelum tim sepakat tentang pasien, prosedur, lokasi, kesiapan, dan rencana keselamatan.",
       "image": "assets/images/v4/skp-4-tindakan/skp-4-tindakan-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-4-tindakan/skp-4-tindakan-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: time-out sebelum tindakan",
+      "caption": "Time-out dilakukan segera sebelum tindakan dimulai, dengan seluruh anggota tim berhenti dan berpartisipasi.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Hentikan aktivitas",
+            "text": "Tim memberi perhatian penuh; tidak dilakukan sambil menyiapkan alat lain atau berbicara terpisah."
+          },
+          {
+            "title": "2. Konfirmasi pasien",
+            "text": "Gunakan minimal dua identitas dan cocokkan dengan dokumen serta rencana tindakan."
+          },
+          {
+            "title": "3. Konfirmasi prosedur dan sisi/lokasi",
+            "text": "Sebutkan prosedur, sisi/lokasi, penandaan bila berlaku, posisi, serta kesesuaian imaging."
+          },
+          {
+            "title": "4. Konfirmasi kesiapan",
+            "text": "Pastikan persetujuan, alergi, antibiotik/profilaksis bila perlu, darah, implant, alat, dan hasil penting tersedia."
+          },
+          {
+            "title": "5. Semua anggota menyatakan setuju",
+            "text": "Setiap anggota boleh menghentikan proses bila menemukan ketidaksesuaian."
+          },
+          {
+            "title": "6. Dokumentasikan",
+            "text": "Catat bahwa time-out dilakukan dan tindak lanjut bila terdapat temuan."
+          }
+        ],
+        "columns": 2,
+        "note": "Bila ada satu ketidaksesuaian, tindakan ditunda sampai masalah diselesaikan."
+      }
     },
     {
       "type": "html",
@@ -205,6 +241,13 @@
       "points": [
         "Keselamatan berlanjut sampai sign-out, pengelolaan spesimen, dan handover pascatindakan."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Hentikan aktivitas: Tim memberi perhatian penuh; tidak dilakukan sambil menyiapkan alat lain atau berbicara terpisah.",
+        "2. Konfirmasi pasien: Gunakan minimal dua identitas dan cocokkan dengan dokumen serta rencana tindakan."
+      ]
     }
   ],
   "do": [
@@ -212,14 +255,16 @@
     "Pastikan site marking jelas bila diperlukan.",
     "Hentikan aktivitas saat time-out.",
     "Suarakan setiap ketidaksesuaian.",
-    "Lakukan sign-out dan handover lengkap."
+    "Lakukan sign-out dan handover lengkap.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menganggap time-out sebagai formalitas.",
     "Mengandalkan jadwal atau ingatan.",
     "Melanjutkan ketika dokumen tidak cocok.",
     "Membiarkan anggota tim tidak ikut konfirmasi.",
-    "Mengirim spesimen tanpa verifikasi lengkap."
+    "Mengirim spesimen tanpa verifikasi lengkap.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +354,17 @@
       ],
       "answer": 2,
       "why": "Budaya keselamatan memberi ruang bagi semua anggota tim untuk menghentikan proses yang tidak aman."
+    },
+    {
+      "q": "Saat time-out, satu anggota tim masih menyiapkan alat dan tidak mendengar konfirmasi sisi operasi. Tindakan terbaik adalah…",
+      "options": [
+        "Tetap mulai karena mayoritas sudah setuju",
+        "Ulangi time-out ketika seluruh anggota berhenti dan berpartisipasi",
+        "Cukup meminta tanda tangan setelah tindakan",
+        "Mengandalkan jadwal operasi"
+      ],
+      "answer": 1,
+      "why": "Time-out adalah jeda aktif seluruh tim; ketidakhadiran perhatian membuat verifikasi tidak efektif."
     }
   ],
   "references": [

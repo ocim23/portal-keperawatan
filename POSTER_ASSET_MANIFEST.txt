@@ -1,4 +1,4 @@
-Portal Keperawatan v4.0.1 - Poster Asset Manifest
+Portal Keperawatan v4.1.0 - Poster Asset Manifest
 
 assets/images/v4: 35 file
 - assets/images/v4/hpk-hak-kewajiban/hpk-hak-kewajiban-01.webp | 110744 bytes | sha256 0f148690bfd9

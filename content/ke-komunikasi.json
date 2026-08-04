@@ -8,8 +8,8 @@
   "color": "#5B6F9C",
   "soft": "#EEF2FF",
   "icon": "chat",
-  "minutes": 15,
-  "updated": "4 Agustus 2026",
+  "minutes": 17,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,43 @@
       "caption": "Komunikasi aman bukan sekadar berbicara. Informasi harus terstruktur, dibaca kembali bila perlu, dikonfirmasi, didokumentasikan, dan diterima oleh orang yang tepat.",
       "image": "assets/images/v4/ke-komunikasi/ke-komunikasi-01.webp",
       "thumbnail": "assets/images/thumb/v4/ke-komunikasi/ke-komunikasi-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: SBAR dan serah terima yang dapat ditindaklanjuti",
+      "caption": "Penerima harus memahami kondisi, risiko, tugas, dan kapan harus bertindak.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "S — Situation",
+            "text": "Sebutkan identitas pasien, lokasi, masalah utama, dan alasan menghubungi saat ini.",
+            "example": "“Pasien A di ruang X sesak memburuk sejak 10 menit.”"
+          },
+          {
+            "title": "B — Background",
+            "text": "Berikan diagnosis/riwayat relevan, terapi, alergi, hasil penting, dan perubahan terbaru."
+          },
+          {
+            "title": "A — Assessment",
+            "text": "Sampaikan temuan objektif, tren, interpretasi, serta kekhawatiran klinis."
+          },
+          {
+            "title": "R — Recommendation",
+            "text": "Nyatakan kebutuhan: datang menilai, instruksi, pemeriksaan, transfer, atau target waktu respons."
+          },
+          {
+            "title": "Tutup dengan read-back",
+            "text": "Ulangi instruksi, tanggung jawab, dan waktu; klarifikasi bagian yang belum jelas."
+          },
+          {
+            "title": "Handover",
+            "text": "Sertakan risiko, alat/akses, obat, tindakan tertunda, edukasi, dan contingency plan—bukan hanya diagnosis."
+          }
+        ],
+        "columns": 2,
+        "note": "Komunikasi singkat tetap harus lengkap pada informasi yang memengaruhi keselamatan."
+      }
     },
     {
       "type": "html",
@@ -206,6 +243,13 @@
       "points": [
         "Pesan diterima, diulang, dikonfirmasi, lalu penyelesaian dilaporkan."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "S — Situation: Sebutkan identitas pasien, lokasi, masalah utama, dan alasan menghubungi saat ini.",
+        "B — Background: Berikan diagnosis/riwayat relevan, terapi, alergi, hasil penting, dan perubahan terbaru."
+      ]
     }
   ],
   "do": [
@@ -213,14 +257,16 @@
     "Sebutkan urgensi dan rekomendasi.",
     "Lakukan read-back lengkap.",
     "Beri kesempatan bertanya saat handover.",
-    "Dokumentasikan waktu, penerima, dan tindak lanjut."
+    "Dokumentasikan waktu, penerima, dan tindak lanjut.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Hanya menjawab “baik” pada instruksi telepon.",
     "Menggunakan singkatan ambigu.",
     "Menyampaikan opini tanpa data.",
     "Membaca handover tanpa verifikasi.",
-    "Meninggalkan hasil kritis tanpa eskalasi."
+    "Meninggalkan hasil kritis tanpa eskalasi.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -310,6 +356,17 @@
       ],
       "answer": 1,
       "why": "Privasi dan keselamatan komunikasi harus dijaga bersama."
+    },
+    {
+      "q": "Dalam SBAR, perawat menjelaskan riwayat panjang tetapi tidak menyampaikan apa yang dibutuhkan. Bagian yang kurang adalah…",
+      "options": [
+        "Background",
+        "Recommendation yang spesifik",
+        "Identitas unit",
+        "Salam pembuka"
+      ],
+      "answer": 1,
+      "why": "SBAR harus berakhir dengan kebutuhan/tindakan yang diharapkan dan target waktu."
     }
   ],
   "references": [

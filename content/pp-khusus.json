@@ -8,8 +8,8 @@
   "color": "#7B5EA7",
   "soft": "#F4EEFF",
   "icon": "clipboard",
-  "minutes": 22,
-  "updated": "4 Agustus 2026",
+  "minutes": 24,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "Pengkajian khusus bukan label populasi; temuan harus diterjemahkan menjadi perlindungan, intervensi, rujukan, dan evaluasi.",
       "image": "assets/images/v4/pp-khusus/pp-khusus-01.webp",
       "thumbnail": "assets/images/thumb/v4/pp-khusus/pp-khusus-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: pengkajian khusus dan tindak lanjut",
+      "caption": "Skrining positif harus berlanjut menjadi pengkajian, intervensi, rujukan, dan evaluasi.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Kenali pemicu",
+            "text": "Usia, kondisi, tindakan, gangguan komunikasi, kehamilan, kekerasan, risiko bunuh diri, atau kebutuhan khusus lain."
+          },
+          {
+            "title": "Gunakan alat yang sesuai",
+            "text": "Pilih instrumen/populasi yang tepat dan pahami arti hasilnya; jangan sekadar menyalin skor."
+          },
+          {
+            "title": "Pastikan privasi dan keselamatan",
+            "text": "Atur cara wawancara, pendamping, bahasa, dan lingkungan sesuai sensitivitas masalah."
+          },
+          {
+            "title": "Tindak lanjuti hasil positif",
+            "text": "Lakukan asesmen lebih lanjut, proteksi, intervensi, atau rujukan sesuai urgensi."
+          },
+          {
+            "title": "Komunikasikan ke tim",
+            "text": "Sampaikan risiko dan kebutuhan secara jelas saat serah terima atau kolaborasi."
+          },
+          {
+            "title": "Evaluasi ulang",
+            "text": "Pantau perubahan dan efektivitas intervensi; dokumentasikan keputusan dan respons."
+          }
+        ],
+        "columns": 2,
+        "note": "Instrumen membantu keputusan, tetapi tidak menggantikan penilaian klinis dan kebijakan perlindungan pasien."
+      }
     },
     {
       "type": "html",
@@ -209,6 +245,13 @@
       "points": [
         "Nilai kapasitas, fungsi, komunikasi, dan dukungan setiap pasien secara individual."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Kenali pemicu: Usia, kondisi, tindakan, gangguan komunikasi, kehamilan, kekerasan, risiko bunuh diri, atau kebutuhan khusus lain.",
+        "Gunakan alat yang sesuai: Pilih instrumen/populasi yang tepat dan pahami arti hasilnya; jangan sekadar menyalin skor."
+      ]
     }
   ],
   "do": [
@@ -216,14 +259,16 @@
     "Gunakan alat sesuai usia dan kemampuan.",
     "Dokumentasikan fakta dan sumber informasi.",
     "Aktifkan rujukan atau perlindungan.",
-    "Serah terimakan kebutuhan khusus secara aman."
+    "Serah terimakan kebutuhan khusus secara aman.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menggunakan label populasi sebagai kesimpulan.",
     "Menganggap pendamping selalu boleh mengambil keputusan.",
     "Menggunakan anak sebagai penerjemah.",
     "Mengabaikan perubahan akut pada lansia.",
-    "Membiarkan skrining positif tanpa tindak lanjut."
+    "Membiarkan skrining positif tanpa tindak lanjut.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -313,6 +358,17 @@
       ],
       "answer": 1,
       "why": "Kerahasiaan tetap dijaga sambil memastikan tim yang relevan memiliki informasi."
+    },
+    {
+      "q": "Skrining risiko bunuh diri positif. Tindakan paling tepat adalah…",
+      "options": [
+        "Hanya menyimpan skor",
+        "Melakukan penilaian lebih lanjut, menjaga keselamatan, dan mengaktifkan jalur rujukan sesuai urgensi",
+        "Menunggu pasien meminta bantuan",
+        "Memberi edukasi umum lalu pulang"
+      ],
+      "answer": 1,
+      "why": "Skrining positif adalah pemicu tindakan lanjut dan proteksi, bukan hasil akhir."
     }
   ],
   "references": [

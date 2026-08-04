@@ -9,7 +9,7 @@
   "soft": "#FFF0F2",
   "icon": "heart",
   "minutes": 25,
-  "updated": "4 Agustus 2026",
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,46 @@
       "caption": "NEWS2 membantu menyamakan bahasa risiko, tetapi tidak menggantikan penilaian klinis atau respons terhadap perburukan.",
       "image": "assets/images/v4/pap-ews/pap-ews-01.webp",
       "thumbnail": "assets/images/thumb/v4/pap-ews/pap-ews-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: menghitung dan mengeskalasi NEWS2",
+      "caption": "Skor membantu mengenali perburukan, tetapi tidak boleh mengalahkan kekhawatiran klinis.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Ukur enam parameter",
+            "text": "Frekuensi napas, saturasi, tekanan sistolik, nadi, suhu, dan kesadaran/kebingungan baru."
+          },
+          {
+            "title": "2. Catat udara atau oksigen",
+            "text": "Tambahan oksigen memengaruhi skor; tulis perangkat dan aliran bila digunakan."
+          },
+          {
+            "title": "3. Pilih skala SpO₂ yang benar",
+            "text": "Scale 2 hanya bila ditetapkan klinisi kompeten untuk target 88–92% pada gagal napas hiperkapnik."
+          },
+          {
+            "title": "4. Beri skor tiap parameter",
+            "text": "Gunakan chart yang sah; periksa juga skor tunggal 3 dan data yang belum lengkap."
+          },
+          {
+            "title": "5. Jumlahkan dan lihat tren",
+            "text": "Bandingkan dengan skor sebelumnya; kenaikan cepat dapat lebih penting daripada satu angka."
+          },
+          {
+            "title": "6. Eskalasi",
+            "text": "Ikuti respons klinis fasilitas, sampaikan parameter abnormal, tren, intervensi, dan kekhawatiran."
+          },
+          {
+            "title": "7. Dokumentasikan respons",
+            "text": "Catat waktu kontak, pemberi respons, instruksi, tindakan, dan hasil penilaian ulang."
+          }
+        ],
+        "columns": 2,
+        "note": "Eskalasi tetap dilakukan bila kondisi mengkhawatirkan meskipun skor total rendah."
+      }
     },
     {
       "type": "html",
@@ -209,6 +249,13 @@
       "points": [
         "Skor membantu deteksi dan komunikasi, tetapi penyebab dan terapi tetap memerlukan penilaian klinis."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Ukur enam parameter: Frekuensi napas, saturasi, tekanan sistolik, nadi, suhu, dan kesadaran/kebingungan baru.",
+        "2. Catat udara atau oksigen: Tambahan oksigen memengaruhi skor; tulis perangkat dan aliran bila digunakan."
+      ]
     }
   ],
   "do": [
@@ -216,14 +263,16 @@
     "Masukkan oksigen dan new confusion.",
     "Nilai skor total, skor tunggal, dan tren.",
     "Eskalasi bila khawatir walaupun skor rendah.",
-    "Ulangi setelah intervensi."
+    "Ulangi setelah intervensi.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menggunakan Scale 2 tanpa dasar.",
     "Mengabaikan kebutuhan oksigen meningkat.",
     "Menunggu semua parameter ekstrem sebelum menghubungi.",
     "Mencatat skor tanpa respons.",
-    "Menyalin nilai monitor tanpa memeriksa pasien."
+    "Menyalin nilai monitor tanpa memeriksa pasien.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -313,6 +362,17 @@
       ],
       "answer": 1,
       "why": "NEWS2 adalah sistem early warning, bukan diagnosis atau resep terapi."
+    },
+    {
+      "q": "NEWS2 total 3 berasal dari satu parameter dengan skor 3. Tindakan adalah…",
+      "options": [
+        "Mengabaikan karena total di bawah 5",
+        "Mengikuti respons untuk skor tunggal 3 dan menilai kondisi klinis",
+        "Mengubah skor menjadi 0",
+        "Menunggu shift berikutnya"
+      ],
+      "answer": 1,
+      "why": "Skor tunggal 3 merupakan trigger klinis walaupun total belum tinggi."
     }
   ],
   "references": [

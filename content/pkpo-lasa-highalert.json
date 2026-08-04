@@ -8,8 +8,8 @@
   "color": "#9A5B12",
   "soft": "#FFF5E8",
   "icon": "pill",
-  "minutes": 14,
-  "updated": "4 Agustus 2026",
+  "minutes": 16,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "LASA meningkatkan risiko tertukar; high-alert meningkatkan dampak bila terjadi kesalahan. Keduanya membutuhkan pengaman sistem.",
       "image": "assets/images/v4/pkpo-lasa-highalert/pkpo-lasa-highalert-01.webp",
       "thumbnail": "assets/images/thumb/v4/pkpo-lasa-highalert/pkpo-lasa-highalert-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: verifikasi independen obat berisiko",
+      "caption": "Petugas kedua memeriksa sendiri—bukan sekadar menyetujui hasil petugas pertama.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Order dan indikasi",
+            "text": "Pastikan obat masuk akal untuk pasien dan tujuan terapi."
+          },
+          {
+            "title": "Identitas dan alergi",
+            "text": "Cocokkan minimal dua identitas serta riwayat alergi."
+          },
+          {
+            "title": "Obat dan konsentrasi",
+            "text": "Baca nama lengkap, kekuatan, bentuk, dan konsentrasi; waspadai LASA."
+          },
+          {
+            "title": "Perhitungan",
+            "text": "Hitung dosis/kecepatan secara mandiri menggunakan data pasien yang benar."
+          },
+          {
+            "title": "Rute dan perangkat",
+            "text": "Pastikan akses, pompa, line, kompatibilitas, dan program perangkat benar."
+          },
+          {
+            "title": "Pemantauan",
+            "text": "Sepakati parameter, frekuensi, target, dan respons bila terjadi efek tidak diinginkan."
+          }
+        ],
+        "columns": 2,
+        "note": "Jangan melakukan double-check bersama sejak awal karena dapat menciptakan bias konfirmasi."
+      }
     },
     {
       "type": "html",
@@ -205,6 +241,13 @@
       "points": [
         "Pemisahan, label, standardisasi, teknologi, kompetensi, dan monitoring."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Order dan indikasi: Pastikan obat masuk akal untuk pasien dan tujuan terapi.",
+        "Identitas dan alergi: Cocokkan minimal dua identitas serta riwayat alergi."
+      ]
     }
   ],
   "do": [
@@ -212,14 +255,16 @@
     "Hubungkan obat dengan indikasi.",
     "Pisahkan obat mirip dan ikuti penandaan.",
     "Lakukan double-check independen.",
-    "Pantau pasien setelah pemberian."
+    "Pantau pasien setelah pemberian.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Mengandalkan kemasan atau warna.",
     "Mengiyakan perhitungan tanpa memeriksa sendiri.",
     "Menyimpan elektrolit konsentrat sembarangan.",
     "Mengabaikan perubahan merek/kemasan.",
-    "Melanjutkan saat hasil perhitungan berbeda."
+    "Melanjutkan saat hasil perhitungan berbeda.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +354,17 @@
       ],
       "answer": 1,
       "why": "Risiko lokal dan perubahan produk perlu tercermin dalam daftar."
+    },
+    {
+      "q": "Dua vial LASA diletakkan berdampingan dengan label tambahan yang sama. Perbaikan sistem yang lebih kuat adalah…",
+      "options": [
+        "Meminta petugas lebih teliti saja",
+        "Memisahkan lokasi, memperjelas label/nama, dan membatasi pilihan pada titik penggunaan",
+        "Menghapus seluruh label",
+        "Menyimpan berdasarkan warna tutup"
+      ],
+      "answer": 1,
+      "why": "Pengendalian sistem lebih kuat daripada hanya mengandalkan kewaspadaan individu."
     }
   ],
   "references": [

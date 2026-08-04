@@ -8,8 +8,8 @@
   "color": "#14805E",
   "soft": "#EAF8F2",
   "icon": "hand",
-  "minutes": 14,
-  "updated": "4 Agustus 2026",
+  "minutes": 18,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,86 @@
       "caption": "Tiga situasi membutuhkan respons berbeda: limbah dipilah, tumpahan dikendalikan, pajanan pada petugas segera ditolong dan dilaporkan.",
       "image": "assets/images/v4/ppi-limbah-spill/ppi-limbah-spill-01.webp",
       "thumbnail": "assets/images/thumb/v4/ppi-limbah-spill/ppi-limbah-spill-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: menangani tumpahan darah/cairan tubuh",
+      "caption": "Batasi area, lindungi diri, angkat bahan organik, disinfeksi, dan buang limbah dengan aman.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Amankan area",
+            "text": "Hentikan lalu lintas, pasang penanda, dan cegah orang menginjak/menyebarkan tumpahan."
+          },
+          {
+            "title": "2. Gunakan APD",
+            "text": "Pilih sarung tangan, apron/gaun, pelindung wajah, dan alas kaki sesuai risiko percikan."
+          },
+          {
+            "title": "3. Tangani benda tajam",
+            "text": "Ambil dengan forceps/scoop—jangan dengan tangan—dan masukkan ke safety box."
+          },
+          {
+            "title": "4. Serap/angkat tumpahan",
+            "text": "Gunakan bahan penyerap; mulai dari tepi menuju pusat agar tidak menyebar."
+          },
+          {
+            "title": "5. Bersihkan bahan organik",
+            "text": "Gunakan bahan pembersih sesuai prosedur sebelum/bersamaan dengan tahap disinfeksi yang ditetapkan."
+          },
+          {
+            "title": "6. Disinfeksi",
+            "text": "Gunakan konsentrasi dan waktu kontak yang ditetapkan fasilitas untuk jenis tumpahan tersebut."
+          },
+          {
+            "title": "7. Buang limbah dan lepas APD",
+            "text": "Pisahkan limbah sesuai kategori, lepas APD dengan aman, lalu kebersihan tangan."
+          },
+          {
+            "title": "8. Laporkan bila perlu",
+            "text": "Dokumentasikan pajanan, insiden, atau kebutuhan penggantian kit sesuai prosedur."
+          }
+        ],
+        "columns": 2,
+        "note": "Tumpahan sitotoksik atau bahan kimia memerlukan kit dan prosedur khusus—jangan diperlakukan sama dengan darah."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik: pertolongan awal pajanan",
+      "caption": "Kecepatan pertolongan dan pelaporan menentukan akses ke penilaian serta profilaksis.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Tusukan/luka kulit",
+            "text": "Cuci segera dengan air dan sabun; jangan memencet kuat, menggosok, atau memberi bahan korosif."
+          },
+          {
+            "title": "Percikan mata",
+            "text": "Bilas segera dengan air/larutan yang sesuai; lepaskan lensa kontak bila mudah dilakukan."
+          },
+          {
+            "title": "Percikan mulut/hidung",
+            "text": "Bilas dengan air; jangan menelan cairan pembilas."
+          },
+          {
+            "title": "Laporkan segera",
+            "text": "Hubungi jalur pajanan/atasan sesuai fasilitas tanpa menunggu gejala atau hasil sumber."
+          },
+          {
+            "title": "Penilaian risiko",
+            "text": "Jenis cairan, rute, kedalaman, alat, kondisi sumber, imunisasi, dan waktu pajanan dinilai."
+          },
+          {
+            "title": "Tindak lanjut",
+            "text": "Ikuti pemeriksaan, profilaksis, imunisasi, konseling, dan jadwal kontrol yang ditetapkan."
+          }
+        ],
+        "columns": 2,
+        "note": "Kerahasiaan sumber dan petugas tetap dijaga."
+      }
     },
     {
       "type": "html",
@@ -205,6 +285,15 @@
       "points": [
         "Tumpahan darah, bahan kimia, sitotoksik, dan radioaktif memiliki prosedur berbeda."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Amankan area: Hentikan lalu lintas, pasang penanda, dan cegah orang menginjak/menyebarkan tumpahan.",
+        "2. Gunakan APD: Pilih sarung tangan, apron/gaun, pelindung wajah, dan alas kaki sesuai risiko percikan.",
+        "Tusukan/luka kulit: Cuci segera dengan air dan sabun; jangan memencet kuat, menggosok, atau memberi bahan korosif.",
+        "Percikan mata: Bilas segera dengan air/larutan yang sesuai; lepaskan lensa kontak bila mudah dilakukan."
+      ]
     }
   ],
   "do": [
@@ -212,14 +301,16 @@
     "Amankan area sebelum membersihkan tumpahan.",
     "Gunakan alat untuk mengambil benda tajam.",
     "Cuci/bilas area pajanan segera.",
-    "Laporkan tanpa menunggu akhir shift."
+    "Laporkan tanpa menunggu akhir shift.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Recapping rutin.",
     "Memencet atau menyayat luka tusuk.",
     "Mengambil pecahan dengan tangan.",
     "Memakai spill kit darah untuk semua bahan.",
-    "Menunda laporan karena pajanan terasa kecil."
+    "Menunda laporan karena pajanan terasa kecil.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +400,17 @@
       ],
       "answer": 1,
       "why": "Pemilahan di sumber mencegah paparan dan pencampuran kategori."
+    },
+    {
+      "q": "Saat membersihkan spill darah, petugas langsung menuangkan disinfektan di atas pecahan kaca. Tindakan aman adalah…",
+      "options": [
+        "Mengambil pecahan dengan tangan bersarung",
+        "Amankan area dan ambil benda tajam dengan alat sebelum proses pembersihan/disinfeksi",
+        "Menginjak pecahan agar kecil",
+        "Menyapu ke saluran air"
+      ],
+      "answer": 1,
+      "why": "Benda tajam harus diangkat dengan forceps/scoop untuk mencegah pajanan."
     }
   ],
   "references": [

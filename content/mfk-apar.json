@@ -8,8 +8,8 @@
   "color": "#B75A24",
   "soft": "#FFF1E8",
   "icon": "fire",
-  "minutes": 13,
-  "updated": "4 Agustus 2026",
+  "minutes": 17,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -26,6 +26,78 @@
       "caption": "Gunakan hanya bila aman, sesuai kelas, dan Anda terlatih.",
       "image": "assets/images/v4/mfk-apar/mfk-apar-02.webp",
       "thumbnail": "assets/images/thumb/v4/mfk-apar/mfk-apar-02.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: PASS menggunakan APAR",
+      "caption": "Hanya lakukan bila api tahap awal, APAR sesuai, petugas terlatih, dan jalur keluar aman.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "P — Pull",
+            "text": "Tarik pin/pengaman sesuai desain alat."
+          },
+          {
+            "title": "A — Aim",
+            "text": "Arahkan nozzle ke pangkal api, bukan ke asap atau bagian atas nyala."
+          },
+          {
+            "title": "S — Squeeze",
+            "text": "Tekan tuas secara terkendali."
+          },
+          {
+            "title": "S — Sweep",
+            "text": "Sapukan dari sisi ke sisi pada pangkal api sambil menjaga jarak sesuai label/pelatihan."
+          },
+          {
+            "title": "Jaga jalur keluar",
+            "text": "Posisikan diri agar dapat mundur; jangan terjebak di antara api dan pintu."
+          },
+          {
+            "title": "Berhenti bila tidak aman",
+            "text": "Jika asap menebal, api membesar, APAR habis, atau jalur keluar terancam: mundur dan evakuasi."
+          }
+        ],
+        "columns": 2,
+        "note": "Aktifkan alarm/bantuan terlebih dahulu atau pastikan orang lain melakukannya."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Checklist sebelum mencoba memadamkan api",
+      "caption": "Keputusan menggunakan APAR lebih penting daripada sekadar hafal PASS.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Api masih kecil dan terbatas",
+            "text": "Bukan api yang sudah menyebar ke langit-langit/ruang lain."
+          },
+          {
+            "title": "Jenis APAR sesuai",
+            "text": "Baca label; jangan menebak atau menggunakan air pada risiko listrik/minyak."
+          },
+          {
+            "title": "Ruangan tidak penuh asap",
+            "text": "Asap berbahaya dapat mendahului besarnya api."
+          },
+          {
+            "title": "Jalur keluar aman",
+            "text": "Pintu/akses berada di belakang atau samping dan tidak tertutup api."
+          },
+          {
+            "title": "Petugas terlatih dan mampu",
+            "text": "Bila ragu, prioritaskan alarm dan evakuasi."
+          },
+          {
+            "title": "Bantuan sudah diaktifkan",
+            "text": "Pemadaman awal tidak boleh menunda respons darurat."
+          }
+        ],
+        "columns": 2,
+        "note": "Jarak dan langkah pemeriksaan alat mengikuti label serta pelatihan fasilitas."
+      }
     },
     {
       "type": "html",
@@ -212,6 +284,15 @@
       "points": [
         "Jika api tidak terkendali, asap/panas meningkat, atau jalur terancam."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "P — Pull: Tarik pin/pengaman sesuai desain alat.",
+        "A — Aim: Arahkan nozzle ke pangkal api, bukan ke asap atau bagian atas nyala.",
+        "Api masih kecil dan terbatas: Bukan api yang sudah menyebar ke langit-langit/ruang lain.",
+        "Jenis APAR sesuai: Baca label; jangan menebak atau menggunakan air pada risiko listrik/minyak."
+      ]
     }
   ],
   "do": [
@@ -219,14 +300,16 @@
     "Pilih APAR sesuai label dan kelas.",
     "Jaga jalur keluar.",
     "Arahkan ke pangkal api.",
-    "Berhenti segera bila kondisi memburuk."
+    "Berhenti segera bila kondisi memburuk.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menganggap jarak tertentu universal untuk semua APAR.",
     "Masuk ke ruangan penuh asap.",
     "Memadamkan tanpa alarm/bantuan.",
     "Berdiri dengan api di antara diri dan pintu.",
-    "Terus mencoba setelah satu APAR gagal."
+    "Terus mencoba setelah satu APAR gagal.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -316,6 +399,17 @@
       ],
       "answer": 1,
       "why": "Alat yang tidak siap tidak boleh menjadi pertahanan palsu."
+    },
+    {
+      "q": "Api kecil mulai menghasilkan asap tebal dan jalur keluar terancam. Tindakan adalah…",
+      "options": [
+        "Tetap melakukan PASS sampai APAR habis",
+        "Mundur dan evakuasi karena kondisi tidak aman",
+        "Mendekat agar semprotan lebih kuat",
+        "Membuka jendela tanpa instruksi"
+      ],
+      "answer": 1,
+      "why": "APAR hanya untuk kondisi awal yang aman; asap/jalur keluar yang memburuk adalah alasan berhenti."
     }
   ],
   "references": [

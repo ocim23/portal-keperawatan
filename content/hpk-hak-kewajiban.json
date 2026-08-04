@@ -8,8 +8,8 @@
   "color": "#A34D78",
   "soft": "#FFF0F7",
   "icon": "rights",
-  "minutes": 16,
-  "updated": "4 Agustus 2026",
+  "minutes": 18,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "Hak pasien bukan daftar hafalan. Setiap hak harus tampak dalam komunikasi, privasi, keputusan, keselamatan, akses informasi, dan penanganan keluhan.",
       "image": "assets/images/v4/hpk-hak-kewajiban/hpk-hak-kewajiban-01.webp",
       "thumbnail": "assets/images/thumb/v4/hpk-hak-kewajiban/hpk-hak-kewajiban-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Simulasi: menjelaskan hak dan kewajiban pasien",
+      "caption": "Gunakan bahasa sederhana dan arahkan ke petugas yang tepat bila pertanyaan membutuhkan keputusan lebih lanjut.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Hak atas informasi",
+            "text": "Jelaskan pelayanan, petugas, rencana, risiko/manfaat, alternatif, biaya sesuai kewenangan, dan cara bertanya."
+          },
+          {
+            "title": "Hak privasi dan kerahasiaan",
+            "text": "Jaga tubuh, percakapan, dokumen, layar, foto, dan akses informasi."
+          },
+          {
+            "title": "Hak memilih dan berpartisipasi",
+            "text": "Dukung pertanyaan, persetujuan/penolakan, second opinion sesuai ketentuan, dan keterlibatan keluarga sesuai pilihan."
+          },
+          {
+            "title": "Hak aman dan bermartabat",
+            "text": "Layani tanpa diskriminasi, hormati nilai/budaya, tangani nyeri, dan sediakan jalur keluhan."
+          },
+          {
+            "title": "Kewajiban memberi informasi benar",
+            "text": "Pasien/keluarga perlu memberi data kesehatan, obat, alergi, dan perubahan kondisi secara jujur."
+          },
+          {
+            "title": "Kewajiban mengikuti aturan dan kesepakatan",
+            "text": "Menghormati petugas/pasien lain, mengikuti aturan fasilitas, dan memenuhi kewajiban administratif sesuai ketentuan."
+          }
+        ],
+        "columns": 2,
+        "note": "Daftar lengkap dan mekanisme resmi mengikuti regulasi serta informasi rumah sakit masing-masing."
+      }
     },
     {
       "type": "html",
@@ -205,6 +241,13 @@
       "points": [
         "Menjelaskan, meminta izin, menjaga privasi, mendengar, mendokumentasikan, dan mengadvokasi."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Hak atas informasi: Jelaskan pelayanan, petugas, rencana, risiko/manfaat, alternatif, biaya sesuai kewenangan, dan cara bertanya.",
+        "Hak privasi dan kerahasiaan: Jaga tubuh, percakapan, dokumen, layar, foto, dan akses informasi."
+      ]
     }
   ],
   "do": [
@@ -212,14 +255,16 @@
     "Gunakan bahasa yang dapat dipahami.",
     "Verifikasi sebelum berbagi informasi.",
     "Fasilitasi keluhan tanpa defensif.",
-    "Dokumentasikan kebutuhan dan preferensi penting."
+    "Dokumentasikan kebutuhan dan preferensi penting.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menganggap keluarga selalu boleh menerima semua informasi.",
     "Membahas pasien di area umum.",
     "Menganggap diam sebagai persetujuan.",
     "Mengurangi pelayanan karena keluhan.",
-    "Menyederhanakan hak menjadi daftar tidak lengkap."
+    "Menyederhanakan hak menjadi daftar tidak lengkap.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +354,17 @@
       ],
       "answer": 1,
       "why": "Ringkasan visual tidak boleh menyesatkan sebagai daftar lengkap."
+    },
+    {
+      "q": "Pasien meminta penjelasan biaya rinci yang di luar kewenangan perawat. Respons tepat adalah…",
+      "options": [
+        "Memberikan perkiraan pribadi",
+        "Menjelaskan bagian yang diketahui dan mengarahkan ke petugas berwenang tanpa mengabaikan pertanyaan",
+        "Menyuruh pasien mencari sendiri",
+        "Mengatakan biaya bukan hak pasien"
+      ],
+      "answer": 1,
+      "why": "Hak informasi tetap dihormati; petugas perlu mengarahkan ke sumber yang berwenang."
     }
   ],
   "references": [

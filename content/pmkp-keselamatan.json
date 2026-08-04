@@ -8,8 +8,8 @@
   "color": "#155E9A",
   "soft": "#E9F4FF",
   "icon": "target",
-  "minutes": 16,
-  "updated": "4 Agustus 2026",
+  "minutes": 18,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "Ketika insiden terjadi: selamatkan pasien, komunikasikan, dokumentasikan klinis, laporkan melalui sistem, analisis, lalu perbaiki risiko.",
       "image": "assets/images/v4/pmkp-keselamatan/pmkp-keselamatan-01.webp",
       "thumbnail": "assets/images/thumb/v4/pmkp-keselamatan/pmkp-keselamatan-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: respons saat insiden keselamatan terjadi",
+      "caption": "Utamakan pasien, amankan bukti/data, laporkan, lalu belajar dari sistem.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Tolong dan stabilkan pasien",
+            "text": "Lakukan asesmen, tindakan segera, dan eskalasi klinis sesuai kondisi."
+          },
+          {
+            "title": "2. Amankan kondisi",
+            "text": "Hentikan sumber bahaya, simpan alat/obat terkait sesuai prosedur, dan cegah kejadian berulang."
+          },
+          {
+            "title": "3. Dokumentasi klinis objektif",
+            "text": "Catat kondisi, tindakan, respons, dan komunikasi pada rekam medis tanpa spekulasi."
+          },
+          {
+            "title": "4. Laporkan insiden",
+            "text": "Gunakan sistem pelaporan sesuai batas waktu; laporan insiden terpisah dari catatan klinis."
+          },
+          {
+            "title": "5. Grading dan investigasi",
+            "text": "Tim menilai dampak/risiko dan menentukan bentuk investigasi termasuk RCA bila diperlukan."
+          },
+          {
+            "title": "6. Tindak lanjut",
+            "text": "Susun perbaikan sistem, penanggung jawab, waktu, indikator, dan pemantauan efektivitas."
+          }
+        ],
+        "columns": 2,
+        "note": "Pelaporan bertujuan memperbaiki sistem, bukan menggantikan pertanggungjawaban profesional atau proses klinis."
+      }
     },
     {
       "type": "html",
@@ -205,6 +241,13 @@
       "points": [
         "Cari bahaya, nilai risiko, pasang kontrol, dan ukur risiko sisa."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "1. Tolong dan stabilkan pasien: Lakukan asesmen, tindakan segera, dan eskalasi klinis sesuai kondisi.",
+        "2. Amankan kondisi: Hentikan sumber bahaya, simpan alat/obat terkait sesuai prosedur, dan cegah kejadian berulang."
+      ]
     }
   ],
   "do": [
@@ -212,14 +255,16 @@
     "Laporkan near miss dan kondisi berbahaya.",
     "Tulis fakta dan waktu secara objektif.",
     "Ikut analisis sistem.",
-    "Pantau efektivitas tindakan perbaikan."
+    "Pantau efektivitas tindakan perbaikan.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menunda pertolongan untuk mengisi formulir.",
     "Menyembunyikan near miss.",
     "Menulis tuduhan dalam laporan.",
     "Menganggap edukasi ulang selalu cukup.",
-    "Menutup kasus tanpa mengukur perbaikan."
+    "Menutup kasus tanpa mengukur perbaikan.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -309,6 +354,17 @@
       ],
       "answer": 1,
       "why": "Near miss adalah sumber pembelajaran yang sangat bernilai."
+    },
+    {
+      "q": "Setelah insiden obat, perawat menulis “terjadi karena petugas ceroboh” di rekam medis. Masalahnya adalah…",
+      "options": [
+        "Catatan terlalu pendek",
+        "Rekam medis harus objektif; analisis penyebab dilakukan melalui proses insiden/investigasi",
+        "Harus menyebut nama semua petugas",
+        "Insiden tidak perlu dicatat klinis"
+      ],
+      "answer": 1,
+      "why": "Dokumentasi klinis mencatat fakta, kondisi, tindakan, dan respons; kesimpulan penyebab memerlukan investigasi."
     }
   ],
   "references": [

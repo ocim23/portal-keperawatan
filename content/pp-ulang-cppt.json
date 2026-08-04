@@ -8,8 +8,8 @@
   "color": "#7B5EA7",
   "soft": "#F4EEFF",
   "icon": "clipboard",
-  "minutes": 22,
-  "updated": "4 Agustus 2026",
+  "minutes": 24,
+  "updated": "2026-08-05",
   "notice": "",
   "quizDisplayCount": 5,
   "slides": [
@@ -19,6 +19,42 @@
       "caption": "Catatan perkembangan harus menunjukkan apa yang berubah, apa artinya, apa yang dilakukan, dan bagaimana respons pasien.",
       "image": "assets/images/v4/pp-ulang-cppt/pp-ulang-cppt-01.webp",
       "thumbnail": "assets/images/thumb/v4/pp-ulang-cppt/pp-ulang-cppt-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Praktik: pengkajian ulang dan CPPT yang bermakna",
+      "caption": "Gunakan alur temuan–analisis–tindakan–respons–rencana berikutnya.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Temuan baru",
+            "text": "Catat perubahan subjektif dan objektif yang relevan, termasuk waktu dan pemicunya."
+          },
+          {
+            "title": "Analisis",
+            "text": "Jelaskan makna temuan: membaik, menetap, memburuk, atau muncul risiko baru."
+          },
+          {
+            "title": "Tindakan",
+            "text": "Catat intervensi mandiri, kolaborasi, eskalasi, dan komunikasi yang benar-benar dilakukan."
+          },
+          {
+            "title": "Respons",
+            "text": "Tulis respons pasien setelah intervensi dan kapan dinilai ulang."
+          },
+          {
+            "title": "Rencana berikutnya",
+            "text": "Tentukan pemantauan, target, tindakan lanjutan, serta kondisi yang memerlukan eskalasi."
+          },
+          {
+            "title": "Keterpaduan",
+            "text": "Pastikan catatan dapat dipahami PPA berikutnya dan tidak bertentangan dengan rencana bersama."
+          }
+        ],
+        "columns": 2,
+        "note": "Contoh singkat: “Nyeri 7/10 → analisis nyeri meningkat saat mobilisasi → analgesik sesuai program + posisi nyaman → 30 menit kemudian 3/10 → lanjut monitor dan edukasi.”"
+      }
     },
     {
       "type": "html",
@@ -209,6 +245,13 @@
       "points": [
         "Setiap intervensi penting memerlukan evaluasi respons."
       ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Temuan baru: Catat perubahan subjektif dan objektif yang relevan, termasuk waktu dan pemicunya.",
+        "Analisis: Jelaskan makna temuan: membaik, menetap, memburuk, atau muncul risiko baru."
+      ]
     }
   ],
   "do": [
@@ -216,14 +259,16 @@
     "Dokumentasikan data dan analisis.",
     "Catat komunikasi serta eskalasi.",
     "Evaluasi respons setelah tindakan.",
-    "Perbarui rencana dan handover."
+    "Perbarui rencana dan handover.",
+    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
   ],
   "dont": [
     "Menulis catatan generik.",
     "Copy-paste tanpa verifikasi.",
     "Mencatat tindakan tanpa hasil.",
     "Mengabaikan catatan PPA lain.",
-    "Menunda dokumentasi sampai akhir shift."
+    "Menunda dokumentasi sampai akhir shift.",
+    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
     {
@@ -313,6 +358,17 @@
       ],
       "answer": 1,
       "why": "Catatan harus mencerminkan kondisi aktual, bukan pengulangan otomatis."
+    },
+    {
+      "q": "Catatan “kondisi stabil, terapi lanjut” dinilai kurang bermakna karena…",
+      "options": [
+        "Terlalu singkat dan tidak menunjukkan temuan, analisis, respons, serta rencana",
+        "Tidak memakai huruf kapital",
+        "Tidak ditulis oleh dua profesi",
+        "Tidak menyebut nomor kamar"
+      ],
+      "answer": 0,
+      "why": "CPPT harus memungkinkan PPA memahami perubahan, tindakan, respons, dan rencana berikutnya."
     }
   ],
   "references": [
