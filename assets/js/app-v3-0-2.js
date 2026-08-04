@@ -73,7 +73,21 @@ function closeLB(){$('#lightbox')?.classList.remove('open')}
 function zoomLB(d){lbZoom=Math.max(.6,Math.min(3,lbZoom+d));$('#lightboxImage').style.transform=`scale(${lbZoom})`}
 function toast(m){const t=$('#toast');if(!t)return;t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
 function bind(){
- window.addEventListener('hashchange',route);
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+
+window.addEventListener('hashchange', async () => {
+  await route();
+
+  requestAnimationFrame(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'auto'
+    });
+  });
+});
  document.addEventListener('click',e=>{
   const a=e.target.closest('[data-action]');
   if(a){
@@ -119,7 +133,13 @@ async function init(){
   ICONS=CATALOG.icons||{};
   ASKEP=CATALOG.askepUrl||'';
   bind();
-  route();
+await route();
+
+window.scrollTo({
+  top: 0,
+  left: 0,
+  behavior: 'auto'
+});
   if('serviceWorker' in navigator){
     window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
   }
