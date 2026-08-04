@@ -2,44 +2,186 @@
   "id": "pmkp-mutu",
   "group": "pmkp",
   "title": "Mutu, Indikator, dan Perbaikan Berkelanjutan",
-  "short": "Mutu & Indikator",
-  "desc": "INM, indikator prioritas, data, validasi, analisis, dan perbaikan.",
+  "short": "Pahami INM, profil indikator, data, dan siklus perbaikan",
+  "desc": "Membaca indikator dengan benar, mengumpulkan data yang dapat dipercaya, dan menggunakan hasilnya untuk memperbaiki pelayanan.",
   "category": "PMKP",
   "color": "#155E9A",
   "soft": "#E9F4FF",
   "icon": "target",
-  "minutes": 17,
-  "updated": "3 Agustus 2026",
+  "minutes": 18,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
-      "title": "Indikator Mutu Nasional",
-      "caption": "Perawat berperan melalui praktik dan data akurat.",
-      "order": 1,
-      "image": "assets/images/main/pmkp/pmkp-01-inm.webp",
-      "thumbnail": "assets/images/thumb/pmkp/pmkp-01-inm-thumb.webp",
-      "version": 1
+      "title": "Mutu, Indikator, dan Perbaikan Berkelanjutan",
+      "caption": "INM adalah tolok ukur nasional mutu. Rumah sakit memiliki 13 INM; setiap indikator harus dibaca melalui definisi operasional, pembilang, penyebut, target, dan sumber data.",
+      "image": "assets/images/v4/pmkp-mutu/pmkp-mutu-01.webp",
+      "thumbnail": "assets/images/thumb/v4/pmkp-mutu/pmkp-mutu-01.webp"
+    },
+    {
+      "type": "image",
+      "title": "13 Indikator Nasional Mutu Rumah Sakit",
+      "caption": "Daftar lengkap INM rumah sakit sesuai Permenkes Nomor 30 Tahun 2022.",
+      "image": "assets/images/v4/pmkp-mutu/pmkp-mutu-02.webp",
+      "thumbnail": "assets/images/thumb/v4/pmkp-mutu/pmkp-mutu-02.webp"
     },
     {
       "type": "html",
-      "title": "Jenis indikator",
-      "caption": "Program mutu seluruh unit.",
-      "order": 2,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mutu bersifat multidimensi",
+            "text": "Pelayanan yang aman, efektif, berpusat pada pasien, tepat waktu, efisien, terintegrasi, dan adil perlu dinilai bersama."
+          },
+          {
+            "title": "Indikator adalah alat ukur",
+            "text": "Indikator tidak menggantikan penilaian klinis; ia memberi sinyal apakah proses/hasil berjalan sesuai tujuan."
+          },
+          {
+            "title": "INM bukan semua indikator RS",
+            "text": "Selain INM, rumah sakit dapat memiliki indikator prioritas rumah sakit, unit, dan program lain sesuai kebutuhan."
+          },
+          {
+            "title": "Definisi operasional menyatukan cara ukur",
+            "text": "Menjelaskan apa yang dianggap sesuai/tidak sesuai agar data antarpetugas dan periode dapat dibandingkan."
+          },
+          {
+            "title": "Profil indikator adalah paket lengkap",
+            "text": "Judul, dasar pemikiran, dimensi mutu, tujuan, definisi operasional, tipe, satuan, numerator, denominator, target, inklusi/eksklusi, formula, metode, sumber, frekuensi, dan penanggung jawab."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "13 INM — keselamatan dan kepatuhan",
+            "text": "1 kebersihan tangan; 2 penggunaan APD; 3 identifikasi pasien; 11 pencegahan risiko jatuh."
+          },
+          {
+            "title": "13 INM — waktu dan proses",
+            "text": "4 waktu tanggap SC emergensi; 5 waktu tunggu rawat jalan; 6 penundaan operasi elektif; 7 waktu visite dokter; 8 pelaporan hasil kritis laboratorium."
+          },
+          {
+            "title": "13 INM — kesesuaian dan pengalaman",
+            "text": "9 kepatuhan Fornas; 10 clinical pathway; 12 kecepatan tanggap komplain; 13 kepuasan pasien."
+          },
+          {
+            "title": "Contoh hitung",
+            "text": "18 dari 20 observasi identifikasi sesuai: numerator 18, denominator 20, capaian 18/20 × 100% = 90%.",
+            "example": "Angka 90% berarti dua kesempatan belum sesuai; data perlu ditinjau, bukan hanya dipuji."
+          },
+          {
+            "title": "Siklus perbaikan",
+            "text": "Pahami definisi → kumpulkan tepat → validasi → analisis tren/penyebab → pilih perubahan → uji → ukur kembali → standardisasi bila efektif."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
         "style": "bands",
         "items": [
           {
-            "title": "INM",
-            "text": "Indikator Nasional Mutu."
+            "title": "Denominator nol",
+            "text": "Jangan memaksakan hasil 0% atau 100%; ikuti aturan pelaporan indikator dan jelaskan tidak ada kasus yang memenuhi syarat."
           },
           {
-            "title": "IMP-RS",
-            "text": "Prioritas rumah sakit."
+            "title": "Data tampak sangat baik secara tiba-tiba",
+            "text": "Periksa perubahan definisi, sampel, pencatat, periode, sumber data, dan kemungkinan under-reporting."
           },
           {
-            "title": "IMP-Unit",
-            "text": "Prioritas unit."
+            "title": "Dua petugas menafsirkan kejadian berbeda",
+            "text": "Kembali ke definisi operasional dan lakukan kalibrasi/validasi."
+          },
+          {
+            "title": "Target tercapai tetapi insiden tetap terjadi",
+            "text": "Target tidak meniadakan risiko; analisis kejadian individual dan tren tetap diperlukan."
+          },
+          {
+            "title": "Sampel tidak mewakili",
+            "text": "Tinjau metode pengumpulan, waktu, unit, dan peluang seleksi agar kesimpulan tidak bias."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menghafal 13 INM tanpa memahami profil",
+            "text": "Nama indikator saja tidak cukup untuk mengumpulkan data yang benar."
+          },
+          {
+            "title": "Numerator dan denominator tertukar",
+            "text": "Menghasilkan capaian salah dan interpretasi menyesatkan."
+          },
+          {
+            "title": "Mengubah definisi di tengah periode",
+            "text": "Data menjadi tidak dapat dibandingkan."
+          },
+          {
+            "title": "Mengisi data berdasarkan perkiraan",
+            "text": "Menurunkan validitas dan dapat menutupi masalah nyata."
+          },
+          {
+            "title": "Berhenti setelah membuat grafik",
+            "text": "Mutu membutuhkan tindak lanjut, pengukuran ulang, dan sustainment."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Pahami indikator unit",
+            "text": "Ketahui definisi, sumber data, periode, dan peran Anda sebelum mencatat."
+          },
+          {
+            "title": "Catat sesuai kejadian",
+            "text": "Lengkap, tepat waktu, dapat ditelusuri, dan tidak diduplikasi."
+          },
+          {
+            "title": "Klarifikasi data meragukan",
+            "text": "Jangan “memperbaiki” angka tanpa bukti."
+          },
+          {
+            "title": "Baca tren dan konteks",
+            "text": "Satu angka tidak cukup; lihat perubahan, variasi, dan kejadian penting."
+          },
+          {
+            "title": "Ikut perbaikan",
+            "text": "Berikan perspektif alur kerja, uji perubahan, dan pantau apakah perbaikan benar-benar bertahan."
           }
         ],
         "columns": 1,
@@ -48,111 +190,154 @@
     },
     {
       "type": "html",
-      "title": "Siklus data",
-      "caption": "Data objektif dan tepercaya.",
-      "order": 3,
+      "title": "Contoh penerapan",
+      "caption": "Contoh membantu menghubungkan konsep dengan situasi nyata.",
       "template": {
-        "style": "flow",
+        "style": "examples",
         "items": [
           {
-            "title": "Definisi",
-            "text": "Numerator, denominator, kriteria."
+            "title": "Contoh profil singkat",
+            "text": "Judul: kepatuhan identifikasi pasien. Numerator: observasi yang dilakukan benar. Denominator: seluruh observasi yang memenuhi kriteria. Formula: pembilang/penyebut ×100%.",
+            "example": "18 sesuai dari 20 observasi = 90%."
           },
           {
-            "title": "Kumpulkan",
-            "text": "Lengkap dan tepat waktu."
-          },
-          {
-            "title": "Validasi",
-            "text": "Konsistensi/akurasi."
-          },
-          {
-            "title": "Analisis",
-            "text": "Tren dan penyebab."
-          },
-          {
-            "title": "Perbaikan",
-            "text": "Uji dan pertahankan."
+            "title": "Tiga lapisan indikator",
+            "text": "INM berasal dari ketentuan nasional; indikator prioritas RS dan unit dipilih berdasarkan risiko, volume, masalah, dan strategi lokal."
           }
         ],
-        "columns": 5,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Peran perawat",
-      "caption": "Mutu dari praktik harian.",
-      "order": 4,
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Patuh proses",
-            "text": "Identifikasi, hand hygiene, APD, jatuh."
-          },
-          {
-            "title": "Dokumentasi",
-            "text": "Sumber data."
-          },
-          {
-            "title": "Kenali masalah",
-            "text": "Laporkan hambatan."
-          },
-          {
-            "title": "Ikut perbaikan",
-            "text": "Analisis dan uji perubahan."
-          }
-        ],
-        "columns": 2,
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Bukan hanya angka",
+      "title": "INM",
       "points": [
-        "Indikator menunjukkan mutu pelayanan."
+        "Tolok ukur nasional; rumah sakit memiliki 13 indikator dalam Permenkes 30/2022."
       ]
     },
     {
-      "title": "Data buruk",
+      "title": "Pembilang & penyebut",
       "points": [
-        "Menghasilkan keputusan buruk."
+        "Pembilang = yang memenuhi; penyebut = seluruh yang memenuhi syarat dinilai."
+      ]
+    },
+    {
+      "title": "Data tepercaya",
+      "points": [
+        "Gunakan definisi, inklusi/eksklusi, sumber, dan periode yang sama."
+      ]
+    },
+    {
+      "title": "Perbaikan",
+      "points": [
+        "Validasi → analisis → uji perubahan → ukur ulang → pertahankan."
       ]
     }
   ],
   "do": [
-    "Catat sesuai definisi.",
-    "Gunakan hasil untuk perbaikan."
+    "Baca profil indikator sebelum mengumpulkan data.",
+    "Gunakan definisi operasional secara konsisten.",
+    "Validasi data kosong, ganda, atau tidak masuk akal.",
+    "Analisis tren dan penyebab, bukan angka tunggal.",
+    "Ukur ulang setelah perubahan."
   ],
   "dont": [
-    "Ubah data agar target.",
-    "Anggap tugas komite saja."
+    "Menganggap INM hanya enam.",
+    "Menukar numerator dan denominator.",
+    "Mengubah definisi agar target tercapai.",
+    "Mengisi berdasarkan perkiraan.",
+    "Berhenti pada pelaporan tanpa perbaikan."
   ],
   "quiz": [
     {
-      "q": "IMP-Unit adalah…",
+      "q": "Dalam 20 observasi identifikasi pasien, 18 sesuai. Numerator dan denominator adalah…",
       "options": [
-        "Indikator prioritas unit",
-        "Insiden medis",
-        "Instruksi pribadi",
-        "Luar negeri"
-      ],
-      "answer": 0,
-      "why": "Indikator mutu prioritas unit."
-    },
-    {
-      "q": "Setelah analisis…",
-      "options": [
-        "Arsip saja",
-        "Rencana dan pantau perbaikan",
-        "Hapus data",
-        "Stop ukur"
+        "20 dan 18",
+        "18 dan 20",
+        "2 dan 20",
+        "18 dan 2"
       ],
       "answer": 1,
-      "why": "Data digunakan untuk perbaikan."
+      "why": "Numerator adalah jumlah yang memenuhi; denominator seluruh observasi yang memenuhi syarat."
+    },
+    {
+      "q": "Capaian contoh tersebut adalah…",
+      "options": [
+        "80%",
+        "90%",
+        "100%",
+        "110%"
+      ],
+      "answer": 1,
+      "why": "18 ÷ 20 × 100% = 90%."
+    },
+    {
+      "q": "Dua pengumpul data memberi hasil berbeda karena memahami “tepat waktu” secara berbeda. Langkah pertama adalah…",
+      "options": [
+        "Merata-ratakan hasil",
+        "Kembali ke definisi operasional dan melakukan kalibrasi",
+        "Memilih angka tertinggi",
+        "Menghapus indikator"
+      ],
+      "answer": 1,
+      "why": "Definisi operasional menyatukan interpretasi."
+    },
+    {
+      "q": "Manakah yang termasuk INM rumah sakit?",
+      "options": [
+        "Kepatuhan identifikasi pasien",
+        "Jumlah rapat bulanan unit",
+        "Jumlah pegawai baru",
+        "Warna seragam petugas"
+      ],
+      "answer": 0,
+      "why": "Kepatuhan identifikasi pasien merupakan salah satu dari 13 INM rumah sakit."
+    },
+    {
+      "q": "Target indikator tercapai tiga bulan berturut-turut. Tindakan selanjutnya adalah…",
+      "options": [
+        "Menghentikan seluruh pemantauan",
+        "Memastikan validitas, mempertahankan proses baik, dan tetap memantau sesuai program",
+        "Mengubah target menjadi lebih rendah",
+        "Menghapus data lama"
+      ],
+      "answer": 1,
+      "why": "Sustainment dan pemantauan diperlukan agar perbaikan bertahan."
+    },
+    {
+      "q": "Denominator suatu indikator pada bulan ini nol. Tindakan terbaik adalah…",
+      "options": [
+        "Melaporkan 100%",
+        "Melaporkan 0%",
+        "Mengikuti aturan profil indikator dan menjelaskan tidak ada kasus memenuhi syarat",
+        "Membuat kasus contoh"
+      ],
+      "answer": 2,
+      "why": "Hasil tidak boleh dipaksakan tanpa denominator."
+    },
+    {
+      "q": "Grafik indikator membaik tajam setelah petugas pengumpul data berganti. Apa yang perlu diperiksa?",
+      "options": [
+        "Tidak perlu, karena hasil bagus",
+        "Definisi, metode sampling, sumber, periode, dan konsistensi pengumpulan",
+        "Hanya warna grafik",
+        "Jumlah rapat"
+      ],
+      "answer": 1,
+      "why": "Perubahan proses pengumpulan dapat menjelaskan perubahan semu."
+    },
+    {
+      "q": "Tujuan utama indikator mutu adalah…",
+      "options": [
+        "Menghukum unit yang nilainya rendah",
+        "Memberi informasi terukur untuk menilai dan memperbaiki pelayanan",
+        "Menggantikan asesmen klinis",
+        "Membuat laporan sebanyak mungkin"
+      ],
+      "answer": 1,
+      "why": "Indikator merupakan alat belajar dan perbaikan sistem."
     }
   ],
   "references": [
@@ -162,14 +347,19 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
       "title": "Permenkes Nomor 30 Tahun 2022 — Indikator Nasional Mutu",
       "org": "Kementerian Kesehatan RI",
-      "url": ""
+      "url": "https://jdih.kemkes.go.id/documents/peraturan-menteri-kesehatan-nomor-30-tahun-2022"
+    },
+    {
+      "title": "Permenkes Nomor 6 Tahun 2026 — Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/peraturan-menteri-kesehatan-nomor-6-tahun-2026"
     }
   ]
 }

@@ -2,103 +2,313 @@
   "id": "hpk-hak-kewajiban",
   "group": "hpk",
   "title": "Hak dan Kewajiban Pasien",
-  "short": "Hak & Kewajiban",
-  "desc": "Hak, kewajiban, dan penerapan praktis oleh perawat.",
+  "short": "Pahami hak secara utuh dan terapkan dalam praktik",
+  "desc": "Menghormati hak pasien, menjelaskan tanggung jawab pasien, dan menerjemahkannya ke tindakan keperawatan sehari-hari.",
   "category": "HPK",
-  "color": "#B64B73",
-  "soft": "#FFF0F6",
+  "color": "#A34D78",
+  "soft": "#FFF0F7",
   "icon": "rights",
-  "minutes": 11,
-  "updated": "3 Agustus 2026",
+  "minutes": 16,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
       "title": "Hak dan Kewajiban Pasien",
-      "caption": "Ringkasan pembelajaran.",
-      "order": 1,
-      "image": "assets/images/main/hpk/hpk-01-hak-kewajiban.webp",
-      "thumbnail": "assets/images/thumb/hpk/hpk-01-hak-kewajiban-thumb.webp",
-      "version": 1
+      "caption": "Hak pasien bukan daftar hafalan. Setiap hak harus tampak dalam komunikasi, privasi, keputusan, keselamatan, akses informasi, dan penanganan keluhan.",
+      "image": "assets/images/v4/hpk-hak-kewajiban/hpk-hak-kewajiban-01.webp",
+      "thumbnail": "assets/images/thumb/v4/hpk-hak-kewajiban/hpk-hak-kewajiban-01.webp"
     },
     {
       "type": "html",
-      "title": "Penerapan oleh perawat",
-      "caption": "Terlihat dalam tindakan harian.",
-      "order": 2,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Informasi",
-            "text": "Bahasa yang dipahami."
+            "title": "Hak melekat pada setiap pasien",
+            "text": "Tidak hilang karena pasien miskin, sulit berkomunikasi, memiliki penyakit tertentu, atau berbeda nilai."
           },
           {
-            "title": "Pelayanan aman",
-            "text": "Tanpa diskriminasi."
+            "title": "Hak perlu disesuaikan kemampuan",
+            "text": "Informasi dan partisipasi diberikan dengan bahasa, media, penerjemah, pendamping, atau metode yang sesuai."
           },
           {
-            "title": "Privasi",
-            "text": "Tubuh, ruang, percakapan, data."
+            "title": "Keluarga tidak otomatis menggantikan pasien",
+            "text": "Selama pasien memiliki kapasitas, preferensi pasien tentang siapa yang menerima informasi harus dihormati."
           },
           {
-            "title": "Persetujuan/penolakan",
-            "text": "Proses dan dokumentasi."
+            "title": "Kewajiban bukan alasan menghukum",
+            "text": "Ketidakpatuhan perlu dipahami penyebabnya dan dikelola; pelayanan emergensi tidak boleh ditunda secara tidak tepat."
           },
           {
-            "title": "Keluhan",
-            "text": "Dengar dan arahkan."
+            "title": "Perawat menerjemahkan hak menjadi perilaku",
+            "text": "Menutup tirai, meminta izin, mendengar, memberi penjelasan, menjaga data, dan menghubungkan keluhan adalah tindakan nyata."
           }
         ],
         "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Saat masuk",
+            "text": "Informasikan hak, kewajiban, cara memperoleh bantuan, dan jalur keluhan dalam bentuk yang dapat dipahami."
+          },
+          {
+            "title": "Saat tindakan",
+            "text": "Jelaskan apa yang akan dilakukan, minta izin, jaga privasi, dan beri kesempatan bertanya."
+          },
+          {
+            "title": "Saat berbagi informasi",
+            "text": "Verifikasi identitas penerima, kewenangan, dan preferensi pasien; gunakan ruang/media aman."
+          },
+          {
+            "title": "Saat pasien menyampaikan keluhan",
+            "text": "Dengarkan, catat inti masalah, tangani yang dapat segera diselesaikan, dan arahkan ke jalur yang tepat."
+          },
+          {
+            "title": "Saat pasien menolak",
+            "text": "Pastikan informasi dan kapasitas, gali alasan, dokumentasikan, dan eskalasi sesuai risiko."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Pasien dengan gangguan komunikasi",
+            "text": "Gunakan alat bantu, penerjemah, komunikasi sederhana, atau pendamping yang tepat; jangan menganggap tidak mampu."
+          },
+          {
+            "title": "Anak atau pasien tidak memiliki kapasitas",
+            "text": "Libatkan wali/pengganti yang sah sambil tetap melibatkan pasien sesuai kemampuan."
+          },
+          {
+            "title": "Permintaan informasi oleh keluarga",
+            "text": "Tanyakan izin pasien bila mampu dan batasi pada informasi yang boleh dibagikan."
+          },
+          {
+            "title": "Nilai pasien berbeda dari tim",
+            "text": "Lakukan komunikasi hormat, cari titik temu, dan libatkan sumber dukungan/etik bila perlu."
+          },
+          {
+            "title": "Keluhan disampaikan dengan emosi tinggi",
+            "text": "Jaga keselamatan, dengarkan tanpa defensif, validasi, dan gunakan jalur resolusi yang jelas."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menghafal “lima hak” sebagai daftar lengkap",
+            "text": "Dapat menghilangkan hak penting lain dan memberi kesan keliru."
+          },
+          {
+            "title": "Membicarakan pasien di tempat umum",
+            "text": "Kerahasiaan dapat bocor walau nama tidak disebut lengkap."
+          },
+          {
+            "title": "Menganggap diam berarti setuju",
+            "text": "Pasien mungkin tidak memahami, takut, atau tidak mampu berkomunikasi."
+          },
+          {
+            "title": "Mengancam pelayanan karena keluhan",
+            "text": "Merusak kepercayaan dan hak pasien."
+          },
+          {
+            "title": "Memberi informasi penuh kepada semua keluarga",
+            "text": "Keluarga tidak otomatis berhak atas seluruh informasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kenali preferensi pasien",
+            "text": "Nama panggilan, bahasa, siapa yang dilibatkan, nilai, dan kebutuhan khusus."
+          },
+          {
+            "title": "Jelaskan dengan bahasa sederhana",
+            "text": "Hindari jargon dan cek pemahaman."
+          },
+          {
+            "title": "Jaga ruang dan data",
+            "text": "Tirai, suara, layar, dokumen, foto, dan percakapan perlu kontrol."
+          },
+          {
+            "title": "Bantu akses keluhan",
+            "text": "Jangan menghalangi atau mengurangi pelayanan karena kritik."
+          },
+          {
+            "title": "Dokumentasikan kebutuhan dan keputusan",
+            "text": "Agar hak tetap dihormati pada pergantian petugas dan unit."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Sepanjang pelayanan",
+      "title": "Hak bukan hafalan",
       "points": [
-        "Sejak masuk hingga pulang/rujuk."
+        "Harus tampak dalam informasi, pilihan, privasi, martabat, keselamatan, dan keluhan."
       ]
     },
     {
-      "title": "Kewajiban",
+      "title": "Pasien tetap pusat",
       "points": [
-        "Informasi jujur, aturan, hormat, administrasi."
+        "Keluarga dilibatkan sesuai izin, kapasitas, dan ketentuan."
+      ]
+    },
+    {
+      "title": "Kewajiban dikelola manusiawi",
+      "points": [
+        "Gali hambatan dan cari solusi; bukan alasan menghukum pasien."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Menjelaskan, meminta izin, menjaga privasi, mendengar, mendokumentasikan, dan mengadvokasi."
       ]
     }
   ],
   "do": [
-    "Jaga privasi.",
-    "Berikan ruang bertanya."
+    "Minta izin sebelum tindakan.",
+    "Gunakan bahasa yang dapat dipahami.",
+    "Verifikasi sebelum berbagi informasi.",
+    "Fasilitasi keluhan tanpa defensif.",
+    "Dokumentasikan kebutuhan dan preferensi penting."
   ],
   "dont": [
-    "Bahas di publik.",
-    "Turunkan mutu karena keluhan."
+    "Menganggap keluarga selalu boleh menerima semua informasi.",
+    "Membahas pasien di area umum.",
+    "Menganggap diam sebagai persetujuan.",
+    "Mengurangi pelayanan karena keluhan.",
+    "Menyederhanakan hak menjadi daftar tidak lengkap."
   ],
   "quiz": [
     {
-      "q": "Privasi diterapkan dengan…",
+      "q": "Pasien sadar dan kompeten meminta diagnosisnya tidak disampaikan kepada saudara. Tindakan adalah…",
       "options": [
-        "Buka tirai",
-        "Tutup tirai/batasi info",
-        "Umumkan diagnosis",
-        "Foto tanpa dasar"
+        "Tetap memberi tahu saudara karena keluarga",
+        "Menghormati preferensi pasien dan membatasi informasi kecuali ada dasar lain yang sah",
+        "Menempelkan diagnosis di pintu",
+        "Meminta saudara memaksa pasien"
       ],
       "answer": 1,
-      "why": "Privasi fisik dan informasi dijaga."
+      "why": "Pasien yang memiliki kapasitas mengendalikan siapa yang menerima informasi pribadinya."
     },
     {
-      "q": "Keluhan pasien…",
+      "q": "Pasien dengan gangguan pendengaran tampak mengangguk saat edukasi. Langkah terbaik adalah…",
       "options": [
-        "Diabaikan",
-        "Didengar dan diarahkan",
-        "Kurangi pelayanan",
-        "Disebar"
+        "Menganggap paham",
+        "Gunakan komunikasi/alat bantu yang sesuai dan cek pemahaman",
+        "Meminta tanda tangan saja",
+        "Hanya bicara kepada keluarga"
       ],
       "answer": 1,
-      "why": "Keluhan menjadi masukan."
+      "why": "Akses informasi harus disesuaikan kebutuhan komunikasi."
+    },
+    {
+      "q": "Pasien mengeluh tentang keterlambatan layanan. Perawat sebaiknya…",
+      "options": [
+        "Mengatakan keluhan akan memperburuk layanan",
+        "Mendengar, menangani hal mendesak, dan mengarahkan ke mekanisme keluhan",
+        "Mengabaikan",
+        "Menyebarkan keluhan ke grup umum"
+      ],
+      "answer": 1,
+      "why": "Keluhan merupakan hak dan sumber perbaikan."
+    },
+    {
+      "q": "Keluarga meminta seluruh hasil pemeriksaan saat pasien masih mampu mengambil keputusan. Perawat harus…",
+      "options": [
+        "Memberikan otomatis",
+        "Memastikan izin/preferensi pasien dan kewenangan penerima",
+        "Menolak semua komunikasi",
+        "Menyerahkan password rekam medis"
+      ],
+      "answer": 1,
+      "why": "Keluarga tidak otomatis menggantikan kontrol pasien atas informasi."
+    },
+    {
+      "q": "Saat mengganti balutan di ruang bersama, tindakan menjaga hak pasien adalah…",
+      "options": [
+        "Membuka tirai agar mudah diamati",
+        "Menjelaskan, meminta izin, menutup tirai, dan membatasi paparan",
+        "Meminta pasien diam",
+        "Merekam tindakan untuk bukti"
+      ],
+      "answer": 1,
+      "why": "Privasi fisik dan martabat harus dijaga."
+    },
+    {
+      "q": "Pernyataan paling tepat tentang kewajiban pasien adalah…",
+      "options": [
+        "Dapat digunakan untuk menolak pertolongan emergensi",
+        "Dijelaskan secara wajar dan hambatan dipahami; bukan alat menghukum",
+        "Tidak perlu diinformasikan",
+        "Selalu lebih penting dari hak"
+      ],
+      "answer": 1,
+      "why": "Hak dan kewajiban dikelola secara proporsional dan manusiawi."
+    },
+    {
+      "q": "Pasien diam setelah penjelasan tindakan. Apakah itu cukup sebagai persetujuan?",
+      "options": [
+        "Ya selalu",
+        "Tidak; pastikan informasi dipahami dan keputusan diberikan sesuai jenis tindakan serta ketentuan",
+        "Ya bila keluarga hadir",
+        "Hanya jika petugas sibuk"
+      ],
+      "answer": 1,
+      "why": "Diam tidak selalu menunjukkan pemahaman atau keputusan sukarela."
+    },
+    {
+      "q": "Mengapa daftar ringkas hak perlu diberi keterangan “ringkasan”?",
+      "options": [
+        "Agar poster lebih panjang",
+        "Agar tidak dianggap sebagai seluruh hak resmi dan pengguna mencari penjelasan lengkap",
+        "Karena hak tidak penting",
+        "Hanya untuk desain"
+      ],
+      "answer": 1,
+      "why": "Ringkasan visual tidak boleh menyesatkan sebagai daftar lengkap."
     }
   ],
   "references": [
@@ -108,9 +318,14 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Permenkes Nomor 6 Tahun 2026 — Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/peraturan-menteri-kesehatan-nomor-6-tahun-2026"
     }
   ]
 }

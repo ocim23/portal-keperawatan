@@ -3,107 +3,312 @@
   "group": "skp",
   "title": "SKP 2 — Komunikasi Efektif",
   "short": "SKP 2",
-  "desc": "Komunikasi kritis, instruksi verbal, serah terima, dan dokumentasi yang aman.",
+  "desc": "Komunikasi hasil kritis, instruksi verbal/telepon, serah terima, dan closed-loop.",
   "category": "SKP",
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 14,
-  "updated": "3 Agustus 2026",
+  "minutes": 22,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
       "title": "SKP 2 — Komunikasi Efektif",
-      "caption": "Informasi harus akurat, lengkap, tepat waktu, dan tepat sasaran.",
-      "order": 1,
-      "image": "assets/images/main/skp/skp-02-komunikasi-efektif.webp",
-      "thumbnail": "assets/images/thumb/skp/skp-02-komunikasi-efektif-thumb.webp",
-      "version": 1
-    },
-    {
-      "type": "image",
-      "title": "Komunikasi Efektif di Rumah Sakit",
-      "caption": "SBAR, TBaK, teach-back, identifikasi, dan dokumentasi.",
-      "order": 2,
-      "image": "assets/images/main/ke/ke-01-komunikasi-efektif.webp",
-      "thumbnail": "assets/images/thumb/ke/ke-01-komunikasi-efektif-thumb.webp",
-      "version": 1
+      "caption": "Pesan keselamatan belum selesai sampai penerima memahami, mengonfirmasi, dan menindaklanjutinya.",
+      "image": "assets/images/v4/skp-2-komunikasi/skp-2-komunikasi-01.webp",
+      "thumbnail": "assets/images/thumb/v4/skp-2-komunikasi/skp-2-komunikasi-01.webp"
     },
     {
       "type": "html",
-      "title": "Situasi prioritas",
-      "caption": "Gunakan struktur sesuai konteks.",
-      "order": 3,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Hasil kritis",
-            "text": "Laporkan segera dan dokumentasikan."
+            "title": "Komunikasi efektif",
+            "text": "Informasi lengkap, akurat, tepat waktu, tidak ambigu, dipahami penerima, dan menghasilkan tindak lanjut yang sesuai."
           },
           {
-            "title": "Instruksi verbal/telepon",
-            "text": "Tulis, baca kembali, konfirmasi."
+            "title": "SBAR",
+            "text": "Kerangka untuk menyampaikan masalah secara singkat: Situation, Background, Assessment, Recommendation."
           },
           {
-            "title": "Serah terima",
-            "text": "Sampaikan kondisi, risiko, rencana, dan tindak lanjut."
+            "title": "TBaK",
+            "text": "Tulis–Baca kembali–Konfirmasi; terutama untuk instruksi verbal/telepon atau informasi penting yang berisiko salah dengar."
           },
           {
-            "title": "Eskalasi klinis",
-            "text": "Gunakan SBAR."
+            "title": "Closed-loop communication",
+            "text": "Siklus komunikasi yang memastikan perintah diterima dan dilaksanakan, sangat penting saat emergensi."
+          },
+          {
+            "title": "Handover",
+            "text": "Pemindahan tanggung jawab dan informasi antarpetugas, shift, unit, atau fasilitas."
           }
         ],
         "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Sebelum menghubungi",
+            "text": "Kumpulkan identitas pasien, masalah utama, tanda vital, hasil relevan, terapi berjalan, dan rekomendasi yang dibutuhkan."
+          },
+          {
+            "title": "Sampaikan dengan SBAR",
+            "text": "Mulai dari kondisi terkini, berikan konteks seperlunya, jelaskan penilaian, lalu sebutkan permintaan atau rekomendasi yang jelas."
+          },
+          {
+            "title": "Lakukan TBaK",
+            "text": "Tulis instruksi, bacakan kembali nama obat/dosis/rute/waktu atau hasil penting, lalu tunggu konfirmasi."
+          },
+          {
+            "title": "Dokumentasikan",
+            "text": "Catat siapa pemberi dan penerima informasi, waktu, isi penting, konfirmasi, serta tindakan."
+          },
+          {
+            "title": "Pantau respons",
+            "text": "Pastikan rekomendasi atau instruksi benar-benar dilakukan dan kondisi pasien dievaluasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Sambungan telepon tidak jelas",
+            "text": "Jangan menebak; minta pengulangan, eja nama obat, sebut angka satu per satu, atau gunakan saluran lain."
+          },
+          {
+            "title": "Pemberi instruksi sulit dihubungi",
+            "text": "Gunakan jalur eskalasi yang berlaku dan tetap fokus pada keselamatan pasien."
+          },
+          {
+            "title": "Pasien memburuk cepat",
+            "text": "Sampaikan kondisi terlebih dahulu, aktifkan bantuan sesuai kebutuhan, dan gunakan closed-loop untuk pembagian tugas."
+          },
+          {
+            "title": "Hasil kritis belum ditindaklanjuti",
+            "text": "Eskalasi kepada pihak yang berwenang dan dokumentasikan upaya komunikasi."
+          },
+          {
+            "title": "Transfer antarunit",
+            "text": "Pastikan alat, obat, risiko, hasil pending, dan tanggung jawab pemantauan jelas sebelum perpindahan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "“Baik, Dok” tanpa read-back",
+            "text": "Penerima belum membuktikan bahwa instruksi didengar dengan benar."
+          },
+          {
+            "title": "SBAR terlalu panjang",
+            "text": "Informasi penting tenggelam dalam riwayat yang tidak relevan."
+          },
+          {
+            "title": "Rekomendasi tidak jelas",
+            "text": "Penerima tidak tahu keputusan atau bantuan apa yang dibutuhkan."
+          },
+          {
+            "title": "Serah terima hanya membaca catatan",
+            "text": "Tidak ada diskusi, klarifikasi, atau validasi kondisi pasien terkini."
+          },
+          {
+            "title": "Tidak menutup loop",
+            "text": "Tugas diberikan tetapi pengirim tidak tahu apakah sudah dilaksanakan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Gunakan bahasa terukur",
+            "text": "Sebutkan angka, tren, waktu, dan perubahan, bukan hanya “pasien kurang baik”."
+          },
+          {
+            "title": "Berani meminta klarifikasi",
+            "text": "Keselamatan lebih penting daripada takut dianggap tidak mendengar."
+          },
+          {
+            "title": "Konfirmasi identitas",
+            "text": "Setiap komunikasi klinis harus terhubung dengan pasien yang benar."
+          },
+          {
+            "title": "Jaga kerahasiaan",
+            "text": "Sampaikan informasi hanya kepada pihak yang berwenang dan di lingkungan yang sesuai."
+          },
+          {
+            "title": "Buat handover dapat ditindaklanjuti",
+            "text": "Akhiri dengan prioritas berikutnya, parameter pemantauan, dan siapa yang bertanggung jawab."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Closed-loop communication",
+      "title": "Pesan keselamatan",
       "points": [
-        "Penerima mengulang dan pengirim memastikan informasi benar."
+        "Lengkap, akurat, tepat waktu, tidak ambigu, dan dikonfirmasi."
       ]
     },
     {
-      "title": "Dokumentasi",
+      "title": "SBAR",
       "points": [
-        "Catat waktu, pihak, isi penting, dan respons."
+        "Situation: masalah sekarang. Background: konteks relevan. Assessment: penilaian. Recommendation: kebutuhan/tindakan."
+      ]
+    },
+    {
+      "title": "TBaK",
+      "points": [
+        "Tulis, baca kembali, dan minta konfirmasi. Jangan menebak informasi yang tidak jelas."
+      ]
+    },
+    {
+      "title": "Serah terima",
+      "points": [
+        "Sertakan kondisi, risiko, terapi, alat, hasil pending, dan rencana. Berikan kesempatan bertanya."
       ]
     }
   ],
   "do": [
-    "Gunakan SBAR untuk eskalasi.",
-    "Gunakan TBaK untuk instruksi verbal."
+    "Siapkan data sebelum menghubungi.",
+    "Gunakan SBAR untuk pesan klinis penting.",
+    "Lakukan TBaK pada instruksi verbal/telepon.",
+    "Dokumentasikan waktu, isi, penerima, dan tindak lanjut.",
+    "Tutup loop dengan memastikan tugas selesai."
   ],
   "dont": [
-    "Singkatan tidak baku.",
-    "Menganggap pesan terkirim berarti dipahami."
+    "Menebak pesan yang tidak jelas.",
+    "Menggunakan singkatan tidak baku.",
+    "Memberi handover tanpa kesempatan bertanya.",
+    "Mengabaikan hasil kritis karena penerima sulit dihubungi.",
+    "Menyampaikan informasi pasien kepada pihak yang tidak berwenang."
   ],
   "quiz": [
     {
-      "q": "TBaK berarti…",
+      "q": "Instruksi telepon terdengar “insulin enam unit”, tetapi perawat ragu enam atau enam belas. Tindakan terbaik adalah…",
       "options": [
-        "Tulis, Baca kembali, Konfirmasi",
-        "Tanya, Baca, Komunikasi",
-        "Tulis, Beri, Koreksi",
-        "Terima, Baca, Kerjakan"
-      ],
-      "answer": 0,
-      "why": "TBaK adalah Tulis, Baca kembali, Konfirmasi."
-    },
-    {
-      "q": "R pada SBAR berisi…",
-      "options": [
-        "Riwayat",
-        "Rekomendasi/tindakan yang diharapkan",
-        "Risiko jatuh",
-        "Rekam medis"
+        "Memilih dosis yang lebih kecil",
+        "Meminta pengulangan dan melakukan TBaK sampai jelas",
+        "Menunda tanpa memberi tahu siapa pun",
+        "Menanyakan kepada pasien"
       ],
       "answer": 1,
-      "why": "R adalah Recommendation."
+      "why": "Informasi yang tidak jelas tidak boleh ditebak; read-back dan konfirmasi mencegah salah dosis."
+    },
+    {
+      "q": "Dalam SBAR, kalimat “Saya khawatir pasien mengalami perburukan dan meminta evaluasi segera” termasuk…",
+      "options": [
+        "Situation",
+        "Background",
+        "Assessment saja",
+        "Recommendation"
+      ],
+      "answer": 3,
+      "why": "Kalimat tersebut menyatakan kebutuhan/tindakan yang diminta."
+    },
+    {
+      "q": "Hasil laboratorium kritis telah disampaikan, tetapi tidak ada respons. Langkah berikutnya adalah…",
+      "options": [
+        "Mengarsipkan karena tugas sudah selesai",
+        "Menggunakan jalur eskalasi dan mendokumentasikan upaya",
+        "Menunggu shift berikutnya",
+        "Memberi tahu keluarga saja"
+      ],
+      "answer": 1,
+      "why": "Komunikasi hasil kritis harus menghasilkan respons tepat waktu; bila tidak, lakukan eskalasi."
+    },
+    {
+      "q": "Closed-loop communication saat code blue ditunjukkan oleh…",
+      "options": [
+        "Pemimpin berkata “siapkan adrenalin” tanpa menunjuk orang",
+        "Perawat mengulang tugas dan melaporkan setelah selesai",
+        "Semua petugas berbicara bersamaan",
+        "Tugas ditulis setelah kejadian"
+      ],
+      "answer": 1,
+      "why": "Pengulangan dan laporan selesai menutup loop komunikasi."
+    },
+    {
+      "q": "Serah terima paling aman mencakup…",
+      "options": [
+        "Diagnosis saja",
+        "Daftar obat saja",
+        "Kondisi terkini, risiko, terapi, alat, hasil pending, dan rencana",
+        "Riwayat lama tanpa prioritas"
+      ],
+      "answer": 2,
+      "why": "Handover harus mendukung kesinambungan dan tindakan berikutnya."
+    },
+    {
+      "q": "Pernyataan paling tepat tentang TBaK adalah…",
+      "options": [
+        "Hanya mengulang pesan dari ingatan",
+        "Menulis, membaca kembali, dan mendapatkan konfirmasi",
+        "Digunakan hanya untuk hasil radiologi",
+        "Tidak perlu didokumentasikan"
+      ],
+      "answer": 1,
+      "why": "TBaK memastikan instruksi penting didengar dan dicatat dengan benar."
+    },
+    {
+      "q": "Komunikasi “Pasien kurang baik, mohon datang” kurang efektif karena…",
+      "options": [
+        "Terlalu sopan",
+        "Tidak mencantumkan data objektif dan kebutuhan yang jelas",
+        "Menggunakan bahasa Indonesia",
+        "Tidak menyebut keluarga"
+      ],
+      "answer": 1,
+      "why": "Pesan klinis perlu data terukur dan rekomendasi yang spesifik."
+    },
+    {
+      "q": "Saat transfer pasien dengan infus vasoaktif, informasi paling penting adalah…",
+      "options": [
+        "Nama petugas sebelumnya saja",
+        "Konsentrasi, laju, akses, target, respons, dan risiko",
+        "Warna seragam petugas",
+        "Jumlah keluarga yang menunggu"
+      ],
+      "answer": 1,
+      "why": "Terapi berisiko tinggi harus diserahterimakan secara lengkap agar tidak terputus atau salah titrasi."
     }
   ],
   "references": [
@@ -113,9 +318,9 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
   ]
 }

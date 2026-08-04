@@ -3,68 +3,177 @@
   "group": "skp",
   "title": "SKP 4 — Benar Pasien, Prosedur, dan Sisi/Lokasi",
   "short": "SKP 4",
-  "desc": "Verifikasi pra-tindakan, penandaan lokasi, time-out, dan komunikasi tim.",
+  "desc": "Verifikasi pra-prosedur, penandaan sisi/lokasi, dan time-out sebagai tiga pengaman berbeda.",
   "category": "SKP",
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 14,
-  "updated": "3 Agustus 2026",
+  "minutes": 20,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
-      "title": "SKP 4 — Benar Pasien, Prosedur, dan Lokasi",
-      "caption": "Cegah salah pasien, prosedur, dan sisi.",
-      "order": 1,
-      "image": "assets/images/main/skp/skp-04-tepat-pasien-prosedur-lokasi.webp",
-      "thumbnail": "assets/images/thumb/skp/skp-04-tepat-pasien-prosedur-lokasi-thumb.webp",
-      "version": 1
+      "title": "SKP 4 — Benar Pasien, Prosedur, dan Sisi/Lokasi",
+      "caption": "Tidak ada tindakan dimulai sebelum tim sepakat tentang pasien, prosedur, lokasi, kesiapan, dan rencana keselamatan.",
+      "image": "assets/images/v4/skp-4-tindakan/skp-4-tindakan-01.webp",
+      "thumbnail": "assets/images/thumb/v4/skp-4-tindakan/skp-4-tindakan-01.webp"
     },
     {
       "type": "html",
-      "title": "Tiga pengaman",
-      "caption": "Dilakukan sesuai tindakan dan kebijakan.",
-      "order": 2,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
-        "style": "flow",
+        "style": "cards",
         "items": [
           {
-            "title": "Verifikasi pra-tindakan",
-            "text": "Identitas, prosedur, dokumen, persetujuan, alat, lokasi."
+            "title": "Pre-procedure verification",
+            "text": "Proses memastikan semua informasi dan sumber daya sesuai sebelum prosedur."
           },
           {
-            "title": "Penandaan lokasi",
-            "text": "Libatkan pasien bila memungkinkan."
+            "title": "Site marking",
+            "text": "Penandaan pada lokasi tindakan untuk mengurangi risiko salah sisi atau salah tingkat."
           },
           {
             "title": "Time-out",
-            "text": "Tim berhenti untuk konfirmasi akhir."
+            "text": "Konfirmasi verbal terstruktur oleh seluruh tim segera sebelum insisi atau dimulainya prosedur."
+          },
+          {
+            "title": "Sign-out",
+            "text": "Ringkasan setelah prosedur yang dapat mencakup hasil, spesimen, alat, rencana, dan masalah keselamatan."
+          },
+          {
+            "title": "Stop-the-line",
+            "text": "Setiap anggota tim dapat menghentikan proses bila menemukan ketidaksesuaian."
           }
         ],
-        "columns": 3,
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Sebelum pasien masuk",
+            "text": "Verifikasi identitas, prosedur, lokasi, persetujuan, pemeriksaan penunjang, alergi, persiapan, dan kebutuhan khusus."
+          },
+          {
+            "title": "Saat menandai",
+            "text": "Gunakan tanda yang tidak ambigu pada lokasi yang benar dan tetap terlihat setelah persiapan kulit bila memungkinkan."
+          },
+          {
+            "title": "Saat time-out",
+            "text": "Semua berhenti; satu orang memimpin konfirmasi pasien, prosedur, lokasi, posisi, alergi, antibiotik, implant, pencitraan, dan risiko khusus sesuai jenis tindakan."
+          },
+          {
+            "title": "Jika ada perbedaan",
+            "text": "Jangan memilih berdasarkan mayoritas; cari sumber yang benar sampai ketidaksesuaian selesai."
+          },
+          {
+            "title": "Setelah tindakan",
+            "text": "Pastikan spesimen, hitungan, alat, hasil, rencana pemantauan, dan handover jelas."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Pasien tidak mampu berpartisipasi",
+            "text": "Gunakan dokumentasi, penandaan, keluarga bila relevan, dan konfirmasi tim; pasien tetap diverifikasi dengan sumber resmi."
+          },
+          {
+            "title": "Prosedur emergensi",
+            "text": "Pengaman dipercepat tetapi tidak dihilangkan; konfirmasi minimum tetap dilakukan sesuai situasi."
+          },
+          {
+            "title": "Tindakan tanpa laterality",
+            "text": "Fokus pada benar pasien, prosedur, kesiapan, dan lokasi anatomis yang relevan."
+          },
+          {
+            "title": "Banyak prosedur dalam satu sesi",
+            "text": "Setiap prosedur dan lokasi harus disebutkan dengan jelas agar tidak ada yang terlewat."
+          },
+          {
+            "title": "Spesimen",
+            "text": "Label spesimen harus cocok dengan pasien, jenis jaringan/cairan, dan lokasi asal bila penting."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Time-out sambil tetap bekerja",
+            "text": "Tim tidak benar-benar berhenti sehingga informasi penting tidak didengar."
+          },
+          {
+            "title": "Penandaan oleh orang yang tidak memahami prosedur",
+            "text": "Tanda dapat berada di sisi atau lokasi yang salah."
+          },
+          {
+            "title": "Mengandalkan jadwal operasi",
+            "text": "Jadwal dapat salah atau berubah; perlu pencocokan beberapa sumber."
+          },
+          {
+            "title": "Ketidaksesuaian “kecil” diabaikan",
+            "text": "Perbedaan singkatan, sisi, implant, atau hasil dapat mengubah keselamatan tindakan."
+          },
+          {
+            "title": "Tidak memberi ruang bicara",
+            "text": "Anggota tim junior mungkin melihat risiko tetapi takut menghentikan proses."
+          }
+        ],
+        "columns": 2,
         "note": ""
       }
     },
     {
       "type": "html",
       "title": "Peran perawat",
-      "caption": "Hentikan proses bila ada ketidaksesuaian.",
-      "order": 3,
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
       "template": {
         "style": "checklist",
         "items": [
           {
-            "title": "Cocokkan data",
-            "text": "Gelang, dokumen, jadwal, penandaan."
+            "title": "Verifikasi aktif",
+            "text": "Jangan hanya melihat satu formulir; cocokkan informasi dari pasien, rekam medis, penandaan, dan tim."
           },
           {
-            "title": "Suarakan keraguan",
-            "text": "Klarifikasi sebelum tindakan."
+            "title": "Berpartisipasi dalam time-out",
+            "text": "Perawat memastikan semua anggota tim berhenti dan konfirmasi terdengar."
           },
           {
-            "title": "Dokumentasikan",
-            "text": "Catat verifikasi sesuai formulir."
+            "title": "Jaga kesiapan",
+            "text": "Pastikan alat, implant, obat, darah, hasil penunjang, dan kebutuhan pemantauan tersedia."
+          },
+          {
+            "title": "Kelola spesimen",
+            "text": "Pastikan label, jenis, lokasi, dan jumlah spesimen benar sebelum dikirim."
+          },
+          {
+            "title": "Lakukan handover pascatindakan",
+            "text": "Sampaikan kondisi, komplikasi, alat, balutan, drain, obat, dan rencana observasi."
           }
         ],
         "columns": 1,
@@ -74,48 +183,132 @@
   ],
   "summarySections": [
     {
-      "title": "Time-out aktif",
+      "title": "Tiga pengaman berbeda",
       "points": [
-        "Semua anggota tim terlibat."
+        "Verifikasi pra-prosedur, penandaan lokasi, dan time-out tidak saling menggantikan."
       ]
     },
     {
-      "title": "Ketidaksesuaian",
+      "title": "Time-out yang aktif",
       "points": [
-        "Harus diselesaikan sebelum tindakan."
+        "Tim berhenti, mendengar, dan menyatakan persetujuan; bukan formalitas."
+      ]
+    },
+    {
+      "title": "Hak menghentikan proses",
+      "points": [
+        "Setiap anggota tim dapat menyuarakan keraguan dan proses berhenti sampai aman."
+      ]
+    },
+    {
+      "title": "Kesinambungan",
+      "points": [
+        "Keselamatan berlanjut sampai sign-out, pengelolaan spesimen, dan handover pascatindakan."
       ]
     }
   ],
   "do": [
-    "Aktif dalam time-out.",
-    "Hentikan proses bila data tidak sesuai."
+    "Cocokkan beberapa sumber sebelum prosedur.",
+    "Pastikan site marking jelas bila diperlukan.",
+    "Hentikan aktivitas saat time-out.",
+    "Suarakan setiap ketidaksesuaian.",
+    "Lakukan sign-out dan handover lengkap."
   ],
   "dont": [
-    "Time-out setelah tindakan dimulai.",
-    "Menganggap penandaan mengganti identifikasi."
+    "Menganggap time-out sebagai formalitas.",
+    "Mengandalkan jadwal atau ingatan.",
+    "Melanjutkan ketika dokumen tidak cocok.",
+    "Membiarkan anggota tim tidak ikut konfirmasi.",
+    "Mengirim spesimen tanpa verifikasi lengkap."
   ],
   "quiz": [
     {
-      "q": "Time-out dilakukan…",
+      "q": "Saat time-out, satu anggota tim masih menyiapkan alat dan tidak memperhatikan. Tindakan terbaik adalah…",
       "options": [
-        "Setelah selesai",
-        "Segera sebelum tindakan",
-        "Saat pulang",
-        "Hanya saat masalah"
+        "Melanjutkan agar tidak terlambat",
+        "Mengulangi time-out setelah semua anggota berhenti dan fokus",
+        "Meminta orang tersebut membaca catatan nanti",
+        "Menghapus namanya dari tim"
       ],
       "answer": 1,
-      "why": "Time-out dilakukan segera sebelum tindakan."
+      "why": "Time-out harus melibatkan seluruh tim yang berperan dalam tindakan."
     },
     {
-      "q": "Jika sisi tindakan tidak sesuai…",
+      "q": "Formulir persetujuan menyebut sisi kiri, tetapi penandaan berada di kanan. Tim harus…",
       "options": [
-        "Lanjutkan",
-        "Hentikan dan klarifikasi",
-        "Ikuti penandaan saja",
-        "Hapus dokumen"
+        "Mengikuti penandaan",
+        "Mengikuti persetujuan",
+        "Menghentikan proses dan menyelesaikan ketidaksesuaian",
+        "Memilih sisi berdasarkan keluhan pasien saat itu"
+      ],
+      "answer": 2,
+      "why": "Sumber yang berbeda harus direkonsiliasi sebelum tindakan."
+    },
+    {
+      "q": "Tujuan utama site marking adalah…",
+      "options": [
+        "Menggantikan identifikasi pasien",
+        "Membantu memastikan lokasi/sisi tindakan yang benar",
+        "Menunjukkan dokter yang bertanggung jawab",
+        "Menentukan jenis anestesi"
       ],
       "answer": 1,
-      "why": "Ketidaksesuaian harus diselesaikan."
+      "why": "Penandaan merupakan pengaman terhadap salah sisi/lokasi."
+    },
+    {
+      "q": "Verifikasi pra-prosedur berbeda dari time-out karena…",
+      "options": [
+        "Dilakukan hanya setelah prosedur",
+        "Mencakup kesiapan dokumen dan sumber daya sebelum tindakan, sedangkan time-out adalah konfirmasi akhir tim",
+        "Tidak memerlukan identifikasi",
+        "Hanya dilakukan oleh perawat"
+      ],
+      "answer": 1,
+      "why": "Keduanya memiliki waktu dan fungsi yang berbeda."
+    },
+    {
+      "q": "Dalam keadaan emergensi, prinsip paling tepat adalah…",
+      "options": [
+        "Semua pengaman boleh dihilangkan",
+        "Lakukan pengaman minimum yang memungkinkan tanpa menunda penyelamatan secara tidak perlu",
+        "Tunggu seluruh dokumen lengkap walaupun pasien memburuk",
+        "Biarkan satu orang memutuskan tanpa konfirmasi"
+      ],
+      "answer": 1,
+      "why": "Proses dapat dipercepat tetapi keselamatan dasar tetap dijaga."
+    },
+    {
+      "q": "Perawat menemukan implant yang tersedia tidak sesuai ukuran yang direncanakan. Tindakan adalah…",
+      "options": [
+        "Diam karena operator akan tahu",
+        "Menyampaikan dan menahan proses terkait sampai rencana diklarifikasi",
+        "Membuka semua implant",
+        "Mengganti ukuran dalam catatan"
+      ],
+      "answer": 1,
+      "why": "Kesiapan implant merupakan bagian verifikasi pra-prosedur."
+    },
+    {
+      "q": "Sign-out membantu keselamatan dengan cara…",
+      "options": [
+        "Mengulang seluruh riwayat pasien",
+        "Mengonfirmasi hasil, spesimen, alat, masalah, dan rencana pascatindakan",
+        "Menggantikan dokumentasi",
+        "Menentukan biaya tindakan"
+      ],
+      "answer": 1,
+      "why": "Sign-out menutup proses dan mendukung kesinambungan perawatan."
+    },
+    {
+      "q": "Siapa yang dapat menyuarakan penghentian proses bila ada ketidaksesuaian?",
+      "options": [
+        "Hanya dokter operator",
+        "Hanya kepala ruangan",
+        "Setiap anggota tim",
+        "Hanya pasien"
+      ],
+      "answer": 2,
+      "why": "Budaya keselamatan memberi ruang bagi semua anggota tim untuk menghentikan proses yang tidak aman."
     }
   ],
   "references": [
@@ -125,9 +318,9 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
   ]
 }

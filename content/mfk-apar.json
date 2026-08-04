@@ -2,135 +2,320 @@
   "id": "mfk-apar",
   "group": "mfk",
   "title": "APAR dan Respons Awal Kebakaran",
-  "short": "APAR",
-  "desc": "Kondisi aman, langkah penggunaan, jalur keluar, dan batas tindakan.",
+  "short": "Nilai aman, aktifkan alarm, gunakan PASS bila terlatih",
+  "desc": "Mengenali batas penggunaan APAR pada api tahap awal sambil menjaga jalur keluar dan memprioritaskan keselamatan.",
   "category": "MFK",
-  "color": "#E47A13",
-  "soft": "#FFF3E6",
+  "color": "#B75A24",
+  "soft": "#FFF1E8",
   "icon": "fire",
-  "minutes": 18,
-  "updated": "3 Agustus 2026",
+  "minutes": 13,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
-      "title": "1. Pengecekan Awal",
-      "caption": "Jenis, tekanan, segel, akses.",
-      "order": 1,
-      "image": "assets/images/main/apar/apar-01-pengecekan-awal.webp",
-      "thumbnail": "assets/images/thumb/apar/apar-01-pengecekan-awal-thumb.webp",
-      "version": 1
+      "title": "APAR dan Respons Awal Kebakaran",
+      "caption": "APAR hanya digunakan bila api masih kecil, alat sesuai, petugas terlatih, dan jalur keluar tetap aman. Bila ragu: alarm dan evakuasi.",
+      "image": "assets/images/v4/mfk-apar/mfk-apar-01.webp",
+      "thumbnail": "assets/images/thumb/v4/mfk-apar/mfk-apar-01.webp"
     },
     {
       "type": "image",
-      "title": "2. Pin dan Kesiapan",
-      "caption": "Tarik pin dan uji kesiapan.",
-      "order": 2,
-      "image": "assets/images/main/apar/apar-02-pin-uji-kesiapan.webp",
-      "thumbnail": "assets/images/thumb/apar/apar-02-pin-uji-kesiapan-thumb.webp",
-      "version": 1
-    },
-    {
-      "type": "image",
-      "title": "3. Posisi Aman",
-      "caption": "Jalur keluar di belakang.",
-      "order": 3,
-      "image": "assets/images/main/apar/apar-03-posisi-jarak-aman.webp",
-      "thumbnail": "assets/images/thumb/apar/apar-03-posisi-jarak-aman-thumb.webp",
-      "version": 1
-    },
-    {
-      "type": "image",
-      "title": "4. Menyemprot",
-      "caption": "Arahkan ke pangkal api.",
-      "order": 4,
-      "image": "assets/images/main/apar/apar-04-teknik-menyemprot.webp",
-      "thumbnail": "assets/images/thumb/apar/apar-04-teknik-menyemprot-thumb.webp",
-      "version": 1
-    },
-    {
-      "type": "image",
-      "title": "5. Mundur Waspada",
-      "caption": "Pantau api menyala kembali.",
-      "order": 5,
-      "image": "assets/images/main/apar/apar-05-mundur-waspada.webp",
-      "thumbnail": "assets/images/thumb/apar/apar-05-mundur-waspada-thumb.webp",
-      "version": 1
+      "title": "PASS: Cara Dasar Menggunakan APAR",
+      "caption": "Gunakan hanya bila aman, sesuai kelas, dan Anda terlatih.",
+      "image": "assets/images/v4/mfk-apar/mfk-apar-02.webp",
+      "thumbnail": "assets/images/thumb/v4/mfk-apar/mfk-apar-02.webp"
     },
     {
       "type": "html",
-      "title": "Kapan tidak menggunakan APAR?",
-      "caption": "Keselamatan/evakuasi utama.",
-      "order": 6,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Api membesar",
-            "text": "Alarm dan evakuasi."
+            "title": "APAR untuk api tahap awal",
+            "text": "Bukan untuk kebakaran yang cepat membesar, memenuhi ruangan dengan asap, atau menghalangi jalur keluar."
           },
           {
-            "title": "Asap pekat",
-            "text": "Jangan bertahan."
+            "title": "Keselamatan lebih utama daripada memadamkan",
+            "text": "Alarm, penyelamatan orang terancam, dan evakuasi tidak boleh terlambat karena mencoba APAR."
           },
           {
-            "title": "Jalur keluar terancam",
-            "text": "Mundur."
+            "title": "Jenis media berbeda",
+            "text": "Air, foam, dry chemical, CO₂, dan media khusus memiliki kegunaan/larangan; ikuti label dan pelatihan."
           },
           {
-            "title": "Jenis tidak sesuai",
-            "text": "Jangan coba."
+            "title": "PASS adalah inti universal",
+            "text": "Pull, Aim at base, Squeeze, Sweep; detail jarak awal mengikuti petunjuk alat dan situasi."
+          },
+          {
+            "title": "Oksigen meningkatkan bahaya",
+            "text": "Sumber oksigen dan bahan mudah terbakar memerlukan kewaspadaan khusus serta koordinasi fasilitas."
           }
         ],
         "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Sebelum mendekat",
+            "text": "Aktifkan alarm/bantuan, nilai ukuran api/asap, pastikan orang terancam ditolong, pilih APAR, dan lihat jalur keluar."
+          },
+          {
+            "title": "Posisi",
+            "text": "Dekati hanya bila aman dengan pintu/jalur keluar di belakang atau samping yang dapat digunakan."
+          },
+          {
+            "title": "PASS",
+            "text": "Tarik pin → arahkan nozzle ke pangkal api → tekan tuas → sapu mendatar pada pangkal."
+          },
+          {
+            "title": "Pantau",
+            "text": "Perhatikan penyalaan kembali dan jangan membelakangi area berbahaya."
+          },
+          {
+            "title": "Berhenti",
+            "text": "Jika satu APAR tidak mengendalikan api, panas/asap meningkat, atau jalur terancam: mundur, tutup area bila aman, dan evakuasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Api melibatkan listrik",
+            "text": "Jangan gunakan media yang berbahaya pada listrik; putus sumber hanya bila aman dan gunakan alat sesuai kelas."
+          },
+          {
+            "title": "Api pada pasien/linen",
+            "text": "Prioritaskan keselamatan pasien dan gunakan metode pemadaman/evakuasi yang dilatih; jangan melakukan tindakan yang memperburuk cedera."
+          },
+          {
+            "title": "Ruangan penuh asap",
+            "text": "Jangan masuk tanpa perlindungan dan tim khusus; asap dapat mematikan sebelum api terlihat besar."
+          },
+          {
+            "title": "APAR tidak bertekanan/segel rusak",
+            "text": "Jangan mengandalkan alat; laporkan, ganti, dan gunakan alternatif aman."
+          },
+          {
+            "title": "Petugas tidak terlatih atau ragu",
+            "text": "Aktifkan sistem, tutup pintu bila aman, dan evakuasi—tidak wajib mencoba memadamkan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mencari “test spray” sebagai langkah wajib universal",
+            "text": "Petunjuk berbeda antaralat; fokus pada inspeksi, label, pelatihan, dan PASS."
+          },
+          {
+            "title": "Berdiri tanpa jalur mundur",
+            "text": "Api dapat memotong jalan keluar."
+          },
+          {
+            "title": "Mengarah ke puncak api",
+            "text": "Media perlu diarahkan ke pangkal/sumber pembakaran."
+          },
+          {
+            "title": "Terus mencoba saat situasi memburuk",
+            "text": "Menunda evakuasi dan meningkatkan risiko terjebak."
+          },
+          {
+            "title": "Menggunakan APAR yang tidak sesuai",
+            "text": "Dapat menyebarkan bahan bakar atau menimbulkan sengatan/bahaya lain."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kenali lokasi dan jenis APAR",
+            "text": "Tidak cukup tahu ada APAR; pahami akses, label, dan inspeksinya."
+          },
+          {
+            "title": "Jaga koridor dan pintu",
+            "text": "Peralatan tidak boleh menghalangi akses APAR atau evakuasi."
+          },
+          {
+            "title": "Pahami peran unit",
+            "text": "Siapa mengaktifkan alarm, memindahkan pasien, membawa informasi, dan berkomunikasi."
+          },
+          {
+            "title": "Ikut simulasi",
+            "text": "Keterampilan fisik dan keputusan berhenti perlu dilatih."
+          },
+          {
+            "title": "Laporkan alat bermasalah",
+            "text": "Segel, tekanan, selang, korosi, label, atau akses yang tidak baik harus diperbaiki."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Tahap awal",
+      "title": "Sebelum PASS",
       "points": [
-        "APAR bila aman dan terlatih."
+        "Alarm/bantuan, nilai api dan asap, pilih alat, pastikan jalur keluar."
       ]
     },
     {
-      "title": "Alarm",
+      "title": "PASS",
       "points": [
-        "Jangan terlambat aktivasi bantuan."
+        "Pull pin → Aim at base → Squeeze → Sweep."
+      ]
+    },
+    {
+      "title": "Batas aman",
+      "points": [
+        "Hanya api tahap awal dan petugas terlatih."
+      ]
+    },
+    {
+      "title": "Berhenti dan evakuasi",
+      "points": [
+        "Jika api tidak terkendali, asap/panas meningkat, atau jalur terancam."
       ]
     }
   ],
   "do": [
-    "Ketahui lokasi/jalur.",
-    "Periksa kesiapan."
+    "Aktifkan alarm sebelum mencoba memadamkan.",
+    "Pilih APAR sesuai label dan kelas.",
+    "Jaga jalur keluar.",
+    "Arahkan ke pangkal api.",
+    "Berhenti segera bila kondisi memburuk."
   ],
   "dont": [
-    "Jalur keluar tertutup.",
-    "Membelakangi api."
+    "Menganggap jarak tertentu universal untuk semua APAR.",
+    "Masuk ke ruangan penuh asap.",
+    "Memadamkan tanpa alarm/bantuan.",
+    "Berdiri dengan api di antara diri dan pintu.",
+    "Terus mencoba setelah satu APAR gagal."
   ],
   "quiz": [
     {
-      "q": "Jalur keluar saat APAR…",
+      "q": "Kapan petugas boleh mencoba menggunakan APAR?",
       "options": [
-        "Di belakang penolong",
-        "Di belakang api",
-        "Ditutup",
-        "Tak penting"
+        "Pada semua kebakaran",
+        "Bila api tahap awal, APAR sesuai, petugas terlatih, dan jalur keluar aman",
+        "Saat ruangan penuh asap",
+        "Tanpa mengaktifkan alarm"
       ],
-      "answer": 0,
-      "why": "Harus tersedia."
+      "answer": 1,
+      "why": "Penggunaan APAR dibatasi oleh kemampuan, alat, ukuran api, dan jalan keluar."
     },
     {
-      "q": "APAR untuk…",
+      "q": "Dalam PASS, “Aim” berarti…",
       "options": [
-        "Api awal yang aman",
-        "Semua kebakaran",
-        "Asap pekat",
-        "Evakuasi"
+        "Arahkan ke asap",
+        "Arahkan ke pangkal api",
+        "Arahkan ke langit-langit",
+        "Arahkan ke pintu"
       ],
-      "answer": 0,
-      "why": "Untuk kebakaran tahap awal."
+      "answer": 1,
+      "why": "Media pemadam ditujukan pada sumber pembakaran."
+    },
+    {
+      "q": "Api membesar setelah satu APAR digunakan. Tindakan adalah…",
+      "options": [
+        "Mencari lebih dekat ke api",
+        "Mundur, tutup area bila aman, dan lanjutkan evakuasi/respons darurat",
+        "Tetap sampai semua APAR habis",
+        "Membuka semua pintu"
+      ],
+      "answer": 1,
+      "why": "Kegagalan mengendalikan api adalah tanda berhenti."
+    },
+    {
+      "q": "Mengapa jalur keluar harus berada di belakang/samping petugas?",
+      "options": [
+        "Agar foto lebih baik",
+        "Agar petugas dapat mundur bila api atau asap memburuk",
+        "Agar APAR lebih ringan",
+        "Tidak ada alasan"
+      ],
+      "answer": 1,
+      "why": "Jangan biarkan api memotong jalan keluar."
+    },
+    {
+      "q": "Petugas tidak yakin jenis APAR sesuai. Tindakan terbaik adalah…",
+      "options": [
+        "Mencoba semua",
+        "Jangan gunakan secara spekulatif; aktifkan bantuan dan evakuasi sesuai rencana",
+        "Menyiram air",
+        "Mendekat untuk membaca saat api besar"
+      ],
+      "answer": 1,
+      "why": "Media yang salah dapat memperbesar bahaya."
+    },
+    {
+      "q": "Pernyataan tentang “test spray” adalah…",
+      "options": [
+        "Langkah wajib universal semua APAR",
+        "Bukan langkah universal; ikuti label alat dan pelatihan fasilitas",
+        "Menggantikan PASS",
+        "Dilakukan ke arah orang"
+      ],
+      "answer": 1,
+      "why": "Petunjuk alat dapat berbeda; jangan mengajarkan detail spesifik sebagai universal."
+    },
+    {
+      "q": "Ruangan cepat dipenuhi asap walau api tampak kecil. Tindakan adalah…",
+      "options": [
+        "Masuk dengan masker medis",
+        "Jangan masuk; evakuasi dan serahkan pada tim terlatih",
+        "Merangkak sendiri tanpa komunikasi",
+        "Menutup alarm"
+      ],
+      "answer": 1,
+      "why": "Asap merupakan bahaya berat dan membutuhkan perlindungan khusus."
+    },
+    {
+      "q": "Inspeksi APAR menemukan tekanan tidak sesuai. Perawat harus…",
+      "options": [
+        "Mengembalikan tanpa laporan",
+        "Melaporkan dan memastikan alat diganti/ditangani",
+        "Mengocok lalu anggap baik",
+        "Menyembunyikan indikator"
+      ],
+      "answer": 1,
+      "why": "Alat yang tidak siap tidak boleh menjadi pertahanan palsu."
     }
   ],
   "references": [
@@ -140,9 +325,14 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Portable Fire Extinguishers — Use and Evacuation",
+      "org": "Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/use"
     }
   ]
 }

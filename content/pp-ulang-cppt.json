@@ -2,39 +2,50 @@
   "id": "pp-ulang-cppt",
   "group": "pp",
   "title": "Pengkajian Ulang dan CPPT",
-  "short": "Reassessment & CPPT",
-  "desc": "Nilai perubahan, respons intervensi, efektivitas asuhan, dan dokumentasikan terintegrasi.",
+  "short": "Pengkajian Ulang",
+  "desc": "Menilai perubahan dan respons pasien serta mengintegrasikan rencana melalui CPPT.",
   "category": "PP",
-  "color": "#0F766E",
-  "soft": "#E7F7F4",
-  "icon": "monitor",
-  "minutes": 14,
-  "updated": "3 Agustus 2026",
+  "color": "#7B5EA7",
+  "soft": "#F4EEFF",
+  "icon": "clipboard",
+  "minutes": 22,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
+      "type": "image",
+      "title": "Pengkajian Ulang dan CPPT",
+      "caption": "Catatan perkembangan harus menunjukkan apa yang berubah, apa artinya, apa yang dilakukan, dan bagaimana respons pasien.",
+      "image": "assets/images/v4/pp-ulang-cppt/pp-ulang-cppt-01.webp",
+      "thumbnail": "assets/images/thumb/v4/pp-ulang-cppt/pp-ulang-cppt-01.webp"
+    },
+    {
       "type": "html",
-      "title": "Kapan pengkajian ulang?",
-      "caption": "Frekuensi mengikuti kondisi dan kebijakan.",
-      "order": 1,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Perubahan kondisi",
-            "text": "Segera saat perburukan/temuan baru."
+            "title": "Pengkajian ulang",
+            "text": "Penilaian berulang untuk memahami perubahan kondisi dan respons terhadap asuhan."
           },
           {
-            "title": "Setelah intervensi",
-            "text": "Obat, tindakan, edukasi, terapi."
+            "title": "CPPT",
+            "text": "Catatan Perkembangan Pasien Terintegrasi yang mendukung komunikasi dan kesinambungan antar-PPA."
           },
           {
-            "title": "Jadwal pemantauan",
-            "text": "Sesuai risiko, EWS, kebutuhan."
+            "title": "Baseline",
+            "text": "Kondisi awal atau nilai pembanding untuk menilai tren."
           },
           {
-            "title": "Transisi pelayanan",
-            "text": "Pindah unit/serah terima."
+            "title": "Respons",
+            "text": "Perubahan setelah intervensi, dapat berupa perbaikan, tidak berubah, efek samping, atau perburukan."
+          },
+          {
+            "title": "Evaluasi",
+            "text": "Menentukan apakah tujuan tercapai dan rencana masih tepat."
           }
         ],
         "columns": 2,
@@ -43,111 +54,265 @@
     },
     {
       "type": "html",
-      "title": "Isi CPPT",
-      "caption": "Tunjukkan kesinambungan proses.",
-      "order": 2,
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
       "template": {
-        "style": "flow",
+        "style": "timeline",
         "items": [
           {
-            "title": "Temuan",
-            "text": "Subjektif dan objektif."
+            "title": "Tentukan pemicu",
+            "text": "Lakukan sesuai jadwal dan setiap ada perubahan kondisi, intervensi penting, transfer, atau keluhan baru."
           },
           {
-            "title": "Analisis",
-            "text": "Makna klinis dan masalah."
+            "title": "Kumpulkan data terkini",
+            "text": "Gunakan observasi, pemeriksaan, tanda vital, hasil penunjang, dan laporan pasien."
           },
           {
-            "title": "Rencana/tindakan",
-            "text": "Intervensi, komunikasi, kolaborasi."
+            "title": "Bandingkan",
+            "text": "Nilai terhadap baseline, target terapi, batas aman, dan tren waktu."
           },
           {
-            "title": "Respons",
-            "text": "Hasil dan modifikasi rencana."
+            "title": "Analisis dan tindakan",
+            "text": "Tulis masalah atau kemajuan, lakukan intervensi, komunikasi, dan eskalasi."
+          },
+          {
+            "title": "Evaluasi respons",
+            "text": "Catat hasil setelah tindakan pada waktu yang relevan."
+          },
+          {
+            "title": "Perbarui rencana",
+            "text": "Pastikan perubahan rencana terlihat oleh PPA lain dan diterapkan."
           }
         ],
-        "columns": 4,
+        "columns": 2,
         "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Temuan abnormal",
-      "caption": "Jangan berhenti pada pencatatan.",
-      "order": 3,
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
-        "style": "flow",
+        "style": "bands",
         "items": [
           {
-            "title": "Validasi",
-            "text": "Pastikan data benar."
+            "title": "Perubahan kecil tetapi berulang",
+            "text": "Tren dapat lebih penting daripada satu nilai; akumulasi perubahan perlu dianalisis."
           },
           {
-            "title": "Tindakan awal",
-            "text": "Sesuai kewenangan."
+            "title": "Respons tidak sesuai harapan",
+            "text": "Periksa kepatuhan, diagnosis kerja, dosis, teknik, efek samping, atau kebutuhan intervensi lain."
           },
           {
-            "title": "Eskalasi",
-            "text": "SBAR ke pihak tepat."
+            "title": "PPA memberi rencana berbeda",
+            "text": "Klarifikasi dan integrasikan agar pasien tidak menerima instruksi yang bertentangan."
           },
           {
-            "title": "Nilai ulang",
-            "text": "Pastikan respons."
+            "title": "Transfer unit",
+            "text": "Lakukan kaji ulang sebelum/ sesudah transfer dan pastikan kondisi serta rencana terbaru ikut terbawa."
           },
           {
-            "title": "Dokumentasi",
-            "text": "Catat seluruh proses."
+            "title": "Dokumentasi terlambat",
+            "text": "Catat secepat mungkin dan jangan mengubah waktu kejadian agar rekam medis tetap dapat dipercaya."
           }
         ],
-        "columns": 5,
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "CPPT berisi “keadaan umum baik”",
+            "text": "Tidak menjelaskan data, tren, masalah, atau tindak lanjut."
+          },
+          {
+            "title": "Mengulang catatan lama",
+            "text": "Perkembangan pasien tidak terlihat dan risiko copy-paste meningkat."
+          },
+          {
+            "title": "Mencatat tindakan tanpa respons",
+            "text": "Tidak dapat dinilai apakah intervensi efektif atau aman."
+          },
+          {
+            "title": "Tidak membaca catatan PPA lain",
+            "text": "Rencana menjadi terpisah dan dapat saling bertentangan."
+          },
+          {
+            "title": "Eskalasi tidak terdokumentasi",
+            "text": "Tim berikutnya tidak mengetahui siapa yang dihubungi dan keputusan apa yang dibuat."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Tulis spesifik dan terukur",
+            "text": "Gunakan angka, waktu, lokasi, karakteristik, dan perubahan dibanding sebelumnya."
+          },
+          {
+            "title": "Catat komunikasi",
+            "text": "Sebutkan pihak yang dihubungi, waktu, informasi, instruksi, dan tindak lanjut."
+          },
+          {
+            "title": "Tutup siklus",
+            "text": "Setelah intervensi, kembali nilai kondisi dan dokumentasikan hasil."
+          },
+          {
+            "title": "Baca sebelum menulis",
+            "text": "Pahami rencana PPA lain agar catatan menambah informasi, bukan mengulang."
+          },
+          {
+            "title": "Gunakan CPPT untuk koordinasi",
+            "text": "Soroti masalah aktif, target, dan tindakan yang masih harus dilakukan."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Reassessment",
+      "title": "Pertanyaan inti",
       "points": [
-        "Menilai efektivitas asuhan."
+        "Apa yang berubah? Apa maknanya? Apa tindakan saya? Bagaimana responsnya? Apa rencana berikutnya?"
       ]
     },
     {
-      "title": "CPPT",
+      "title": "Catatan terintegrasi",
       "points": [
-        "Mendukung integrasi antar-PPA."
+        "PPA saling membaca, menanggapi, dan menyelaraskan rencana."
+      ]
+    },
+    {
+      "title": "Tren lebih bermakna",
+      "points": [
+        "Bandingkan data dari waktu ke waktu, bukan menilai satu angka secara terpisah."
+      ]
+    },
+    {
+      "title": "Tutup siklus",
+      "points": [
+        "Setiap intervensi penting memerlukan evaluasi respons."
       ]
     }
   ],
   "do": [
-    "Reassessment setelah analgesik/intervensi.",
-    "Catat respons dan rencana."
+    "Bandingkan kondisi dengan baseline.",
+    "Dokumentasikan data dan analisis.",
+    "Catat komunikasi serta eskalasi.",
+    "Evaluasi respons setelah tindakan.",
+    "Perbarui rencana dan handover."
   ],
   "dont": [
-    "'Keadaan baik' tanpa data.",
-    "Temuan abnormal tanpa eskalasi."
+    "Menulis catatan generik.",
+    "Copy-paste tanpa verifikasi.",
+    "Mencatat tindakan tanpa hasil.",
+    "Mengabaikan catatan PPA lain.",
+    "Menunda dokumentasi sampai akhir shift."
   ],
   "quiz": [
     {
-      "q": "Setelah analgesik, perawat perlu…",
+      "q": "Catatan “pasien tampak lebih baik” kurang bermakna karena…",
       "options": [
-        "Mencatat obat saja",
-        "Reassessment nyeri/respons",
-        "Menunggu pulang",
-        "Hapus skor"
+        "Terlalu singkat",
+        "Tidak menyertakan data terukur dan pembanding",
+        "Tidak memakai istilah Inggris",
+        "Tidak mencantumkan keluarga"
       ],
       "answer": 1,
-      "why": "Respons harus dinilai."
+      "why": "Perkembangan perlu dibuktikan dengan data dan dibandingkan dengan kondisi sebelumnya."
     },
     {
-      "q": "CPPT baik menunjukkan…",
+      "q": "Setelah analgesik diberikan, dokumentasi yang lengkap mencakup…",
       "options": [
-        "Tindakan saja",
-        "Temuan, analisis, rencana, respons",
-        "Nama staf",
-        "Biaya"
+        "Nama obat saja",
+        "Waktu, skala nyeri awal, intervensi, waktu reassessment, hasil, dan efek samping",
+        "Tanda tangan saja",
+        "Diagnosis pasien"
       ],
       "answer": 1,
-      "why": "CPPT mencerminkan proses asuhan."
+      "why": "Evaluasi respons menutup siklus asuhan."
+    },
+    {
+      "q": "Tujuan utama CPPT adalah…",
+      "options": [
+        "Menyimpan catatan per profesi secara terpisah",
+        "Mengintegrasikan perkembangan dan rencana antar-PPA",
+        "Menggantikan seluruh formulir",
+        "Mencatat administrasi pembayaran"
+      ],
+      "answer": 1,
+      "why": "CPPT mendukung komunikasi dan koordinasi interprofesional."
+    },
+    {
+      "q": "Tanda vital pasien masih dalam batas normal tetapi terus memburuk dari baseline. Tindakan terbaik adalah…",
+      "options": [
+        "Mengabaikan karena belum melewati batas",
+        "Menilai tren, kondisi klinis, dan melakukan eskalasi bila perlu",
+        "Menghapus nilai sebelumnya",
+        "Menunggu shift berikutnya"
+      ],
+      "answer": 1,
+      "why": "Tren dan kondisi klinis dapat menunjukkan perburukan sebelum batas ekstrem tercapai."
+    },
+    {
+      "q": "PPA A dan PPA B menulis rencana yang bertentangan. Perawat seharusnya…",
+      "options": [
+        "Memilih yang paling baru tanpa klarifikasi",
+        "Mengklarifikasi dan memastikan rencana terintegrasi",
+        "Menjalankan keduanya",
+        "Menghapus salah satu catatan"
+      ],
+      "answer": 1,
+      "why": "Rencana yang bertentangan harus diselesaikan agar pelayanan aman."
+    },
+    {
+      "q": "Kapan pengkajian ulang dilakukan?",
+      "options": [
+        "Hanya sekali sehari",
+        "Sesuai jadwal dan ketika kondisi, terapi, atau kebutuhan berubah",
+        "Hanya saat dokter meminta",
+        "Saat pasien pulang"
+      ],
+      "answer": 1,
+      "why": "Pengkajian ulang bersifat dinamis dan dipicu perubahan serta kebutuhan."
+    },
+    {
+      "q": "Dokumentasi eskalasi yang baik mencakup…",
+      "options": [
+        "“Dokter sudah tahu”",
+        "Waktu, pihak yang dihubungi, informasi penting, instruksi, dan tindak lanjut",
+        "Nama ruangan saja",
+        "Nomor telepon dokter"
+      ],
+      "answer": 1,
+      "why": "Informasi tersebut menunjukkan alur keputusan dan kesinambungan."
+    },
+    {
+      "q": "Copy-paste catatan berisiko karena…",
+      "options": [
+        "Membuat tulisan terlalu rapi",
+        "Membawa data tidak relevan atau salah dan menyamarkan perubahan pasien",
+        "Menghemat waktu",
+        "Meningkatkan ukuran font"
+      ],
+      "answer": 1,
+      "why": "Catatan harus mencerminkan kondisi aktual, bukan pengulangan otomatis."
     }
   ],
   "references": [
@@ -157,9 +322,9 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
   ]
 }

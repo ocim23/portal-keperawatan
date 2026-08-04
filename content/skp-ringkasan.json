@@ -2,122 +2,297 @@
   "id": "skp-ringkasan",
   "group": "skp",
   "title": "Ringkasan 6 SKP",
-  "short": "6 SKP",
-  "desc": "Hafalkan enam Sasaran Keselamatan Pasien secara urut sebelum mempelajari rinciannya.",
+  "short": "Ringkasan 6 SKP",
+  "desc": "Peta enam sasaran keselamatan pasien, risiko yang dicegah, dan contoh penerapannya.",
   "category": "SKP",
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 11,
-  "updated": "3 Agustus 2026",
+  "minutes": 18,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
+      "type": "image",
+      "title": "Ringkasan 6 SKP",
+      "caption": "Enam sasaran, satu tujuan: mencegah pasien menerima pelayanan yang salah atau tidak aman.",
+      "image": "assets/images/v4/skp-ringkasan/skp-ringkasan-01.webp",
+      "thumbnail": "assets/images/thumb/v4/skp-ringkasan/skp-ringkasan-01.webp"
+    },
+    {
       "type": "html",
-      "title": "Enam SKP nasional",
-      "caption": "Urutan ini menjadi pondasi keselamatan pasien.",
-      "order": 1,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
-        "style": "checklist",
+        "style": "cards",
         "items": [
           {
-            "title": "1. Identifikasi pasien",
-            "text": "Mengidentifikasi pasien dengan benar."
+            "title": "Bukan daftar hafalan",
+            "text": "SKP adalah titik pengaman pada proses pelayanan yang paling sering menimbulkan cedera bila dilewati."
           },
           {
-            "title": "2. Komunikasi efektif",
-            "text": "Meningkatkan komunikasi yang efektif."
+            "title": "Diterapkan sepanjang perjalanan pasien",
+            "text": "Sasaran berlaku sejak registrasi, pengkajian, tindakan, pemberian obat, transfer, sampai pasien pulang."
           },
           {
-            "title": "3. Keamanan obat",
-            "text": "Meningkatkan keamanan obat-obatan yang harus diwaspadai."
+            "title": "Tanggung jawab semua staf",
+            "text": "Perawat, dokter, farmasi, laboratorium, radiologi, administrasi, dan staf penunjang harus menjalankan pengaman yang relevan."
           },
           {
-            "title": "4. Benar tindakan",
-            "text": "Benar pasien, prosedur, dan sisi/lokasi tindakan."
-          },
-          {
-            "title": "5. Pencegahan infeksi",
-            "text": "Mengurangi risiko infeksi akibat perawatan kesehatan."
-          },
-          {
-            "title": "6. Pencegahan jatuh",
-            "text": "Mengurangi risiko cedera pasien akibat jatuh."
+            "title": "Berhenti bila ragu",
+            "text": "Ketidaksesuaian identitas, instruksi, obat, prosedur, atau kondisi pasien harus diklarifikasi sebelum proses dilanjutkan."
           }
         ],
-        "columns": 1,
+        "columns": 2,
         "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Cara mengingat",
-      "caption": "Ikuti perjalanan pasien dari identitas hingga pencegahan cedera.",
-      "order": 2,
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
       "template": {
-        "style": "flow",
+        "style": "timeline",
         "items": [
           {
-            "title": "Identitas",
-            "text": "Pasien benar."
+            "title": "Kenali titik kritis",
+            "text": "Tanyakan: apa yang dapat salah pada langkah ini, siapa yang dapat terdampak, dan pengaman apa yang harus dilakukan?"
           },
           {
-            "title": "Komunikasi",
-            "text": "Informasi benar."
+            "title": "Lakukan verifikasi aktif",
+            "text": "Jangan hanya melihat label atau mengandalkan ingatan; cocokkan sumber informasi yang relevan."
           },
           {
-            "title": "Obat & tindakan",
-            "text": "Terapi dan prosedur benar."
+            "title": "Komunikasikan temuan",
+            "text": "Sampaikan perubahan kondisi, hasil kritis, atau ketidaksesuaian secara terstruktur dan pastikan diterima."
           },
           {
-            "title": "Infeksi & jatuh",
-            "text": "Risiko dicegah."
+            "title": "Dokumentasikan",
+            "text": "Catatan menunjukkan apa yang ditemukan, tindakan yang dilakukan, respons pasien, dan tindak lanjut."
+          },
+          {
+            "title": "Evaluasi ulang",
+            "text": "Risiko dan kebutuhan pasien dapat berubah sehingga intervensi perlu disesuaikan."
           }
         ],
-        "columns": 4,
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Pasien tidak dapat berkomunikasi",
+            "text": "Gunakan sumber identitas lain yang sah dan lakukan verifikasi sesuai kondisi; jangan mengandalkan satu sumber."
+          },
+          {
+            "title": "Situasi emergensi",
+            "text": "Tindakan penyelamatan tidak boleh tertunda tanpa alasan, tetapi identifikasi, komunikasi, dan dokumentasi tetap dilakukan secepat mungkin."
+          },
+          {
+            "title": "Informasi berbeda",
+            "text": "Jika gelang, rekam medis, instruksi, atau keterangan keluarga tidak cocok, hentikan proses dan lakukan klarifikasi."
+          },
+          {
+            "title": "Transisi pelayanan",
+            "text": "Saat pindah ruang atau pergantian shift, pastikan risiko aktif dan rencana tindak lanjut ikut diserahterimakan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menghafal tanpa menghubungkan",
+            "text": "Staf dapat menyebut enam SKP tetapi tidak mengenali penerapannya saat bekerja."
+          },
+          {
+            "title": "Menganggap tugas komite",
+            "text": "SKP terjadi di titik pelayanan, bukan hanya pada rapat mutu atau saat survei."
+          },
+          {
+            "title": "Mengandalkan kebiasaan",
+            "text": "Pasien yang sudah dikenal tetap harus diverifikasi sesuai proses yang aman."
+          },
+          {
+            "title": "Membiarkan ketidaksesuaian kecil",
+            "text": "Kesalahan besar sering berawal dari data, label, atau komunikasi yang dianggap sepele."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Perawat sebagai penjaga terakhir",
+            "text": "Perawat sering berada paling dekat dengan pasien dan dapat menghentikan proses yang tidak aman."
+          },
+          {
+            "title": "Perawat sebagai penghubung",
+            "text": "Perawat menyatukan informasi pasien, keluarga, DPJP, PPA lain, hasil pemeriksaan, dan respons terapi."
+          },
+          {
+            "title": "Perawat sebagai pendidik",
+            "text": "Pasien dan keluarga perlu diajak menyebut identitas, memahami obat, risiko jatuh, dan cara mencegah infeksi."
+          },
+          {
+            "title": "Perawat sebagai sumber data",
+            "text": "Dokumentasi dan laporan insiden membantu rumah sakit mengetahui celah sistem dan memperbaikinya."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Pondasi keselamatan",
+      "title": "Peta enam sasaran",
       "points": [
-        "Urutan SKP perlu dihafal dan dihubungkan dengan praktik nyata.",
-        "Surveior dapat menilai melalui observasi, wawancara, dokumen, dan simulasi."
+        "SKP 1 identifikasi; SKP 2 komunikasi; SKP 3 obat berisiko; SKP 4 prosedur/lokasi; SKP 5 infeksi; SKP 6 jatuh."
+      ]
+    },
+    {
+      "title": "Cara berpikir aman",
+      "points": [
+        "Kenali risiko, lakukan verifikasi, komunikasikan, dokumentasikan, dan evaluasi ulang."
+      ]
+    },
+    {
+      "title": "Saat ada ketidaksesuaian",
+      "points": [
+        "Berhenti, lindungi pasien, klarifikasi kepada pihak yang tepat, lalu lanjutkan setelah aman."
+      ]
+    },
+    {
+      "title": "Tujuan akhir",
+      "points": [
+        "Bukan sekadar patuh standar, tetapi mencegah cedera yang sebenarnya dapat dicegah."
       ]
     }
   ],
   "do": [
-    "Hafalkan enam SKP secara urut.",
-    "Siapkan contoh penerapan di unit."
+    "Hubungkan setiap SKP dengan contoh kegiatan harian.",
+    "Gunakan verifikasi aktif pada titik kritis.",
+    "Sampaikan ketidaksesuaian tanpa takut disalahkan.",
+    "Libatkan pasien dan keluarga sebagai lapisan pengaman.",
+    "Catat tindakan dan tindak lanjut secara jelas."
   ],
   "dont": [
-    "Menghafal tanpa memahami tindakan.",
-    "Menganggap SKP hanya tugas komite."
+    "Mengandalkan hafalan tanpa praktik.",
+    "Melewati verifikasi karena pasien sudah dikenal.",
+    "Menganggap risiko kecil tidak perlu dilaporkan.",
+    "Menunda eskalasi ketika kondisi berubah.",
+    "Menganggap SKP hanya penting menjelang survei."
   ],
   "quiz": [
     {
-      "q": "SKP ketiga adalah…",
+      "q": "Perawat menemukan nama pada gelang berbeda dengan nama di lembar obat. Tindakan paling aman adalah…",
       "options": [
-        "Pencegahan jatuh",
-        "Keamanan obat yang harus diwaspadai",
-        "Komunikasi efektif",
-        "Pencegahan infeksi"
+        "Tetap memberikan obat karena pasien dikenal",
+        "Mengganti gelang sendiri lalu memberikan obat",
+        "Menahan pemberian, verifikasi identitas dan klarifikasi sumber data",
+        "Meminta keluarga memilih nama yang benar"
       ],
-      "answer": 1,
-      "why": "SKP 3 adalah keamanan obat yang harus diwaspadai."
+      "answer": 2,
+      "why": "Ketidaksesuaian identitas harus diselesaikan sebelum pelayanan dilanjutkan."
     },
     {
-      "q": "SKP 6 berfokus pada…",
+      "q": "Pasien mengalami penurunan kesadaran setelah pergantian shift, tetapi informasi risiko tidak diserahterimakan. Sasaran yang paling langsung terkait adalah…",
       "options": [
-        "Risiko jatuh",
-        "Identifikasi",
-        "Tindakan invasif",
-        "Hasil kritis"
+        "SKP 1 saja",
+        "SKP 2 komunikasi efektif",
+        "SKP 4 tindakan",
+        "SKP 5 infeksi"
       ],
-      "answer": 0,
-      "why": "SKP 6 mengurangi cedera akibat jatuh."
+      "answer": 1,
+      "why": "Serah terima yang tidak lengkap adalah kegagalan komunikasi yang dapat menghambat respons klinis."
+    },
+    {
+      "q": "Obat high-alert disimpan bersama obat biasa tanpa penanda atau pembatas akses. Risiko utama adalah…",
+      "options": [
+        "Waktu tunggu pasien lebih lama",
+        "Kesalahan obat dengan potensi dampak berat",
+        "Kesalahan penjadwalan operasi",
+        "Peningkatan infeksi"
+      ],
+      "answer": 1,
+      "why": "SKP 3 menekankan pengamanan tambahan pada obat yang dapat menimbulkan cedera serius bila terjadi kesalahan."
+    },
+    {
+      "q": "Saat time-out ditemukan sisi tindakan berbeda dengan formulir persetujuan. Tim seharusnya…",
+      "options": [
+        "Memilih sisi berdasarkan ingatan operator",
+        "Melanjutkan karena pasien sudah di ruang tindakan",
+        "Menghentikan proses dan menyelesaikan ketidaksesuaian",
+        "Meminta keluarga menandai sisi tanpa verifikasi"
+      ],
+      "answer": 2,
+      "why": "Time-out adalah titik berhenti untuk memastikan benar pasien, prosedur, dan lokasi."
+    },
+    {
+      "q": "Sarung tangan telah dipakai saat mengganti balutan. Pernyataan yang benar adalah…",
+      "options": [
+        "Kebersihan tangan tidak lagi diperlukan",
+        "Sarung tangan menggantikan lima momen",
+        "Kebersihan tangan tetap dilakukan pada momen yang tepat",
+        "Sarung tangan hanya diperlukan bila pasien infeksius"
+      ],
+      "answer": 2,
+      "why": "Sarung tangan bukan pengganti kebersihan tangan."
+    },
+    {
+      "q": "Pasien awalnya risiko jatuh rendah, kemudian mendapat sedatif dan menjadi bingung. Tindakan terbaik adalah…",
+      "options": [
+        "Mempertahankan kategori awal sampai besok",
+        "Melakukan asesmen ulang dan menyesuaikan intervensi",
+        "Hanya memasang tanda risiko",
+        "Menunggu pasien hampir jatuh"
+      ],
+      "answer": 1,
+      "why": "Risiko jatuh dinamis dan perlu dinilai ulang ketika kondisi atau terapi berubah."
+    },
+    {
+      "q": "Manakah contoh penerapan SKP yang paling kuat?",
+      "options": [
+        "Staf dapat menyebut urutan enam SKP",
+        "Poster SKP ditempel di setiap unit",
+        "Pengaman dilakukan konsisten dan ketidaksesuaian ditindaklanjuti",
+        "SKP dibahas hanya saat orientasi"
+      ],
+      "answer": 2,
+      "why": "Keselamatan ditentukan oleh praktik yang konsisten, bukan sekadar hafalan atau poster."
+    },
+    {
+      "q": "Pasien meminta perawat tidak menyampaikan informasi kepada kerabat tertentu. Saat serah terima, perawat perlu…",
+      "options": [
+        "Mengabaikan permintaan karena keluarga berhak tahu",
+        "Mencatat preferensi pasien dan membatasi informasi sesuai kewenangan",
+        "Menghapus seluruh informasi klinis",
+        "Menyampaikan informasi kepada semua keluarga agar tidak protes"
+      ],
+      "answer": 1,
+      "why": "Preferensi pasien dan kerahasiaan perlu dihormati sambil tetap memastikan informasi klinis yang diperlukan tersedia bagi tim perawatan."
     }
   ],
   "references": [
@@ -127,9 +302,9 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
   ]
 }

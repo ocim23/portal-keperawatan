@@ -1,40 +1,51 @@
 {
   "id": "pkpo-lasa-highalert",
   "group": "pkpo",
-  "title": "LASA/NORUM, High-Alert, dan Elektrolit Konsentrat",
-  "short": "LASA & High-Alert",
-  "desc": "Pengamanan obat mirip dan obat berisiko cedera berat.",
+  "title": "LASA, High-Alert, dan Elektrolit Konsentrat",
+  "short": "Kenali risiko dan bangun pengaman berlapis",
+  "desc": "Membedakan obat mirip nama/kemasan dari obat berisiko tinggi, lalu menerapkan penyimpanan, verifikasi, dan monitoring yang tepat.",
   "category": "PKPO",
-  "color": "#6D48C7",
-  "soft": "#F1ECFF",
-  "icon": "rights",
-  "minutes": 11,
-  "updated": "3 Agustus 2026",
+  "color": "#9A5B12",
+  "soft": "#FFF5E8",
+  "icon": "pill",
+  "minutes": 14,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
+      "type": "image",
+      "title": "LASA, High-Alert, dan Elektrolit Konsentrat",
+      "caption": "LASA meningkatkan risiko tertukar; high-alert meningkatkan dampak bila terjadi kesalahan. Keduanya membutuhkan pengaman sistem.",
+      "image": "assets/images/v4/pkpo-lasa-highalert/pkpo-lasa-highalert-01.webp",
+      "thumbnail": "assets/images/thumb/v4/pkpo-lasa-highalert/pkpo-lasa-highalert-01.webp"
+    },
+    {
       "type": "html",
-      "title": "LASA/NORUM",
-      "caption": "Kemiripan nama/bunyi/tampilan.",
-      "order": 1,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Pisahkan",
-            "text": "Kurangi salah ambil."
+            "title": "LASA dan high-alert tidak sama",
+            "text": "Obat dapat termasuk salah satu atau keduanya. LASA menyoroti risiko seleksi; high-alert menyoroti potensi dampak."
           },
           {
-            "title": "Label",
-            "text": "Penandaan fasilitas."
+            "title": "Daftar bersifat lokal dan dinamis",
+            "text": "Fasilitas menetapkan daftar berdasarkan formularium, pola insiden, dan layanan, dengan rujukan sumber tepercaya."
           },
           {
-            "title": "Tall-man",
-            "text": "Bila diterapkan."
+            "title": "Pengaman berlapis",
+            "text": "Standarisasi konsentrasi, pembatasan akses, penyimpanan terpisah, label, barcode, protokol, pompa, dan monitoring saling melengkapi."
           },
           {
-            "title": "Verifikasi",
-            "text": "Saat ambil, siapkan, berikan."
+            "title": "Double-check harus independen",
+            "text": "Jika petugas kedua hanya mengiyakan perhitungan pertama, bias konfirmasi tetap terjadi."
+          },
+          {
+            "title": "Komunikasi jelas",
+            "text": "Nama obat yang mirip perlu dibaca lengkap, dieja bila perlu, dan dikaitkan dengan indikasi serta dosis."
           }
         ],
         "columns": 2,
@@ -43,78 +54,261 @@
     },
     {
       "type": "html",
-      "title": "High-alert",
-      "caption": "Kontrol tambahan.",
-      "order": 2,
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
       "template": {
-        "style": "flow",
+        "style": "timeline",
         "items": [
           {
-            "title": "Akses",
-            "text": "Lokasi ditetapkan."
+            "title": "Saat menerima instruksi",
+            "text": "Verifikasi obat, indikasi, dosis, konsentrasi, rute, kecepatan, dan pasien; klarifikasi singkatan atau nama mirip."
           },
           {
-            "title": "Konsentrasi",
-            "text": "Sediaan/label jelas."
+            "title": "Saat mengambil",
+            "text": "Baca label aktif, cocokkan kekuatan, cek lokasi dan penanda, jangan mengandalkan warna/kemasan."
           },
           {
-            "title": "Double-check",
-            "text": "Mandiri."
+            "title": "Saat menghitung/menyiapkan",
+            "text": "Gunakan formula dan alat yang tepat; label semua sediaan; lakukan independent double-check pada komponen yang diwajibkan."
           },
           {
-            "title": "Pemantauan",
-            "text": "Parameter klinis."
+            "title": "Saat memberikan",
+            "text": "Gunakan pompa/alat yang ditetapkan, pastikan jalur dan kompatibilitas, serta edukasi pasien."
+          },
+          {
+            "title": "Saat memantau",
+            "text": "Nilai parameter klinis/laboratorium sesuai obat dan siapkan respons bila terjadi efek serius."
           }
         ],
-        "columns": 4,
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Kemasan baru atau substitusi merek",
+            "text": "Anggap sebagai perubahan berisiko; lakukan komunikasi, penandaan, dan verifikasi ulang."
+          },
+          {
+            "title": "Tidak ada petugas kedua",
+            "text": "Jangan membuat double-check semu; ikuti jalur alternatif yang disetujui atau eskalasi."
+          },
+          {
+            "title": "Dua obat LASA berdampingan",
+            "text": "Pisahkan lokasi dan laporkan potensi bahaya sebelum terjadi insiden."
+          },
+          {
+            "title": "Elektrolit konsentrat ditemukan di area tidak semestinya",
+            "text": "Amankan, jangan digunakan sebelum verifikasi, dan laporkan sistem penyimpanan."
+          },
+          {
+            "title": "Hasil perhitungan dua petugas berbeda",
+            "text": "Hentikan proses, hitung ulang dari awal, dan klarifikasi sumber perbedaan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Double-check bersama sejak awal",
+            "text": "Mendorong petugas kedua mengikuti hasil pertama, bukan menilai independen."
+          },
+          {
+            "title": "Mengandalkan warna label",
+            "text": "Warna dapat mirip dan berubah antarproduk."
+          },
+          {
+            "title": "Menyimpan semua high-alert di satu tempat tanpa pemisahan",
+            "text": "Meningkatkan risiko salah ambil."
+          },
+          {
+            "title": "Mengabaikan indikasi",
+            "text": "Dosis mungkin tampak benar tetapi tidak cocok dengan tujuan terapi."
+          },
+          {
+            "title": "Fokus pada persiapan tanpa monitoring",
+            "text": "Cedera dapat terjadi setelah pemberian dan memerlukan deteksi dini."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kenali daftar unit",
+            "text": "Ketahui obat high-alert/LASA yang relevan dengan tempat kerja dan lokasi pengamannya."
+          },
+          {
+            "title": "Gunakan komunikasi terbuka",
+            "text": "Sebutkan nama, kekuatan, konsentrasi, dan indikasi dengan jelas."
+          },
+          {
+            "title": "Lakukan double-check bermakna",
+            "text": "Periksa pasien, obat, perhitungan, konsentrasi, rute, alat, dan kecepatan sesuai kebijakan."
+          },
+          {
+            "title": "Pantau parameter kritis",
+            "text": "Siapkan jadwal dan batas eskalasi sebelum obat diberikan."
+          },
+          {
+            "title": "Laporkan kondisi berbahaya",
+            "text": "Near miss, kemasan mirip, stok tercampur, atau label sulit dibaca adalah data perbaikan."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "High-alert",
+      "title": "LASA/NORUM",
       "points": [
-        "Dampak kesalahan dapat berat."
+        "Risiko tertukar karena nama, bunyi, tulisan, atau kemasan mirip."
       ]
     },
     {
-      "title": "Double-check",
+      "title": "High-alert",
       "points": [
-        "Harus independen."
+        "Kesalahan berpotensi menimbulkan cedera sangat berat."
+      ]
+    },
+    {
+      "title": "Independent double-check",
+      "points": [
+        "Petugas kedua memeriksa sendiri sebelum membandingkan."
+      ]
+    },
+    {
+      "title": "Pengaman berlapis",
+      "points": [
+        "Pemisahan, label, standardisasi, teknologi, kompetensi, dan monitoring."
       ]
     }
   ],
   "do": [
-    "Ketahui daftar unit.",
-    "Pisahkan obat mirip."
+    "Baca label lengkap setiap kali.",
+    "Hubungkan obat dengan indikasi.",
+    "Pisahkan obat mirip dan ikuti penandaan.",
+    "Lakukan double-check independen.",
+    "Pantau pasien setelah pemberian."
   ],
   "dont": [
-    "Andalkan warna vial.",
-    "Formalitas double-check."
+    "Mengandalkan kemasan atau warna.",
+    "Mengiyakan perhitungan tanpa memeriksa sendiri.",
+    "Menyimpan elektrolit konsentrat sembarangan.",
+    "Mengabaikan perubahan merek/kemasan.",
+    "Melanjutkan saat hasil perhitungan berbeda."
   ],
   "quiz": [
     {
-      "q": "LASA adalah…",
+      "q": "Perbedaan utama LASA dan high-alert adalah…",
       "options": [
-        "Nama/tampilan mirip",
-        "Mahal",
-        "Ringan",
-        "Warna"
+        "LASA selalu obat mahal",
+        "LASA menyoroti risiko tertukar, high-alert menyoroti besarnya dampak bila salah",
+        "High-alert tidak perlu monitoring",
+        "Keduanya selalu daftar yang sama"
       ],
-      "answer": 0,
-      "why": "Look-alike sound-alike."
+      "answer": 1,
+      "why": "Satu obat dapat termasuk salah satu atau keduanya."
     },
     {
-      "q": "Double-check independen…",
+      "q": "Independent double-check berarti…",
       "options": [
-        "Periksa mandiri",
-        "Tanda tangan saja",
-        "Pasien periksa",
-        "Tanpa hitung"
+        "Dua petugas menghitung bersama sejak awal",
+        "Petugas kedua memeriksa komponen kritis secara mandiri lalu membandingkan",
+        "Petugas senior menandatangani tanpa melihat",
+        "Pasien memeriksa sendiri"
       ],
-      "answer": 0,
-      "why": "Petugas kedua memeriksa mandiri."
+      "answer": 1,
+      "why": "Pemeriksaan mandiri mengurangi bias konfirmasi."
+    },
+    {
+      "q": "Dua ampul dengan kemasan mirip tersimpan berdampingan. Tindakan terbaik adalah…",
+      "options": [
+        "Menghafal letaknya",
+        "Pisahkan, beri pengaman/label sesuai sistem, dan laporkan potensi LASA",
+        "Menutup label",
+        "Mencampur ke satu wadah"
+      ],
+      "answer": 1,
+      "why": "Penyimpanan merupakan pengaman sistem sebelum kesalahan terjadi."
+    },
+    {
+      "q": "Hasil perhitungan dosis dua perawat berbeda. Tindakan adalah…",
+      "options": [
+        "Pilih hasil petugas senior",
+        "Hentikan dan hitung ulang independen serta klarifikasi",
+        "Ambil rata-rata",
+        "Berikan dosis lebih kecil tanpa instruksi"
+      ],
+      "answer": 1,
+      "why": "Perbedaan adalah sinyal keselamatan yang harus diselesaikan."
+    },
+    {
+      "q": "Mengapa indikasi perlu diperiksa pada obat LASA?",
+      "options": [
+        "Untuk mempercepat dokumentasi",
+        "Membantu mendeteksi obat yang tertukar meski nama/dosis tampak mirip",
+        "Agar pasien membayar",
+        "Tidak berhubungan"
+      ],
+      "answer": 1,
+      "why": "Kesesuaian klinis menjadi lapisan verifikasi tambahan."
+    },
+    {
+      "q": "Elektrolit konsentrat ditemukan di troli umum tanpa pengamanan. Perawat seharusnya…",
+      "options": [
+        "Menggunakannya bila dibutuhkan",
+        "Amankan, verifikasi, dan laporkan penyimpanan yang tidak sesuai",
+        "Memindahkan ke saku",
+        "Mengencerkan semua sekaligus"
+      ],
+      "answer": 1,
+      "why": "Akses dan penyimpanan elektrolit konsentrat harus dikendalikan."
+    },
+    {
+      "q": "Setelah obat high-alert diberikan, langkah penting berikutnya adalah…",
+      "options": [
+        "Tidak ada jika double-check selesai",
+        "Monitoring parameter dan respons sesuai obat",
+        "Menyimpan catatan di akhir minggu",
+        "Melepas identitas pasien"
+      ],
+      "answer": 1,
+      "why": "Cedera dapat muncul setelah pemberian sehingga monitoring esensial."
+    },
+    {
+      "q": "Daftar high-alert sebaiknya…",
+      "options": [
+        "Sama selamanya di semua RS",
+        "Ditetapkan dan ditinjau fasilitas berdasarkan layanan, formularium, insiden, serta rujukan tepercaya",
+        "Hanya diketahui farmasi",
+        "Tidak perlu disosialisasikan"
+      ],
+      "answer": 1,
+      "why": "Risiko lokal dan perubahan produk perlu tercermin dalam daftar."
     }
   ],
   "references": [
@@ -124,9 +318,14 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "ISMP List of High-Alert Medications in Acute Care Settings",
+      "org": "Institute for Safe Medication Practices",
+      "url": "https://www.ismp.org/node/103"
     }
   ]
 }

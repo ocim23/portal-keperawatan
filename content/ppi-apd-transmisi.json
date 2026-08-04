@@ -1,49 +1,51 @@
 {
   "id": "ppi-apd-transmisi",
   "group": "ppi",
-  "title": "APD dan Kewaspadaan Berdasarkan Transmisi",
-  "short": "APD & Transmisi",
-  "desc": "Pemilihan, urutan memakai/melepas APD, kontak, droplet, dan airborne.",
+  "title": "APD dan Kewaspadaan Transmisi",
+  "short": "Pilih perlindungan sesuai risiko pajanan",
+  "desc": "Menggunakan kewaspadaan standar dan tambahan secara proporsional, lalu melepas APD tanpa mencemari diri atau lingkungan.",
   "category": "PPI",
-  "color": "#1877C9",
-  "soft": "#EAF3FF",
-  "icon": "hands",
-  "minutes": 14,
-  "updated": "3 Agustus 2026",
+  "color": "#14805E",
+  "soft": "#EAF8F2",
+  "icon": "hand",
+  "minutes": 13,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
-      "title": "Urutan APD",
-      "caption": "Urutan mengikuti jenis APD dan kebijakan fasilitas.",
-      "order": 1,
-      "image": "assets/images/main/ppi/ppi-06-apd.webp",
-      "thumbnail": "assets/images/thumb/ppi/ppi-06-apd-thumb.webp",
-      "version": 1
+      "title": "APD dan Kewaspadaan Transmisi",
+      "caption": "APD dipilih berdasarkan aktivitas dan risiko pajanan—bukan hanya berdasarkan diagnosis pasien.",
+      "image": "assets/images/v4/ppi-apd-transmisi/ppi-apd-transmisi-01.webp",
+      "thumbnail": "assets/images/thumb/v4/ppi-apd-transmisi/ppi-apd-transmisi-01.webp"
     },
     {
       "type": "html",
-      "title": "Kewaspadaan standar",
-      "caption": "Semua pasien berdasar risiko.",
-      "order": 2,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Hand hygiene",
-            "text": "Dasar pencegahan."
+            "title": "APD adalah bagian dari pengendalian berlapis",
+            "text": "APD tidak menggantikan ventilasi, penempatan pasien, kebersihan tangan, etika batuk, alat aman, dan pembersihan lingkungan."
           },
           {
-            "title": "APD",
-            "text": "Pilih sesuai pajanan."
+            "title": "Kewaspadaan standar berlaku untuk semua",
+            "text": "Diagnosis belum diketahui bukan alasan menunda tindakan pencegahan dasar."
           },
           {
-            "title": "Injeksi aman",
-            "text": "Teknik aseptik."
+            "title": "Tambahan berbasis cara transmisi",
+            "text": "Kontak, droplet, dan airborne ditambahkan sesuai patogen, gejala, prosedur, dan penilaian risiko."
           },
           {
-            "title": "Etika batuk/lingkungan",
-            "text": "Kurangi penyebaran."
+            "title": "Risiko aktivitas menentukan pilihan",
+            "text": "Tindakan dengan potensi percikan membutuhkan pelindung mata/wajah walau pasien tidak berlabel isolasi."
+          },
+          {
+            "title": "Doffing adalah tahap berisiko",
+            "text": "Permukaan luar APD dapat terkontaminasi; gerakan lambat dan area pelepasan yang benar mengurangi kontaminasi diri."
           }
         ],
         "columns": 2,
@@ -52,23 +54,126 @@
     },
     {
       "type": "html",
-      "title": "Berdasarkan transmisi",
-      "caption": "Tambahan sesuai cara penularan.",
-      "order": 3,
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Sebelum masuk",
+            "text": "Baca penanda kewaspadaan, pahami tindakan yang akan dilakukan, kumpulkan alat, dan pilih APD."
+          },
+          {
+            "title": "Saat memakai",
+            "text": "Pastikan gaun menutup area yang perlu dilindungi, masker/respirator terpasang baik, dan sarung tangan menutup cuff bila diperlukan."
+          },
+          {
+            "title": "Saat merawat",
+            "text": "Hindari menyentuh wajah, telepon, atau benda pribadi; ganti APD bila rusak atau sangat terkontaminasi."
+          },
+          {
+            "title": "Saat melepas",
+            "text": "Hindari menyentuh kulit/pakaian dengan permukaan luar; buang atau proses ulang sesuai jenis APD."
+          },
+          {
+            "title": "Setelah melepas",
+            "text": "Lakukan kebersihan tangan dan evaluasi apakah terjadi pajanan atau kontaminasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
         "style": "bands",
         "items": [
           {
-            "title": "Kontak",
-            "text": "Sarung tangan/gown dan lingkungan."
+            "title": "Prosedur menghasilkan aerosol",
+            "text": "Ikuti penilaian risiko dan kewaspadaan airborne/respirator yang ditetapkan, serta batasi petugas yang tidak perlu."
           },
           {
-            "title": "Droplet",
-            "text": "Masker medis sesuai risiko."
+            "title": "APD tidak tersedia atau ukuran tidak sesuai",
+            "text": "Jangan melakukan tindakan berisiko tanpa perlindungan memadai; lakukan eskalasi dan cari alternatif yang disetujui."
           },
           {
-            "title": "Airborne",
-            "text": "Respirator dan ruang/ventilasi sesuai."
+            "title": "APD terkontaminasi berat",
+            "text": "Lepas dengan bantuan bila diperlukan, lakukan kebersihan tangan, dan laporkan pajanan."
+          },
+          {
+            "title": "Pasien perlu transportasi",
+            "text": "Koordinasikan rute, kontrol sumber pada pasien bila sesuai, dan beri informasi kepada unit penerima."
+          },
+          {
+            "title": "Pasien dengan lebih dari satu risiko",
+            "text": "Gabungkan kewaspadaan sesuai risiko; jangan memilih satu label dan mengabaikan risiko lain."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Memilih APD berdasarkan diagnosis saja",
+            "text": "Prosedur dapat menimbulkan risiko meski diagnosis tidak menunjukkan infeksi tertentu."
+          },
+          {
+            "title": "Masker di dagu atau leher",
+            "text": "Permukaan luar dapat mencemari tangan dan pemasangan ulang tidak aman."
+          },
+          {
+            "title": "Melepas tergesa-gesa",
+            "text": "Meningkatkan sentuhan pada wajah, pakaian, dan lingkungan."
+          },
+          {
+            "title": "Menggunakan APD yang sama antar pasien",
+            "text": "Memindahkan kontaminasi dan menghilangkan tujuan perlindungan."
+          },
+          {
+            "title": "Mengabaikan kebersihan tangan",
+            "text": "APD bukan pengganti; tangan dapat terkontaminasi saat pemakaian dan pelepasan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Lakukan penilaian risiko sebelum tindakan",
+            "text": "Tanyakan: apakah ada kontak, percikan, droplet, aerosol, atau permukaan terkontaminasi?"
+          },
+          {
+            "title": "Ajarkan pasien dan keluarga",
+            "text": "Jelaskan alasan kewaspadaan tanpa menstigma."
+          },
+          {
+            "title": "Jaga alur bersih-kotor",
+            "text": "Tempatkan alat, limbah, dan area pelepasan dengan jelas."
+          },
+          {
+            "title": "Lakukan buddy check bila kompleks",
+            "text": "Rekan dapat membantu memastikan pemasangan dan pelepasan aman."
+          },
+          {
+            "title": "Laporkan paparan dan kekurangan sarana",
+            "text": "Kejadian dan hambatan sistem harus ditindaklanjuti."
           }
         ],
         "columns": 1,
@@ -78,48 +183,132 @@
   ],
   "summarySections": [
     {
-      "title": "Melepas APD",
+      "title": "Standar untuk semua",
       "points": [
-        "Tahap berisiko kontaminasi."
+        "Perkirakan pajanan pada setiap pasien dan tindakan."
       ]
     },
     {
-      "title": "Sesuai indikasi",
+      "title": "Tambahan sesuai transmisi",
       "points": [
-        "APD berlebihan juga bermasalah."
+        "Kontak, droplet, atau airborne ditambahkan berdasarkan risiko."
+      ]
+    },
+    {
+      "title": "APD sesuai aktivitas",
+      "points": [
+        "Pilih sarung tangan, gaun, masker/respirator, dan pelindung mata secara proporsional."
+      ]
+    },
+    {
+      "title": "Lepas dengan aman",
+      "points": [
+        "Gerakan lambat, area kotor tidak menyentuh kulit, lalu kebersihan tangan."
       ]
     }
   ],
   "do": [
-    "Nilai risiko sebelum kontak.",
-    "Lepas hati-hati dan hand hygiene."
+    "Nilai risiko sebelum masuk atau memulai tindakan.",
+    "Gunakan ukuran dan jenis APD yang tepat.",
+    "Lakukan seal check respirator sesuai jenisnya.",
+    "Lepas APD perlahan dan terstruktur.",
+    "Lakukan kebersihan tangan serta evaluasi pajanan."
   ],
   "dont": [
-    "APD sama untuk beberapa pasien.",
-    "Sentuh wajah saat melepas."
+    "Memakai APD yang sama antar pasien.",
+    "Menyentuh telepon dengan sarung tangan terkontaminasi.",
+    "Menurunkan masker ke dagu untuk dipakai kembali.",
+    "Memaksakan tindakan berisiko tanpa APD memadai.",
+    "Menganggap satu urutan doffing cocok untuk semua kombinasi tanpa panduan."
   ],
   "quiz": [
     {
-      "q": "APD dipilih berdasarkan…",
+      "q": "Perawat akan melakukan suction dengan potensi percikan pada pasien tanpa label isolasi. Dasar pemilihan APD adalah…",
       "options": [
-        "Warna seragam",
-        "Risiko pajanan/transmisi",
-        "Teman",
-        "Jam"
+        "Tidak perlu APD karena tidak ada diagnosis infeksi",
+        "Risiko aktivitas, termasuk perlindungan wajah/mata dan APD lain yang sesuai",
+        "Hanya preferensi petugas",
+        "Warna gelang pasien"
       ],
       "answer": 1,
-      "why": "Berdasarkan risiko."
+      "why": "Kewaspadaan standar menilai risiko pajanan pada setiap tindakan."
     },
     {
-      "q": "Airborne memerlukan…",
+      "q": "Pernyataan paling tepat tentang urutan melepas APD adalah…",
       "options": [
-        "Masker kain",
-        "Respirator sesuai",
-        "Face shield saja",
-        "Sarung tangan saja"
+        "Selalu sama untuk semua kombinasi",
+        "Dapat menyesuaikan kombinasi APD dan panduan, dengan prinsip mencegah kontaminasi serta kebersihan tangan",
+        "Tidak perlu urutan",
+        "Dimulai dengan menyentuh bagian depan masker"
       ],
       "answer": 1,
-      "why": "Respirator sesuai standar."
+      "why": "CDC menyediakan contoh urutan, tetapi kombinasi dan konteks dapat memerlukan penyesuaian aman."
+    },
+    {
+      "q": "Respirator telah dipasang tetapi seal check gagal. Tindakan adalah…",
+      "options": [
+        "Tetap masuk karena sudah memakai respirator",
+        "Perbaiki pemasangan/ganti ukuran atau jenis sebelum pajanan",
+        "Tutup celah dengan tangan selama tindakan",
+        "Ganti dengan masker kain"
+      ],
+      "answer": 1,
+      "why": "Respirator harus terpasang dan tersegel dengan benar untuk perlindungan yang diharapkan."
+    },
+    {
+      "q": "Saat melepas gaun, sarung tangan menyentuh pakaian kerja. Langkah berikutnya adalah…",
+      "options": [
+        "Mengabaikan",
+        "Hentikan, lakukan pelepasan aman, kebersihan tangan, dan kelola kontaminasi/pajanan sesuai prosedur",
+        "Memakai gaun baru di atasnya",
+        "Menyemprot pakaian dengan parfum"
+      ],
+      "answer": 1,
+      "why": "Kontaminasi diri perlu ditangani segera dan dilaporkan bila relevan."
+    },
+    {
+      "q": "Kewaspadaan kontak terutama menekankan…",
+      "options": [
+        "Hanya masker medis",
+        "Pengendalian kontak tangan, pakaian, alat, dan lingkungan disertai kebersihan tangan",
+        "Hanya ruang tekanan negatif",
+        "Tidak boleh menyentuh pasien"
+      ],
+      "answer": 1,
+      "why": "Kontak langsung maupun tidak langsung menjadi jalur utama."
+    },
+    {
+      "q": "APD paling aman dipilih…",
+      "options": [
+        "Berdasarkan satu daftar tetap untuk semua tindakan",
+        "Setelah menilai jenis kontak, percikan, droplet, aerosol, dan lingkungan",
+        "Setelah tindakan selesai",
+        "Berdasarkan senioritas"
+      ],
+      "answer": 1,
+      "why": "Pemilihan proporsional berawal dari penilaian risiko."
+    },
+    {
+      "q": "Mengapa masker tidak aman diturunkan ke dagu?",
+      "options": [
+        "Karena terlihat tidak rapi saja",
+        "Permukaan terkontaminasi dapat menyentuh kulit/tangan dan pemasangan ulang tidak terkontrol",
+        "Karena masker menjadi lebih berat",
+        "Hanya berlaku di kamar operasi"
+      ],
+      "answer": 1,
+      "why": "Manipulasi masker meningkatkan kontaminasi dan menurunkan perlindungan."
+    },
+    {
+      "q": "Pasien isolasi perlu dipindahkan untuk pemeriksaan. Perawat harus…",
+      "options": [
+        "Memindahkan tanpa memberi tahu unit tujuan",
+        "Koordinasikan kebutuhan, kontrol sumber, rute, dan informasi kepada penerima",
+        "Membatalkan semua pemeriksaan",
+        "Melepas semua penanda kewaspadaan"
+      ],
+      "answer": 1,
+      "why": "Transportasi harus mempertahankan pencegahan transmisi dan kesinambungan informasi."
     }
   ],
   "references": [
@@ -129,9 +318,14 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "CDC — Sequence for Putting On and Removing PPE",
+      "org": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/infection-control/media/pdfs/Toolkits-PPE-Sequence-P.pdf"
     }
   ]
 }

@@ -1,169 +1,314 @@
 {
   "id": "pmkp-keselamatan",
   "group": "pmkp",
-  "title": "Keselamatan Pasien, IKP, dan Manajemen Risiko",
-  "short": "Keselamatan & IKP",
-  "desc": "Klasifikasi insiden, pertolongan, laporan, pembelajaran, dan risiko.",
+  "title": "Insiden Keselamatan dan Manajemen Risiko",
+  "short": "Respons, lapor, belajar, dan cegah berulang",
+  "desc": "Membedakan jenis insiden, mengutamakan keselamatan pasien, dan menggunakan laporan serta analisis untuk perbaikan sistem.",
   "category": "PMKP",
   "color": "#155E9A",
   "soft": "#E9F4FF",
   "icon": "target",
-  "minutes": 17,
-  "updated": "3 Agustus 2026",
+  "minutes": 16,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
-      "title": "Pelaporan IKP",
-      "caption": "Lapor cepat, objektif, fokus perbaikan sistem.",
-      "order": 1,
-      "image": "assets/images/main/pmkp/pmkp-02-ikp.webp",
-      "thumbnail": "assets/images/thumb/pmkp/pmkp-02-ikp-thumb.webp",
-      "version": 1
+      "title": "Insiden Keselamatan dan Manajemen Risiko",
+      "caption": "Ketika insiden terjadi: selamatkan pasien, komunikasikan, dokumentasikan klinis, laporkan melalui sistem, analisis, lalu perbaiki risiko.",
+      "image": "assets/images/v4/pmkp-keselamatan/pmkp-keselamatan-01.webp",
+      "thumbnail": "assets/images/thumb/v4/pmkp-keselamatan/pmkp-keselamatan-01.webp"
     },
     {
       "type": "html",
-      "title": "Klasifikasi insiden",
-      "caption": "Gunakan definisi sistem.",
-      "order": 2,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Keselamatan pasien didahulukan",
+            "text": "Stabilisasi, asesmen, monitoring, dan eskalasi dilakukan sebelum fokus pada formulir."
+          },
+          {
+            "title": "Dokumentasi klinis berbeda dari laporan insiden",
+            "text": "Rekam medis mencatat kondisi dan pelayanan; laporan insiden mendukung analisis keselamatan dan mengikuti jalur tersendiri."
+          },
+          {
+            "title": "Near miss tetap bernilai",
+            "text": "KNC menunjukkan celah sistem tanpa menunggu pasien cedera."
+          },
+          {
+            "title": "Budaya adil",
+            "text": "Kesalahan manusia, perilaku berisiko, dan tindakan sengaja berbahaya perlu ditangani secara berbeda; fokus awal pada fakta dan sistem."
+          },
+          {
+            "title": "Risiko bersifat prospektif",
+            "text": "Manajemen risiko mencari bahaya sebelum insiden melalui proses, lingkungan, alat, obat, SDM, dan komunikasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Respons insiden",
+            "text": "Amankan pasien/lingkungan → panggil bantuan → asesmen dan terapi → komunikasi → dokumentasi klinis → laporan insiden → follow-up."
+          },
+          {
+            "title": "Klasifikasi awal",
+            "text": "Gunakan fakta: apakah mencapai pasien? apakah ada cedera? seberapa berat? hindari memberi label sebelum informasi cukup."
+          },
+          {
+            "title": "Grading dan eskalasi",
+            "text": "Tingkat dampak/risiko menentukan kecepatan pelaporan dan kedalaman investigasi sesuai sistem."
+          },
+          {
+            "title": "Analisis penyebab",
+            "text": "Bedakan penyebab langsung, faktor kontribusi, pertahanan yang gagal, dan kondisi laten."
+          },
+          {
+            "title": "Tindak lanjut",
+            "text": "Pilih tindakan yang kuat, tetapkan penanggung jawab/waktu, ukur implementasi dan hasil, lalu bagikan pembelajaran."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
         "style": "bands",
         "items": [
           {
-            "level": "KPCS",
-            "title": "Kondisi potensial",
-            "text": "Kondisi berbahaya."
+            "title": "Pasien perlu penanganan segera",
+            "text": "Jangan menunggu persetujuan untuk melaporkan; lakukan respons klinis sesuai kewenangan."
           },
           {
-            "level": "KNC",
-            "title": "Nyaris cedera",
-            "text": "Belum mencapai pasien."
+            "title": "Petugas ragu jenis insiden",
+            "text": "Laporkan fakta objektif; tim keselamatan dapat membantu klasifikasi."
           },
           {
-            "level": "KTC",
-            "title": "Tidak cedera",
-            "text": "Mencapai pasien tanpa cedera."
+            "title": "Insiden melibatkan banyak unit",
+            "text": "Koordinasikan timeline dan bukti tanpa saling menyalahkan."
           },
           {
-            "level": "KTD",
-            "title": "Tidak diharapkan",
-            "text": "Menimbulkan cedera."
+            "title": "Tidak ada cedera terlihat",
+            "text": "Tetap lakukan monitoring karena dampak dapat muncul kemudian."
           },
           {
-            "level": "Sentinel",
-            "title": "Serius",
-            "text": "Memenuhi kriteria dan perlu analisis mendalam."
+            "title": "Kondisi sangat berisiko tetapi belum terjadi insiden",
+            "text": "Catat sebagai bahaya/KPCS atau mekanisme risiko yang relevan agar kontrol dipasang."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menunda laporan karena takut",
+            "text": "Menghilangkan peluang respons dan perbaikan cepat."
+          },
+          {
+            "title": "Menulis opini atau tuduhan",
+            "text": "Laporan harus faktual, kronologis, dan bebas spekulasi."
+          },
+          {
+            "title": "Menyalin laporan insiden ke rekam medis",
+            "text": "Keduanya memiliki tujuan dan kerahasiaan berbeda; rekam medis tetap mencatat fakta klinis."
+          },
+          {
+            "title": "Hanya memberi edukasi ulang",
+            "text": "Tindakan lemah bila akar masalahnya desain alat, beban kerja, akses, atau alur."
+          },
+          {
+            "title": "Menutup investigasi tanpa mengukur tindakan",
+            "text": "Rencana tidak menjamin perubahan terjadi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kenali dan laporkan cepat",
+            "text": "Perawat sering menjadi orang pertama yang melihat perubahan atau kesalahan."
+          },
+          {
+            "title": "Jaga fakta",
+            "text": "Catat waktu, kondisi, tindakan, komunikasi, dan respons secara objektif."
+          },
+          {
+            "title": "Dukung pasien dan keluarga",
+            "text": "Komunikasi mengikuti kewenangan dan proses transparansi fasilitas."
+          },
+          {
+            "title": "Ikut analisis proses",
+            "text": "Jelaskan realitas alur kerja dan pertahanan yang tidak berfungsi."
+          },
+          {
+            "title": "Pantau tindakan perbaikan",
+            "text": "Pastikan perubahan dapat dilakukan dan tidak menciptakan risiko baru."
           }
         ],
         "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Alur insiden",
-      "caption": "Laporan berbeda dari rekam medis.",
-      "order": 3,
-      "template": {
-        "style": "flow",
-        "items": [
-          {
-            "title": "Amankan pasien",
-            "text": "Asesmen dan pertolongan."
-          },
-          {
-            "title": "Dokumentasi klinis",
-            "text": "Kondisi, tindakan, respons."
-          },
-          {
-            "title": "Laporan insiden",
-            "text": "Fakta objektif."
-          },
-          {
-            "title": "Analisis",
-            "text": "Grading/investigasi/RCA."
-          },
-          {
-            "title": "Perbaikan",
-            "text": "Terapkan dan pantau."
-          }
-        ],
-        "columns": 5,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Manajemen risiko",
-      "caption": "Tidak menunggu insiden.",
-      "order": 4,
-      "template": {
-        "style": "flow",
-        "items": [
-          {
-            "title": "Identifikasi",
-            "text": "Proses berisiko."
-          },
-          {
-            "title": "Analisis",
-            "text": "Kemungkinan dan dampak."
-          },
-          {
-            "title": "Mitigasi",
-            "text": "Kontrol."
-          },
-          {
-            "title": "Monitor",
-            "text": "Efektivitas dan risiko sisa."
-          }
-        ],
-        "columns": 4,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Near miss",
+      "title": "Urutan prioritas",
       "points": [
-        "KNC menunjukkan celah sistem."
+        "Amankan pasien → eskalasi → dokumentasi klinis → laporan → analisis → perbaikan."
       ]
     },
     {
-      "title": "Budaya adil",
+      "title": "Jenis insiden",
       "points": [
-        "Belajar tanpa menyederhanakan menjadi siapa salah."
+        "KPCS, KNC, KTC, KTD, dan sentinel dibedakan berdasarkan kondisi, pencapaian pasien, dan dampak."
+      ]
+    },
+    {
+      "title": "Laporan faktual",
+      "points": [
+        "Tulis kronologi dan fakta; hindari menyalahkan atau berspekulasi."
+      ]
+    },
+    {
+      "title": "Risiko prospektif",
+      "points": [
+        "Cari bahaya, nilai risiko, pasang kontrol, dan ukur risiko sisa."
       ]
     }
   ],
   "do": [
-    "Utamakan pasien.",
-    "Tulis fakta objektif."
+    "Utamakan stabilisasi pasien.",
+    "Laporkan near miss dan kondisi berbahaya.",
+    "Tulis fakta dan waktu secara objektif.",
+    "Ikut analisis sistem.",
+    "Pantau efektivitas tindakan perbaikan."
   ],
   "dont": [
-    "Tutup-tutupi.",
-    "Tulis opini menyalahkan."
+    "Menunda pertolongan untuk mengisi formulir.",
+    "Menyembunyikan near miss.",
+    "Menulis tuduhan dalam laporan.",
+    "Menganggap edukasi ulang selalu cukup.",
+    "Menutup kasus tanpa mengukur perbaikan."
   ],
   "quiz": [
     {
-      "q": "Obat salah belum diberikan…",
+      "q": "Obat salah hampir diberikan tetapi tertangkap sebelum mencapai pasien. Ini paling sesuai dengan…",
       "options": [
+        "KPCS",
         "KNC",
-        "KTD",
         "KTC",
-        "Sentinel"
-      ],
-      "answer": 0,
-      "why": "Belum mencapai pasien."
-    },
-    {
-      "q": "Laporan insiden mengganti dokumentasi klinis.",
-      "options": [
-        "Benar",
-        "Salah"
+        "KTD"
       ],
       "answer": 1,
-      "why": "Keduanya berbeda dan diperlukan."
+      "why": "KNC adalah insiden yang tidak mencapai pasien karena tertangkap."
+    },
+    {
+      "q": "Obat salah mencapai pasien tetapi tidak menimbulkan cedera setelah monitoring. Ini paling sesuai dengan…",
+      "options": [
+        "KNC",
+        "KTC",
+        "KTD",
+        "Bukan insiden"
+      ],
+      "answer": 1,
+      "why": "KTC mencapai pasien tanpa cedera yang teridentifikasi."
+    },
+    {
+      "q": "Setelah insiden, tindakan pertama adalah…",
+      "options": [
+        "Menentukan siapa yang salah",
+        "Mengamankan dan menilai pasien serta memanggil bantuan sesuai kebutuhan",
+        "Menghapus catatan",
+        "Menunggu rapat mutu"
+      ],
+      "answer": 1,
+      "why": "Keselamatan klinis pasien selalu didahulukan."
+    },
+    {
+      "q": "Perbedaan rekam medis dan laporan insiden adalah…",
+      "options": [
+        "Tidak ada",
+        "Rekam medis mencatat pelayanan klinis; laporan insiden mendukung analisis keselamatan melalui sistem tersendiri",
+        "Laporan insiden menggantikan rekam medis",
+        "Rekam medis hanya untuk dokter"
+      ],
+      "answer": 1,
+      "why": "Keduanya sama-sama penting tetapi memiliki tujuan berbeda."
+    },
+    {
+      "q": "Kabel terkelupas ditemukan sebelum menyetrum siapa pun. Ini adalah…",
+      "options": [
+        "Tidak perlu tindakan",
+        "Kondisi berbahaya yang perlu diamankan dan dilaporkan melalui sistem risiko/KPCS yang relevan",
+        "KTD",
+        "Sentinel otomatis"
+      ],
+      "answer": 1,
+      "why": "Bahaya sebelum insiden adalah peluang pencegahan."
+    },
+    {
+      "q": "Tindakan perbaikan “ingatkan semua staf agar lebih hati-hati” biasanya…",
+      "options": [
+        "Tindakan sistem paling kuat",
+        "Tindakan lemah bila tidak mengatasi desain proses atau faktor kontribusi",
+        "Selalu cukup",
+        "Menghapus kebutuhan monitoring"
+      ],
+      "answer": 1,
+      "why": "Perbaikan kuat mengubah sistem dan pertahanan, bukan hanya mengandalkan kewaspadaan."
+    },
+    {
+      "q": "Laporan insiden yang baik berisi…",
+      "options": [
+        "Pendapat tentang karakter petugas",
+        "Fakta, waktu, urutan kejadian, tindakan, dan respons",
+        "Rumor dari unit lain",
+        "Kesimpulan hukuman"
+      ],
+      "answer": 1,
+      "why": "Objektivitas memungkinkan analisis yang adil."
+    },
+    {
+      "q": "Mengapa KNC perlu dilaporkan?",
+      "options": [
+        "Agar angka insiden bertambah",
+        "Karena menunjukkan celah sistem sebelum terjadi cedera dan dapat mencegah pengulangan",
+        "Karena pasien harus diberi terapi",
+        "Hanya untuk memenuhi akreditasi"
+      ],
+      "answer": 1,
+      "why": "Near miss adalah sumber pembelajaran yang sangat bernilai."
     }
   ],
   "references": [
@@ -173,9 +318,14 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Permenkes Nomor 6 Tahun 2026 — Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/peraturan-menteri-kesehatan-nomor-6-tahun-2026"
     }
   ]
 }

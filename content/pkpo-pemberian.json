@@ -2,140 +2,313 @@
   "id": "pkpo-pemberian",
   "group": "pkpo",
   "title": "Pemberian Obat yang Aman",
-  "short": "Pemberian Obat",
-  "desc": "Verifikasi instruksi, identitas, prinsip benar, alergi, pemantauan, dokumentasi.",
+  "short": "Verifikasi, berikan, pantau, dan dokumentasikan",
+  "desc": "Menjalankan seluruh rantai pemberian obat secara aman—bukan hanya mencocokkan beberapa “benar”.",
   "category": "PKPO",
-  "color": "#6D48C7",
-  "soft": "#F1ECFF",
-  "icon": "rights",
-  "minutes": 14,
-  "updated": "3 Agustus 2026",
+  "color": "#9A5B12",
+  "soft": "#FFF5E8",
+  "icon": "pill",
+  "minutes": 13,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
-      "title": "Keamanan Obat",
-      "caption": "Prinsip mencegah medication error.",
-      "order": 1,
-      "image": "assets/images/main/pkpo/pkpo-01-keamanan-obat.webp",
-      "thumbnail": "assets/images/thumb/pkpo/pkpo-01-keamanan-obat-thumb.webp",
-      "version": 1
+      "title": "Pemberian Obat yang Aman",
+      "caption": "Keselamatan obat dimulai sebelum obat disiapkan dan berlanjut sampai respons pasien dinilai serta dicatat.",
+      "image": "assets/images/v4/pkpo-pemberian/pkpo-pemberian-01.webp",
+      "thumbnail": "assets/images/thumb/v4/pkpo-pemberian/pkpo-pemberian-01.webp"
     },
     {
       "type": "html",
-      "title": "Sebelum pemberian",
-      "caption": "Gunakan proses sistematis.",
-      "order": 2,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
-        "style": "checklist",
+        "style": "cards",
         "items": [
           {
-            "title": "Instruksi",
-            "text": "Nama, dosis, rute, waktu, indikasi."
+            "title": "“Benar” adalah pagar pengaman, bukan daftar hafalan",
+            "text": "Identitas, obat, dosis, rute, waktu, indikasi, dokumentasi, edukasi, dan respons saling berkaitan."
           },
           {
-            "title": "Identitas",
-            "text": "Minimal dua identitas."
+            "title": "Perintah yang tidak jelas harus diklarifikasi",
+            "text": "Jangan menebak singkatan, dosis, satuan, rute, atau frekuensi."
           },
           {
-            "title": "Alergi",
-            "text": "Jenis dan reaksi."
+            "title": "Alergi berbeda dari efek samping",
+            "text": "Riwayat perlu digali tentang obat, bentuk reaksi, waktu, dan keparahan agar keputusan tepat."
           },
           {
-            "title": "Kondisi",
-            "text": "Kontraindikasi dan parameter."
+            "title": "Asesmen sebelum obat",
+            "text": "Sebagian obat membutuhkan tekanan darah, nadi, gula darah, fungsi ginjal, tingkat kesadaran, atau data lain sebelum diberikan."
+          },
+          {
+            "title": "Monitoring adalah bagian pemberian",
+            "text": "Obat dianggap aman bukan hanya karena masuk ke tubuh, tetapi karena respons dinilai dan masalah ditangani."
           }
         ],
-        "columns": 1,
+        "columns": 2,
         "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Prinsip benar",
-      "caption": "Ikuti daftar fasilitas.",
-      "order": 3,
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Baca dan verifikasi instruksi",
+            "text": "Pastikan lengkap, masuk akal, sesuai pasien, serta tidak ada duplikasi atau konflik."
+          },
+          {
+            "title": "Identifikasi dan cek alergi",
+            "text": "Minta pasien menyebutkan identitas bila mampu; cocokkan gelang/rekam medis dan riwayat reaksi."
+          },
+          {
+            "title": "Kaji parameter",
+            "text": "Bandingkan hasil klinis terbaru dengan batas pemberian yang ditetapkan."
+          },
+          {
+            "title": "Siapkan dan label",
+            "text": "Pertahankan kemasan/label sampai verifikasi selesai; beri label pada sediaan yang dipindahkan."
+          },
+          {
+            "title": "Berikan, observasi, dokumentasi",
+            "text": "Pastikan obat benar-benar diterima, catat segera, dan nilai respons sesuai onset/risiko."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Pasien menolak",
+            "text": "Cari alasan, jelaskan manfaat/risiko dengan bahasa tepat, hormati keputusan, dokumentasikan, dan beri tahu pihak yang perlu."
+          },
+          {
+            "title": "Obat tidak tersedia",
+            "text": "Jangan mengganti sendiri; koordinasikan alternatif yang sah dan pastikan instruksi baru jelas."
+          },
+          {
+            "title": "Pasien muntah setelah obat oral",
+            "text": "Nilai waktu dan kondisi; jangan otomatis mengulang dosis tanpa klarifikasi."
+          },
+          {
+            "title": "Parameter tidak aman",
+            "text": "Tahan sesuai kewenangan/protokol dan lakukan klarifikasi/eskalasi."
+          },
+          {
+            "title": "Kesalahan atau near miss",
+            "text": "Utamakan keselamatan pasien, lapor segera, lakukan monitoring, dokumentasi klinis, dan pelaporan insiden sesuai sistem."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Pasien",
-            "text": "Pasien tepat."
+            "title": "Menyiapkan untuk banyak pasien sekaligus",
+            "text": "Meningkatkan risiko tertukar dan sulit melacak proses."
           },
           {
-            "title": "Obat",
-            "text": "Nama/sediaan tepat."
+            "title": "Mengandalkan hafalan kemasan",
+            "text": "Produk dapat berubah dan tampak mirip; label harus dibaca aktif."
           },
           {
-            "title": "Dosis",
-            "text": "Perhitungan tepat."
+            "title": "Dokumentasi sebelum diberikan",
+            "text": "Membuat catatan tidak sesuai kejadian bila obat tertunda, ditolak, atau tidak jadi diberikan."
           },
           {
-            "title": "Waktu",
-            "text": "Jadwal tepat."
+            "title": "Mengabaikan perubahan kondisi",
+            "text": "Instruksi yang benar sebelumnya dapat menjadi tidak aman bila kondisi berubah."
           },
           {
-            "title": "Rute",
-            "text": "Cara tepat."
-          },
-          {
-            "title": "Dokumentasi",
-            "text": "Catat tepat waktu."
-          },
-          {
-            "title": "Indikasi & respons",
-            "text": "Tujuan dan hasil."
+            "title": "Menghancurkan tablet tanpa verifikasi",
+            "text": "Sediaan lepas lambat, enterik, atau obat tertentu tidak boleh dihancurkan."
           }
         ],
         "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Ciptakan zona bebas distraksi",
+            "text": "Kurangi interupsi saat menghitung dan menyiapkan."
+          },
+          {
+            "title": "Gunakan sumber obat yang dapat dipercaya",
+            "text": "Klarifikasi informasi bila tidak familiar dengan obat, konsentrasi, kompatibilitas, atau pemantauan."
+          },
+          {
+            "title": "Libatkan pasien",
+            "text": "Tanyakan alergi, jelaskan obat, dan dorong pasien menyampaikan ketidaksesuaian."
+          },
+          {
+            "title": "Kenali perubahan klinis",
+            "text": "Perawat berada dekat pasien dan berperan penting mendeteksi efek samping dini."
+          },
+          {
+            "title": "Laporkan sistem yang berisiko",
+            "text": "Kemasan mirip, label buruk, stok tercampur, atau instruksi sulit dibaca perlu diperbaiki."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Proses",
+      "title": "Sebelum",
       "points": [
-        "Risiko muncul di banyak tahap."
+        "Verifikasi instruksi, identitas, alergi, indikasi, dan parameter klinis."
       ]
     },
     {
-      "title": "Dokumentasi",
+      "title": "Saat menyiapkan",
       "points": [
-        "Setelah pemberian, bukan sebelumnya."
+        "Kurangi distraksi, hitung dengan benar, dan pertahankan label."
+      ]
+    },
+    {
+      "title": "Saat memberi",
+      "points": [
+        "Edukasi singkat, pastikan rute dan penerimaan obat."
+      ]
+    },
+    {
+      "title": "Sesudah",
+      "points": [
+        "Dokumentasikan kejadian nyata, pantau respons, dan tindak lanjuti masalah."
       ]
     }
   ],
   "do": [
-    "Klarifikasi instruksi.",
-    "Pantau respons."
+    "Klarifikasi perintah yang tidak jelas.",
+    "Gunakan dua identitas aktif.",
+    "Periksa alergi dan parameter sebelum obat.",
+    "Dokumentasikan setelah kejadian.",
+    "Pantau efek dan eskalasi perubahan."
   ],
   "dont": [
-    "Catat sebelum diberikan.",
-    "Mengandalkan hafalan."
+    "Menebak dosis atau singkatan.",
+    "Mendokumentasikan sebelum memberi.",
+    "Mengulang obat setelah muntah tanpa klarifikasi.",
+    "Menghancurkan tablet tanpa verifikasi.",
+    "Menyembunyikan near miss atau kesalahan."
   ],
   "quiz": [
     {
-      "q": "Identifikasi sebelum obat…",
+      "q": "Sebelum memberi antihipertensi, tekanan darah pasien jauh lebih rendah dari biasanya. Tindakan terbaik adalah…",
       "options": [
-        "Kamar",
-        "Dua identitas",
-        "Panggilan",
-        "Wajah"
+        "Memberi karena obat sudah terjadwal",
+        "Nilai kondisi, tahan sesuai kewenangan/protokol, dan klarifikasi/eskalasi",
+        "Mengurangi dosis sendiri",
+        "Mendokumentasikan telah diberikan"
       ],
       "answer": 1,
-      "why": "Minimal dua identitas."
+      "why": "Perubahan klinis dapat mengubah keamanan instruksi."
     },
     {
-      "q": "Dokumentasi pemberian…",
+      "q": "Pasien muntah lima menit setelah obat oral. Perawat seharusnya…",
       "options": [
-        "Sebelum",
-        "Setelah tepat waktu",
-        "Saat pulang",
-        "Jika efek samping"
+        "Langsung mengulang seluruh dosis",
+        "Menilai situasi dan mengklarifikasi sebelum mengulang",
+        "Menganggap obat pasti terserap",
+        "Mengganti rute sendiri"
       ],
       "answer": 1,
-      "why": "Setelah pemberian."
+      "why": "Penyerapan tidak dapat diasumsikan dan pengulangan berisiko dosis ganda."
+    },
+    {
+      "q": "Dokumentasi pemberian obat paling tepat dilakukan…",
+      "options": [
+        "Sebelum obat dibawa ke pasien",
+        "Setelah obat benar-benar diberikan atau kejadian lain dicatat sesuai fakta",
+        "Saat awal shift",
+        "Hanya jika ada efek samping"
+      ],
+      "answer": 1,
+      "why": "Catatan harus mencerminkan kejadian nyata."
+    },
+    {
+      "q": "Pasien mengatakan memiliki “alergi obat” tetapi tidak tahu reaksinya. Tindakan adalah…",
+      "options": [
+        "Abaikan",
+        "Gali riwayat, cek rekam medis, dan klarifikasi sebelum pemberian",
+        "Hapus alergi",
+        "Berikan setengah dosis"
+      ],
+      "answer": 1,
+      "why": "Jenis reaksi penting untuk menilai risiko."
+    },
+    {
+      "q": "Perintah tertulis “insulin 10 U” terlihat seperti “100”. Tindakan paling aman adalah…",
+      "options": [
+        "Menafsirkan berdasarkan kebiasaan",
+        "Klarifikasi instruksi sebelum menyiapkan",
+        "Memberi 100 unit",
+        "Meminta pasien memilih"
+      ],
+      "answer": 1,
+      "why": "Ambiguitas dosis high-alert tidak boleh ditebak."
+    },
+    {
+      "q": "Pasien menolak obat karena takut efek samping. Perawat sebaiknya…",
+      "options": [
+        "Memaksa karena sudah diresepkan",
+        "Menggali kekhawatiran, memberi penjelasan, menghormati keputusan, dokumentasi, dan menginformasikan tim",
+        "Menyembunyikan obat dalam makanan",
+        "Membuang tanpa catatan"
+      ],
+      "answer": 1,
+      "why": "Penolakan adalah proses komunikasi dan dokumentasi, bukan paksaan."
+    },
+    {
+      "q": "Mengapa obat perlu dipantau setelah diberikan?",
+      "options": [
+        "Agar dokumentasi terlihat lengkap",
+        "Untuk menilai efek yang diharapkan, efek samping, dan kebutuhan tindak lanjut",
+        "Karena semua obat bekerja sama cepat",
+        "Hanya untuk obat injeksi"
+      ],
+      "answer": 1,
+      "why": "Monitoring merupakan bagian dari keselamatan penggunaan obat."
+    },
+    {
+      "q": "Near miss obat ditemukan sebelum mencapai pasien. Tindakan yang tepat adalah…",
+      "options": [
+        "Tidak perlu dilaporkan karena tidak terjadi cedera",
+        "Amankan proses dan laporkan sesuai sistem agar penyebab dapat diperbaiki",
+        "Tetap berikan",
+        "Hapus jejak"
+      ],
+      "answer": 1,
+      "why": "Near miss memberi peluang belajar sebelum terjadi cedera."
     }
   ],
   "references": [
@@ -145,9 +318,14 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "ISMP List of High-Alert Medications in Acute Care Settings",
+      "org": "Institute for Safe Medication Practices",
+      "url": "https://www.ismp.org/node/103"
     }
   ]
 }

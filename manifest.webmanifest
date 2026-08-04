@@ -1,7 +1,7 @@
 {
-  "name": "Portal Keperawatan — Materi Akreditasi",
+  "name": "Portal Keperawatan — Akreditasi & Asuhan Keperawatan",
   "short_name": "Portal Keperawatan",
-  "description": "Pembelajaran keperawatan berdasarkan kelompok standar akreditasi dan submateri mandiri.",
+  "description": "Portal microlearning keperawatan dengan materi akreditasi mendalam, visual, contoh penerapan, dan kuis kasus.",
   "lang": "id",
   "start_url": "./#/home",
   "scope": "./",
@@ -26,5 +26,6 @@
       "type": "image/png",
       "purpose": "maskable"
     }
-  ]
+  ],
+  "id": "./#/home"
 }

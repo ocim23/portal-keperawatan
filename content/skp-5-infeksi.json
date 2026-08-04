@@ -3,96 +3,312 @@
   "group": "skp",
   "title": "SKP 5 — Mengurangi Risiko Infeksi",
   "short": "SKP 5",
-  "desc": "Kebersihan tangan, teknik aseptik, APD, dan kewaspadaan standar.",
+  "desc": "Prinsip pencegahan infeksi pada tangan, alat, lingkungan, tindakan, dan transmisi.",
   "category": "SKP",
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 11,
-  "updated": "3 Agustus 2026",
+  "minutes": 18,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
-      "title": "SKP 5 — Pencegahan Infeksi",
-      "caption": "Kebersihan tangan dan prosedur aman mengurangi infeksi.",
-      "order": 1,
-      "image": "assets/images/main/skp/skp-05-pencegahan-infeksi.webp",
-      "thumbnail": "assets/images/thumb/skp/skp-05-pencegahan-infeksi-thumb.webp",
-      "version": 1
+      "title": "SKP 5 — Mengurangi Risiko Infeksi",
+      "caption": "Risiko infeksi dikurangi dengan tindakan yang konsisten pada setiap kontak, bukan hanya saat pasien diketahui menular.",
+      "image": "assets/images/v4/skp-5-infeksi/skp-5-infeksi-01.webp",
+      "thumbnail": "assets/images/thumb/v4/skp-5-infeksi/skp-5-infeksi-01.webp"
     },
     {
       "type": "html",
-      "title": "Tindakan perawat",
-      "caption": "Pilih sesuai risiko.",
-      "order": 2,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Kebersihan tangan",
-            "text": "Lima momen dan teknik benar."
+            "title": "Kewaspadaan standar",
+            "text": "Diterapkan pada semua pasien berdasarkan potensi pajanan, tanpa menunggu diagnosis infeksi."
+          },
+          {
+            "title": "Kewaspadaan transmisi",
+            "text": "Pengamanan tambahan berdasarkan cara penyebaran: kontak, droplet, atau airborne."
           },
           {
             "title": "Teknik aseptik",
-            "text": "Lindungi area dan alat kritis."
+            "text": "Metode mencegah kontaminasi bagian kritis, alat, obat, dan lokasi tindakan."
           },
           {
-            "title": "APD",
-            "text": "Sesuai pajanan dan transmisi."
+            "title": "HAI",
+            "text": "Infeksi terkait pelayanan kesehatan yang dapat berhubungan dengan tindakan, alat, lingkungan, atau transmisi."
           },
           {
-            "title": "Perawatan alat",
-            "text": "Pembersihan, disinfeksi, sterilisasi."
+            "title": "Bundle",
+            "text": "Serangkaian tindakan berbasis bukti yang harus dilakukan bersama secara konsisten."
           }
         ],
         "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Sebelum kontak atau tindakan",
+            "text": "Nilai risiko pajanan, siapkan alat, lakukan kebersihan tangan, dan gunakan APD yang sesuai."
+          },
+          {
+            "title": "Selama tindakan",
+            "text": "Pertahankan area kritis, hindari menyentuh bagian steril, dan ganti sarung tangan bila berpindah dari area kotor ke bersih."
+          },
+          {
+            "title": "Setelah tindakan",
+            "text": "Buang limbah, proses alat, bersihkan lingkungan, lepas APD tanpa kontaminasi, lalu lakukan kebersihan tangan."
+          },
+          {
+            "title": "Alat invasif",
+            "text": "Jaga sistem tertutup bila relevan, nilai tanda infeksi, dan evaluasi kebutuhan alat setiap hari."
+          },
+          {
+            "title": "Edukasi",
+            "text": "Ajarkan etika batuk, kebersihan tangan, perawatan alat, dan kapan melapor gejala infeksi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Pasien belum terdiagnosis",
+            "text": "Tetap gunakan kewaspadaan standar dan tambah pengamanan berdasarkan gejala serta penilaian risiko."
+          },
+          {
+            "title": "APD terbatas",
+            "text": "Gunakan jalur eskalasi dan prioritas risiko; jangan menggunakan ulang alat sekali pakai tanpa proses yang diizinkan."
+          },
+          {
+            "title": "Prosedur menghasilkan aerosol",
+            "text": "Gunakan respirator dan pengamanan lingkungan sesuai penilaian dan ketentuan fasilitas."
+          },
+          {
+            "title": "Kontaminasi terjadi",
+            "text": "Hentikan bila memungkinkan, ganti alat/APD, lakukan dekontaminasi, dan nilai apakah tindakan perlu diulang."
+          },
+          {
+            "title": "Alat invasif tidak lagi diperlukan",
+            "text": "Koordinasikan pelepasan segera karena setiap hari penggunaan menambah risiko."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Sarung tangan menggantikan kebersihan tangan",
+            "text": "Tangan dapat terkontaminasi saat memakai atau melepas sarung tangan."
+          },
+          {
+            "title": "APD berlebihan tanpa alasan",
+            "text": "Memboroskan sumber daya dan dapat meningkatkan kontaminasi saat pelepasan."
+          },
+          {
+            "title": "Menyentuh area bersih dengan sarung tangan kotor",
+            "text": "Memindahkan mikroorganisme ke alat atau lokasi kritis."
+          },
+          {
+            "title": "Tidak menilai alat invasif",
+            "text": "Kateter atau jalur yang tidak perlu tetap menjadi pintu masuk infeksi."
+          },
+          {
+            "title": "Kebersihan lingkungan dianggap tugas orang lain",
+            "text": "Perawat perlu memastikan area dan alat yang dipakai pasien aman."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Pilih tindakan berdasarkan risiko",
+            "text": "Pertanyaan utama: apa yang mungkin terpajan, bagaimana transmisi, dan bagian apa yang harus tetap bersih/steril?"
+          },
+          {
+            "title": "Jadilah contoh",
+            "text": "Kepatuhan staf memengaruhi perilaku pasien, keluarga, dan rekan kerja."
+          },
+          {
+            "title": "Pantau tanda infeksi",
+            "text": "Kenali perubahan lokal dan sistemik serta lakukan eskalasi."
+          },
+          {
+            "title": "Lindungi alat invasif",
+            "text": "Dokumentasikan kondisi lokasi, perawatan, dan kebutuhan kelanjutan."
+          },
+          {
+            "title": "Laporkan celah sistem",
+            "text": "Ketersediaan handrub, APD, alat, atau proses pembersihan yang tidak memadai perlu diperbaiki."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Sarung tangan",
+      "title": "Lapisan pencegahan",
       "points": [
-        "Tidak menggantikan kebersihan tangan."
+        "Kebersihan tangan, teknik aseptik, APD, pengelolaan alat, lingkungan, dan kewaspadaan transmisi."
       ]
     },
     {
-      "title": "Konsistensi",
+      "title": "Standar untuk semua pasien",
       "points": [
-        "Pencegahan infeksi dilakukan setiap saat."
+        "Kewaspadaan standar tidak menunggu hasil diagnosis."
+      ]
+    },
+    {
+      "title": "Alat invasif",
+      "points": [
+        "Nilai kebutuhan setiap hari dan lepaskan secepat mungkin bila tidak lagi diperlukan."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Melakukan, memantau, mengedukasi, dan melaporkan risiko infeksi di titik pelayanan."
       ]
     }
   ],
   "do": [
-    "Hand hygiene pada momen tepat.",
-    "APD sesuai risiko."
+    "Lakukan kebersihan tangan pada momen yang tepat.",
+    "Pertahankan teknik aseptik.",
+    "Pilih APD berdasarkan risiko.",
+    "Nilai kebutuhan alat invasif setiap hari.",
+    "Edukasi pasien dan keluarga."
   ],
   "dont": [
-    "Sarung tangan tanpa indikasi.",
-    "Menyentuh area bersih dengan sarung tangan kotor."
+    "Menunggu diagnosis sebelum menggunakan kewaspadaan standar.",
+    "Menggunakan sarung tangan sebagai pengganti kebersihan tangan.",
+    "Menyentuh area bersih dengan sarung tangan kotor.",
+    "Membiarkan alat invasif tanpa evaluasi.",
+    "Mengabaikan kebersihan alat dan lingkungan."
   ],
   "quiz": [
     {
-      "q": "Sarung tangan menggantikan hand hygiene.",
+      "q": "Kewaspadaan standar diterapkan…",
       "options": [
-        "Benar",
-        "Salah"
+        "Hanya pada pasien infeksi",
+        "Hanya di ruang isolasi",
+        "Pada semua pasien berdasarkan risiko pajanan",
+        "Setelah hasil kultur positif"
       ],
-      "answer": 1,
-      "why": "Sarung tangan tidak menggantikan kebersihan tangan."
+      "answer": 2,
+      "why": "Kewaspadaan standar digunakan pada semua pasien."
     },
     {
-      "q": "APD dipilih berdasarkan…",
+      "q": "Setelah membersihkan area luka yang kotor, perawat akan menyentuh bagian bersih dari balutan. Tindakan yang benar adalah…",
       "options": [
-        "Warna seragam",
-        "Risiko pajanan/transmisi",
-        "Keinginan pasien",
-        "Lama kerja"
+        "Melanjutkan dengan sarung tangan yang sama",
+        "Mengganti sarung tangan dan melakukan kebersihan tangan sesuai kebutuhan",
+        "Menyemprot sarung tangan dengan alkohol",
+        "Meminta keluarga memegang balutan"
       ],
       "answer": 1,
-      "why": "APD berdasarkan risiko."
+      "why": "Perpindahan dari area kotor ke bersih memerlukan penggantian sarung tangan dan kebersihan tangan."
+    },
+    {
+      "q": "Alat invasif yang tidak lagi memiliki indikasi sebaiknya…",
+      "options": [
+        "Dipertahankan untuk berjaga-jaga",
+        "Dilepas setelah koordinasi karena menambah risiko infeksi",
+        "Diganti setiap hari tanpa evaluasi",
+        "Ditutup dengan perban tebal"
+      ],
+      "answer": 1,
+      "why": "Durasi penggunaan merupakan faktor risiko yang dapat dikurangi."
+    },
+    {
+      "q": "Pemilihan APD seharusnya didasarkan pada…",
+      "options": [
+        "Diagnosis saja",
+        "Warna ruangan",
+        "Antisipasi jenis pajanan dan cara transmisi",
+        "Preferensi petugas"
+      ],
+      "answer": 2,
+      "why": "APD dipilih berdasarkan risiko pekerjaan dan transmisi."
+    },
+    {
+      "q": "Sarung tangan tidak menggantikan kebersihan tangan karena…",
+      "options": [
+        "Sarung tangan selalu bocor",
+        "Tangan dapat terkontaminasi saat memakai atau melepasnya",
+        "Handrub hanya untuk pasien tertentu",
+        "Sarung tangan tidak boleh dipakai di rumah sakit"
+      ],
+      "answer": 1,
+      "why": "Kebersihan tangan tetap diperlukan pada momen yang sesuai."
+    },
+    {
+      "q": "Pasien batuk belum memiliki diagnosis. Tindakan awal yang tepat adalah…",
+      "options": [
+        "Menunggu hasil pemeriksaan",
+        "Menerapkan kewaspadaan standar dan pengamanan berbasis gejala/risiko",
+        "Tidak perlu masker sampai dokter datang",
+        "Memindahkan tanpa komunikasi"
+      ],
+      "answer": 1,
+      "why": "Pencegahan dimulai berdasarkan risiko, bukan hanya diagnosis akhir."
+    },
+    {
+      "q": "Teknik aseptik bertujuan untuk…",
+      "options": [
+        "Membuat tindakan lebih cepat",
+        "Mencegah kontaminasi bagian kritis dan lokasi tindakan",
+        "Menggantikan sterilisasi alat",
+        "Mengurangi dokumentasi"
+      ],
+      "answer": 1,
+      "why": "Asepsis melindungi bagian yang harus tetap bebas kontaminasi."
+    },
+    {
+      "q": "Perawat melihat dispenser handrub kosong di area pelayanan. Tindakan terbaik adalah…",
+      "options": [
+        "Mengabaikan karena bukan tugas klinis",
+        "Melaporkan dan memastikan tersedia alternatif aman",
+        "Menggunakan parfum tangan",
+        "Meminta pasien membawa handrub sendiri"
+      ],
+      "answer": 1,
+      "why": "Ketersediaan sarana adalah bagian sistem pencegahan infeksi."
     }
   ],
   "references": [
@@ -102,9 +318,19 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "WHO — Five Moments for Hand Hygiene",
+      "org": "World Health Organization",
+      "url": "https://www.who.int/publications/m/item/five-moments-for-hand-hygiene"
+    },
+    {
+      "title": "CDC — Sequence for Putting On and Removing PPE",
+      "org": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/infection-control/media/pdfs/Toolkits-PPE-Sequence-P.pdf"
     }
   ]
 }

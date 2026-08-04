@@ -3,73 +3,195 @@
   "group": "pap",
   "title": "Bantuan Hidup Dasar Dewasa — AHA 2025",
   "short": "BHD Dewasa",
-  "desc": "Respons awal, bantuan dan AED, kompresi, jalan napas, ventilasi, dan tersedak.",
+  "desc": "Respons awal, pemeriksaan napas dan nadi, kompresi berkualitas, AED, ventilasi, dan tersedak.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 17,
-  "updated": "3 Agustus 2026",
-  "notice": "Materi pembelajaran tenaga kesehatan. Aktivasi mengikuti code blue atau sistem internal fasilitas.",
+  "minutes": 25,
+  "updated": "4 Agustus 2026",
+  "notice": "Materi untuk tenaga kesehatan. Aktivasi bantuan, alat, dan pembagian peran mengikuti sistem fasilitas.",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
-      "title": "1. Respons Awal, Aktivasi Bantuan, dan AED",
-      "caption": "Pastikan aman, cek respons/napas, aktifkan bantuan, mulai kompresi, gunakan AED.",
-      "order": 1,
-      "image": "assets/images/main/pap/pap-bhd-01-respon-awal-aed.webp",
-      "thumbnail": "assets/images/thumb/pap/pap-bhd-01-respon-awal-aed-thumb.webp",
-      "version": 1
+      "title": "Bantuan Hidup Dasar Dewasa — AHA 2025",
+      "caption": "Kenali henti jantung dalam hitungan detik, mulai RJP berkualitas, dan gunakan AED secepat mungkin.",
+      "image": "assets/images/v4/pap-bhd/pap-bhd-01.webp",
+      "thumbnail": "assets/images/thumb/v4/pap-bhd/pap-bhd-01.webp"
     },
     {
       "type": "image",
-      "title": "2. Kompresi Dada Berkualitas Tinggi",
-      "caption": "Posisi benar, 5–6 cm, 100–120/menit, recoil penuh, interupsi minimal.",
-      "order": 2,
-      "image": "assets/images/main/pap/pap-bhd-02-kompresi-dada.webp",
-      "thumbnail": "assets/images/thumb/pap/pap-bhd-02-kompresi-dada-thumb.webp",
-      "version": 1
+      "title": "2. Kompresi Dada Berkualitas",
+      "caption": "Kompresi yang konsisten menjaga aliran darah ke otak dan jantung.",
+      "image": "assets/images/v4/pap-bhd/pap-bhd-02.webp",
+      "thumbnail": "assets/images/thumb/v4/pap-bhd/pap-bhd-02.webp"
     },
     {
       "type": "image",
       "title": "3. Jalan Napas, Ventilasi, dan Tersedak",
-      "caption": "Rasio 30:2 bila terlatih; tersedak: 5 tepukan lalu 5 hentakan.",
-      "order": 3,
-      "image": "assets/images/main/pap/pap-bhd-03-jalan-napas-ventilasi-tersedak.webp",
-      "thumbnail": "assets/images/thumb/pap/pap-bhd-03-jalan-napas-ventilasi-tersedak-thumb.webp",
-      "version": 1
+      "caption": "Berikan napas efektif tanpa menunda kompresi dan tangani sumbatan dengan urutan yang benar.",
+      "image": "assets/images/v4/pap-bhd/pap-bhd-03.webp",
+      "thumbnail": "assets/images/thumb/v4/pap-bhd/pap-bhd-03.webp"
     },
     {
       "type": "html",
-      "title": "Poin inti",
-      "caption": "Urutan poster dikunci.",
-      "order": 4,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Henti jantung",
+            "text": "Pasien tidak responsif, tidak bernapas normal/hanya gasping, dan tidak ada nadi yang teraba pasti."
+          },
+          {
+            "title": "Henti napas dengan nadi",
+            "text": "Pasien tidak bernapas normal tetapi nadi ada; berikan 1 napas setiap 6 detik dan cek nadi berkala."
+          },
+          {
+            "title": "Gasping",
+            "text": "Napas megap-megap tidak teratur yang tidak dianggap napas normal."
+          },
+          {
+            "title": "CPR fraction",
+            "text": "Proporsi waktu selama resusitasi ketika kompresi dada berlangsung; interupsi harus diminimalkan."
+          },
+          {
+            "title": "AED",
+            "text": "Alat yang menganalisis irama dan memberi shock bila diperlukan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "1. Cek aman dan respons",
+            "text": "Sentuh bahu, panggil pasien, dan amati tanda respons."
+          },
+          {
+            "title": "2. Aktifkan bantuan",
+            "text": "Panggil tim/code blue dan minta AED; gunakan speaker phone bila perlu agar tidak meninggalkan pasien."
+          },
+          {
+            "title": "3. Nilai napas dan nadi",
+            "text": "Lakukan bersamaan maksimal 10 detik."
+          },
+          {
+            "title": "4. RJP 30:2",
+            "text": "Mulai kompresi di tengah dada; berikan napas bila terlatih dan alat tersedia."
+          },
+          {
+            "title": "5. Gunakan AED",
+            "text": "Nyalakan, tempel pad, pastikan tidak ada yang menyentuh saat analisis/shock, lalu lanjutkan RJP."
+          },
+          {
+            "title": "6. Evaluasi setiap ±2 menit",
+            "text": "Ganti penolong kompresi bila memungkinkan dan ikuti arahan tim/AED."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Nadi ada, napas tidak normal",
+            "text": "Berikan 1 napas setiap 6 detik, cek nadi tiap 2 menit, dan mulai RJP bila nadi hilang."
+          },
+          {
+            "title": "Pasien tersedak tetapi masih batuk efektif",
+            "text": "Dorong batuk dan pantau; jangan langsung melakukan hentakan."
+          },
+          {
+            "title": "Tersedak berat sadar",
+            "text": "Lakukan 5 back blows lalu 5 abdominal thrusts berulang; pada kondisi tertentu gunakan chest thrusts sesuai panduan."
+          },
+          {
+            "title": "Tersedak menjadi tidak responsif",
+            "text": "Turunkan dengan aman, mulai RJP, dan lihat mulut sebelum napas; keluarkan benda hanya bila terlihat."
+          },
+          {
+            "title": "Trauma atau kecurigaan cedera servikal",
+            "text": "Prioritaskan jalan napas dan resusitasi sambil menggunakan teknik yang sesuai kemampuan serta bantuan tim."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Memeriksa nadi terlalu lama",
+            "text": "Menunda kompresi menurunkan peluang keberhasilan."
+          },
+          {
+            "title": "Kompresi dangkal atau terlalu cepat",
+            "text": "Mengurangi perfusi dan recoil."
+          },
+          {
+            "title": "Berhenti lama untuk ventilasi/AED",
+            "text": "Interupsi harus sesingkat mungkin."
+          },
+          {
+            "title": "Ventilasi berlebihan",
+            "text": "Dapat meningkatkan tekanan intratoraks dan mengurangi aliran balik vena."
+          },
+          {
+            "title": "Blind finger sweep",
+            "text": "Dapat mendorong benda lebih dalam dan mencederai jalan napas."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
       "template": {
         "style": "checklist",
         "items": [
           {
-            "title": "Kenali henti jantung",
-            "text": "Tidak responsif dan tidak bernapas normal/gasping."
+            "title": "Mulai tindakan tanpa ragu berlebihan",
+            "text": "Jika nadi tidak teraba pasti dalam 10 detik pada pasien tidak responsif dan tidak bernapas normal, mulai kompresi."
           },
           {
-            "title": "Aktifkan bantuan",
-            "text": "Sistem internal dan AED."
+            "title": "Jaga kualitas",
+            "text": "Gunakan metronom/feedback bila tersedia, ganti penolong, dan awasi posisi tangan serta recoil."
           },
           {
-            "title": "Kompresi",
-            "text": "100–120/menit, 5–6 cm, recoil penuh."
+            "title": "Koordinasikan AED",
+            "text": "Satu petugas menyiapkan AED tanpa menghentikan kompresi lebih lama dari perlu."
           },
           {
-            "title": "Ventilasi",
-            "text": "2 napas setelah 30 kompresi bila terlatih."
+            "title": "Gunakan closed-loop",
+            "text": "Ulangi tugas dan laporkan selesai agar tim terkoordinasi."
           },
           {
-            "title": "Tersedak sadar",
-            "text": "5 tepukan punggung lalu 5 hentakan perut."
-          },
-          {
-            "title": "Tidak responsif",
-            "text": "Mulai RJP, benda terlihat saja, tanpa blind sweep."
+            "title": "Catat waktu penting",
+            "text": "Waktu ditemukan, mulai RJP, AED/shock, obat, ROSC, dan transfer mendukung evaluasi dan kesinambungan."
           }
         ],
         "columns": 1,
@@ -79,65 +201,154 @@
   ],
   "summarySections": [
     {
-      "title": "AED jangan ditunda",
+      "title": "Kenali cepat",
       "points": [
-        "Pasang segera sambil minimalkan jeda."
+        "Tidak responsif + tidak bernapas normal/gasping + tidak ada nadi pasti = mulai RJP."
       ]
     },
     {
-      "title": "Tersedak 2025",
+      "title": "Kualitas kompresi",
       "points": [
-        "Dimulai dengan back blows."
+        "100–120/menit, 5–6 cm, recoil penuh, interupsi minimal, ganti penolong sekitar 2 menit."
+      ]
+    },
+    {
+      "title": "AED",
+      "points": [
+        "Gunakan segera dan lanjutkan kompresi setelah analisis/shock."
+      ]
+    },
+    {
+      "title": "Tersedak AHA 2025",
+      "points": [
+        "5 back blows lalu 5 abdominal thrusts; bila tidak responsif mulai RJP dan jangan blind sweep."
       ]
     }
   ],
   "do": [
-    "Mulai kompresi segera.",
-    "Ganti penolong sekitar 2 menit."
+    "Nilai napas dan nadi maksimal 10 detik.",
+    "Mulai kompresi segera bila henti jantung dicurigai.",
+    "Pertahankan laju, kedalaman, dan recoil.",
+    "Gunakan AED secepat mungkin.",
+    "Lakukan closed-loop dan catat waktu penting."
   ],
   "dont": [
-    "Blind finger sweep.",
-    "Jeda kompresi lama."
+    "Menunggu terlalu lama untuk memastikan nadi.",
+    "Memberi ventilasi berlebihan.",
+    "Menghentikan kompresi lama.",
+    "Melakukan blind finger sweep.",
+    "Menunda AED karena menunggu tim lengkap."
   ],
   "quiz": [
     {
-      "q": "Laju kompresi dewasa…",
+      "q": "Tenaga kesehatan menilai napas dan nadi pada pasien tidak responsif selama…",
       "options": [
-        "60–80",
-        "80–100",
-        "100–120",
-        "140–160"
-      ],
-      "answer": 2,
-      "why": "AHA 2025: 100–120/menit."
-    },
-    {
-      "q": "Tersedak berat sadar dimulai…",
-      "options": [
-        "Hentakan perut",
-        "5 tepukan lalu 5 hentakan",
-        "Kompresi",
-        "Blind sweep"
+        "Maksimal 5 detik",
+        "Maksimal 10 detik",
+        "30 detik",
+        "1 menit"
       ],
       "answer": 1,
-      "why": "AHA 2025 merekomendasikan 5 back blows lalu 5 thrusts."
+      "why": "AHA merekomendasikan pemeriksaan bersamaan tidak lebih dari 10 detik."
+    },
+    {
+      "q": "Pasien tidak responsif, gasping, dan nadi tidak teraba pasti. Tindakan adalah…",
+      "options": [
+        "Menunggu monitor",
+        "Mulai RJP dan aktifkan bantuan/AED",
+        "Memberi minum",
+        "Posisi duduk"
+      ],
+      "answer": 1,
+      "why": "Gasping bukan napas normal dan ketidakpastian nadi tidak boleh menunda RJP."
+    },
+    {
+      "q": "Laju kompresi dewasa yang dianjurkan adalah…",
+      "options": [
+        "60–80/menit",
+        "80–90/menit",
+        "100–120/menit",
+        "140–160/menit"
+      ],
+      "answer": 2,
+      "why": "Rentang target adalah 100–120 kompresi per menit."
+    },
+    {
+      "q": "Kedalaman kompresi dewasa adalah…",
+      "options": [
+        "1–2 cm",
+        "3–4 cm",
+        "5–6 cm",
+        ">8 cm"
+      ],
+      "answer": 2,
+      "why": "Kompresi sekitar 5 cm dan tidak lebih dari 6 cm."
+    },
+    {
+      "q": "Pasien tidak bernapas normal tetapi nadi teraba. Tindakan paling tepat adalah…",
+      "options": [
+        "Kompresi terus-menerus",
+        "1 napas setiap 6 detik dan cek nadi tiap 2 menit",
+        "Tidak melakukan apa pun",
+        "Shock segera"
+      ],
+      "answer": 1,
+      "why": "Ini merupakan henti napas dengan nadi, bukan henti jantung."
+    },
+    {
+      "q": "Penanganan awal tersedak berat pada dewasa sadar menurut AHA 2025 adalah…",
+      "options": [
+        "5 abdominal thrusts saja",
+        "5 back blows lalu 5 abdominal thrusts",
+        "Blind finger sweep",
+        "Kompresi dada di tempat tidur"
+      ],
+      "answer": 1,
+      "why": "AHA 2025 memulai dengan 5 tepukan punggung kemudian 5 hentakan perut."
+    },
+    {
+      "q": "Setelah AED memberikan shock, tindakan berikutnya adalah…",
+      "options": [
+        "Memeriksa nadi selama 1 menit",
+        "Segera lanjutkan RJP sekitar 2 menit",
+        "Menunggu pasien membuka mata",
+        "Melepas pad"
+      ],
+      "answer": 1,
+      "why": "Kompresi dilanjutkan segera untuk meminimalkan jeda."
+    },
+    {
+      "q": "Saat korban tersedak menjadi tidak responsif, benda asing dikeluarkan…",
+      "options": [
+        "Dengan blind sweep setiap siklus",
+        "Hanya bila terlihat saat membuka mulut sebelum napas",
+        "Dengan alat tajam",
+        "Setelah pasien sadar"
+      ],
+      "answer": 1,
+      "why": "Benda hanya diambil bila terlihat; blind sweep dilarang."
     }
   ],
   "references": [
-    {
-      "title": "2025 AHA Guidelines — Adult Basic Life Support",
-      "org": "American Heart Association",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
-    },
     {
       "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "2025 AHA Guidelines — Adult Basic Life Support",
+      "org": "American Heart Association",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
+    },
+    {
+      "title": "2025 AHA Guidelines Algorithms",
+      "org": "American Heart Association",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/algorithms"
     }
   ]
 }

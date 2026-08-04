@@ -1,136 +1,314 @@
 {
   "id": "ppi-limbah-spill",
   "group": "ppi",
-  "title": "Limbah Medis, Spill Kit, dan Pajanan",
-  "short": "Limbah & Spill",
-  "desc": "Pemilahan warna, safety box, tumpahan darah/cairan tubuh, dan pajanan.",
+  "title": "Limbah, Spill Kit, dan Pajanan",
+  "short": "Pisahkan tiga risiko: limbah, tumpahan, dan pajanan",
+  "desc": "Memilah limbah sejak sumber, menangani tumpahan darah/cairan tubuh secara aman, dan merespons pajanan tanpa menunda.",
   "category": "PPI",
-  "color": "#1877C9",
-  "soft": "#EAF3FF",
-  "icon": "hands",
-  "minutes": 18,
-  "updated": "3 Agustus 2026",
+  "color": "#14805E",
+  "soft": "#EAF8F2",
+  "icon": "hand",
+  "minutes": 14,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
-      "title": "Pemilahan Limbah Medis",
-      "caption": "Pisahkan sesuai jenis, warna, simbol, dan ketentuan.",
-      "order": 1,
-      "image": "assets/images/main/ppi/ppi-07-limbah.webp",
-      "thumbnail": "assets/images/thumb/ppi/ppi-07-limbah-thumb.webp",
-      "version": 1
-    },
-    {
-      "type": "image",
-      "title": "1. Amankan Area",
-      "caption": "Batasi area.",
-      "order": 2,
-      "image": "assets/images/main/spill/spill-01-amankan-area.webp",
-      "thumbnail": "assets/images/thumb/spill/spill-01-amankan-area-thumb.webp",
-      "version": 1
-    },
-    {
-      "type": "image",
-      "title": "2. Gunakan APD",
-      "caption": "Pilih APD sesuai tumpahan.",
-      "order": 3,
-      "image": "assets/images/main/spill/spill-02-gunakan-apd.webp",
-      "thumbnail": "assets/images/thumb/spill/spill-02-gunakan-apd-thumb.webp",
-      "version": 1
-    },
-    {
-      "type": "image",
-      "title": "3. Tangani Tumpahan",
-      "caption": "Serap, bersihkan, disinfeksi.",
-      "order": 4,
-      "image": "assets/images/main/spill/spill-03-tangani-tumpahan.webp",
-      "thumbnail": "assets/images/thumb/spill/spill-03-tangani-tumpahan-thumb.webp",
-      "version": 1
-    },
-    {
-      "type": "image",
-      "title": "4. Buang dan Bersihkan",
-      "caption": "Kelola limbah, lepas APD, hand hygiene.",
-      "order": 5,
-      "image": "assets/images/main/spill/spill-04-buang-apd-bersihkan-alat.webp",
-      "thumbnail": "assets/images/thumb/spill/spill-04-buang-apd-bersihkan-alat-thumb.webp",
-      "version": 1
+      "title": "Limbah, Spill Kit, dan Pajanan",
+      "caption": "Tiga situasi membutuhkan respons berbeda: limbah dipilah, tumpahan dikendalikan, pajanan pada petugas segera ditolong dan dilaporkan.",
+      "image": "assets/images/v4/ppi-limbah-spill/ppi-limbah-spill-01.webp",
+      "thumbnail": "assets/images/thumb/v4/ppi-limbah-spill/ppi-limbah-spill-01.webp"
     },
     {
       "type": "html",
-      "title": "Respons pajanan",
-      "caption": "Lakukan segera.",
-      "order": 6,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
-        "style": "flow",
+        "style": "cards",
         "items": [
           {
-            "title": "Pertolongan pertama",
-            "text": "Cuci kulit/irigasi mukosa."
+            "title": "Pemilahan dimulai dari penghasil",
+            "text": "Orang yang menghasilkan limbah bertanggung jawab memasukkan ke wadah yang tepat saat itu juga."
           },
           {
-            "title": "Laporkan",
-            "text": "Ikuti alur PPI/K3."
+            "title": "Warna bukan satu-satunya informasi",
+            "text": "Simbol, label, jenis wadah, dan kebijakan fasilitas membantu membedakan infeksius, tajam, farmasi, sitotoksik, radioaktif, dan domestik."
           },
           {
-            "title": "Penilaian risiko",
-            "text": "Jenis pajanan dan sumber."
+            "title": "Spill kit untuk jenis tumpahan tertentu",
+            "text": "Tumpahan darah/cairan tubuh berbeda dari bahan kimia, merkuri, atau sitotoksik; jangan memakai satu prosedur untuk semua."
           },
           {
-            "title": "Follow-up",
-            "text": "Pemeriksaan/terapi sesuai layanan."
+            "title": "Pajanan adalah kedaruratan kerja",
+            "text": "Respons awal sederhana tetapi harus segera, kemudian dinilai secara profesional."
+          },
+          {
+            "title": "Pelaporan bertujuan melindungi",
+            "text": "Data pajanan membantu terapi, tindak lanjut, dan perbaikan sistem—bukan menghukum petugas."
           }
         ],
-        "columns": 4,
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Limbah",
+            "text": "Identifikasi kategori → buang ke wadah tepat → tutup pada batas → serahkan melalui alur pengangkutan yang aman."
+          },
+          {
+            "title": "Tumpahan darah/cairan tubuh",
+            "text": "Amankan area → gunakan APD → angkat benda tajam dengan alat → serap → bersihkan → disinfeksi → buang bahan terkontaminasi → kebersihan tangan."
+          },
+          {
+            "title": "Tusukan jarum",
+            "text": "Biarkan mengalir secara alami bila ada perdarahan, cuci air dan sabun, lapor segera, dan jalani penilaian risiko."
+          },
+          {
+            "title": "Percikan mata/mulut",
+            "text": "Bilas segera dalam jumlah cukup, lepaskan lensa kontak bila relevan, lalu lapor."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Catat waktu, jenis alat/cairan, kedalaman, lokasi, APD, kondisi sumber bila diketahui, dan tindakan awal tanpa menunda pelayanan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Jarum menonjol dari safety box",
+            "text": "Jangan ditekan dengan tangan; amankan area dan minta penggantian/penanganan oleh petugas terlatih."
+          },
+          {
+            "title": "Tumpahan mengandung bahan kimia/sitotoksik",
+            "text": "Gunakan prosedur dan kit khusus bahan tersebut; spill kit darah tidak otomatis memadai."
+          },
+          {
+            "title": "Sumber tidak diketahui",
+            "text": "Tetap lakukan penilaian pajanan; ketidakjelasan sumber bukan alasan menunda."
+          },
+          {
+            "title": "Pajanan terjadi saat malam hari",
+            "text": "Gunakan jalur layanan pajanan 24 jam atau sistem emergensi yang ditetapkan."
+          },
+          {
+            "title": "Petugas merasa pajanan “kecil”",
+            "text": "Tetap laporkan; risiko ditentukan melalui penilaian jenis cairan, rute, dan intensitas pajanan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Recapping jarum",
+            "text": "Meningkatkan tusukan; bila situasi khusus benar-benar memerlukan, gunakan teknik/perangkat yang disetujui."
+          },
+          {
+            "title": "Memencet atau menyayat luka",
+            "text": "Tidak terbukti memperbaiki hasil dan dapat merusak jaringan."
+          },
+          {
+            "title": "Menuangkan disinfektan tanpa membersihkan",
+            "text": "Bahan organik dapat mengurangi efektivitas dan percikan dapat memperluas kontaminasi."
+          },
+          {
+            "title": "Mengambil pecahan dengan tangan",
+            "text": "Gunakan alat seperti forceps/scoop sesuai kit."
+          },
+          {
+            "title": "Menunda laporan sampai akhir shift",
+            "text": "Dapat menunda profilaksis dan pemeriksaan awal."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Siapkan wadah sebelum tindakan",
+            "text": "Lokasi safety box dan kantong harus mudah dijangkau tanpa membawa jarum jauh."
+          },
+          {
+            "title": "Berhenti bila sarana tidak aman",
+            "text": "Wadah penuh, kit tidak lengkap, atau APD tidak tersedia harus dieskalasikan."
+          },
+          {
+            "title": "Lindungi area dan orang lain",
+            "text": "Pasang tanda dan cegah pasien/keluarga melewati tumpahan."
+          },
+          {
+            "title": "Bantu petugas yang terpajan",
+            "text": "Dukung pertolongan, penggantian tugas sementara, pelaporan, dan kerahasiaan."
+          },
+          {
+            "title": "Belajar dari kejadian",
+            "text": "Tinjau desain alat, alur kerja, beban, pencahayaan, pelatihan, dan kepatuhan."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Benda tajam",
+      "title": "Limbah",
       "points": [
-        "Masuk safety box."
+        "Pilah saat dihasilkan ke wadah yang tepat; benda tajam ke safety box."
       ]
     },
     {
-      "title": "Warna",
+      "title": "Spill",
       "points": [
-        "Hitam domestik, kuning infeksius, ungu sitotoksik, cokelat kimia/farmasi, merah radioaktif."
+        "Amankan area, gunakan APD, bersihkan dan disinfeksi sesuai jenis tumpahan."
+      ]
+    },
+    {
+      "title": "Pajanan",
+      "points": [
+        "Pertolongan segera, lapor, penilaian risiko, profilaksis bila perlu, dan follow-up."
+      ]
+    },
+    {
+      "title": "Jangan dicampur",
+      "points": [
+        "Tumpahan darah, bahan kimia, sitotoksik, dan radioaktif memiliki prosedur berbeda."
       ]
     }
   ],
   "do": [
-    "Buang tajam tanpa recap.",
-    "Tangani pajanan segera."
+    "Buang benda tajam segera ke safety box.",
+    "Amankan area sebelum membersihkan tumpahan.",
+    "Gunakan alat untuk mengambil benda tajam.",
+    "Cuci/bilas area pajanan segera.",
+    "Laporkan tanpa menunggu akhir shift."
   ],
   "dont": [
-    "Padatkan safety box.",
-    "Campur limbah."
+    "Recapping rutin.",
+    "Memencet atau menyayat luka tusuk.",
+    "Mengambil pecahan dengan tangan.",
+    "Memakai spill kit darah untuk semua bahan.",
+    "Menunda laporan karena pajanan terasa kecil."
   ],
   "quiz": [
     {
-      "q": "Jarum bekas ke…",
+      "q": "Setelah menyuntik, safety box terletak jauh dan hampir penuh. Tindakan paling aman adalah…",
       "options": [
-        "Hitam",
-        "Safety box",
-        "Ungu",
-        "Wastafel"
+        "Membawa jarum terbuka melewati ruangan",
+        "Menghentikan proses, menyediakan wadah aman yang sesuai, dan mengganti safety box penuh",
+        "Menutup jarum dengan dua tangan",
+        "Membuang ke kantong infeksius"
       ],
       "answer": 1,
-      "why": "Benda tajam ke safety box."
+      "why": "Benda tajam harus segera masuk wadah tahan tusuk yang tidak melebihi batas pengisian."
     },
     {
-      "q": "Ungu untuk…",
+      "q": "Perawat tertusuk jarum bekas pasien. Tindakan awal adalah…",
       "options": [
-        "Domestik",
-        "Sitotoksik",
-        "Radioaktif",
-        "Infeksius"
+        "Memencet luka kuat-kuat",
+        "Cuci dengan air dan sabun lalu lapor segera untuk penilaian",
+        "Memberi pemutih",
+        "Menunggu gejala"
       ],
       "answer": 1,
-      "why": "Ungu adalah sitotoksik."
+      "why": "Pertolongan awal dan penilaian cepat penting karena profilaksis mungkin sensitif waktu."
+    },
+    {
+      "q": "Tumpahan cairan sitotoksik sebaiknya…",
+      "options": [
+        "Ditangani sama seperti darah",
+        "Menggunakan prosedur dan kit khusus sitotoksik oleh petugas terlatih",
+        "Diseka tanpa APD",
+        "Dibilas ke drainase"
+      ],
+      "answer": 1,
+      "why": "Jenis bahaya menentukan kit dan prosedur."
+    },
+    {
+      "q": "Pecahan kaca terlihat di dalam tumpahan darah. Cara mengambilnya adalah…",
+      "options": [
+        "Dengan sarung tangan tebal langsung",
+        "Menggunakan forceps/scoop atau alat yang sesuai",
+        "Mendorong dengan kaki",
+        "Menggunakan kain tangan"
+      ],
+      "answer": 1,
+      "why": "Benda tajam tidak diambil dengan tangan."
+    },
+    {
+      "q": "Percikan darah mengenai mata. Tindakan adalah…",
+      "options": [
+        "Menggosok mata",
+        "Bilas segera dengan air/larutan sesuai dan lapor",
+        "Menutup mata sampai pulang",
+        "Memberi antiseptik pekat"
+      ],
+      "answer": 1,
+      "why": "Mukosa perlu dibilas tanpa bahan iritatif dan pajanan dinilai."
+    },
+    {
+      "q": "Mengapa tumpahan perlu dibersihkan sebelum disinfeksi?",
+      "options": [
+        "Agar lantai mengkilap",
+        "Bahan organik dapat mengurangi kerja disinfektan dan harus diangkat secara aman",
+        "Karena disinfektan tidak boleh dipakai",
+        "Hanya untuk dokumentasi"
+      ],
+      "answer": 1,
+      "why": "Pembersihan dan disinfeksi memiliki fungsi berbeda."
+    },
+    {
+      "q": "Petugas menyatakan tusukan “hanya sedikit”. Respons terbaik adalah…",
+      "options": [
+        "Tidak perlu laporan",
+        "Tetap lakukan penilaian karena risiko ditentukan oleh jenis cairan, rute, dan intensitas",
+        "Tunggu hasil sumber dulu",
+        "Menyalahkan petugas"
+      ],
+      "answer": 1,
+      "why": "Semua pajanan relevan perlu dinilai, bukan diputuskan hanya dari kesan awal."
+    },
+    {
+      "q": "Prinsip utama pemilahan limbah adalah…",
+      "options": [
+        "Dipilah ulang di tempat penyimpanan",
+        "Dipilah oleh penghasil pada titik terjadinya",
+        "Semua limbah klinis disatukan",
+        "Warna kantong saja selalu cukup"
+      ],
+      "answer": 1,
+      "why": "Pemilahan di sumber mencegah paparan dan pencampuran kategori."
     }
   ],
   "references": [
@@ -140,9 +318,9 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
   ]
 }

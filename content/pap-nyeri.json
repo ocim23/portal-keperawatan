@@ -2,123 +2,317 @@
   "id": "pap-nyeri",
   "group": "pap",
   "title": "Pengkajian dan Pengelolaan Nyeri",
-  "short": "Pengelolaan Nyeri",
-  "desc": "Kaji nyeri, intervensi, reassessment, dan dokumentasi respons.",
+  "short": "Nyeri",
+  "desc": "Menilai pengalaman nyeri, memilih skala, menyusun target, memberikan intervensi, dan melakukan reassessment.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 11,
-  "updated": "3 Agustus 2026",
+  "minutes": 22,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
+      "type": "image",
+      "title": "Pengkajian dan Pengelolaan Nyeri",
+      "caption": "Skor nyeri adalah awal percakapan, bukan seluruh pengkajian; tujuan terapi adalah kenyamanan dan fungsi yang bermakna bagi pasien.",
+      "image": "assets/images/v4/pap-nyeri/pap-nyeri-01.webp",
+      "thumbnail": "assets/images/thumb/v4/pap-nyeri/pap-nyeri-01.webp"
+    },
+    {
       "type": "html",
-      "title": "Siklus nyeri",
-      "caption": "Instrumen sesuai pasien.",
-      "order": 1,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
-        "style": "flow",
+        "style": "cards",
         "items": [
           {
-            "title": "Kaji",
-            "text": "Lokasi, intensitas, kualitas, waktu, dampak."
+            "title": "Nyeri",
+            "text": "Pengalaman sensorik dan emosional yang dipengaruhi kondisi fisik, psikologis, sosial, serta pengalaman pasien."
           },
           {
-            "title": "Tujuan",
-            "text": "Target realistis."
+            "title": "Skala nyeri",
+            "text": "Alat untuk membantu mengukur intensitas atau perilaku nyeri secara konsisten."
           },
           {
-            "title": "Intervensi",
-            "text": "Farmakologis/nonfarmakologis."
+            "title": "Target fungsi",
+            "text": "Kemampuan yang ingin dicapai, misalnya bernapas dalam, tidur, duduk, atau berjalan."
           },
           {
-            "title": "Kaji ulang",
-            "text": "Efektivitas dan efek samping."
+            "title": "Reassessment",
+            "text": "Penilaian ulang untuk mengetahui efektivitas dan keamanan intervensi."
           },
           {
-            "title": "Dokumentasi",
-            "text": "Skor, tindakan, waktu, hasil."
+            "title": "Breakthrough pain",
+            "text": "Episode nyeri yang muncul atau meningkat meskipun ada regimen dasar."
           }
         ],
-        "columns": 5,
+        "columns": 2,
         "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Pilih instrumen",
-      "caption": "Satu skala tidak untuk semua.",
-      "order": 2,
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Nilai pasien",
+            "text": "Tanyakan nyeri dan amati tanda nonverbal; jangan mengandalkan tanda vital saja."
+          },
+          {
+            "title": "Pilih alat",
+            "text": "Gunakan skala yang sama saat membandingkan respons bila kondisi memungkinkan."
+          },
+          {
+            "title": "Kaji karakteristik dan penyebab",
+            "text": "Gunakan kerangka seperti PQRST dan nilai red flag."
+          },
+          {
+            "title": "Tentukan tujuan",
+            "text": "Sepakati target intensitas/fungsi dan jelaskan rencana."
+          },
+          {
+            "title": "Berikan intervensi",
+            "text": "Ikuti instruksi, periksa kontraindikasi, dan gunakan cara nonfarmakologis yang sesuai."
+          },
+          {
+            "title": "Nilai ulang",
+            "text": "Catat waktu, skor/kemampuan, efek samping, dan tindakan berikutnya."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Pasien tidak verbal",
+            "text": "Gunakan skala observasi yang sesuai dan informasi keluarga, sambil menilai penyebab lain perubahan perilaku."
+          },
+          {
+            "title": "Nyeri baru sangat berat",
+            "text": "Nilai red flag dan lakukan eskalasi; jangan hanya mengulang analgesik."
+          },
+          {
+            "title": "Pasien tampak nyaman tetapi skor tinggi",
+            "text": "Percayai laporan pasien dan lakukan pengkajian lebih lanjut, bukan menuduh berlebihan."
+          },
+          {
+            "title": "Sedasi meningkat",
+            "text": "Hentikan/eskalasi sesuai kondisi dan nilai jalan napas, napas, serta obat yang diberikan."
+          },
+          {
+            "title": "Nyeri kronis",
+            "text": "Fokus pada fungsi, kualitas hidup, flare, dan rencana jangka panjang, bukan hanya angka nol."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Mampu komunikasi",
-            "text": "Numerik/verbal."
+            "title": "Hanya mencatat angka",
+            "text": "Tidak menjelaskan penyebab, fungsi, atau respons."
           },
           {
-            "title": "Anak/nonverbal",
-            "text": "Observasional sesuai usia."
+            "title": "Menggunakan skala tidak sesuai",
+            "text": "Anak kecil atau pasien kognitif tidak dapat memberi hasil yang valid dengan alat yang salah."
           },
           {
-            "title": "Kognitif",
-            "text": "Laporan, perilaku, keluarga."
+            "title": "Tidak reassessment",
+            "text": "Efektivitas dan efek samping tidak diketahui."
           },
           {
-            "title": "Kritis",
-            "text": "Indikator perilaku/fisiologis."
+            "title": "Mengejar skor nol tanpa konteks",
+            "text": "Dapat meningkatkan risiko terapi berlebihan."
+          },
+          {
+            "title": "Menganggap tanda vital normal berarti tidak nyeri",
+            "text": "Nyeri bersifat subjektif dan adaptasi dapat terjadi."
           }
         ],
         "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Dengarkan pasien",
+            "text": "Gunakan bahasa empatik dan hindari menghakimi."
+          },
+          {
+            "title": "Hubungkan nyeri dengan fungsi",
+            "text": "Tanyakan apa yang sulit dilakukan dan target pasien."
+          },
+          {
+            "title": "Pantau efek samping",
+            "text": "Khususnya pada opioid, sedatif, dan kombinasi obat."
+          },
+          {
+            "title": "Ajarkan cara melapor",
+            "text": "Pasien sebaiknya melapor sebelum nyeri sangat berat dan mengetahui pilihan nonfarmakologis."
+          },
+          {
+            "title": "Dokumentasikan respons",
+            "text": "Catat perubahan dan alasan bila target belum tercapai."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Individual",
+      "title": "Pengkajian lengkap",
       "points": [
-        "Nilai pasien, bukan angka saja."
+        "Intensitas, karakter, lokasi, waktu, pencetus/pereda, fungsi, gejala penyerta, dan makna bagi pasien."
       ]
     },
     {
-      "title": "Reassessment",
+      "title": "Target individual",
       "points": [
-        "Pemberian obat tanpa evaluasi belum lengkap."
+        "Target dapat berupa intensitas atau kemampuan berfungsi, bukan selalu nyeri nol."
+      ]
+    },
+    {
+      "title": "Intervensi dan keselamatan",
+      "points": [
+        "Nilai kontraindikasi dan efek samping serta gunakan pendekatan multimodal."
+      ]
+    },
+    {
+      "title": "Reassessment wajib",
+      "points": [
+        "Tindakan belum lengkap sampai efek dan keamanan dinilai ulang."
       ]
     }
   ],
   "do": [
-    "Tentukan waktu reassessment.",
-    "Laporkan nyeri tak terkontrol."
+    "Gunakan skala sesuai kemampuan.",
+    "Kaji karakteristik dan dampak fungsi.",
+    "Sepakati target realistis.",
+    "Pantau efek samping.",
+    "Lakukan reassessment dan tindak lanjut."
   ],
   "dont": [
-    "Satu skala untuk semua.",
-    "Catat obat tanpa respons."
+    "Mengandalkan angka saja.",
+    "Menganggap pasien melebih-lebihkan.",
+    "Mengulang obat tanpa menilai red flag.",
+    "Mengejar skor nol dengan risiko berlebihan.",
+    "Tidak mengevaluasi efek intervensi."
   ],
   "quiz": [
     {
-      "q": "Setelah analgesik…",
+      "q": "Pasien nonverbal tampak meringis dan menarik diri saat digerakkan. Tindakan terbaik adalah…",
       "options": [
-        "Tidak perlu",
-        "Reassessment nyeri/efek",
-        "Hapus skor",
-        "Tunggu diminta"
+        "Menganggap tidak nyeri karena tidak bicara",
+        "Menggunakan skala observasi sesuai dan menilai penyebab",
+        "Memberi obat tanpa asesmen",
+        "Menunggu keluarga"
       ],
       "answer": 1,
-      "why": "Efektivitas perlu dinilai."
+      "why": "Pasien nonverbal tetap memerlukan pengkajian dengan alat yang sesuai."
     },
     {
-      "q": "Skala dipilih berdasarkan…",
+      "q": "Tujuan reassessment nyeri adalah…",
       "options": [
-        "Usia/komunikasi/kondisi",
-        "Gelang",
-        "Kamar",
-        "Jam"
+        "Mengisi formulir",
+        "Menilai efektivitas, fungsi, dan efek samping",
+        "Menentukan diagnosis definitif",
+        "Mengganti semua obat"
       ],
-      "answer": 0,
-      "why": "Instrumen sesuai pasien."
+      "answer": 1,
+      "why": "Reassessment menutup siklus intervensi."
+    },
+    {
+      "q": "Pasien mendapat opioid lalu menjadi sangat mengantuk. Prioritas adalah…",
+      "options": [
+        "Membiarkan tidur",
+        "Menilai jalan napas, pernapasan, sedasi, dan melakukan eskalasi",
+        "Memberi dosis berikutnya",
+        "Hanya mencatat skor nyeri"
+      ],
+      "answer": 1,
+      "why": "Sedasi dapat mendahului depresi napas dan memerlukan respons cepat."
+    },
+    {
+      "q": "Skor nyeri 8/10 tetapi pasien masih tenang. Sikap perawat adalah…",
+      "options": [
+        "Menganggap pasien berbohong",
+        "Menerima laporan dan melakukan pengkajian lebih lanjut",
+        "Mengubah skor menjadi 3",
+        "Tidak memberi intervensi"
+      ],
+      "answer": 1,
+      "why": "Nyeri adalah pengalaman subjektif dan ekspresi bervariasi."
+    },
+    {
+      "q": "Target nyeri yang baik adalah…",
+      "options": [
+        "Nyeri harus selalu 0",
+        "Target yang disepakati, misalnya mampu batuk efektif atau tidur",
+        "Sama untuk semua pasien",
+        "Ditentukan dari ekspresi wajah saja"
+      ],
+      "answer": 1,
+      "why": "Target harus individual dan bermakna."
+    },
+    {
+      "q": "PQRST membantu menilai…",
+      "options": [
+        "Hanya intensitas",
+        "Pencetus/pereda, kualitas, lokasi/penjalaran, keparahan, dan waktu",
+        "Risiko jatuh",
+        "Status nutrisi"
+      ],
+      "answer": 1,
+      "why": "PQRST memperluas pengkajian karakteristik nyeri."
+    },
+    {
+      "q": "Nyeri dada baru sangat berat memerlukan…",
+      "options": [
+        "Analgesik saja",
+        "Penilaian red flag dan eskalasi segera",
+        "Reassessment besok",
+        "Edukasi relaksasi saja"
+      ],
+      "answer": 1,
+      "why": "Penyebab berbahaya harus dinilai sebelum fokus pada gejala saja."
+    },
+    {
+      "q": "Pernyataan paling tepat tentang tanda vital adalah…",
+      "options": [
+        "Normal berarti tidak nyeri",
+        "Dapat membantu tetapi tidak menggantikan laporan dan pengkajian pasien",
+        "Selalu meningkat pada nyeri",
+        "Tidak perlu dinilai"
+      ],
+      "answer": 1,
+      "why": "Tanda vital bukan ukuran tunggal nyeri."
     }
   ],
   "references": [
@@ -128,9 +322,9 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
   ]
 }

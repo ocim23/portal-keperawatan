@@ -2,39 +2,50 @@
   "id": "hpk-privasi-persetujuan",
   "group": "hpk",
   "title": "Privasi, Kerahasiaan, Persetujuan, dan Penolakan",
-  "short": "Privasi & Persetujuan",
-  "desc": "Lindungi informasi dan dukung keputusan setelah penjelasan.",
+  "short": "Empat konsep berbeda yang saling berkaitan",
+  "desc": "Melindungi tubuh dan informasi pasien, serta mendukung keputusan yang sadar, sukarela, dan terdokumentasi.",
   "category": "HPK",
-  "color": "#B64B73",
-  "soft": "#FFF0F6",
+  "color": "#A34D78",
+  "soft": "#FFF0F7",
   "icon": "rights",
-  "minutes": 11,
-  "updated": "3 Agustus 2026",
+  "minutes": 17,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
+      "type": "image",
+      "title": "Privasi, Kerahasiaan, Persetujuan, dan Penolakan",
+      "caption": "Privasi melindungi ruang dan tubuh; kerahasiaan melindungi informasi; persetujuan/penolakan adalah proses keputusan setelah informasi memadai.",
+      "image": "assets/images/v4/hpk-privasi-persetujuan/hpk-privasi-persetujuan-01.webp",
+      "thumbnail": "assets/images/thumb/v4/hpk-privasi-persetujuan/hpk-privasi-persetujuan-01.webp"
+    },
+    {
       "type": "html",
-      "title": "Privasi/kerahasiaan",
-      "caption": "Langsung dan digital.",
-      "order": 1,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Fisik",
-            "text": "Tirai dan penutup."
+            "title": "Privasi dan kerahasiaan tidak identik",
+            "text": "Privasi berkaitan dengan ruang, tubuh, dan gangguan; kerahasiaan berkaitan dengan informasi."
           },
           {
-            "title": "Percakapan",
-            "text": "Hindari area publik."
+            "title": "Persetujuan adalah proses",
+            "text": "Tanda tangan tidak menggantikan penjelasan, kesempatan bertanya, dan keputusan sukarela."
           },
           {
-            "title": "Rekam medis",
-            "text": "Akses berwenang."
+            "title": "Kapasitas bersifat spesifik dan dapat berubah",
+            "text": "Pasien dapat mampu membuat satu keputusan tetapi tidak keputusan lain; nyeri, delirium, obat, atau kondisi akut dapat memengaruhi."
           },
           {
-            "title": "Foto/video",
-            "text": "Dasar, tujuan, izin, pengelolaan."
+            "title": "Perawat memiliki peran penting",
+            "text": "Menjaga privasi, memastikan pasien mendapat penjelasan, mengenali ketidakpahaman/paksaan, dan melaporkan masalah."
+          },
+          {
+            "title": "Minimum necessary",
+            "text": "Bagikan hanya informasi yang diperlukan kepada pihak yang tepat melalui media yang aman."
           }
         ],
         "columns": 2,
@@ -43,78 +54,261 @@
     },
     {
       "type": "html",
-      "title": "Persetujuan/penolakan",
-      "caption": "Tanda tangan bukan inti satu-satunya.",
-      "order": 2,
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
       "template": {
-        "style": "flow",
+        "style": "timeline",
         "items": [
           {
-            "title": "Informasi",
-            "text": "Tujuan, manfaat, risiko, alternatif."
+            "title": "Sebelum tindakan",
+            "text": "Perkenalkan diri, verifikasi pasien, jelaskan tindakan dan peran, pastikan privasi, lalu minta izin sesuai lingkup."
           },
           {
-            "title": "Kapasitas/sukarela",
-            "text": "Pihak berwenang."
+            "title": "Untuk tindakan dengan informed consent formal",
+            "text": "Pastikan proses dilakukan oleh pihak berwenang, dokumen sesuai, pasien punya kesempatan bertanya, dan tidak ada paksaan."
           },
           {
-            "title": "Pertanyaan",
-            "text": "Kesempatan klarifikasi."
+            "title": "Saat pasien menolak",
+            "text": "Hentikan tekanan, gali alasan, berikan informasi risiko/alternatif, cek pemahaman/kapasitas, hubungi pihak berwenang, dan dokumentasikan."
           },
           {
-            "title": "Dokumentasi",
-            "text": "Keputusan dan tindak lanjut."
+            "title": "Saat berbagi data",
+            "text": "Verifikasi penerima, tujuan, kewenangan, saluran komunikasi, serta batas informasi."
+          },
+          {
+            "title": "Saat menggunakan perangkat digital",
+            "text": "Gunakan sistem resmi, kunci layar, hindari akun bersama, dan jangan menyimpan foto/data di perangkat pribadi tanpa dasar yang sah."
           }
         ],
-        "columns": 4,
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Pasien tidak sadar dan situasi emergensi",
+            "text": "Ikuti ketentuan tindakan darurat serta dokumentasi; upayakan menghubungi pengganti yang sah tanpa menunda tindakan penyelamatan yang dibenarkan."
+          },
+          {
+            "title": "Ada dugaan paksaan keluarga",
+            "text": "Berikan ruang privat, nilai keinginan pasien, dan eskalasi ke tim/etik bila perlu."
+          },
+          {
+            "title": "Pasien meminta foto luka untuk dirinya",
+            "text": "Ikuti kebijakan fasilitas tentang dokumentasi, perangkat, penyimpanan, dan pembagian; jangan gunakan perangkat pribadi otomatis."
+          },
+          {
+            "title": "Permintaan aparat/asuransi/pihak luar",
+            "text": "Jangan membagikan langsung; arahkan ke jalur resmi dan verifikasi dasar hukumnya."
+          },
+          {
+            "title": "Pasien tidak memahami bahasa",
+            "text": "Gunakan penerjemah yang sesuai; jangan mengandalkan anak kecil atau pihak yang memiliki konflik kepentingan bila alternatif tersedia."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menarik tirai tetapi berbicara keras",
+            "text": "Privasi visual tidak cukup bila informasi terdengar orang lain."
+          },
+          {
+            "title": "Tanda tangan tanpa pemahaman",
+            "text": "Dokumen tampak lengkap tetapi keputusan tidak benar-benar informed."
+          },
+          {
+            "title": "Menggunakan grup pesan pribadi",
+            "text": "Risiko salah penerima, salinan tidak terkendali, dan keamanan data."
+          },
+          {
+            "title": "Menganggap keluarga boleh memaksa",
+            "text": "Keputusan pasien yang berkapasitas tetap utama."
+          },
+          {
+            "title": "Tidak mendokumentasikan penolakan",
+            "text": "Membuat alasan, informasi, risiko, dan tindak lanjut tidak dapat ditelusuri."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Ciptakan privasi sebelum mulai",
+            "text": "Tirai, pintu, suara, jumlah orang, dan posisi tubuh diperhatikan."
+          },
+          {
+            "title": "Kenali tanda tidak paham atau terpaksa",
+            "text": "Pasien ragu, memberi jawaban tidak konsisten, atau melihat keluarga sebelum menjawab."
+          },
+          {
+            "title": "Gunakan teach-back",
+            "text": "Minta pasien menjelaskan kembali inti keputusan dengan kata sendiri."
+          },
+          {
+            "title": "Jaga data di setiap media",
+            "text": "Layar, printout, label, foto, percakapan, dan aplikasi pesan."
+          },
+          {
+            "title": "Eskalasi konflik etik/hukum",
+            "text": "Jangan memutuskan sendiri pada situasi kompleks."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Keluarga",
+      "title": "Privasi",
       "points": [
-        "Tidak otomatis menerima semua informasi."
+        "Melindungi tubuh, ruang, suara, dan gangguan."
+      ]
+    },
+    {
+      "title": "Kerahasiaan",
+      "points": [
+        "Melindungi informasi dari akses atau pembagian yang tidak berwenang."
+      ]
+    },
+    {
+      "title": "Persetujuan",
+      "points": [
+        "Proses informasi, pemahaman, kapasitas, sukarela, dan dokumentasi."
       ]
     },
     {
       "title": "Penolakan",
       "points": [
-        "Pastikan memahami konsekuensi."
+        "Gali alasan, jelaskan risiko/alternatif, hormati keputusan, dokumentasikan, dan tindak lanjuti."
       ]
     }
   ],
   "do": [
-    "Batasi akses info.",
-    "Pastikan penjelasan."
+    "Batasi paparan tubuh dan suara.",
+    "Verifikasi penerima informasi.",
+    "Pastikan persetujuan diberikan tanpa paksaan.",
+    "Gunakan saluran digital resmi.",
+    "Dokumentasikan penolakan dan tindak lanjut."
   ],
   "dont": [
-    "Formulir=consent.",
-    "Kirim data tak aman."
+    "Menganggap tanda tangan cukup.",
+    "Memakai perangkat pribadi untuk foto klinis tanpa dasar.",
+    "Membagi data ke grup umum.",
+    "Membiarkan keluarga memaksa pasien berkapasitas.",
+    "Membahas pasien di lift atau koridor."
   ],
   "quiz": [
     {
-      "q": "Inti informed consent…",
+      "q": "Perawat menutup tirai tetapi menjelaskan diagnosis dengan suara keras di ruang bersama. Masalah utama adalah…",
       "options": [
-        "Tanda tangan",
-        "Informasi dan keputusan sukarela",
-        "Cap RS",
-        "Persetujuan perawat"
+        "Tidak ada",
+        "Kerahasiaan informasi masih terancam walau privasi visual dijaga",
+        "Tirai tidak diperlukan",
+        "Hanya masalah estetika"
       ],
       "answer": 1,
-      "why": "Consent adalah proses komunikasi."
+      "why": "Privasi visual dan kerahasiaan suara harus sama-sama dijaga."
     },
     {
-      "q": "Bahas pasien di lift…",
+      "q": "Pasien sudah menandatangani formulir tetapi tidak dapat menjelaskan tujuan tindakan. Tindakan adalah…",
       "options": [
-        "Aman",
-        "Risiko kerahasiaan",
-        "Edukasi",
-        "IKP"
+        "Lanjut karena ada tanda tangan",
+        "Hentikan dan pastikan penjelasan/pemahaman melalui pihak berwenang",
+        "Minta keluarga menandatangani tambahan tanpa bicara",
+        "Hapus formulir"
       ],
       "answer": 1,
-      "why": "Area publik tidak tepat."
+      "why": "Informed consent adalah proses, bukan sekadar tanda tangan."
+    },
+    {
+      "q": "Pasien berkapasitas menolak tindakan setelah memahami risiko. Perawat seharusnya…",
+      "options": [
+        "Memaksa",
+        "Menghormati keputusan, dokumentasi, dan menginformasikan tim untuk rencana aman",
+        "Memberi sedasi",
+        "Menyembunyikan risiko"
+      ],
+      "answer": 1,
+      "why": "Penolakan yang informed perlu dihormati dan dikelola."
+    },
+    {
+      "q": "Foto luka diambil dengan telepon pribadi untuk dikirim ke grup tidak resmi. Risiko utamanya adalah…",
+      "options": [
+        "Kualitas gambar",
+        "Pelanggaran privasi/kerahasiaan dan kontrol data",
+        "Baterai habis",
+        "Warna tidak akurat"
+      ],
+      "answer": 1,
+      "why": "Data pasien tidak boleh diproses melalui perangkat/saluran tanpa otorisasi dan pengamanan."
+    },
+    {
+      "q": "Keluarga meminta data pasien yang sadar dan menolak pembagian. Tindakan adalah…",
+      "options": [
+        "Memberi karena keluarga dekat",
+        "Menjaga preferensi pasien kecuali ada dasar sah lain",
+        "Meminta keluarga membuka rekam medis",
+        "Mengumumkan di meja perawat"
+      ],
+      "answer": 1,
+      "why": "Pasien berkapasitas mengontrol pembagian informasinya."
+    },
+    {
+      "q": "Teach-back pada proses persetujuan membantu menilai…",
+      "options": [
+        "Kemampuan membaca tulisan tangan",
+        "Pemahaman pasien terhadap informasi penting",
+        "Kesetiaan keluarga",
+        "Kecepatan pelayanan"
+      ],
+      "answer": 1,
+      "why": "Pasien menjelaskan dengan kata sendiri untuk menunjukkan pemahaman."
+    },
+    {
+      "q": "Situasi emergensi pada pasien tidak sadar tanpa keluarga…",
+      "options": [
+        "Selalu menunggu keluarga",
+        "Mengikuti ketentuan tindakan darurat dan dokumentasi sambil mengupayakan kontak pengganti",
+        "Tidak boleh melakukan apa pun",
+        "Meminta pasien tanda tangan"
+      ],
+      "answer": 1,
+      "why": "Kondisi darurat memiliki ketentuan khusus untuk mencegah keterlambatan berbahaya."
+    },
+    {
+      "q": "Pihak luar meminta hasil medis melalui pesan pribadi. Perawat seharusnya…",
+      "options": [
+        "Langsung kirim",
+        "Arahkan ke jalur resmi dan verifikasi kewenangan/dasar pembagian",
+        "Kirim sebagian tanpa identitas",
+        "Meminta imbalan"
+      ],
+      "answer": 1,
+      "why": "Permintaan data harus diproses melalui mekanisme resmi dan terotorisasi."
     }
   ],
   "references": [
@@ -124,9 +318,14 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Permenkes Nomor 24 Tahun 2022 — Rekam Medis",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/peraturan-menteri-kesehatan-nomor-24-tahun-2022"
     }
   ]
 }

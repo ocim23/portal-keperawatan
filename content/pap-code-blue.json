@@ -3,135 +3,316 @@
   "group": "pap",
   "title": "Code Blue di Rumah Sakit",
   "short": "Code Blue",
-  "desc": "Kenali kondisi, aktifkan sistem, mulai BHD, siapkan alat, kolaborasi, dokumentasi.",
+  "desc": "Sistem respons terkoordinasi untuk henti jantung atau kegawatan yang memerlukan resusitasi segera.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 14,
-  "updated": "3 Agustus 2026",
-  "notice": "",
+  "minutes": 22,
+  "updated": "4 Agustus 2026",
+  "notice": "Nomor, kriteria aktivasi, dan pembagian peran mengikuti sistem Code Blue fasilitas.",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
       "title": "Code Blue di Rumah Sakit",
-      "caption": "Nomor aktivasi, lokasi alat, dan tim mengikuti sistem internal.",
-      "order": 1,
-      "image": "assets/images/main/pap/pap-05-code-blue.webp",
-      "thumbnail": "assets/images/thumb/pap/pap-05-code-blue-thumb.webp",
-      "version": 1
+      "caption": "Code Blue bukan hanya panggilan; keberhasilannya bergantung pada deteksi, aktivasi, BHD awal, tim, alat, komunikasi, dan evaluasi.",
+      "image": "assets/images/v4/pap-code-blue/pap-code-blue-01.webp",
+      "thumbnail": "assets/images/thumb/v4/pap-code-blue/pap-code-blue-01.webp"
     },
     {
       "type": "html",
-      "title": "Peran penemu pasien",
-      "caption": "Jangan menunggu tim untuk BHD awal.",
-      "order": 2,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
-        "style": "flow",
+        "style": "cards",
         "items": [
           {
-            "title": "Kenali kondisi",
-            "text": "Tidak responsif/tidak bernapas normal."
+            "title": "Code Blue",
+            "text": "Sistem respons rumah sakit untuk kejadian resusitasi atau kegawatan tertentu sesuai kriteria lokal."
           },
           {
-            "title": "Aktifkan code blue",
-            "text": "Lokasi dan kondisi jelas."
+            "title": "First responder",
+            "text": "Petugas pertama yang menemukan pasien dan memulai respons awal."
           },
           {
-            "title": "Mulai BHD",
-            "text": "Kompresi berkualitas."
+            "title": "Team leader",
+            "text": "Mengintegrasikan penilaian, irama, tindakan, keputusan, dan komunikasi tim."
           },
           {
-            "title": "Minta alat",
-            "text": "Crash cart, AED/defibrillator, oksigen."
+            "title": "Closed-loop",
+            "text": "Tugas disebutkan kepada orang tertentu, diulang, dikonfirmasi, dan dilaporkan selesai."
+          },
+          {
+            "title": "Debriefing",
+            "text": "Refleksi terstruktur setelah kejadian untuk belajar dan mendukung tim, bukan mencari kesalahan individu."
           }
         ],
-        "columns": 4,
+        "columns": 2,
         "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Kolaborasi tim",
-      "caption": "Pembagian peran mengurangi kekacauan.",
-      "order": 3,
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Kenali kondisi",
+            "text": "Cek aman, respons, napas, dan nadi sesuai BHD."
+          },
+          {
+            "title": "Aktifkan",
+            "text": "Gunakan nomor/tombol/sistem internal dan sebut lokasi jelas."
+          },
+          {
+            "title": "Mulai BHD dan AED",
+            "text": "Lakukan kompresi, ventilasi, dan defibrilasi sesuai kemampuan tanpa menunggu tim."
+          },
+          {
+            "title": "Siapkan akses",
+            "text": "Buka jalur menuju lokasi, pindahkan penghalang, dan arahkan tim."
+          },
+          {
+            "title": "Serahkan dengan singkat",
+            "text": "Sebut waktu ditemukan, kondisi awal, tindakan, shock, obat, perubahan, dan informasi pasien."
+          },
+          {
+            "title": "Dokumentasi dan debrief",
+            "text": "Catat waktu serta tindakan, pulihkan peralatan, dan lakukan evaluasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Lokasi sulit ditemukan",
+            "text": "Gunakan penunjuk atau petugas untuk menjemput tim dan sebut gedung, lantai, unit, serta titik terdekat."
+          },
+          {
+            "title": "Pasien dengan status DNR",
+            "text": "Pastikan status jelas dan dapat dikenali; bila tidak jelas, ikuti proses emergensi fasilitas sambil melakukan klarifikasi."
+          },
+          {
+            "title": "Ruang sempit",
+            "text": "Atur area, keluarkan orang yang tidak perlu, dan pindahkan pasien bila aman serta diperlukan."
+          },
+          {
+            "title": "Banyak petugas datang",
+            "text": "Leader menetapkan peran; orang tanpa tugas tidak memenuhi area resusitasi."
+          },
+          {
+            "title": "Setelah ROSC",
+            "text": "Lanjutkan stabilisasi, monitoring, komunikasi, dan transfer; Code Blue tidak selesai saat nadi kembali."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Kompresi",
-            "text": "Jaga kualitas dan ganti."
+            "title": "Aktivasi terlambat",
+            "text": "Menunggu senior atau memastikan terlalu lama mengurangi waktu BHD dan defibrilasi."
           },
           {
-            "title": "Jalan napas",
-            "text": "Sesuai kompetensi."
+            "title": "Lokasi tidak spesifik",
+            "text": "Tim kehilangan waktu mencari pasien."
           },
           {
-            "title": "Defibrilasi/monitor",
-            "text": "Pasang pad dan analisis."
+            "title": "Semua memberi perintah",
+            "text": "Tugas tumpang tindih dan tindakan penting terlewat."
           },
           {
-            "title": "Obat",
-            "text": "Siapkan sesuai instruksi."
+            "title": "Pencatatan waktu tidak jelas",
+            "text": "Evaluasi kualitas dan kesinambungan menjadi sulit."
           },
           {
-            "title": "Pencatat",
-            "text": "Waktu, ritme, tindakan, obat."
-          },
-          {
-            "title": "Pemimpin",
-            "text": "Koordinasi dan closed-loop."
+            "title": "Crash cart tidak dipulihkan",
+            "text": "Kejadian berikutnya berisiko kekurangan alat atau obat."
           }
         ],
         "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kenali nomor dan sistem lokal",
+            "text": "Setiap staf harus tahu cara aktivasi dan lokasi alat terdekat."
+          },
+          {
+            "title": "Mulai BHD segera",
+            "text": "Kompetensi first responder menentukan menit awal sebelum tim tiba."
+          },
+          {
+            "title": "Berkomunikasi singkat",
+            "text": "Gunakan closed-loop dan sebut perubahan dengan suara jelas."
+          },
+          {
+            "title": "Jaga keselamatan area",
+            "text": "Kelola kabel, benda tajam, cairan, oksigen, dan lalu lintas petugas."
+          },
+          {
+            "title": "Belajar setelah kejadian",
+            "text": "Laporkan hambatan, lengkapi alat, dan terapkan perbaikan."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Sistem, bukan hanya tim",
+      "title": "Rantai respons",
       "points": [
-        "Aktivasi, alat, BHD, peran harus siap."
+        "Kenali → aktifkan → BHD/AED → tim terkoordinasi → perawatan pasca-ROSC → debrief."
       ]
     },
     {
-      "title": "Debriefing",
+      "title": "Informasi aktivasi",
       "points": [
-        "Evaluasi respons dan hambatan."
+        "Lokasi spesifik, kondisi, jenis pasien, dan akses. Nomor aktivasi mengikuti fasilitas."
+      ]
+    },
+    {
+      "title": "Tim efektif",
+      "points": [
+        "Satu leader, peran jelas, closed-loop, minim orang tanpa tugas."
+      ]
+    },
+    {
+      "title": "Setelah kejadian",
+      "points": [
+        "Dokumentasi, handover, pemulihan crash cart, debrief, dan tindak lanjut sistem."
       ]
     }
   ],
   "do": [
-    "Ketahui cara aktivasi unit.",
-    "Pastikan crash cart siap."
+    "Aktifkan segera dan sebut lokasi spesifik.",
+    "Mulai BHD/AED tanpa menunggu tim.",
+    "Gunakan closed-loop.",
+    "Catat waktu dan tindakan.",
+    "Pulihkan crash cart dan lakukan debrief."
   ],
   "dont": [
-    "Menunggu tim tanpa BHD.",
-    "Memakai nomor contoh sebagai universal."
+    "Menunggu tim sebelum kompresi.",
+    "Memberi lokasi yang tidak jelas.",
+    "Membiarkan banyak pemimpin.",
+    "Mengabaikan keselamatan area.",
+    "Meninggalkan alat tanpa restock."
   ],
   "quiz": [
     {
-      "q": "Setelah menemukan pasien tidak responsif…",
+      "q": "Saat menemukan pasien henti jantung, perawat harus…",
       "options": [
-        "Tunggu dokter",
-        "Aktifkan bantuan dan BHD",
-        "Cari keluarga",
-        "Isi formulir"
+        "Menunggu tim code blue",
+        "Mengaktifkan bantuan dan memulai BHD/AED segera",
+        "Mencari rekam medis dulu",
+        "Menghubungi keluarga dulu"
       ],
       "answer": 1,
-      "why": "Aktivasi dan BHD segera."
+      "why": "Menit awal menentukan; BHD tidak menunggu tim lengkap."
     },
     {
-      "q": "Nomor Code Blue adalah…",
+      "q": "Informasi aktivasi paling penting adalah…",
       "options": [
-        "Selalu 7777",
-        "Sistem fasilitas",
-        "Nomor kamar",
-        "Nomor pribadi"
+        "Nama semua petugas",
+        "Lokasi spesifik dan kondisi pasien",
+        "Riwayat penyakit lengkap",
+        "Nomor kamar petugas"
       ],
       "answer": 1,
-      "why": "Aktivasi bersifat lokal."
+      "why": "Tim harus dapat menemukan pasien secepat mungkin."
+    },
+    {
+      "q": "Closed-loop ditunjukkan oleh…",
+      "options": [
+        "Leader berkata “siapkan obat” ke ruangan",
+        "Petugas mengulang “adrenalin 1 mg IV” dan melaporkan setelah diberikan",
+        "Semua berbicara",
+        "Tugas ditulis setelah kejadian"
+      ],
+      "answer": 1,
+      "why": "Pengulangan dan laporan selesai memastikan tugas dipahami serta dilakukan."
+    },
+    {
+      "q": "Banyak petugas datang tanpa tugas. Tindakan leader adalah…",
+      "options": [
+        "Membiarkan semua ikut",
+        "Menetapkan peran dan meminta yang tidak bertugas menjaga area tetap kosong",
+        "Menghentikan resusitasi",
+        "Memindahkan pasien tanpa alasan"
+      ],
+      "answer": 1,
+      "why": "Area dan tugas yang jelas meningkatkan efektivitas tim."
+    },
+    {
+      "q": "Setelah ROSC, prioritas adalah…",
+      "options": [
+        "Mengakhiri semua monitoring",
+        "Melanjutkan stabilisasi, pemantauan, dan transfer sesuai kebutuhan",
+        "Melepas seluruh akses",
+        "Membubarkan tim tanpa handover"
+      ],
+      "answer": 1,
+      "why": "Pasca-ROSC memerlukan perawatan lanjutan dan komunikasi."
+    },
+    {
+      "q": "Debriefing bertujuan untuk…",
+      "options": [
+        "Menentukan siapa yang dihukum",
+        "Mempelajari proses, mendukung tim, dan memperbaiki sistem",
+        "Menghapus catatan",
+        "Menggantikan laporan klinis"
+      ],
+      "answer": 1,
+      "why": "Debriefing berfokus pada pembelajaran dan perbaikan."
+    },
+    {
+      "q": "Crash cart dianggap siap bila…",
+      "options": [
+        "Terlihat bersih",
+        "Isi terstandar, segel/cek berlaku, alat berfungsi, dan mudah diakses",
+        "Dikunci di ruangan jauh",
+        "Hanya diperiksa setelah dipakai"
+      ],
+      "answer": 1,
+      "why": "Kesiapan harus dipastikan sebelum kejadian."
+    },
+    {
+      "q": "Nomor aktivasi Code Blue dalam materi umum sebaiknya…",
+      "options": [
+        "Dianggap sama di semua rumah sakit",
+        "Mengikuti sistem fasilitas masing-masing",
+        "Diganti nomor pribadi petugas",
+        "Tidak perlu diketahui staf"
+      ],
+      "answer": 1,
+      "why": "Jalur aktivasi adalah kebijakan lokal yang wajib diketahui setiap staf."
     }
   ],
   "references": [
@@ -141,14 +322,14 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
-      "title": "2025 AHA Guidelines — Adult Basic Life Support",
+      "title": "2025 AHA Guidelines Algorithms",
       "org": "American Heart Association",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/algorithms"
     }
   ]
 }

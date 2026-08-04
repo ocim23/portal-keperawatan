@@ -1,66 +1,45 @@
-const CACHE = 'portal-keperawatan-v3.0.2-ux-fix';
+const CACHE = 'portal-keperawatan-v4.0.0-content-overhaul';
 const CORE = [
   './',
   './index.html',
-  './assets/css/styles-v3-0-2.css?v=3.0.2',
-  './assets/js/app-v3-0-2.js?v=3.0.2',
-  './assets/data/catalog-v3-0-2.json?v=3.0.2',
+  './assets/css/styles-v4-0-0.css?v=4.0.0',
+  './assets/js/app-v4-0-0.js?v=4.0.0',
+  './assets/data/catalog-v4-0-0.json?v=4.0.0',
   './manifest.webmanifest',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png'
 ];
 
 self.addEventListener('install', event => {
-  event.waitUntil(
-    caches.open(CACHE)
-      .then(cache => cache.addAll(CORE))
-      .then(() => self.skipWaiting())
-  );
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys()
-      .then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key))))
-      .then(() => self.clients.claim())
-  );
+  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
 });
 
 self.addEventListener('fetch', event => {
-  const req = event.request;
-  if (req.method !== 'GET') return;
-
-  const url = new URL(req.url);
-  if (url.origin !== self.location.origin) return;
-
-  const networkFirst =
-    req.mode === 'navigate' ||
-    url.pathname.endsWith('.json') ||
-    url.pathname.endsWith('.js') ||
-    url.pathname.endsWith('.css');
-
-  if (networkFirst) {
-    event.respondWith(
-      fetch(req, {cache:'no-store'})
-        .then(res => {
-          if (res && res.ok) {
-            const copy = res.clone();
-            caches.open(CACHE).then(cache => cache.put(req, copy));
-          }
-          return res;
-        })
-        .catch(() => caches.match(req).then(cached => cached || caches.match('./index.html')))
-    );
+  const req=event.request;
+  if(req.method!=='GET')return;
+  const url=new URL(req.url);
+  if(url.origin!==self.location.origin)return;
+  const isData=url.pathname.endsWith('.json');
+  const networkFirst=req.mode==='navigate'||isData||url.pathname.endsWith('.js')||url.pathname.endsWith('.css');
+  if(networkFirst){
+    event.respondWith(fetch(req,{cache:'no-store'}).then(res=>{
+      if(res&&res.ok){const copy=res.clone();caches.open(CACHE).then(cache=>cache.put(req,copy));}
+      return res;
+    }).catch(async()=>{
+      const cached=await caches.match(req);
+      if(cached)return cached;
+      if(req.mode==='navigate')return caches.match('./index.html');
+      if(isData)return new Response(JSON.stringify({error:'offline-data-unavailable'}),{status:503,headers:{'Content-Type':'application/json'}});
+      return new Response('Offline resource unavailable',{status:503});
+    }));
     return;
   }
-
-  event.respondWith(
-    caches.match(req).then(cached => cached || fetch(req).then(res => {
-      if (res && res.ok) {
-        const copy = res.clone();
-        caches.open(CACHE).then(cache => cache.put(req, copy));
-      }
-      return res;
-    }))
-  );
+  event.respondWith(caches.match(req).then(cached=>cached||fetch(req).then(res=>{
+    if(res&&res.ok){const copy=res.clone();caches.open(CACHE).then(cache=>cache.put(req,copy));}
+    return res;
+  })));
 });

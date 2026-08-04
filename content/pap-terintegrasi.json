@@ -3,38 +3,49 @@
   "group": "pap",
   "title": "Asuhan Terintegrasi dan Berkesinambungan",
   "short": "Asuhan Terintegrasi",
-  "desc": "Peran DPJP, PPA, MPP, CPPT, pasien, dan keluarga dalam rencana terkoordinasi.",
+  "desc": "Menghubungkan pengkajian, tujuan, rencana, pelaksanaan, evaluasi, dan transisi antar-PPA.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 11,
-  "updated": "3 Agustus 2026",
+  "minutes": 22,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
+      "type": "image",
+      "title": "Asuhan Terintegrasi dan Berkesinambungan",
+      "caption": "Pasien tidak boleh menerima potongan-potongan pelayanan yang berjalan sendiri; seluruh PPA bekerja menuju tujuan yang sama.",
+      "image": "assets/images/v4/pap-terintegrasi/pap-terintegrasi-01.webp",
+      "thumbnail": "assets/images/thumb/v4/pap-terintegrasi/pap-terintegrasi-01.webp"
+    },
+    {
       "type": "html",
-      "title": "Elemen asuhan terintegrasi",
-      "caption": "Asuhan dibangun dari pengkajian awal dan ulang.",
-      "order": 1,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "DPJP",
-            "text": "Clinical leader dan koordinator arah klinis."
+            "title": "Asuhan terintegrasi",
+            "text": "Pelayanan antar-PPA diselaraskan berdasarkan kebutuhan dan tujuan pasien."
           },
           {
-            "title": "PPA",
-            "text": "Kolaborasi interdisiplin memakai PPK, pathway, algoritma, CPPT."
+            "title": "Kontinuitas",
+            "text": "Informasi dan tanggung jawab tidak terputus saat pergantian shift, unit, atau fasilitas."
+          },
+          {
+            "title": "Rencana asuhan",
+            "text": "Tujuan, intervensi, monitoring, edukasi, dan evaluasi yang disusun dari pengkajian."
           },
           {
             "title": "MPP/case manager",
-            "text": "Menjaga kesinambungan dan mengatasi hambatan."
+            "text": "Peran koordinatif pada pasien tertentu untuk membantu alur pelayanan dan transisi sesuai sistem fasilitas."
           },
           {
-            "title": "Pasien & keluarga",
-            "text": "Dilibatkan dalam tujuan, pilihan, edukasi, evaluasi."
+            "title": "Shared decision-making",
+            "text": "Pasien dan tim membahas pilihan, manfaat, risiko, serta preferensi untuk keputusan yang sesuai."
           }
         ],
         "columns": 2,
@@ -43,78 +54,265 @@
     },
     {
       "type": "html",
-      "title": "Siklus rencana asuhan",
-      "caption": "Rencana berubah bila respons berubah.",
-      "order": 2,
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
       "template": {
-        "style": "flow",
+        "style": "timeline",
         "items": [
           {
-            "title": "Berdasar kebutuhan unik",
-            "text": "Gunakan hasil pengkajian."
+            "title": "Kaji kebutuhan",
+            "text": "Identifikasi masalah klinis, fungsi, psikososial, edukasi, dan transisi."
           },
           {
-            "title": "Diberikan kepada setiap pasien",
-            "text": "Jelas dan dapat dilaksanakan."
+            "title": "Tentukan prioritas dan tujuan",
+            "text": "Gunakan target yang spesifik dan dapat dievaluasi."
           },
           {
-            "title": "Respons dipantau",
-            "text": "Nilai hasil intervensi."
+            "title": "Bagi peran",
+            "text": "Pastikan siapa melakukan apa, kapan, parameter apa yang dipantau, dan kapan dievaluasi."
           },
           {
-            "title": "Rencana dimodifikasi",
-            "text": "Sesuaikan dengan kondisi."
+            "title": "Komunikasikan perubahan",
+            "text": "Gunakan CPPT, SBAR, handover, dan diskusi tim untuk menyelaraskan rencana."
+          },
+          {
+            "title": "Evaluasi hasil",
+            "text": "Bandingkan respons dengan tujuan dan ubah rencana bila tidak efektif."
+          },
+          {
+            "title": "Siapkan transisi",
+            "text": "Rekonsiliasi informasi dan kebutuhan sebelum pasien berpindah atau pulang."
           }
         ],
-        "columns": 4,
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Banyak masalah dan banyak PPA",
+            "text": "Tetapkan prioritas bersama agar intervensi tidak saling bertentangan atau membebani pasien."
+          },
+          {
+            "title": "Pasien memiliki tujuan berbeda",
+            "text": "Dengarkan preferensi dan bahas secara terbuka; jangan menyusun rencana tanpa memahami tujuan pasien."
+          },
+          {
+            "title": "Hasil pemeriksaan masih pending",
+            "text": "Sebutkan siapa memantau, bagaimana hasil ditindaklanjuti, dan bagaimana pasien dihubungi setelah pulang."
+          },
+          {
+            "title": "Transfer mendadak",
+            "text": "Gunakan handover minimum yang aman: kondisi, risiko, terapi, alat, hasil, dan kebutuhan segera."
+          },
+          {
+            "title": "Rencana berubah",
+            "text": "Pastikan perubahan lama tidak terus dijalankan karena belum terbaca oleh tim lain."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Setiap profesi bekerja sendiri",
+            "text": "Pasien menerima pesan dan target yang berbeda."
+          },
+          {
+            "title": "Rencana terlalu umum",
+            "text": "“Observasi keadaan umum” tidak menjelaskan parameter, frekuensi, atau batas eskalasi."
+          },
+          {
+            "title": "Pasien tidak dilibatkan",
+            "text": "Rencana mungkin tidak realistis atau bertentangan dengan nilai pasien."
+          },
+          {
+            "title": "Hasil pending tanpa penanggung jawab",
+            "text": "Temuan penting dapat terlambat atau tidak ditindaklanjuti."
+          },
+          {
+            "title": "Transfer hanya memindahkan pasien",
+            "text": "Informasi, obat, alat, dan tanggung jawab dapat terputus."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Buat rencana dapat ditindaklanjuti",
+            "text": "Sebutkan tindakan, frekuensi, target, parameter, dan batas eskalasi."
+          },
+          {
+            "title": "Hubungkan antarprofesi",
+            "text": "Sampaikan temuan yang memengaruhi rencana PPA lain."
+          },
+          {
+            "title": "Jaga konsistensi edukasi",
+            "text": "Pastikan pesan kepada pasien tidak saling bertentangan."
+          },
+          {
+            "title": "Antisipasi transisi",
+            "text": "Kenali kebutuhan pulang, alat, obat, dukungan, dan kontrol sejak awal."
+          },
+          {
+            "title": "Pastikan kepemilikan tugas",
+            "text": "Setiap hasil pending atau tindakan lanjutan memiliki penanggung jawab yang jelas."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Integrasi bukan sekadar banyak profesi",
+      "title": "Satu pasien, satu arah",
       "points": [
-        "Semua PPA menuju tujuan pasien yang sama."
+        "Semua PPA bekerja pada prioritas dan tujuan yang saling selaras."
       ]
     },
     {
-      "title": "CPPT",
+      "title": "Koordinasi terlihat",
       "points": [
-        "Media integrasi yang harus relevan dan tepat waktu."
+        "CPPT, handover, diskusi, dan rencana menunjukkan siapa melakukan apa dan tindak lanjutnya."
+      ]
+    },
+    {
+      "title": "Pasien sebagai mitra",
+      "points": [
+        "Preferensi dan kemampuan pasien menentukan apakah rencana realistis."
+      ]
+    },
+    {
+      "title": "Transisi bagian dari asuhan",
+      "points": [
+        "Informasi, obat, alat, edukasi, dan hasil pending harus tetap tersambung."
       ]
     }
   ],
   "do": [
-    "Baca catatan PPA lain.",
-    "Komunikasikan perubahan penting."
+    "Baca rencana dan catatan PPA lain.",
+    "Tentukan tujuan yang dapat dievaluasi.",
+    "Klarifikasi rencana yang bertentangan.",
+    "Libatkan pasien dan keluarga sesuai preferensi.",
+    "Pastikan hasil pending dan transisi memiliki penanggung jawab."
   ],
   "dont": [
-    "Bekerja dalam silo.",
-    "Menganggap CPPT hanya arsip."
+    "Bekerja dalam silo profesi.",
+    "Menulis rencana yang tidak spesifik.",
+    "Memberi edukasi yang bertentangan.",
+    "Memindahkan pasien tanpa handover lengkap.",
+    "Membiarkan hasil pending tanpa tindak lanjut."
   ],
   "quiz": [
     {
-      "q": "Clinical leader tim PPA adalah…",
+      "q": "Dua PPA memberi instruksi diet yang berbeda. Perawat sebaiknya…",
       "options": [
-        "Administrasi",
-        "DPJP",
-        "Keluarga",
-        "Keamanan"
+        "Memilih salah satu tanpa klarifikasi",
+        "Mengklarifikasi dan memastikan rencana terintegrasi",
+        "Memberikan keduanya",
+        "Meminta pasien memilih sendiri"
       ],
       "answer": 1,
-      "why": "DPJP menjadi clinical leader."
+      "why": "Rencana yang bertentangan harus diselaraskan sebelum diterapkan."
     },
     {
-      "q": "Rencana dimodifikasi bila…",
+      "q": "Rencana asuhan yang paling dapat ditindaklanjuti adalah…",
       "options": [
-        "Formulir penuh",
-        "Respons/kondisi berubah",
-        "Shift berganti saja",
-        "Pasien bertanya"
+        "Pantau pasien",
+        "Pantau tekanan darah tiap 4 jam dan eskalasi bila sistolik <90 mmHg atau ada gejala",
+        "Observasi rutin",
+        "Jaga kondisi"
       ],
       "answer": 1,
-      "why": "Rencana mengikuti kebutuhan aktual."
+      "why": "Rencana spesifik menyebut parameter, frekuensi, dan batas tindakan."
+    },
+    {
+      "q": "Hasil kultur masih pending saat pasien pulang. Tindakan terbaik adalah…",
+      "options": [
+        "Mengabaikan karena pasien sudah pulang",
+        "Menetapkan siapa memantau hasil, cara menindaklanjuti, dan cara menghubungi pasien",
+        "Mencetak semua hasil lama",
+        "Meminta pasien datang setiap hari"
+      ],
+      "answer": 1,
+      "why": "Hasil pending membutuhkan kepemilikan dan alur tindak lanjut."
+    },
+    {
+      "q": "Asuhan terintegrasi berarti…",
+      "options": [
+        "Semua profesi menulis catatan masing-masing tanpa membaca yang lain",
+        "Rencana antar-PPA diselaraskan untuk tujuan pasien yang sama",
+        "Hanya DPJP yang membuat rencana",
+        "Pasien mengikuti semua instruksi tanpa diskusi"
+      ],
+      "answer": 1,
+      "why": "Integrasi membutuhkan koordinasi dan tujuan bersama."
+    },
+    {
+      "q": "Pasien menolak rencana karena tidak sesuai kemampuan di rumah. Respons terbaik adalah…",
+      "options": [
+        "Menandai pasien tidak patuh",
+        "Mendiskusikan hambatan dan menyesuaikan rencana bersama tim",
+        "Memaksa pasien",
+        "Menghapus rencana pulang"
+      ],
+      "answer": 1,
+      "why": "Rencana harus realistis dan mempertimbangkan preferensi serta sumber daya pasien."
+    },
+    {
+      "q": "Transfer yang aman paling sedikit mencakup…",
+      "options": [
+        "Nama dan diagnosis",
+        "Kondisi, risiko, terapi, alat, hasil penting, dan kebutuhan segera",
+        "Daftar keluarga",
+        "Nomor kamar tujuan saja"
+      ],
+      "answer": 1,
+      "why": "Informasi tersebut diperlukan untuk kesinambungan."
+    },
+    {
+      "q": "Peran CPPT dalam integrasi adalah…",
+      "options": [
+        "Membuat catatan lebih panjang",
+        "Menyediakan informasi perkembangan dan rencana yang dapat dibaca serta ditindaklanjuti antar-PPA",
+        "Menggantikan komunikasi verbal",
+        "Menyimpan biaya"
+      ],
+      "answer": 1,
+      "why": "CPPT merupakan salah satu sarana integrasi informasi."
+    },
+    {
+      "q": "Indikator rencana terintegrasi tidak berjalan adalah…",
+      "options": [
+        "Semua PPA menggunakan target yang sama",
+        "Pasien menerima edukasi yang saling bertentangan",
+        "Hasil pending memiliki penanggung jawab",
+        "Perubahan rencana dicatat"
+      ],
+      "answer": 1,
+      "why": "Pesan yang bertentangan menunjukkan koordinasi lemah."
     }
   ],
   "references": [
@@ -124,9 +322,9 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
   ]
 }

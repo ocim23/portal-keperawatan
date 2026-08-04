@@ -3,46 +3,49 @@
   "group": "pp",
   "title": "Pengkajian Khusus dan Tindak Lanjut",
   "short": "Pengkajian Khusus",
-  "desc": "Sesuaikan pengkajian dengan usia, populasi, kondisi, risiko, dan komunikasi.",
+  "desc": "Menyesuaikan pengkajian terhadap usia, kondisi, fungsi, psikososial, dan kerentanan pasien.",
   "category": "PP",
-  "color": "#0F766E",
-  "soft": "#E7F7F4",
-  "icon": "monitor",
-  "minutes": 11,
-  "updated": "3 Agustus 2026",
+  "color": "#7B5EA7",
+  "soft": "#F4EEFF",
+  "icon": "clipboard",
+  "minutes": 22,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
+      "type": "image",
+      "title": "Pengkajian Khusus dan Tindak Lanjut",
+      "caption": "Pengkajian khusus bukan label populasi; temuan harus diterjemahkan menjadi perlindungan, intervensi, rujukan, dan evaluasi.",
+      "image": "assets/images/v4/pp-khusus/pp-khusus-01.webp",
+      "thumbnail": "assets/images/thumb/v4/pp-khusus/pp-khusus-01.webp"
+    },
+    {
       "type": "html",
-      "title": "Populasi khusus",
-      "caption": "Instrumen dan pendekatan tidak selalu sama.",
-      "order": 1,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Anak",
-            "text": "Usia perkembangan dan keterlibatan orang tua."
+            "title": "Pengkajian khusus",
+            "text": "Penilaian tambahan karena populasi atau kondisi mempunyai risiko dan kebutuhan yang tidak cukup dinilai oleh pengkajian umum."
           },
           {
-            "title": "Geriatri",
-            "text": "Fungsi, kognitif, delirium, obat, nutrisi, jatuh."
+            "title": "Pendekatan individual",
+            "text": "Usia atau diagnosis tidak otomatis menentukan kebutuhan; nilai kemampuan dan risiko pasien secara nyata."
           },
           {
-            "title": "Maternitas",
-            "text": "Perubahan fisiologis dan tanda bahaya."
+            "title": "Trauma-informed care",
+            "text": "Pendekatan yang menghindari re-traumatisasi, memberi pilihan, menjelaskan tindakan, dan menjaga kontrol pasien."
           },
           {
-            "title": "Gangguan komunikasi",
-            "text": "Penerjemah/alat bantu."
+            "title": "Red flag",
+            "text": "Temuan yang memerlukan tindakan atau eskalasi segera."
           },
           {
-            "title": "Tidak sadar/kritis",
-            "text": "Sumber sekunder dan data objektif."
-          },
-          {
-            "title": "Paliatif/rentan",
-            "text": "Perlindungan, tujuan, kenyamanan."
+            "title": "Tindak lanjut",
+            "text": "Rujukan, intervensi, perlindungan, pemantauan, dan evaluasi setelah temuan positif."
           }
         ],
         "columns": 2,
@@ -51,78 +54,265 @@
     },
     {
       "type": "html",
-      "title": "Skrining bukan pengkajian lengkap",
-      "caption": "Hasil positif memicu tindak lanjut.",
-      "order": 2,
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
       "template": {
-        "style": "flow",
+        "style": "timeline",
         "items": [
           {
-            "title": "Nyeri",
-            "text": "Kaji karakteristik dan respons."
+            "title": "Kenali kebutuhan tambahan",
+            "text": "Gunakan skrining atau pertanyaan awal untuk menentukan pengkajian khusus yang diperlukan."
           },
           {
-            "title": "Nutrisi",
-            "text": "Pengkajian lebih dalam/rujukan."
+            "title": "Ciptakan situasi aman",
+            "text": "Jaga privasi dan bila perlu wawancarai pasien tanpa pihak yang dapat memengaruhi jawaban."
           },
           {
-            "title": "Jatuh",
-            "text": "Intervensi dan reassessment."
+            "title": "Gunakan alat yang sesuai",
+            "text": "Pilih instrumen yang sesuai usia, bahasa, kemampuan, dan tujuan klinis."
           },
           {
-            "title": "Fungsi",
-            "text": "Bantuan ADL dan rencana pulang."
+            "title": "Dokumentasikan objektif",
+            "text": "Catat ucapan penting secara akurat, temuan fisik, perilaku, sumber informasi, dan tindakan."
+          },
+          {
+            "title": "Aktifkan tindak lanjut",
+            "text": "Hubungkan temuan dengan tim, rujukan, perlindungan, atau pemantauan yang tepat."
+          },
+          {
+            "title": "Evaluasi keselamatan",
+            "text": "Pastikan rencana tetap berjalan saat transfer dan pulang."
           }
         ],
-        "columns": 4,
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Dugaan kekerasan",
+            "text": "Utamakan keselamatan, hindari pertanyaan menghakimi, jangan menjanjikan kerahasiaan mutlak, dan ikuti kewajiban pelaporan."
+          },
+          {
+            "title": "Pasien dengan disabilitas",
+            "text": "Tanyakan bentuk bantuan yang diinginkan; jangan berasumsi pendamping selalu menjadi pengambil keputusan."
+          },
+          {
+            "title": "Risiko bunuh diri",
+            "text": "Jangan meninggalkan pasien dalam kondisi tidak aman; lakukan eskalasi dan pengamanan lingkungan segera."
+          },
+          {
+            "title": "Delirium pada lansia",
+            "text": "Perubahan akut bukan “wajar karena usia”; cari penyebab dan lakukan eskalasi."
+          },
+          {
+            "title": "Anak takut atau tidak kooperatif",
+            "text": "Gunakan pendekatan perkembangan, observasi, orang tua, dan teknik komunikasi yang sesuai."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menganggap semua lansia sama",
+            "text": "Fungsi, kognisi, dan dukungan sangat bervariasi."
+          },
+          {
+            "title": "Bertanya sensitif di depan keluarga",
+            "text": "Pasien mungkin tidak dapat menjawab jujur atau aman."
+          },
+          {
+            "title": "Menggunakan anak sebagai penerjemah",
+            "text": "Risiko salah informasi, beban emosional, dan masalah kerahasiaan."
+          },
+          {
+            "title": "Temuan positif tidak ditindaklanjuti",
+            "text": "Pengkajian menjadi formalitas dan pasien tetap tidak terlindungi."
+          },
+          {
+            "title": "Dokumentasi berisi kesimpulan menghakimi",
+            "text": "Catatan harus objektif dan membedakan fakta, ucapan, serta interpretasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Tanyakan, jangan berasumsi",
+            "text": "Cari tahu kemampuan, preferensi, dukungan, dan hambatan pasien."
+          },
+          {
+            "title": "Lindungi kelompok rentan",
+            "text": "Pastikan lingkungan, pendampingan, komunikasi, dan rencana sesuai risiko."
+          },
+          {
+            "title": "Koordinasikan rujukan",
+            "text": "Hubungkan dengan tim terkait dan pastikan respons diterima."
+          },
+          {
+            "title": "Jaga kesinambungan",
+            "text": "Serah terimakan temuan sensitif hanya kepada pihak yang perlu mengetahui."
+          },
+          {
+            "title": "Pantau hasil",
+            "text": "Tinjau apakah perlindungan dan intervensi benar-benar efektif."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Proporsional",
+      "title": "Khusus karena kebutuhan",
       "points": [
-        "Kedalaman mengikuti kebutuhan."
+        "Pengkajian tambahan dilakukan bila populasi/kondisi memiliki risiko yang tidak cukup dinilai secara umum."
       ]
     },
     {
-      "title": "Tindak lanjut",
+      "title": "Temuan harus ditindaklanjuti",
       "points": [
-        "Skrining positif tanpa intervensi belum selesai."
+        "Intervensi, rujukan, perlindungan, dan pemantauan adalah bagian dari pengkajian."
+      ]
+    },
+    {
+      "title": "Objektif dan sensitif",
+      "points": [
+        "Jaga privasi, gunakan bahasa nonmenghakimi, dan catat sumber informasi."
+      ]
+    },
+    {
+      "title": "Jangan berasumsi",
+      "points": [
+        "Nilai kapasitas, fungsi, komunikasi, dan dukungan setiap pasien secara individual."
       ]
     }
   ],
   "do": [
-    "Gunakan instrumen sesuai populasi.",
-    "Libatkan keluarga dengan menjaga privasi."
+    "Jaga privasi saat bertanya hal sensitif.",
+    "Gunakan alat sesuai usia dan kemampuan.",
+    "Dokumentasikan fakta dan sumber informasi.",
+    "Aktifkan rujukan atau perlindungan.",
+    "Serah terimakan kebutuhan khusus secara aman."
   ],
   "dont": [
-    "Batas dewasa untuk anak.",
-    "Mengabaikan kekhawatiran keluarga."
+    "Menggunakan label populasi sebagai kesimpulan.",
+    "Menganggap pendamping selalu boleh mengambil keputusan.",
+    "Menggunakan anak sebagai penerjemah.",
+    "Mengabaikan perubahan akut pada lansia.",
+    "Membiarkan skrining positif tanpa tindak lanjut."
   ],
   "quiz": [
     {
-      "q": "Skrining nutrisi berisiko berarti…",
+      "q": "Lansia mendadak bingung sejak pagi. Respons paling tepat adalah…",
       "options": [
-        "Selesai",
-        "Perlu tindak lanjut",
-        "Diagnosis pasti",
-        "Tidak perlu dokumentasi"
+        "Menganggap normal karena usia",
+        "Menilai delirium dan penyebab akut serta melakukan eskalasi",
+        "Memberi label demensia",
+        "Menunggu keluarga datang"
       ],
       "answer": 1,
-      "why": "Skrining memicu tindak lanjut."
+      "why": "Kebingungan akut memerlukan evaluasi penyebab, bukan dianggap proses menua biasa."
     },
     {
-      "q": "Gangguan komunikasi ditangani dengan…",
+      "q": "Saat menanyakan kemungkinan kekerasan, pendekatan terbaik adalah…",
       "options": [
-        "Lewati pengkajian",
-        "Alat bantu/pendekatan sesuai",
-        "Tanya pasien lain",
-        "Menebak"
+        "Bertanya di depan semua keluarga",
+        "Menyediakan privasi, bahasa nonmenghakimi, dan menjelaskan batas kerahasiaan",
+        "Memaksa pasien menjawab",
+        "Menjanjikan informasi tidak akan pernah dibagikan"
       ],
       "answer": 1,
-      "why": "Pengkajian tetap dilakukan dengan dukungan."
+      "why": "Keamanan dan pendekatan sensitif trauma penting dalam pengkajian."
+    },
+    {
+      "q": "Pasien tuli datang dengan anggota keluarga. Tindakan paling tepat adalah…",
+      "options": [
+        "Selalu berbicara hanya kepada keluarga",
+        "Menanyakan metode komunikasi yang diinginkan pasien dan menyediakan dukungan yang sesuai",
+        "Menganggap pasien tidak dapat memberi persetujuan",
+        "Membatalkan pengkajian"
+      ],
+      "answer": 1,
+      "why": "Disabilitas komunikasi tidak sama dengan tidak memiliki kapasitas."
+    },
+    {
+      "q": "Skrining risiko bunuh diri positif. Langkah berikutnya adalah…",
+      "options": [
+        "Mencatat lalu menyelesaikan shift",
+        "Menjaga keselamatan, melakukan asesmen lanjut, dan mengaktifkan bantuan",
+        "Meminta pasien berjanji saja",
+        "Memulangkan agar bersama keluarga"
+      ],
+      "answer": 1,
+      "why": "Temuan positif memerlukan pengamanan dan tindak lanjut segera."
+    },
+    {
+      "q": "Dokumentasi objektif pada dugaan kekerasan adalah…",
+      "options": [
+        "“Pasien ceroboh dan sering jatuh”",
+        "“Memar 4 cm pada lengan kanan; pasien mengatakan dipukul”",
+        "“Keluarga pasti pelaku”",
+        "“Pasien tidak kooperatif”"
+      ],
+      "answer": 1,
+      "why": "Catat temuan dan ucapan secara spesifik tanpa kesimpulan yang tidak terbukti."
+    },
+    {
+      "q": "Pengkajian khusus dianggap lengkap ketika…",
+      "options": [
+        "Formulir ditandatangani",
+        "Temuan dianalisis dan menghasilkan perlindungan/intervensi serta tindak lanjut",
+        "Semua pertanyaan dijawab keluarga",
+        "Diagnosis sudah ada"
+      ],
+      "answer": 1,
+      "why": "Tujuan pengkajian adalah mengarahkan pelayanan yang sesuai."
+    },
+    {
+      "q": "Anak kecil tidak mampu menjelaskan nyeri. Perawat sebaiknya…",
+      "options": [
+        "Menganggap tidak nyeri",
+        "Menggunakan alat observasi sesuai usia dan informasi orang tua",
+        "Menggunakan skala numerik 0–10 saja",
+        "Menunggu anak dapat berbicara"
+      ],
+      "answer": 1,
+      "why": "Alat harus disesuaikan dengan perkembangan dan kemampuan komunikasi."
+    },
+    {
+      "q": "Informasi sensitif saat handover…",
+      "options": [
+        "Disampaikan kepada semua orang agar lengkap",
+        "Diberikan hanya kepada pihak yang perlu mengetahui untuk kesinambungan dan keselamatan",
+        "Dihapus dari catatan",
+        "Dikirim di grup umum"
+      ],
+      "answer": 1,
+      "why": "Kerahasiaan tetap dijaga sambil memastikan tim yang relevan memiliki informasi."
     }
   ],
   "references": [
@@ -132,9 +322,9 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
   ]
 }

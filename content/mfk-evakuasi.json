@@ -2,152 +2,313 @@
   "id": "mfk-evakuasi",
   "group": "mfk",
   "title": "Kebakaran, Evakuasi, dan Kesiapsiagaan Unit",
-  "short": "Evakuasi",
-  "desc": "Alarm, penyelamatan, pembatasan bahaya, evakuasi pasien, koordinasi.",
+  "short": "Selamatkan, batasi, pindahkan, dan lacak pasien",
+  "desc": "Menjalankan respons unit yang terkoordinasi berdasarkan ancaman, kemampuan pasien, rute aman, dan kesinambungan pelayanan.",
   "category": "MFK",
-  "color": "#E47A13",
-  "soft": "#FFF3E6",
+  "color": "#B75A24",
+  "soft": "#FFF1E8",
   "icon": "fire",
-  "minutes": 14,
-  "updated": "3 Agustus 2026",
+  "minutes": 15,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
-      "type": "html",
-      "title": "Respons awal",
-      "caption": "Kode/urutan detail mengikuti fasilitas.",
-      "order": 1,
-      "template": {
-        "style": "flow",
-        "items": [
-          {
-            "title": "Aktifkan alarm",
-            "text": "Lokasi dan bahaya."
-          },
-          {
-            "title": "Selamatkan yang terancam",
-            "text": "Tanpa membahayakan diri."
-          },
-          {
-            "title": "Batasi penyebaran",
-            "text": "Tutup pintu sesuai prosedur."
-          },
-          {
-            "title": "Padamkan bila aman",
-            "text": "APAR tahap awal."
-          }
-        ],
-        "columns": 4,
-        "note": ""
-      }
+      "type": "image",
+      "title": "Kebakaran, Evakuasi, dan Kesiapsiagaan Unit",
+      "caption": "Evakuasi rumah sakit bukan sekadar keluar gedung: pasien harus diprioritaskan, dipindahkan dengan aman, dilacak, dan diserahterimakan.",
+      "image": "assets/images/v4/mfk-evakuasi/mfk-evakuasi-01.webp",
+      "thumbnail": "assets/images/thumb/v4/mfk-evakuasi/mfk-evakuasi-01.webp"
     },
     {
       "type": "html",
-      "title": "Evakuasi pasien",
-      "caption": "Sesuaikan kondisi.",
-      "order": 2,
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Horizontal dahulu",
-            "text": "Area aman lantai sama."
-          },
-          {
-            "title": "Prioritas",
-            "text": "Bahaya, mobilitas, alat."
-          },
-          {
-            "title": "Informasi penting",
-            "text": "Identitas dan klinis."
-          },
-          {
-            "title": "Serah terima",
-            "text": "Lokasi/status diketahui."
-          },
-          {
-            "title": "Titik kumpul",
-            "text": "Ikuti fasilitas."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesiapan unit",
-      "caption": "Harus mampu memperagakan.",
-      "order": 3,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Kenali jalur",
-            "text": "Pintu/tangga/kompartemen."
+            "title": "Respons mengikuti ancaman",
+            "text": "Kebakaran, asap, gempa, banjir, kegagalan utilitas, atau ancaman lain dapat memerlukan strategi berbeda."
           },
           {
-            "title": "Kenali alat",
-            "text": "APAR/alarm/alat evakuasi."
+            "title": "Evakuasi bertahap",
+            "text": "Tujuannya menjauhkan pasien dari bahaya dengan perpindahan sesedikit mungkin dan menjaga layanan penting."
           },
           {
-            "title": "Bagi peran",
-            "text": "Alarm, pasien, alat, catat."
+            "title": "Kompartemenisasi membantu",
+            "text": "Pintu tahan api/asap dan zona aman memberi waktu; fungsi ini hilang bila pintu terbuka."
           },
           {
-            "title": "Latihan",
-            "text": "Simulasi dan evaluasi."
+            "title": "Prioritas bukan hanya siapa paling ringan",
+            "text": "Pasien yang langsung terancam dipindahkan dahulu; selanjutnya keputusan mempertimbangkan mobilitas, sumber daya, dan risiko klinis."
+          },
+          {
+            "title": "Pelacakan mencegah pasien hilang",
+            "text": "Setiap perpindahan perlu dicatat dan dikomunikasikan, terutama pada situasi ramai."
           }
         ],
         "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Kenali situasi",
+            "text": "Lokasi bahaya, arah asap, rute aman, alarm, kapasitas area tujuan, dan kebutuhan bantuan."
+          },
+          {
+            "title": "Bagi peran",
+            "text": "Koordinator unit, komunikasi, pemindahan pasien, pengamanan obat/alat, pemeriksaan ruang, dan pencatatan."
+          },
+          {
+            "title": "Siapkan pasien",
+            "text": "Identifikasi, alat bantu, oksigen portabel bila dibutuhkan, obat emergensi, dan informasi klinis minimum."
+          },
+          {
+            "title": "Pindahkan",
+            "text": "Gunakan alat dan teknik sesuai kondisi; jaga jalur, hindari lift bila dilarang oleh rencana, dan jangan kembali tanpa izin."
+          },
+          {
+            "title": "Di area aman",
+            "text": "Hitung pasien/staf, asesmen ulang, serah terima, lanjutkan terapi kritis, dan laporkan kekurangan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Pasien ventilator atau alat kritis",
+            "text": "Siapkan sumber daya portabel, staf kompeten, dan rute yang meminimalkan putus terapi."
+          },
+          {
+            "title": "Pasien tidak dapat berjalan",
+            "text": "Gunakan kursi, stretcher, matras, atau teknik evakuasi yang telah dilatih—jangan improvisasi berbahaya."
+          },
+          {
+            "title": "Asap menghalangi rute utama",
+            "text": "Gunakan rute alternatif yang telah ditetapkan dan jangan membuka pintu ke area berasap tanpa penilaian."
+          },
+          {
+            "title": "Keluarga panik",
+            "text": "Berikan instruksi sederhana, arahkan ke area aman, dan jangan biarkan menghambat jalur."
+          },
+          {
+            "title": "Daftar pasien tidak sesuai",
+            "text": "Lakukan rekonsiliasi segera berdasarkan identitas, lokasi asal/tujuan, dan komunikasi antararea."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Semua orang bergerak tanpa koordinator",
+            "text": "Menyebabkan duplikasi, area terlewat, dan pasien tidak terlacak."
+          },
+          {
+            "title": "Membawa terlalu banyak barang",
+            "text": "Memperlambat evakuasi dan menghalangi rute."
+          },
+          {
+            "title": "Membuka pintu sembarangan",
+            "text": "Dapat memasukkan asap/api ke zona aman."
+          },
+          {
+            "title": "Tidak membawa informasi minimum",
+            "text": "Risiko salah pasien, putus obat, dan kehilangan terapi penting."
+          },
+          {
+            "title": "Kembali ke area bahaya tanpa izin",
+            "text": "Membahayakan petugas dan mengacaukan akuntabilitas."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kenali rute dan zona unit",
+            "text": "Latihan harus membuat petugas tahu alternatif, bukan hanya rute utama."
+          },
+          {
+            "title": "Pahami kebutuhan setiap pasien",
+            "text": "Mobilitas, oksigen, alat, obat kritis, dan risiko perilaku/kognitif."
+          },
+          {
+            "title": "Gunakan komunikasi singkat dan jelas",
+            "text": "Siapa memindahkan siapa ke mana dan sudah selesai atau belum."
+          },
+          {
+            "title": "Pertahankan identitas",
+            "text": "Gelang, label, daftar, dan serah terima tetap dijaga."
+          },
+          {
+            "title": "Ikut simulasi dan evaluasi",
+            "text": "Temuan latihan harus ditutup dengan tindakan perbaikan."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Klinis dan keselamatan",
+      "title": "Selamatkan dan alarm",
       "points": [
-        "Jaga alat, obat, identitas, kesinambungan."
+        "Pindahkan yang langsung terancam dan aktifkan sistem respons."
       ]
     },
     {
-      "title": "Ikuti jalur fasilitas",
+      "title": "Batasi bahaya",
       "points": [
-        "Tidak memakai lift kecuali sistem khusus."
+        "Tutup pintu/kompartemen bila aman dan jaga rute."
+      ]
+    },
+    {
+      "title": "Evakuasi bertahap",
+      "points": [
+        "Horizontal ke zona aman, lalu vertikal bila diperlukan sesuai rencana."
+      ]
+    },
+    {
+      "title": "Lacak dan lanjutkan asuhan",
+      "points": [
+        "Identitas, lokasi, alat, obat, terapi, dan serah terima tidak boleh hilang."
       ]
     }
   ],
   "do": [
-    "Ketahui jalur unit.",
-    "Prioritaskan keselamatan."
+    "Kenali rute utama dan alternatif.",
+    "Bagi peran secara jelas.",
+    "Prioritaskan pasien berdasarkan ancaman dan kebutuhan.",
+    "Pertahankan identitas dan pelacakan.",
+    "Asesmen ulang di area aman."
   ],
   "dont": [
-    "Tunggu tanpa alarm.",
-    "Pindah tanpa identitas."
+    "Menggunakan lift tanpa mengikuti rencana.",
+    "Membuka pintu ke area berasap tanpa penilaian.",
+    "Membawa barang tidak penting.",
+    "Memindahkan pasien tanpa pencatatan tujuan.",
+    "Kembali ke area bahaya tanpa izin."
   ],
   "quiz": [
     {
-      "q": "Evakuasi horizontal…",
+      "q": "Prinsip evakuasi horizontal adalah…",
       "options": [
-        "Area aman lantai sama",
-        "Lift",
-        "Keluar kota",
-        "Pindah kamar biasa"
+        "Langsung turun tangga dari semua lantai",
+        "Memindahkan ke kompartemen/zona aman pada lantai yang sama bila sesuai rencana",
+        "Menggunakan lift umum",
+        "Membuka semua pintu"
       ],
-      "answer": 0,
-      "why": "Pindah ke kompartemen aman."
+      "answer": 1,
+      "why": "Evakuasi bertahap dapat mengurangi risiko dan mempertahankan layanan."
     },
     {
-      "q": "APAR digunakan bila…",
+      "q": "Pasien ventilator perlu dievakuasi. Prioritas persiapan adalah…",
       "options": [
-        "Api awal dan aman",
-        "Asap pekat",
-        "Jalur terputus",
-        "Tak terlatih"
+        "Membawa seluruh barang pasien",
+        "Sumber ventilasi/oksigen portabel, staf kompeten, identitas, dan informasi klinis penting",
+        "Melepas semua alat tanpa rencana",
+        "Menunggu pasien berjalan"
       ],
-      "answer": 0,
-      "why": "Kondisi aman diperlukan."
+      "answer": 1,
+      "why": "Terapi kritis harus dipertahankan selama perpindahan."
+    },
+    {
+      "q": "Mengapa pintu tahan api/asap perlu ditutup?",
+      "options": [
+        "Agar ruangan gelap",
+        "Membatasi penyebaran asap dan api antar kompartemen",
+        "Agar alarm berhenti",
+        "Untuk mengunci pasien"
+      ],
+      "answer": 1,
+      "why": "Kompartemenisasi memberi waktu dan area aman."
+    },
+    {
+      "q": "Setelah pasien tiba di area aman, tindakan penting adalah…",
+      "options": [
+        "Langsung meninggalkan pasien",
+        "Hitung, asesmen ulang, serah terima, dan lanjutkan terapi penting",
+        "Melepas identitas",
+        "Menghapus daftar"
+      ],
+      "answer": 1,
+      "why": "Evakuasi tidak selesai sampai keselamatan dan kesinambungan dipastikan."
+    },
+    {
+      "q": "Pasien mana dipindahkan terlebih dahulu?",
+      "options": [
+        "Selalu yang paling ringan",
+        "Yang langsung terancam, lalu prioritas ditentukan berdasarkan rencana, mobilitas, kebutuhan, dan sumber daya",
+        "Selalu pasien terakhir masuk",
+        "Hanya pasien sadar"
+      ],
+      "answer": 1,
+      "why": "Ancaman langsung menjadi prioritas pertama; tahap berikutnya membutuhkan triase evakuasi."
+    },
+    {
+      "q": "Keluarga panik menghalangi koridor. Tindakan adalah…",
+      "options": [
+        "Mengabaikan",
+        "Berikan instruksi sederhana dan arahkan ke area aman tanpa menghambat jalur",
+        "Membiarkan kembali ke kamar",
+        "Menyuruh mengambil semua barang"
+      ],
+      "answer": 1,
+      "why": "Kontrol arus orang mendukung keselamatan semua."
+    },
+    {
+      "q": "Daftar menunjukkan satu pasien belum tiba di area tujuan. Langkah adalah…",
+      "options": [
+        "Menganggap sudah pulang",
+        "Aktifkan rekonsiliasi lokasi dan komunikasi antararea segera",
+        "Menghapus nama",
+        "Menunggu selesai kejadian"
+      ],
+      "answer": 1,
+      "why": "Pelacakan mencegah pasien hilang dan memungkinkan pencarian terkoordinasi."
+    },
+    {
+      "q": "Simulasi menemukan rute alternatif tertutup barang. Tindak lanjut adalah…",
+      "options": [
+        "Mencatat tanpa tindakan",
+        "Segera membuka akses, menetapkan penanggung jawab, dan memantau agar tidak berulang",
+        "Menunggu survei",
+        "Mengganti arah panah saja"
+      ],
+      "answer": 1,
+      "why": "Temuan latihan harus menghasilkan perbaikan yang dapat diukur."
     }
   ],
   "references": [
@@ -157,9 +318,14 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Portable Fire Extinguishers — Use and Evacuation",
+      "org": "Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/use"
     }
   ]
 }

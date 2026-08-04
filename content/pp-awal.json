@@ -3,131 +3,316 @@
   "group": "pp",
   "title": "Pengkajian Awal dan Skrining",
   "short": "Pengkajian Awal",
-  "desc": "Pengumpulan data, analisis kebutuhan, dan rencana pelayanan sejak pasien diterima.",
+  "desc": "Mengumpulkan, menganalisis, dan menggunakan data awal untuk menentukan kebutuhan pasien.",
   "category": "PP",
-  "color": "#0F766E",
-  "soft": "#E7F7F4",
-  "icon": "monitor",
-  "minutes": 14,
-  "updated": "3 Agustus 2026",
+  "color": "#7B5EA7",
+  "soft": "#F4EEFF",
+  "icon": "clipboard",
+  "minutes": 22,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
-      "title": "Pengkajian Pasien",
-      "caption": "Pengkajian lengkap menjadi dasar asuhan.",
-      "order": 1,
-      "image": "assets/images/main/pp/pp-01-asesmen-pasien.webp",
-      "thumbnail": "assets/images/thumb/pp/pp-01-asesmen-pasien-thumb.webp",
-      "version": 1
+      "title": "Pengkajian Awal dan Skrining",
+      "caption": "Pengkajian bukan kumpulan kotak centang; setiap temuan harus mengarah pada kebutuhan, prioritas, dan rencana asuhan.",
+      "image": "assets/images/v4/pp-awal/pp-awal-01.webp",
+      "thumbnail": "assets/images/thumb/v4/pp-awal/pp-awal-01.webp"
     },
     {
       "type": "html",
-      "title": "Tiga proses primer",
-      "caption": "Pengkajian dinamis dan berkesinambungan.",
-      "order": 2,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
-        "style": "flow",
+        "style": "cards",
         "items": [
           {
-            "title": "Kumpulkan data",
-            "text": "Fisik, psikologis, sosial, spiritual, ekonomi, riwayat."
+            "title": "Skrining",
+            "text": "Penyaringan cepat untuk menemukan risiko atau kebutuhan yang memerlukan asesmen lebih lanjut."
+          },
+          {
+            "title": "Pengkajian awal",
+            "text": "Penilaian komprehensif pada awal episode pelayanan untuk menentukan kebutuhan awal dan berkelanjutan."
+          },
+          {
+            "title": "Data subjektif",
+            "text": "Informasi yang disampaikan pasien/keluarga seperti keluhan, pengalaman, dan preferensi."
+          },
+          {
+            "title": "Data objektif",
+            "text": "Hasil observasi, pemeriksaan fisik, tanda vital, dan hasil penunjang."
           },
           {
             "title": "Analisis",
-            "text": "Gabungkan data klinis, lab, dan pencitraan."
-          },
-          {
-            "title": "Susun rencana",
-            "text": "Prioritas, intervensi, edukasi, tindak lanjut."
+            "text": "Menghubungkan data untuk mengenali masalah, risiko, prioritas, dan kebutuhan kolaborasi."
           }
         ],
-        "columns": 3,
+        "columns": 2,
         "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Isi minimal pengkajian awal",
-      "caption": "Disesuaikan layanan dan populasi.",
-      "order": 3,
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Siapkan lingkungan",
+            "text": "Jaga privasi, gunakan bahasa yang dipahami, dan pastikan pasien mampu berpartisipasi."
+          },
+          {
+            "title": "Mulai dari kondisi segera",
+            "text": "Nilai stabilitas dan kebutuhan tindakan cepat sebelum pengkajian rinci."
+          },
+          {
+            "title": "Gunakan sumber multipel",
+            "text": "Gabungkan wawancara, observasi, pemeriksaan, rekam medis, keluarga, dan hasil diagnostik."
+          },
+          {
+            "title": "Validasi data",
+            "text": "Klarifikasi informasi yang bertentangan, tidak lengkap, atau tidak sesuai kondisi."
+          },
+          {
+            "title": "Tindak lanjuti hasil positif",
+            "text": "Skrining positif harus diikuti asesmen lebih mendalam, intervensi, atau rujukan."
+          },
+          {
+            "title": "Dokumentasikan bermakna",
+            "text": "Catat temuan penting, analisis, prioritas, tindakan, dan siapa yang diberi tahu."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Pasien tidak mampu memberi riwayat",
+            "text": "Gunakan keluarga, pendamping, dokumen, atau sumber lain sambil membedakan informasi terverifikasi dan belum terverifikasi."
+          },
+          {
+            "title": "Hambatan bahasa atau sensorik",
+            "text": "Gunakan metode komunikasi, penerjemah, alat bantu, atau demonstrasi yang sesuai."
+          },
+          {
+            "title": "Kondisi berubah saat pengkajian",
+            "text": "Hentikan pengkajian rutin, tangani perburukan, dan lakukan eskalasi."
+          },
+          {
+            "title": "Data lama tersedia",
+            "text": "Jangan menyalin tanpa verifikasi; kondisi dan kebutuhan pasien dapat berubah."
+          },
+          {
+            "title": "Pasien rawat jalan",
+            "text": "Cakupan menyesuaikan kebutuhan layanan tetapi tetap harus cukup untuk keputusan yang aman."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mengisi semua kolom tetapi tidak menganalisis",
+            "text": "Data banyak tidak otomatis menghasilkan asuhan yang tepat."
+          },
+          {
+            "title": "Menyalin pengkajian sebelumnya",
+            "text": "Kesalahan lama dan kondisi yang sudah berubah dapat terbawa."
+          },
+          {
+            "title": "Skrining positif tanpa tindak lanjut",
+            "text": "Risiko sudah ditemukan tetapi tidak menghasilkan perlindungan."
+          },
+          {
+            "title": "Tidak menggali obat dan alergi",
+            "text": "Meningkatkan risiko interaksi, duplikasi, atau reaksi alergi."
+          },
+          {
+            "title": "Rencana pulang dimulai di akhir",
+            "text": "Edukasi, alat, dukungan, dan rujukan dapat terlambat."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
       "template": {
         "style": "checklist",
         "items": [
           {
-            "title": "Keluhan & fisik",
-            "text": "Keluhan, tanda vital, pemeriksaan."
+            "title": "Prioritaskan keselamatan",
+            "text": "Kenali temuan yang membutuhkan tindakan segera sebelum melanjutkan detail."
           },
           {
-            "title": "Riwayat",
-            "text": "Kesehatan, alergi, obat."
+            "title": "Gunakan pertanyaan terbuka dan terarah",
+            "text": "Berikan ruang pasien bercerita lalu lengkapi informasi spesifik."
           },
           {
-            "title": "Psikososial-spiritual & ekonomi",
-            "text": "Faktor yang memengaruhi pelayanan."
+            "title": "Hubungkan data dengan rencana",
+            "text": "Setiap masalah utama harus memiliki tujuan dan tindakan yang jelas."
           },
           {
-            "title": "Skrining risiko",
-            "text": "Nyeri, jatuh, fungsi, nutrisi."
+            "title": "Libatkan pasien dan keluarga",
+            "text": "Tanyakan preferensi, kemampuan, dukungan, dan tujuan pasien."
           },
           {
-            "title": "Edukasi",
-            "text": "Bahasa, budaya, hambatan belajar."
-          },
-          {
-            "title": "Discharge planning",
-            "text": "Kebutuhan pulang sejak awal."
+            "title": "Komunikasikan risiko",
+            "text": "Sampaikan temuan penting kepada PPA yang relevan dan pastikan tindak lanjut."
           }
         ],
-        "columns": 2,
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Bukan sekadar formulir",
+      "title": "Tiga proses utama",
       "points": [
-        "Hasil harus menghasilkan keputusan dan rencana."
+        "Mengumpulkan data, menganalisis, lalu membuat rencana asuhan."
       ]
     },
     {
-      "title": "Sesuai populasi",
+      "title": "Skrining tidak berhenti pada skor",
       "points": [
-        "Kedalaman berbeda antara layanan dan pasien."
+        "Hasil positif memerlukan asesmen, intervensi, rujukan, atau pemantauan."
+      ]
+    },
+    {
+      "title": "Pengkajian dinamis",
+      "points": [
+        "Data awal menjadi dasar, tetapi harus diperbarui ketika kondisi berubah."
+      ]
+    },
+    {
+      "title": "Rencana pulang sejak awal",
+      "points": [
+        "Kebutuhan edukasi, dukungan, alat, obat, dan tindak lanjut dinilai lebih dini."
       ]
     }
   ],
   "do": [
-    "Validasi data abnormal.",
-    "Hubungkan temuan dengan rencana."
+    "Nilai kondisi mendesak terlebih dahulu.",
+    "Gunakan data subjektif dan objektif.",
+    "Validasi informasi yang tidak cocok.",
+    "Tindak lanjuti skrining positif.",
+    "Hubungkan temuan dengan rencana asuhan."
   ],
   "dont": [
-    "Menyalin data lama.",
-    "Skrining tanpa tindak lanjut."
+    "Menyalin data lama tanpa verifikasi.",
+    "Mengisi formulir tanpa analisis.",
+    "Mengabaikan hambatan komunikasi.",
+    "Menunda discharge planning sampai hari pulang.",
+    "Membiarkan temuan risiko tanpa eskalasi."
   ],
   "quiz": [
     {
-      "q": "Tujuan pengkajian awal adalah…",
+      "q": "Skrining nutrisi pasien menunjukkan risiko tinggi. Tindakan berikutnya adalah…",
       "options": [
-        "Mengisi kolom",
-        "Mengidentifikasi kebutuhan dan rencana",
-        "Mengganti evaluasi",
-        "Menentukan tarif"
+        "Mencatat skor saja",
+        "Melakukan/merujuk pengkajian nutrisi dan memulai tindak lanjut sesuai kebutuhan",
+        "Mengulang skor saat pulang",
+        "Mengurangi diet tanpa asesmen"
       ],
       "answer": 1,
-      "why": "Pengkajian awal menjadi dasar pelayanan."
+      "why": "Skrining positif harus menghasilkan asesmen lebih lanjut dan tindakan."
+    },
+    {
+      "q": "Perbedaan utama skrining dan pengkajian adalah…",
+      "options": [
+        "Skrining selalu lebih lama",
+        "Skrining menyaring risiko, pengkajian mendalami masalah dan kebutuhan",
+        "Pengkajian hanya untuk dokter",
+        "Keduanya sama"
+      ],
+      "answer": 1,
+      "why": "Skrining menemukan siapa yang perlu dinilai lebih lanjut."
+    },
+    {
+      "q": "Pasien tiba sesak berat saat wawancara pengkajian. Prioritas perawat adalah…",
+      "options": [
+        "Menyelesaikan seluruh formulir",
+        "Menilai dan menangani kondisi akut serta melakukan eskalasi",
+        "Menanyakan riwayat keluarga lengkap",
+        "Menunda tanda vital"
+      ],
+      "answer": 1,
+      "why": "Stabilitas dan keselamatan mendahului kelengkapan administratif."
+    },
+    {
+      "q": "Data subjektif adalah…",
+      "options": [
+        "Tekanan darah 90/60 mmHg",
+        "Pasien mengatakan pusing saat berdiri",
+        "Saturasi 88%",
+        "Luka tampak kemerahan"
+      ],
+      "answer": 1,
+      "why": "Keluhan yang disampaikan pasien merupakan data subjektif."
+    },
+    {
+      "q": "Mengapa data lama tidak boleh disalin langsung?",
+      "options": [
+        "Karena tulisan lama tidak rapi",
+        "Kondisi dapat berubah dan kesalahan dapat ikut terbawa",
+        "Karena hanya dokter boleh membaca",
+        "Karena semua data harus dihapus"
+      ],
+      "answer": 1,
+      "why": "Pengkajian harus mencerminkan kondisi saat ini."
     },
     {
       "q": "Discharge planning dimulai…",
       "options": [
-        "Saat di pintu pulang",
-        "Sejak awal sesuai kebutuhan",
-        "Setelah komplain",
-        "Oleh administrasi saja"
+        "Saat pasien meminta pulang",
+        "Sejak awal pengkajian ketika kebutuhan transisi dapat dikenali",
+        "Setelah resep pulang selesai",
+        "Hanya pada pasien lansia"
       ],
       "answer": 1,
-      "why": "Kebutuhan pulang diidentifikasi sejak awal."
+      "why": "Perencanaan awal mencegah kebutuhan pulang terlambat dipenuhi."
+    },
+    {
+      "q": "Pasien tidak dapat menjawab dan keluarga belum hadir. Perawat sebaiknya…",
+      "options": [
+        "Mengosongkan seluruh pengkajian",
+        "Menggunakan observasi dan sumber resmi yang tersedia serta menandai data yang belum terverifikasi",
+        "Mengarang riwayat",
+        "Menunggu tanpa menilai kondisi"
+      ],
+      "answer": 1,
+      "why": "Gunakan sumber yang tersedia dan bedakan informasi pasti dengan yang belum terverifikasi."
+    },
+    {
+      "q": "Pengkajian yang bermakna ditunjukkan oleh…",
+      "options": [
+        "Semua kolom terisi",
+        "Temuan dianalisis dan menghasilkan prioritas serta rencana yang sesuai",
+        "Formulir ditandatangani cepat",
+        "Data dicopy dari pasien lain"
+      ],
+      "answer": 1,
+      "why": "Nilai pengkajian terletak pada keputusan asuhan yang dihasilkan."
     }
   ],
   "references": [
@@ -137,9 +322,9 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
   ]
 }

@@ -3,38 +3,49 @@
   "group": "pap",
   "title": "Pelayanan Pasien Risiko Tinggi",
   "short": "Pasien Risiko Tinggi",
-  "desc": "Kenali populasi/pelayanan risiko tinggi dan siapkan kompetensi, alat, pemantauan, serta respons.",
+  "desc": "Mengenali risiko berdasarkan kondisi, tindakan, obat, populasi, dan transisi lalu meningkatkan pengamanan.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 11,
-  "updated": "3 Agustus 2026",
+  "minutes": 21,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
+      "type": "image",
+      "title": "Pelayanan Pasien Risiko Tinggi",
+      "caption": "“Risiko tinggi” bukan sekadar label; status ini mengubah kompetensi petugas, pemantauan, kesiapan alat, komunikasi, dan eskalasi.",
+      "image": "assets/images/v4/pap-risiko-tinggi/pap-risiko-tinggi-01.webp",
+      "thumbnail": "assets/images/thumb/v4/pap-risiko-tinggi/pap-risiko-tinggi-01.webp"
+    },
+    {
       "type": "html",
-      "title": "Sumber risiko",
-      "caption": "Risiko berasal dari pasien atau jenis pelayanan.",
-      "order": 1,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Kondisi pasien",
-            "text": "Kritis, tidak stabil, usia ekstrem, komorbid kompleks."
+            "title": "Risiko tinggi",
+            "text": "Kemungkinan dan/atau dampak buruk meningkat sehingga pelayanan memerlukan pengamanan tambahan."
           },
           {
-            "title": "Pelayanan tinggi risiko",
-            "text": "Resusitasi, transfusi, obat berisiko, tindakan invasif."
+            "title": "Monitoring intensif",
+            "text": "Pemantauan dengan parameter, frekuensi, target, dan batas eskalasi yang lebih jelas."
           },
           {
-            "title": "Populasi khusus",
-            "text": "Anak, geriatri, maternitas, terminal, rentan."
+            "title": "Kompetensi",
+            "text": "Tindakan tertentu hanya dilakukan oleh petugas yang memiliki kemampuan dan kewenangan yang sesuai."
           },
           {
-            "title": "Transisi",
-            "text": "Transportasi, pindah unit, perubahan tim."
+            "title": "Rescue readiness",
+            "text": "Kesiapan alat, obat, akses bantuan, dan tim untuk merespons komplikasi."
+          },
+          {
+            "title": "Risk stratification",
+            "text": "Menentukan tingkat risiko agar sumber daya dan tindakan sesuai kebutuhan."
           }
         ],
         "columns": 2,
@@ -43,31 +54,130 @@
     },
     {
       "type": "html",
-      "title": "Persiapan perawat",
-      "caption": "Sumber daya sesuai kebutuhan.",
-      "order": 2,
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Identifikasi risiko",
+            "text": "Gunakan pengkajian klinis, instrumen, terapi, dan konteks pasien."
+          },
+          {
+            "title": "Tentukan pengamanan",
+            "text": "Atur lokasi pelayanan, frekuensi observasi, alat, akses bantuan, dan kompetensi petugas."
+          },
+          {
+            "title": "Jelaskan rencana",
+            "text": "Sampaikan kepada pasien/keluarga dan tim: apa risikonya, apa yang dipantau, dan kapan meminta bantuan."
+          },
+          {
+            "title": "Dokumentasikan parameter",
+            "text": "Catat target, batas aman, respons, dan eskalasi."
+          },
+          {
+            "title": "Lakukan asesmen ulang",
+            "text": "Tingkat risiko dapat turun atau meningkat setelah terapi, prosedur, atau perubahan kondisi."
+          },
+          {
+            "title": "Serah terimakan",
+            "text": "Status risiko dan pengamanan aktif harus ikut saat transfer atau pergantian shift."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Pasien tampak stabil tetapi terapi berisiko",
+            "text": "Risiko dapat berasal dari obat/prosedur walaupun kondisi awal baik; monitoring tetap diperlukan."
+          },
+          {
+            "title": "Sumber daya terbatas",
+            "text": "Gunakan eskalasi untuk mencari lokasi, petugas, atau alat yang aman; jangan menurunkan pengamanan tanpa penilaian."
+          },
+          {
+            "title": "Pasien menolak pemantauan",
+            "text": "Gali alasan, jelaskan konsekuensi, tawarkan alternatif, libatkan tim, dan dokumentasikan."
+          },
+          {
+            "title": "Risiko berubah cepat",
+            "text": "Perubahan tanda vital, kesadaran, obat, atau prosedur memerlukan penyesuaian segera."
+          },
+          {
+            "title": "Banyak risiko sekaligus",
+            "text": "Prioritaskan ancaman terbesar dan koordinasikan agar intervensi tidak saling bertentangan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Label tanpa rencana",
+            "text": "Tulisan “high risk” tidak menjelaskan apa yang harus dilakukan."
+          },
+          {
+            "title": "Monitoring tanpa batas eskalasi",
+            "text": "Data dikumpulkan tetapi tidak menghasilkan respons."
+          },
+          {
+            "title": "Petugas tidak kompeten melakukan tindakan",
+            "text": "Meningkatkan risiko kesalahan dan keterlambatan rescue."
+          },
+          {
+            "title": "Peralatan tidak siap",
+            "text": "Komplikasi dikenali tetapi tidak dapat segera ditangani."
+          },
+          {
+            "title": "Status risiko tidak diserahterimakan",
+            "text": "Unit berikutnya tidak menyiapkan pengamanan yang diperlukan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
       "template": {
         "style": "checklist",
         "items": [
           {
-            "title": "Kompetensi",
-            "text": "Petugas berwenang dan terampil."
+            "title": "Ubah label menjadi tindakan",
+            "text": "Setiap risiko harus memiliki pengaman, parameter, dan rencana eskalasi."
           },
           {
-            "title": "Pemantauan",
-            "text": "Parameter dan frekuensi jelas."
+            "title": "Pastikan kesiapan",
+            "text": "Cek alat, obat, akses, dan bantuan sebelum memulai tindakan berisiko."
           },
           {
-            "title": "Alat & obat",
-            "text": "Siapkan dukungan emergensi."
+            "title": "Pantau tren",
+            "text": "Gunakan perubahan dari waktu ke waktu, bukan satu angka."
           },
           {
-            "title": "Eskalasi",
-            "text": "Kenali trigger dan sistem respons."
+            "title": "Berkomunikasi terstruktur",
+            "text": "Sampaikan risiko utama dan prioritas dengan SBAR."
           },
           {
-            "title": "Dokumentasi",
-            "text": "Risiko, rencana, tindakan, respons."
+            "title": "Evaluasi setelah kejadian",
+            "text": "Near miss dan komplikasi digunakan untuk memperbaiki sistem."
           }
         ],
         "columns": 1,
@@ -77,46 +187,132 @@
   ],
   "summarySections": [
     {
-      "title": "Tidak hanya ICU",
+      "title": "Sumber risiko",
       "points": [
-        "Risiko tinggi dapat ditemukan di berbagai area."
+        "Kondisi, tindakan, obat, populasi, perilaku, lingkungan, dan transisi."
       ]
     },
     {
-      "title": "Kondisi menentukan sumber daya",
+      "title": "Konsekuensi status risiko",
       "points": [
-        "Tingkat pengawasan mengikuti kebutuhan."
+        "Pengamanan, kompetensi, pemantauan, alat, lokasi, dan eskalasi harus meningkat."
+      ]
+    },
+    {
+      "title": "Risiko dinamis",
+      "points": [
+        "Asesmen ulang diperlukan setelah perubahan klinis atau terapi."
+      ]
+    },
+    {
+      "title": "Label harus operasional",
+      "points": [
+        "Tim harus tahu apa yang dilakukan, kapan, dan oleh siapa."
       ]
     }
   ],
   "do": [
-    "Kenali risiko sebelum tindakan/transfer.",
-    "Pastikan bantuan tersedia."
+    "Tentukan parameter dan batas eskalasi.",
+    "Pastikan petugas dan alat sesuai.",
+    "Lakukan asesmen ulang.",
+    "Serah terimakan pengamanan aktif.",
+    "Libatkan pasien dan keluarga."
   ],
   "dont": [
-    "Transfer tanpa serah terima.",
-    "Menunggu perburukan untuk menyiapkan bantuan."
+    "Menggunakan label tanpa tindakan.",
+    "Memulai prosedur tanpa kesiapan rescue.",
+    "Mengumpulkan data tanpa respons.",
+    "Menurunkan pengamanan tanpa penilaian.",
+    "Membiarkan risiko hilang saat transfer."
   ],
   "quiz": [
     {
-      "q": "Pelayanan risiko tinggi memerlukan…",
+      "q": "Pasien stabil akan menerima sedasi. Mengapa tetap dianggap berisiko?",
       "options": [
-        "Pengawasan/sumber daya sesuai risiko",
-        "Formulir lebih sedikit",
-        "Identitas tunggal",
-        "Komunikasi minimal"
-      ],
-      "answer": 0,
-      "why": "Sumber daya disesuaikan dengan risiko."
-    },
-    {
-      "q": "Pasien risiko tinggi hanya di ICU.",
-      "options": [
-        "Benar",
-        "Salah"
+        "Karena semua pasien sedasi pasti kritis",
+        "Prosedur dapat menekan jalan napas dan memerlukan monitoring serta rescue readiness",
+        "Karena harus dirawat di ICU",
+        "Karena sedasi selalu dilarang"
       ],
       "answer": 1,
-      "why": "Dapat ditemukan di berbagai area."
+      "why": "Risiko berasal dari tindakan dan kemungkinan komplikasinya."
+    },
+    {
+      "q": "Tulisan “pasien risiko tinggi” pada handover belum cukup karena…",
+      "options": [
+        "Terlalu singkat",
+        "Tidak menjelaskan faktor risiko, pengamanan, parameter, dan batas eskalasi",
+        "Harus ditulis warna merah",
+        "Hanya dokter boleh menulis"
+      ],
+      "answer": 1,
+      "why": "Informasi harus dapat ditindaklanjuti."
+    },
+    {
+      "q": "Pasien menggunakan infus vasoaktif tetapi dipindahkan tanpa menyebut target tekanan darah. Risiko utama adalah…",
+      "options": [
+        "Infus lebih cepat habis",
+        "Titrasi dan respons dapat tidak konsisten",
+        "Keluarga bingung",
+        "Dokumentasi terlalu sedikit"
+      ],
+      "answer": 1,
+      "why": "Target merupakan dasar monitoring dan perubahan laju."
+    },
+    {
+      "q": "Risiko pasien dapat turun setelah stabilisasi. Tindakan yang benar adalah…",
+      "options": [
+        "Menghapus seluruh pengamanan otomatis",
+        "Melakukan asesmen ulang dan menyesuaikan tingkat pengamanan",
+        "Mempertahankan label selamanya",
+        "Menghentikan semua monitoring"
+      ],
+      "answer": 1,
+      "why": "Penyesuaian harus berdasarkan penilaian baru."
+    },
+    {
+      "q": "Sebelum tindakan berisiko, perawat harus memastikan…",
+      "options": [
+        "Hanya persetujuan",
+        "Kompetensi petugas, alat, obat, monitoring, dan akses bantuan",
+        "Keluarga sudah pulang",
+        "Ruangan sepi"
+      ],
+      "answer": 1,
+      "why": "Kesiapan sistem menentukan kemampuan mencegah dan menangani komplikasi."
+    },
+    {
+      "q": "Pasien menolak monitoring kontinu. Respons terbaik adalah…",
+      "options": [
+        "Memasang alat secara paksa",
+        "Menggali alasan, menjelaskan risiko, menawarkan alternatif, dan melakukan eskalasi",
+        "Membiarkan tanpa catatan",
+        "Memulangkan langsung"
+      ],
+      "answer": 1,
+      "why": "Pendekatan kolaboratif dan dokumentasi diperlukan."
+    },
+    {
+      "q": "Monitoring yang baik mencakup…",
+      "options": [
+        "Frekuensi saja",
+        "Parameter, frekuensi, target, dan batas eskalasi",
+        "Nama alat saja",
+        "Tanda tangan petugas"
+      ],
+      "answer": 1,
+      "why": "Monitoring harus mengarah pada tindakan."
+    },
+    {
+      "q": "Pada transfer pasien risiko tinggi, prioritas komunikasi adalah…",
+      "options": [
+        "Riwayat lengkap sejak lahir",
+        "Risiko aktif, terapi, alat, target, perubahan, dan tindakan segera",
+        "Daftar pengunjung",
+        "Menu diet keluarga"
+      ],
+      "answer": 1,
+      "why": "Penerima membutuhkan informasi yang memengaruhi keselamatan segera."
     }
   ],
   "references": [
@@ -126,9 +322,9 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
   ]
 }

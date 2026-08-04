@@ -2,111 +2,314 @@
   "id": "ppi-tangan",
   "group": "ppi",
   "title": "Kebersihan Tangan",
-  "short": "Kebersihan Tangan",
-  "desc": "Lima momen, enam langkah, pemilihan handrub/handwash, dan durasi yang benar.",
+  "short": "5 momen, teknik, dan pemilihan metode",
+  "desc": "Memutus transmisi mikroorganisme pada saat yang tepat dengan metode dan teknik yang benar.",
   "category": "PPI",
-  "color": "#1877C9",
-  "soft": "#EAF3FF",
-  "icon": "hands",
-  "minutes": 17,
-  "updated": "3 Agustus 2026",
+  "color": "#14805E",
+  "soft": "#EAF8F2",
+  "icon": "hand",
+  "minutes": 12,
+  "updated": "4 Agustus 2026",
   "notice": "",
+  "quizDisplayCount": 5,
   "slides": [
     {
       "type": "image",
-      "title": "Enam Langkah",
-      "caption": "Pastikan seluruh permukaan tangan terpapar.",
-      "order": 1,
-      "image": "assets/images/main/ppi/ppi-01-enam-langkah-cuci-tangan.webp",
-      "thumbnail": "assets/images/thumb/ppi/ppi-01-enam-langkah-cuci-tangan-thumb.webp",
-      "version": 1
-    },
-    {
-      "type": "image",
-      "title": "Durasi",
-      "caption": "Handrub dan handwash memiliki indikasi/durasi berbeda.",
-      "order": 2,
-      "image": "assets/images/main/ppi/ppi-02-durasi-kebersihan-tangan.webp",
-      "thumbnail": "assets/images/thumb/ppi/ppi-02-durasi-kebersihan-tangan-thumb.webp",
-      "version": 1
-    },
-    {
-      "type": "image",
-      "title": "Lima Momen",
-      "caption": "Lakukan berdasarkan momen pelayanan.",
-      "order": 3,
-      "image": "assets/images/main/ppi/ppi-03-lima-momen.webp",
-      "thumbnail": "assets/images/thumb/ppi/ppi-03-lima-momen-thumb.webp",
-      "version": 1
+      "title": "Kebersihan Tangan",
+      "caption": "Kebersihan tangan efektif bila dilakukan pada momen yang tepat, dengan metode yang sesuai, dan seluruh permukaan tangan terjangkau.",
+      "image": "assets/images/v4/ppi-tangan/ppi-tangan-01.webp",
+      "thumbnail": "assets/images/thumb/v4/ppi-tangan/ppi-tangan-01.webp"
     },
     {
       "type": "html",
-      "title": "Pilih metode",
-      "caption": "Perhatikan kondisi tangan.",
-      "order": 4,
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Handrub",
-            "text": "Bila tangan tidak tampak kotor."
+            "title": "Tujuan utama",
+            "text": "Mengurangi mikroorganisme pada tangan agar tidak berpindah antara pasien, petugas, alat, dan lingkungan.",
+            "tag": "Mengapa"
           },
           {
-            "title": "Handwash",
-            "text": "Bila tampak kotor/indikasi tertentu."
+            "title": "Momen berbeda dari langkah",
+            "text": "Momen menjawab kapan harus melakukan kebersihan tangan; langkah menjawab bagaimana seluruh permukaan tangan dibersihkan."
           },
           {
-            "title": "Sarung tangan",
-            "text": "Tidak mengganti hand hygiene."
+            "title": "Zona pasien",
+            "text": "Lingkungan dekat pasien seperti bed rail, meja pasien, monitor, dan alat yang sering disentuh dapat menjadi bagian dari rantai transmisi."
+          },
+          {
+            "title": "Metode dipilih sesuai kondisi",
+            "text": "Handrub efektif dan cepat pada banyak situasi; air dan sabun diperlukan bila tangan tampak kotor atau indikasi lain menuntut pencucian."
+          },
+          {
+            "title": "Kepatuhan bukan sekadar angka",
+            "text": "Tujuannya adalah keselamatan pasien dan petugas, bukan hanya memenuhi observasi audit."
           }
         ],
-        "columns": 3,
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Sebelum kontak pasien",
+            "text": "Lakukan sebelum pemeriksaan fisik, membantu mobilisasi, atau kontak langsung lain agar pasien terlindungi dari mikroorganisme petugas."
+          },
+          {
+            "title": "Sebelum tindakan aseptik",
+            "text": "Lakukan tepat sebelum memegang perangkat invasif, menyiapkan akses, merawat luka, atau tindakan lain yang membutuhkan teknik aseptik."
+          },
+          {
+            "title": "Setelah risiko cairan tubuh",
+            "text": "Lakukan segera setelah kontak atau potensi kontak, termasuk setelah melepas sarung tangan."
+          },
+          {
+            "title": "Setelah kontak pasien",
+            "text": "Lakukan setelah selesai menyentuh pasien, sebelum beralih ke aktivitas berikutnya."
+          },
+          {
+            "title": "Setelah lingkungan pasien",
+            "text": "Lakukan walau pasien tidak disentuh bila petugas menyentuh benda di sekitar pasien."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Situasi khusus",
+      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "title": "Tangan tampak kotor",
+            "text": "Gunakan air mengalir dan sabun; handrub tidak menggantikan pembersihan mekanis pada kotoran yang terlihat."
+          },
+          {
+            "title": "Berpindah dari area kotor ke bersih pada pasien yang sama",
+            "text": "Ganti sarung tangan bila perlu dan lakukan kebersihan tangan sebelum melanjutkan ke area bersih."
+          },
+          {
+            "title": "Kulit iritasi atau luka",
+            "text": "Laporkan dan lakukan perawatan; kulit rusak dapat menurunkan kepatuhan dan meningkatkan risiko kolonisasi."
+          },
+          {
+            "title": "Sarung tangan robek",
+            "text": "Hentikan tindakan secara aman, lepaskan, lakukan kebersihan tangan, dan ganti sarung tangan."
+          },
+          {
+            "title": "Akses wastafel terbatas",
+            "text": "Gunakan handrub bila indikasinya sesuai dan lakukan eskalasi bila sarana kebersihan tangan tidak memadai."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Terlalu cepat",
+            "text": "Durasi pendek membuat permukaan tangan tidak terjangkau dan produk belum bekerja optimal."
+          },
+          {
+            "title": "Hanya membersihkan telapak",
+            "text": "Ibu jari, ujung jari, punggung tangan, dan sela jari sering terlewat."
+          },
+          {
+            "title": "Sarung tangan dipakai terlalu lama",
+            "text": "Sarung tangan dapat memindahkan mikroorganisme dari satu area atau pasien ke area lain."
+          },
+          {
+            "title": "Menyentuh benda setelah kebersihan tangan",
+            "text": "Telepon, pena, gagang pintu, atau pakaian dapat mengontaminasi kembali tangan sebelum tindakan aseptik."
+          },
+          {
+            "title": "Menganggap lingkungan pasien “bersih”",
+            "text": "Permukaan sekitar pasien dapat terkontaminasi walau tidak terlihat kotor."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Jadilah contoh",
+            "text": "Lakukan pada momen yang benar walau tidak sedang diamati."
+          },
+          {
+            "title": "Siapkan alur kerja",
+            "text": "Letakkan alat sebelum kebersihan tangan agar tidak perlu menyentuh benda lain setelahnya."
+          },
+          {
+            "title": "Berani mengingatkan",
+            "text": "Gunakan komunikasi sopan dan saling menjaga bila melihat momen yang terlewat."
+          },
+          {
+            "title": "Laporkan hambatan sistem",
+            "text": "Ketersediaan handrub, wastafel, sabun, tisu, atau masalah kulit perlu diperbaiki."
+          },
+          {
+            "title": "Hubungkan dengan tindakan aseptik",
+            "text": "Kebersihan tangan adalah awal, bukan pengganti teknik aseptik dan pengelolaan alat yang benar."
+          }
+        ],
+        "columns": 1,
         "note": ""
       }
     }
   ],
   "summarySections": [
     {
-      "title": "Lima momen",
+      "title": "Kapan",
       "points": [
-        "Berpusat pada alur pasien."
+        "Gunakan 5 momen WHO untuk mengenali titik risiko transmisi."
       ]
     },
     {
-      "title": "Teknik/durasi",
+      "title": "Bagaimana",
       "points": [
-        "Keduanya harus benar."
+        "Pilih handrub atau handwash sesuai kondisi dan lakukan teknik lengkap."
+      ]
+    },
+    {
+      "title": "Sarung tangan",
+      "points": [
+        "Tidak menggantikan kebersihan tangan dan harus diganti antarindikasi."
+      ]
+    },
+    {
+      "title": "Tujuan",
+      "points": [
+        "Melindungi pasien, petugas, dan lingkungan dari perpindahan mikroorganisme."
       ]
     }
   ],
   "do": [
-    "Hand hygiene pada momen tepat.",
-    "Biarkan kering sebelum sarung tangan."
+    "Kenali momen sebelum memulai tindakan.",
+    "Siapkan alat sebelum membersihkan tangan.",
+    "Gunakan durasi dan teknik lengkap.",
+    "Lakukan setelah melepas sarung tangan.",
+    "Laporkan hambatan sarana atau masalah kulit."
   ],
   "dont": [
-    "Sarung tangan sebagai pengganti.",
-    "Menyentuh telepon dengan sarung tangan kotor."
+    "Mengandalkan sarung tangan sebagai pengganti.",
+    "Menyentuh telepon setelah kebersihan tangan sebelum tindakan aseptik.",
+    "Memakai sarung tangan yang sama untuk area berbeda.",
+    "Mengabaikan lingkungan pasien.",
+    "Melakukan handrub pada tangan yang tampak kotor."
   ],
   "quiz": [
     {
-      "q": "Sarung tangan mengganti hand hygiene.",
+      "q": "Perawat merapikan bed rail tanpa menyentuh pasien, lalu akan meninggalkan ruang. Momen yang relevan adalah…",
       "options": [
-        "Benar",
-        "Salah"
+        "Tidak perlu karena pasien tidak disentuh",
+        "Setelah menyentuh lingkungan pasien",
+        "Sebelum tindakan aseptik saja",
+        "Hanya bila bed rail tampak kotor"
       ],
       "answer": 1,
-      "why": "Tidak menggantikan."
+      "why": "Lingkungan dekat pasien dapat menjadi sumber perpindahan mikroorganisme."
     },
     {
-      "q": "Handwash dipilih saat…",
+      "q": "Sebelum memasang akses intravena, perawat sudah melakukan handrub lalu menyentuh telepon. Tindakan berikutnya adalah…",
       "options": [
-        "Tangan tampak kotor",
-        "Setelah membaca",
-        "Tidak ada air",
-        "Memakai masker"
+        "Langsung memakai sarung tangan",
+        "Melakukan kebersihan tangan kembali sebelum tindakan aseptik",
+        "Cukup membersihkan telepon setelah tindakan",
+        "Memakai dua lapis sarung tangan"
+      ],
+      "answer": 1,
+      "why": "Sentuhan pada telepon dapat mengontaminasi kembali tangan."
+    },
+    {
+      "q": "Tangan terlihat terkena darah. Metode paling tepat adalah…",
+      "options": [
+        "Handrub 10 detik",
+        "Cuci dengan air mengalir dan sabun sesuai teknik",
+        "Lap dengan tisu kering",
+        "Memakai sarung tangan baru tanpa membersihkan"
+      ],
+      "answer": 1,
+      "why": "Kotoran yang terlihat memerlukan pencucian mekanis dengan air dan sabun."
+    },
+    {
+      "q": "Sarung tangan dipakai saat membersihkan area perineum, kemudian perawat akan merawat akses intravena pasien yang sama. Tindakan aman adalah…",
+      "options": [
+        "Tetap memakai sarung tangan yang sama",
+        "Lepas sarung tangan, kebersihan tangan, lalu gunakan sarung tangan sesuai kebutuhan",
+        "Hanya menyemprot sarung tangan",
+        "Mencuci sarung tangan dengan sabun"
+      ],
+      "answer": 1,
+      "why": "Berpindah dari area kotor ke area bersih membutuhkan pergantian dan kebersihan tangan."
+    },
+    {
+      "q": "Perbedaan “momen” dan “langkah” kebersihan tangan adalah…",
+      "options": [
+        "Momen menjelaskan kapan, langkah menjelaskan bagaimana",
+        "Momen hanya untuk dokter",
+        "Langkah hanya untuk handwash",
+        "Tidak ada perbedaan"
       ],
       "answer": 0,
-      "why": "Sabun dan air saat tampak kotor/indikasi tertentu."
+      "why": "Keduanya saling melengkapi: kapan dan bagaimana."
+    },
+    {
+      "q": "Mengapa ujung jari dan ibu jari perlu perhatian khusus?",
+      "options": [
+        "Karena paling mudah dilihat",
+        "Sering terlewat dan banyak digunakan saat menyentuh pasien atau alat",
+        "Agar tangan terasa dingin",
+        "Hanya untuk memenuhi durasi"
+      ],
+      "answer": 1,
+      "why": "Area tersebut sering terlewat tetapi aktif dalam kontak."
+    },
+    {
+      "q": "Setelah melepas sarung tangan yang tidak tampak bocor, perawat seharusnya…",
+      "options": [
+        "Tidak perlu kebersihan tangan",
+        "Tetap melakukan kebersihan tangan",
+        "Hanya bila pasien infeksius",
+        "Menunggu sampai selesai shift"
+      ],
+      "answer": 1,
+      "why": "Sarung tangan dapat memiliki defek mikro dan tangan dapat terkontaminasi saat pelepasan."
+    },
+    {
+      "q": "Hambatan kepatuhan karena dispenser kosong sebaiknya ditangani dengan…",
+      "options": [
+        "Menyalahkan petugas",
+        "Melaporkan dan memperbaiki sistem ketersediaan sambil memakai alternatif yang sesuai",
+        "Menghentikan semua tindakan",
+        "Mengabaikan karena bukan tugas perawat"
+      ],
+      "answer": 1,
+      "why": "Keselamatan membutuhkan tindakan individual dan perbaikan sistem."
     }
   ],
   "references": [
@@ -116,9 +319,19 @@
       "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
-      "title": "Keputusan Dirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://keslan.kemkes.go.id/produkhukum"
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "WHO — Five Moments for Hand Hygiene",
+      "org": "World Health Organization",
+      "url": "https://www.who.int/publications/m/item/five-moments-for-hand-hygiene"
+    },
+    {
+      "title": "WHO — Hand Hygiene: Why, How & When?",
+      "org": "World Health Organization",
+      "url": "https://cdn.who.int/media/docs/default-source/documents/health-topics/hand-hygiene-why-how-and-when-brochure.pdf"
     }
   ]
 }
