@@ -10,11 +10,150 @@ function load(){try{return {...def,...JSON.parse(localStorage.getItem(KEY)||'{}'
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch{}}
 function icon(n){return ICONS[n]||ICONS.shield||''}
 function fav(id){return state.favorites.includes(id)}
-function toggleFav(id){state.favorites=fav(id)?state.favorites.filter(x=>x!==id):[id,...state.favorites];save();toast(fav(id)?'Ditambahkan ke favorit.':'Dihapus dari favorit.');route()}
+function toggleFav(id){
+  state.favorites=fav(id)?state.favorites.filter(x=>x!==id):[id,...state.favorites];
+  save();
+  toast(fav(id)?'Ditambahkan ke favorit.':'Dihapus dari favorit.');
+  refreshRoute();
+}
 function recent(id){state.recent=[id,...state.recent.filter(x=>x!==id)].slice(0,12);state.lastTopic=id;save()}
 async function getJSON(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error('Gagal memuat '+url);return r.json()}
 async function getTopic(id){if(CACHE[id])return CACHE[id];const m=TOPICS[id];if(!m)throw Error('Materi tidak ditemukan');return CACHE[id]=await getJSON(m.file+'?v=3.0.2')}
 function parse(){return (location.hash||'#/home').replace(/^#\//,'').split('/').filter(Boolean)}
+
+/* ================================================================
+   Navigasi dan pemulihan posisi scroll
+   - Halaman baru selalu dimulai dari atas.
+   - Back/Forward mengembalikan posisi scroll halaman sebelumnya.
+   - Tombol "Kembali ke [kelompok]" tidak membuat riwayat duplikat.
+   ================================================================ */
+let scrollSaveTimer=null;
+let handlingPopState=false;
+
+function currentRoute(){
+  return location.hash||'#/home';
+}
+
+function normalizeRoute(value){
+  const route=String(value||'#/home');
+  return route.startsWith('#/')
+    ? route
+    : `#/${route.replace(/^#?\/?/,'')}`;
+}
+
+function saveScroll(){
+  const oldState=history.state||{};
+  history.replaceState(
+    {
+      ...oldState,
+      akRoute:currentRoute(),
+      akScrollY:Math.max(0,Math.round(window.scrollY||0))
+    },
+    '',
+    location.href
+  );
+}
+
+function restoreScroll(y=0){
+  const top=Math.max(0,Number(y)||0);
+  requestAnimationFrame(()=>{
+    requestAnimationFrame(()=>{
+      window.scrollTo({
+        top,
+        left:0,
+        behavior:'auto'
+      });
+    });
+  });
+}
+
+async function renderRouteAt(y=0){
+  await route();
+  restoreScroll(y);
+}
+
+async function refreshRoute(){
+  const y=window.scrollY||0;
+  const previousTab=currentTab;
+  const wasTopic=parse()[0]==='topic';
+
+  await route();
+
+  if(wasTopic&&previousTab&&previousTab!=='learn'){
+    setTab(previousTab);
+  }
+
+  restoreScroll(y);
+}
+
+async function go(value){
+  const destination=normalizeRoute(value);
+  const origin=currentRoute();
+
+  closeSearch();
+  closeLB();
+
+  if(destination===origin){
+    restoreScroll(0);
+    return;
+  }
+
+  saveScroll();
+
+  history.pushState(
+    {
+      akRoute:destination,
+      akFromRoute:origin,
+      akScrollY:0
+    },
+    '',
+    destination
+  );
+
+  await renderRouteAt(0);
+}
+
+async function backToParent(value){
+  const parentRoute=normalizeRoute(value);
+
+  closeSearch();
+  closeLB();
+  saveScroll();
+
+  /*
+    Bila halaman sebelumnya memang kelompok induk,
+    gunakan Back asli agar posisi scroll kelompok dipulihkan.
+  */
+  if(history.state?.akFromRoute===parentRoute){
+    history.back();
+    return;
+  }
+
+  /*
+    Bila submateri dibuka dari Beranda, Favorit, pencarian,
+    atau tautan langsung, ganti entri submateri dengan kelompok.
+    Dengan begitu Back berikutnya kembali ke halaman asal,
+    bukan masuk lagi ke submateri.
+  */
+  history.replaceState(
+    {
+      akRoute:parentRoute,
+      akFromRoute:history.state?.akFromRoute||null,
+      akScrollY:0
+    },
+    '',
+    parentRoute
+  );
+
+  await renderRouteAt(0);
+}
+
+async function handleHistoryNavigation(savedState=history.state){
+  closeSearch();
+  closeLB();
+  await renderRouteAt(savedState?.akScrollY||0);
+}
+
 function nav(page){const k=['group','topic'].includes(page)?'library':page;$$('[data-nav]').forEach(b=>b.classList.toggle('active',b.dataset.nav===k))}
 async function route(){
   const p=parse(), page=p[0]||'home';currentId=null;current=null;quizRun=null;document.body.classList.remove('ak-is-module');nav(page);
@@ -41,7 +180,7 @@ function groupPage(id){const g=GROUPS[id];if(!g)return library();$('#mainContent
 function topicList(title,desc,ids){const v=ids.filter(x=>TOPICS[x]);$('#mainContent').innerHTML=`<div class="ak-page-head"><div><h1>${esc(title)}</h1><p>${esc(desc)}</p></div></div>${v.length?`<div class="ak-grid ak-topic-grid">${v.map(topicCard).join('')}</div>`:'<div class="ak-empty">Belum ada materi di daftar ini.</div>'}`}
 async function topicPage(id){
  const meta=TOPICS[id];if(!meta)return library();const g=GROUPS[meta.group];currentId=id;current=await getTopic(id);currentTab='learn';document.body.classList.add('ak-is-module');recent(id);
- $('#mainContent').innerHTML=`<div class="ak-mobile-module-head"><button class="ak-mobile-module-action" data-route="#/group/${g.id}">${icon('back')}</button><div class="ak-mobile-module-title"><small>${g.code} — ${esc(g.title)}</small><strong>${esc(current.title)}</strong></div><button class="ak-mobile-module-action ${fav(id)?'active':''}" data-action="favorite" data-id="${id}">${fav(id)?icon('starFill'):icon('star')}</button></div><div class="ak-breadcrumb ak-desktop-only"><button data-route="#/library">Materi</button><span>›</span><button data-route="#/group/${g.id}">${g.code}</button><span>›</span><strong>${esc(current.short)}</strong></div><section class="ak-module-hero" style="--module:${current.color};--soft:${current.soft}"><div class="ak-module-hero-grid"><div><div class="ak-eyebrow">${g.code} — ${esc(g.title)}</div><h1>${esc(current.title)}</h1><p>${esc(current.desc)}</p><div class="ak-module-meta"><span class="ak-dark-chip">± ${current.minutes} menit</span><span class="ak-dark-chip">${current.slides.length} bagian</span><span class="ak-dark-chip">${current.quiz.length} soal</span></div></div><div class="ak-module-bigicon">${icon(current.icon)}</div></div><button class="ak-module-fav ${fav(id)?'active':''}" data-action="favorite" data-id="${id}">${fav(id)?icon('starFill'):icon('star')}</button></section>${current.notice?`<div class="ak-notice">${icon('alert')}<span>${esc(current.notice)}</span></div>`:''}<div class="ak-tabs" style="--module:${current.color};--soft:${current.soft}"><button class="ak-tab active" data-action="set-tab" data-tab="learn">Pelajari</button><button class="ak-tab" data-action="set-tab" data-tab="summary">Inti Materi</button><button class="ak-tab" data-action="set-tab" data-tab="quiz">Uji Pemahaman</button><button class="ak-tab" data-action="set-tab" data-tab="refs">Referensi</button></div><section id="panel-learn" class="ak-panel active"></section><section id="panel-summary" class="ak-panel"></section><section id="panel-quiz" class="ak-panel"></section><section id="panel-refs" class="ak-panel"></section><div class="ak-mobile-footer"><button data-route="#/group/${g.id}">Kembali ke ${g.code}</button><span>•</span><button data-route="#/library">Semua materi</button></div>`;
+ $('#mainContent').innerHTML=`<div class="ak-mobile-module-head"><button class="ak-mobile-module-action" data-action="back-parent" data-parent="#/group/${g.id}" aria-label="Kembali ke ${esc(g.code)}">${icon('back')}</button><div class="ak-mobile-module-title"><small>${g.code} — ${esc(g.title)}</small><strong>${esc(current.title)}</strong></div><button class="ak-mobile-module-action ${fav(id)?'active':''}" data-action="favorite" data-id="${id}">${fav(id)?icon('starFill'):icon('star')}</button></div><div class="ak-breadcrumb ak-desktop-only"><button data-route="#/library">Materi</button><span>›</span><button data-action="back-parent" data-parent="#/group/${g.id}">${g.code}</button><span>›</span><strong>${esc(current.short)}</strong></div><section class="ak-module-hero" style="--module:${current.color};--soft:${current.soft}"><div class="ak-module-hero-grid"><div><div class="ak-eyebrow">${g.code} — ${esc(g.title)}</div><h1>${esc(current.title)}</h1><p>${esc(current.desc)}</p><div class="ak-module-meta"><span class="ak-dark-chip">± ${current.minutes} menit</span><span class="ak-dark-chip">${current.slides.length} bagian</span><span class="ak-dark-chip">${current.quiz.length} soal</span></div></div><div class="ak-module-bigicon">${icon(current.icon)}</div></div><button class="ak-module-fav ${fav(id)?'active':''}" data-action="favorite" data-id="${id}">${fav(id)?icon('starFill'):icon('star')}</button></section>${current.notice?`<div class="ak-notice">${icon('alert')}<span>${esc(current.notice)}</span></div>`:''}<div class="ak-tabs" style="--module:${current.color};--soft:${current.soft}"><button class="ak-tab active" data-action="set-tab" data-tab="learn">Pelajari</button><button class="ak-tab" data-action="set-tab" data-tab="summary">Inti Materi</button><button class="ak-tab" data-action="set-tab" data-tab="quiz">Uji Pemahaman</button><button class="ak-tab" data-action="set-tab" data-tab="refs">Referensi</button></div><section id="panel-learn" class="ak-panel active"></section><section id="panel-summary" class="ak-panel"></section><section id="panel-quiz" class="ak-panel"></section><section id="panel-refs" class="ak-panel"></section><div class="ak-mobile-footer"><button data-action="back-parent" data-parent="#/group/${g.id}">Kembali ke ${g.code}</button><span>•</span><button data-route="#/library">Semua materi</button></div>`;
  renderLearn();renderSummary();renderRefs()
 }
 function htmlSlide(s){const t=s.template||{},items=t.items||[],cols=t.columns||2;return `<div class="ak-slide-html"><section class="ak-native ak-native-${esc(t.style||'cards')}" style="--native-cols:${cols};--module:${current.color};--soft:${current.soft}"><header class="ak-native-head"><span class="ak-native-kicker">${GROUPS[current.group].code}</span><h2>${esc(s.title)}</h2><p>${esc(s.caption)}</p></header><div class="ak-native-grid">${items.map((it,i)=>`<article class="ak-native-item"><span class="ak-native-marker">${esc(it.level||i+1)}</span><div><h3>${esc(it.title)}</h3><p>${esc(it.text)}</p></div></article>`).join('')}</div>${t.note?`<div class="ak-native-note">${icon('alert')}<span>${esc(t.note)}</span></div>`:''}</section></div>`}
@@ -73,55 +212,97 @@ function closeLB(){$('#lightbox')?.classList.remove('open')}
 function zoomLB(d){lbZoom=Math.max(.6,Math.min(3,lbZoom+d));$('#lightboxImage').style.transform=`scale(${lbZoom})`}
 function toast(m){const t=$('#toast');if(!t)return;t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
 function bind(){
-if ('scrollRestoration' in history) {
-  history.scrollRestoration = 'manual';
-}
+  if('scrollRestoration' in history){
+    history.scrollRestoration='manual';
+  }
 
-window.addEventListener('hashchange', async () => {
-  await route();
-
-  requestAnimationFrame(() => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'auto'
-    });
+  /*
+    Back/Forward browser dan tombol Back Android/PWA.
+    Guard hashchange mencegah render dua kali pada browser
+    yang memicu popstate dan hashchange bersamaan.
+  */
+  window.addEventListener('popstate',async e=>{
+    handlingPopState=true;
+    await handleHistoryNavigation(e.state);
+    setTimeout(()=>{handlingPopState=false},0);
   });
-});
- document.addEventListener('click',e=>{
-  const a=e.target.closest('[data-action]');
-  if(a){
-    const x=a.dataset.action;
-    if(x==='open-askep')window.open(ASKEP,'_blank','noopener');
-    if(x==='favorite')toggleFav(a.dataset.id);
-    if(x==='open-search')openSearch();
-    if(x==='close-search')closeSearch();
-    if(x==='set-tab')setTab(a.dataset.tab);
-    if(x==='set-slide')setSlide(Number(a.dataset.index));
-    if(x==='open-lightbox')openLB(a.dataset.src);
-    if(x==='close-lightbox')closeLB();
-    if(x==='zoom-lightbox')zoomLB(Number(a.dataset.delta));
-    if(x==='answer-quiz')answerQuiz(Number(a.dataset.question),Number(a.dataset.choice));
-    if(x==='next-quiz')nextQuiz();
-    if(x==='restart-quiz')restartQuiz();
-    if(x==='retry-wrong')retryWrong();
-    return;
-  }
-  const r=e.target.closest('[data-route]');
-  if(r)location.hash=r.dataset.route;
-});
- $('#searchInput')?.addEventListener('input',e=>search(e.target.value));
- document.addEventListener('keydown',e=>{
-  const card=e.target.closest?.('.ak-card[data-route]');
-  if(card&&(e.key==='Enter'||e.key===' ')){
-    e.preventDefault();
-    location.hash=card.dataset.route;
-    return;
-  }
-  if(e.key==='Escape'){closeSearch();closeLB()}
-  if(e.key==='ArrowRight'&&currentId&&currentTab==='learn')setSlide((state.lastSlides[currentId]||0)+1);
-  if(e.key==='ArrowLeft'&&currentId&&currentTab==='learn')setSlide((state.lastSlides[currentId]||0)-1)
-})
+
+  /*
+    Fallback bila hash diubah langsung dari address bar
+    atau dari tautan hash yang tidak memakai data-route.
+  */
+  window.addEventListener('hashchange',async ()=>{
+    if(handlingPopState)return;
+    await handleHistoryNavigation(history.state);
+  });
+
+  window.addEventListener(
+    'scroll',
+    ()=>{
+      clearTimeout(scrollSaveTimer);
+      scrollSaveTimer=setTimeout(saveScroll,120);
+    },
+    {passive:true}
+  );
+
+  window.addEventListener('pagehide',saveScroll);
+
+  document.addEventListener('click',e=>{
+    const a=e.target.closest('[data-action]');
+
+    if(a){
+      const x=a.dataset.action;
+
+      if(x==='open-askep')window.open(ASKEP,'_blank','noopener');
+      if(x==='favorite')toggleFav(a.dataset.id);
+      if(x==='open-search')openSearch();
+      if(x==='close-search')closeSearch();
+      if(x==='set-tab')setTab(a.dataset.tab);
+      if(x==='set-slide')setSlide(Number(a.dataset.index));
+      if(x==='open-lightbox')openLB(a.dataset.src);
+      if(x==='close-lightbox')closeLB();
+      if(x==='zoom-lightbox')zoomLB(Number(a.dataset.delta));
+      if(x==='answer-quiz')answerQuiz(Number(a.dataset.question),Number(a.dataset.choice));
+      if(x==='next-quiz')nextQuiz();
+      if(x==='restart-quiz')restartQuiz();
+      if(x==='retry-wrong')retryWrong();
+      if(x==='back-parent')backToParent(a.dataset.parent);
+
+      return;
+    }
+
+    const r=e.target.closest('[data-route]');
+
+    if(r){
+      e.preventDefault();
+      go(r.dataset.route);
+    }
+  });
+
+  $('#searchInput')?.addEventListener('input',e=>search(e.target.value));
+
+  document.addEventListener('keydown',e=>{
+    const card=e.target.closest?.('.ak-card[data-route]');
+
+    if(card&&(e.key==='Enter'||e.key===' ')){
+      e.preventDefault();
+      go(card.dataset.route);
+      return;
+    }
+
+    if(e.key==='Escape'){
+      closeSearch();
+      closeLB();
+    }
+
+    if(e.key==='ArrowRight'&&currentId&&currentTab==='learn'){
+      setSlide((state.lastSlides[currentId]||0)+1);
+    }
+
+    if(e.key==='ArrowLeft'&&currentId&&currentTab==='learn'){
+      setSlide((state.lastSlides[currentId]||0)-1);
+    }
+  });
 }
 async function init(){
   CATALOG=await getJSON('assets/data/catalog-v3-0-2.json?v=3.0.2');
@@ -132,14 +313,18 @@ async function init(){
   TOPICS=CATALOG.topics;
   ICONS=CATALOG.icons||{};
   ASKEP=CATALOG.askepUrl||'';
-  bind();
-await route();
+  history.replaceState(
+    {
+      ...history.state,
+      akRoute:currentRoute(),
+      akScrollY:0
+    },
+    '',
+    location.href
+  );
 
-window.scrollTo({
-  top: 0,
-  left: 0,
-  behavior: 'auto'
-});
+  bind();
+  await renderRouteAt(0);
   if('serviceWorker' in navigator){
     window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
   }
