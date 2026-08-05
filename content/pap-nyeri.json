@@ -10,51 +10,79 @@
   "icon": "heart",
   "minutes": 24,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PAP 4 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "R–Regulasi",
+            "title": "EP PAP 4.a",
+            "text": "Rumah sakit memiliki proses untuk melakukan skrining, pengkajian, dan tata laksana nyeri meliputi poin a) - e) pada maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan proses untuk melakukan skrining, pengkajian, dan tata laksana nyeri meliputi poin a) - e) pada maksud dan tujuan.",
+              "Halaman instrumen: 321"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PAP 4.b",
+            "text": "Informasi mengenai kemungkinan adanya nyeri dan pilihan tata laksananya diberikan kepada pasien yang menerima terapi/ prosedur/pemeriksaan terencana yang sudah dapat diprediksi menimbulkan rasa nyeri.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis: Pemberian informasi kepada pasien tentang kemungkinan timbul rasa nyeri oleh karena tindakan terapi/prosedur/ pemeriksaan - PPA - Pasien / keluarga",
+              "Halaman instrumen: 321"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PAP 4.c",
+            "text": "Pasien dan keluarga mendapatkan edukasi mengenai pengelolaan nyeri sesuai dengan latar belakang agama, budaya, nilai-nilai yang dianut.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis: edukasi kepada pasien/keluarga tentang pengelolaan nyeri sesuai latar belakang agama, budaya, nilai-nilai yang dianut. - PPA - Pasien/ keluarga",
+              "Halaman instrumen: 321"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PAP 4 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara • S–Simulasi",
+            "title": "EP PAP 4.d",
+            "text": "Staf rumah sakit mendapatkan pelatihan mengenai cara melakukan edukasi bagi pengelolaan nyeri.",
+            "bullets": [
+              "Kelengkapan bukti: Pelatihan mengenai cara melakukan edukasi nyeri bagi PPA PPA Pemberian edukasi pengelolaan nyeri",
+              "Halaman instrumen: 321"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Pengkajian dan Pengelolaan Nyeri",
       "caption": "Skor nyeri adalah awal percakapan, bukan seluruh pengkajian; tujuan terapi adalah kenyamanan dan fungsi yang bermakna bagi pasien.",
       "image": "assets/images/v4/pap-nyeri/pap-nyeri-01.webp",
       "thumbnail": "assets/images/thumb/v4/pap-nyeri/pap-nyeri-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Praktik: kaji–intervensi–nilai ulang nyeri",
-      "caption": "Angka nyeri bermakna bila dikaitkan dengan fungsi, karakteristik, dan respons terhadap terapi.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Pilih skala yang sesuai",
-            "text": "Gunakan skala berdasarkan usia, kemampuan komunikasi, dan kondisi pasien."
-          },
-          {
-            "title": "Kaji lengkap",
-            "text": "Lokasi, kualitas, intensitas, waktu, pencetus/pereda, dampak fungsi/tidur, dan gejala penyerta."
-          },
-          {
-            "title": "Tetapkan target",
-            "text": "Sepakati target realistis—misalnya dapat bernapas dalam atau mobilisasi—bukan hanya angka nol."
-          },
-          {
-            "title": "Berikan intervensi",
-            "text": "Farmakologis dan nonfarmakologis sesuai program, kontraindikasi, dan kondisi pasien."
-          },
-          {
-            "title": "Pantau efek samping",
-            "text": "Sedasi, napas, mual, tekanan darah, alergi, atau komplikasi lain sesuai terapi."
-          },
-          {
-            "title": "Nilai ulang tepat waktu",
-            "text": "Catat perubahan intensitas/fungsi dan eskalasi bila nyeri tidak terkontrol atau pola berubah."
-          }
-        ],
-        "columns": 2,
-        "note": "Nyeri baru yang berat atau tidak sesuai pola memerlukan penilaian penyebab, bukan sekadar penambahan analgesik."
-      }
     },
     {
       "type": "html",
@@ -126,6 +154,42 @@
     },
     {
       "type": "html",
+      "title": "Praktik: kaji–intervensi–nilai ulang nyeri",
+      "caption": "Angka nyeri bermakna bila dikaitkan dengan fungsi, karakteristik, dan respons terhadap terapi.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pilih skala yang sesuai",
+            "text": "Gunakan skala berdasarkan usia, kemampuan komunikasi, dan kondisi pasien."
+          },
+          {
+            "title": "Kaji lengkap",
+            "text": "Lokasi, kualitas, intensitas, waktu, pencetus/pereda, dampak fungsi/tidur, dan gejala penyerta."
+          },
+          {
+            "title": "Tetapkan target",
+            "text": "Sepakati target realistis—misalnya dapat bernapas dalam atau mobilisasi—bukan hanya angka nol."
+          },
+          {
+            "title": "Berikan intervensi",
+            "text": "Farmakologis dan nonfarmakologis sesuai program, kontraindikasi, dan kondisi pasien."
+          },
+          {
+            "title": "Pantau efek samping",
+            "text": "Sedasi, napas, mual, tekanan darah, alergi, atau komplikasi lain sesuai terapi."
+          },
+          {
+            "title": "Nilai ulang tepat waktu",
+            "text": "Catat perubahan intensitas/fungsi dan eskalasi bila nyeri tidak terkontrol atau pola berubah."
+          }
+        ],
+        "columns": 2,
+        "note": "Nyeri baru yang berat atau tidak sesuai pola memerlukan penilaian penyebab, bukan sekadar penambahan analgesik."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -150,38 +214,6 @@
           {
             "title": "Nyeri kronis",
             "text": "Fokus pada fungsi, kualitas hidup, flare, dan rencana jangka panjang, bukan hanya angka nol."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Hanya mencatat angka",
-            "text": "Tidak menjelaskan penyebab, fungsi, atau respons."
-          },
-          {
-            "title": "Menggunakan skala tidak sesuai",
-            "text": "Anak kecil atau pasien kognitif tidak dapat memberi hasil yang valid dengan alat yang salah."
-          },
-          {
-            "title": "Tidak reassessment",
-            "text": "Efektivitas dan efek samping tidak diketahui."
-          },
-          {
-            "title": "Mengejar skor nol tanpa konteks",
-            "text": "Dapat meningkatkan risiko terapi berlebihan."
-          },
-          {
-            "title": "Menganggap tanda vital normal berarti tidak nyeri",
-            "text": "Nyeri bersifat subjektif dan adaptasi dapat terjadi."
           }
         ],
         "columns": 2,
@@ -219,9 +251,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Hanya mencatat angka",
+            "text": "Tidak menjelaskan penyebab, fungsi, atau respons."
+          },
+          {
+            "title": "Menggunakan skala tidak sesuai",
+            "text": "Anak kecil atau pasien kognitif tidak dapat memberi hasil yang valid dengan alat yang salah."
+          },
+          {
+            "title": "Tidak reassessment",
+            "text": "Efektivitas dan efek samping tidak diketahui."
+          },
+          {
+            "title": "Mengejar skor nol tanpa konteks",
+            "text": "Dapat meningkatkan risiko terapi berlebihan."
+          },
+          {
+            "title": "Menganggap tanda vital normal berarti tidak nyeri",
+            "text": "Nyeri bersifat subjektif dan adaptasi dapat terjadi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 4 elemen penilaian dari PAP 4 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Pengkajian lengkap",
       "points": [
@@ -271,6 +341,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 4.a adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "R–Regulasi",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan R–Regulasi. Pokok elemennya: Rumah sakit memiliki proses untuk melakukan skrining, pengkajian, dan tata laksana nyeri meliputi poin a) - e) pada maksud dan tujuan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 4.b adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Informasi mengenai kemungkinan adanya nyeri dan pilihan tata laksananya diberikan kepada pasien yang menerima terapi/ prosedur/pemeriksaan terencana yang sudah dapat diprediksi menimbulkan rasa nyeri."
+    },
     {
       "q": "Pasien nonverbal tampak meringis dan menarik diri saat digerakkan. Tindakan terbaik adalah…",
       "options": [
@@ -373,16 +465,23 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "PAP 4"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    321
+  ]
 }

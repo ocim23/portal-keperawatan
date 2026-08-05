@@ -10,52 +10,47 @@
   "icon": "chat",
   "minutes": 17,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian KE 7",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen",
+            "title": "EP KE 7.a",
+            "text": "Profesional Pemberi Asuhan (PPA) telah diberikan pelatihan dan terampil melaksanakan komunikasi efektif.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti bahwa Profesional Pemberi Asuhan (PPA) telah diberikan pelatihan dan terampil dalam melaksanakan komunikasi efektif berupa TOR, Materi, Undangan, Sertifikat, Notulen dan Bukti Pelaksanaan lainnya",
+              "Halaman instrumen: 378"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 7.b",
+            "text": "PPA telah memberikan edukasi yang efektif kepada pasien dan keluarga secara kolaboratif.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti dalam rekam medik bahwa Profesional Pemberi Asuhan (PPA) telah memberikan edukasi yang efektif kepada pasien dan keluarga secara kolaboratif.",
+              "Halaman instrumen: 378"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Komunikasi Klinis: SBAR, TBaK, dan Serah Terima",
       "caption": "Komunikasi aman bukan sekadar berbicara. Informasi harus terstruktur, dibaca kembali bila perlu, dikonfirmasi, didokumentasikan, dan diterima oleh orang yang tepat.",
       "image": "assets/images/v4/ke-komunikasi/ke-komunikasi-01.webp",
       "thumbnail": "assets/images/thumb/v4/ke-komunikasi/ke-komunikasi-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Praktik: SBAR dan serah terima yang dapat ditindaklanjuti",
-      "caption": "Penerima harus memahami kondisi, risiko, tugas, dan kapan harus bertindak.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "S — Situation",
-            "text": "Sebutkan identitas pasien, lokasi, masalah utama, dan alasan menghubungi saat ini.",
-            "example": "“Pasien A di ruang X sesak memburuk sejak 10 menit.”"
-          },
-          {
-            "title": "B — Background",
-            "text": "Berikan diagnosis/riwayat relevan, terapi, alergi, hasil penting, dan perubahan terbaru."
-          },
-          {
-            "title": "A — Assessment",
-            "text": "Sampaikan temuan objektif, tren, interpretasi, serta kekhawatiran klinis."
-          },
-          {
-            "title": "R — Recommendation",
-            "text": "Nyatakan kebutuhan: datang menilai, instruksi, pemeriksaan, transfer, atau target waktu respons."
-          },
-          {
-            "title": "Tutup dengan read-back",
-            "text": "Ulangi instruksi, tanggung jawab, dan waktu; klarifikasi bagian yang belum jelas."
-          },
-          {
-            "title": "Handover",
-            "text": "Sertakan risiko, alat/akses, obat, tindakan tertunda, edukasi, dan contingency plan—bukan hanya diagnosis."
-          }
-        ],
-        "columns": 2,
-        "note": "Komunikasi singkat tetap harus lengkap pada informasi yang memengaruhi keselamatan."
-      }
     },
     {
       "type": "html",
@@ -124,6 +119,43 @@
     },
     {
       "type": "html",
+      "title": "Praktik: SBAR dan serah terima yang dapat ditindaklanjuti",
+      "caption": "Penerima harus memahami kondisi, risiko, tugas, dan kapan harus bertindak.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "S — Situation",
+            "text": "Sebutkan identitas pasien, lokasi, masalah utama, dan alasan menghubungi saat ini.",
+            "example": "“Pasien A di ruang X sesak memburuk sejak 10 menit.”"
+          },
+          {
+            "title": "B — Background",
+            "text": "Berikan diagnosis/riwayat relevan, terapi, alergi, hasil penting, dan perubahan terbaru."
+          },
+          {
+            "title": "A — Assessment",
+            "text": "Sampaikan temuan objektif, tren, interpretasi, serta kekhawatiran klinis."
+          },
+          {
+            "title": "R — Recommendation",
+            "text": "Nyatakan kebutuhan: datang menilai, instruksi, pemeriksaan, transfer, atau target waktu respons."
+          },
+          {
+            "title": "Tutup dengan read-back",
+            "text": "Ulangi instruksi, tanggung jawab, dan waktu; klarifikasi bagian yang belum jelas."
+          },
+          {
+            "title": "Handover",
+            "text": "Sertakan risiko, alat/akses, obat, tindakan tertunda, edukasi, dan contingency plan—bukan hanya diagnosis."
+          }
+        ],
+        "columns": 2,
+        "note": "Komunikasi singkat tetap harus lengkap pada informasi yang memengaruhi keselamatan."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -148,38 +180,6 @@
           {
             "title": "Informasi sensitif di bedside",
             "text": "Libatkan pasien sesuai preferensi dan pindahkan bagian sensitif ke area privat bila perlu."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "SBAR tanpa recommendation",
-            "text": "Penerima tidak tahu tindakan atau keputusan yang dibutuhkan."
-          },
-          {
-            "title": "Read-back hanya “baik”",
-            "text": "Tidak memverifikasi isi pesan."
-          },
-          {
-            "title": "Serah terima hanya membaca catatan",
-            "text": "Risiko aktual, alat, dan kondisi pasien dapat terlewat."
-          },
-          {
-            "title": "Menggunakan singkatan ambigu",
-            "text": "Angka, satuan, dan nama obat dapat salah ditafsirkan."
-          },
-          {
-            "title": "Tidak mencatat waktu/penerima hasil kritis",
-            "text": "Jejak eskalasi dan tanggung jawab tidak jelas."
           }
         ],
         "columns": 2,
@@ -217,9 +217,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "SBAR tanpa recommendation",
+            "text": "Penerima tidak tahu tindakan atau keputusan yang dibutuhkan."
+          },
+          {
+            "title": "Read-back hanya “baik”",
+            "text": "Tidak memverifikasi isi pesan."
+          },
+          {
+            "title": "Serah terima hanya membaca catatan",
+            "text": "Risiko aktual, alat, dan kondisi pasien dapat terlewat."
+          },
+          {
+            "title": "Menggunakan singkatan ambigu",
+            "text": "Angka, satuan, dan nama obat dapat salah ditafsirkan."
+          },
+          {
+            "title": "Tidak mencatat waktu/penerima hasil kritis",
+            "text": "Jejak eskalasi dan tanggung jawab tidak jelas."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 2 elemen penilaian dari KE 7 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "SBAR",
       "points": [
@@ -269,6 +307,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 7.a adalah…",
+      "options": [
+        "D–Dokumen",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen. Pokok elemennya: Profesional Pemberi Asuhan (PPA) telah diberikan pelatihan dan terampil melaksanakan komunikasi efektif."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 7.b adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: PPA telah memberikan edukasi yang efektif kepada pasien dan keluarga secara kolaboratif."
+    },
     {
       "q": "Dalam SBAR, kalimat “Saya khawatir pasien mengalami perburukan respirasi dan perlu dinilai sekarang” terutama termasuk…",
       "options": [
@@ -371,16 +431,23 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "KE 7"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    378
+  ]
 }

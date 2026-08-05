@@ -12,9 +12,51 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 14,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian KE 4",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 4.a",
+            "text": "Terdapat bukti bahwa edukasi yang diberikan kepada pasien dan keluarga telah diberikan dengan cara dan bahasa yang mudah dipahami.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti bahwa edukasi telah diberikan kepada pasien dan keluarga dengan cara dan bahasa yang mudah dipahami. - Pasien - Keluarga",
+              "Halaman instrumen: 374"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 4.b",
+            "text": "Terdapat bukti bahwa pasien/keluarga telah dijelaskan mengenai hasil pengkajian, diagnosis, rencana asuhan, dan hasil pengobatan, termasuk hasil pengobatan yang tidak diharapkan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pemberian penjelasan kepada pasien dan keluarga mengenai hasil pengkajian, diagnosis, rencana asuhan, dan hasil pengobatan, termasuk hasil pengobatan yang tidak diharapkan pada rekam medis - PPA - Pasien - Keluarga",
+              "Halaman instrumen: 374"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
+            "title": "EP KE 4.c",
+            "text": "Terdapat bukti edukasi kepada pasien dan keluarga terkait dengan cara cuci tangan yang aman, penggunaan obat yang aman, penggunaan peralatan medis yang aman, potensi interaksi obat-obat dan obat-makanan, pedoman nutrisi, manajemen nyeri, dan teknik rehabilitasi serta edukasi asuhan lanjutan di rumah.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanaan edukasi kepada pasien dan keluarga terkait dengan: 1. Cara cuci tangan yang aman, 2. Penggunaan obat yang aman, 3. Penggunaan peralatan medis yang aman, 4. Potensi interaksi obat-obat dan obat-makanan, 5. Pedoman nutrisi, 6. Manajemen nyeri, 7. Teknik rehabilitasi Serta edukasi asuhan lanjutan di rumah. - PPA - Pasien Keluarga -",
+              "Halaman instrumen: 374, 375"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +155,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Memberi semua leaflet",
-            "text": "Informasi berlebihan menutupi prioritas."
-          },
-          {
-            "title": "Pesan antar-PPA bertentangan",
-            "text": "Membingungkan pasien."
-          },
-          {
-            "title": "Mengajar tanpa alat yang akan dipakai",
-            "text": "Keterampilan tidak realistis."
-          },
-          {
-            "title": "Tidak menyertakan tanda bahaya",
-            "text": "Pasien tidak tahu kapan mencari pertolongan."
-          },
-          {
-            "title": "Mengabaikan biaya/akses praktis",
-            "text": "Rencana mungkin tidak dapat dijalankan; koordinasikan solusi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +184,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Memberi semua leaflet",
+            "text": "Informasi berlebihan menutupi prioritas."
+          },
+          {
+            "title": "Pesan antar-PPA bertentangan",
+            "text": "Membingungkan pasien."
+          },
+          {
+            "title": "Mengajar tanpa alat yang akan dipakai",
+            "text": "Keterampilan tidak realistis."
+          },
+          {
+            "title": "Tidak menyertakan tanda bahaya",
+            "text": "Pasien tidak tahu kapan mencari pertolongan."
+          },
+          {
+            "title": "Mengabaikan biaya/akses praktis",
+            "text": "Rencana mungkin tidak dapat dijalankan; koordinasikan solusi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 3 elemen penilaian dari KE 4 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +273,28 @@
     "Rencana mungkin tidak dapat dijalankan; koordinasikan solusi."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 4.a adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Terdapat bukti bahwa edukasi yang diberikan kepada pasien dan keluarga telah diberikan dengan cara dan bahasa yang mudah dipahami."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 4.b adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Terdapat bukti bahwa pasien/keluarga telah dijelaskan mengenai hasil pengkajian, diagnosis, rencana asuhan, dan hasil pengobatan, termasuk hasil pengobatan yang tidak diharapkan."
+    },
     {
       "q": "Dalam situasi “Pasien stroke pulang”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +386,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -330,5 +405,13 @@
     "materi edukasi",
     "discharge planning",
     "edukasi pulang"
+  ],
+  "instrumentCodes": [
+    "KE 4"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    374,
+    375
   ]
 }

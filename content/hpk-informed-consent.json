@@ -12,9 +12,83 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 15,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian HPK 4.1",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 4.1.a",
+            "text": "Rumah sakit menerapkan proses bagi pasien untuk mendapatkan informed consent.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis: pemberian informed consent. - DPJP - Pasien/ Keluarga",
+              "Halaman instrumen: 272"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 4.1.b",
+            "text": "Pemberian informed consent dilakukan oleh staf yang kompeten dan diberikan dengan cara dan bahasa yang mudah dipahami pasien.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis: pemberian informed consent oleh DPJP atau dokter yang diberikan kewenangan dalam kondisi darurat (di IGD) dengan cara dan bahasa yang mudah dipahami pasien (Lihat Maksud dan Tujuan) PAB 7.1) - DPJP - Pasien/ Keluarga",
+              "Halaman instrumen: 272"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "R–Regulasi • D–Dokumen",
+            "title": "EP HPK 4.1.c",
+            "text": "Rumah sakit memiliki daftar tindakan invasif, pemeriksaan dan terapi tambahan yang memerlukan informed consent.",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan daftar tindakan invasif, pemeriksaan dan terapi tambahan yang memerlukan informed consent",
+              "Halaman instrumen: 272"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian HPK 4.2",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 4.2.a",
+            "text": "Rumah sakit menerapkan proses untuk pemberian oleh orang informed consent lain selain pasien sesuai peraturan perundangan yang berlaku.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis pemberian informed consent oleh orang lain selain pasien sesuai peraturan perundang-undangan. - DPJP - PPA - Pasien/ Keluarga",
+              "Halaman instrumen: 273"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 4.2.b",
+            "text": "Rekam medis pasien mencantumkan (satu atau lebih) nama individu yang menyatakan persetujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti dalam rekam medis mencantumkan (satu atau lebih) nama orang yang menggantikan pemberian persetujuan (selain pasien) sesuai peraturan perundangan yang berlaku. - PPA - Pasien/ Keluarga",
+              "Halaman instrumen: 273"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +187,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Meminta tanda tangan saat pasien tersedasi",
-            "text": "Kapasitas pengambilan keputusan diragukan."
-          },
-          {
-            "title": "Mengisi formulir setelah tindakan",
-            "text": "Tidak memenuhi proses persetujuan sebelumnya."
-          },
-          {
-            "title": "Menjelaskan risiko medis di luar kompetensi",
-            "text": "Dapat menyesatkan pasien."
-          },
-          {
-            "title": "Menganggap suami/anak otomatis sah",
-            "text": "Perlu verifikasi kewenangan."
-          },
-          {
-            "title": "Memaksa karena jadwal operasi",
-            "text": "Persetujuan harus bebas dari paksaan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +216,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Meminta tanda tangan saat pasien tersedasi",
+            "text": "Kapasitas pengambilan keputusan diragukan."
+          },
+          {
+            "title": "Mengisi formulir setelah tindakan",
+            "text": "Tidak memenuhi proses persetujuan sebelumnya."
+          },
+          {
+            "title": "Menjelaskan risiko medis di luar kompetensi",
+            "text": "Dapat menyesatkan pasien."
+          },
+          {
+            "title": "Menganggap suami/anak otomatis sah",
+            "text": "Perlu verifikasi kewenangan."
+          },
+          {
+            "title": "Memaksa karena jadwal operasi",
+            "text": "Persetujuan harus bebas dari paksaan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 5 elemen penilaian dari HPK 4.1, HPK 4.2 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +305,28 @@
     "Persetujuan harus bebas dari paksaan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 4.1.a adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan proses bagi pasien untuk mendapatkan informed consent."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 4.1.b adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Pemberian informed consent dilakukan oleh staf yang kompeten dan diberikan dengan cara dan bahasa yang mudah dipahami pasien."
+    },
     {
       "q": "Dalam situasi “Pasien bilang belum paham risiko”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +418,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -331,5 +438,14 @@
     "persetujuan tindakan",
     "wali",
     "pengambil keputusan"
+  ],
+  "instrumentCodes": [
+    "HPK 4.1",
+    "HPK 4.2"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    272,
+    273
   ]
 }

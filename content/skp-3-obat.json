@@ -1,8 +1,8 @@
 {
   "id": "skp-3-obat",
   "group": "skp",
-  "title": "SKP 3 — Meningkatkan Keamanan Obat-obatan yang Harus Diwaspadai",
-  "short": "SKP 3",
+  "title": "SKP 3 dan SKP 3.1 — Obat Kewaspadaan Tinggi, LASA/NORUM, dan Elektrolit Konsentrat",
+  "short": "SKP 3–3.1",
   "desc": "High-alert, LASA/NORUM, elektrolit konsentrat, dan pengaman pemberian obat.",
   "category": "SKP",
   "color": "#0B7285",
@@ -10,87 +10,99 @@
   "icon": "shield",
   "minutes": 24,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian SKP 3",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "1",
+            "tag": "R–Regulasi • D–Dokumen",
+            "title": "EP SKP 3.1",
+            "text": "Rumah sakit menetapkan daftar obat kewaspadaan tinggi (High Alert), termasuk obat Look-Alike Sound-Alike (LASA)/Nama Obat Rupa Ucapan Mirip (NORUM)",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan daftar obat kewaspadaan tinggi (High Alert) termasuk obat Look-Alike Sound-Alike (LASA)/ Nama Obat Rupa Ucapan Mirip (NORUM)",
+              "Halaman instrumen: 385"
+            ]
+          },
+          {
+            "level": "2",
+            "tag": "O–Observasi • W–Wawancara",
+            "title": "EP SKP 3.2",
+            "text": "Rumah sakit menerapkan pengelolaan obat kewaspadaan tinggi (High Alert), termasuk obat Look-Alike Sound-Alike (LASA) secara seragam di seluruh area rumah sakit untuk mengurangi risiko dan cedera",
+            "bullets": [
+              "Kelengkapan bukti: Penerapan pengelolaan obat kewaspadaan tinggi (High Alert) termasuk obat Look-Alike Sound-Alike (LASA)/ Nama Obat Rupa Ucapan Mirip (NORUM) secara seragam. Kepala Instalasi Farmasi/ Apoteker",
+              "Halaman instrumen: 385"
+            ]
+          },
+          {
+            "level": "3",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP SKP 3.3",
+            "text": "Rumah sakit mengevaluasi dan memperbaharui daftar obat High-Alert dan obat Look-Alike Sound-Alike (LASA) yang sekurang-kurangnya 1 (satu) tahun sekali berdasarkan laporan insiden lokal, nasional dan internasional",
+            "bullets": [
+              "Kelengkapan bukti: Bukti evaluasi dan pembaharuan daftar obat High- Alert dan obat Look-Alike Sound (LASA)/ Nama Obat Rupa Alike Ucapan Mirip (NORUM) sekurang-kurangnya 1 (satu) tahun sekali berdasarkan laporan insiden lokal, nasional dan internasional Komite Farmasi dan Terapi",
+              "Halaman instrumen: 385, 386"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian SKP 3.1",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "1",
+            "tag": "R–Regulasi • D–Dokumen",
+            "title": "EP SKP 3.1.1",
+            "text": "Rumah sakit menerapkan proses penyimpanan elektrolit konsentrat tertentu hanya di Instalasi Farmasi, kecuali di unit pelayanan dengan pertimbangan klinis untuk mengurangi risiko dan cedera pada penggunaan elektrolit konsentrat",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan daftar elektrolit konsentrat yang dapat disimpan diluar instalasi farmasi",
+              "Halaman instrumen: 386"
+            ]
+          },
+          {
+            "level": "2",
+            "tag": "O–Observasi • W–Wawancara",
+            "title": "EP SKP 3.1.2",
+            "text": "Penyimpanan elektrolit konsentrat di luar Instalasi Farmasi diperbolehkan hanya dalam untuk situasi yang ditentukan sesuai dalam maksud dan tujuan",
+            "bullets": [
+              "Kelengkapan bukti: Penyimpanan elektrolit konsentrat di luar instalasi farmasi untuk situasi tertentu - Apoteker - Staf unit pelayanan terkait",
+              "Halaman instrumen: 386"
+            ]
+          },
+          {
+            "level": "3",
+            "tag": "R–Regulasi • D–Dokumen • W–Wawancara",
+            "title": "EP SKP 3.1.3",
+            "text": "Rumah sakit menetapkan dan menerapkan protokol koreksi hipokalemia, hiponatremia, hipofosfatemia",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan protokol koreksi hipokalemia, hiponatremia dan hipofosfatemia Bukti penerapan protokol koreksi hipokalemia, hiponatremia dan hipofosfatemia. PPA",
+              "Halaman instrumen: 386"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "SKP 3 — Keamanan Obat yang Harus Diwaspadai",
       "caption": "Obat berisiko tidak cukup diamankan dengan kewaspadaan pribadi; sistem harus mencegah, mendeteksi, dan mengurangi dampak kesalahan.",
       "image": "assets/images/v4/skp-3-obat/skp-3-obat-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-3-obat/skp-3-obat-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Contoh obat yang sering ditanyakan",
-      "caption": "Daftar fasilitas tetap menjadi rujukan utama; contoh berikut membantu mengenali kelompoknya.",
-      "template": {
-        "style": "cards",
-        "columns": 2,
-        "note": "Contoh dapat berbeda antar rumah sakit. D40 adalah dekstrosa hipertonik, bukan elektrolit konsentrat.",
-        "items": [
-          {
-            "title": "High-alert",
-            "text": "Contoh: norepinefrin, insulin, heparin, obat kemoterapi, dan sedatif tertentu seperti diazepam—ikuti daftar resmi rumah sakit."
-          },
-          {
-            "title": "LASA/NORUM rupa mirip",
-            "text": "Contoh yang dapat tertukar karena kemasan/tampilan: citicoline dan ondansetron bila bentuk/kemasannya mirip di fasilitas."
-          },
-          {
-            "title": "LASA/NORUM bunyi mirip",
-            "text": "Contoh pasangan harus diambil dari daftar rumah sakit; eja nama dan sebut indikasi saat komunikasi."
-          },
-          {
-            "title": "Elektrolit konsentrat",
-            "text": "Contoh: KCl konsentrat, kalium fosfat, natrium klorida hipertonik, atau magnesium sulfat konsentrat sesuai daftar fasilitas."
-          },
-          {
-            "title": "Larutan hipertonik lain",
-            "text": "Dextrose 40% (D40) berisiko tinggi dan memerlukan pengamanan, tetapi bukan elektrolit konsentrat."
-          },
-          {
-            "title": "Pengaman",
-            "text": "Pemisahan, label, akses terbatas, konsentrasi standar, smart pump, dan double-check independen sesuai kebijakan."
-          }
-        ]
-      }
-    },
-    {
-      "type": "html",
-      "title": "Praktik: pengamanan LASA dan high-alert",
-      "caption": "Fokus pada sistem yang mencegah salah ambil, salah hitung, dan salah pemberian.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Kenali sebelum menyiapkan",
-            "text": "Periksa label, konsentrasi, bentuk sediaan, pasien, alergi, dan instruksi. Jangan mengandalkan warna kemasan."
-          },
-          {
-            "title": "Pisahkan dan beri penanda",
-            "text": "Simpan LASA/high-alert/elektrolit konsentrat sesuai sistem pengamanan fasilitas dan batasi akses."
-          },
-          {
-            "title": "Baca label berulang",
-            "text": "Baca saat mengambil, saat menyiapkan, dan sebelum mengembalikan/membuang kemasan."
-          },
-          {
-            "title": "Hitung secara mandiri",
-            "text": "Untuk verifikasi independen, petugas kedua melakukan pemeriksaan sendiri sebelum membandingkan hasil."
-          },
-          {
-            "title": "Pantau pasien",
-            "text": "Kenali parameter sebelum pemberian, efek yang diharapkan, dan tanda toksisitas/komplikasi."
-          },
-          {
-            "title": "Hentikan bila tidak cocok",
-            "text": "Jangan memaksa proses bila order, label, konsentrasi, perhitungan, atau identitas tidak selaras."
-          }
-        ],
-        "columns": 2,
-        "note": "Daftar obat dan bentuk double-check mengikuti kebijakan fasilitas; prinsipnya tetap mencegah error sebelum mencapai pasien."
-      }
     },
     {
       "type": "html",
@@ -158,6 +170,78 @@
     },
     {
       "type": "html",
+      "title": "Praktik: pengamanan LASA dan high-alert",
+      "caption": "Fokus pada sistem yang mencegah salah ambil, salah hitung, dan salah pemberian.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Kenali sebelum menyiapkan",
+            "text": "Periksa label, konsentrasi, bentuk sediaan, pasien, alergi, dan instruksi. Jangan mengandalkan warna kemasan."
+          },
+          {
+            "title": "Pisahkan dan beri penanda",
+            "text": "Simpan LASA/high-alert/elektrolit konsentrat sesuai sistem pengamanan fasilitas dan batasi akses."
+          },
+          {
+            "title": "Baca label berulang",
+            "text": "Baca saat mengambil, saat menyiapkan, dan sebelum mengembalikan/membuang kemasan."
+          },
+          {
+            "title": "Hitung secara mandiri",
+            "text": "Untuk verifikasi independen, petugas kedua melakukan pemeriksaan sendiri sebelum membandingkan hasil."
+          },
+          {
+            "title": "Pantau pasien",
+            "text": "Kenali parameter sebelum pemberian, efek yang diharapkan, dan tanda toksisitas/komplikasi."
+          },
+          {
+            "title": "Hentikan bila tidak cocok",
+            "text": "Jangan memaksa proses bila order, label, konsentrasi, perhitungan, atau identitas tidak selaras."
+          }
+        ],
+        "columns": 2,
+        "note": "Daftar obat dan bentuk double-check mengikuti kebijakan fasilitas; prinsipnya tetap mencegah error sebelum mencapai pasien."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Contoh obat yang sering ditanyakan",
+      "caption": "Daftar fasilitas tetap menjadi rujukan utama; contoh berikut membantu mengenali kelompoknya.",
+      "template": {
+        "style": "cards",
+        "columns": 2,
+        "note": "Contoh dapat berbeda antar rumah sakit. D40 adalah dekstrosa hipertonik, bukan elektrolit konsentrat.",
+        "items": [
+          {
+            "title": "High-alert",
+            "text": "Contoh: norepinefrin, insulin, heparin, obat kemoterapi, dan sedatif tertentu seperti diazepam—ikuti daftar resmi rumah sakit."
+          },
+          {
+            "title": "LASA/NORUM rupa mirip",
+            "text": "Contoh yang dapat tertukar karena kemasan/tampilan: citicoline dan ondansetron bila bentuk/kemasannya mirip di fasilitas."
+          },
+          {
+            "title": "LASA/NORUM bunyi mirip",
+            "text": "Contoh pasangan harus diambil dari daftar rumah sakit; eja nama dan sebut indikasi saat komunikasi."
+          },
+          {
+            "title": "Elektrolit konsentrat",
+            "text": "Contoh: KCl konsentrat, kalium fosfat, natrium klorida hipertonik, atau magnesium sulfat konsentrat sesuai daftar fasilitas."
+          },
+          {
+            "title": "Larutan hipertonik lain",
+            "text": "Dextrose 40% (D40) berisiko tinggi dan memerlukan pengamanan, tetapi bukan elektrolit konsentrat."
+          },
+          {
+            "title": "Pengaman",
+            "text": "Pemisahan, label, akses terbatas, konsentrasi standar, smart pump, dan double-check independen sesuai kebijakan."
+          }
+        ]
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -182,38 +266,6 @@
           {
             "title": "Perubahan dosis cepat",
             "text": "Titrasi harus mengikuti target dan pemantauan yang jelas serta dicatat waktu perubahannya."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Mengandalkan stiker merah",
-            "text": "Label peringatan saja tidak mencegah kesalahan bila penyimpanan, akses, dan proses tetap lemah."
-          },
-          {
-            "title": "Double-check bersama",
-            "text": "Dua orang melihat layar yang sama cenderung mengulang bias; pemeriksaan harus independen."
-          },
-          {
-            "title": "Menghafal pasangan LASA",
-            "text": "Daftar dapat berubah dan berbeda antar fasilitas; sistem penyimpanan dan informasi harus mendukung."
-          },
-          {
-            "title": "Tidak melabel spuit/infus",
-            "text": "Sediaan yang dipindah dari kemasan asli dapat tertukar dalam hitungan menit."
-          },
-          {
-            "title": "Tidak memantau respons",
-            "text": "Pemberian benar belum selesai sebelum efek dan risiko obat dinilai."
           }
         ],
         "columns": 2,
@@ -251,9 +303,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mengandalkan stiker merah",
+            "text": "Label peringatan saja tidak mencegah kesalahan bila penyimpanan, akses, dan proses tetap lemah."
+          },
+          {
+            "title": "Double-check bersama",
+            "text": "Dua orang melihat layar yang sama cenderung mengulang bias; pemeriksaan harus independen."
+          },
+          {
+            "title": "Menghafal pasangan LASA",
+            "text": "Daftar dapat berubah dan berbeda antar fasilitas; sistem penyimpanan dan informasi harus mendukung."
+          },
+          {
+            "title": "Tidak melabel spuit/infus",
+            "text": "Sediaan yang dipindah dari kemasan asli dapat tertukar dalam hitungan menit."
+          },
+          {
+            "title": "Tidak memantau respons",
+            "text": "Pemberian benar belum selesai sebelum efek dan risiko obat dinilai."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 6 elemen penilaian dari SKP 3, SKP 3.1 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Tiga kelompok utama",
       "points": [
@@ -303,6 +393,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 3.1 adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "R–Regulasi • D–Dokumen",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen. Pokok elemennya: Rumah sakit menetapkan daftar obat kewaspadaan tinggi (High Alert), termasuk obat Look-Alike Sound-Alike (LASA)/Nama Obat Rupa Ucapan Mirip (NORUM)"
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 3.2 adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "O–Observasi • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan pengelolaan obat kewaspadaan tinggi (High Alert), termasuk obat Look-Alike Sound-Alike (LASA) secara seragam di seluruh area rumah sakit untuk mengurangi risiko dan cedera"
+    },
     {
       "q": "Pernyataan yang paling tepat tentang high-alert adalah…",
       "options": [
@@ -405,14 +517,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "ISMP List of High-Alert Medications in Acute Care Settings",
@@ -421,5 +533,14 @@
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "SKP 3",
+    "SKP 3.1"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    385,
+    386
+  ]
 }

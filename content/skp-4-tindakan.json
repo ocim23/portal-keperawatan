@@ -10,51 +10,79 @@
   "icon": "shield",
   "minutes": 22,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian SKP 4 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "1",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP SKP 4.1",
+            "text": "Rumah sakit telah melaksanakan proses verifikasi pra operasi dengan daftar tilik untuk memastikan benar pasien, benar tindakan dan benar sisi.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanaan proses verifikasi pra operasi dengan daftar tilik untuk memastikan benar pasien, benar tindakan dan benar sisi - DPJP - Pasien/Keluarga",
+              "Halaman instrumen: 390"
+            ]
+          },
+          {
+            "level": "2",
+            "tag": "R–Regulasi • O–Observasi • W–Wawancara",
+            "title": "EP SKP 4.2",
+            "text": "Rumah sakit telah menetapkan dan menerapkan tanda yang seragam, mudah dikenali dan tidak bermakna ganda untuk mengidentifikasi sisi operasi atau tindakan invasif.",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan: 1) tanda yang seragam, 2) mudah dikenali dan 3) tidak bermakna ganda untuk mengidentifikasi sisi operasi atau tindakan invasif. Penandaan sisi operasi atau tindakan invasif - DPJP - Pasien/ keluarga",
+              "Halaman instrumen: 390"
+            ]
+          },
+          {
+            "level": "3",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP SKP 4.3",
+            "text": "Rumah sakit telah menerapkan penandaan sisi operasi atau tindakan invasif (site dilakukan oleh marking) dokter operator/dokter asisten yang melakukan operasi atau tindakan invasif dengan melibatkan pasien bila memungkinkan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis: penandaan sisi operasi atau tindakan invasif (site marking) dilakukan oleh dokter operator/dokter asisten yang melakukan operasi atau tindakan invasif dengan melibatkan pasien bila memungkinkan. Penandaan site marking - DPJP - Pasien/ Keluarga",
+              "Halaman instrumen: 390"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian SKP 4 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "4",
+            "tag": "D–Dokumen",
+            "title": "EP SKP 4.4",
+            "text": "Rumah sakit telah menerapkan proses Time- Outmenggunakan “surgical check list” (Surgical Safety dari WHO terkini Checklist pada tindakan operasi termasuk tindakan medis invasif.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis: Time-Out menggunakan “surgical check list” (Surgical Safety Checklist) dari WHO terkini pada tindakan operasi termasuk tindakan medis invasif",
+              "Halaman instrumen: 390, 391"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "SKP 4 — Benar Pasien, Prosedur, dan Sisi/Lokasi",
       "caption": "Tidak ada tindakan dimulai sebelum tim sepakat tentang pasien, prosedur, lokasi, kesiapan, dan rencana keselamatan.",
       "image": "assets/images/v4/skp-4-tindakan/skp-4-tindakan-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-4-tindakan/skp-4-tindakan-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Praktik: time-out sebelum tindakan",
-      "caption": "Time-out dilakukan segera sebelum tindakan dimulai, dengan seluruh anggota tim berhenti dan berpartisipasi.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "1. Hentikan aktivitas",
-            "text": "Tim memberi perhatian penuh; tidak dilakukan sambil menyiapkan alat lain atau berbicara terpisah."
-          },
-          {
-            "title": "2. Konfirmasi pasien",
-            "text": "Gunakan minimal dua identitas dan cocokkan dengan dokumen serta rencana tindakan."
-          },
-          {
-            "title": "3. Konfirmasi prosedur dan sisi/lokasi",
-            "text": "Sebutkan prosedur, sisi/lokasi, penandaan bila berlaku, posisi, serta kesesuaian imaging."
-          },
-          {
-            "title": "4. Konfirmasi kesiapan",
-            "text": "Pastikan persetujuan, alergi, antibiotik/profilaksis bila perlu, darah, implant, alat, dan hasil penting tersedia."
-          },
-          {
-            "title": "5. Semua anggota menyatakan setuju",
-            "text": "Setiap anggota boleh menghentikan proses bila menemukan ketidaksesuaian."
-          },
-          {
-            "title": "6. Dokumentasikan",
-            "text": "Catat bahwa time-out dilakukan dan tindak lanjut bila terdapat temuan."
-          }
-        ],
-        "columns": 2,
-        "note": "Bila ada satu ketidaksesuaian, tindakan ditunda sampai masalah diselesaikan."
-      }
     },
     {
       "type": "html",
@@ -122,6 +150,42 @@
     },
     {
       "type": "html",
+      "title": "Praktik: time-out sebelum tindakan",
+      "caption": "Time-out dilakukan segera sebelum tindakan dimulai, dengan seluruh anggota tim berhenti dan berpartisipasi.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Hentikan aktivitas",
+            "text": "Tim memberi perhatian penuh; tidak dilakukan sambil menyiapkan alat lain atau berbicara terpisah."
+          },
+          {
+            "title": "2. Konfirmasi pasien",
+            "text": "Gunakan minimal dua identitas dan cocokkan dengan dokumen serta rencana tindakan."
+          },
+          {
+            "title": "3. Konfirmasi prosedur dan sisi/lokasi",
+            "text": "Sebutkan prosedur, sisi/lokasi, penandaan bila berlaku, posisi, serta kesesuaian imaging."
+          },
+          {
+            "title": "4. Konfirmasi kesiapan",
+            "text": "Pastikan persetujuan, alergi, antibiotik/profilaksis bila perlu, darah, implant, alat, dan hasil penting tersedia."
+          },
+          {
+            "title": "5. Semua anggota menyatakan setuju",
+            "text": "Setiap anggota boleh menghentikan proses bila menemukan ketidaksesuaian."
+          },
+          {
+            "title": "6. Dokumentasikan",
+            "text": "Catat bahwa time-out dilakukan dan tindak lanjut bila terdapat temuan."
+          }
+        ],
+        "columns": 2,
+        "note": "Bila ada satu ketidaksesuaian, tindakan ditunda sampai masalah diselesaikan."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -146,38 +210,6 @@
           {
             "title": "Spesimen",
             "text": "Label spesimen harus cocok dengan pasien, jenis jaringan/cairan, dan lokasi asal bila penting."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Time-out sambil tetap bekerja",
-            "text": "Tim tidak benar-benar berhenti sehingga informasi penting tidak didengar."
-          },
-          {
-            "title": "Penandaan oleh orang yang tidak memahami prosedur",
-            "text": "Tanda dapat berada di sisi atau lokasi yang salah."
-          },
-          {
-            "title": "Mengandalkan jadwal operasi",
-            "text": "Jadwal dapat salah atau berubah; perlu pencocokan beberapa sumber."
-          },
-          {
-            "title": "Ketidaksesuaian “kecil” diabaikan",
-            "text": "Perbedaan singkatan, sisi, implant, atau hasil dapat mengubah keselamatan tindakan."
-          },
-          {
-            "title": "Tidak memberi ruang bicara",
-            "text": "Anggota tim junior mungkin melihat risiko tetapi takut menghentikan proses."
           }
         ],
         "columns": 2,
@@ -215,9 +247,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Time-out sambil tetap bekerja",
+            "text": "Tim tidak benar-benar berhenti sehingga informasi penting tidak didengar."
+          },
+          {
+            "title": "Penandaan oleh orang yang tidak memahami prosedur",
+            "text": "Tanda dapat berada di sisi atau lokasi yang salah."
+          },
+          {
+            "title": "Mengandalkan jadwal operasi",
+            "text": "Jadwal dapat salah atau berubah; perlu pencocokan beberapa sumber."
+          },
+          {
+            "title": "Ketidaksesuaian “kecil” diabaikan",
+            "text": "Perbedaan singkatan, sisi, implant, atau hasil dapat mengubah keselamatan tindakan."
+          },
+          {
+            "title": "Tidak memberi ruang bicara",
+            "text": "Anggota tim junior mungkin melihat risiko tetapi takut menghentikan proses."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 4 elemen penilaian dari SKP 4 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Tiga pengaman berbeda",
       "points": [
@@ -267,6 +337,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 4.1 adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit telah melaksanakan proses verifikasi pra operasi dengan daftar tilik untuk memastikan benar pasien, benar tindakan dan benar sisi."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 4.2 adalah…",
+      "options": [
+        "R–Regulasi • O–Observasi • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan R–Regulasi • O–Observasi • W–Wawancara. Pokok elemennya: Rumah sakit telah menetapkan dan menerapkan tanda yang seragam, mudah dikenali dan tidak bermakna ganda untuk mengidentifikasi sisi operasi atau tindakan invasif."
+    },
     {
       "q": "Saat time-out, satu anggota tim masih menyiapkan alat dan tidak memperhatikan. Tindakan terbaik adalah…",
       "options": [
@@ -369,16 +461,24 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "SKP 4"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    390,
+    391
+  ]
 }

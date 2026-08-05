@@ -10,55 +10,47 @@
   "icon": "heart",
   "minutes": 25,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PAP 2.5",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PAP 2.5.a",
+            "text": "Rumah sakit telah menerapkan proses pengenalan perubahan kondisi pasien yang memburuk (EWS) dan mendokumentasikannya di dalam rekam medik pasien.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis: Pelaksanaan dan penerapan proses pengenalan perubahan kondisi pasien yang memburuk (EWS) PPA",
+              "Halaman instrumen: 315"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PAP 2.5.b",
+            "text": "Rumah sakit memiliki bukti PPA dilatih menggunakan EWS.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelatihan PPA tentang EWS",
+              "Halaman instrumen: 315"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "EWS / NEWS2 dan Eskalasi Klinis",
       "caption": "NEWS2 membantu menyamakan bahasa risiko, tetapi tidak menggantikan penilaian klinis atau respons terhadap perburukan.",
       "image": "assets/images/v4/pap-ews/pap-ews-01.webp",
       "thumbnail": "assets/images/thumb/v4/pap-ews/pap-ews-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Praktik: menghitung dan mengeskalasi NEWS2",
-      "caption": "Skor membantu mengenali perburukan, tetapi tidak boleh mengalahkan kekhawatiran klinis.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "1. Ukur enam parameter",
-            "text": "Frekuensi napas, saturasi, tekanan sistolik, nadi, suhu, dan kesadaran/kebingungan baru."
-          },
-          {
-            "title": "2. Catat udara atau oksigen",
-            "text": "Tambahan oksigen memengaruhi skor; tulis perangkat dan aliran bila digunakan."
-          },
-          {
-            "title": "3. Pilih skala SpO₂ yang benar",
-            "text": "Scale 2 hanya bila ditetapkan klinisi kompeten untuk target 88–92% pada gagal napas hiperkapnik."
-          },
-          {
-            "title": "4. Beri skor tiap parameter",
-            "text": "Gunakan chart yang sah; periksa juga skor tunggal 3 dan data yang belum lengkap."
-          },
-          {
-            "title": "5. Jumlahkan dan lihat tren",
-            "text": "Bandingkan dengan skor sebelumnya; kenaikan cepat dapat lebih penting daripada satu angka."
-          },
-          {
-            "title": "6. Eskalasi",
-            "text": "Ikuti respons klinis fasilitas, sampaikan parameter abnormal, tren, intervensi, dan kekhawatiran."
-          },
-          {
-            "title": "7. Dokumentasikan respons",
-            "text": "Catat waktu kontak, pemberi respons, instruksi, tindakan, dan hasil penilaian ulang."
-          }
-        ],
-        "columns": 2,
-        "note": "Eskalasi tetap dilakukan bila kondisi mengkhawatirkan meskipun skor total rendah."
-      }
     },
     {
       "type": "html",
@@ -130,6 +122,46 @@
     },
     {
       "type": "html",
+      "title": "Praktik: menghitung dan mengeskalasi NEWS2",
+      "caption": "Skor membantu mengenali perburukan, tetapi tidak boleh mengalahkan kekhawatiran klinis.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Ukur enam parameter",
+            "text": "Frekuensi napas, saturasi, tekanan sistolik, nadi, suhu, dan kesadaran/kebingungan baru."
+          },
+          {
+            "title": "2. Catat udara atau oksigen",
+            "text": "Tambahan oksigen memengaruhi skor; tulis perangkat dan aliran bila digunakan."
+          },
+          {
+            "title": "3. Pilih skala SpO₂ yang benar",
+            "text": "Scale 2 hanya bila ditetapkan klinisi kompeten untuk target 88–92% pada gagal napas hiperkapnik."
+          },
+          {
+            "title": "4. Beri skor tiap parameter",
+            "text": "Gunakan chart yang sah; periksa juga skor tunggal 3 dan data yang belum lengkap."
+          },
+          {
+            "title": "5. Jumlahkan dan lihat tren",
+            "text": "Bandingkan dengan skor sebelumnya; kenaikan cepat dapat lebih penting daripada satu angka."
+          },
+          {
+            "title": "6. Eskalasi",
+            "text": "Ikuti respons klinis fasilitas, sampaikan parameter abnormal, tren, intervensi, dan kekhawatiran."
+          },
+          {
+            "title": "7. Dokumentasikan respons",
+            "text": "Catat waktu kontak, pemberi respons, instruksi, tindakan, dan hasil penilaian ulang."
+          }
+        ],
+        "columns": 2,
+        "note": "Eskalasi tetap dilakukan bila kondisi mengkhawatirkan meskipun skor total rendah."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -154,38 +186,6 @@
           {
             "title": "Baseline abnormal kronis",
             "text": "Dokumentasikan target dan rencana individual oleh klinisi; tetap pantau perubahan dari baseline."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menghitung tanpa melihat pasien",
-            "text": "Kesalahan alat atau kondisi klinis penting dapat terlewat."
-          },
-          {
-            "title": "Menggunakan Scale 2 untuk semua PPOK",
-            "text": "Dapat mentoleransi hipoksemia yang sebenarnya tidak sesuai."
-          },
-          {
-            "title": "Mengabaikan skor tunggal 3",
-            "text": "Parameter ekstrem dapat menandakan risiko walaupun total rendah."
-          },
-          {
-            "title": "Tidak mencatat oksigen",
-            "text": "Skor menjadi lebih rendah dari kondisi sebenarnya."
-          },
-          {
-            "title": "Skor tinggi tetapi tidak ada respons",
-            "text": "NEWS2 hanya bermanfaat bila terhubung dengan sistem eskalasi."
           }
         ],
         "columns": 2,
@@ -223,9 +223,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menghitung tanpa melihat pasien",
+            "text": "Kesalahan alat atau kondisi klinis penting dapat terlewat."
+          },
+          {
+            "title": "Menggunakan Scale 2 untuk semua PPOK",
+            "text": "Dapat mentoleransi hipoksemia yang sebenarnya tidak sesuai."
+          },
+          {
+            "title": "Mengabaikan skor tunggal 3",
+            "text": "Parameter ekstrem dapat menandakan risiko walaupun total rendah."
+          },
+          {
+            "title": "Tidak mencatat oksigen",
+            "text": "Skor menjadi lebih rendah dari kondisi sebenarnya."
+          },
+          {
+            "title": "Skor tinggi tetapi tidak ada respons",
+            "text": "NEWS2 hanya bermanfaat bila terhubung dengan sistem eskalasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 2 elemen penilaian dari PAP 2.5 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Komponen",
       "points": [
@@ -275,6 +313,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.5.a adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit telah menerapkan proses pengenalan perubahan kondisi pasien yang memburuk (EWS) dan mendokumentasikannya di dalam rekam medik pasien."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.5.b adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit memiliki bukti PPA dilatih menggunakan EWS."
+    },
     {
       "q": "Pasien memiliki NEWS2 total 3, seluruhnya berasal dari satu parameter dengan skor 3. Tindakan adalah…",
       "options": [
@@ -377,14 +437,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "National Early Warning Score (NEWS) 2",
@@ -393,5 +453,12 @@
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "PAP 2.5"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    315
+  ]
 }

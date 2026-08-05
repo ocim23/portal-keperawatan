@@ -12,9 +12,51 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian HPK 1.1",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara • O–Observasi",
+            "title": "EP HPK 1.1.a",
+            "text": "Rumah Sakit mengidentifikasi hambatan serta menerapkan proses untuk mengurangi hambatan bagi pasien dalam mendapatkan akses, proses penerimaan dan pelayanan perawatan.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Bukti rekam medis identifikasi hambatan bagi pasien dalam mendapatkan akses, proses penerimaan dan pelayanan perawatan. 2. Bukti rekam medis proses mengurangi hambatan tersebut - Kepala unit pelayanan - Staf RS",
+              "Halaman instrumen: 258"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 1.1.b",
+            "text": "Informasi terkait aspek perawatan dan tata laksana medis pasien diberikan dengan cara dan bahasa yang dipahami pasien.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pemberian informasi terkait aspek perawatan dan tata laksana medis pasien diberikan dengan cara dan bahasa yang dipahami pasien. - PPA - Pasien/ keluarga",
+              "Halaman instrumen: 258"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP HPK 1.1.c",
+            "text": "Informasi mengenai hak dan tanggung jawab pasien terpampang di area rumah sakit atau diberikan kepada setiap pasien secara tertulis atau dalam metode lain dalam bahasa yang dipahami pasien.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti media informasi tentang hak dan tanggung jawab pasien dalam bahasa yang dipahami pasien. Ketersediaan media informasi yang digunakan. - Staf Admisi - Pasien/ Keluarga",
+              "Halaman instrumen: 258"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +155,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Mengulang lebih keras",
-            "text": "Tidak menyelesaikan hambatan bahasa atau pemahaman."
-          },
-          {
-            "title": "Menganggap keluarga selalu boleh menerima informasi",
-            "text": "Perlu persetujuan dan kewenangan."
-          },
-          {
-            "title": "Memakai istilah teknis",
-            "text": "Meningkatkan salah tafsir."
-          },
-          {
-            "title": "Memberi leaflet sebagai satu-satunya edukasi",
-            "text": "Media harus sesuai kemampuan."
-          },
-          {
-            "title": "Menyalahkan pasien karena “tidak paham”",
-            "text": "Cara penyampaian perlu diperbaiki."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +184,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mengulang lebih keras",
+            "text": "Tidak menyelesaikan hambatan bahasa atau pemahaman."
+          },
+          {
+            "title": "Menganggap keluarga selalu boleh menerima informasi",
+            "text": "Perlu persetujuan dan kewenangan."
+          },
+          {
+            "title": "Memakai istilah teknis",
+            "text": "Meningkatkan salah tafsir."
+          },
+          {
+            "title": "Memberi leaflet sebagai satu-satunya edukasi",
+            "text": "Media harus sesuai kemampuan."
+          },
+          {
+            "title": "Menyalahkan pasien karena “tidak paham”",
+            "text": "Cara penyampaian perlu diperbaiki."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 3 elemen penilaian dari HPK 1.1 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +273,28 @@
     "Cara penyampaian perlu diperbaiki."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.1.a adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara • O–Observasi",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara • O–Observasi. Pokok elemennya: Rumah Sakit mengidentifikasi hambatan serta menerapkan proses untuk mengurangi hambatan bagi pasien dalam mendapatkan akses, proses penerimaan dan pelayanan perawatan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.1.b adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Informasi terkait aspek perawatan dan tata laksana medis pasien diberikan dengan cara dan bahasa yang dipahami pasien."
+    },
     {
       "q": "Dalam situasi “Pasien gangguan pendengaran”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +386,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -331,5 +406,12 @@
     "penerjemah",
     "disabilitas",
     "literasi"
+  ],
+  "instrumentCodes": [
+    "HPK 1.1"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    258
   ]
 }

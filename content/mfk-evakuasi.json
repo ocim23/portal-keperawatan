@@ -10,55 +10,121 @@
   "icon": "fire",
   "minutes": 17,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 6 (1/3)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen",
+            "title": "EP MFK 6.a",
+            "text": "Rumah sakit telah melakukan pengkajian risiko kebakaran secara proaktif meliputi poin",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pengkajian risiko kebakaran secara proaktif meliputi a) - i) dalam maksud dan tujuan; setiap",
+              "Halaman instrumen: 110"
+            ]
+          },
+          {
+            "level": "A",
+            "tag": "W–Wawancara",
+            "title": "EP MFK 6.a",
+            "text": "– i) dalam maksud dan tujuan setiap tahun yang didokumentasikan dalam daftar risiko/risk register.",
+            "bullets": [
+              "Kelengkapan bukti: tahun. - Penanggung Jawab MFK - Staf terkait.",
+              "Halaman instrumen: 110"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP MFK 6.b",
+            "text": "Rumah sakit telah menerapkan proses proteksi kebakaran yang meliputi poin a) – f) pada maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti penerapan proses proteksi kebakaran yang meliputi a) - f) pada maksud dan tujuan. Observasi penerapan proteksi kebakaran di rumah sakit meliputi a) - f) dalam maksud dan tujuan. - Penanggung Jawab MFK - Staf terkait.",
+              "Halaman instrumen: 110"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 6 (2/3)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "C",
+            "tag": "R–Regulasi • O–Observasi",
+            "title": "EP MFK 6.c",
+            "text": "Rumah sakit menetapkan kebijakan dan melakukan pemantauan larangan merokok di seluruh area Rumah Sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Regulasi penetapan Rumah Sakit sebagai kawasan bebas rokok. Observasi penerapan kawasan bebas rokok",
+              "Halaman instrumen: 110"
+            ]
+          },
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP MFK 6.d",
+            "text": "Rumah Sakit telah melakukan pengkajian risiko proteksi kebakaran.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti daftar risiko proteksi kebakaran Penanggung Jawab MFK",
+              "Halaman instrumen: 110"
+            ]
+          },
+          {
+            "level": "E",
+            "tag": "D–Dokumen • S–Simulasi • W–Wawancara",
+            "title": "EP MFK 6.e",
+            "text": "Rumah Sakit memastikan semua staf memahami proses proteksi kebakaran termasuk melakukan pelatihan penggunaan APAR, hidran dan simulasi kebakaran setiap tahun.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Bukti pelaksanaan pelatihan penanggulangan kebakaran. 2. Bukti Laporan simulasi kebakaran rumah sakit setiap tahun, dilengkapi debriefing Simulasi Staf tentang penggunaan APAR, Hydran, Proses evakuasi, dll. Staf terkait.",
+              "Halaman instrumen: 110, 111"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 6 (3/3)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "F",
+            "tag": "D–Dokumen • O–Observasi",
+            "title": "EP MFK 6.f",
+            "text": "Peralatan pemadaman kebakaran aktif dan sistem peringatan dini serta proteksi kebakaran secara pasif telah diinventarisasi, diperiksa, di ujicoba dan dipelihara sesuai dengan peraturan perundang-undangan dan didokumentasikan.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Bukti daftar inventaris peralatan proteksi aktif dan pasif. 2. Bukti pemeriksaan, uji coba dan pemeliharaan peralatan proteksi kebakaran. Fasilitas sistem kebakaran aktif dan pasif.",
+              "Halaman instrumen: 111"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Kebakaran, Evakuasi, dan Kesiapsiagaan Unit",
       "caption": "Evakuasi rumah sakit bukan sekadar keluar gedung: pasien harus diprioritaskan, dipindahkan dengan aman, dilacak, dan diserahterimakan.",
       "image": "assets/images/v4/mfk-evakuasi/mfk-evakuasi-01.webp",
       "thumbnail": "assets/images/thumb/v4/mfk-evakuasi/mfk-evakuasi-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Praktik: respons kebakaran dan evakuasi unit",
-      "caption": "Tujuan awal adalah menyelamatkan orang, membatasi bahaya, dan memindahkan pasien secara terkoordinasi.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Aktifkan alarm dan bantuan",
-            "text": "Sebutkan lokasi, jenis bahaya, unit, dan kebutuhan khusus; gunakan jalur fasilitas."
-          },
-          {
-            "title": "Selamatkan yang langsung terancam",
-            "text": "Pindahkan dari bahaya segera bila aman tanpa menunggu evakuasi total."
-          },
-          {
-            "title": "Batasi asap/api",
-            "text": "Tutup pintu, hentikan sumber tertentu bila aman, dan jangan membuka pintu panas tanpa penilaian."
-          },
-          {
-            "title": "Pilih arah evakuasi",
-            "text": "Utamakan evakuasi horizontal ke kompartemen aman; vertikal sesuai instruksi dan kondisi."
-          },
-          {
-            "title": "Prioritaskan pasien",
-            "text": "Pertimbangkan ambulasi, ketergantungan alat/oksigen, kondisi kritis, dan jumlah petugas."
-          },
-          {
-            "title": "Bawa informasi penting",
-            "text": "Identitas, obat/terapi penting, alat penunjang, dan daftar lokasi pasien sesuai rencana."
-          },
-          {
-            "title": "Lakukan accounting dan handover",
-            "text": "Pastikan siapa sudah dipindahkan, ke mana, siapa bertanggung jawab, dan apa kebutuhan lanjutnya."
-          }
-        ],
-        "columns": 2,
-        "note": "Kode, jalur, titik kumpul, dan teknik pemindahan harus mengikuti rencana serta latihan fasilitas."
-      }
     },
     {
       "type": "html",
@@ -126,6 +192,46 @@
     },
     {
       "type": "html",
+      "title": "Praktik: respons kebakaran dan evakuasi unit",
+      "caption": "Tujuan awal adalah menyelamatkan orang, membatasi bahaya, dan memindahkan pasien secara terkoordinasi.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Aktifkan alarm dan bantuan",
+            "text": "Sebutkan lokasi, jenis bahaya, unit, dan kebutuhan khusus; gunakan jalur fasilitas."
+          },
+          {
+            "title": "Selamatkan yang langsung terancam",
+            "text": "Pindahkan dari bahaya segera bila aman tanpa menunggu evakuasi total."
+          },
+          {
+            "title": "Batasi asap/api",
+            "text": "Tutup pintu, hentikan sumber tertentu bila aman, dan jangan membuka pintu panas tanpa penilaian."
+          },
+          {
+            "title": "Pilih arah evakuasi",
+            "text": "Utamakan evakuasi horizontal ke kompartemen aman; vertikal sesuai instruksi dan kondisi."
+          },
+          {
+            "title": "Prioritaskan pasien",
+            "text": "Pertimbangkan ambulasi, ketergantungan alat/oksigen, kondisi kritis, dan jumlah petugas."
+          },
+          {
+            "title": "Bawa informasi penting",
+            "text": "Identitas, obat/terapi penting, alat penunjang, dan daftar lokasi pasien sesuai rencana."
+          },
+          {
+            "title": "Lakukan accounting dan handover",
+            "text": "Pastikan siapa sudah dipindahkan, ke mana, siapa bertanggung jawab, dan apa kebutuhan lanjutnya."
+          }
+        ],
+        "columns": 2,
+        "note": "Kode, jalur, titik kumpul, dan teknik pemindahan harus mengikuti rencana serta latihan fasilitas."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -150,38 +256,6 @@
           {
             "title": "Daftar pasien tidak sesuai",
             "text": "Lakukan rekonsiliasi segera berdasarkan identitas, lokasi asal/tujuan, dan komunikasi antararea."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Semua orang bergerak tanpa koordinator",
-            "text": "Menyebabkan duplikasi, area terlewat, dan pasien tidak terlacak."
-          },
-          {
-            "title": "Membawa terlalu banyak barang",
-            "text": "Memperlambat evakuasi dan menghalangi rute."
-          },
-          {
-            "title": "Membuka pintu sembarangan",
-            "text": "Dapat memasukkan asap/api ke zona aman."
-          },
-          {
-            "title": "Tidak membawa informasi minimum",
-            "text": "Risiko salah pasien, putus obat, dan kehilangan terapi penting."
-          },
-          {
-            "title": "Kembali ke area bahaya tanpa izin",
-            "text": "Membahayakan petugas dan mengacaukan akuntabilitas."
           }
         ],
         "columns": 2,
@@ -219,9 +293,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Semua orang bergerak tanpa koordinator",
+            "text": "Menyebabkan duplikasi, area terlewat, dan pasien tidak terlacak."
+          },
+          {
+            "title": "Membawa terlalu banyak barang",
+            "text": "Memperlambat evakuasi dan menghalangi rute."
+          },
+          {
+            "title": "Membuka pintu sembarangan",
+            "text": "Dapat memasukkan asap/api ke zona aman."
+          },
+          {
+            "title": "Tidak membawa informasi minimum",
+            "text": "Risiko salah pasien, putus obat, dan kehilangan terapi penting."
+          },
+          {
+            "title": "Kembali ke area bahaya tanpa izin",
+            "text": "Membahayakan petugas dan mengacaukan akuntabilitas."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 7 elemen penilaian dari MFK 6 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Selamatkan dan alarm",
       "points": [
@@ -271,6 +383,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 6.a adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen. Pokok elemennya: Rumah sakit telah melakukan pengkajian risiko kebakaran secara proaktif meliputi poin"
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 6.a adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan W–Wawancara. Pokok elemennya: – i) dalam maksud dan tujuan setiap tahun yang didokumentasikan dalam daftar risiko/risk register."
+    },
     {
       "q": "Prinsip evakuasi horizontal adalah…",
       "options": [
@@ -373,14 +507,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "Portable Fire Extinguishers — Use and Evacuation",
@@ -389,5 +523,13 @@
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "MFK 6"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    110,
+    111
+  ]
 }

@@ -12,9 +12,125 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 15,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 5 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP MFK 5.a",
+            "text": "Rumah sakit telah melaksanakan proses pengelolaan B3 meliputi poin a) – h) pada maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanaan pengelolaan B3 meliputi poin a) – h) pada maksud dan tujuan. Pengelola B3 Rumah Sakit.",
+              "Halaman instrumen: 105"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP MFK 5.b",
+            "text": "Rumah sakit telah membuat pengkajian risiko secara proaktif terkait pengelolaan B3 di Rumah Sakit setiap tahun yang didokumentasikan dalam daftar risiko/risk register.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pengkajian risiko pengelolaan B3 termasuk limbah B3 terdapat dalam risk register. Staf pengelola B3.",
+              "Halaman instrumen: 105"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP MFK 5.c",
+            "text": "Di area tertentu yang rawan terhadap pajanan telah dilengkapi dengan eye yang washer/body washer berfungsi dan terpelihara baik dan tersedia kit tumpahan/ sesuai ketentuan. spill kit",
+            "bullets": [
+              "Kelengkapan bukti: Daftar lokasi serta jumlah eye washer / body washer. Observasi tentang kelengkapan sarana: eye washer/ body washer, spill kit dll Staf terkait",
+              "Halaman instrumen: 105"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 5 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "W–Wawancara • S–Simulasi",
+            "title": "EP MFK 5.d",
+            "text": "Staf dapat menjelaskan dan atau memperagakan penanganan tumpahan B3.",
+            "bullets": [
+              "Kelengkapan bukti: Staf dalam penanganan tumpahan B3 Simulasi staf tentang memperagakan penanganan tumpahan B3.",
+              "Halaman instrumen: 105, 106"
+            ]
+          },
+          {
+            "level": "E",
+            "tag": "W–Wawancara • O–Observasi • S–Simulasi",
+            "title": "EP MFK 5.e",
+            "text": "Staf dapat menjelaskan dan atau memperagakan tindakan, kewaspadaan, prosedur dan partisipasi dalam penyimpanan, penanganan dan pembuangan limbah B3.",
+            "bullets": [
+              "Kelengkapan bukti: Staf terkait. Observasi penerapan pengelolaan B3. Simulasi staf tentang prosedur pengelolaan B3 dan penggunaan APD.",
+              "Halaman instrumen: 106"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 5.1",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "O–Observasi • W–Wawancara",
+            "title": "EP MFK 5.1.a",
+            "text": "Rumah Sakit melakukan penyimpanan limbah B3 sesuai poin a) – k) pada maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Tempat Pembuangan Sementara (TPS) B3 memenuhi persyaratan a) - k) dalam maksud dan tujuan. Penanggung jawab TPS B3",
+              "Halaman instrumen: 107"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • O–Observasi",
+            "title": "EP MFK 5.1.b",
+            "text": "Rumah sakit mengolah limbah B3 padat secara mandiri atau menggunakan pihak ketiga yang berizin termasuk untuk pemusnahan limbah B3 cair yang tidak bisa dibuang ke IPAL.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti Perjanjian Kerja Sama dengan pihak ketiga yg mempunyai izin untuk transporter dan pengolah limbah B3 yang masih berlaku. Observasi terhadap prosedur pengelolaan limbah Rumah Sakit.",
+              "Halaman instrumen: 107, 108"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP MFK 5.1.c",
+            "text": "Rumah Sakit mengelola limbah B3 cair sesuai peraturan perundang-undangan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pengelolaan limbah cair oleh rumah sakit/Bukti izin IPAL atau bukti izin pembuangan limbah B3 cair (IPLC). IPAL dan IPLC Staf pengelola limbah B3 cair.",
+              "Halaman instrumen: 108"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +229,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Mencium bahan untuk mengenali",
-            "text": "Menambah pajanan."
-          },
-          {
-            "title": "Membersihkan tanpa APD",
-            "text": "Membahayakan petugas."
-          },
-          {
-            "title": "Mencampur bahan penetral sembarangan",
-            "text": "Dapat menghasilkan reaksi berbahaya."
-          },
-          {
-            "title": "Membuang ke sampah umum",
-            "text": "Memindahkan risiko ke petugas lain."
-          },
-          {
-            "title": "Tidak melaporkan pajanan kecil",
-            "text": "Tindak lanjut medis dapat terlambat."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +258,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mencium bahan untuk mengenali",
+            "text": "Menambah pajanan."
+          },
+          {
+            "title": "Membersihkan tanpa APD",
+            "text": "Membahayakan petugas."
+          },
+          {
+            "title": "Mencampur bahan penetral sembarangan",
+            "text": "Dapat menghasilkan reaksi berbahaya."
+          },
+          {
+            "title": "Membuang ke sampah umum",
+            "text": "Memindahkan risiko ke petugas lain."
+          },
+          {
+            "title": "Tidak melaporkan pajanan kecil",
+            "text": "Tindak lanjut medis dapat terlambat."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 8 elemen penilaian dari MFK 5, MFK 5.1 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +347,28 @@
     "Tindak lanjut medis dapat terlambat."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 5.a adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit telah melaksanakan proses pengelolaan B3 meliputi poin a) – h) pada maksud dan tujuan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 5.b adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit telah membuat pengkajian risiko secara proaktif terkait pengelolaan B3 di Rumah Sakit setiap tahun yang didokumentasikan dalam daftar risiko/risk register."
+    },
     {
       "q": "Dalam situasi “Tumpahan kecil yang dikenal”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +460,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -333,5 +482,16 @@
     "tumpahan",
     "limbah b3",
     "eyewash"
+  ],
+  "instrumentCodes": [
+    "MFK 5",
+    "MFK 5.1"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    105,
+    106,
+    107,
+    108
   ]
 }

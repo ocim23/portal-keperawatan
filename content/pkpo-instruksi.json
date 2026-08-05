@@ -12,9 +12,83 @@
   "priorityLabel": "Pengetahuan Wajib",
   "minutes": 12,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PKPO 4.1 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • O–Observasi • R–Regulasi",
+            "title": "EP PKPO 4.1.a",
+            "text": "Resep dibuat lengkap sesuai regulasi.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti penulisan resep sesuai regulasi. Resep",
+              "Halaman instrumen: 359"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 4.1.b",
+            "text": "Telah dilakukan evaluasi terhadap penulisan resep/instruksi pengobatan yang tidak lengkap dan tidak terbaca.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanaan evaluasi terhadap penulisan resep/instruksi pengobatan yang tidak lengkap dan tidak terbaca. - Ka Unit Farmasi - Apoteker",
+              "Halaman instrumen: 359"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 4.1.c",
+            "text": "Telah dilaksanaan proses untuk mengelola resep khusus seperti emergensi, automatic stop order, tapering,",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pengelolaan resep khusus seperti emergensi, automatic stop order, dan tapering - Kepala Instalasi Farmasi - Apoteker - Staf Farmasi",
+              "Halaman instrumen: 359"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PKPO 4.1 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP PKPO 4.1.d",
+            "text": "Daftar obat yang diresepkan tercatat dalam rekam medis pasien dan menyertai pasien ketika dipindahkan/transfer.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis: Daftar obat / Medication chart Daftar obat yang diresepkan tercatat dalam rekam medis pasien dan menyertai pasien ketika dipindahkan/transfer",
+              "Halaman instrumen: 359"
+            ]
+          },
+          {
+            "level": "E",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 4.1.e",
+            "text": "Daftar obat pulang diserahkan kepada pasien disertai edukasi penggunaannya.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti edukasi penggunaan obat pulang yang diserahkan kepada pasien. - Kepala Instalasi Farmasi - Apoteker - Staf Farmasi - Pasien/keluarga",
+              "Halaman instrumen: 359"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +187,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menganggap dosis biasa selalu benar",
-            "text": "Pasien dan indikasi berbeda."
-          },
-          {
-            "title": "Menggunakan trailing zero",
-            "text": "Dapat terbaca sepuluh kali lipat."
-          },
-          {
-            "title": "Menerima singkatan berisiko",
-            "text": "Makna dapat berbeda antarprofesi."
-          },
-          {
-            "title": "Memberikan dulu lalu klarifikasi",
-            "text": "Membalik prioritas keselamatan."
-          },
-          {
-            "title": "Menghapus instruksi lama tanpa jejak",
-            "text": "Perubahan harus dapat ditelusuri."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +216,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menganggap dosis biasa selalu benar",
+            "text": "Pasien dan indikasi berbeda."
+          },
+          {
+            "title": "Menggunakan trailing zero",
+            "text": "Dapat terbaca sepuluh kali lipat."
+          },
+          {
+            "title": "Menerima singkatan berisiko",
+            "text": "Makna dapat berbeda antarprofesi."
+          },
+          {
+            "title": "Memberikan dulu lalu klarifikasi",
+            "text": "Membalik prioritas keselamatan."
+          },
+          {
+            "title": "Menghapus instruksi lama tanpa jejak",
+            "text": "Perubahan harus dapat ditelusuri."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 5 elemen penilaian dari PKPO 4.1 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +305,28 @@
     "Perubahan harus dapat ditelusuri."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 4.1.a adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • O–Observasi • R–Regulasi",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan D–Dokumen • O–Observasi • R–Regulasi. Pokok elemennya: Resep dibuat lengkap sesuai regulasi."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 4.1.b adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Telah dilakukan evaluasi terhadap penulisan resep/instruksi pengobatan yang tidak lengkap dan tidak terbaca."
+    },
     {
       "q": "Dalam situasi “Instruksi “insulin 5””, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +418,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -332,5 +439,12 @@
     "order obat",
     "klarifikasi",
     "tbak"
+  ],
+  "instrumentCodes": [
+    "PKPO 4.1"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    359
   ]
 }

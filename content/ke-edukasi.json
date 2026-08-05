@@ -10,52 +10,89 @@
   "icon": "chat",
   "minutes": 17,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian KE 5 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 5.a",
+            "text": "Rumah sakit memiliki proses untuk memastikan bahwa pasien dan keluarganya memahami edukasi yang diberikan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanaan verifikasi untuk memastikan bahwa pasien dan keluarganya paham edukasi yang diberikan, melalui wawancara",
+              "Halaman instrumen: 375, 376"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 5.b",
+            "text": "Proses pemberian edukasi didokumentasikan dalam rekam medik sesuai dengan metode edukasi yang dapat diterima pasien dan keluarganya.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti dalam rekam medik tentang pelaksanaan edukasi yang sesuai dengan metode edukasi yang dapat diterima pasien dan keluarganya.",
+              "Halaman instrumen: 376"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 5.c",
+            "text": "Materi edukasi untuk pasien dan keluarga selalu tersedia dan diperbaharui secara berkala.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti berupa materi edukasi untuk pasien dan keluarga yang selalu tersedia dan diperbaharui secara berkala. Tim PKRS",
+              "Halaman instrumen: 376"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian KE 5 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 5.d",
+            "text": "Informasi dan edukasi disampaikan kepada pasien dan keluarga dengan menggunakan format yang praktis dan dengan bahasa yang dipahami pasien dan keluarga.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti bahwa informasi dan edukasi yang disampaikan kepada pasien dan keluarga, menggunakan format yang praktis dan dengan bahasa yang dipahami pasien dan keluarga.",
+              "Halaman instrumen: 376"
+            ]
+          },
+          {
+            "level": "E",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 5.e",
+            "text": "Rumah sakit menyediakan penerjemah (bahasa dan bahasa isyarat) sesuai dengan kebutuhan pasien dan keluarga.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti daftar penerjemah (bahasa dan bahasa isyarat) sesuai dengan kebutuhan pasien dan keluarga.",
+              "Halaman instrumen: 376"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Edukasi Pasien dan Teach-Back",
       "caption": "Edukasi berhasil bukan ketika perawat selesai berbicara, tetapi ketika pasien dapat memahami dan melakukan hal penting dengan aman.",
       "image": "assets/images/v4/ke-edukasi/ke-edukasi-01.webp",
       "thumbnail": "assets/images/thumb/v4/ke-edukasi/ke-edukasi-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Praktik: teach-back tanpa menguji pasien",
-      "caption": "Teach-back menguji kejelasan penjelasan petugas, bukan kecerdasan pasien.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "1. Nilai kebutuhan dan hambatan",
-            "text": "Bahasa, literasi, pendengaran, budaya, emosi, kesiapan, dan siapa yang perlu dilibatkan."
-          },
-          {
-            "title": "2. Beri informasi sedikit demi sedikit",
-            "text": "Gunakan bahasa sederhana, satu sampai tiga pesan utama, lalu berhenti untuk mengecek."
-          },
-          {
-            "title": "3. Minta pasien menjelaskan",
-            "text": "Gunakan kalimat non-menghakimi.",
-            "example": "“Agar saya yakin penjelasan saya jelas, boleh ceritakan bagaimana obat ini akan diminum di rumah?”"
-          },
-          {
-            "title": "4. Dengarkan tanpa menyela",
-            "text": "Identifikasi bagian yang sudah benar dan bagian yang masih salah/terlewat."
-          },
-          {
-            "title": "5. Jelaskan ulang dengan cara berbeda",
-            "text": "Gunakan contoh, demonstrasi, gambar, atau show-me; lalu minta teach-back lagi."
-          },
-          {
-            "title": "6. Dokumentasikan",
-            "text": "Catat topik, peserta, metode, hasil pemahaman, hambatan, dan tindak lanjut."
-          }
-        ],
-        "columns": 2,
-        "note": "Hindari pertanyaan “Sudah paham?” karena mudah dijawab “ya” tanpa menunjukkan pemahaman."
-      }
     },
     {
       "type": "html",
@@ -123,6 +160,43 @@
     },
     {
       "type": "html",
+      "title": "Praktik: teach-back tanpa menguji pasien",
+      "caption": "Teach-back menguji kejelasan penjelasan petugas, bukan kecerdasan pasien.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Nilai kebutuhan dan hambatan",
+            "text": "Bahasa, literasi, pendengaran, budaya, emosi, kesiapan, dan siapa yang perlu dilibatkan."
+          },
+          {
+            "title": "2. Beri informasi sedikit demi sedikit",
+            "text": "Gunakan bahasa sederhana, satu sampai tiga pesan utama, lalu berhenti untuk mengecek."
+          },
+          {
+            "title": "3. Minta pasien menjelaskan",
+            "text": "Gunakan kalimat non-menghakimi.",
+            "example": "“Agar saya yakin penjelasan saya jelas, boleh ceritakan bagaimana obat ini akan diminum di rumah?”"
+          },
+          {
+            "title": "4. Dengarkan tanpa menyela",
+            "text": "Identifikasi bagian yang sudah benar dan bagian yang masih salah/terlewat."
+          },
+          {
+            "title": "5. Jelaskan ulang dengan cara berbeda",
+            "text": "Gunakan contoh, demonstrasi, gambar, atau show-me; lalu minta teach-back lagi."
+          },
+          {
+            "title": "6. Dokumentasikan",
+            "text": "Catat topik, peserta, metode, hasil pemahaman, hambatan, dan tindak lanjut."
+          }
+        ],
+        "columns": 2,
+        "note": "Hindari pertanyaan “Sudah paham?” karena mudah dijawab “ya” tanpa menunjukkan pemahaman."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -147,38 +221,6 @@
           {
             "title": "Informasi berubah saat pulang",
             "text": "Pastikan daftar obat, janji, alat, diet, aktivitas, dan tanda bahaya diperbarui dan konsisten."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Memberi terlalu banyak sekaligus",
-            "text": "Beban kognitif membuat pesan penting hilang."
-          },
-          {
-            "title": "Bertanya “sudah mengerti?”",
-            "text": "Jawaban “ya” tidak menunjukkan kemampuan menjelaskan atau melakukan."
-          },
-          {
-            "title": "Menggunakan jargon",
-            "text": "Istilah klinis tanpa penjelasan membuat pasien tampak setuju tetapi tidak paham."
-          },
-          {
-            "title": "Teach-back dengan nada menguji",
-            "text": "Pasien dapat malu dan menyembunyikan ketidakpahaman."
-          },
-          {
-            "title": "Dokumentasi hanya “edukasi diberikan”",
-            "text": "Tidak menunjukkan topik, metode, respons, atau kebutuhan pengulangan."
           }
         ],
         "columns": 2,
@@ -216,9 +258,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Memberi terlalu banyak sekaligus",
+            "text": "Beban kognitif membuat pesan penting hilang."
+          },
+          {
+            "title": "Bertanya “sudah mengerti?”",
+            "text": "Jawaban “ya” tidak menunjukkan kemampuan menjelaskan atau melakukan."
+          },
+          {
+            "title": "Menggunakan jargon",
+            "text": "Istilah klinis tanpa penjelasan membuat pasien tampak setuju tetapi tidak paham."
+          },
+          {
+            "title": "Teach-back dengan nada menguji",
+            "text": "Pasien dapat malu dan menyembunyikan ketidakpahaman."
+          },
+          {
+            "title": "Dokumentasi hanya “edukasi diberikan”",
+            "text": "Tidak menunjukkan topik, metode, respons, atau kebutuhan pengulangan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 5 elemen penilaian dari KE 5 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Asesmen",
       "points": [
@@ -268,6 +348,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 5.a adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit memiliki proses untuk memastikan bahwa pasien dan keluarganya memahami edukasi yang diberikan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 5.b adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Proses pemberian edukasi didokumentasikan dalam rekam medik sesuai dengan metode edukasi yang dapat diterima pasien dan keluarganya."
+    },
     {
       "q": "Kalimat teach-back yang paling tepat adalah…",
       "options": [
@@ -370,14 +472,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "Use the Teach-Back Method",
@@ -386,5 +488,13 @@
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "KE 5"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    375,
+    376
+  ]
 }

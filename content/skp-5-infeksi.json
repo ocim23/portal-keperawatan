@@ -10,51 +10,47 @@
   "icon": "shield",
   "minutes": 20,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian SKP 5",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "1",
+            "tag": "O–Observasi • W–Wawancara • S–Simulasi",
+            "title": "EP SKP 5.1",
+            "text": "Rumah sakit telah menerapkan kebersihan tangan (hand hygiene) yang mengacu pada standar WHO terkini.",
+            "bullets": [
+              "Kelengkapan bukti: Pelaksanaan kebersihan tangan di rumah sakit yang mengacu pada standar WHO terkini. Staf Rumah sakit Kebersihan tangan",
+              "Halaman instrumen: 391, 392"
+            ]
+          },
+          {
+            "level": "2",
+            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
+            "title": "EP SKP 5.2",
+            "text": "Terdapat proses evaluasi terhadap pelaksanaan program kebersihan tangan di rumah sakit serta upaya perbaikan yang dilakukan untuk meningkatkan pelaksanaan program.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti evaluasi dan upaya perbaikan pelaksanaan program kebersihan tangan di rumah sakit - Komite/Tim PMKP - Komite/Tim PPI",
+              "Halaman instrumen: 392"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "SKP 5 — Mengurangi Risiko Infeksi",
       "caption": "Risiko infeksi dikurangi dengan tindakan yang konsisten pada setiap kontak, bukan hanya saat pasien diketahui menular.",
       "image": "assets/images/v4/skp-5-infeksi/skp-5-infeksi-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-5-infeksi/skp-5-infeksi-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Praktik: putus rantai transmisi saat memberikan asuhan",
-      "caption": "Pilih tindakan pencegahan berdasarkan aktivitas dan kemungkinan pajanan.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Sebelum kontak",
-            "text": "Lakukan kebersihan tangan dan siapkan alat bersih/steril sesuai kebutuhan."
-          },
-          {
-            "title": "Sebelum tindakan aseptik",
-            "text": "Jaga area bersih, hindari menyentuh bagian kritis, dan ulangi kebersihan tangan bila terkontaminasi."
-          },
-          {
-            "title": "Saat ada risiko cairan tubuh",
-            "text": "Pilih APD berdasarkan pajanan yang diperkirakan; sarung tangan tidak menggantikan kebersihan tangan."
-          },
-          {
-            "title": "Setelah tindakan",
-            "text": "Lepas APD dengan aman, kelola limbah/alat, bersihkan lingkungan, lalu kebersihan tangan."
-          },
-          {
-            "title": "Antarpasien/antararea",
-            "text": "Ganti APD dan lakukan kebersihan tangan; jangan membawa alat terkontaminasi ke area bersih."
-          },
-          {
-            "title": "Bila terjadi pajanan",
-            "text": "Lakukan pertolongan pertama, laporkan segera, dan ikuti penilaian serta tindak lanjut."
-          }
-        ],
-        "columns": 2,
-        "note": "Detail kewaspadaan kontak, droplet, dan airborne dibahas pada materi PPI."
-      }
     },
     {
       "type": "html",
@@ -122,6 +118,42 @@
     },
     {
       "type": "html",
+      "title": "Praktik: putus rantai transmisi saat memberikan asuhan",
+      "caption": "Pilih tindakan pencegahan berdasarkan aktivitas dan kemungkinan pajanan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Sebelum kontak",
+            "text": "Lakukan kebersihan tangan dan siapkan alat bersih/steril sesuai kebutuhan."
+          },
+          {
+            "title": "Sebelum tindakan aseptik",
+            "text": "Jaga area bersih, hindari menyentuh bagian kritis, dan ulangi kebersihan tangan bila terkontaminasi."
+          },
+          {
+            "title": "Saat ada risiko cairan tubuh",
+            "text": "Pilih APD berdasarkan pajanan yang diperkirakan; sarung tangan tidak menggantikan kebersihan tangan."
+          },
+          {
+            "title": "Setelah tindakan",
+            "text": "Lepas APD dengan aman, kelola limbah/alat, bersihkan lingkungan, lalu kebersihan tangan."
+          },
+          {
+            "title": "Antarpasien/antararea",
+            "text": "Ganti APD dan lakukan kebersihan tangan; jangan membawa alat terkontaminasi ke area bersih."
+          },
+          {
+            "title": "Bila terjadi pajanan",
+            "text": "Lakukan pertolongan pertama, laporkan segera, dan ikuti penilaian serta tindak lanjut."
+          }
+        ],
+        "columns": 2,
+        "note": "Detail kewaspadaan kontak, droplet, dan airborne dibahas pada materi PPI."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -146,38 +178,6 @@
           {
             "title": "Alat invasif tidak lagi diperlukan",
             "text": "Koordinasikan pelepasan segera karena setiap hari penggunaan menambah risiko."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Sarung tangan menggantikan kebersihan tangan",
-            "text": "Tangan dapat terkontaminasi saat memakai atau melepas sarung tangan."
-          },
-          {
-            "title": "APD berlebihan tanpa alasan",
-            "text": "Memboroskan sumber daya dan dapat meningkatkan kontaminasi saat pelepasan."
-          },
-          {
-            "title": "Menyentuh area bersih dengan sarung tangan kotor",
-            "text": "Memindahkan mikroorganisme ke alat atau lokasi kritis."
-          },
-          {
-            "title": "Tidak menilai alat invasif",
-            "text": "Kateter atau jalur yang tidak perlu tetap menjadi pintu masuk infeksi."
-          },
-          {
-            "title": "Kebersihan lingkungan dianggap tugas orang lain",
-            "text": "Perawat perlu memastikan area dan alat yang dipakai pasien aman."
           }
         ],
         "columns": 2,
@@ -215,9 +215,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Sarung tangan menggantikan kebersihan tangan",
+            "text": "Tangan dapat terkontaminasi saat memakai atau melepas sarung tangan."
+          },
+          {
+            "title": "APD berlebihan tanpa alasan",
+            "text": "Memboroskan sumber daya dan dapat meningkatkan kontaminasi saat pelepasan."
+          },
+          {
+            "title": "Menyentuh area bersih dengan sarung tangan kotor",
+            "text": "Memindahkan mikroorganisme ke alat atau lokasi kritis."
+          },
+          {
+            "title": "Tidak menilai alat invasif",
+            "text": "Kateter atau jalur yang tidak perlu tetap menjadi pintu masuk infeksi."
+          },
+          {
+            "title": "Kebersihan lingkungan dianggap tugas orang lain",
+            "text": "Perawat perlu memastikan area dan alat yang dipakai pasien aman."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 2 elemen penilaian dari SKP 5 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Lapisan pencegahan",
       "points": [
@@ -267,6 +305,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 5.1 adalah…",
+      "options": [
+        "O–Observasi • W–Wawancara • S–Simulasi",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara • S–Simulasi. Pokok elemennya: Rumah sakit telah menerapkan kebersihan tangan (hand hygiene) yang mengacu pada standar WHO terkini."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 5.2 adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara • R–Regulasi"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara • R–Regulasi. Pokok elemennya: Terdapat proses evaluasi terhadap pelaksanaan program kebersihan tangan di rumah sakit serta upaya perbaikan yang dilakukan untuk meningkatkan pelaksanaan program."
+    },
     {
       "q": "Kewaspadaan standar diterapkan…",
       "options": [
@@ -369,14 +429,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "WHO — Five Moments for Hand Hygiene",
@@ -390,5 +450,13 @@
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "SKP 5"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    391,
+    392
+  ]
 }

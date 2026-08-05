@@ -12,9 +12,51 @@
   "priorityLabel": "Pengetahuan Wajib",
   "minutes": 11,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PMKP 7",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PMKP 7.a",
+            "text": "Rumah sakit melakukan evaluasi sesuai yang clinical pathway tercantum dalam maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanaan evaluasi (minimal 5 clinical pathway pathway) clinical - Bukti clinical pathway berdasarkan pada PPK yang ditetapkan Direktur rumah sakit - Komite Medik - KSM terkait - Komite/Tim Mutu",
+              "Halaman instrumen: 145, 146"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PMKP 7.b",
+            "text": "Hasil evaluasi dapat menunjukkan adanya perbaikan terhadap kepatuhan dan mengurangi variasi dalam penerapan prioritas standar pelayanan kedokteran di rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti hasil capaian kepatuhan DPJP dan pengurangan/reduksi variasi dalam penerapan clinical pathway di rumah sakit. - Komite Medik - KSM terkait - Komite/Tim Mutu",
+              "Halaman instrumen: 146"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PMKP 7.c",
+            "text": "Rumah sakit telah melaksanakan audit klinis dan atau audit medis pada penerapan prioritas standar pelayanan kedokteran di rumah sakit",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanaan audit klinis dan atau audit medis pada penerapan prioritas standar pelayanan kedokteran - Komite Medik - KSM terkait - Komite/ Tim Mutu",
+              "Halaman instrumen: 146"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +155,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Mencentang tanpa melakukan",
-            "text": "Merusak data dan keselamatan."
-          },
-          {
-            "title": "Memaksa semua pasien sama",
-            "text": "Pathway bukan resep kaku."
-          },
-          {
-            "title": "Tidak mencatat alasan variasi",
-            "text": "Tim tidak dapat belajar."
-          },
-          {
-            "title": "Menganggap hanya dokter yang berperan",
-            "text": "Pathway bersifat multidisiplin."
-          },
-          {
-            "title": "Menunda dokumentasi",
-            "text": "Detail penting mudah hilang."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +184,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mencentang tanpa melakukan",
+            "text": "Merusak data dan keselamatan."
+          },
+          {
+            "title": "Memaksa semua pasien sama",
+            "text": "Pathway bukan resep kaku."
+          },
+          {
+            "title": "Tidak mencatat alasan variasi",
+            "text": "Tim tidak dapat belajar."
+          },
+          {
+            "title": "Menganggap hanya dokter yang berperan",
+            "text": "Pathway bersifat multidisiplin."
+          },
+          {
+            "title": "Menunda dokumentasi",
+            "text": "Detail penting mudah hilang."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 3 elemen penilaian dari PMKP 7 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +273,28 @@
     "Detail penting mudah hilang."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 7.a adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit melakukan evaluasi sesuai yang clinical pathway tercantum dalam maksud dan tujuan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 7.b adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Hasil evaluasi dapat menunjukkan adanya perbaikan terhadap kepatuhan dan mengurangi variasi dalam penerapan prioritas standar pelayanan kedokteran di rumah sakit."
+    },
     {
       "q": "Dalam situasi “Target mobilisasi belum tercapai”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +386,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -330,5 +405,13 @@
     "clinical pathway",
     "alur klinis",
     "variasi"
+  ],
+  "instrumentCodes": [
+    "PMKP 7"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    145,
+    146
   ]
 }

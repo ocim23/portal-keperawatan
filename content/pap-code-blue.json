@@ -10,55 +10,79 @@
   "icon": "heart",
   "minutes": 24,
   "updated": "2026-08-05",
-  "notice": "Nomor, kriteria aktivasi, dan pembagian peran mengikuti sistem Code Blue fasilitas.",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PAP 2.6 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PAP 2.6.a",
+            "text": "Pelayanan resusitasi tersedia dan diberikan selama 24 jam setiap hari di seluruh area rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: blue 24 jam setiap hari. 2. Bukti jumlah tim code blue memadai sesuai luas area rumah sakit. Tim kode biru 1. Daftar peralatan medis",
+              "Halaman instrumen: 316"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "W–Wawancara • S–Simulasi • D–Dokumen • O–Observasi",
+            "title": "EP PAP 2.6.b",
+            "text": "Peralatan medis untuk resusitasi dan obat untuk bantuan hidup dasar dan lanjut terstandar sesuai dengan kebutuhan populasi pasien.",
+            "bullets": [
+              "Kelengkapan bukti: untuk resusitasi dan obat untuk bantuan hidup dasar terstandar sesuai dengan kebutuhan populasi pasien: 2. Daftar peralatan medis untuk resusitasi dan obat untuk bantuan hidup dasar dan lanjut terstandar di tingkat unit pelayanan 3. Hasil pemantauan peralatan medis untuk resusitasi dan obat untuk bantuan hidup dasar dan lanjut Kepala Instalasi/ruangan Simulasi blue, dengan code",
+              "Halaman instrumen: 316, 317"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PAP 2.6.c",
+            "text": "Di seluruh area rumah sakit, bantuan hidup dasar diberikan segera saat dikenali henti jantung-paru dan bantuan hidup lanjut diberikan kurang dari 5 menit.",
+            "bullets": [
+              "Kelengkapan bukti: respon time kurang dari 5 menit, prosedur tepat dan akurat Tim kode biru 1.",
+              "Halaman instrumen: 317"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PAP 2.6 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PAP 2.6.d",
+            "text": "Staf diberi pelatihan pelayanan bantuan hidup dasar/lanjut sesuai dengan ketentuan rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti sertifikat pelatihan BHD untuk seluruh staf dan BHL untuk tim kode biru 2. Bukti pelatihan internal BHD dan BHL Staf RS Unit diklat",
+              "Halaman instrumen: 317"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Code Blue di Rumah Sakit",
       "caption": "Code Blue bukan hanya panggilan; keberhasilannya bergantung pada deteksi, aktivasi, BHD awal, tim, alat, komunikasi, dan evaluasi.",
       "image": "assets/images/v4/pap-code-blue/pap-code-blue-01.webp",
       "thumbnail": "assets/images/thumb/v4/pap-code-blue/pap-code-blue-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Praktik: aktivasi dan peran awal Code Blue",
-      "caption": "Penemu pasien memulai respons; jangan menunggu tim datang untuk melakukan tindakan dasar.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Kenali kondisi",
-            "text": "Pasien tidak responsif, tidak bernapas normal, atau tidak ada nadi teraba pasti."
-          },
-          {
-            "title": "Aktifkan sistem",
-            "text": "Sebutkan lokasi spesifik, kondisi, identitas/unit, dan akses tercepat sesuai alur fasilitas."
-          },
-          {
-            "title": "Mulai BHD",
-            "text": "Kompresi berkualitas dan ventilasi sesuai kemampuan; minta AED/crash cart."
-          },
-          {
-            "title": "Bagi peran awal",
-            "text": "Kompresi, jalan napas, AED/monitor, obat/akses, pencatat waktu, dan pengendali area."
-          },
-          {
-            "title": "Gunakan closed-loop",
-            "text": "Instruksi menyebut nama/tugas; penerima mengulang dan melaporkan selesai."
-          },
-          {
-            "title": "Serahkan informasi",
-            "text": "Sampaikan waktu ditemukan, kondisi awal, RJP, shock, obat, respons, dan riwayat penting."
-          },
-          {
-            "title": "Dokumentasi dan debrief",
-            "text": "Catat waktu/tindakan secara real-time dan lakukan evaluasi setelah kejadian."
-          }
-        ],
-        "columns": 2,
-        "note": "Nomor aktivasi, komposisi tim, dan lokasi crash cart mengikuti fasilitas."
-      }
     },
     {
       "type": "html",
@@ -130,6 +154,46 @@
     },
     {
       "type": "html",
+      "title": "Praktik: aktivasi dan peran awal Code Blue",
+      "caption": "Penemu pasien memulai respons; jangan menunggu tim datang untuk melakukan tindakan dasar.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Kenali kondisi",
+            "text": "Pasien tidak responsif, tidak bernapas normal, atau tidak ada nadi teraba pasti."
+          },
+          {
+            "title": "Aktifkan sistem",
+            "text": "Sebutkan lokasi spesifik, kondisi, identitas/unit, dan akses tercepat sesuai alur fasilitas."
+          },
+          {
+            "title": "Mulai BHD",
+            "text": "Kompresi berkualitas dan ventilasi sesuai kemampuan; minta AED/crash cart."
+          },
+          {
+            "title": "Bagi peran awal",
+            "text": "Kompresi, jalan napas, AED/monitor, obat/akses, pencatat waktu, dan pengendali area."
+          },
+          {
+            "title": "Gunakan closed-loop",
+            "text": "Instruksi menyebut nama/tugas; penerima mengulang dan melaporkan selesai."
+          },
+          {
+            "title": "Serahkan informasi",
+            "text": "Sampaikan waktu ditemukan, kondisi awal, RJP, shock, obat, respons, dan riwayat penting."
+          },
+          {
+            "title": "Dokumentasi dan debrief",
+            "text": "Catat waktu/tindakan secara real-time dan lakukan evaluasi setelah kejadian."
+          }
+        ],
+        "columns": 2,
+        "note": "Nomor aktivasi, komposisi tim, dan lokasi crash cart mengikuti fasilitas."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -154,38 +218,6 @@
           {
             "title": "Setelah ROSC",
             "text": "Lanjutkan stabilisasi, monitoring, komunikasi, dan transfer; Code Blue tidak selesai saat nadi kembali."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Aktivasi terlambat",
-            "text": "Menunggu senior atau memastikan terlalu lama mengurangi waktu BHD dan defibrilasi."
-          },
-          {
-            "title": "Lokasi tidak spesifik",
-            "text": "Tim kehilangan waktu mencari pasien."
-          },
-          {
-            "title": "Semua memberi perintah",
-            "text": "Tugas tumpang tindih dan tindakan penting terlewat."
-          },
-          {
-            "title": "Pencatatan waktu tidak jelas",
-            "text": "Evaluasi kualitas dan kesinambungan menjadi sulit."
-          },
-          {
-            "title": "Crash cart tidak dipulihkan",
-            "text": "Kejadian berikutnya berisiko kekurangan alat atau obat."
           }
         ],
         "columns": 2,
@@ -223,9 +255,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Aktivasi terlambat",
+            "text": "Menunggu senior atau memastikan terlalu lama mengurangi waktu BHD dan defibrilasi."
+          },
+          {
+            "title": "Lokasi tidak spesifik",
+            "text": "Tim kehilangan waktu mencari pasien."
+          },
+          {
+            "title": "Semua memberi perintah",
+            "text": "Tugas tumpang tindih dan tindakan penting terlewat."
+          },
+          {
+            "title": "Pencatatan waktu tidak jelas",
+            "text": "Evaluasi kualitas dan kesinambungan menjadi sulit."
+          },
+          {
+            "title": "Crash cart tidak dipulihkan",
+            "text": "Kejadian berikutnya berisiko kekurangan alat atau obat."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 4 elemen penilaian dari PAP 2.6 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Rantai respons",
       "points": [
@@ -275,6 +345,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.6.a adalah…",
+      "options": [
+        "W–Wawancara • D–Dokumen",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan W–Wawancara • D–Dokumen. Pokok elemennya: Pelayanan resusitasi tersedia dan diberikan selama 24 jam setiap hari di seluruh area rumah sakit."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.6.b adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "W–Wawancara • S–Simulasi • D–Dokumen • O–Observasi"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan W–Wawancara • S–Simulasi • D–Dokumen • O–Observasi. Pokok elemennya: Peralatan medis untuk resusitasi dan obat untuk bantuan hidup dasar dan lanjut terstandar sesuai dengan kebutuhan populasi pasien."
+    },
     {
       "q": "Saat menemukan pasien henti jantung, perawat harus…",
       "options": [
@@ -377,14 +469,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "2025 AHA Guidelines Algorithms",
@@ -393,5 +485,13 @@
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "PAP 2.6"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    316,
+    317
+  ]
 }

@@ -12,9 +12,73 @@
   "priorityLabel": "Pengetahuan Wajib",
   "minutes": 11,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PKPO 3.3 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • O–Observasi",
+            "title": "EP PKPO 3.3.a",
+            "text": "Batas waktu obat dapat digunakan (beyond use date) tercantum pada label obat.",
+            "bullets": [
+              "Kelengkapan bukti: Daftar BUD yang mengacu pada referensi terpercaya dan terkini. Lihat label obat tercantum batas waktu obat dapat digunakan (BUD= beyond use date).",
+              "Halaman instrumen: 354"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 3.3.b",
+            "text": "Rumah sakit memiliki sistem pelaporan sediaan farmasi dan BMHP substandar (rusak).",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaporan sediaan farmasi dan BMHP substandar (rusak). - Kepala Instalasi Farmasi - Apoteker - Staf gudang farmasi",
+              "Halaman instrumen: 354"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 3.3.c",
+            "text": "Rumah sakit menerapkan proses recall obat, BMHP dan implant yang meliputi identifikasi, penarikan, dan pengembalian produk yang di-recall.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti proses recall obat, BMHP dan implant sesuai ketentuan (lihat PAB 7.4). - Kepala Instalasi Farmasi - Apoteker - Staf gudang farmasi - pasien (jika ada)",
+              "Halaman instrumen: 354, 355"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PKPO 3.3 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 3.3.d",
+            "text": "Rumah sakit menerapkan proses pemusnahan sediaan farmasi dan BMHP.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti proses pemusnahan sediaan farmasi dan BMHP. - Direktur - Kepala Instalasi Farmasi - Apoteker - Staf farmasi",
+              "Halaman instrumen: 355"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +177,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menganggap ED masih berlaku setelah dibuka",
-            "text": "Stabilitas dan risiko kontaminasi telah berubah."
-          },
-          {
-            "title": "Menulis BUD tanpa jam bila diperlukan",
-            "text": "Dapat membingungkan pada produk berumur pendek."
-          },
-          {
-            "title": "Mengembalikan produk rusak ke rak",
-            "text": "Berisiko digunakan kembali."
-          },
-          {
-            "title": "Membuang narkotika sendiri",
-            "text": "Melanggar alur pengawasan."
-          },
-          {
-            "title": "Mengabaikan nomor batch recall",
-            "text": "Tidak semua produk dengan nama sama selalu ditarik."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +206,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menganggap ED masih berlaku setelah dibuka",
+            "text": "Stabilitas dan risiko kontaminasi telah berubah."
+          },
+          {
+            "title": "Menulis BUD tanpa jam bila diperlukan",
+            "text": "Dapat membingungkan pada produk berumur pendek."
+          },
+          {
+            "title": "Mengembalikan produk rusak ke rak",
+            "text": "Berisiko digunakan kembali."
+          },
+          {
+            "title": "Membuang narkotika sendiri",
+            "text": "Melanggar alur pengawasan."
+          },
+          {
+            "title": "Mengabaikan nomor batch recall",
+            "text": "Tidak semua produk dengan nama sama selalu ditarik."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 4 elemen penilaian dari PKPO 3.3 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +295,28 @@
     "Tidak semua produk dengan nama sama selalu ditarik."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 3.3.a adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • O–Observasi",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • O–Observasi. Pokok elemennya: Batas waktu obat dapat digunakan (beyond use date) tercantum pada label obat."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 3.3.b adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit memiliki sistem pelaporan sediaan farmasi dan BMHP substandar (rusak)."
+    },
     {
       "q": "Dalam situasi “Vial multidose dibuka”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +408,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -332,5 +429,13 @@
     "expired date",
     "recall",
     "obat rusak"
+  ],
+  "instrumentCodes": [
+    "PKPO 3.3"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    354,
+    355
   ]
 }

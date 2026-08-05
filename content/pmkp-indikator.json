@@ -12,9 +12,41 @@
   "priorityLabel": "Pengetahuan Wajib",
   "minutes": 11,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PMKP 3",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PMKP 3.a",
+            "text": "Rumah sakit melakukan pengumpulan data mencakup (poin a-c) dalam maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pengumpulan data indikator nasional mutu, indikator mutu prioritas RS, indikator mutu prioritas unit. - Komite / Tim Mutu - Kepala unit kerja - Penanggung jawab data unit",
+              "Halaman instrumen: 135"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "R–Regulasi • D–Dokumen",
+            "title": "EP PMKP 3.b",
+            "text": "Indikator mutu prioritas rumah sakit (IMP-RS) dan indikator mutu prioritas unit (IMP- Unit) telah dibuat profil indikator mencakup (poin a-t) dalam maksud dan tujuan",
+            "bullets": [
+              "Kelengkapan bukti: Bukti Profile Indikator mutu: Profile Indikator mutu prioritas rumah sakit (IMP-RS) dan profile indikator mutu prioritas unit (IMP- Unit) mencakup (poin a-t) dalam maksud dan tujuan",
+              "Halaman instrumen: 135"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +145,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Mengumpulkan tanpa definisi",
-            "text": "Angka antarpetugas tidak dapat dibandingkan."
-          },
-          {
-            "title": "Mengubah kriteria agar target tercapai",
-            "text": "Merusak validitas dan keselamatan."
-          },
-          {
-            "title": "Menganggap dokumentasi tidak memengaruhi mutu",
-            "text": "Data tidak tercatat dianggap tidak dilakukan."
-          },
-          {
-            "title": "Fokus pada angka tanpa pasien",
-            "text": "Indikator harus kembali pada kualitas pelayanan."
-          },
-          {
-            "title": "Menyimpan hasil tanpa umpan balik",
-            "text": "Staf tidak dapat memperbaiki proses."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +174,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mengumpulkan tanpa definisi",
+            "text": "Angka antarpetugas tidak dapat dibandingkan."
+          },
+          {
+            "title": "Mengubah kriteria agar target tercapai",
+            "text": "Merusak validitas dan keselamatan."
+          },
+          {
+            "title": "Menganggap dokumentasi tidak memengaruhi mutu",
+            "text": "Data tidak tercatat dianggap tidak dilakukan."
+          },
+          {
+            "title": "Fokus pada angka tanpa pasien",
+            "text": "Indikator harus kembali pada kualitas pelayanan."
+          },
+          {
+            "title": "Menyimpan hasil tanpa umpan balik",
+            "text": "Staf tidak dapat memperbaiki proses."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 2 elemen penilaian dari PMKP 3 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +263,28 @@
     "Staf tidak dapat memperbaiki proses."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 3.a adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit melakukan pengumpulan data mencakup (poin a-c) dalam maksud dan tujuan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 3.b adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "R–Regulasi • D–Dokumen"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen. Pokok elemennya: Indikator mutu prioritas rumah sakit (IMP-RS) dan indikator mutu prioritas unit (IMP- Unit) telah dibuat profil indikator mencakup (poin a-t) dalam maksud dan tujuan"
+    },
     {
       "q": "Dalam situasi “Menjelaskan indikator unit”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +376,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -333,5 +398,12 @@
     "imput",
     "numerator",
     "denominator"
+  ],
+  "instrumentCodes": [
+    "PMKP 3"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    135
   ]
 }

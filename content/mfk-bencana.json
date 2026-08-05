@@ -12,9 +12,93 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 15,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 9 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP MFK 9.a",
+            "text": "Rumah sakit menerapkan proses pengelolaan bencana yang meliputi poin a)-h) pada maksud dan tujuan diatas.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti penerapan proses pengelolaan bencana yang meliputi poin a) - h) pada maksud dan tujuan. Penanggung jawab MFK",
+              "Halaman instrumen: 122, 123"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen",
+            "title": "EP MFK 9.b",
+            "text": "Rumah Sakit telah mengidentifikasi risiko bencana internal dan eksternal dalam analisa kerentanan bahaya/Hazard (HVA) Vulnerability Analysis secara proaktif setiap tahun dan diintegrasikan ke dalam daftar risiko/risk register dan profil risiko.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti identifikasi risiko bencana internal dan eksternal berupa hasil HVA (Hazard Vulnerability analysis) yang terintegrasi dengan risk register dan profil risiko",
+              "Halaman instrumen: 123"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "R–Regulasi",
+            "title": "EP MFK 9.c",
+            "text": "(HVA) setiap tahun. Rumah Sakit membuat Program pengelolaan bencana di rumah sakit berdasarkan hasil Analisa kerentanan bahaya/Hazard Vulnerability Analysis.",
+            "bullets": [
+              "Kelengkapan bukti: Program pengelolaan bencana berdasarkan hasil Hazard Vulnerability Analysis (HVA) setiap tahun.",
+              "Halaman instrumen: 123"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 9 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • S–Simulasi",
+            "title": "EP MFK 9.d",
+            "text": "Rumah sakit telah melakukan simulasi penanggulangan bencana (disaster drill) minimal setahun sekali termasuk debriefing.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanaan simulasi dalam kesiapan menghadapi kedaruratan, wabah dan bencana minimal setahun sekali termasuk debriefing.",
+              "Halaman instrumen: 123"
+            ]
+          },
+          {
+            "level": "E",
+            "tag": "W–Wawancara • S–Simulasi",
+            "title": "EP MFK 9.e",
+            "text": "Staf dapat menjelaskan dan atau memperagakan prosedur dan peran mereka dalam penanganan kedaruratan serta bencana internal dan external",
+            "bullets": [
+              "Kelengkapan bukti: Staf rumah sakit Staf dapat memperagakan prosedur dan peran mereka dalam penanganan kedaruratan serta bencana internal dan ekternal",
+              "Halaman instrumen: 123"
+            ]
+          },
+          {
+            "level": "F",
+            "tag": "O–Observasi",
+            "title": "EP MFK 9.f",
+            "text": "Rumah Sakit telah menyiapkan area dekontaminasi sesuai ketentuan pada Instalasi Gawat Darurat.",
+            "bullets": [
+              "Kelengkapan bukti: Observasi ruang dekontaminasi di area Instalasi Gawat Darurat.",
+              "Halaman instrumen: 123"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +197,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Berangkat membantu tanpa penugasan",
-            "text": "Dapat meninggalkan unit dan mengacaukan komando."
-          },
-          {
-            "title": "Menggunakan lift saat dilarang",
-            "text": "Berisiko terjebak."
-          },
-          {
-            "title": "Mencampur jalur bersih dan terkontaminasi",
-            "text": "Menyebarkan bahaya."
-          },
-          {
-            "title": "Tidak mencatat perpindahan pasien",
-            "text": "Pasien dapat hilang dari pelacakan."
-          },
-          {
-            "title": "Menyebarkan informasi belum terverifikasi",
-            "text": "Menimbulkan panik."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +226,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Berangkat membantu tanpa penugasan",
+            "text": "Dapat meninggalkan unit dan mengacaukan komando."
+          },
+          {
+            "title": "Menggunakan lift saat dilarang",
+            "text": "Berisiko terjebak."
+          },
+          {
+            "title": "Mencampur jalur bersih dan terkontaminasi",
+            "text": "Menyebarkan bahaya."
+          },
+          {
+            "title": "Tidak mencatat perpindahan pasien",
+            "text": "Pasien dapat hilang dari pelacakan."
+          },
+          {
+            "title": "Menyebarkan informasi belum terverifikasi",
+            "text": "Menimbulkan panik."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 6 elemen penilaian dari MFK 9 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +315,28 @@
     "Menimbulkan panik."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 9.a adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan proses pengelolaan bencana yang meliputi poin a)-h) pada maksud dan tujuan diatas."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 9.b adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen. Pokok elemennya: Rumah Sakit telah mengidentifikasi risiko bencana internal dan eksternal dalam analisa kerentanan bahaya/Hazard (HVA) Vulnerability Analysis secara proaktif setiap tahun dan diintegrasikan ke dalam daftar risiko/risk register dan profil risiko."
+    },
     {
       "q": "Dalam situasi “Gempa saat merawat pasien”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +428,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -332,5 +449,13 @@
     "hva",
     "triase bencana",
     "evakuasi"
+  ],
+  "instrumentCodes": [
+    "MFK 9"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    122,
+    123
   ]
 }

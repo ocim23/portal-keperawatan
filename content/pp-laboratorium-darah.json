@@ -1,8 +1,8 @@
 {
   "id": "pp-laboratorium-darah",
   "group": "pp",
-  "title": "PP 3 — Pelayanan Laboratorium dan Pelayanan Darah",
-  "short": "PP 3",
+  "title": "PP 3, PP 3.3, PP 3.5, PP 3.6, dan PP 3.9 — Pelayanan Laboratorium dan Darah",
+  "short": "PP 3 terkait",
   "desc": "Peran perawat dalam spesimen, nilai kritis, POCT, dan keselamatan pelayanan darah.",
   "category": "PP",
   "color": "#0F766E",
@@ -12,9 +12,233 @@
   "priorityLabel": "Pengetahuan Wajib",
   "minutes": 14,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PP 3",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "R–Regulasi",
+            "title": "EP PP 3.a",
+            "text": "Rumah sakit menetapkan regulasi tentang pelayanan laboratorium di rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Regulasi tentang Pedoman Pelayanan Laboratorium di Rumah Sakit",
+              "Halaman instrumen: 283"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "R–Regulasi • D–Dokumen • W–Wawancara",
+            "title": "EP PP 3.b",
+            "text": "Pelayanan laboratorium buka 24 jam, 7 (tujuh) hari seminggu, sesuai dengan kebutuhan pasien.",
+            "bullets": [
+              "Kelengkapan bukti: Regulasi tentang pelayanan laboratorium buka 24 jam, 7 (tujuh) hari seminggu sesuai dengan kebutuhan pasien. 1. Bukti hasil pemeriksaan laboratorium 24 jam, 7 (tujuh) hari seminggu sesuai dengan kebutuhan pasien. 2. Bukti jadwal staf laboratorium yang bertugas selama 24 jam, 7 (tujuh) hari seminggu.",
+              "Halaman instrumen: 283"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PP 3.3 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "R–Regulasi • D–Dokumen",
+            "title": "EP PP 3.3.a",
+            "text": "Rumah sakit menetapkan dan menerapkan kerangka waktu penyelesaian pemeriksaan laboratorium regular dan cito.",
+            "bullets": [
+              "Kelengkapan bukti: Regulasi tentang penetapan kerangka waktu penyelesaian pemeriksaan laboratorium regular dan cito. Bukti penerapan kerangka waktu penyelesaian pemeriksaan laboratorium regular dan cito.",
+              "Halaman instrumen: 286"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen",
+            "title": "EP PP 3.3.b",
+            "text": "Terdapat bukti pencatatan dan evaluasi waktu penyelesaian pemeriksaan laboratorium.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Bukti pencatatan waktu penyelesaian pemeriksaan laboratorium reguler 2. Bukti evaluasi waktu penyelesaian pemeriksaan laboratorium regular.",
+              "Halaman instrumen: 286"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen",
+            "title": "EP PP 3.3.c",
+            "text": "Terdapat bukti pencatatan dan evaluasi waktu penyelesaian pemeriksaan cito.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Bukti pencatatan waktu penyelesaian pemeriksaan laboratorium Cito. 2. Bukti evaluasi waktu penyelesaian pemeriksaan laboratorium Cito.",
+              "Halaman instrumen: 286"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PP 3.3 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen",
+            "title": "EP PP 3.3.d",
+            "text": "Terdapat bukti pencatatan dan evaluasi pelayanan laboratorium rujukan.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Bukti pencatatan pelayanan laboratorium rujukan. 2. Bukti evaluasi pelayanan laboratorium rujukan.",
+              "Halaman instrumen: 286"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PP 3.5",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen",
+            "title": "EP PP 3.5.a",
+            "text": "Pengelolaan spesimen dilaksanakan sesuai poin a) - d) pada maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pengelolaan spesimen meliputi sesuai poin a) - d) pada maksud dan tujuan.",
+              "Halaman instrumen: 288"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen",
+            "title": "EP PP 3.5.b",
+            "text": "Terdapat bukti pemantauan dan evaluasi terhadap pengelolaan spesimen.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pemantauan dan evaluasi terhadap pengelolaan spesimen.",
+              "Halaman instrumen: 288"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PP 3.6",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "R–Regulasi • D–Dokumen",
+            "title": "EP PP 3.6.a",
+            "text": "Rumah sakit menetapkan dan mengevaluasi rentang nilai normal untuk interpretasi, pelaporan hasil laboratorium klinis.",
+            "bullets": [
+              "Kelengkapan bukti: Regulasi tentang penetapan rentang nilai normal untuk interpretasi, pelaporan hasil laboratorium klinis. Bukti evaluasi rentang nilai normal untuk interpretasi, pelaporan hasil laboratorium klinis.",
+              "Halaman instrumen: 289"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen",
+            "title": "EP PP 3.6.b",
+            "text": "Setiap hasil pemeriksaan laboratorium dilengkapi dengan rentang nilai normal.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti hasil pemeriksaan laboratorium dilengkapi dengan rentang nilai normal.",
+              "Halaman instrumen: 289"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PP 3.9 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "R–Regulasi • D–Dokumen",
+            "title": "EP PP 3.9.a",
+            "text": "Rumah sakit menerapkan regulasi tentang penyelenggaraan pelayanan darah di rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Regulasi tentang Pedoman pelayanan darah di rumah sakit. Bukti penerapan pelayanan darah di rumah sakit.",
+              "Halaman instrumen: 291"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "R–Regulasi • D–Dokumen",
+            "title": "EP PP 3.9.b",
+            "text": "Penyelenggaraan pelayanan darah dibawah tanggung jawab seorang staf yang kompeten.",
+            "bullets": [
+              "Kelengkapan bukti: Regulasi tentang penetapan penanggung jawab pelayanan darah disertai uraian tugas dan wewenang. Bukti SPK dan RKK penanggung jawab pelayanan darah.",
+              "Halaman instrumen: 291"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen",
+            "title": "EP PP 3.9.c",
+            "text": "Rumah sakit telah melakukan pemantauan dan evaluasi mutu terhadap penyelenggaran pelayanan darah di rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pemantauan dan evaluasi mutu terhadap penyelenggaran pelayanan darah di rumah sakit.",
+              "Halaman instrumen: 291"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PP 3.9 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PP 3.9.d",
+            "text": "Rumah sakit menerapkan proses persetujuan tindakan pasien untuk pemberian darah dan produk darah.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis persetujuan informasi tindakan pasien pemberian darah dan produk darah.",
+              "Halaman instrumen: 291"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +337,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Melabel jauh dari pasien",
-            "text": "Meningkatkan risiko salah identitas dan salah hasil."
-          },
-          {
-            "title": "Menganggap hasil kritis selesai setelah diterima",
-            "text": "Hasil belum aman sampai diteruskan dan ditindaklanjuti."
-          },
-          {
-            "title": "POCT tanpa kontrol mutu",
-            "text": "Hasil dapat tampak meyakinkan tetapi tidak dapat dipercaya."
-          },
-          {
-            "title": "Mengambil darah dari jalur infus tanpa penilaian",
-            "text": "Dapat mencemari atau mengencerkan spesimen."
-          },
-          {
-            "title": "Meneruskan transfusi saat dicurigai reaksi",
-            "text": "Keselamatan pasien harus diprioritaskan dan alur reaksi diaktifkan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +366,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Melabel jauh dari pasien",
+            "text": "Meningkatkan risiko salah identitas dan salah hasil."
+          },
+          {
+            "title": "Menganggap hasil kritis selesai setelah diterima",
+            "text": "Hasil belum aman sampai diteruskan dan ditindaklanjuti."
+          },
+          {
+            "title": "POCT tanpa kontrol mutu",
+            "text": "Hasil dapat tampak meyakinkan tetapi tidak dapat dipercaya."
+          },
+          {
+            "title": "Mengambil darah dari jalur infus tanpa penilaian",
+            "text": "Dapat mencemari atau mengencerkan spesimen."
+          },
+          {
+            "title": "Meneruskan transfusi saat dicurigai reaksi",
+            "text": "Keselamatan pasien harus diprioritaskan dan alur reaksi diaktifkan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 14 elemen penilaian dari PP 3, PP 3.3, PP 3.5, PP 3.6, PP 3.9 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +455,28 @@
     "Keselamatan pasien harus diprioritaskan dan alur reaksi diaktifkan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PP 3.a adalah…",
+      "options": [
+        "R–Regulasi",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan R–Regulasi. Pokok elemennya: Rumah sakit menetapkan regulasi tentang pelayanan laboratorium di rumah sakit."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PP 3.b adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "R–Regulasi • D–Dokumen • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen • W–Wawancara. Pokok elemennya: Pelayanan laboratorium buka 24 jam, 7 (tujuh) hari seminggu, sesuai dengan kebutuhan pasien."
+    },
     {
       "q": "Dalam situasi “Praktik pengambilan spesimen”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +568,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -333,5 +590,20 @@
     "nilai kritis",
     "poct",
     "transfusi"
+  ],
+  "instrumentCodes": [
+    "PP 3",
+    "PP 3.3",
+    "PP 3.5",
+    "PP 3.6",
+    "PP 3.9"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    283,
+    286,
+    288,
+    289,
+    291
   ]
 }

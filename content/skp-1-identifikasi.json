@@ -10,52 +10,79 @@
   "icon": "shield",
   "minutes": 22,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian SKP 1 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "1",
+            "tag": "R–Regulasi • W–Wawancara",
+            "title": "EP SKP 1.1",
+            "text": "Rumah sakit telah menetapkan regulasi terkait Sasaran keselamatan pasien meliputi poin 1 – 6 pada gambaran umum.",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan sasaran keselamatan pasien meliputi poin 1 – 6 pada gambaran umum.",
+              "Halaman instrumen: 380"
+            ]
+          },
+          {
+            "level": "2",
+            "tag": "O–Observasi • W–Wawancara • S–Simulasi",
+            "title": "EP SKP 1.2",
+            "text": "Rumah sakit telah menerapkan proses identifikasi pasien menggunakan minimal 2 (dua) identitas, dapat memenuhi tujuan identifikasi pasien dan sesuai dengan ketentuan rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Penerapan proses identifikasi pasien menggunakan minimal 2 (dua) identitas. - PPA - Pasien/keluarga Proses identifikasi pasien",
+              "Halaman instrumen: 380"
+            ]
+          },
+          {
+            "level": "3",
+            "tag": "O–Observasi • S–Simulasi • W–Wawancara",
+            "title": "EP SKP 1.3",
+            "text": "Pasien telah diidentifikasi menggunakan minimal dua jenis identitas meliputi poin 1) - 4) dalam maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Identifikasi pasien menggunakan minimal dua jenis identitas meliputi poin 1) - 4) dalam maksud dan tujuan. Pelaksanaan Identifikasi pasien menggunakan minimal dua jenis identitas meliputi poin 1) - 4) dalam maksud dan tujuan - PPA - Pasien/ keluarga",
+              "Halaman instrumen: 380"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian SKP 1 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "4",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP SKP 1.4",
+            "text": "Rumah sakit memastikan pasien teridentifikasi dengan tepat pada situasi khusus, dan penggunaan label seperti tercantum dalam maksud dan tujuan",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanaan identifikasi pasien pada situasi khusus, dan penggunaan label seperti tercantum dalam maksud dan tujuan. - PPA - Staf unit terkait",
+              "Halaman instrumen: 380"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "SKP 1 — Identifikasi Pasien",
       "caption": "Identifikasi menghubungkan orang yang benar dengan obat, tindakan, spesimen, diet, darah, dan informasi yang benar.",
       "image": "assets/images/v4/skp-1-identifikasi/skp-1-identifikasi-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-1-identifikasi/skp-1-identifikasi-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Praktik: identifikasi pasien secara aktif",
-      "caption": "Urutan yang aman saat melakukan obat, spesimen, transfusi, diet, atau tindakan.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "1. Siapkan sumber pembanding",
-            "text": "Buka order, label, gelang, rekam medis, atau dokumen yang sah sebelum memulai."
-          },
-          {
-            "title": "2. Tanyakan identitas",
-            "text": "Minta pasien menyebutkan identitasnya; hindari pertanyaan yang hanya dijawab “ya/tidak”.",
-            "example": "“Mohon sebutkan nama lengkap dan tanggal lahir Bapak/Ibu.”"
-          },
-          {
-            "title": "3. Cocokkan minimal dua identitas",
-            "text": "Pastikan data yang disebut pasien sama dengan sumber pembanding. Nomor kamar atau bed bukan identitas."
-          },
-          {
-            "title": "4. Cocokkan dengan tindakan",
-            "text": "Pastikan obat, darah, spesimen, diet, atau prosedur memang ditujukan untuk pasien tersebut."
-          },
-          {
-            "title": "5. Tangani kondisi khusus",
-            "text": "Bila pasien tidak mampu menjawab, gunakan gelang/dokumen dan sumber lain yang sah sesuai kebijakan; jangan menebak."
-          },
-          {
-            "title": "6. Label di dekat pasien",
-            "text": "Label spesimen segera setelah pengambilan di hadapan/dekat pasien, lalu verifikasi kembali sebelum meninggalkan area."
-          }
-        ],
-        "columns": 2,
-        "note": "Gelang membantu, tetapi tidak menggantikan proses identifikasi aktif."
-      }
     },
     {
       "type": "html",
@@ -119,6 +146,43 @@
     },
     {
       "type": "html",
+      "title": "Praktik: identifikasi pasien secara aktif",
+      "caption": "Urutan yang aman saat melakukan obat, spesimen, transfusi, diet, atau tindakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Siapkan sumber pembanding",
+            "text": "Buka order, label, gelang, rekam medis, atau dokumen yang sah sebelum memulai."
+          },
+          {
+            "title": "2. Tanyakan identitas",
+            "text": "Minta pasien menyebutkan identitasnya; hindari pertanyaan yang hanya dijawab “ya/tidak”.",
+            "example": "“Mohon sebutkan nama lengkap dan tanggal lahir Bapak/Ibu.”"
+          },
+          {
+            "title": "3. Cocokkan minimal dua identitas",
+            "text": "Pastikan data yang disebut pasien sama dengan sumber pembanding. Nomor kamar atau bed bukan identitas."
+          },
+          {
+            "title": "4. Cocokkan dengan tindakan",
+            "text": "Pastikan obat, darah, spesimen, diet, atau prosedur memang ditujukan untuk pasien tersebut."
+          },
+          {
+            "title": "5. Tangani kondisi khusus",
+            "text": "Bila pasien tidak mampu menjawab, gunakan gelang/dokumen dan sumber lain yang sah sesuai kebijakan; jangan menebak."
+          },
+          {
+            "title": "6. Label di dekat pasien",
+            "text": "Label spesimen segera setelah pengambilan di hadapan/dekat pasien, lalu verifikasi kembali sebelum meninggalkan area."
+          }
+        ],
+        "columns": 2,
+        "note": "Gelang membantu, tetapi tidak menggantikan proses identifikasi aktif."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -143,38 +207,6 @@
           {
             "title": "Ketidaksesuaian data",
             "text": "Jangan mengoreksi sendiri tanpa proses; tahan pelayanan yang tidak emergen dan lakukan klarifikasi resmi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Mengandalkan wajah atau kamar",
-            "text": "Pasien dapat pindah tempat tidur dan petugas dapat keliru mengenali orang yang sudah sering dirawat."
-          },
-          {
-            "title": "Pertanyaan mengarahkan",
-            "text": "“Ibu Siti, ya?” dapat dijawab “ya” oleh pasien bingung atau kurang mendengar."
-          },
-          {
-            "title": "Label spesimen jauh dari pasien",
-            "text": "Meningkatkan risiko tertukar saat beberapa spesimen dikumpulkan bersamaan."
-          },
-          {
-            "title": "Gelang dianggap cukup",
-            "text": "Gelang dapat salah pasang, rusak, atau tidak terbaca; tetap perlu pencocokan aktif."
-          },
-          {
-            "title": "Melewati identifikasi saat sibuk",
-            "text": "Tekanan waktu justru meningkatkan risiko kesalahan dan membutuhkan disiplin verifikasi."
           }
         ],
         "columns": 2,
@@ -212,9 +244,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mengandalkan wajah atau kamar",
+            "text": "Pasien dapat pindah tempat tidur dan petugas dapat keliru mengenali orang yang sudah sering dirawat."
+          },
+          {
+            "title": "Pertanyaan mengarahkan",
+            "text": "“Ibu Siti, ya?” dapat dijawab “ya” oleh pasien bingung atau kurang mendengar."
+          },
+          {
+            "title": "Label spesimen jauh dari pasien",
+            "text": "Meningkatkan risiko tertukar saat beberapa spesimen dikumpulkan bersamaan."
+          },
+          {
+            "title": "Gelang dianggap cukup",
+            "text": "Gelang dapat salah pasang, rusak, atau tidak terbaca; tetap perlu pencocokan aktif."
+          },
+          {
+            "title": "Melewati identifikasi saat sibuk",
+            "text": "Tekanan waktu justru meningkatkan risiko kesalahan dan membutuhkan disiplin verifikasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 4 elemen penilaian dari SKP 1 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Dua tujuan identifikasi",
       "points": [
@@ -265,6 +335,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 1.1 adalah…",
+      "options": [
+        "R–Regulasi • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan R–Regulasi • W–Wawancara. Pokok elemennya: Rumah sakit telah menetapkan regulasi terkait Sasaran keselamatan pasien meliputi poin 1 – 6 pada gambaran umum."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 1.2 adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "O–Observasi • W–Wawancara • S–Simulasi"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara • S–Simulasi. Pokok elemennya: Rumah sakit telah menerapkan proses identifikasi pasien menggunakan minimal 2 (dua) identitas, dapat memenuhi tujuan identifikasi pasien dan sesuai dengan ketentuan rumah sakit."
+    },
     {
       "q": "Pasien sadar dan dapat berkomunikasi. Cara identifikasi paling aman sebelum pemberian obat adalah…",
       "options": [
@@ -367,16 +459,23 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "SKP 1"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    380
+  ]
 }

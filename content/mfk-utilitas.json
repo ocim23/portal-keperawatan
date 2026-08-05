@@ -12,9 +12,105 @@
   "priorityLabel": "Pengetahuan Wajib",
   "minutes": 12,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 8",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP MFK 8.a",
+            "text": "Rumah Sakit telah menerapkan proses pengelolaan sistem utilitas yang meliputi poin a)-e) dalam maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti proses pengelolaan sistem utilitas meliputi a) - e) dalam maksud dan tujuan. Pengelolaan sistem utilitas Penanggungjawab sistem utilitas",
+              "Halaman instrumen: 115"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP MFK 8.b",
+            "text": "Rumah Sakit telah melakukan pengkajian risiko sistem utilitas dan komponen kritikalnya secara proaktif setiap tahun yang didokumentasikan dalam daftar risiko/risk register.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti daftar risiko sistem utilitas dan komponen kritikalnya setiap tahun. Staf penanggung jawab Utilitas",
+              "Halaman instrumen: 115"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 8.2 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara • S–Simulasi",
+            "title": "EP MFK 8.2.a",
+            "text": "Rumah Sakit melaksanakan uji coba sumber air bersih dan listrik cadangan/ alternatif sekurangnya 6 (enam) bulan sekali atau lebih sering bila diharuskan oleh peraturan perundang-undangan yang berlaku atau oleh kondisi sumber air.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanaan uji coba sumber air bersih dan listrik cadangan sekurangnya enam bulan sekali Observasi sumber listrik cadangan dan sumber air cadangan/alternatif. Penanggung Jawab pengelola air bersih dan listrik (IPSRS). Simulasi respon time menyalanya sumber listrik cadangan (Genset) bila sumber listrik utama padam.",
+              "Halaman instrumen: 119"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen",
+            "title": "EP MFK 8.2.b",
+            "text": "Rumah sakit men- dokumentasikan hasil uji coba sumber air bersih cadangan/alternatif tersebut.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti dokumentasi hasil uji coba sumber air bersih cadangan/alternatif.",
+              "Halaman instrumen: 119"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen",
+            "title": "EP MFK 8.2.c",
+            "text": "Rumah sakit men- dokumentasikan hasil uji sumber listrik/ cadangan/alternatif tersebut.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti dokumentasi hasil uji coba sumber listrik cadangan/alternatif.",
+              "Halaman instrumen: 119"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 8.2 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "O–Observasi • W–Wawancara",
+            "title": "EP MFK 8.2.d",
+            "text": "Rumah Sakit mempunyai tempat dan jumlah bahan bakar untuk sumber listrik cadangan/ alternatif yang mencukupi.",
+            "bullets": [
+              "Kelengkapan bukti: Observasi ketersediaan bahan bakar yang memadai untuk sumber listrik cadangan dan genset. IPSRS/Penanggung Jawab listrik",
+              "Halaman instrumen: 119"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +209,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Mencolok banyak alat ke satu terminal",
-            "text": "Dapat membebani sistem."
-          },
-          {
-            "title": "Memutar katup gas tanpa kewenangan",
-            "text": "Membahayakan banyak pasien."
-          },
-          {
-            "title": "Mengabaikan alarm utilitas",
-            "text": "Gangguan dapat memburuk."
-          },
-          {
-            "title": "Tidak mengecek baterai",
-            "text": "Alat mati saat transfer/padam."
-          },
-          {
-            "title": "Menunggu teknisi tanpa melindungi pasien",
-            "text": "Alternatif klinis harus segera dilakukan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +238,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mencolok banyak alat ke satu terminal",
+            "text": "Dapat membebani sistem."
+          },
+          {
+            "title": "Memutar katup gas tanpa kewenangan",
+            "text": "Membahayakan banyak pasien."
+          },
+          {
+            "title": "Mengabaikan alarm utilitas",
+            "text": "Gangguan dapat memburuk."
+          },
+          {
+            "title": "Tidak mengecek baterai",
+            "text": "Alat mati saat transfer/padam."
+          },
+          {
+            "title": "Menunggu teknisi tanpa melindungi pasien",
+            "text": "Alternatif klinis harus segera dilakukan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 6 elemen penilaian dari MFK 8, MFK 8.2 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +327,28 @@
     "Alternatif klinis harus segera dilakukan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 8.a adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • O–Observasi • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • O–Observasi • W–Wawancara. Pokok elemennya: Rumah Sakit telah menerapkan proses pengelolaan sistem utilitas yang meliputi poin a)-e) dalam maksud dan tujuan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 8.b adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah Sakit telah melakukan pengkajian risiko sistem utilitas dan komponen kritikalnya secara proaktif setiap tahun yang didokumentasikan dalam daftar risiko/risk register."
+    },
     {
       "q": "Dalam situasi “Listrik padam”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +440,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -332,5 +461,14 @@
     "air",
     "gas medis",
     "genset"
+  ],
+  "instrumentCodes": [
+    "MFK 8",
+    "MFK 8.2"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    115,
+    119
   ]
 }

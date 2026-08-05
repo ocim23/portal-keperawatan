@@ -10,9 +10,115 @@
   "icon": "fire",
   "minutes": 17,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 6 (1/3)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen",
+            "title": "EP MFK 6.a",
+            "text": "Rumah sakit telah melakukan pengkajian risiko kebakaran secara proaktif meliputi poin",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pengkajian risiko kebakaran secara proaktif meliputi a) - i) dalam maksud dan tujuan; setiap",
+              "Halaman instrumen: 110"
+            ]
+          },
+          {
+            "level": "A",
+            "tag": "W–Wawancara",
+            "title": "EP MFK 6.a",
+            "text": "– i) dalam maksud dan tujuan setiap tahun yang didokumentasikan dalam daftar risiko/risk register.",
+            "bullets": [
+              "Kelengkapan bukti: tahun. - Penanggung Jawab MFK - Staf terkait.",
+              "Halaman instrumen: 110"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP MFK 6.b",
+            "text": "Rumah sakit telah menerapkan proses proteksi kebakaran yang meliputi poin a) – f) pada maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti penerapan proses proteksi kebakaran yang meliputi a) - f) pada maksud dan tujuan. Observasi penerapan proteksi kebakaran di rumah sakit meliputi a) - f) dalam maksud dan tujuan. - Penanggung Jawab MFK - Staf terkait.",
+              "Halaman instrumen: 110"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 6 (2/3)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "C",
+            "tag": "R–Regulasi • O–Observasi",
+            "title": "EP MFK 6.c",
+            "text": "Rumah sakit menetapkan kebijakan dan melakukan pemantauan larangan merokok di seluruh area Rumah Sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Regulasi penetapan Rumah Sakit sebagai kawasan bebas rokok. Observasi penerapan kawasan bebas rokok",
+              "Halaman instrumen: 110"
+            ]
+          },
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP MFK 6.d",
+            "text": "Rumah Sakit telah melakukan pengkajian risiko proteksi kebakaran.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti daftar risiko proteksi kebakaran Penanggung Jawab MFK",
+              "Halaman instrumen: 110"
+            ]
+          },
+          {
+            "level": "E",
+            "tag": "D–Dokumen • S–Simulasi • W–Wawancara",
+            "title": "EP MFK 6.e",
+            "text": "Rumah Sakit memastikan semua staf memahami proses proteksi kebakaran termasuk melakukan pelatihan penggunaan APAR, hidran dan simulasi kebakaran setiap tahun.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Bukti pelaksanaan pelatihan penanggulangan kebakaran. 2. Bukti Laporan simulasi kebakaran rumah sakit setiap tahun, dilengkapi debriefing Simulasi Staf tentang penggunaan APAR, Hydran, Proses evakuasi, dll. Staf terkait.",
+              "Halaman instrumen: 110, 111"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 6 (3/3)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "F",
+            "tag": "D–Dokumen • O–Observasi",
+            "title": "EP MFK 6.f",
+            "text": "Peralatan pemadaman kebakaran aktif dan sistem peringatan dini serta proteksi kebakaran secara pasif telah diinventarisasi, diperiksa, di ujicoba dan dipelihara sesuai dengan peraturan perundang-undangan dan didokumentasikan.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Bukti daftar inventaris peralatan proteksi aktif dan pasif. 2. Bukti pemeriksaan, uji coba dan pemeliharaan peralatan proteksi kebakaran. Fasilitas sistem kebakaran aktif dan pasif.",
+              "Halaman instrumen: 111"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "APAR dan Respons Awal Kebakaran",
@@ -26,6 +132,70 @@
       "caption": "Gunakan hanya bila aman, sesuai kelas, dan Anda terlatih.",
       "image": "assets/images/v4/mfk-apar/mfk-apar-02.webp",
       "thumbnail": "assets/images/thumb/v4/mfk-apar/mfk-apar-02.webp"
+    },
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "APAR untuk api tahap awal",
+            "text": "Bukan untuk kebakaran yang cepat membesar, memenuhi ruangan dengan asap, atau menghalangi jalur keluar."
+          },
+          {
+            "title": "Keselamatan lebih utama daripada memadamkan",
+            "text": "Alarm, penyelamatan orang terancam, dan evakuasi tidak boleh terlambat karena mencoba APAR."
+          },
+          {
+            "title": "Jenis media berbeda",
+            "text": "Air, foam, dry chemical, CO₂, dan media khusus memiliki kegunaan/larangan; ikuti label dan pelatihan."
+          },
+          {
+            "title": "PASS adalah inti universal",
+            "text": "Pull, Aim at base, Squeeze, Sweep; detail jarak awal mengikuti petunjuk alat dan situasi."
+          },
+          {
+            "title": "Oksigen meningkatkan bahaya",
+            "text": "Sumber oksigen dan bahan mudah terbakar memerlukan kewaspadaan khusus serta koordinasi fasilitas."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Sebelum mendekat",
+            "text": "Aktifkan alarm/bantuan, nilai ukuran api/asap, pastikan orang terancam ditolong, pilih APAR, dan lihat jalur keluar."
+          },
+          {
+            "title": "Posisi",
+            "text": "Dekati hanya bila aman dengan pintu/jalur keluar di belakang atau samping yang dapat digunakan."
+          },
+          {
+            "title": "PASS",
+            "text": "Tarik pin → arahkan nozzle ke pangkal api → tekan tuas → sapu mendatar pada pangkal."
+          },
+          {
+            "title": "Pantau",
+            "text": "Perhatikan penyalaan kembali dan jangan membelakangi area berbahaya."
+          },
+          {
+            "title": "Berhenti",
+            "text": "Jika satu APAR tidak mengendalikan api, panas/asap meningkat, atau jalur terancam: mundur, tutup area bila aman, dan evakuasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     },
     {
       "type": "html",
@@ -101,70 +271,6 @@
     },
     {
       "type": "html",
-      "title": "Pahami konsep",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "APAR untuk api tahap awal",
-            "text": "Bukan untuk kebakaran yang cepat membesar, memenuhi ruangan dengan asap, atau menghalangi jalur keluar."
-          },
-          {
-            "title": "Keselamatan lebih utama daripada memadamkan",
-            "text": "Alarm, penyelamatan orang terancam, dan evakuasi tidak boleh terlambat karena mencoba APAR."
-          },
-          {
-            "title": "Jenis media berbeda",
-            "text": "Air, foam, dry chemical, CO₂, dan media khusus memiliki kegunaan/larangan; ikuti label dan pelatihan."
-          },
-          {
-            "title": "PASS adalah inti universal",
-            "text": "Pull, Aim at base, Squeeze, Sweep; detail jarak awal mengikuti petunjuk alat dan situasi."
-          },
-          {
-            "title": "Oksigen meningkatkan bahaya",
-            "text": "Sumber oksigen dan bahan mudah terbakar memerlukan kewaspadaan khusus serta koordinasi fasilitas."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Alur penerapan",
-      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Sebelum mendekat",
-            "text": "Aktifkan alarm/bantuan, nilai ukuran api/asap, pastikan orang terancam ditolong, pilih APAR, dan lihat jalur keluar."
-          },
-          {
-            "title": "Posisi",
-            "text": "Dekati hanya bila aman dengan pintu/jalur keluar di belakang atau samping yang dapat digunakan."
-          },
-          {
-            "title": "PASS",
-            "text": "Tarik pin → arahkan nozzle ke pangkal api → tekan tuas → sapu mendatar pada pangkal."
-          },
-          {
-            "title": "Pantau",
-            "text": "Perhatikan penyalaan kembali dan jangan membelakangi area berbahaya."
-          },
-          {
-            "title": "Berhenti",
-            "text": "Jika satu APAR tidak mengendalikan api, panas/asap meningkat, atau jalur terancam: mundur, tutup area bila aman, dan evakuasi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -189,38 +295,6 @@
           {
             "title": "Petugas tidak terlatih atau ragu",
             "text": "Aktifkan sistem, tutup pintu bila aman, dan evakuasi—tidak wajib mencoba memadamkan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Mencari “test spray” sebagai langkah wajib universal",
-            "text": "Petunjuk berbeda antaralat; fokus pada inspeksi, label, pelatihan, dan PASS."
-          },
-          {
-            "title": "Berdiri tanpa jalur mundur",
-            "text": "Api dapat memotong jalan keluar."
-          },
-          {
-            "title": "Mengarah ke puncak api",
-            "text": "Media perlu diarahkan ke pangkal/sumber pembakaran."
-          },
-          {
-            "title": "Terus mencoba saat situasi memburuk",
-            "text": "Menunda evakuasi dan meningkatkan risiko terjebak."
-          },
-          {
-            "title": "Menggunakan APAR yang tidak sesuai",
-            "text": "Dapat menyebarkan bahan bakar atau menimbulkan sengatan/bahaya lain."
           }
         ],
         "columns": 2,
@@ -258,9 +332,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mencari “test spray” sebagai langkah wajib universal",
+            "text": "Petunjuk berbeda antaralat; fokus pada inspeksi, label, pelatihan, dan PASS."
+          },
+          {
+            "title": "Berdiri tanpa jalur mundur",
+            "text": "Api dapat memotong jalan keluar."
+          },
+          {
+            "title": "Mengarah ke puncak api",
+            "text": "Media perlu diarahkan ke pangkal/sumber pembakaran."
+          },
+          {
+            "title": "Terus mencoba saat situasi memburuk",
+            "text": "Menunda evakuasi dan meningkatkan risiko terjebak."
+          },
+          {
+            "title": "Menggunakan APAR yang tidak sesuai",
+            "text": "Dapat menyebarkan bahan bakar atau menimbulkan sengatan/bahaya lain."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 7 elemen penilaian dari MFK 6 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Sebelum PASS",
       "points": [
@@ -312,6 +424,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 6.a adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen. Pokok elemennya: Rumah sakit telah melakukan pengkajian risiko kebakaran secara proaktif meliputi poin"
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 6.a adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan W–Wawancara. Pokok elemennya: – i) dalam maksud dan tujuan setiap tahun yang didokumentasikan dalam daftar risiko/risk register."
+    },
     {
       "q": "Kapan petugas boleh mencoba menggunakan APAR?",
       "options": [
@@ -414,14 +548,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "Portable Fire Extinguishers — Use and Evacuation",
@@ -430,5 +564,13 @@
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "MFK 6"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    110,
+    111
+  ]
 }

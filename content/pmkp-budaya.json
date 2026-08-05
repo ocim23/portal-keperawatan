@@ -12,9 +12,41 @@
   "priorityLabel": "Pengetahuan Wajib",
   "minutes": 11,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PMKP 10",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PMKP 10.a",
+            "text": "Rumah sakit telah melaksanakan pengukuran budaya keselamatan pasien dengan survei budaya keselamatan pasien setiap tahun menggunakan metode yang telah terbukti.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pengukuran budaya keselamatan pasien berupa hasil survei budaya keselamatan pasien yang dilakukan setiap tahun dan evaluasi secara periodik. Lihat TKRS 13 Komite/Tim Mutu",
+              "Halaman instrumen: 152"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "R–Regulasi • W–Wawancara",
+            "title": "EP PMKP 10.b",
+            "text": "Hasil pengukuran budaya sebagai acuan dalam menyusun program peningkatan budaya keselamatan di rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan Program Budaya keselamatan pasien berdasar hasil survey budaya keselamatan pasien",
+              "Halaman instrumen: 152"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +145,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menanyakan “siapa salah?” sebagai respons pertama",
-            "text": "Membungkam pelaporan dan melewatkan penyebab sistem."
-          },
-          {
-            "title": "Menghukum semua kesalahan sama",
-            "text": "Tidak adil dan tidak efektif."
-          },
-          {
-            "title": "Menganggap laporan sebagai pengaduan pribadi",
-            "text": "Tujuannya pembelajaran keselamatan."
-          },
-          {
-            "title": "Menyebarkan nama pelapor",
-            "text": "Merusak kepercayaan."
-          },
-          {
-            "title": "Tidak menindaklanjuti",
-            "text": "Staf berhenti melapor."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +174,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menanyakan “siapa salah?” sebagai respons pertama",
+            "text": "Membungkam pelaporan dan melewatkan penyebab sistem."
+          },
+          {
+            "title": "Menghukum semua kesalahan sama",
+            "text": "Tidak adil dan tidak efektif."
+          },
+          {
+            "title": "Menganggap laporan sebagai pengaduan pribadi",
+            "text": "Tujuannya pembelajaran keselamatan."
+          },
+          {
+            "title": "Menyebarkan nama pelapor",
+            "text": "Merusak kepercayaan."
+          },
+          {
+            "title": "Tidak menindaklanjuti",
+            "text": "Staf berhenti melapor."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 2 elemen penilaian dari PMKP 10 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +263,28 @@
     "Staf berhenti melapor."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 10.a adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit telah melaksanakan pengukuran budaya keselamatan pasien dengan survei budaya keselamatan pasien setiap tahun menggunakan metode yang telah terbukti."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 10.b adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "R–Regulasi • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan R–Regulasi • W–Wawancara. Pokok elemennya: Hasil pengukuran budaya sebagai acuan dalam menyusun program peningkatan budaya keselamatan di rumah sakit."
+    },
     {
       "q": "Dalam situasi “Rekan hampir salah obat”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +376,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -331,5 +396,12 @@
     "just culture",
     "speak up",
     "non punitive"
+  ],
+  "instrumentCodes": [
+    "PMKP 10"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    152
   ]
 }

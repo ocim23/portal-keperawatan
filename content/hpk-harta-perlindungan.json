@@ -12,9 +12,83 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian HPK 1.4",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "R–Regulasi • W–Wawancara",
+            "title": "EP HPK 1.4.a",
+            "text": "Rumah sakit menetapkan proses untuk mencatat dan melindungi pertanggungjawaban harta benda pasien.",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan proses untuk mencatat dan melindungi pertanggungjawaban harta benda pasien",
+              "Halaman instrumen: 262"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP HPK 1.4.b",
+            "text": "Pasien mendapat informasi mengenai tanggung jawab rumah sakit untuk melindungi harta benda pribadi mereka di tempat penyimpanan barang pasien berupa nakas/lemari kecil pada masing-masing tempat tidur pasien.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pasien mendapat informasi mengenai tanggung jawab rumah sakit untuk melindungi harta benda pribadi mereka. Tempat penyimpanan harta benda pasien - PPA - Admisi - Pasien/ Keluarga",
+              "Halaman instrumen: 262"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian HPK 1.5",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "R–Regulasi • D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP HPK 1.5.a",
+            "text": "Rumah sakit mengembangkan dan menerapkan proses untuk melindungi semua pasien dari serangan fisik dan verbal.",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan proses perlindungan semua pasien dari serangan fisik dan verbal. Bukti perlaksanaan proses tersebut. Perlindungan pasien di rawat inap - Pimpinan RS - PPA, - Admisi - Pasien/ Keluarga",
+              "Halaman instrumen: 263"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "R–Regulasi • W–Wawancara",
+            "title": "EP HPK 1.5.b",
+            "text": "Rumah sakit mengidentifikasi populasi yang memiliki risiko lebih tinggi untuk mengalami serangan.",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan populasi yang memiliki risiko lebih tinggi untuk mengalami serangan, misalnya bayi, geriatri, ibu hamil, pasien koma, pasien dengan kelemahan fisik",
+              "Halaman instrumen: 263"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP HPK 1.5.c",
+            "text": "Rumah sakit memantau area fasilitas yang terisolasi dan terpencil.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti proses pemantauan area fasilitas yang terisolasi dan terpencil. - Area fasilitas yang terisolasi dan terpencil - CCTV - Pimpinan RS - PPA - Staf Keamanan - Pasien / Keluarga",
+              "Halaman instrumen: 263"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +187,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menyimpan barang di laci tanpa catatan",
-            "text": "Tidak ada akuntabilitas."
-          },
-          {
-            "title": "Menginterogasi korban",
-            "text": "Dapat menambah trauma dan mengganggu investigasi."
-          },
-          {
-            "title": "Membahas dugaan kekerasan di ruang terbuka",
-            "text": "Membahayakan privasi dan keselamatan."
-          },
-          {
-            "title": "Menganggap keluarga pasti aman",
-            "text": "Ancaman dapat berasal dari orang dekat."
-          },
-          {
-            "title": "Menghadapi pelaku sendirian",
-            "text": "Dapat membahayakan staf dan pasien."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +216,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menyimpan barang di laci tanpa catatan",
+            "text": "Tidak ada akuntabilitas."
+          },
+          {
+            "title": "Menginterogasi korban",
+            "text": "Dapat menambah trauma dan mengganggu investigasi."
+          },
+          {
+            "title": "Membahas dugaan kekerasan di ruang terbuka",
+            "text": "Membahayakan privasi dan keselamatan."
+          },
+          {
+            "title": "Menganggap keluarga pasti aman",
+            "text": "Ancaman dapat berasal dari orang dekat."
+          },
+          {
+            "title": "Menghadapi pelaku sendirian",
+            "text": "Dapat membahayakan staf dan pasien."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 5 elemen penilaian dari HPK 1.4, HPK 1.5 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +305,28 @@
     "Dapat membahayakan staf dan pasien."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.4.a adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "R–Regulasi • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan R–Regulasi • W–Wawancara. Pokok elemennya: Rumah sakit menetapkan proses untuk mencatat dan melindungi pertanggungjawaban harta benda pasien."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.4.b adalah…",
+      "options": [
+        "D–Dokumen • O–Observasi • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • O–Observasi • W–Wawancara. Pokok elemennya: Pasien mendapat informasi mengenai tanggung jawab rumah sakit untuk melindungi harta benda pribadi mereka di tempat penyimpanan barang pasien berupa nakas/lemari kecil pada masing-masing tempat tidur pasien."
+    },
     {
       "q": "Dalam situasi “Pasien tidak sadar datang dengan barang berharga”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +418,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -332,5 +439,14 @@
     "pasien rentan",
     "pelecehan",
     "penculikan"
+  ],
+  "instrumentCodes": [
+    "HPK 1.4",
+    "HPK 1.5"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    262,
+    263
   ]
 }

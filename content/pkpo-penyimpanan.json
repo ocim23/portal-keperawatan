@@ -12,9 +12,147 @@
   "priorityLabel": "Pengetahuan Wajib",
   "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PKPO 3 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "O–Observasi • W–Wawancara",
+            "title": "EP PKPO 3.a",
+            "text": "Sediaan farmasi dan BMHP disimpan dengan benar dan aman dalam kondisi yang sesuai untuk stabilitas produk, termasuk yang disimpan di luar Instalasi Farmasi.",
+            "bullets": [
+              "Kelengkapan bukti: Tempat penyimpanan sediaan farmasi dan BMHP benar dan aman. Staf Farmasi",
+              "Halaman instrumen: 352"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "O–Observasi • D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 3.b",
+            "text": "Narkotika dan psikotropika disimpan dan dilaporkan penggunaannya sesuai peraturan perundang-undangan.",
+            "bullets": [
+              "Kelengkapan bukti: Tempat penyimpanan Narkotika dan psikotropika sesuai peraturan perundang-undangan. Laporan penggunaan(mutasi) narkotika dan psikotropika sesuai peraturan perundang-undangan. - Kepala Instalasi Farmasi - Staf instalasi/depo farmasi - Staf gudang farmasi",
+              "Halaman instrumen: 352"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 3.c",
+            "text": "Rumah sakit melaksanakan supervisi secara rutin oleh apoteker untuk memastikan penyimpanan sediaan farmasi dan BMHP dilakukan dengan benar dan aman.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti supervisi penyimpanan sediaan farmasi dan BMHP oleh apoteker. - Kepala Instalasi Farmasi - Apoteker - Staf farmasi",
+              "Halaman instrumen: 352, 353"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PKPO 3 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "O–Observasi",
+            "title": "EP PKPO 3.d",
+            "text": "Obat dan zat kimia yang digunakan untuk peracikan obat diberi label secara akurat yang terdiri atas nama zat dan kadarnya, tanggal kedaluwarsa, dan peringatan khusus.",
+            "bullets": [
+              "Kelengkapan bukti: Label obat dan zat kimia yang digunakan untuk peracikan obat sesuai ketentuan.",
+              "Halaman instrumen: 353"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PKPO 3.1 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "O–Observasi",
+            "title": "EP PKPO 3.1.a",
+            "text": "Obat yang memerlukan penanganan khusus dan bahan berbahaya dikelola sesuai sifat dan risiko bahan.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Penyimpanan obat yang memerlukan penanganan khusus 2. Penyimpanan B3",
+              "Halaman instrumen: 353"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "O–Observasi",
+            "title": "EP PKPO 3.1.b",
+            "text": "Radioaktif dikelola sesuai sifat dan risiko bahan radioaktif.",
+            "bullets": [
+              "Kelengkapan bukti: Penyimpanan obat dan bahan radio aktif",
+              "Halaman instrumen: 353"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "O–Observasi",
+            "title": "EP PKPO 3.1.c",
+            "text": "Obat penelitian dikelola sesuai protokol penelitian.",
+            "bullets": [
+              "Kelengkapan bukti: Pengelolaan obat penelitian",
+              "Halaman instrumen: 353"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PKPO 3.1 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "O–Observasi",
+            "title": "EP PKPO 3.1.d",
+            "text": "Produk nutrisi parenteral dikelola sesuai stabilitas produk.",
+            "bullets": [
+              "Kelengkapan bukti: Produk nutrisi parenteral dikelola sesuai stabilitas produk.",
+              "Halaman instrumen: 353"
+            ]
+          },
+          {
+            "level": "E",
+            "tag": "O–Observasi • R–Regulasi",
+            "title": "EP PKPO 3.1.e",
+            "text": "Obat/BMHP dari program/donasi dikelola sesuai peraturan perundang-undangan dan pedoman terkait.",
+            "bullets": [
+              "Kelengkapan bukti: Obat/BMHP dari program/donasi dikelola sesuai ketentuan",
+              "Halaman instrumen: 353"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +251,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Mengandalkan warna kemasan",
-            "text": "Produsen dapat mengubah tampilan dan kemasan berbeda bisa serupa."
-          },
-          {
-            "title": "Menyimpan obat tanpa label",
-            "text": "Tidak dapat diverifikasi dan harus dianggap tidak aman."
-          },
-          {
-            "title": "Mencampur makanan dengan obat",
-            "text": "Meningkatkan kontaminasi dan gangguan suhu."
-          },
-          {
-            "title": "Membiarkan obat kedaluwarsa di stok aktif",
-            "text": "Berisiko terambil saat situasi sibuk."
-          },
-          {
-            "title": "Memindahkan elektrolit konsentrat sembarangan",
-            "text": "Menghilangkan pengaman sistem."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +280,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mengandalkan warna kemasan",
+            "text": "Produsen dapat mengubah tampilan dan kemasan berbeda bisa serupa."
+          },
+          {
+            "title": "Menyimpan obat tanpa label",
+            "text": "Tidak dapat diverifikasi dan harus dianggap tidak aman."
+          },
+          {
+            "title": "Mencampur makanan dengan obat",
+            "text": "Meningkatkan kontaminasi dan gangguan suhu."
+          },
+          {
+            "title": "Membiarkan obat kedaluwarsa di stok aktif",
+            "text": "Berisiko terambil saat situasi sibuk."
+          },
+          {
+            "title": "Memindahkan elektrolit konsentrat sembarangan",
+            "text": "Menghilangkan pengaman sistem."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 9 elemen penilaian dari PKPO 3, PKPO 3.1 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +369,28 @@
     "Menghilangkan pengaman sistem."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 3.a adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "O–Observasi • W–Wawancara",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara. Pokok elemennya: Sediaan farmasi dan BMHP disimpan dengan benar dan aman dalam kondisi yang sesuai untuk stabilitas produk, termasuk yang disimpan di luar Instalasi Farmasi."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 3.b adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "O–Observasi • D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan O–Observasi • D–Dokumen • W–Wawancara. Pokok elemennya: Narkotika dan psikotropika disimpan dan dilaporkan penggunaannya sesuai peraturan perundang-undangan."
+    },
     {
       "q": "Dalam situasi “Lemari es obat”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +482,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -334,5 +505,14 @@
     "elektrolit konsentrat",
     "kcl",
     "narkotika"
+  ],
+  "instrumentCodes": [
+    "PKPO 3",
+    "PKPO 3.1"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    352,
+    353
   ]
 }

@@ -12,9 +12,51 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 16,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PAP 2.7",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PAP 2.7.a",
+            "text": "Rumah sakit menerapkan penyelenggaraan pelayanan darah.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti Penyelenggaraan pelayanan darah dan produk darah yang meliputi a-h dalam maksud dan tujuan Penanggung jawab pelayanan darah",
+              "Halaman instrumen: 318"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "R–Regulasi",
+            "title": "EP PAP 2.7.b",
+            "text": "Panduan klinis dan prosedur disusun dan diterapkan untuk pelayanan darah serta produk darah.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Penetapan panduan klinis pelayanan darah serta produk darah 2. Prosedur terkait pelayanan darah serta produk darah 1.",
+              "Halaman instrumen: 318"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
+            "title": "EP PAP 2.7.c",
+            "text": "Staf yang kompeten bertanggungjawab terhadap pelayanan darah di rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Surat Keputusan Penunjukan Staf kompeten yang bertanggung jawab terhadap pelayanan darah sesuai dengan kualifikasi dalam pedoman pengorganisasian atau panduan pelayanan darah 2. SPK dan RKK staf yang bertanggung jawan terhadap pelayanan darah dan yang memberikan pelayanan darah/transfusi kepada pasien. Penanggung jawab pelayanan darah/PPA",
+              "Halaman instrumen: 318"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +155,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Verifikasi di nurse station",
-            "text": "Identitas aktif pasien tidak terkonfirmasi."
-          },
-          {
-            "title": "Mengandalkan warna kantong",
-            "text": "Warna bukan pengganti label dan dokumen."
-          },
-          {
-            "title": "Meninggalkan pasien segera setelah mulai",
-            "text": "Reaksi awal dapat tidak terdeteksi."
-          },
-          {
-            "title": "Memberi obat tanpa mengaktifkan alur reaksi",
-            "text": "Dapat menutupi gejala dan menunda penanganan."
-          },
-          {
-            "title": "Menggunakan jalur dengan larutan tidak kompatibel",
-            "text": "Dapat merusak produk atau menimbulkan komplikasi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +184,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Verifikasi di nurse station",
+            "text": "Identitas aktif pasien tidak terkonfirmasi."
+          },
+          {
+            "title": "Mengandalkan warna kantong",
+            "text": "Warna bukan pengganti label dan dokumen."
+          },
+          {
+            "title": "Meninggalkan pasien segera setelah mulai",
+            "text": "Reaksi awal dapat tidak terdeteksi."
+          },
+          {
+            "title": "Memberi obat tanpa mengaktifkan alur reaksi",
+            "text": "Dapat menutupi gejala dan menunda penanganan."
+          },
+          {
+            "title": "Menggunakan jalur dengan larutan tidak kompatibel",
+            "text": "Dapat merusak produk atau menimbulkan komplikasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 3 elemen penilaian dari PAP 2.7 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +273,28 @@
     "Dapat merusak produk atau menimbulkan komplikasi."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.7.a adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan penyelenggaraan pelayanan darah."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.7.b adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "R–Regulasi",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan R–Regulasi. Pokok elemennya: Panduan klinis dan prosedur disusun dan diterapkan untuk pelayanan darah serta produk darah."
+    },
     {
       "q": "Dalam situasi “Demonstrasi verifikasi”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +386,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -331,5 +406,12 @@
     "darah",
     "produk darah",
     "reaksi transfusi"
+  ],
+  "instrumentCodes": [
+    "PAP 2.7"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    318
   ]
 }

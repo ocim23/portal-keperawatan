@@ -1,8 +1,8 @@
 {
   "id": "ppi-limbah-spill",
   "group": "ppi",
-  "title": "PPI 7 — Limbah Infeksius, Benda Tajam, dan Pajanan",
-  "short": "PPI 7",
+  "title": "PPI 7 dan PPI 7.2 — Limbah Infeksius, Benda Tajam, dan Pajanan",
+  "short": "PPI 7 & 7.2",
   "desc": "Pemilahan, sharps safety, tumpahan biologis, dan respons pajanan.",
   "category": "PPI",
   "color": "#14805E",
@@ -10,15 +10,227 @@
   "icon": "hand",
   "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 7 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen",
+            "title": "EP PPI 7.a",
+            "text": "Rumah sakit telah menerapkan pengelolaan limbah rumah sakit untuk meminimalkan risiko infeksi yang meliputi a) –",
+            "bullets": [
+              "Kelengkapan bukti: Bukti penerapan pengelolaan limbah rumah sakit untuk meminimalkan risiko infeksi, meliputi a) – e) pada maksud",
+              "Halaman instrumen: 198"
+            ]
+          },
+          {
+            "level": "E",
+            "tag": "O–Observasi • W–Wawancara",
+            "title": "EP PPI 7.e",
+            "text": "pada maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: dan tujuan. Pengelolaan limbah Rumah Sakit - IPCN - PJ/Staf Kesling",
+              "Halaman instrumen: 198"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
+            "title": "EP PPI 7.b",
+            "text": "Penanganan dan pembuangan darah serta komponen darah sesuai dengan regulasi, dipantau dan dievaluasi, serta ditindaklanjuti.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Bukti penanganan dan pembuangan darah serta komponen darah sesuai dengan regulasi 2. Bukti pemantauan dan evaluasi serta tindak lanjut (hasil audit) - IPCN - Staf unit terkait",
+              "Halaman instrumen: 198"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 7 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
+            "title": "EP PPI 7.c",
+            "text": "Pelaporan pajanan limbah infeksius sesuai dengan regulasi dan dilaksanakan pemantauan, evaluasi, serta tindak lanjutnya.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Bukti pelaporan pajanan limbah infeksius sesuai regulasi 2. Bukti pemantauan, evaluasi, serta tindak lanjutnya - IPCN - PJ/Staf Kesling",
+              "Halaman instrumen: 198, 199"
+            ]
+          },
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PPI 7.d",
+            "text": "Bila pengelolaan limbah dilaksanakan oleh pihak luar rumah sakit harus berdasar atas kerjasama dengan pihak yang memiliki izin dan sertifikasi mutu sesuai dengan peraturan perundang-undangan",
+            "bullets": [
+              "Kelengkapan bukti: Dokumen bukti: a) kerjasama dengan pihak transporter dan pengolah B3 b) Izin transporter c) Izin pengolah B3 d) Sertifikat mutu - IPCN - PJ/Staf Kesling - Petugas pengelola limbah",
+              "Halaman instrumen: 199"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 7.2 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "O–Observasi • W–Wawancara",
+            "title": "EP PPI 7.2.a",
+            "text": "Benda tajam dan jarum sudah dikumpulkan, disimpan di dalam wadah yang tidak tembus, tidak bocor, berwarna kuning, diberi label infeksius, dan dipergunakan hanya sekali pakai sesuai dengan peraturan perundang-undangan.",
+            "bullets": [
+              "Kelengkapan bukti: Pengumpulan, pelabelan, penyimpanan benda tajam dan jarum dalam wadah yang sesuai - IPCLN - IPCN - Kepala/ Staf Unit Pelayanan - Petugas Cleaning Service",
+              "Halaman instrumen: 200"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PPI 7.2.b",
+            "text": "Bila pengelolaan benda tajam dan jarum dilaksanakan oleh pihak luar rumah sakit harus berdasar atas kerjasama dengan pihak yang memiliki izin dan sertifikasi mutu sesuai dengan peraturan perundang-undangan.",
+            "bullets": [
+              "Kelengkapan bukti: Dokumen bukti: 1. Kerjasama dengan pihak transporter dan pengolah B3 2. Izin transporter 3. Izin pengolah B3 4. Sertifikat mutu - IPCN - PJ/Staf Kesling",
+              "Halaman instrumen: 200, 201"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PPI 7.2.c",
+            "text": "Ada bukti data dokumen limbah benda tajam dan jarum.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti data dokumen limbah benda tajam dan jarum. - IPCN - PJ/Staf Kesling - PJ/Petugas Cleaning Service",
+              "Halaman instrumen: 201"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 7.2 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PPI 7.2.d",
+            "text": "Ada bukti pelaksanaan supervisi dan pemantauan oleh IPCN terhadap pengelolaan benda tajam dan jarum sesuai dengan prinsip PPI, termasuk bila dilaksanakan oleh pihak luar rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanaan supervisi dan pemantauan oleh IPCN berupa: 1. Form Ceklist 2. Laporan Pelaksanaan Supervisi 3. Hasil Audit - IPCN - PJ/Staf Kesling - PJ/Petugas Cleaning Service - Kepala Unit/Ruangan",
+              "Halaman instrumen: 201"
+            ]
+          },
+          {
+            "level": "E",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PPI 7.2.e",
+            "text": "Ada bukti pelaksanaan pemantauan kepatuhan prinsip-prinsip PPI sesuai regulasi.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pemantauan kepatuhan prinsip-prinsip PPI. (Hasil Audit) - Komite/Tim PPI - IPCN",
+              "Halaman instrumen: 201"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Limbah, Spill Kit, dan Pajanan",
       "caption": "Tiga situasi membutuhkan respons berbeda: limbah dipilah, tumpahan dikendalikan, pajanan pada petugas segera ditolong dan dilaporkan.",
       "image": "assets/images/v4/ppi-limbah-spill/ppi-limbah-spill-01.webp",
       "thumbnail": "assets/images/thumb/v4/ppi-limbah-spill/ppi-limbah-spill-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Pemilahan dimulai dari penghasil",
+            "text": "Orang yang menghasilkan limbah bertanggung jawab memasukkan ke wadah yang tepat saat itu juga."
+          },
+          {
+            "title": "Warna bukan satu-satunya informasi",
+            "text": "Simbol, label, jenis wadah, dan kebijakan fasilitas membantu membedakan infeksius, tajam, farmasi, sitotoksik, radioaktif, dan domestik."
+          },
+          {
+            "title": "Spill kit untuk jenis tumpahan tertentu",
+            "text": "Tumpahan darah/cairan tubuh berbeda dari bahan kimia, merkuri, atau sitotoksik; jangan memakai satu prosedur untuk semua."
+          },
+          {
+            "title": "Pajanan adalah kedaruratan kerja",
+            "text": "Respons awal sederhana tetapi harus segera, kemudian dinilai secara profesional."
+          },
+          {
+            "title": "Pelaporan bertujuan melindungi",
+            "text": "Data pajanan membantu terapi, tindak lanjut, dan perbaikan sistem—bukan menghukum petugas."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Limbah",
+            "text": "Identifikasi kategori → buang ke wadah tepat → tutup pada batas → serahkan melalui alur pengangkutan yang aman."
+          },
+          {
+            "title": "Tumpahan darah/cairan tubuh",
+            "text": "Amankan area → gunakan APD → angkat benda tajam dengan alat → serap → bersihkan → disinfeksi → buang bahan terkontaminasi → kebersihan tangan."
+          },
+          {
+            "title": "Tusukan jarum",
+            "text": "Biarkan mengalir secara alami bila ada perdarahan, cuci air dan sabun, lapor segera, dan jalani penilaian risiko."
+          },
+          {
+            "title": "Percikan mata/mulut",
+            "text": "Bilas segera dalam jumlah cukup, lepaskan lensa kontak bila relevan, lalu lapor."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Catat waktu, jenis alat/cairan, kedalaman, lokasi, APD, kondisi sumber bila diketahui, dan tindakan awal tanpa menunda pelayanan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     },
     {
       "type": "html",
@@ -102,70 +314,6 @@
     },
     {
       "type": "html",
-      "title": "Pahami konsep",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Pemilahan dimulai dari penghasil",
-            "text": "Orang yang menghasilkan limbah bertanggung jawab memasukkan ke wadah yang tepat saat itu juga."
-          },
-          {
-            "title": "Warna bukan satu-satunya informasi",
-            "text": "Simbol, label, jenis wadah, dan kebijakan fasilitas membantu membedakan infeksius, tajam, farmasi, sitotoksik, radioaktif, dan domestik."
-          },
-          {
-            "title": "Spill kit untuk jenis tumpahan tertentu",
-            "text": "Tumpahan darah/cairan tubuh berbeda dari bahan kimia, merkuri, atau sitotoksik; jangan memakai satu prosedur untuk semua."
-          },
-          {
-            "title": "Pajanan adalah kedaruratan kerja",
-            "text": "Respons awal sederhana tetapi harus segera, kemudian dinilai secara profesional."
-          },
-          {
-            "title": "Pelaporan bertujuan melindungi",
-            "text": "Data pajanan membantu terapi, tindak lanjut, dan perbaikan sistem—bukan menghukum petugas."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Alur penerapan",
-      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Limbah",
-            "text": "Identifikasi kategori → buang ke wadah tepat → tutup pada batas → serahkan melalui alur pengangkutan yang aman."
-          },
-          {
-            "title": "Tumpahan darah/cairan tubuh",
-            "text": "Amankan area → gunakan APD → angkat benda tajam dengan alat → serap → bersihkan → disinfeksi → buang bahan terkontaminasi → kebersihan tangan."
-          },
-          {
-            "title": "Tusukan jarum",
-            "text": "Biarkan mengalir secara alami bila ada perdarahan, cuci air dan sabun, lapor segera, dan jalani penilaian risiko."
-          },
-          {
-            "title": "Percikan mata/mulut",
-            "text": "Bilas segera dalam jumlah cukup, lepaskan lensa kontak bila relevan, lalu lapor."
-          },
-          {
-            "title": "Dokumentasi",
-            "text": "Catat waktu, jenis alat/cairan, kedalaman, lokasi, APD, kondisi sumber bila diketahui, dan tindakan awal tanpa menunda pelayanan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -190,38 +338,6 @@
           {
             "title": "Petugas merasa pajanan “kecil”",
             "text": "Tetap laporkan; risiko ditentukan melalui penilaian jenis cairan, rute, dan intensitas pajanan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Recapping jarum",
-            "text": "Meningkatkan tusukan; bila situasi khusus benar-benar memerlukan, gunakan teknik/perangkat yang disetujui."
-          },
-          {
-            "title": "Memencet atau menyayat luka",
-            "text": "Tidak terbukti memperbaiki hasil dan dapat merusak jaringan."
-          },
-          {
-            "title": "Menuangkan disinfektan tanpa membersihkan",
-            "text": "Bahan organik dapat mengurangi efektivitas dan percikan dapat memperluas kontaminasi."
-          },
-          {
-            "title": "Mengambil pecahan dengan tangan",
-            "text": "Gunakan alat seperti forceps/scoop sesuai kit."
-          },
-          {
-            "title": "Menunda laporan sampai akhir shift",
-            "text": "Dapat menunda profilaksis dan pemeriksaan awal."
           }
         ],
         "columns": 2,
@@ -259,9 +375,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Recapping jarum",
+            "text": "Meningkatkan tusukan; bila situasi khusus benar-benar memerlukan, gunakan teknik/perangkat yang disetujui."
+          },
+          {
+            "title": "Memencet atau menyayat luka",
+            "text": "Tidak terbukti memperbaiki hasil dan dapat merusak jaringan."
+          },
+          {
+            "title": "Menuangkan disinfektan tanpa membersihkan",
+            "text": "Bahan organik dapat mengurangi efektivitas dan percikan dapat memperluas kontaminasi."
+          },
+          {
+            "title": "Mengambil pecahan dengan tangan",
+            "text": "Gunakan alat seperti forceps/scoop sesuai kit."
+          },
+          {
+            "title": "Menunda laporan sampai akhir shift",
+            "text": "Dapat menunda profilaksis dan pemeriksaan awal."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 10 elemen penilaian dari PPI 7, PPI 7.2 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Limbah",
       "points": [
@@ -313,6 +467,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 7.a adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen. Pokok elemennya: Rumah sakit telah menerapkan pengelolaan limbah rumah sakit untuk meminimalkan risiko infeksi yang meliputi a) –"
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 7.e adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "O–Observasi • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara. Pokok elemennya: pada maksud dan tujuan."
+    },
     {
       "q": "Setelah menyuntik, safety box terletak jauh dan hampir penuh. Tindakan paling aman adalah…",
       "options": [
@@ -415,16 +591,27 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "PPI 7",
+    "PPI 7.2"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    198,
+    199,
+    200,
+    201
+  ]
 }

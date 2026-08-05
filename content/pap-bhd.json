@@ -10,9 +10,73 @@
   "icon": "heart",
   "minutes": 25,
   "updated": "2026-08-05",
-  "notice": "Materi untuk tenaga kesehatan. Aktivasi bantuan, alat, dan pembagian peran mengikuti sistem fasilitas.",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PAP 2.6 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PAP 2.6.a",
+            "text": "Pelayanan resusitasi tersedia dan diberikan selama 24 jam setiap hari di seluruh area rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: blue 24 jam setiap hari. 2. Bukti jumlah tim code blue memadai sesuai luas area rumah sakit. Tim kode biru 1. Daftar peralatan medis",
+              "Halaman instrumen: 316"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "W–Wawancara • S–Simulasi • D–Dokumen • O–Observasi",
+            "title": "EP PAP 2.6.b",
+            "text": "Peralatan medis untuk resusitasi dan obat untuk bantuan hidup dasar dan lanjut terstandar sesuai dengan kebutuhan populasi pasien.",
+            "bullets": [
+              "Kelengkapan bukti: untuk resusitasi dan obat untuk bantuan hidup dasar terstandar sesuai dengan kebutuhan populasi pasien: 2. Daftar peralatan medis untuk resusitasi dan obat untuk bantuan hidup dasar dan lanjut terstandar di tingkat unit pelayanan 3. Hasil pemantauan peralatan medis untuk resusitasi dan obat untuk bantuan hidup dasar dan lanjut Kepala Instalasi/ruangan Simulasi blue, dengan code",
+              "Halaman instrumen: 316, 317"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PAP 2.6.c",
+            "text": "Di seluruh area rumah sakit, bantuan hidup dasar diberikan segera saat dikenali henti jantung-paru dan bantuan hidup lanjut diberikan kurang dari 5 menit.",
+            "bullets": [
+              "Kelengkapan bukti: respon time kurang dari 5 menit, prosedur tepat dan akurat Tim kode biru 1.",
+              "Halaman instrumen: 317"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PAP 2.6 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PAP 2.6.d",
+            "text": "Staf diberi pelatihan pelayanan bantuan hidup dasar/lanjut sesuai dengan ketentuan rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti sertifikat pelatihan BHD untuk seluruh staf dan BHL untuk tim kode biru 2. Bukti pelatihan internal BHD dan BHL Staf RS Unit diklat",
+              "Halaman instrumen: 317"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Bantuan Hidup Dasar Dewasa — AHA 2025",
@@ -33,50 +97,6 @@
       "caption": "Berikan napas efektif tanpa menunda kompresi dan tangani sumbatan dengan urutan yang benar.",
       "image": "assets/images/v4/pap-bhd/pap-bhd-03.webp",
       "thumbnail": "assets/images/thumb/v4/pap-bhd/pap-bhd-03.webp"
-    },
-    {
-      "type": "html",
-      "title": "Checklist demonstrasi BHD dewasa",
-      "caption": "Urutan inti untuk tenaga kesehatan pada korban dewasa tidak responsif.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "1. Pastikan aman dan cek respons",
-            "text": "Nilai keselamatan, sentuh/panggil korban, dan cari respons."
-          },
-          {
-            "title": "2. Aktifkan bantuan dan minta AED",
-            "text": "Panggil sistem respons/Code Blue sesuai fasilitas dan minta AED/emergency equipment."
-          },
-          {
-            "title": "3. Nilai napas dan nadi bersamaan",
-            "text": "Maksimal 10 detik; gasping bukan napas normal. Bila nadi tidak teraba pasti, perlakukan sebagai tanpa nadi."
-          },
-          {
-            "title": "4. Mulai kompresi berkualitas",
-            "text": "Tengah dada, laju 100–120/menit, kedalaman 5–6 cm, recoil penuh, interupsi minimal."
-          },
-          {
-            "title": "5. Berikan 30:2",
-            "text": "Buka jalan napas dan berikan dua napas yang membuat dada naik; hindari ventilasi berlebihan."
-          },
-          {
-            "title": "6. Gunakan AED secepatnya",
-            "text": "Pasang pad, pastikan semua menjauh saat analisis/shock, lalu segera lanjutkan RJP sekitar 2 menit."
-          },
-          {
-            "title": "7. Ganti penolong",
-            "text": "Bila memungkinkan setiap sekitar 2 menit agar kualitas kompresi terjaga."
-          },
-          {
-            "title": "8. Lanjutkan sampai ada perubahan",
-            "text": "Hentikan/ubah tindakan bila tim lanjut mengambil alih, korban menunjukkan tanda hidup, atau kondisi tidak aman."
-          }
-        ],
-        "columns": 2,
-        "note": "Bila nadi ada tetapi napas tidak normal: berikan 1 napas tiap 6 detik dan cek nadi tiap 2 menit."
-      }
     },
     {
       "type": "html",
@@ -148,6 +168,50 @@
     },
     {
       "type": "html",
+      "title": "Checklist demonstrasi BHD dewasa",
+      "caption": "Urutan inti untuk tenaga kesehatan pada korban dewasa tidak responsif.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Pastikan aman dan cek respons",
+            "text": "Nilai keselamatan, sentuh/panggil korban, dan cari respons."
+          },
+          {
+            "title": "2. Aktifkan bantuan dan minta AED",
+            "text": "Panggil sistem respons/Code Blue sesuai fasilitas dan minta AED/emergency equipment."
+          },
+          {
+            "title": "3. Nilai napas dan nadi bersamaan",
+            "text": "Maksimal 10 detik; gasping bukan napas normal. Bila nadi tidak teraba pasti, perlakukan sebagai tanpa nadi."
+          },
+          {
+            "title": "4. Mulai kompresi berkualitas",
+            "text": "Tengah dada, laju 100–120/menit, kedalaman 5–6 cm, recoil penuh, interupsi minimal."
+          },
+          {
+            "title": "5. Berikan 30:2",
+            "text": "Buka jalan napas dan berikan dua napas yang membuat dada naik; hindari ventilasi berlebihan."
+          },
+          {
+            "title": "6. Gunakan AED secepatnya",
+            "text": "Pasang pad, pastikan semua menjauh saat analisis/shock, lalu segera lanjutkan RJP sekitar 2 menit."
+          },
+          {
+            "title": "7. Ganti penolong",
+            "text": "Bila memungkinkan setiap sekitar 2 menit agar kualitas kompresi terjaga."
+          },
+          {
+            "title": "8. Lanjutkan sampai ada perubahan",
+            "text": "Hentikan/ubah tindakan bila tim lanjut mengambil alih, korban menunjukkan tanda hidup, atau kondisi tidak aman."
+          }
+        ],
+        "columns": 2,
+        "note": "Bila nadi ada tetapi napas tidak normal: berikan 1 napas tiap 6 detik dan cek nadi tiap 2 menit."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -172,38 +236,6 @@
           {
             "title": "Trauma atau kecurigaan cedera servikal",
             "text": "Prioritaskan jalan napas dan resusitasi sambil menggunakan teknik yang sesuai kemampuan serta bantuan tim."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Memeriksa nadi terlalu lama",
-            "text": "Menunda kompresi menurunkan peluang keberhasilan."
-          },
-          {
-            "title": "Kompresi dangkal atau terlalu cepat",
-            "text": "Mengurangi perfusi dan recoil."
-          },
-          {
-            "title": "Berhenti lama untuk ventilasi/AED",
-            "text": "Interupsi harus sesingkat mungkin."
-          },
-          {
-            "title": "Ventilasi berlebihan",
-            "text": "Dapat meningkatkan tekanan intratoraks dan mengurangi aliran balik vena."
-          },
-          {
-            "title": "Blind finger sweep",
-            "text": "Dapat mendorong benda lebih dalam dan mencederai jalan napas."
           }
         ],
         "columns": 2,
@@ -241,9 +273,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Memeriksa nadi terlalu lama",
+            "text": "Menunda kompresi menurunkan peluang keberhasilan."
+          },
+          {
+            "title": "Kompresi dangkal atau terlalu cepat",
+            "text": "Mengurangi perfusi dan recoil."
+          },
+          {
+            "title": "Berhenti lama untuk ventilasi/AED",
+            "text": "Interupsi harus sesingkat mungkin."
+          },
+          {
+            "title": "Ventilasi berlebihan",
+            "text": "Dapat meningkatkan tekanan intratoraks dan mengurangi aliran balik vena."
+          },
+          {
+            "title": "Blind finger sweep",
+            "text": "Dapat mendorong benda lebih dalam dan mencederai jalan napas."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 4 elemen penilaian dari PAP 2.6 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Kenali cepat",
       "points": [
@@ -293,6 +363,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.6.a adalah…",
+      "options": [
+        "W–Wawancara • D–Dokumen",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan W–Wawancara • D–Dokumen. Pokok elemennya: Pelayanan resusitasi tersedia dan diberikan selama 24 jam setiap hari di seluruh area rumah sakit."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.6.b adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "W–Wawancara • S–Simulasi • D–Dokumen • O–Observasi"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan W–Wawancara • S–Simulasi • D–Dokumen • O–Observasi. Pokok elemennya: Peralatan medis untuk resusitasi dan obat untuk bantuan hidup dasar dan lanjut terstandar sesuai dengan kebutuhan populasi pasien."
+    },
     {
       "q": "Tenaga kesehatan menilai napas dan nadi pada pasien tidak responsif selama…",
       "options": [
@@ -395,14 +487,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "2025 AHA Guidelines — Adult Basic Life Support",
@@ -416,5 +508,13 @@
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "PAP 2.6"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    316,
+    317
+  ]
 }

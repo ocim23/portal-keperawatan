@@ -10,51 +10,79 @@
   "icon": "rights",
   "minutes": 19,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian HPK 1.3 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "O–Observasi • W–Wawancara",
+            "title": "EP HPK 1.3.a",
+            "text": "Rumah sakit menjamin kebutuhan privasi pasien selama perawatan dan pengobatan di rumah sakit, dengan memperhatikan jenis kelamin dan usia.",
+            "bullets": [
+              "Kelengkapan bukti: sakit menjamin kebutuhan privasi pasien Rumah sakit menjamin kebutuhan privasi pasien selama perawatan dan pengobatan di rumah sakit, dengan memperhatikan jenis kelamin dan usia. - PPA - Admisi - Pasien/ Keluarga",
+              "Halaman instrumen: 260, 261"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 1.3.b",
+            "text": "Kerahasiaan informasi pasien dijaga sesuai dengan peraturan perundangan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rumah sakit telah menjaga kerahasiaan informasi pasien sesuai dengan peraturan perundangan (Lihat MRMIK 2.1). - PPA - Kepala/Staf Rekam Medis - Pasien/ Keluarga",
+              "Halaman instrumen: 261"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 1.3.c",
+            "text": "Rumah sakit memiliki proses untuk meminta persetujuan pasien terkait pemberian informasi.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanaan proses untuk meminta persetujuan pasien terkait pemberian informasi. - PPA - Admisi - Pasien/ Keluarga",
+              "Halaman instrumen: 261"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian HPK 1.3 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 1.3.d",
+            "text": "Rumah sakit memiliki proses untuk memberikan pasien akses terhadap informasi kesehatan mereka.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rumah sakit telah memiliki proses untuk memberikan pasien akses terhadap informasi kesehatan mereka. (Lihat MRMIK 10, KE 4) - PPA - Admisi - Pasien/ Keluarga",
+              "Halaman instrumen: 261"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Privasi, Kerahasiaan, Persetujuan, dan Penolakan",
       "caption": "Privasi melindungi ruang dan tubuh; kerahasiaan melindungi informasi; persetujuan/penolakan adalah proses keputusan setelah informasi memadai.",
       "image": "assets/images/v4/hpk-privasi-persetujuan/hpk-privasi-persetujuan-01.webp",
       "thumbnail": "assets/images/thumb/v4/hpk-privasi-persetujuan/hpk-privasi-persetujuan-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Simulasi: privasi, kerahasiaan, persetujuan, dan penolakan",
-      "caption": "Empat konsep ini saling terkait tetapi tidak sama.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Privasi fisik",
-            "text": "Tutup tirai/pintu, tutupi tubuh, batasi orang yang hadir, dan minta izin sebelum pemeriksaan atau foto."
-          },
-          {
-            "title": "Kerahasiaan informasi",
-            "text": "Bicarakan data hanya dengan pihak berwenang; amankan layar, dokumen, pesan, dan hasil pemeriksaan."
-          },
-          {
-            "title": "Pastikan kapasitas dan pihak yang tepat",
-            "text": "Nilai kemampuan memahami/menentukan pilihan; gunakan wakil sesuai ketentuan bila diperlukan."
-          },
-          {
-            "title": "Informasi sebelum persetujuan",
-            "text": "Tujuan, prosedur, manfaat, risiko, alternatif, konsekuensi penolakan, dan kesempatan bertanya."
-          },
-          {
-            "title": "Keputusan sukarela",
-            "text": "Hindari tekanan; pastikan pasien memahami dan memiliki waktu yang layak kecuali keadaan darurat."
-          },
-          {
-            "title": "Dokumentasi dan eskalasi",
-            "text": "Catat proses, keputusan, saksi bila perlu, serta eskalasi bila ada konflik atau keadaan tidak jelas."
-          }
-        ],
-        "columns": 2,
-        "note": "Formulir bukan pengganti proses komunikasi dan pemahaman."
-      }
     },
     {
       "type": "html",
@@ -122,6 +150,42 @@
     },
     {
       "type": "html",
+      "title": "Simulasi: privasi, kerahasiaan, persetujuan, dan penolakan",
+      "caption": "Empat konsep ini saling terkait tetapi tidak sama.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Privasi fisik",
+            "text": "Tutup tirai/pintu, tutupi tubuh, batasi orang yang hadir, dan minta izin sebelum pemeriksaan atau foto."
+          },
+          {
+            "title": "Kerahasiaan informasi",
+            "text": "Bicarakan data hanya dengan pihak berwenang; amankan layar, dokumen, pesan, dan hasil pemeriksaan."
+          },
+          {
+            "title": "Pastikan kapasitas dan pihak yang tepat",
+            "text": "Nilai kemampuan memahami/menentukan pilihan; gunakan wakil sesuai ketentuan bila diperlukan."
+          },
+          {
+            "title": "Informasi sebelum persetujuan",
+            "text": "Tujuan, prosedur, manfaat, risiko, alternatif, konsekuensi penolakan, dan kesempatan bertanya."
+          },
+          {
+            "title": "Keputusan sukarela",
+            "text": "Hindari tekanan; pastikan pasien memahami dan memiliki waktu yang layak kecuali keadaan darurat."
+          },
+          {
+            "title": "Dokumentasi dan eskalasi",
+            "text": "Catat proses, keputusan, saksi bila perlu, serta eskalasi bila ada konflik atau keadaan tidak jelas."
+          }
+        ],
+        "columns": 2,
+        "note": "Formulir bukan pengganti proses komunikasi dan pemahaman."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -146,38 +210,6 @@
           {
             "title": "Pasien tidak memahami bahasa",
             "text": "Gunakan penerjemah yang sesuai; jangan mengandalkan anak kecil atau pihak yang memiliki konflik kepentingan bila alternatif tersedia."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menarik tirai tetapi berbicara keras",
-            "text": "Privasi visual tidak cukup bila informasi terdengar orang lain."
-          },
-          {
-            "title": "Tanda tangan tanpa pemahaman",
-            "text": "Dokumen tampak lengkap tetapi keputusan tidak benar-benar informed."
-          },
-          {
-            "title": "Menggunakan grup pesan pribadi",
-            "text": "Risiko salah penerima, salinan tidak terkendali, dan keamanan data."
-          },
-          {
-            "title": "Menganggap keluarga boleh memaksa",
-            "text": "Keputusan pasien yang berkapasitas tetap utama."
-          },
-          {
-            "title": "Tidak mendokumentasikan penolakan",
-            "text": "Membuat alasan, informasi, risiko, dan tindak lanjut tidak dapat ditelusuri."
           }
         ],
         "columns": 2,
@@ -215,9 +247,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menarik tirai tetapi berbicara keras",
+            "text": "Privasi visual tidak cukup bila informasi terdengar orang lain."
+          },
+          {
+            "title": "Tanda tangan tanpa pemahaman",
+            "text": "Dokumen tampak lengkap tetapi keputusan tidak benar-benar informed."
+          },
+          {
+            "title": "Menggunakan grup pesan pribadi",
+            "text": "Risiko salah penerima, salinan tidak terkendali, dan keamanan data."
+          },
+          {
+            "title": "Menganggap keluarga boleh memaksa",
+            "text": "Keputusan pasien yang berkapasitas tetap utama."
+          },
+          {
+            "title": "Tidak mendokumentasikan penolakan",
+            "text": "Membuat alasan, informasi, risiko, dan tindak lanjut tidak dapat ditelusuri."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 4 elemen penilaian dari HPK 1.3 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Privasi",
       "points": [
@@ -267,6 +337,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.3.a adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "O–Observasi • W–Wawancara",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara. Pokok elemennya: Rumah sakit menjamin kebutuhan privasi pasien selama perawatan dan pengobatan di rumah sakit, dengan memperhatikan jenis kelamin dan usia."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.3.b adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Kerahasiaan informasi pasien dijaga sesuai dengan peraturan perundangan."
+    },
     {
       "q": "Perawat menutup tirai tetapi menjelaskan diagnosis dengan suara keras di ruang bersama. Masalah utama adalah…",
       "options": [
@@ -369,14 +461,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "Permenkes Nomor 24 Tahun 2022 — Rekam Medis",
@@ -385,5 +477,13 @@
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "HPK 1.3"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    260,
+    261
+  ]
 }

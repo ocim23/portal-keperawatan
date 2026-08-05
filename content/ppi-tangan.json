@@ -10,15 +10,122 @@
   "icon": "hand",
   "minutes": 16,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 11",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "W–Wawancara • S–Simulasi • O–Observasi",
+            "title": "EP PPI 11.a",
+            "text": "Rumah sakit telah menerapkan hand hygiene yang mencakup kapan, di mana, dan bagaimana melakukan cuci tangan mempergunakan sabun (hand wash) dan atau dengan disinfektan (hand rubs) serta ketersediaan fasilitas hand hygiene.",
+            "bullets": [
+              "Kelengkapan bukti: hygiene - Komite/Tim PPI - IPCN - Kepala Unit/Ruangan Hand hygiene Lihat SKP 5 Ketersediaan sabun,",
+              "Halaman instrumen: 208"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PPI 11.b",
+            "text": "Sabun, disinfektan, serta tissu/handuk sekali pakai tersedia di tempat cuci tangan dan tempat melakukan disinfeksi tangan.",
+            "bullets": [
+              "Kelengkapan bukti: disinfektan, serta tissu/handuk sekali pakai tersedia di tempat cuci tangan dan tempat melakukan disinfeksi tangan. - Komite/Tim PPI - IPCN - Kepala Unit/ Ruangan Bukti pelaksanaan pelatihan",
+              "Halaman instrumen: 208, 209"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "W–Wawancara",
+            "title": "EP PPI 11.c",
+            "text": "Ada bukti pelaksanaan pelatihan hand hygiene kepada semua pegawai termasuk tenaga kontrak.",
+            "bullets": [
+              "Kelengkapan bukti: kepada semua hand hygiene pegawai termasuk tenaga kontrak - PPA - Staf Non Klinis",
+              "Halaman instrumen: 209"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Kebersihan Tangan",
       "caption": "Kebersihan tangan efektif bila dilakukan pada momen yang tepat, dengan metode yang sesuai, dan seluruh permukaan tangan terjangkau.",
       "image": "assets/images/v4/ppi-tangan/ppi-tangan-01.webp",
       "thumbnail": "assets/images/thumb/v4/ppi-tangan/ppi-tangan-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Tujuan utama",
+            "text": "Mengurangi mikroorganisme pada tangan agar tidak berpindah antara pasien, petugas, alat, dan lingkungan.",
+            "tag": "Mengapa"
+          },
+          {
+            "title": "Momen berbeda dari langkah",
+            "text": "Momen menjawab kapan harus melakukan kebersihan tangan; langkah menjawab bagaimana seluruh permukaan tangan dibersihkan."
+          },
+          {
+            "title": "Zona pasien",
+            "text": "Lingkungan dekat pasien seperti bed rail, meja pasien, monitor, dan alat yang sering disentuh dapat menjadi bagian dari rantai transmisi."
+          },
+          {
+            "title": "Metode dipilih sesuai kondisi",
+            "text": "Handrub efektif dan cepat pada banyak situasi; air dan sabun diperlukan bila tangan tampak kotor atau indikasi lain menuntut pencucian."
+          },
+          {
+            "title": "Kepatuhan bukan sekadar angka",
+            "text": "Tujuannya adalah keselamatan pasien dan petugas, bukan hanya memenuhi observasi audit."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Sebelum kontak pasien",
+            "text": "Lakukan sebelum pemeriksaan fisik, membantu mobilisasi, atau kontak langsung lain agar pasien terlindungi dari mikroorganisme petugas."
+          },
+          {
+            "title": "Sebelum tindakan aseptik",
+            "text": "Lakukan tepat sebelum memegang perangkat invasif, menyiapkan akses, merawat luka, atau tindakan lain yang membutuhkan teknik aseptik."
+          },
+          {
+            "title": "Setelah risiko cairan tubuh",
+            "text": "Lakukan segera setelah kontak atau potensi kontak, termasuk setelah melepas sarung tangan."
+          },
+          {
+            "title": "Setelah kontak pasien",
+            "text": "Lakukan setelah selesai menyentuh pasien, sebelum beralih ke aktivitas berikutnya."
+          },
+          {
+            "title": "Setelah lingkungan pasien",
+            "text": "Lakukan walau pasien tidak disentuh bila petugas menyentuh benda di sekitar pasien."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     },
     {
       "type": "html",
@@ -93,71 +200,6 @@
     },
     {
       "type": "html",
-      "title": "Pahami konsep",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Tujuan utama",
-            "text": "Mengurangi mikroorganisme pada tangan agar tidak berpindah antara pasien, petugas, alat, dan lingkungan.",
-            "tag": "Mengapa"
-          },
-          {
-            "title": "Momen berbeda dari langkah",
-            "text": "Momen menjawab kapan harus melakukan kebersihan tangan; langkah menjawab bagaimana seluruh permukaan tangan dibersihkan."
-          },
-          {
-            "title": "Zona pasien",
-            "text": "Lingkungan dekat pasien seperti bed rail, meja pasien, monitor, dan alat yang sering disentuh dapat menjadi bagian dari rantai transmisi."
-          },
-          {
-            "title": "Metode dipilih sesuai kondisi",
-            "text": "Handrub efektif dan cepat pada banyak situasi; air dan sabun diperlukan bila tangan tampak kotor atau indikasi lain menuntut pencucian."
-          },
-          {
-            "title": "Kepatuhan bukan sekadar angka",
-            "text": "Tujuannya adalah keselamatan pasien dan petugas, bukan hanya memenuhi observasi audit."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Alur penerapan",
-      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Sebelum kontak pasien",
-            "text": "Lakukan sebelum pemeriksaan fisik, membantu mobilisasi, atau kontak langsung lain agar pasien terlindungi dari mikroorganisme petugas."
-          },
-          {
-            "title": "Sebelum tindakan aseptik",
-            "text": "Lakukan tepat sebelum memegang perangkat invasif, menyiapkan akses, merawat luka, atau tindakan lain yang membutuhkan teknik aseptik."
-          },
-          {
-            "title": "Setelah risiko cairan tubuh",
-            "text": "Lakukan segera setelah kontak atau potensi kontak, termasuk setelah melepas sarung tangan."
-          },
-          {
-            "title": "Setelah kontak pasien",
-            "text": "Lakukan setelah selesai menyentuh pasien, sebelum beralih ke aktivitas berikutnya."
-          },
-          {
-            "title": "Setelah lingkungan pasien",
-            "text": "Lakukan walau pasien tidak disentuh bila petugas menyentuh benda di sekitar pasien."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -182,38 +224,6 @@
           {
             "title": "Akses wastafel terbatas",
             "text": "Gunakan handrub bila indikasinya sesuai dan lakukan eskalasi bila sarana kebersihan tangan tidak memadai."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Terlalu cepat",
-            "text": "Durasi pendek membuat permukaan tangan tidak terjangkau dan produk belum bekerja optimal."
-          },
-          {
-            "title": "Hanya membersihkan telapak",
-            "text": "Ibu jari, ujung jari, punggung tangan, dan sela jari sering terlewat."
-          },
-          {
-            "title": "Sarung tangan dipakai terlalu lama",
-            "text": "Sarung tangan dapat memindahkan mikroorganisme dari satu area atau pasien ke area lain."
-          },
-          {
-            "title": "Menyentuh benda setelah kebersihan tangan",
-            "text": "Telepon, pena, gagang pintu, atau pakaian dapat mengontaminasi kembali tangan sebelum tindakan aseptik."
-          },
-          {
-            "title": "Menganggap lingkungan pasien “bersih”",
-            "text": "Permukaan sekitar pasien dapat terkontaminasi walau tidak terlihat kotor."
           }
         ],
         "columns": 2,
@@ -251,9 +261,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Terlalu cepat",
+            "text": "Durasi pendek membuat permukaan tangan tidak terjangkau dan produk belum bekerja optimal."
+          },
+          {
+            "title": "Hanya membersihkan telapak",
+            "text": "Ibu jari, ujung jari, punggung tangan, dan sela jari sering terlewat."
+          },
+          {
+            "title": "Sarung tangan dipakai terlalu lama",
+            "text": "Sarung tangan dapat memindahkan mikroorganisme dari satu area atau pasien ke area lain."
+          },
+          {
+            "title": "Menyentuh benda setelah kebersihan tangan",
+            "text": "Telepon, pena, gagang pintu, atau pakaian dapat mengontaminasi kembali tangan sebelum tindakan aseptik."
+          },
+          {
+            "title": "Menganggap lingkungan pasien “bersih”",
+            "text": "Permukaan sekitar pasien dapat terkontaminasi walau tidak terlihat kotor."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 3 elemen penilaian dari PPI 11 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Kapan",
       "points": [
@@ -305,6 +353,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 11.a adalah…",
+      "options": [
+        "W–Wawancara • S–Simulasi • O–Observasi",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan W–Wawancara • S–Simulasi • O–Observasi. Pokok elemennya: Rumah sakit telah menerapkan hand hygiene yang mencakup kapan, di mana, dan bagaimana melakukan cuci tangan mempergunakan sabun (hand wash) dan atau dengan disinfektan (hand rubs) serta ketersediaan fasilitas hand hygiene."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 11.b adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "W–Wawancara • D–Dokumen"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan W–Wawancara • D–Dokumen. Pokok elemennya: Sabun, disinfektan, serta tissu/handuk sekali pakai tersedia di tempat cuci tangan dan tempat melakukan disinfeksi tangan."
+    },
     {
       "q": "Perawat merapikan bed rail tanpa menyentuh pasien, lalu akan meninggalkan ruang. Momen yang relevan adalah…",
       "options": [
@@ -407,14 +477,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "WHO — Five Moments for Hand Hygiene",
@@ -428,5 +498,13 @@
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "PPI 11"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    208,
+    209
+  ]
 }

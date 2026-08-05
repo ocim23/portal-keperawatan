@@ -10,51 +10,121 @@
   "icon": "rights",
   "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian HPK 1 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "R–Regulasi • D–Dokumen • W–Wawancara",
+            "title": "EP HPK 1.a",
+            "text": "Rumah sakit menerapkan regulasi hak pasien dan keluarga sebagaimana tercantum dalam poin a) – e) pada gambaran umum dan peraturan perundang-undangan.",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan Hak Pasien dan Keluarga meliputi poin a)-e) pada gambaran umum. Bukti penerapan Hak Pasien dan Keluarga meliputi poin a)- e)",
+              "Halaman instrumen: 256"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 1.b",
+            "text": "Rumah sakit memiliki proses untuk mengidentifikasi siapa yang diinginkan pasien untuk berpartisipasi dalam pengambilan keputusan terkait perawatannya",
+            "bullets": [
+              "Kelengkapan bukti: Bukti proses identifikasi siapa yang diinginkan pasien untuk berpartisipasi dalam pengambilan keputusan terkait perawatannya. - Petugas Admisi - PPA - Pasien/ keluarga",
+              "Halaman instrumen: 256"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 1.c",
+            "text": "Rumah sakit memiliki proses untuk menentukan preferensi pasien, dan pada beberapa keadaan preferensi keluarga pasien, dalam menentukan informasi apa mengenai perawatan pasien yang dapat diberikan kepada keluarga/pihak lain, dan dalam situasi apa.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti proses persetujuan dalam menentukan informasi apa mengenai perawatan pasien yang dapat diberikan kepada keluarga/pihak lain, dan dalam situasi apa. - Petugas Admisi - PPA - Pasien/keluarga",
+              "Halaman instrumen: 256, 257"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian HPK 1 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 1.d",
+            "text": "Semua staf dilatih tentang proses dan peran mereka dalam mendukung hak-hak serta partisipasi pasien dan keluarga dalam perawatan",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelatihan hak pasien dan keluarga dalam perawatan kepada semua staf Staf yang dilatih",
+              "Halaman instrumen: 257"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian HPK 1.2",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "O–Observasi • W–Wawancara",
+            "title": "EP HPK 1.2.a",
+            "text": "Staf memberikan perawatan yang penuh penghargaan dengan memerhatikan harkat dan martabat pasien.",
+            "bullets": [
+              "Kelengkapan bukti: Pelaksanaan pemberian perawatan yang penuh penghargaan dengan memperhatikan harkat dan martabat pasien. - PPA - Pasien/ Keluarga",
+              "Halaman instrumen: 259"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 1.2.b",
+            "text": "Rumah sakit menghormati keyakinan spiritual dan budaya pasien serta nilai- nilai yang dianut pasien.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti identifikasi dan menghormati keyakinan spiritual dan budaya pasien serta nilai-nilai yang dianut pasien. - PPA - Pasien/ Keluarga",
+              "Halaman instrumen: 259"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 1.2.c",
+            "text": "Rumah sakit memenuhi kebutuhan pasien terhadap bimbingan rohani.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Bukti perjanjian kerjasama dengan rohaniwan terkait 2. Bukti permintaan pelayanan rohani. 3. Bukti pelaksanaan pelayanan rohani. - PPA - Pasien/ Keluarga",
+              "Halaman instrumen: 259"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Hak dan Kewajiban Pasien",
       "caption": "Hak pasien bukan daftar hafalan. Setiap hak harus tampak dalam komunikasi, privasi, keputusan, keselamatan, akses informasi, dan penanganan keluhan.",
       "image": "assets/images/v4/hpk-hak-kewajiban/hpk-hak-kewajiban-01.webp",
       "thumbnail": "assets/images/thumb/v4/hpk-hak-kewajiban/hpk-hak-kewajiban-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Simulasi: menjelaskan hak dan kewajiban pasien",
-      "caption": "Gunakan bahasa sederhana dan arahkan ke petugas yang tepat bila pertanyaan membutuhkan keputusan lebih lanjut.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Hak atas informasi",
-            "text": "Jelaskan pelayanan, petugas, rencana, risiko/manfaat, alternatif, biaya sesuai kewenangan, dan cara bertanya."
-          },
-          {
-            "title": "Hak privasi dan kerahasiaan",
-            "text": "Jaga tubuh, percakapan, dokumen, layar, foto, dan akses informasi."
-          },
-          {
-            "title": "Hak memilih dan berpartisipasi",
-            "text": "Dukung pertanyaan, persetujuan/penolakan, second opinion sesuai ketentuan, dan keterlibatan keluarga sesuai pilihan."
-          },
-          {
-            "title": "Hak aman dan bermartabat",
-            "text": "Layani tanpa diskriminasi, hormati nilai/budaya, tangani nyeri, dan sediakan jalur keluhan."
-          },
-          {
-            "title": "Kewajiban memberi informasi benar",
-            "text": "Pasien/keluarga perlu memberi data kesehatan, obat, alergi, dan perubahan kondisi secara jujur."
-          },
-          {
-            "title": "Kewajiban mengikuti aturan dan kesepakatan",
-            "text": "Menghormati petugas/pasien lain, mengikuti aturan fasilitas, dan memenuhi kewajiban administratif sesuai ketentuan."
-          }
-        ],
-        "columns": 2,
-        "note": "Daftar lengkap dan mekanisme resmi mengikuti regulasi serta informasi rumah sakit masing-masing."
-      }
     },
     {
       "type": "html",
@@ -122,6 +192,42 @@
     },
     {
       "type": "html",
+      "title": "Simulasi: menjelaskan hak dan kewajiban pasien",
+      "caption": "Gunakan bahasa sederhana dan arahkan ke petugas yang tepat bila pertanyaan membutuhkan keputusan lebih lanjut.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Hak atas informasi",
+            "text": "Jelaskan pelayanan, petugas, rencana, risiko/manfaat, alternatif, biaya sesuai kewenangan, dan cara bertanya."
+          },
+          {
+            "title": "Hak privasi dan kerahasiaan",
+            "text": "Jaga tubuh, percakapan, dokumen, layar, foto, dan akses informasi."
+          },
+          {
+            "title": "Hak memilih dan berpartisipasi",
+            "text": "Dukung pertanyaan, persetujuan/penolakan, second opinion sesuai ketentuan, dan keterlibatan keluarga sesuai pilihan."
+          },
+          {
+            "title": "Hak aman dan bermartabat",
+            "text": "Layani tanpa diskriminasi, hormati nilai/budaya, tangani nyeri, dan sediakan jalur keluhan."
+          },
+          {
+            "title": "Kewajiban memberi informasi benar",
+            "text": "Pasien/keluarga perlu memberi data kesehatan, obat, alergi, dan perubahan kondisi secara jujur."
+          },
+          {
+            "title": "Kewajiban mengikuti aturan dan kesepakatan",
+            "text": "Menghormati petugas/pasien lain, mengikuti aturan fasilitas, dan memenuhi kewajiban administratif sesuai ketentuan."
+          }
+        ],
+        "columns": 2,
+        "note": "Daftar lengkap dan mekanisme resmi mengikuti regulasi serta informasi rumah sakit masing-masing."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -146,38 +252,6 @@
           {
             "title": "Keluhan disampaikan dengan emosi tinggi",
             "text": "Jaga keselamatan, dengarkan tanpa defensif, validasi, dan gunakan jalur resolusi yang jelas."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menghafal “lima hak” sebagai daftar lengkap",
-            "text": "Dapat menghilangkan hak penting lain dan memberi kesan keliru."
-          },
-          {
-            "title": "Membicarakan pasien di tempat umum",
-            "text": "Kerahasiaan dapat bocor walau nama tidak disebut lengkap."
-          },
-          {
-            "title": "Menganggap diam berarti setuju",
-            "text": "Pasien mungkin tidak memahami, takut, atau tidak mampu berkomunikasi."
-          },
-          {
-            "title": "Mengancam pelayanan karena keluhan",
-            "text": "Merusak kepercayaan dan hak pasien."
-          },
-          {
-            "title": "Memberi informasi penuh kepada semua keluarga",
-            "text": "Keluarga tidak otomatis berhak atas seluruh informasi."
           }
         ],
         "columns": 2,
@@ -215,9 +289,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menghafal “lima hak” sebagai daftar lengkap",
+            "text": "Dapat menghilangkan hak penting lain dan memberi kesan keliru."
+          },
+          {
+            "title": "Membicarakan pasien di tempat umum",
+            "text": "Kerahasiaan dapat bocor walau nama tidak disebut lengkap."
+          },
+          {
+            "title": "Menganggap diam berarti setuju",
+            "text": "Pasien mungkin tidak memahami, takut, atau tidak mampu berkomunikasi."
+          },
+          {
+            "title": "Mengancam pelayanan karena keluhan",
+            "text": "Merusak kepercayaan dan hak pasien."
+          },
+          {
+            "title": "Memberi informasi penuh kepada semua keluarga",
+            "text": "Keluarga tidak otomatis berhak atas seluruh informasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 7 elemen penilaian dari HPK 1, HPK 1.2 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Hak bukan hafalan",
       "points": [
@@ -267,6 +379,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.a adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "R–Regulasi • D–Dokumen • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan regulasi hak pasien dan keluarga sebagaimana tercantum dalam poin a) – e) pada gambaran umum dan peraturan perundang-undangan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.b adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit memiliki proses untuk mengidentifikasi siapa yang diinginkan pasien untuk berpartisipasi dalam pengambilan keputusan terkait perawatannya"
+    },
     {
       "q": "Pasien sadar dan kompeten meminta diagnosisnya tidak disampaikan kepada saudara. Tindakan adalah…",
       "options": [
@@ -369,14 +503,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "Permenkes Nomor 6 Tahun 2026 — Rumah Sakit",
@@ -385,5 +519,15 @@
     }
   ],
   "priority": "knowledge",
-  "priorityLabel": "Pengetahuan Wajib"
+  "priorityLabel": "Pengetahuan Wajib",
+  "instrumentCodes": [
+    "HPK 1",
+    "HPK 1.2"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    256,
+    257,
+    259
+  ]
 }

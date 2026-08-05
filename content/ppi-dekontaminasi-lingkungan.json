@@ -1,7 +1,7 @@
 {
   "id": "ppi-dekontaminasi-lingkungan",
   "group": "ppi",
-  "title": "PPI 4, PPI 5, dan PPI 6 — Peralatan, Lingkungan, dan Linen",
+  "title": "PPI 4, PPI 4.1, PPI 5, dan PPI 6 — Peralatan, Lingkungan, dan Linen",
   "short": "PPI 4–6",
   "desc": "Pengelolaan alat, kebersihan lingkungan, serta linen untuk memutus rantai infeksi.",
   "category": "PPI",
@@ -12,9 +12,209 @@
   "priorityLabel": "Pengetahuan Wajib",
   "minutes": 12,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 4 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "O–Observasi • W–Wawancara • D–Dokumen",
+            "title": "EP PPI 4.a",
+            "text": "Rumah sakit telah menerapkan pengolahan sterilisasi mengikuti peraturan perundang-undangan.",
+            "bullets": [
+              "Kelengkapan bukti: sterilisasi sesuai dengan peraturan perundang-undangan. Pengelolaan sterilisasi sesuai peraturan perundang-undangan. - IPCN - Kepala/Staf CSSD 1. Bukti pelatihan staf tentang",
+              "Halaman instrumen: 191"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PPI 4.b",
+            "text": "Staf yang memroses peralatan medis dan/atau BMHP telah diberikan pelatihan dalam pembersihan, desinfeksi, dan sterilisasi serta mendapat pengawasan.",
+            "bullets": [
+              "Kelengkapan bukti: pembersihan, desinfeksi, dan sterilisasi. 2. Bukti monitoring staf memproses peralatan medis dan/atau BMHP - IPCN - Kepala/Staf CSSD Bukti penerapan metode",
+              "Halaman instrumen: 191"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "O–Observasi • W–Wawancara • D–Dokumen",
+            "title": "EP PPI 4.c",
+            "text": "Metode pembersihan, desinfeksi, dan sterilisasi dilakukan secara seragam di semua area di rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: pembersihan, desinfeksi, dan sterilisasi yang seragam. Proses pembersihan desinfeksi dan sterilisasi yang seragam di semua area rumah sakit. - IPCN - Kepala/Staf CSSD - Kepala/Staf Unit Pelayanan Bukti pemantauan suhu dan",
+              "Halaman instrumen: 191, 192"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 4 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "O–Observasi • W–Wawancara • D–Dokumen",
+            "title": "EP PPI 4.d",
+            "text": "Penyimpanan peralatan medis dan/atau BMHP bersih dan steril disimpan dengan baik di area penyimpanan yang ditetapkan, bersih dan kering dan terlindungi dari debu, kelembaban, serta perubahan suhu yang ekstrem.",
+            "bullets": [
+              "Kelengkapan bukti: kelembaban pada area penyimpan peralatan medis dan/atau BMHP bersih dan steril. Observasi penyimpanan peralatan medis dan/atau BMHP bersih dan steril - IPCN - Kepala/Staf CSSD - Kepala/Staf Unit Pelayanan 1. Bukti perjanjian kerjasama",
+              "Halaman instrumen: 192"
+            ]
+          },
+          {
+            "level": "E",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PPI 4.e",
+            "text": "Bila sterilisasi dilaksanakan di luar rumah sakit harus dilakukan oleh lembaga yang memiliki sertifikasi mutu dan ada kerjasama yang menjamin kepatuhan proses sterilisasi sesuai dengan peraturan perundang-undangan.",
+            "bullets": [
+              "Kelengkapan bukti: dengan pihak ketiga 2. Bukti sertifikat mutu pihak ketiga - Komite/Tim PPI - IPCN",
+              "Halaman instrumen: 192"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 4.1",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "R–Regulasi",
+            "title": "EP PPI 4.1.a",
+            "text": "Rumah sakit menetapkan peralatan medis dan/atau BMHP yang dapat digunakan ulang meliputi a) – g) dalam maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: dan/ atau BMHP yang dapat digunakan ulang meliputi a) – g) dalam maksud dan tujuan. Regulasi untuk menentukan",
+              "Halaman instrumen: 193"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen",
+            "title": "EP PPI 4.1.b",
+            "text": "Rumah sakit menggunakan proses terstandarisasi untuk menentukan kapan peralatan medis dan/atau BMHP yang digunakan ulang sudah tidak aman atau tidak layak digunakan ulang.",
+            "bullets": [
+              "Kelengkapan bukti: kapan peralatan medis dan/atau BMHP yang digunakan ulang sudah tidak aman atau tidak layak digunakan ulang Bukti rumah sakit telah",
+              "Halaman instrumen: 193, 194"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "W–Wawancara",
+            "title": "EP PPI 4.1.c",
+            "text": "Ada bukti pemantauan, evaluasi, dan tindak lanjut pelaksanaan penggunaan kembali (reuse) peralatan medis dan/atau BMHP meliputi a) – g) dalam maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: melakukan pemantauan, evaluasi, dan tindak lanjut pelaksanaan penggunaan kembali (reuse) peralatan medis dan/atau BMHP meliputi a) – g) dalam maksud dan tujuan - Komite/Tim PPI - IPCN",
+              "Halaman instrumen: 194"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 5",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP PPI 5.a",
+            "text": "Rumah sakit menerapkan prosedur pembersihan dan disinfeksi permukaan dan lingkungan sesuai standar PPI",
+            "bullets": [
+              "Kelengkapan bukti: permukaan dan lingkungan sesuai standar (hasil audit) Proses/hasil pembersihan dan disinfeksi permukaan dan lingkungan - Komite/Tim PPI - IPCN - Staf unit terkait Bukti pengkajian risiko (risk",
+              "Halaman instrumen: 195"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "O–Observasi • W–Wawancara • D–Dokumen",
+            "title": "EP PPI 5.b",
+            "text": "Rumah sakit melaksanakan pembersihan dan desinfeksi tambahan di area berisiko tinggi berdasarkan hasil pengkajian risiko",
+            "bullets": [
+              "Kelengkapan bukti: register) sebagai dasar melaksanakan pembersihan dan desinfeksi tambahan di area berisiko tinggi Proses/ hasil pembersihan dan disinfeksi tambahan di area berisiko tinggi. - Komite/Tim PPI - IPCN - Staf unit terkait Bukti pemantauan proses",
+              "Halaman instrumen: 195"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "O–Observasi • D–Dokumen",
+            "title": "EP PPI 5.c",
+            "text": "Rumah sakit telah melakukan pemantauan proses pembersihan dan disinfeksi lingkungan.",
+            "bullets": [
+              "Kelengkapan bukti: pembersihan dan disinfeksi lingkungan (hasil audit). Unit pelayanan",
+              "Halaman instrumen: 195"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 6",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen",
+            "title": "EP PPI 6.a",
+            "text": "Ada unit kerja pengelola linen/ laundry yang menyelenggarakan penatalaksanaan sesuai dengan peraturan perundang-undangan.",
+            "bullets": [
+              "Kelengkapan bukti: linen/laundry atau dokumen Perjanjian Kerjasama (jika menggunakan pihak luar rumah sakit). Bukti penerapan pengelolaan",
+              "Halaman instrumen: 196"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "O–Observasi • W–Wawancara • D–Dokumen",
+            "title": "EP PPI 6.b",
+            "text": "Prinsip-prinsip PPI diterapkan pada pengelolaan linen/ laundry, termasuk pemilahan, transportasi, pencucian, pengeringan, penyimpanan, dan distribusi",
+            "bullets": [
+              "Kelengkapan bukti: linen/ laundry, termasuk pemilahan, transportasi, pencucian, pengeringan, penyimpanan, dan distribusi. Unit linen/Laundry atau Pihak luar rumah sakit - Komite/Tim PPI - IPCN Kepala/Staf Linen/ Laundry atau Pihak luar rumah sakit Bukti supervisi oleh IPCN",
+              "Halaman instrumen: 196"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PPI 6.c",
+            "text": "Ada bukti supervisi oleh IPCN terhadap pengelolaan linen/ laundry sesuai dengan prinsip PPI termasuk bila dilaksanakan oleh pihak luar rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: terhadap pengelolaan linen/ laundry sesuai dengan prinsip PPI beserta tindak lanjutnya (hasil audit). IPCN atau pihak luar rumah sakit",
+              "Halaman instrumen: 196"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +313,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menyemprot disinfektan tanpa pembersihan",
-            "text": "Bahan organik dapat tetap melindungi mikroorganisme."
-          },
-          {
-            "title": "Mengibaskan linen",
-            "text": "Menyebarkan partikel dan kontaminasi."
-          },
-          {
-            "title": "Mencampur alat bersih dan kotor",
-            "text": "Menghilangkan hasil dekontaminasi."
-          },
-          {
-            "title": "Menggunakan bahan tidak sesuai produsen",
-            "text": "Dapat merusak alat dan tidak efektif."
-          },
-          {
-            "title": "Menyimpan alat lembap",
-            "text": "Mendukung pertumbuhan mikroorganisme."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +342,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menyemprot disinfektan tanpa pembersihan",
+            "text": "Bahan organik dapat tetap melindungi mikroorganisme."
+          },
+          {
+            "title": "Mengibaskan linen",
+            "text": "Menyebarkan partikel dan kontaminasi."
+          },
+          {
+            "title": "Mencampur alat bersih dan kotor",
+            "text": "Menghilangkan hasil dekontaminasi."
+          },
+          {
+            "title": "Menggunakan bahan tidak sesuai produsen",
+            "text": "Dapat merusak alat dan tidak efektif."
+          },
+          {
+            "title": "Menyimpan alat lembap",
+            "text": "Mendukung pertumbuhan mikroorganisme."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 14 elemen penilaian dari PPI 4, PPI 4.1, PPI 5, PPI 6 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +431,28 @@
     "Mendukung pertumbuhan mikroorganisme."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 4.a adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "O–Observasi • W–Wawancara • D–Dokumen",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara • D–Dokumen. Pokok elemennya: Rumah sakit telah menerapkan pengolahan sterilisasi mengikuti peraturan perundang-undangan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 4.b adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "W–Wawancara • D–Dokumen",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan W–Wawancara • D–Dokumen. Pokok elemennya: Staf yang memroses peralatan medis dan/atau BMHP telah diberikan pelatihan dalam pembersihan, desinfeksi, dan sterilisasi serta mendapat pengawasan."
+    },
     {
       "q": "Dalam situasi “Alat reusable”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +544,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -333,5 +566,20 @@
     "linen",
     "lingkungan",
     "cssd"
+  ],
+  "instrumentCodes": [
+    "PPI 4",
+    "PPI 4.1",
+    "PPI 5",
+    "PPI 6"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    191,
+    192,
+    193,
+    194,
+    195,
+    196
   ]
 }

@@ -10,93 +10,99 @@
   "icon": "shield",
   "minutes": 20,
   "updated": "2026-08-05",
-  "notice": "Nama enam sasaran ditampilkan dengan redaksi baku. Gunakan urutan ini saat belajar dan menjawab surveior.",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Peta elemen penilaian 6 SKP",
+      "caption": "Ringkasan ini menunjukkan struktur penilaian. Buka setiap SKP untuk membaca bunyi elemen dan kelengkapan buktinya.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "1",
+            "tag": "Peta elemen",
+            "title": "SKP 1",
+            "text": "4 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • R–Regulasi • S–Simulasi • W–Wawancara.",
+            "bullets": [
+              "Halaman instrumen: 380"
+            ]
+          },
+          {
+            "level": "2",
+            "tag": "Peta elemen",
+            "title": "SKP 2",
+            "text": "3 elemen penilaian; bukti dinilai melalui D–Dokumen • R–Regulasi • S–Simulasi • W–Wawancara.",
+            "bullets": [
+              "Halaman instrumen: 383"
+            ]
+          },
+          {
+            "level": "3",
+            "tag": "Peta elemen",
+            "title": "SKP 3",
+            "text": "3 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • R–Regulasi • W–Wawancara.",
+            "bullets": [
+              "Halaman instrumen: 385, 386"
+            ]
+          },
+          {
+            "level": "3.1",
+            "tag": "Peta elemen",
+            "title": "SKP 3.1",
+            "text": "3 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • R–Regulasi • W–Wawancara.",
+            "bullets": [
+              "Halaman instrumen: 386"
+            ]
+          },
+          {
+            "level": "4",
+            "tag": "Peta elemen",
+            "title": "SKP 4",
+            "text": "4 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • R–Regulasi • W–Wawancara.",
+            "bullets": [
+              "Halaman instrumen: 390, 391"
+            ]
+          },
+          {
+            "level": "5",
+            "tag": "Peta elemen",
+            "title": "SKP 5",
+            "text": "2 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • R–Regulasi • S–Simulasi • W–Wawancara.",
+            "bullets": [
+              "Halaman instrumen: 391, 392"
+            ]
+          },
+          {
+            "level": "6",
+            "tag": "Peta elemen",
+            "title": "SKP 6",
+            "text": "2 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • W–Wawancara.",
+            "bullets": [
+              "Halaman instrumen: 394"
+            ]
+          },
+          {
+            "level": "6.1",
+            "tag": "Peta elemen",
+            "title": "SKP 6.1",
+            "text": "3 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • W–Wawancara.",
+            "bullets": [
+              "Halaman instrumen: 394, 395"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "Elemen penilaian adalah dasar materi; alur, praktik, dan kuis pada bagian berikutnya menjelaskan cara menerapkannya."
+      }
+    },
     {
       "type": "image",
       "title": "Ringkasan 6 SKP",
       "caption": "Enam sasaran, satu tujuan: mencegah pasien menerima pelayanan yang salah atau tidak aman.",
       "image": "assets/images/v4/skp-ringkasan/skp-ringkasan-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-ringkasan/skp-ringkasan-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Enam Sasaran Keselamatan Pasien",
-      "caption": "Nama baku dan inti penerapan yang perlu diingat secara berurutan.",
-      "template": {
-        "style": "bands",
-        "columns": 2,
-        "note": "Nomor dan redaksi sasaran dipertahankan agar selaras dengan referensi akreditasi.",
-        "items": [
-          {
-            "title": "Sasaran 1 — Mengidentifikasi pasien dengan benar",
-            "text": "Gunakan minimal dua identitas. Contoh identitas: nama lengkap, tanggal lahir, NIK, atau nomor rekam medis sesuai regulasi; bukan nomor kamar atau lokasi."
-          },
-          {
-            "title": "Sasaran 2 — Meningkatkan komunikasi yang efektif",
-            "text": "Gunakan TBaK/read-back, SBAR, serah terima terstruktur, hasil kritis, dan closed-loop communication."
-          },
-          {
-            "title": "Sasaran 3 — Meningkatkan keamanan obat-obatan yang harus diwaspadai",
-            "text": "Kenali high-alert, LASA/NORUM, elektrolit konsentrat, serta pengaman penyimpanan, penyiapan, pemberian, dan pemantauan."
-          },
-          {
-            "title": "Sasaran 4 — Memastikan sisi yang benar, prosedur yang benar, pasien yang benar pada pembedahan/tindakan invasif",
-            "text": "Lakukan verifikasi praoperasi, penandaan lokasi, Surgical Safety Checklist, dan time-out sebelum tindakan."
-          },
-          {
-            "title": "Sasaran 5 — Mengurangi risiko infeksi akibat perawatan kesehatan",
-            "text": "Terapkan kebersihan tangan, teknik aseptik, APD, pengelolaan alat, dan kewaspadaan sesuai risiko."
-          },
-          {
-            "title": "Sasaran 6 — Mengurangi risiko cedera pasien akibat jatuh",
-            "text": "Lakukan skrining/pengkajian, intervensi individual, edukasi, pemantauan, dan asesmen ulang."
-          }
-        ]
-      }
-    },
-    {
-      "type": "html",
-      "title": "Simulasi: hubungkan 6 SKP dengan praktik",
-      "caption": "Jangan hanya menghafal urutan; jelaskan risiko yang dicegah dan contoh penerapannya.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "SKP 1 — Identifikasi",
-            "text": "Sebutkan dua identitas, cocokkan secara aktif, dan ulangi sebelum obat, spesimen, transfusi, atau tindakan.",
-            "tag": "Pasien benar"
-          },
-          {
-            "title": "SKP 2 — Komunikasi",
-            "text": "Gunakan struktur, tulis instruksi, baca kembali, dan pastikan pemberi mengonfirmasi.",
-            "tag": "Pesan benar"
-          },
-          {
-            "title": "SKP 3 — Obat berisiko",
-            "text": "Kenali LASA/high-alert, ikuti pengamanan, dan lakukan verifikasi independen bila dipersyaratkan.",
-            "tag": "Obat aman"
-          },
-          {
-            "title": "SKP 4 — Tindakan benar",
-            "text": "Verifikasi pasien, prosedur, sisi/lokasi, dokumen, alat, dan lakukan time-out sebelum mulai.",
-            "tag": "Tindakan benar"
-          },
-          {
-            "title": "SKP 5 — Infeksi",
-            "text": "Terapkan kebersihan tangan, teknik aseptik, APD, dan pengelolaan alat/lingkungan sesuai risiko.",
-            "tag": "Putus transmisi"
-          },
-          {
-            "title": "SKP 6 — Jatuh",
-            "text": "Nilai risiko, lakukan intervensi individual, asesmen ulang, edukasi, dan evaluasi setelah perubahan kondisi.",
-            "tag": "Cegah cedera"
-          }
-        ],
-        "columns": 2,
-        "note": "Saat ditanya surveior, berikan contoh nyata dari unit tanpa menyebut data pasien."
-      }
     },
     {
       "type": "html",
@@ -160,6 +166,84 @@
     },
     {
       "type": "html",
+      "title": "Simulasi: hubungkan 6 SKP dengan praktik",
+      "caption": "Jangan hanya menghafal urutan; jelaskan risiko yang dicegah dan contoh penerapannya.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "SKP 1 — Identifikasi",
+            "text": "Sebutkan dua identitas, cocokkan secara aktif, dan ulangi sebelum obat, spesimen, transfusi, atau tindakan.",
+            "tag": "Pasien benar"
+          },
+          {
+            "title": "SKP 2 — Komunikasi",
+            "text": "Gunakan struktur, tulis instruksi, baca kembali, dan pastikan pemberi mengonfirmasi.",
+            "tag": "Pesan benar"
+          },
+          {
+            "title": "SKP 3 — Obat berisiko",
+            "text": "Kenali LASA/high-alert, ikuti pengamanan, dan lakukan verifikasi independen bila dipersyaratkan.",
+            "tag": "Obat aman"
+          },
+          {
+            "title": "SKP 4 — Tindakan benar",
+            "text": "Verifikasi pasien, prosedur, sisi/lokasi, dokumen, alat, dan lakukan time-out sebelum mulai.",
+            "tag": "Tindakan benar"
+          },
+          {
+            "title": "SKP 5 — Infeksi",
+            "text": "Terapkan kebersihan tangan, teknik aseptik, APD, dan pengelolaan alat/lingkungan sesuai risiko.",
+            "tag": "Putus transmisi"
+          },
+          {
+            "title": "SKP 6 — Jatuh",
+            "text": "Nilai risiko, lakukan intervensi individual, asesmen ulang, edukasi, dan evaluasi setelah perubahan kondisi.",
+            "tag": "Cegah cedera"
+          }
+        ],
+        "columns": 2,
+        "note": "Saat ditanya surveior, berikan contoh nyata dari unit tanpa menyebut data pasien."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Enam Sasaran Keselamatan Pasien",
+      "caption": "Nama baku dan inti penerapan yang perlu diingat secara berurutan.",
+      "template": {
+        "style": "bands",
+        "columns": 2,
+        "note": "Nomor dan redaksi sasaran dipertahankan agar selaras dengan referensi akreditasi.",
+        "items": [
+          {
+            "title": "Sasaran 1 — Mengidentifikasi pasien dengan benar",
+            "text": "Gunakan minimal dua identitas. Contoh identitas: nama lengkap, tanggal lahir, NIK, atau nomor rekam medis sesuai regulasi; bukan nomor kamar atau lokasi."
+          },
+          {
+            "title": "Sasaran 2 — Meningkatkan komunikasi yang efektif",
+            "text": "Gunakan TBaK/read-back, SBAR, serah terima terstruktur, hasil kritis, dan closed-loop communication."
+          },
+          {
+            "title": "Sasaran 3 — Meningkatkan keamanan obat-obatan yang harus diwaspadai",
+            "text": "Kenali high-alert, LASA/NORUM, elektrolit konsentrat, serta pengaman penyimpanan, penyiapan, pemberian, dan pemantauan."
+          },
+          {
+            "title": "Sasaran 4 — Memastikan sisi yang benar, prosedur yang benar, pasien yang benar pada pembedahan/tindakan invasif",
+            "text": "Lakukan verifikasi praoperasi, penandaan lokasi, Surgical Safety Checklist, dan time-out sebelum tindakan."
+          },
+          {
+            "title": "Sasaran 5 — Mengurangi risiko infeksi akibat perawatan kesehatan",
+            "text": "Terapkan kebersihan tangan, teknik aseptik, APD, pengelolaan alat, dan kewaspadaan sesuai risiko."
+          },
+          {
+            "title": "Sasaran 6 — Mengurangi risiko cedera pasien akibat jatuh",
+            "text": "Lakukan skrining/pengkajian, intervensi individual, edukasi, pemantauan, dan asesmen ulang."
+          }
+        ]
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -180,34 +264,6 @@
           {
             "title": "Transisi pelayanan",
             "text": "Saat pindah ruang atau pergantian shift, pastikan risiko aktif dan rencana tindak lanjut ikut diserahterimakan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menghafal tanpa menghubungkan",
-            "text": "Staf dapat menyebut enam SKP tetapi tidak mengenali penerapannya saat bekerja."
-          },
-          {
-            "title": "Menganggap tugas komite",
-            "text": "SKP terjadi di titik pelayanan, bukan hanya pada rapat mutu atau saat survei."
-          },
-          {
-            "title": "Mengandalkan kebiasaan",
-            "text": "Pasien yang sudah dikenal tetap harus diverifikasi sesuai proses yang aman."
-          },
-          {
-            "title": "Membiarkan ketidaksesuaian kecil",
-            "text": "Kesalahan besar sering berawal dari data, label, atau komunikasi yang dianggap sepele."
           }
         ],
         "columns": 2,
@@ -241,9 +297,43 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menghafal tanpa menghubungkan",
+            "text": "Staf dapat menyebut enam SKP tetapi tidak mengenali penerapannya saat bekerja."
+          },
+          {
+            "title": "Menganggap tugas komite",
+            "text": "SKP terjadi di titik pelayanan, bukan hanya pada rapat mutu atau saat survei."
+          },
+          {
+            "title": "Mengandalkan kebiasaan",
+            "text": "Pasien yang sudah dikenal tetap harus diverifikasi sesuai proses yang aman."
+          },
+          {
+            "title": "Membiarkan ketidaksesuaian kecil",
+            "text": "Kesalahan besar sering berawal dari data, label, atau komunikasi yang dianggap sepele."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 24 elemen penilaian dari SKP 1, SKP 2, SKP 3, SKP 3.1, SKP 4, SKP 5, SKP 6, SKP 6.1 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Peta enam sasaran",
       "points": [
@@ -293,6 +383,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 1.1 adalah…",
+      "options": [
+        "R–Regulasi • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan R–Regulasi • W–Wawancara. Pokok elemennya: Rumah sakit telah menetapkan regulasi terkait Sasaran keselamatan pasien meliputi poin 1 – 6 pada gambaran umum."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 1.2 adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "O–Observasi • W–Wawancara • S–Simulasi"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara • S–Simulasi. Pokok elemennya: Rumah sakit telah menerapkan proses identifikasi pasien menggunakan minimal 2 (dua) identitas, dapat memenuhi tujuan identifikasi pasien dan sesuai dengan ketentuan rumah sakit."
+    },
     {
       "q": "Perawat menemukan nama pada gelang berbeda dengan nama di lembar obat. Tindakan paling aman adalah…",
       "options": [
@@ -395,16 +507,38 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     }
   ],
   "priority": "knowledge",
-  "priorityLabel": "Pengetahuan Wajib"
+  "priorityLabel": "Pengetahuan Wajib",
+  "instrumentCodes": [
+    "SKP 1",
+    "SKP 2",
+    "SKP 3",
+    "SKP 3.1",
+    "SKP 4",
+    "SKP 5",
+    "SKP 6",
+    "SKP 6.1"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    380,
+    383,
+    385,
+    386,
+    390,
+    391,
+    392,
+    394,
+    395
+  ]
 }

@@ -10,51 +10,47 @@
   "icon": "heart",
   "minutes": 25,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PAP 5",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PAP 5.a",
+            "text": "Rumah sakit menerapkan pengkajian pasien menjelang akhir kehidupan dan dapat dilakukan pengkajian ulang sampai pasien yang memasuki fase akhir kehidupannya, dengan memperhatikan poin 1)-9) pada maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis pengkajian pasien menjelang akhir kehidupan dan pengkajian ulang sampai pasien yang memasuki fase akhir kehidupannya, meliputi poin 1)-9) pada maksud dan tujuan. - PPA - Keluarga pasien",
+              "Halaman instrumen: 322, 323"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PAP 5.b",
+            "text": "Asuhan menjelang akhir kehidupan ditujukan terhadap kebutuhan psikososial, emosional, kultural dan spiritual pasien dan keluarganya.",
+            "bullets": [
+              "Kelengkapan bukti: 1. Bukti rekam medis: Pemberian asuhan menjelang akhir kehidupan ditujukan terhadap kebutuhan psikososial, emosional, kultural dan spiritual pasien dan keluarganya 2. Dokumen kerjasama dengan Rohaniawan",
+              "Halaman instrumen: 323"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Pelayanan Menjelang Akhir Hayat dan DNR",
       "caption": "DNR hanya berkaitan dengan CPR saat henti jantung/napas; pasien tetap berhak menerima perawatan, kenyamanan, dan dukungan yang sesuai.",
       "image": "assets/images/v4/pap-akhir-hayat/pap-akhir-hayat-01.webp",
       "thumbnail": "assets/images/thumb/v4/pap-akhir-hayat/pap-akhir-hayat-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Simulasi: merawat pasien akhir hayat dan memahami DNR",
-      "caption": "Fokus pada tujuan perawatan, kenyamanan, komunikasi, dan kejelasan dokumentasi.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Konfirmasi tujuan dan status",
-            "text": "Pastikan keputusan dan dokumentasi yang sah dapat dikenali tim; bila tidak jelas, segera eskalasi."
-          },
-          {
-            "title": "Nilai gejala",
-            "text": "Nyeri, sesak, delirium, sekresi, mual, kecemasan, kebutuhan mulut/kulit, dan kenyamanan posisi."
-          },
-          {
-            "title": "Berikan asuhan bermartabat",
-            "text": "Jaga privasi, kebersihan, komunikasi, kebutuhan spiritual/budaya, dan kehadiran keluarga sesuai keinginan."
-          },
-          {
-            "title": "Jelaskan DNR dengan tepat",
-            "text": "DNR berkaitan dengan resusitasi saat henti jantung/napas; bukan otomatis menghentikan seluruh perawatan."
-          },
-          {
-            "title": "Komunikasikan perubahan",
-            "text": "Sampaikan perubahan kondisi, respons, tujuan, dan kebutuhan keluarga kepada tim secara konsisten."
-          },
-          {
-            "title": "Dokumentasikan",
-            "text": "Catat penilaian, intervensi, respons, komunikasi, dan keputusan yang relevan."
-          }
-        ],
-        "columns": 2,
-        "note": "Perawat tidak menetapkan DNR sendiri; peran utamanya memastikan asuhan, komunikasi, dan dokumentasi berjalan aman."
-      }
     },
     {
       "type": "html",
@@ -126,6 +122,42 @@
     },
     {
       "type": "html",
+      "title": "Simulasi: merawat pasien akhir hayat dan memahami DNR",
+      "caption": "Fokus pada tujuan perawatan, kenyamanan, komunikasi, dan kejelasan dokumentasi.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Konfirmasi tujuan dan status",
+            "text": "Pastikan keputusan dan dokumentasi yang sah dapat dikenali tim; bila tidak jelas, segera eskalasi."
+          },
+          {
+            "title": "Nilai gejala",
+            "text": "Nyeri, sesak, delirium, sekresi, mual, kecemasan, kebutuhan mulut/kulit, dan kenyamanan posisi."
+          },
+          {
+            "title": "Berikan asuhan bermartabat",
+            "text": "Jaga privasi, kebersihan, komunikasi, kebutuhan spiritual/budaya, dan kehadiran keluarga sesuai keinginan."
+          },
+          {
+            "title": "Jelaskan DNR dengan tepat",
+            "text": "DNR berkaitan dengan resusitasi saat henti jantung/napas; bukan otomatis menghentikan seluruh perawatan."
+          },
+          {
+            "title": "Komunikasikan perubahan",
+            "text": "Sampaikan perubahan kondisi, respons, tujuan, dan kebutuhan keluarga kepada tim secara konsisten."
+          },
+          {
+            "title": "Dokumentasikan",
+            "text": "Catat penilaian, intervensi, respons, komunikasi, dan keputusan yang relevan."
+          }
+        ],
+        "columns": 2,
+        "note": "Perawat tidak menetapkan DNR sendiri; peran utamanya memastikan asuhan, komunikasi, dan dokumentasi berjalan aman."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -150,38 +182,6 @@
           {
             "title": "Gejala sulit terkontrol",
             "text": "Lakukan eskalasi ke tim yang kompeten dan jangan menerima penderitaan sebagai sesuatu yang tidak dapat ditolong."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menganggap DNR = tidak dirawat",
-            "text": "Menyebabkan kebutuhan dasar dan kenyamanan terabaikan."
-          },
-          {
-            "title": "Menghindari pembicaraan",
-            "text": "Ketidakjelasan membuat keluarga dan tim tidak siap saat kondisi memburuk."
-          },
-          {
-            "title": "Membahas di tempat tanpa privasi",
-            "text": "Mengurangi martabat dan kepercayaan."
-          },
-          {
-            "title": "Tidak menilai gejala berulang",
-            "text": "Kebutuhan dapat berubah cepat."
-          },
-          {
-            "title": "Status tidak diserahterimakan",
-            "text": "Tim dapat melakukan tindakan yang tidak sesuai rencana atau menunda respons yang diperlukan."
           }
         ],
         "columns": 2,
@@ -219,9 +219,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menganggap DNR = tidak dirawat",
+            "text": "Menyebabkan kebutuhan dasar dan kenyamanan terabaikan."
+          },
+          {
+            "title": "Menghindari pembicaraan",
+            "text": "Ketidakjelasan membuat keluarga dan tim tidak siap saat kondisi memburuk."
+          },
+          {
+            "title": "Membahas di tempat tanpa privasi",
+            "text": "Mengurangi martabat dan kepercayaan."
+          },
+          {
+            "title": "Tidak menilai gejala berulang",
+            "text": "Kebutuhan dapat berubah cepat."
+          },
+          {
+            "title": "Status tidak diserahterimakan",
+            "text": "Tim dapat melakukan tindakan yang tidak sesuai rencana atau menunda respons yang diperlukan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 2 elemen penilaian dari PAP 5 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "DNR hanya tentang CPR",
       "points": [
@@ -271,6 +309,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 5.a adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan pengkajian pasien menjelang akhir kehidupan dan dapat dilakukan pengkajian ulang sampai pasien yang memasuki fase akhir kehidupannya, dengan memperhatikan poin 1)-9) pada maksud dan tujuan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 5.b adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Asuhan menjelang akhir kehidupan ditujukan terhadap kebutuhan psikososial, emosional, kultural dan spiritual pasien dan keluarganya."
+    },
     {
       "q": "Pernyataan paling tepat tentang DNR adalah…",
       "options": [
@@ -373,14 +433,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "WHO — Palliative Care",
@@ -394,5 +454,13 @@
     }
   ],
   "priority": "knowledge",
-  "priorityLabel": "Pengetahuan Wajib"
+  "priorityLabel": "Pengetahuan Wajib",
+  "instrumentCodes": [
+    "PAP 5"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    322,
+    323
+  ]
 }

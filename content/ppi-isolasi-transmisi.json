@@ -12,9 +12,115 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 14,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 10 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "W–Wawancara • O–Observasi",
+            "title": "EP PPI 10.a",
+            "text": "Rumah sakit menyediakan dan menempatkan ruangan untuk pasien dengan imunitas rendah (immunocompromised) sesuai dengan peraturan perundang undangan.",
+            "bullets": [
+              "Kelengkapan bukti: pasien dengan imunitas rendah (immunocompromised) - Komite/Tim PPI - IPCN - Kepala Unit/Ruangan Pelaksanaan proses transfer",
+              "Halaman instrumen: 206"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "W–Wawancara • O–Observasi",
+            "title": "EP PPI 10.b",
+            "text": "Rumah sakit melaksanakan proses transfer pasien airborne diseases di dalam rumah sakit dan keluar rumah sakit sesuai dengan peraturan perundang-undangan termasuk di ruang gawat darurat dan ruang lainnya",
+            "bullets": [
+              "Kelengkapan bukti: pasien airborne diseases di dalam rumah sakit dan keluar rumah sakit termasuk di ruang gawat darurat dan ruang lainnya. Lihat AKP 4 - Komite/Tim PPI - IPCN - Kepala Unit/Ruangan. Ketersediaan ruang isolasi untuk",
+              "Halaman instrumen: 206"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PPI 10.c",
+            "text": "Rumah sakit telah menempatkan pasien infeksi “air borne” dalam waktu singkat jika rumah sakit tidak mempunyai kamar dengan tekanan negatif sesuai dengan peraturan perundang-undangan termasuk di ruang gawat darurat dan ruang lainnya.",
+            "bullets": [
+              "Kelengkapan bukti: pasien infeksi “air dalam borne” waktu singkat jika rumah sakit tidak mempunyai kamar dengan tekanan negatif termasuk di ruang gawat darurat dan ruang lainnya - Komite/Tim PPI - IPCN - Kepala Unit/Ruangan Bukti pemantauan ruang tekanan",
+              "Halaman instrumen: 206, 207"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 10 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "O–Observasi • W–Wawancara • D–Dokumen",
+            "title": "EP PPI 10.d",
+            "text": "Ada bukti pemantauan ruang tekanan negatif dan penempatan pasien secara rutin.",
+            "bullets": [
+              "Kelengkapan bukti: negative (hasil audit) Ruang tekanan negatif - Komite/Tim PPI - IPCN - Kepala Unit/Ruangan",
+              "Halaman instrumen: 207"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 10.1",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara • O–Observasi",
+            "title": "EP PPI 10.1.a",
+            "text": "Rumah sakit menerapkan proses pengelolaan pasien bila terjadi ledakan pasien (outbreak) penyakit infeksi air borne.",
+            "bullets": [
+              "Kelengkapan bukti: terjadi ledakan pasien (outbreak) penyakit infeksi air borne Bukti penerapan proses pengelolaan pasien bila terjadi ledakan pasien (outbreak) penyakit infeksi air borne. - IPCN - Komite/Tim PPI Ruang isolasi dengan tekanan",
+              "Halaman instrumen: 207"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PPI 10.1.b",
+            "text": "Rumah sakit menyediakan ruang isolasi dengan tekanan negatif bila terjadi ledakan pasien (outbreak) sesuai dengan peraturan perundangan.",
+            "bullets": [
+              "Kelengkapan bukti: negatif bila terjadi ledakan pasien (outbreak) - Komite/Tim PPI - IPCN - Kepala Unit/Ruangan Bukti pelatihan kepada staf",
+              "Halaman instrumen: 207"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "W–Wawancara",
+            "title": "EP PPI 10.1.c",
+            "text": "Ada bukti dilakukan edukasi kepada staf tentang pengelolaan pasien infeksius jika terjadi ledakan pasien (outbreak) penyakit infeksi air borne.",
+            "bullets": [
+              "Kelengkapan bukti: tentang pengelolaan pasien infeksius jika terjadi ledakan pasien (outbreak) penyakit infeksi air borne - Komite/Tim PPI - IPCN - Kepala Unit/Ruangan",
+              "Halaman instrumen: 207"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +219,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Membuka pintu ruang airborne tanpa alasan",
-            "text": "Mengganggu pengendalian udara."
-          },
-          {
-            "title": "Menggunakan alat bersama tanpa dekontaminasi",
-            "text": "Memindahkan patogen antar pasien."
-          },
-          {
-            "title": "Tidak menjelaskan isolasi",
-            "text": "Pasien dapat merasa dihukum atau menolak."
-          },
-          {
-            "title": "Memakai APD di koridor",
-            "text": "Menyebarkan kontaminasi ke area bersih."
-          },
-          {
-            "title": "Menghentikan isolasi karena gejala membaik",
-            "text": "Harus mengikuti kriteria dan kewenangan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +248,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Membuka pintu ruang airborne tanpa alasan",
+            "text": "Mengganggu pengendalian udara."
+          },
+          {
+            "title": "Menggunakan alat bersama tanpa dekontaminasi",
+            "text": "Memindahkan patogen antar pasien."
+          },
+          {
+            "title": "Tidak menjelaskan isolasi",
+            "text": "Pasien dapat merasa dihukum atau menolak."
+          },
+          {
+            "title": "Memakai APD di koridor",
+            "text": "Menyebarkan kontaminasi ke area bersih."
+          },
+          {
+            "title": "Menghentikan isolasi karena gejala membaik",
+            "text": "Harus mengikuti kriteria dan kewenangan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 7 elemen penilaian dari PPI 10, PPI 10.1 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +337,28 @@
     "Harus mengikuti kriteria dan kewenangan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 10.a adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "W–Wawancara • O–Observasi",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan W–Wawancara • O–Observasi. Pokok elemennya: Rumah sakit menyediakan dan menempatkan ruangan untuk pasien dengan imunitas rendah (immunocompromised) sesuai dengan peraturan perundang undangan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 10.b adalah…",
+      "options": [
+        "W–Wawancara • O–Observasi",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan W–Wawancara • O–Observasi. Pokok elemennya: Rumah sakit melaksanakan proses transfer pasien airborne diseases di dalam rumah sakit dan keluar rumah sakit sesuai dengan peraturan perundang-undangan termasuk di ruang gawat darurat dan ruang lainnya"
+    },
     {
       "q": "Dalam situasi “Masuk ruang kontak”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +450,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -333,5 +472,14 @@
     "airborne",
     "transmisi",
     "n95"
+  ],
+  "instrumentCodes": [
+    "PPI 10",
+    "PPI 10.1"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    206,
+    207
   ]
 }

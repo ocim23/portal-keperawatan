@@ -10,15 +10,121 @@
   "icon": "shield",
   "minutes": 24,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian SKP 2",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "1",
+            "tag": "D–Dokumen • S–Simulasi • W–Wawancara",
+            "title": "EP SKP 2.1",
+            "text": "Rumah sakit telah menerapkan komunikasi saat menerima instruksi melalui telepon: menulis/menginput ke komputer - membacakan - konfirmasi kembali” (writedown, read back, dan SBAR saat confirmation melaporkan kondisi pasien kepada DPJP serta didokumentasikan dalam rekam medik",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis: penerapan komunikasi saat menerima instruksi melalui telepon dan saat melaporkan kondisi pasien kepada DPJP Menerima instruksi melalui telepon dan saat melaporkan kondisi pasien kepada DPJP. PPA",
+              "Halaman instrumen: 383"
+            ]
+          },
+          {
+            "level": "2",
+            "tag": "R–Regulasi • D–Dokumen • S–Simulasi • W–Wawancara",
+            "title": "EP SKP 2.2",
+            "text": "Rumah sakit telah menerapkan komunikasi saat pelaporan hasil kritis pemeriksaan penunjang diagnostic melalui telepon: menulis/menginput ke komputer – membacakan – konfirmasi kembali” (writedown, read back, confirmation dan didokumentasikan dalam rekam medik.",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan hasil kritis pemeriksaan penunjang diagnostic. Bukti rekam medis: komunikasi pelaporan hasil kritis. Pelaporan hasil kritis pemeriksaan penunjang diagnostik melalui telepon. - PPA - Staf Laboratorium - Staf radiologi",
+              "Halaman instrumen: 383"
+            ]
+          },
+          {
+            "level": "3",
+            "tag": "D–Dokumen • S–Simulasi • W–Wawancara",
+            "title": "EP SKP 2.3",
+            "text": "Rumah sakit telah menerapkan komunikasi saat serah terima sesuai dengan jenis serah terima meliputi poin 1) - 3) dalam maksud dan tujuan",
+            "bullets": [
+              "Kelengkapan bukti: Bukti medis: serah rekam terima sesuai dengan jenis serah terima meliputi poin 1) - 3) dalam maksud dan tujuan; Pelaksanaan serah terima PPA",
+              "Halaman instrumen: 383"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "SKP 2 — Komunikasi Efektif",
       "caption": "Pesan keselamatan belum selesai sampai penerima memahami, mengonfirmasi, dan menindaklanjutinya.",
       "image": "assets/images/v4/skp-2-komunikasi/skp-2-komunikasi-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-2-komunikasi/skp-2-komunikasi-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Komunikasi efektif",
+            "text": "Informasi lengkap, akurat, tepat waktu, tidak ambigu, dipahami penerima, dan menghasilkan tindak lanjut yang sesuai."
+          },
+          {
+            "title": "SBAR",
+            "text": "Kerangka untuk menyampaikan masalah secara singkat: Situation, Background, Assessment, Recommendation."
+          },
+          {
+            "title": "TBaK",
+            "text": "Tulis–Baca kembali–Konfirmasi; terutama untuk instruksi verbal/telepon atau informasi penting yang berisiko salah dengar."
+          },
+          {
+            "title": "Closed-loop communication",
+            "text": "Siklus komunikasi yang memastikan perintah diterima dan dilaksanakan, sangat penting saat emergensi."
+          },
+          {
+            "title": "Handover",
+            "text": "Pemindahan tanggung jawab dan informasi antarpetugas, shift, unit, atau fasilitas."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Sebelum menghubungi",
+            "text": "Kumpulkan identitas pasien, masalah utama, tanda vital, hasil relevan, terapi berjalan, dan rekomendasi yang dibutuhkan."
+          },
+          {
+            "title": "Sampaikan dengan SBAR",
+            "text": "Mulai dari kondisi terkini, berikan konteks seperlunya, jelaskan penilaian, lalu sebutkan permintaan atau rekomendasi yang jelas."
+          },
+          {
+            "title": "Lakukan TBaK",
+            "text": "Tulis instruksi, bacakan kembali nama obat/dosis/rute/waktu atau hasil penting, lalu tunggu konfirmasi."
+          },
+          {
+            "title": "Dokumentasikan",
+            "text": "Catat siapa pemberi dan penerima informasi, waktu, isi penting, konfirmasi, serta tindakan."
+          },
+          {
+            "title": "Pantau respons",
+            "text": "Pastikan rekomendasi atau instruksi benar-benar dilakukan dan kondisi pasien dievaluasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     },
     {
       "type": "html",
@@ -94,70 +200,6 @@
     },
     {
       "type": "html",
-      "title": "Pahami konsep",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Komunikasi efektif",
-            "text": "Informasi lengkap, akurat, tepat waktu, tidak ambigu, dipahami penerima, dan menghasilkan tindak lanjut yang sesuai."
-          },
-          {
-            "title": "SBAR",
-            "text": "Kerangka untuk menyampaikan masalah secara singkat: Situation, Background, Assessment, Recommendation."
-          },
-          {
-            "title": "TBaK",
-            "text": "Tulis–Baca kembali–Konfirmasi; terutama untuk instruksi verbal/telepon atau informasi penting yang berisiko salah dengar."
-          },
-          {
-            "title": "Closed-loop communication",
-            "text": "Siklus komunikasi yang memastikan perintah diterima dan dilaksanakan, sangat penting saat emergensi."
-          },
-          {
-            "title": "Handover",
-            "text": "Pemindahan tanggung jawab dan informasi antarpetugas, shift, unit, atau fasilitas."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Alur penerapan",
-      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Sebelum menghubungi",
-            "text": "Kumpulkan identitas pasien, masalah utama, tanda vital, hasil relevan, terapi berjalan, dan rekomendasi yang dibutuhkan."
-          },
-          {
-            "title": "Sampaikan dengan SBAR",
-            "text": "Mulai dari kondisi terkini, berikan konteks seperlunya, jelaskan penilaian, lalu sebutkan permintaan atau rekomendasi yang jelas."
-          },
-          {
-            "title": "Lakukan TBaK",
-            "text": "Tulis instruksi, bacakan kembali nama obat/dosis/rute/waktu atau hasil penting, lalu tunggu konfirmasi."
-          },
-          {
-            "title": "Dokumentasikan",
-            "text": "Catat siapa pemberi dan penerima informasi, waktu, isi penting, konfirmasi, serta tindakan."
-          },
-          {
-            "title": "Pantau respons",
-            "text": "Pastikan rekomendasi atau instruksi benar-benar dilakukan dan kondisi pasien dievaluasi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -182,38 +224,6 @@
           {
             "title": "Transfer antarunit",
             "text": "Pastikan alat, obat, risiko, hasil pending, dan tanggung jawab pemantauan jelas sebelum perpindahan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "“Baik, Dok” tanpa read-back",
-            "text": "Penerima belum membuktikan bahwa instruksi didengar dengan benar."
-          },
-          {
-            "title": "SBAR terlalu panjang",
-            "text": "Informasi penting tenggelam dalam riwayat yang tidak relevan."
-          },
-          {
-            "title": "Rekomendasi tidak jelas",
-            "text": "Penerima tidak tahu keputusan atau bantuan apa yang dibutuhkan."
-          },
-          {
-            "title": "Serah terima hanya membaca catatan",
-            "text": "Tidak ada diskusi, klarifikasi, atau validasi kondisi pasien terkini."
-          },
-          {
-            "title": "Tidak menutup loop",
-            "text": "Tugas diberikan tetapi pengirim tidak tahu apakah sudah dilaksanakan."
           }
         ],
         "columns": 2,
@@ -251,9 +261,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "“Baik, Dok” tanpa read-back",
+            "text": "Penerima belum membuktikan bahwa instruksi didengar dengan benar."
+          },
+          {
+            "title": "SBAR terlalu panjang",
+            "text": "Informasi penting tenggelam dalam riwayat yang tidak relevan."
+          },
+          {
+            "title": "Rekomendasi tidak jelas",
+            "text": "Penerima tidak tahu keputusan atau bantuan apa yang dibutuhkan."
+          },
+          {
+            "title": "Serah terima hanya membaca catatan",
+            "text": "Tidak ada diskusi, klarifikasi, atau validasi kondisi pasien terkini."
+          },
+          {
+            "title": "Tidak menutup loop",
+            "text": "Tugas diberikan tetapi pengirim tidak tahu apakah sudah dilaksanakan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 3 elemen penilaian dari SKP 2 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Pesan keselamatan",
       "points": [
@@ -303,6 +351,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 2.1 adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • S–Simulasi • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen • S–Simulasi • W–Wawancara. Pokok elemennya: Rumah sakit telah menerapkan komunikasi saat menerima instruksi melalui telepon: menulis/menginput ke komputer - membacakan - konfirmasi kembali” (writedown, read back, dan SBAR saat confirmation melaporkan kondisi pasien kepada DPJP serta didokumentasikan dalam rekam medik"
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 2.2 adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "R–Regulasi • D–Dokumen • S–Simulasi • W–Wawancara",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen • S–Simulasi • W–Wawancara. Pokok elemennya: Rumah sakit telah menerapkan komunikasi saat pelaporan hasil kritis pemeriksaan penunjang diagnostic melalui telepon: menulis/menginput ke komputer – membacakan – konfirmasi kembali” (writedown, read back, confirmation dan didokumentasikan dalam rekam medik."
+    },
     {
       "q": "Instruksi telepon terdengar “insulin enam unit”, tetapi perawat ragu enam atau enam belas. Tindakan terbaik adalah…",
       "options": [
@@ -405,16 +475,23 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "SKP 2"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    383
+  ]
 }

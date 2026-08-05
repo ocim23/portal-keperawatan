@@ -12,9 +12,41 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PKPO 3.2",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "O–Observasi",
+            "title": "EP PKPO 3.2.a",
+            "text": "Obat dan BMHP untuk kondisi emergensi yang tersimpan di luar Instalasi Farmasi termasuk di ambulans dikelola secara seragam dalam hal penyimpanan, pemantauan, penggantian karena digunakan, rusak atau kedaluwarsa, dan dilindungi dari kehilangan dan pencurian.",
+            "bullets": [
+              "Kelengkapan bukti: Penyimpanan Obat dan BMHP untuk kondisi emergensi yang tersimpan di luar Instalasi Farmasi termasuk di ambulans dikelola sesuai ketentuan. Troli emergensi harus terkunci dengan segel dan bernomor seri",
+              "Halaman instrumen: 353, 354"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 3.2.b",
+            "text": "Rumah sakit menerapkan tata laksana obat emergensi untuk meningkatkan ketepatan dan kecepatan pemberian obat.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti tata laksana obat emergensi untuk meningkatkan ketepatan dan kecepatan pemberian obat sesuai 1 -4 dalam maksud dan tujuan. - Kepala Instalasi Farmasi - Perawat - Apoteker - Staf Farmasi",
+              "Halaman instrumen: 354"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +145,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Hanya melihat segel",
-            "text": "Segel utuh tidak menjamin item tidak kedaluwarsa."
-          },
-          {
-            "title": "Mengisi ulang tanpa verifikasi",
-            "text": "Dapat terjadi salah item atau jumlah."
-          },
-          {
-            "title": "Mengubah tata letak sendiri",
-            "text": "Membingungkan tim lain saat emergensi."
-          },
-          {
-            "title": "Menyimpan barang nonemergensi",
-            "text": "Mengurangi ruang dan memperlambat pencarian."
-          },
-          {
-            "title": "Menunda pelaporan item habis",
-            "text": "Troli dapat dipakai dalam keadaan tidak siap."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +174,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Hanya melihat segel",
+            "text": "Segel utuh tidak menjamin item tidak kedaluwarsa."
+          },
+          {
+            "title": "Mengisi ulang tanpa verifikasi",
+            "text": "Dapat terjadi salah item atau jumlah."
+          },
+          {
+            "title": "Mengubah tata letak sendiri",
+            "text": "Membingungkan tim lain saat emergensi."
+          },
+          {
+            "title": "Menyimpan barang nonemergensi",
+            "text": "Mengurangi ruang dan memperlambat pencarian."
+          },
+          {
+            "title": "Menunda pelaporan item habis",
+            "text": "Troli dapat dipakai dalam keadaan tidak siap."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 2 elemen penilaian dari PKPO 3.2 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +263,28 @@
     "Troli dapat dipakai dalam keadaan tidak siap."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 3.2.a adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "O–Observasi",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan O–Observasi. Pokok elemennya: Obat dan BMHP untuk kondisi emergensi yang tersimpan di luar Instalasi Farmasi termasuk di ambulans dikelola secara seragam dalam hal penyimpanan, pemantauan, penggantian karena digunakan, rusak atau kedaluwarsa, dan dilindungi dari kehilangan dan pencurian."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 3.2.b adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan tata laksana obat emergensi untuk meningkatkan ketepatan dan kecepatan pemberian obat."
+    },
     {
       "q": "Dalam situasi “Pemeriksaan awal shift”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +376,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -331,5 +396,13 @@
     "crash cart",
     "obat emergensi",
     "segel"
+  ],
+  "instrumentCodes": [
+    "PKPO 3.2"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    353,
+    354
   ]
 }

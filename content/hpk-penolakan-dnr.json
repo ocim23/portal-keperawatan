@@ -12,9 +12,73 @@
   "priorityLabel": "Pengetahuan Wajib",
   "minutes": 14,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian HPK 2.1",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "R–Regulasi • D–Dokumen • W–Wawancara",
+            "title": "EP HPK 2.1.a",
+            "text": "Rumah sakit menerapkan proses mengenai pemberian pelayanan resusitasi dan penghentian terapi penunjang kehidupan untuk pasien.",
+            "bullets": [
+              "Kelengkapan bukti: Penetapan proses tentang penghentian pelayanan resusitasi dan terapi penunjang kehidupan pasien. Bukti pemberian informasi penghentian pelayanan resusitasi dan terapi penunjang kehidupan pasien oleh DPJP. - PPA - Pasien/ Keluarga",
+              "Halaman instrumen: 266"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 2.1.b",
+            "text": "Rumah sakit memberi informasi kepada pasien dan keluarga mengenai hak mereka untuk menolak atau menghentikan terapi, konsekuensi dari keputusan yang dibuat serta terapi dan alternatif lain yang dapat dijadikan pilihan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pemberian informasi kepada pasien dan keluarga mengenai hak mereka untuk menolak atau menghentikan terapi, konsekuensi dari keputusan yang dibuat serta terapi dan alternatif lain. - PPA - Pasien/ keluarga",
+              "Halaman instrumen: 266, 267"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian HPK 2.2",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 2.2.a",
+            "text": "Rumah sakit menerapkan proses untuk menghargai dan mendukung hak pasien mendapatkan pengkajian dan pengelolaan nyeri.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis: pengkajian dan pengelolaan nyeri - PPA - Pasien/ keluarga",
+              "Halaman instrumen: 268"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP HPK 2.2.b",
+            "text": "Rumah sakit menerapkan proses untuk menghargai dan mendukung hak pasien untuk mendapatkan pengkajian dan pengelolaan terhadap kebutuhan pasien menjelang akhir hayat.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti rekam medis: pengkajian dan pengelolaan terhadap kebutuhan pasien menjelang akhir hayat. - PPA - Pasien/ keluarga",
+              "Halaman instrumen: 268"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +177,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menghakimi penolakan",
-            "text": "Merusak kepercayaan."
-          },
-          {
-            "title": "Menganggap DNR berarti tidak perlu monitoring",
-            "text": "Asuhan tetap berjalan sesuai tujuan."
-          },
-          {
-            "title": "Menulis status DNR tidak jelas",
-            "text": "Tim dapat memberikan tindakan yang bertentangan."
-          },
-          {
-            "title": "Menunda analgesia karena takut adiksi tanpa penilaian",
-            "text": "Nyeri harus dikelola secara klinis."
-          },
-          {
-            "title": "Membicarakan akhir hayat tanpa privasi",
-            "text": "Mengabaikan martabat pasien."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +206,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menghakimi penolakan",
+            "text": "Merusak kepercayaan."
+          },
+          {
+            "title": "Menganggap DNR berarti tidak perlu monitoring",
+            "text": "Asuhan tetap berjalan sesuai tujuan."
+          },
+          {
+            "title": "Menulis status DNR tidak jelas",
+            "text": "Tim dapat memberikan tindakan yang bertentangan."
+          },
+          {
+            "title": "Menunda analgesia karena takut adiksi tanpa penilaian",
+            "text": "Nyeri harus dikelola secara klinis."
+          },
+          {
+            "title": "Membicarakan akhir hayat tanpa privasi",
+            "text": "Mengabaikan martabat pasien."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 4 elemen penilaian dari HPK 2.1, HPK 2.2 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +295,28 @@
     "Mengabaikan martabat pasien."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 2.1.a adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "R–Regulasi • D–Dokumen • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan proses mengenai pemberian pelayanan resusitasi dan penghentian terapi penunjang kehidupan untuk pasien."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 2.1.b adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit memberi informasi kepada pasien dan keluarga mengenai hak mereka untuk menolak atau menghentikan terapi, konsekuensi dari keputusan yang dibuat serta terapi dan alternatif lain yang dapat dijadikan pilihan."
+    },
     {
       "q": "Dalam situasi “Pasien menolak transfusi”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +408,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -332,5 +429,15 @@
     "akhir hayat",
     "nyeri",
     "paliatif"
+  ],
+  "instrumentCodes": [
+    "HPK 2.1",
+    "HPK 2.2"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    266,
+    267,
+    268
   ]
 }

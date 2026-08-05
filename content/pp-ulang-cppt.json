@@ -10,51 +10,79 @@
   "icon": "clipboard",
   "minutes": 24,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PP 2 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PP 2.a",
+            "text": "Rumah sakit melaksanakan pengkajian ulang oleh DPJP, perawat dan PPA lainnya untuk menentukan rencana asuhan lanjutan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti Rekam Medis pengkajian ulang oleh DPJP, perawat dan PPA lainnya untuk menentukan rencana asuhan lanjutan.",
+              "Halaman instrumen: 282"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PP 2.b",
+            "text": "Terdapat bukti pelaksanaan pengkajian ulang medis dilaksanakan minimal satu kali sehari, termasuk akhir minggu/libur untuk pasien akut.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti Rekam Medis pengkajian ulang medis dilaksanakan minimal satu kali sehari, termasuk akhir minggu/libur untuk pasien akut.",
+              "Halaman instrumen: 282"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen",
+            "title": "EP PP 2.c",
+            "text": "Terdapat bukti pelaksanaan pengkajian ulang oleh perawat minimal satu kali per shift atau sesuai dengan perubahan kondisi pasien.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti Rekam Medis pengkajian ulang keperawatan yang dilaksanakan minimal 1 (satu) kali per shift atau sesuai dengan perubahan kondisi pasien.",
+              "Halaman instrumen: 282"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PP 2 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • R–Regulasi • W–Wawancara",
+            "title": "EP PP 2.d",
+            "text": "Terdapat bukti pengkajian ulang oleh PPA lainnya dilaksanakan dengan interval sesuai regulasi rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti Rekam Medis pengkajian ulang oleh PPA lainnya yang dilaksanakan dengan interval sesuai regulasi rumah sakit.",
+              "Halaman instrumen: 282"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Pengkajian Ulang dan CPPT",
       "caption": "Catatan perkembangan harus menunjukkan apa yang berubah, apa artinya, apa yang dilakukan, dan bagaimana respons pasien.",
       "image": "assets/images/v4/pp-ulang-cppt/pp-ulang-cppt-01.webp",
       "thumbnail": "assets/images/thumb/v4/pp-ulang-cppt/pp-ulang-cppt-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Praktik: pengkajian ulang dan CPPT yang bermakna",
-      "caption": "Gunakan alur temuan–analisis–tindakan–respons–rencana berikutnya.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Temuan baru",
-            "text": "Catat perubahan subjektif dan objektif yang relevan, termasuk waktu dan pemicunya."
-          },
-          {
-            "title": "Analisis",
-            "text": "Jelaskan makna temuan: membaik, menetap, memburuk, atau muncul risiko baru."
-          },
-          {
-            "title": "Tindakan",
-            "text": "Catat intervensi mandiri, kolaborasi, eskalasi, dan komunikasi yang benar-benar dilakukan."
-          },
-          {
-            "title": "Respons",
-            "text": "Tulis respons pasien setelah intervensi dan kapan dinilai ulang."
-          },
-          {
-            "title": "Rencana berikutnya",
-            "text": "Tentukan pemantauan, target, tindakan lanjutan, serta kondisi yang memerlukan eskalasi."
-          },
-          {
-            "title": "Keterpaduan",
-            "text": "Pastikan catatan dapat dipahami PPA berikutnya dan tidak bertentangan dengan rencana bersama."
-          }
-        ],
-        "columns": 2,
-        "note": "Contoh singkat: “Nyeri 7/10 → analisis nyeri meningkat saat mobilisasi → analgesik sesuai program + posisi nyaman → 30 menit kemudian 3/10 → lanjut monitor dan edukasi.”"
-      }
     },
     {
       "type": "html",
@@ -126,6 +154,42 @@
     },
     {
       "type": "html",
+      "title": "Praktik: pengkajian ulang dan CPPT yang bermakna",
+      "caption": "Gunakan alur temuan–analisis–tindakan–respons–rencana berikutnya.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Temuan baru",
+            "text": "Catat perubahan subjektif dan objektif yang relevan, termasuk waktu dan pemicunya."
+          },
+          {
+            "title": "Analisis",
+            "text": "Jelaskan makna temuan: membaik, menetap, memburuk, atau muncul risiko baru."
+          },
+          {
+            "title": "Tindakan",
+            "text": "Catat intervensi mandiri, kolaborasi, eskalasi, dan komunikasi yang benar-benar dilakukan."
+          },
+          {
+            "title": "Respons",
+            "text": "Tulis respons pasien setelah intervensi dan kapan dinilai ulang."
+          },
+          {
+            "title": "Rencana berikutnya",
+            "text": "Tentukan pemantauan, target, tindakan lanjutan, serta kondisi yang memerlukan eskalasi."
+          },
+          {
+            "title": "Keterpaduan",
+            "text": "Pastikan catatan dapat dipahami PPA berikutnya dan tidak bertentangan dengan rencana bersama."
+          }
+        ],
+        "columns": 2,
+        "note": "Contoh singkat: “Nyeri 7/10 → analisis nyeri meningkat saat mobilisasi → analgesik sesuai program + posisi nyaman → 30 menit kemudian 3/10 → lanjut monitor dan edukasi.”"
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -150,38 +214,6 @@
           {
             "title": "Dokumentasi terlambat",
             "text": "Catat secepat mungkin dan jangan mengubah waktu kejadian agar rekam medis tetap dapat dipercaya."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "CPPT berisi “keadaan umum baik”",
-            "text": "Tidak menjelaskan data, tren, masalah, atau tindak lanjut."
-          },
-          {
-            "title": "Mengulang catatan lama",
-            "text": "Perkembangan pasien tidak terlihat dan risiko copy-paste meningkat."
-          },
-          {
-            "title": "Mencatat tindakan tanpa respons",
-            "text": "Tidak dapat dinilai apakah intervensi efektif atau aman."
-          },
-          {
-            "title": "Tidak membaca catatan PPA lain",
-            "text": "Rencana menjadi terpisah dan dapat saling bertentangan."
-          },
-          {
-            "title": "Eskalasi tidak terdokumentasi",
-            "text": "Tim berikutnya tidak mengetahui siapa yang dihubungi dan keputusan apa yang dibuat."
           }
         ],
         "columns": 2,
@@ -219,9 +251,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "CPPT berisi “keadaan umum baik”",
+            "text": "Tidak menjelaskan data, tren, masalah, atau tindak lanjut."
+          },
+          {
+            "title": "Mengulang catatan lama",
+            "text": "Perkembangan pasien tidak terlihat dan risiko copy-paste meningkat."
+          },
+          {
+            "title": "Mencatat tindakan tanpa respons",
+            "text": "Tidak dapat dinilai apakah intervensi efektif atau aman."
+          },
+          {
+            "title": "Tidak membaca catatan PPA lain",
+            "text": "Rencana menjadi terpisah dan dapat saling bertentangan."
+          },
+          {
+            "title": "Eskalasi tidak terdokumentasi",
+            "text": "Tim berikutnya tidak mengetahui siapa yang dihubungi dan keputusan apa yang dibuat."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 4 elemen penilaian dari PP 2 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Pertanyaan inti",
       "points": [
@@ -271,6 +341,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PP 2.a adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit melaksanakan pengkajian ulang oleh DPJP, perawat dan PPA lainnya untuk menentukan rencana asuhan lanjutan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PP 2.b adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Terdapat bukti pelaksanaan pengkajian ulang medis dilaksanakan minimal satu kali sehari, termasuk akhir minggu/libur untuk pasien akut."
+    },
     {
       "q": "Catatan “pasien tampak lebih baik” kurang bermakna karena…",
       "options": [
@@ -373,16 +465,23 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "PP 2"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    282
+  ]
 }

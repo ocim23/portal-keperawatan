@@ -10,79 +10,79 @@
   "icon": "hand",
   "minutes": 17,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 11.1 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "O–Observasi • W–Wawancara",
+            "title": "EP PPI 11.1.a",
+            "text": "Rumah sakit menerapkan penggunaan alat pelindung diri, tempat yang harus menyediakan alat pelindung diri, dan pelatihan cara memakainya.",
+            "bullets": [
+              "Kelengkapan bukti: pemakaian APD Tempat yang harus menyediakan APD - PPA - Staf Non Klinis Kepatuhan staf menggunakan",
+              "Halaman instrumen: 209"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "W–Wawancara • S–Simulasi • O–Observasi",
+            "title": "EP PPI 11.1.b",
+            "text": "Alat pelindung diri sudah digunakan secara tepat dan benar.",
+            "bullets": [
+              "Kelengkapan bukti: Alat Pelindung Diri (APD) secara tepat dan benar - Komite/Tim PPI - IPCN - Kepala Unit/Ruangan Penggunaan APD secara tepat dan benar Ketersediaan alat pelindung",
+              "Halaman instrumen: 209"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "W–Wawancara • D–Dokumen",
+            "title": "EP PPI 11.1.c",
+            "text": "Ketersediaan alat pelindung diri sudah cukup sesuai dengan regulasi.",
+            "bullets": [
+              "Kelengkapan bukti: diri dalam jumlah yang cukup - Komite/Tim PPI - IPCN - Kepala Unit/ Ruangan Bukti pelatihan penggunaan",
+              "Halaman instrumen: 209"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PPI 11.1 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "W–Wawancara",
+            "title": "EP PPI 11.1.d",
+            "text": "Ada bukti pelatihan penggunaan alat pelindung diri kepada semua pegawai termasuk tenaga kontrak",
+            "bullets": [
+              "Kelengkapan bukti: alat pelindung diri kepada semua pegawai termasuk tenaga kontrak - Komite/Tim PPI - IPCN - Kepala/Staf Unit/Ruangan",
+              "Halaman instrumen: 209"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "APD dan Kewaspadaan Transmisi",
       "caption": "APD dipilih berdasarkan aktivitas dan risiko pajanan—bukan hanya berdasarkan diagnosis pasien.",
       "image": "assets/images/v4/ppi-apd-transmisi/ppi-apd-transmisi-01.webp",
       "thumbnail": "assets/images/thumb/v4/ppi-apd-transmisi/ppi-apd-transmisi-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Praktik: memakai APD (contoh urutan)",
-      "caption": "Pilih APD berdasarkan risiko pajanan dan jenis kewaspadaan.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "1. Kebersihan tangan",
-            "text": "Pastikan ukuran APD sesuai dan semua komponen tersedia."
-          },
-          {
-            "title": "2. Gaun",
-            "text": "Tutupi badan dari leher sampai lutut dan lengan sampai pergelangan; ikat dengan benar."
-          },
-          {
-            "title": "3. Masker atau respirator",
-            "text": "Pasang rapat; lakukan fit-check untuk respirator sesuai program."
-          },
-          {
-            "title": "4. Pelindung mata/wajah",
-            "text": "Atur agar menutup area mata/wajah dan tidak mengganggu APD lain."
-          },
-          {
-            "title": "5. Sarung tangan",
-            "text": "Tutupi manset gaun dan hindari menyentuh area bersih setelah masuk zona pasien."
-          }
-        ],
-        "columns": 2,
-        "note": "Ini contoh urutan CDC; kombinasi/urutan dapat disesuaikan dengan APD dan kewaspadaan yang digunakan."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Praktik: melepas APD tanpa mencemari diri",
-      "caption": "Bagian depan/luar dianggap paling berisiko terkontaminasi.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "1. Lepas sarung tangan",
-            "text": "Hindari menyentuh kulit; buang sesuai tempat."
-          },
-          {
-            "title": "2. Lepas pelindung mata/wajah",
-            "text": "Pegang dari bagian belakang/tali; proses ulang atau buang sesuai ketentuan."
-          },
-          {
-            "title": "3. Lepas gaun",
-            "text": "Buka ikatan, tarik menjauhi tubuh, balik bagian terkontaminasi ke dalam, lalu gulung."
-          },
-          {
-            "title": "4. Lepas masker/respirator",
-            "text": "Pegang tali dari belakang; jangan menyentuh bagian depan. Respirator dilepas setelah keluar sesuai protokol."
-          },
-          {
-            "title": "5. Kebersihan tangan",
-            "text": "Lakukan segera setelah semua APD dilepas dan bila tangan terkontaminasi di tengah proses."
-          }
-        ],
-        "columns": 1,
-        "note": "Prosedur harus disesuaikan dengan kombinasi APD dan agen berisiko tinggi; gunakan observer bila dipersyaratkan."
-      }
     },
     {
       "type": "html",
@@ -150,6 +150,70 @@
     },
     {
       "type": "html",
+      "title": "Praktik: memakai APD (contoh urutan)",
+      "caption": "Pilih APD berdasarkan risiko pajanan dan jenis kewaspadaan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Kebersihan tangan",
+            "text": "Pastikan ukuran APD sesuai dan semua komponen tersedia."
+          },
+          {
+            "title": "2. Gaun",
+            "text": "Tutupi badan dari leher sampai lutut dan lengan sampai pergelangan; ikat dengan benar."
+          },
+          {
+            "title": "3. Masker atau respirator",
+            "text": "Pasang rapat; lakukan fit-check untuk respirator sesuai program."
+          },
+          {
+            "title": "4. Pelindung mata/wajah",
+            "text": "Atur agar menutup area mata/wajah dan tidak mengganggu APD lain."
+          },
+          {
+            "title": "5. Sarung tangan",
+            "text": "Tutupi manset gaun dan hindari menyentuh area bersih setelah masuk zona pasien."
+          }
+        ],
+        "columns": 2,
+        "note": "Ini contoh urutan CDC; kombinasi/urutan dapat disesuaikan dengan APD dan kewaspadaan yang digunakan."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik: melepas APD tanpa mencemari diri",
+      "caption": "Bagian depan/luar dianggap paling berisiko terkontaminasi.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Lepas sarung tangan",
+            "text": "Hindari menyentuh kulit; buang sesuai tempat."
+          },
+          {
+            "title": "2. Lepas pelindung mata/wajah",
+            "text": "Pegang dari bagian belakang/tali; proses ulang atau buang sesuai ketentuan."
+          },
+          {
+            "title": "3. Lepas gaun",
+            "text": "Buka ikatan, tarik menjauhi tubuh, balik bagian terkontaminasi ke dalam, lalu gulung."
+          },
+          {
+            "title": "4. Lepas masker/respirator",
+            "text": "Pegang tali dari belakang; jangan menyentuh bagian depan. Respirator dilepas setelah keluar sesuai protokol."
+          },
+          {
+            "title": "5. Kebersihan tangan",
+            "text": "Lakukan segera setelah semua APD dilepas dan bila tangan terkontaminasi di tengah proses."
+          }
+        ],
+        "columns": 1,
+        "note": "Prosedur harus disesuaikan dengan kombinasi APD dan agen berisiko tinggi; gunakan observer bila dipersyaratkan."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -174,38 +238,6 @@
           {
             "title": "Pasien dengan lebih dari satu risiko",
             "text": "Gabungkan kewaspadaan sesuai risiko; jangan memilih satu label dan mengabaikan risiko lain."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Memilih APD berdasarkan diagnosis saja",
-            "text": "Prosedur dapat menimbulkan risiko meski diagnosis tidak menunjukkan infeksi tertentu."
-          },
-          {
-            "title": "Masker di dagu atau leher",
-            "text": "Permukaan luar dapat mencemari tangan dan pemasangan ulang tidak aman."
-          },
-          {
-            "title": "Melepas tergesa-gesa",
-            "text": "Meningkatkan sentuhan pada wajah, pakaian, dan lingkungan."
-          },
-          {
-            "title": "Menggunakan APD yang sama antar pasien",
-            "text": "Memindahkan kontaminasi dan menghilangkan tujuan perlindungan."
-          },
-          {
-            "title": "Mengabaikan kebersihan tangan",
-            "text": "APD bukan pengganti; tangan dapat terkontaminasi saat pemakaian dan pelepasan."
           }
         ],
         "columns": 2,
@@ -243,9 +275,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Memilih APD berdasarkan diagnosis saja",
+            "text": "Prosedur dapat menimbulkan risiko meski diagnosis tidak menunjukkan infeksi tertentu."
+          },
+          {
+            "title": "Masker di dagu atau leher",
+            "text": "Permukaan luar dapat mencemari tangan dan pemasangan ulang tidak aman."
+          },
+          {
+            "title": "Melepas tergesa-gesa",
+            "text": "Meningkatkan sentuhan pada wajah, pakaian, dan lingkungan."
+          },
+          {
+            "title": "Menggunakan APD yang sama antar pasien",
+            "text": "Memindahkan kontaminasi dan menghilangkan tujuan perlindungan."
+          },
+          {
+            "title": "Mengabaikan kebersihan tangan",
+            "text": "APD bukan pengganti; tangan dapat terkontaminasi saat pemakaian dan pelepasan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 4 elemen penilaian dari PPI 11.1 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Standar untuk semua",
       "points": [
@@ -297,6 +367,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 11.1.a adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "O–Observasi • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan penggunaan alat pelindung diri, tempat yang harus menyediakan alat pelindung diri, dan pelatihan cara memakainya."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 11.1.b adalah…",
+      "options": [
+        "W–Wawancara • S–Simulasi • O–Observasi",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan W–Wawancara • S–Simulasi • O–Observasi. Pokok elemennya: Alat pelindung diri sudah digunakan secara tepat dan benar."
+    },
     {
       "q": "Perawat akan melakukan suction dengan potensi percikan pada pasien tanpa label isolasi. Dasar pemilihan APD adalah…",
       "options": [
@@ -399,14 +491,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "CDC — Sequence for Putting On and Removing PPE",
@@ -415,5 +507,12 @@
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "PPI 11.1"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    209
+  ]
 }

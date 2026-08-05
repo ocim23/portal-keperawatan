@@ -10,59 +10,121 @@
   "icon": "pill",
   "minutes": 15,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PKPO 6 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "R–Regulasi • D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 6.a",
+            "text": "Staf yang melakukan pemberian obat, kompeten dan berwenang dengan pembatasan yang ditetapkan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti penetapan kewenangan staf klinis yg kompeten dalam melakukan pemberian obat sesuai maksud dan tujuan. 1. Bukti pemberian obat oleh staf klinis yang kompeten dan berwenang 2. SPK dan RKK Tenaga Medis",
+              "Halaman instrumen: 364"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "S–Simulasi • W–Wawancara",
+            "title": "EP PKPO 6.b",
+            "text": "Telah dilaksanaan verifikasi sebelum obat diberikan kepada pasien minimal meliputi: identitas pasien, nama obat, dosis, rute, dan waktu pemberian.",
+            "bullets": [
+              "Kelengkapan bukti: Pelaksanaan verifikasi sebelum obat diberikan kepada pasien",
+              "Halaman instrumen: 364"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • S–Simulasi",
+            "title": "EP PKPO 6.c",
+            "text": "Telah melaksanakan double checking untuk obat high alert.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pelaksanakan double checking untuk obat high alert. Pelaksanaan double check untuk pemberian obat high alert.",
+              "Halaman instrumen: 364"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PKPO 6 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 6.d",
+            "text": "Pasien diberi informasi tentang obat yang akan diberikan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pemberian informasi tentang obat yang akan diberikan kepada pasien. - Apoteker - Perawat - Pasien",
+              "Halaman instrumen: 364"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian PKPO 6.1",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 6.1.a",
+            "text": "Telah melakukan penilaian obat yang dibawa pasien dari luar rumah sakit untuk kelayakan penggunaannya di rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti penilaian obat yang dibawa pasien dari luar rumah sakit. - Kepala Instalasi Farmasi - Apoteker - Staf Farmasi",
+              "Halaman instrumen: 365"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 6.1.b",
+            "text": "Telah melaksanakan edukasi kepada pasien/keluarga jika obat akan digunakan secara mandiri.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti materi edukasi kepada pasien/keluarga jika obat akan digunakan secara mandiri. - Apoteker - Perawat - Pasien",
+              "Halaman instrumen: 365"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP PKPO 6.1.c",
+            "text": "Telah memantau pelaksanaan penggunaan obat secara mandiri sesuai edukasi.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti pemantauan pelaksanaan penggunaan obat secara mandiri sesuai edukasi. - Apoteker - Perawat - Pasien dan keluarga",
+              "Halaman instrumen: 365"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "image",
       "title": "Pemberian Obat yang Aman",
       "caption": "Keselamatan obat dimulai sebelum obat disiapkan dan berlanjut sampai respons pasien dinilai serta dicatat.",
       "image": "assets/images/v4/pkpo-pemberian/pkpo-pemberian-01.webp",
       "thumbnail": "assets/images/thumb/v4/pkpo-pemberian/pkpo-pemberian-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "Praktik: pemberian obat yang aman",
-      "caption": "Gunakan proses berlapis dari verifikasi order sampai evaluasi respons.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "1. Verifikasi order",
-            "text": "Pastikan pasien, obat, dosis, rute, waktu, indikasi, duplikasi, dan kejelasan instruksi."
-          },
-          {
-            "title": "2. Kaji pasien",
-            "text": "Identitas, alergi, kondisi klinis, hasil laboratorium, kemampuan menelan, akses, dan kontraindikasi."
-          },
-          {
-            "title": "3. Siapkan satu pasien pada satu waktu",
-            "text": "Kurangi interupsi, baca label berulang, hitung dengan benar, dan jangan memakai obat tanpa identitas jelas."
-          },
-          {
-            "title": "4. Lakukan verifikasi tambahan",
-            "text": "Ikuti double-check independen untuk obat/proses yang dipersyaratkan."
-          },
-          {
-            "title": "5. Identifikasi di sisi pasien",
-            "text": "Gunakan minimal dua identitas dan jelaskan obat secara singkat."
-          },
-          {
-            "title": "6. Berikan dengan teknik benar",
-            "text": "Rute, kecepatan, kompatibilitas, posisi, dan teknik aseptik sesuai obat."
-          },
-          {
-            "title": "7. Dokumentasikan setelah diberikan",
-            "text": "Catat waktu, dosis, rute, lokasi bila relevan, penolakan/tertunda, dan alasan."
-          },
-          {
-            "title": "8. Pantau respons",
-            "text": "Nilai efek terapi, reaksi alergi, efek samping, dan parameter yang perlu dievaluasi."
-          }
-        ],
-        "columns": 2,
-        "note": "Bila ada ketidaksesuaian, hentikan proses dan klarifikasi sebelum obat mencapai pasien."
-      }
     },
     {
       "type": "html",
@@ -130,6 +192,50 @@
     },
     {
       "type": "html",
+      "title": "Praktik: pemberian obat yang aman",
+      "caption": "Gunakan proses berlapis dari verifikasi order sampai evaluasi respons.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "1. Verifikasi order",
+            "text": "Pastikan pasien, obat, dosis, rute, waktu, indikasi, duplikasi, dan kejelasan instruksi."
+          },
+          {
+            "title": "2. Kaji pasien",
+            "text": "Identitas, alergi, kondisi klinis, hasil laboratorium, kemampuan menelan, akses, dan kontraindikasi."
+          },
+          {
+            "title": "3. Siapkan satu pasien pada satu waktu",
+            "text": "Kurangi interupsi, baca label berulang, hitung dengan benar, dan jangan memakai obat tanpa identitas jelas."
+          },
+          {
+            "title": "4. Lakukan verifikasi tambahan",
+            "text": "Ikuti double-check independen untuk obat/proses yang dipersyaratkan."
+          },
+          {
+            "title": "5. Identifikasi di sisi pasien",
+            "text": "Gunakan minimal dua identitas dan jelaskan obat secara singkat."
+          },
+          {
+            "title": "6. Berikan dengan teknik benar",
+            "text": "Rute, kecepatan, kompatibilitas, posisi, dan teknik aseptik sesuai obat."
+          },
+          {
+            "title": "7. Dokumentasikan setelah diberikan",
+            "text": "Catat waktu, dosis, rute, lokasi bila relevan, penolakan/tertunda, dan alasan."
+          },
+          {
+            "title": "8. Pantau respons",
+            "text": "Nilai efek terapi, reaksi alergi, efek samping, dan parameter yang perlu dievaluasi."
+          }
+        ],
+        "columns": 2,
+        "note": "Bila ada ketidaksesuaian, hentikan proses dan klarifikasi sebelum obat mencapai pasien."
+      }
+    },
+    {
+      "type": "html",
       "title": "Situasi khusus",
       "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
       "template": {
@@ -154,38 +260,6 @@
           {
             "title": "Kesalahan atau near miss",
             "text": "Utamakan keselamatan pasien, lapor segera, lakukan monitoring, dokumentasi klinis, dan pelaporan insiden sesuai sistem."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menyiapkan untuk banyak pasien sekaligus",
-            "text": "Meningkatkan risiko tertukar dan sulit melacak proses."
-          },
-          {
-            "title": "Mengandalkan hafalan kemasan",
-            "text": "Produk dapat berubah dan tampak mirip; label harus dibaca aktif."
-          },
-          {
-            "title": "Dokumentasi sebelum diberikan",
-            "text": "Membuat catatan tidak sesuai kejadian bila obat tertunda, ditolak, atau tidak jadi diberikan."
-          },
-          {
-            "title": "Mengabaikan perubahan kondisi",
-            "text": "Instruksi yang benar sebelumnya dapat menjadi tidak aman bila kondisi berubah."
-          },
-          {
-            "title": "Menghancurkan tablet tanpa verifikasi",
-            "text": "Sediaan lepas lambat, enterik, atau obat tertentu tidak boleh dihancurkan."
           }
         ],
         "columns": 2,
@@ -223,9 +297,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menyiapkan untuk banyak pasien sekaligus",
+            "text": "Meningkatkan risiko tertukar dan sulit melacak proses."
+          },
+          {
+            "title": "Mengandalkan hafalan kemasan",
+            "text": "Produk dapat berubah dan tampak mirip; label harus dibaca aktif."
+          },
+          {
+            "title": "Dokumentasi sebelum diberikan",
+            "text": "Membuat catatan tidak sesuai kejadian bila obat tertunda, ditolak, atau tidak jadi diberikan."
+          },
+          {
+            "title": "Mengabaikan perubahan kondisi",
+            "text": "Instruksi yang benar sebelumnya dapat menjadi tidak aman bila kondisi berubah."
+          },
+          {
+            "title": "Menghancurkan tablet tanpa verifikasi",
+            "text": "Sediaan lepas lambat, enterik, atau obat tertentu tidak boleh dihancurkan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 7 elemen penilaian dari PKPO 6, PKPO 6.1 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Sebelum",
       "points": [
@@ -275,6 +387,28 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 6.a adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "R–Regulasi • D–Dokumen • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen • W–Wawancara. Pokok elemennya: Staf yang melakukan pemberian obat, kompeten dan berwenang dengan pembatasan yang ditetapkan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 6.b adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "S–Simulasi • W–Wawancara",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan S–Simulasi • W–Wawancara. Pokok elemennya: Telah dilaksanaan verifikasi sebelum obat diberikan kepada pasien minimal meliputi: identitas pasien, nama obat, dosis, rute, dan waktu pemberian."
+    },
     {
       "q": "Sebelum memberi antihipertensi, tekanan darah pasien jauh lebih rendah dari biasanya. Tindakan terbaik adalah…",
       "options": [
@@ -377,14 +511,14 @@
   ],
   "references": [
     {
-      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
-      "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
-    },
-    {
       "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
     },
     {
       "title": "ISMP List of High-Alert Medications in Acute Care Settings",
@@ -393,5 +527,14 @@
     }
   ],
   "priority": "practice",
-  "priorityLabel": "Praktik Wajib"
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "PKPO 6",
+    "PKPO 6.1"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    364,
+    365
+  ]
 }

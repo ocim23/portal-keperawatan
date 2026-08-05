@@ -12,9 +12,51 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian KE 3",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 3.a",
+            "text": "Kebutuhan edukasi pasien dan keluarga dinilai berdasarkan pengkajian terhadap kemampuan dan kemauan belajar pasien dan keluarga yang meliputi poin a) – f) pada maksud dan tujuan, dan dicatat di rekam medis.",
+            "bullets": [
+              "Kelengkapan bukti: Pengkajian tentang penilaian kebutuhan edukasi pasien dan keluarga yang berdasarkan pengkajian terhadap kemampuan dan kemauan belajar pasien dan keluarga yang meliputi poin a) – f) pada maksud dan tujuan, dan dicatat di rekam medis.",
+              "Halaman instrumen: 373"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 3.b",
+            "text": "Hambatan dari pasien dan keluarga dalam menerima edukasi dinilai sebelum pemberian edukasi dan dicatat di rekam medis.",
+            "bullets": [
+              "Kelengkapan bukti: Pengkajian terhadap hambatan dari pasien dan keluarga dalam menerima edukasi pada rekam medis",
+              "Halaman instrumen: 373"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 3.c",
+            "text": "Terdapat bukti dilakukan pengkajian kemampuan dan kemauan belajar pasien/keluarga, serta hasil pengkajian digunakan PPA untuk membuat perencanaan kebutuhan edukasi.",
+            "bullets": [
+              "Kelengkapan bukti: Pengkajian kemampuan dan kemauan belajar pasien/keluarga, serta hasil pengkajian digunakan PPA untuk membuat perencanaan kebutuhan edukasi pada rekam medis",
+              "Halaman instrumen: 373"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +155,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Memberi edukasi karena checklist",
-            "text": "Tidak menjamin relevan atau dipahami."
-          },
-          {
-            "title": "Menganggap tingkat pendidikan tinggi pasti paham",
-            "text": "Kondisi klinis memengaruhi."
-          },
-          {
-            "title": "Menggunakan keluarga sebagai penerjemah tanpa pertimbangan",
-            "text": "Akurasi dan privasi dapat terganggu."
-          },
-          {
-            "title": "Tidak mencatat hambatan",
-            "text": "PPA lain mengulang pendekatan yang gagal."
-          },
-          {
-            "title": "Memaksa saat pasien tidak siap",
-            "text": "Menurunkan retensi dan kepercayaan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +184,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Memberi edukasi karena checklist",
+            "text": "Tidak menjamin relevan atau dipahami."
+          },
+          {
+            "title": "Menganggap tingkat pendidikan tinggi pasti paham",
+            "text": "Kondisi klinis memengaruhi."
+          },
+          {
+            "title": "Menggunakan keluarga sebagai penerjemah tanpa pertimbangan",
+            "text": "Akurasi dan privasi dapat terganggu."
+          },
+          {
+            "title": "Tidak mencatat hambatan",
+            "text": "PPA lain mengulang pendekatan yang gagal."
+          },
+          {
+            "title": "Memaksa saat pasien tidak siap",
+            "text": "Menurunkan retensi dan kepercayaan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 3 elemen penilaian dari KE 3 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +273,28 @@
     "Menurunkan retensi dan kepercayaan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 3.a adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Kebutuhan edukasi pasien dan keluarga dinilai berdasarkan pengkajian terhadap kemampuan dan kemauan belajar pasien dan keluarga yang meliputi poin a) – f) pada maksud dan tujuan, dan dicatat di rekam medis."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 3.b adalah…",
+      "options": [
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara"
+      ],
+      "answer": 3,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Hambatan dari pasien dan keluarga dalam menerima edukasi dinilai sebelum pemberian edukasi dan dicatat di rekam medis."
+    },
     {
       "q": "Dalam situasi “Pasien nyeri berat”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +386,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -330,5 +405,12 @@
     "asesmen edukasi",
     "kesiapan belajar",
     "literasi kesehatan"
+  ],
+  "instrumentCodes": [
+    "KE 3"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    373
   ]
 }

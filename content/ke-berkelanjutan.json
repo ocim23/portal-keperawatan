@@ -12,9 +12,73 @@
   "priorityLabel": "Pengetahuan Wajib",
   "minutes": 11,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian KE 6 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 6.a",
+            "text": "Rumah sakit mengidentifikasi sumber-sumber yang ada di komunitas untuk mendukung promosi kesehatan berkelanjutan dan edukasi untuk menunjang asuhan pasien yang berkelanjutan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti daftar Faskes dan praktik mandiri untuk mendukung promosi kesehatan dan edukasi yang menunjang asuhan pasien yang berkelanjutan",
+              "Halaman instrumen: 377"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 6.b",
+            "text": "Rumah sakit telah memiliki jejaring di komunitas untuk mendukung asuhan pasien berkelanjutan.",
+            "bullets": [
+              "Kelengkapan bukti: MOU atau Kerjasama dengan jejaring di komunitas untuk mendukung asuhan pasien berkelanjutan.",
+              "Halaman instrumen: 377"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen",
+            "title": "EP KE 6.c",
+            "text": "Memiliki bukti telah disampaikan kepada pasien dan keluarga tentang edukasi lanjutan di komunitas. Rujukan edukasi tersebut dilaksanakan oleh jejaring utama yaitu Fasilitas Kesehatan Tingkat Pertama (FKTP).",
+            "bullets": [
+              "Kelengkapan bukti: Bukti tentang pemberian edukasi rujukan lanjutan di komunitas",
+              "Halaman instrumen: 377"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian KE 6 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP KE 6.d",
+            "text": "Terdapat bukti edukasi berkelanjutan tersebut diberikan kepada pasien sesuai dengan kebutuhan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti tentang pemberian edukasi berkelanjutan diberikan kepada pasien sesuai dengan kebutuhan.",
+              "Halaman instrumen: 377"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +177,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Hanya memberi surat rujukan",
-            "text": "Pasien mungkin tidak tahu langkah akses."
-          },
-          {
-            "title": "Menggunakan nomor kontak tidak aktif",
-            "text": "Menghambat tindak lanjut."
-          },
-          {
-            "title": "Tidak mengirim informasi penting",
-            "text": "Penerima harus mengulang atau kehilangan konteks."
-          },
-          {
-            "title": "Mengabaikan kemampuan caregiver",
-            "text": "Rencana rumah menjadi tidak aman."
-          },
-          {
-            "title": "Tidak menjelaskan kondisi darurat",
-            "text": "Pasien terlambat mencari pertolongan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +206,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Hanya memberi surat rujukan",
+            "text": "Pasien mungkin tidak tahu langkah akses."
+          },
+          {
+            "title": "Menggunakan nomor kontak tidak aktif",
+            "text": "Menghambat tindak lanjut."
+          },
+          {
+            "title": "Tidak mengirim informasi penting",
+            "text": "Penerima harus mengulang atau kehilangan konteks."
+          },
+          {
+            "title": "Mengabaikan kemampuan caregiver",
+            "text": "Rencana rumah menjadi tidak aman."
+          },
+          {
+            "title": "Tidak menjelaskan kondisi darurat",
+            "text": "Pasien terlambat mencari pertolongan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 4 elemen penilaian dari KE 6 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +295,28 @@
     "Pasien terlambat mencari pertolongan."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 6.a adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit mengidentifikasi sumber-sumber yang ada di komunitas untuk mendukung promosi kesehatan berkelanjutan dan edukasi untuk menunjang asuhan pasien yang berkelanjutan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 6.b adalah…",
+      "options": [
+        "D–Dokumen • W–Wawancara",
+        "R–Regulasi saja",
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja"
+      ],
+      "answer": 0,
+      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit telah memiliki jejaring di komunitas untuk mendukung asuhan pasien berkelanjutan."
+    },
     {
       "q": "Dalam situasi “Pasien butuh rehabilitasi”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +408,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -331,5 +428,12 @@
     "home care",
     "fktp",
     "promosi kesehatan"
+  ],
+  "instrumentCodes": [
+    "KE 6"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    377
   ]
 }

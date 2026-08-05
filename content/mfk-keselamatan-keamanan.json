@@ -12,9 +12,137 @@
   "priorityLabel": "Pengetahuan Wajib",
   "minutes": 11,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
   "quizDisplayCount": 5,
   "slides": [
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 3 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara • R–Regulasi",
+            "title": "EP MFK 3.a",
+            "text": "Rumah Sakit menerapkan proses pengelolaan keselamatan rumah sakit meliputi poin a) - c) pada maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti penerapan program pengelolaan keselamatan RS meliputi a) - c) dalam maksud dan tujuan. Lihat bangunan, prasarana, lingkungan, properti, teknologi medis dan informasi, peralatan dan sistem; tidak menimbulkan risiko fisik. - Komite/Tim K3 - Bagian Umum/ Kepala IPSRS",
+              "Halaman instrumen: 100"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "R–Regulasi",
+            "title": "EP MFK 3.b",
+            "text": "Rumah sakit telah mengintegrasikan program Kesehatan dan keselamatan kerja staf ke dalam program manajemen fasilitas dan keselamatan (MFK)",
+            "bullets": [
+              "Kelengkapan bukti: Program Kesehatan dan Keselamatan Kerja terintegrasi dengan program MFK",
+              "Halaman instrumen: 100"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP MFK 3.c",
+            "text": "Rumah sakit telah membuat pengkajian risiko secara proaktif terkait keselamatan di rumah sakit setiap tahun yang didokumentasikan dalam daftar risiko/risk register.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti daftar risiko/risk register terkait dengan keselamatan di rumah sakit. Penanggung jawab MFK",
+              "Halaman instrumen: 100"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 3 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP MFK 3.d",
+            "text": "Rumah sakit telah melakukan pemantauan risiko keselamatan dan dilaporkan setiap 6 (enam) bulan kepada pimpinan rumah sakit.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti hasil pemantauan risiko keselamatan dan laporan setiap 6 (enam) bulan sekali kepada pimpinan rumah sakit - Pimpinan RS - Komite/Tim K3 - Bagian umum/ Kepala IPSRS",
+              "Halaman instrumen: 100, 101"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 4 (1/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "A",
+            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
+            "title": "EP MFK 4.a",
+            "text": "Rumah sakit menerapkan proses pengelolaan keamanan di lingkungan rumah sakit meliputi poin a) - e) pada maksud dan tujuan.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti penerapan proses pengelolaan keamanan di lingkungan rumah sakit meliputi a) - e) pada maksud dan tujuan. Observasi pemberian 1. identitas pada pasien, staf, pekerja kontrak, tenant/penyewa lahan, keluarga (penunggu pasien) atau pengunjung (pengunjung diluar jam besuk dan tamu rumah sakit) Observasi CCTV terpasang di 2. area yang ditetapkan berisiko keamanan - Komite/Tim K3 - Komite Mutu - Bagian Umum/Kepala IPSRS",
+              "Halaman instrumen: 102"
+            ]
+          },
+          {
+            "level": "B",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP MFK 4.b",
+            "text": "Rumah sakit telah membuat pengkajian risiko secara proaktif terkait keamanan di Rumah Sakit setiap tahun yang didokumentasikan dalam daftar risiko/risk register.",
+            "bullets": [
+              "Kelengkapan bukti: Bukti daftar risiko/risk register terkait keamanan, setiap tahun. - Komite/Tim K3 - Komite Mutu - Bagian Umum/Kepala IPSRS",
+              "Halaman instrumen: 102, 103"
+            ]
+          },
+          {
+            "level": "C",
+            "tag": "D–Dokumen",
+            "title": "EP MFK 4.c",
+            "text": "Rumah sakit telah membuat pengkajian risiko secara proaktif terkait keselamatan di rumah sakit. (Daftar risiko/risk register).",
+            "bullets": [
+              "Kelengkapan bukti: Bukti daftar risiko/risk register terkait keselamatan di rumah sakit, setiap tahun.",
+              "Halaman instrumen: 103"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Elemen Penilaian MFK 4 (2/2)",
+      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "template": {
+        "style": "bands",
+        "items": [
+          {
+            "level": "D",
+            "tag": "D–Dokumen • W–Wawancara",
+            "title": "EP MFK 4.d",
+            "text": "Rumah sakit telah melakukan pemantauan risiko keamanan dan dilaporkan setiap 6 (enam) bulan kepada Direktur rumah sakit",
+            "bullets": [
+              "Kelengkapan bukti: Bukti laporan pemantauan risiko keamanan kepada Direktur setiap 6 (enam) bulan sekali. Penanggung jawab Keamanan",
+              "Halaman instrumen: 103"
+            ]
+          }
+        ],
+        "columns": 1,
+        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+      }
+    },
     {
       "type": "html",
       "title": "Pahami konsep",
@@ -113,38 +241,6 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Memperbaiki listrik sendiri",
-            "text": "Di luar kewenangan dan berbahaya."
-          },
-          {
-            "title": "Mengabaikan bahaya kecil",
-            "text": "Dapat berkembang menjadi insiden."
-          },
-          {
-            "title": "Membiarkan pintu akses terbuka",
-            "text": "Mengurangi keamanan."
-          },
-          {
-            "title": "Menghadapi pelaku sendirian",
-            "text": "Meningkatkan risiko cedera."
-          },
-          {
-            "title": "Tidak melaporkan near miss fasilitas",
-            "text": "Sistem tidak dapat memperbaiki."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
       "title": "Peran perawat",
       "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
       "template": {
@@ -174,9 +270,47 @@
         "columns": 1,
         "note": ""
       }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Memperbaiki listrik sendiri",
+            "text": "Di luar kewenangan dan berbahaya."
+          },
+          {
+            "title": "Mengabaikan bahaya kecil",
+            "text": "Dapat berkembang menjadi insiden."
+          },
+          {
+            "title": "Membiarkan pintu akses terbuka",
+            "text": "Mengurangi keamanan."
+          },
+          {
+            "title": "Menghadapi pelaku sendirian",
+            "text": "Meningkatkan risiko cedera."
+          },
+          {
+            "title": "Tidak melaporkan near miss fasilitas",
+            "text": "Sistem tidak dapat memperbaiki."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
     }
   ],
   "summarySections": [
+    {
+      "title": "Dasar instrumen penilaian",
+      "points": [
+        "Materi ini mencakup 8 elemen penilaian dari MFK 3, MFK 4 beserta jenis kelengkapan buktinya."
+      ]
+    },
     {
       "title": "Konsep utama",
       "points": [
@@ -225,6 +359,28 @@
     "Sistem tidak dapat memperbaiki."
   ],
   "quiz": [
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 3.a adalah…",
+      "options": [
+        "D–Dokumen saja",
+        "O–Observasi dan S–Simulasi saja",
+        "D–Dokumen • O–Observasi • W–Wawancara • R–Regulasi",
+        "R–Regulasi saja"
+      ],
+      "answer": 2,
+      "why": "EP tersebut dinilai dengan D–Dokumen • O–Observasi • W–Wawancara • R–Regulasi. Pokok elemennya: Rumah Sakit menerapkan proses pengelolaan keselamatan rumah sakit meliputi poin a) - c) pada maksud dan tujuan."
+    },
+    {
+      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 3.b adalah…",
+      "options": [
+        "O–Observasi dan S–Simulasi saja",
+        "R–Regulasi",
+        "R–Regulasi saja",
+        "D–Dokumen saja"
+      ],
+      "answer": 1,
+      "why": "EP tersebut dinilai dengan R–Regulasi. Pokok elemennya: Rumah sakit telah mengintegrasikan program Kesehatan dan keselamatan kerja staf ke dalam program manajemen fasilitas dan keselamatan (MFK)"
+    },
     {
       "q": "Dalam situasi “Lantai basah”, tindakan yang paling tepat adalah…",
       "options": [
@@ -316,6 +472,11 @@
   ],
   "references": [
     {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
       "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
       "org": "Kementerian Kesehatan Republik Indonesia",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
@@ -331,5 +492,16 @@
     "keamanan rumah sakit",
     "bahaya fisik",
     "security"
+  ],
+  "instrumentCodes": [
+    "MFK 3",
+    "MFK 4"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    100,
+    101,
+    102,
+    103
   ]
 }
