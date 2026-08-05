@@ -1,18 +1,23 @@
-# Audit Konten v4.1.0
+# CONTENT AUDIT v4.2.0
 
-## Prinsip editorial
-1. Judul harus dijawab oleh isi.
-2. Istilah teknis dijelaskan dengan bahasa sederhana dan contoh.
-3. Langkah praktik menjelaskan urutan, alasan, kondisi aman, dan batas eskalasi.
-4. Materi nasional tidak mengklaim detail lokal sebagai aturan universal.
-5. Infografik praktik digunakan untuk topik yang sering diminta dalam simulasi surveior.
-6. Kuis mengutamakan penerapan dan kasus, bukan hafalan mudah.
+- Total submateri: 62
+- Praktik Wajib: 38
+- Pengetahuan Wajib: 24
+- Bagian pembelajaran: 376
+- Bank soal: 524
 
-## Cakupan
-- 31 file materi tervalidasi secara struktur.
-- 226 slide/bagian pembelajaran.
-- 279 soal, seluruhnya memiliki 4 opsi, satu kunci, dan pembahasan.
-- 35 poster utama + 35 thumbnail tersedia.
+## Jumlah per kelompok
+- SKP: 7
+- PP: 4
+- PAP: 9
+- PPI: 6
+- PKPO: 7
+- PMKP: 6
+- HPK: 9
+- KE: 6
+- MFK: 8
 
-## Batasan
-Portal tidak menggantikan regulasi, instrumen survei, SPO fasilitas, pelatihan kompetensi, atau keputusan klinis. Nomor aktivasi, jalur eskalasi, daftar obat, warna penanda, rute evakuasi, dan detail teknis tertentu tetap mengikuti fasilitas masing-masing.
+## Prinsip
+- Judul mempertahankan kode standar.
+- Materi tata kelola/teknis di luar fokus perawat tidak ditampilkan sebagai kartu.
+- Penerapan lokal tetap mengikuti regulasi dan SPO rumah sakit.

@@ -1,18 +1,37 @@
-# Portal Keperawatan v4.1.0
+# Portal Keperawatan v4.2.0 — Revisi Fokus Keperawatan
 
-Portal pembelajaran akreditasi dan asuhan keperawatan untuk belajar mandiri. Situs ini merupakan inisiatif pribadi dan bukan portal resmi rumah sakit.
+Paket statis **GitHub Pages + PWA**. Tidak memerlukan Apps Script, Google Sheet, atau database.
 
-## Isi
-- 31 submateri dalam 9 kelompok standar.
-- 226 bagian pembelajaran: visual pembuka, konsep, praktik/simulasi, alur, situasi khusus, kesalahan umum, dan peran perawat.
-- 279 soal dalam bank kuis; 5 soal ditampilkan secara acak setiap percobaan.
-- Format visual clean: infografik, tabel, kartu, checklist, dan alur.
-- Swipe slide di HP, navigasi Back yang memulihkan posisi, serta PWA.
+## Isi revisi
 
-## Deploy GitHub Pages
+- 9 kelompok standar: SKP, PP, PAP, PPI, PKPO, PMKP, HPK, KE, dan MFK.
+- 62 submateri: 38 **Praktik Wajib** dan 24 **Pengetahuan Wajib**.
+- 376 bagian pembelajaran dan 524 soal pada bank kuis.
+- Materi tata kelola/teknis yang bukan fokus langsung perawat tidak dibuat menjadi kartu.
+- Setiap halaman kelompok memiliki catatan cakupan dan daftar nomor yang sengaja tidak ditampilkan.
+- Nomor dan nama standar dipertahankan pada kartu serta halaman materi.
+- Tombol **Kembali ke [kelompok]** tersedia pada desktop/PWA dan mobile.
+- Back/Forward memulihkan posisi scroll; favorit, riwayat, dan progres poster tersimpan di perangkat.
+- Filter: Semua, Praktik Wajib, dan Pengetahuan Wajib.
+
+## Publikasi di GitHub Pages
+
 1. Ekstrak ZIP.
-2. Unggah **seluruh isi folder ini** ke root repository dan timpa versi lama.
-3. Commit, lalu tunggu GitHub Pages selesai deploy.
-4. Tutup PWA dari recent apps dan buka kembali agar service worker v4.1.0 aktif.
+2. Upload **seluruh isi folder** ke root repository GitHub.
+3. Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+4. Tunggu publikasi, lalu lakukan hard refresh bila versi lama masih tercache.
 
-Bila upload melalui browser GitHub, unggah bertahap bila jumlah file melebihi batas upload browser.
+## Instal sebagai aplikasi
+
+Buka portal dari Chrome/Edge, lalu pilih **Install app** atau **Tambahkan ke layar utama**.
+
+## Berkas yang sering diedit
+
+- `content/*.json` — isi tiap submateri.
+- `assets/data/catalog-v4-2-0.json` — susunan kelompok, catatan cakupan, prioritas, dan metadata pencarian.
+- `assets/js/app-v4-2-0.js` — navigasi, filter, kuis, favorit, pencarian, dan PWA.
+- `assets/css/styles-v4-2-0.css` — desain desktop/mobile.
+
+## Batas penggunaan
+
+Portal merupakan media pembelajaran internal/pribadi, bukan situs resmi rumah sakit. Penerapan klinis, kode darurat, daftar obat, lokasi alat, alur pelaporan, titik kumpul, dan kewenangan harus mengikuti regulasi serta SPO rumah sakit.

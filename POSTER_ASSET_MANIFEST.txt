@@ -1,75 +1,35 @@
-Portal Keperawatan v4.1.0 - Poster Asset Manifest
+POSTER ASSET MANIFEST v4.2.0
 
-assets/images/v4: 35 file
-- assets/images/v4/hpk-hak-kewajiban/hpk-hak-kewajiban-01.webp | 110744 bytes | sha256 0f148690bfd9
-- assets/images/v4/hpk-privasi-persetujuan/hpk-privasi-persetujuan-01.webp | 110728 bytes | sha256 951313ce0b63
-- assets/images/v4/ke-edukasi/ke-edukasi-01.webp | 100088 bytes | sha256 461f9bbce00b
-- assets/images/v4/ke-komunikasi/ke-komunikasi-01.webp | 107674 bytes | sha256 74b0e2119951
-- assets/images/v4/mfk-apar/mfk-apar-01.webp | 98040 bytes | sha256 1bf7f8afec2c
-- assets/images/v4/mfk-apar/mfk-apar-02.webp | 71628 bytes | sha256 4b024de180e8
-- assets/images/v4/mfk-evakuasi/mfk-evakuasi-01.webp | 118272 bytes | sha256 5ca5149d4936
-- assets/images/v4/pap-akhir-hayat/pap-akhir-hayat-01.webp | 115388 bytes | sha256 d5e3f247a20f
-- assets/images/v4/pap-bhd/pap-bhd-01.webp | 103790 bytes | sha256 58fdae044e80
-- assets/images/v4/pap-bhd/pap-bhd-02.webp | 64984 bytes | sha256 1dd54d7ea355
-- assets/images/v4/pap-bhd/pap-bhd-03.webp | 77868 bytes | sha256 e01141d674a0
-- assets/images/v4/pap-code-blue/pap-code-blue-01.webp | 98994 bytes | sha256 3c5ad79042fa
-- assets/images/v4/pap-ews/pap-ews-01.webp | 107530 bytes | sha256 185cb99e6705
-- assets/images/v4/pap-nutrisi/pap-nutrisi-01.webp | 115042 bytes | sha256 7a66146e386b
-- assets/images/v4/pap-nyeri/pap-nyeri-01.webp | 106758 bytes | sha256 e6a87d421833
-- assets/images/v4/pap-risiko-tinggi/pap-risiko-tinggi-01.webp | 116440 bytes | sha256 a4d2309d7437
-- assets/images/v4/pap-terintegrasi/pap-terintegrasi-01.webp | 108076 bytes | sha256 420ddbe6d61a
-- assets/images/v4/pkpo-lasa-highalert/pkpo-lasa-highalert-01.webp | 113066 bytes | sha256 c3592618d82b
-- assets/images/v4/pkpo-pemberian/pkpo-pemberian-01.webp | 109280 bytes | sha256 cbacecbcd254
-- assets/images/v4/pmkp-keselamatan/pmkp-keselamatan-01.webp | 98052 bytes | sha256 cb8c6128576e
-- assets/images/v4/pmkp-mutu/pmkp-mutu-01.webp | 117014 bytes | sha256 25ac51492eca
-- assets/images/v4/pmkp-mutu/pmkp-mutu-02.webp | 91656 bytes | sha256 05e492bcedf7
-- assets/images/v4/pp-awal/pp-awal-01.webp | 95956 bytes | sha256 9300060e56a0
-- assets/images/v4/pp-khusus/pp-khusus-01.webp | 103298 bytes | sha256 a8356c94e804
-- assets/images/v4/pp-ulang-cppt/pp-ulang-cppt-01.webp | 92998 bytes | sha256 f45ec1cc8882
-- assets/images/v4/ppi-apd-transmisi/ppi-apd-transmisi-01.webp | 100224 bytes | sha256 7aa87b1cbdf3
-- assets/images/v4/ppi-limbah-spill/ppi-limbah-spill-01.webp | 100208 bytes | sha256 50363aa7f03d
-- assets/images/v4/ppi-tangan/ppi-tangan-01.webp | 102842 bytes | sha256 4e43f91a2f7c
-- assets/images/v4/skp-1-identifikasi/skp-1-identifikasi-01.webp | 113006 bytes | sha256 2fc9177e8f7c
-- assets/images/v4/skp-2-komunikasi/skp-2-komunikasi-01.webp | 97486 bytes | sha256 1b06681d828a
-- assets/images/v4/skp-3-obat/skp-3-obat-01.webp | 116772 bytes | sha256 4dfdfe52eedc
-- assets/images/v4/skp-4-tindakan/skp-4-tindakan-01.webp | 107990 bytes | sha256 7538fa104659
-- assets/images/v4/skp-5-infeksi/skp-5-infeksi-01.webp | 102378 bytes | sha256 b0fcd3e8135f
-- assets/images/v4/skp-6-jatuh/skp-6-jatuh-01.webp | 103328 bytes | sha256 125c1239af60
-- assets/images/v4/skp-ringkasan/skp-ringkasan-01.webp | 78266 bytes | sha256 4da58f96cc1d
+Poster WebP lama dipertahankan untuk materi yang telah memiliki aset. Materi baru menggunakan infografik HTML responsif agar ringan dan tajam di desktop maupun mobile.
 
-assets/images/thumb/v4: 35 file
-- assets/images/thumb/v4/hpk-hak-kewajiban/hpk-hak-kewajiban-01.webp | 16416 bytes | sha256 0e3038bbdfcd
-- assets/images/thumb/v4/hpk-privasi-persetujuan/hpk-privasi-persetujuan-01.webp | 17154 bytes | sha256 8cf97477591e
-- assets/images/thumb/v4/ke-edukasi/ke-edukasi-01.webp | 15470 bytes | sha256 4ef9035110da
-- assets/images/thumb/v4/ke-komunikasi/ke-komunikasi-01.webp | 16586 bytes | sha256 a88db0d9ee97
-- assets/images/thumb/v4/mfk-apar/mfk-apar-01.webp | 15632 bytes | sha256 2d3eb25bbd08
-- assets/images/thumb/v4/mfk-apar/mfk-apar-02.webp | 11778 bytes | sha256 4b548464869a
-- assets/images/thumb/v4/mfk-evakuasi/mfk-evakuasi-01.webp | 17900 bytes | sha256 79a0136a067d
-- assets/images/thumb/v4/pap-akhir-hayat/pap-akhir-hayat-01.webp | 17678 bytes | sha256 4050f3c1880a
-- assets/images/thumb/v4/pap-bhd/pap-bhd-01.webp | 16282 bytes | sha256 5cfce5b9a619
-- assets/images/thumb/v4/pap-bhd/pap-bhd-02.webp | 10962 bytes | sha256 9db9e21a2aa0
-- assets/images/thumb/v4/pap-bhd/pap-bhd-03.webp | 13012 bytes | sha256 f2d8c4fb5c4a
-- assets/images/thumb/v4/pap-code-blue/pap-code-blue-01.webp | 15148 bytes | sha256 38f541bf20dd
-- assets/images/thumb/v4/pap-ews/pap-ews-01.webp | 16386 bytes | sha256 083a9e04ccfc
-- assets/images/thumb/v4/pap-nutrisi/pap-nutrisi-01.webp | 17622 bytes | sha256 a47d3f7445b5
-- assets/images/thumb/v4/pap-nyeri/pap-nyeri-01.webp | 16604 bytes | sha256 7b12d0e9e749
-- assets/images/thumb/v4/pap-risiko-tinggi/pap-risiko-tinggi-01.webp | 17484 bytes | sha256 299ec24265d8
-- assets/images/thumb/v4/pap-terintegrasi/pap-terintegrasi-01.webp | 16760 bytes | sha256 4085f4d14aa6
-- assets/images/thumb/v4/pkpo-lasa-highalert/pkpo-lasa-highalert-01.webp | 17628 bytes | sha256 fd2b0a49bd8f
-- assets/images/thumb/v4/pkpo-pemberian/pkpo-pemberian-01.webp | 16564 bytes | sha256 472c6185724b
-- assets/images/thumb/v4/pmkp-keselamatan/pmkp-keselamatan-01.webp | 15692 bytes | sha256 03a70af35475
-- assets/images/thumb/v4/pmkp-mutu/pmkp-mutu-01.webp | 18946 bytes | sha256 9c3aaf5cb02e
-- assets/images/thumb/v4/pmkp-mutu/pmkp-mutu-02.webp | 14870 bytes | sha256 e7d357d8977a
-- assets/images/thumb/v4/pp-awal/pp-awal-01.webp | 15060 bytes | sha256 c7e8a610d6c5
-- assets/images/thumb/v4/pp-khusus/pp-khusus-01.webp | 16300 bytes | sha256 ebb802f18ca6
-- assets/images/thumb/v4/pp-ulang-cppt/pp-ulang-cppt-01.webp | 14528 bytes | sha256 e32f4caff2a7
-- assets/images/thumb/v4/ppi-apd-transmisi/ppi-apd-transmisi-01.webp | 15800 bytes | sha256 c918f0251127
-- assets/images/thumb/v4/ppi-limbah-spill/ppi-limbah-spill-01.webp | 15864 bytes | sha256 158a505731a6
-- assets/images/thumb/v4/ppi-tangan/ppi-tangan-01.webp | 15930 bytes | sha256 0ec040a28886
-- assets/images/thumb/v4/skp-1-identifikasi/skp-1-identifikasi-01.webp | 17306 bytes | sha256 6bd3a63be8c5
-- assets/images/thumb/v4/skp-2-komunikasi/skp-2-komunikasi-01.webp | 15098 bytes | sha256 1fcc865eca2d
-- assets/images/thumb/v4/skp-3-obat/skp-3-obat-01.webp | 18318 bytes | sha256 2dd8c8fabcf1
-- assets/images/thumb/v4/skp-4-tindakan/skp-4-tindakan-01.webp | 17394 bytes | sha256 677112493afa
-- assets/images/thumb/v4/skp-5-infeksi/skp-5-infeksi-01.webp | 16390 bytes | sha256 a16579c5d288
-- assets/images/thumb/v4/skp-6-jatuh/skp-6-jatuh-01.webp | 16878 bytes | sha256 06d6fa0c102f
-- assets/images/thumb/v4/skp-ringkasan/skp-ringkasan-01.webp | 12224 bytes | sha256 a61527c3ef87
+assets/images/v4/hpk-hak-kewajiban/hpk-hak-kewajiban-01.webp
+assets/images/v4/hpk-privasi-persetujuan/hpk-privasi-persetujuan-01.webp
+assets/images/v4/ke-edukasi/ke-edukasi-01.webp
+assets/images/v4/ke-komunikasi/ke-komunikasi-01.webp
+assets/images/v4/mfk-apar/mfk-apar-01.webp
+assets/images/v4/mfk-apar/mfk-apar-02.webp
+assets/images/v4/mfk-evakuasi/mfk-evakuasi-01.webp
+assets/images/v4/pap-akhir-hayat/pap-akhir-hayat-01.webp
+assets/images/v4/pap-bhd/pap-bhd-01.webp
+assets/images/v4/pap-bhd/pap-bhd-02.webp
+assets/images/v4/pap-bhd/pap-bhd-03.webp
+assets/images/v4/pap-code-blue/pap-code-blue-01.webp
+assets/images/v4/pap-ews/pap-ews-01.webp
+assets/images/v4/pap-nutrisi/pap-nutrisi-01.webp
+assets/images/v4/pap-nyeri/pap-nyeri-01.webp
+assets/images/v4/pap-risiko-tinggi/pap-risiko-tinggi-01.webp
+assets/images/v4/pap-terintegrasi/pap-terintegrasi-01.webp
+assets/images/v4/pkpo-pemberian/pkpo-pemberian-01.webp
+assets/images/v4/pmkp-keselamatan/pmkp-keselamatan-01.webp
+assets/images/v4/pp-awal/pp-awal-01.webp
+assets/images/v4/pp-ulang-cppt/pp-ulang-cppt-01.webp
+assets/images/v4/ppi-apd-transmisi/ppi-apd-transmisi-01.webp
+assets/images/v4/ppi-limbah-spill/ppi-limbah-spill-01.webp
+assets/images/v4/ppi-tangan/ppi-tangan-01.webp
+assets/images/v4/skp-1-identifikasi/skp-1-identifikasi-01.webp
+assets/images/v4/skp-2-komunikasi/skp-2-komunikasi-01.webp
+assets/images/v4/skp-3-obat/skp-3-obat-01.webp
+assets/images/v4/skp-4-tindakan/skp-4-tindakan-01.webp
+assets/images/v4/skp-5-infeksi/skp-5-infeksi-01.webp
+assets/images/v4/skp-6-jatuh/skp-6-jatuh-01.webp
+assets/images/v4/skp-ringkasan/skp-ringkasan-01.webp
