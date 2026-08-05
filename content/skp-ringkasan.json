@@ -10,91 +10,43 @@
   "icon": "shield",
   "minutes": 20,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Peta elemen penilaian 6 SKP",
-      "caption": "Ringkasan ini menunjukkan struktur penilaian. Buka setiap SKP untuk membaca bunyi elemen dan kelengkapan buktinya.",
+      "title": "Enam Sasaran Keselamatan Pasien",
+      "caption": "Peta singkat kompetensi yang harus tampak dalam praktik perawat.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "1",
-            "tag": "Peta elemen",
-            "title": "SKP 1",
-            "text": "4 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • R–Regulasi • S–Simulasi • W–Wawancara.",
-            "bullets": [
-              "Halaman instrumen: 380"
-            ]
+            "title": "SKP 1 — Identifikasi",
+            "text": "Gunakan minimal dua identitas sebelum obat, darah, spesimen, tindakan, dan pelayanan lain."
           },
           {
-            "level": "2",
-            "tag": "Peta elemen",
-            "title": "SKP 2",
-            "text": "3 elemen penilaian; bukti dinilai melalui D–Dokumen • R–Regulasi • S–Simulasi • W–Wawancara.",
-            "bullets": [
-              "Halaman instrumen: 383"
-            ]
+            "title": "SKP 2 — Komunikasi efektif",
+            "text": "Informasi kritis harus lengkap, tepat waktu, dikonfirmasi, dan dapat ditindaklanjuti."
           },
           {
-            "level": "3",
-            "tag": "Peta elemen",
-            "title": "SKP 3",
-            "text": "3 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • R–Regulasi • W–Wawancara.",
-            "bullets": [
-              "Halaman instrumen: 385, 386"
-            ]
+            "title": "SKP 3 — Keamanan obat",
+            "text": "Kenali high-alert, LASA/NORUM, dan elektrolit konsentrat serta pengamanannya."
           },
           {
-            "level": "3.1",
-            "tag": "Peta elemen",
-            "title": "SKP 3.1",
-            "text": "3 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • R–Regulasi • W–Wawancara.",
-            "bullets": [
-              "Halaman instrumen: 386"
-            ]
+            "title": "SKP 4 — Benar pasien/prosedur/sisi",
+            "text": "Lakukan verifikasi, penandaan lokasi bila berlaku, dan time-out sebelum tindakan."
           },
           {
-            "level": "4",
-            "tag": "Peta elemen",
-            "title": "SKP 4",
-            "text": "4 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • R–Regulasi • W–Wawancara.",
-            "bullets": [
-              "Halaman instrumen: 390, 391"
-            ]
+            "title": "SKP 5 — Pencegahan infeksi",
+            "text": "Terapkan kebersihan tangan dan praktik pencegahan infeksi sesuai risiko."
           },
           {
-            "level": "5",
-            "tag": "Peta elemen",
-            "title": "SKP 5",
-            "text": "2 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • R–Regulasi • S–Simulasi • W–Wawancara.",
-            "bullets": [
-              "Halaman instrumen: 391, 392"
-            ]
-          },
-          {
-            "level": "6",
-            "tag": "Peta elemen",
-            "title": "SKP 6",
-            "text": "2 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • W–Wawancara.",
-            "bullets": [
-              "Halaman instrumen: 394"
-            ]
-          },
-          {
-            "level": "6.1",
-            "tag": "Peta elemen",
-            "title": "SKP 6.1",
-            "text": "3 elemen penilaian; bukti dinilai melalui D–Dokumen • O–Observasi • W–Wawancara.",
-            "bullets": [
-              "Halaman instrumen: 394, 395"
-            ]
+            "title": "SKP 6 — Pencegahan jatuh",
+            "text": "Skrining, pengkajian, intervensi, edukasi, dan evaluasi ulang risiko jatuh."
           }
         ],
-        "columns": 1,
-        "note": "Elemen penilaian adalah dasar materi; alur, praktik, dan kuis pada bagian berikutnya menjelaskan cara menerapkannya."
+        "columns": 2,
+        "note": "Setiap sasaran harus terlihat dalam tindakan sehari-hari, bukan hanya dihafal."
       }
     },
     {
@@ -329,9 +281,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 24 elemen penilaian dari SKP 1, SKP 2, SKP 3, SKP 3.1, SKP 4, SKP 5, SKP 6, SKP 6.1 beserta jenis kelengkapan buktinya."
+        "SKP 1 — Identifikasi: Gunakan minimal dua identitas sebelum obat, darah, spesimen, tindakan, dan pelayanan lain.",
+        "SKP 2 — Komunikasi efektif: Informasi kritis harus lengkap, tepat waktu, dikonfirmasi, dan dapat ditindaklanjuti.",
+        "SKP 3 — Keamanan obat: Kenali high-alert, LASA/NORUM, dan elektrolit konsentrat serta pengamanannya.",
+        "SKP 4 — Benar pasien/prosedur/sisi: Lakukan verifikasi, penandaan lokasi bila berlaku, dan time-out sebelum tindakan."
       ]
     },
     {
@@ -383,28 +338,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 1.1 adalah…",
-      "options": [
-        "R–Regulasi • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan R–Regulasi • W–Wawancara. Pokok elemennya: Rumah sakit telah menetapkan regulasi terkait Sasaran keselamatan pasien meliputi poin 1 – 6 pada gambaran umum."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 1.2 adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "O–Observasi • W–Wawancara • S–Simulasi"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara • S–Simulasi. Pokok elemennya: Rumah sakit telah menerapkan proses identifikasi pasien menggunakan minimal 2 (dua) identitas, dapat memenuhi tujuan identifikasi pasien dan sesuai dengan ketentuan rumah sakit."
-    },
     {
       "q": "Perawat menemukan nama pada gelang berbeda dengan nama di lembar obat. Tindakan paling aman adalah…",
       "options": [

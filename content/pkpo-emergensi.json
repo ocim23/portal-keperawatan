@@ -12,39 +12,43 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PKPO 3.2",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Kesiapan obat dan BMHP emergensi",
+      "caption": "Troli/kit emergensi harus siap dipakai setiap saat.",
       "template": {
-        "style": "bands",
+        "style": "checklist",
         "items": [
           {
-            "level": "A",
-            "tag": "O–Observasi",
-            "title": "EP PKPO 3.2.a",
-            "text": "Obat dan BMHP untuk kondisi emergensi yang tersimpan di luar Instalasi Farmasi termasuk di ambulans dikelola secara seragam dalam hal penyimpanan, pemantauan, penggantian karena digunakan, rusak atau kedaluwarsa, dan dilindungi dari kehilangan dan pencurian.",
-            "bullets": [
-              "Kelengkapan bukti: Penyimpanan Obat dan BMHP untuk kondisi emergensi yang tersimpan di luar Instalasi Farmasi termasuk di ambulans dikelola sesuai ketentuan. Troli emergensi harus terkunci dengan segel dan bernomor seri",
-              "Halaman instrumen: 353, 354"
-            ]
+            "title": "Lokasi diketahui",
+            "text": "Perawat dapat menunjukkan troli atau kit emergensi terdekat."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PKPO 3.2.b",
-            "text": "Rumah sakit menerapkan tata laksana obat emergensi untuk meningkatkan ketepatan dan kecepatan pemberian obat.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti tata laksana obat emergensi untuk meningkatkan ketepatan dan kecepatan pemberian obat sesuai 1 -4 dalam maksud dan tujuan. - Kepala Instalasi Farmasi - Perawat - Apoteker - Staf Farmasi",
-              "Halaman instrumen: 354"
-            ]
+            "title": "Isi dan tata letak seragam",
+            "text": "Obat/BMHP mudah ditemukan dan sesuai daftar yang ditetapkan."
+          },
+          {
+            "title": "Segel dan keamanan",
+            "text": "Periksa nomor/kondisi segel serta akses yang terkendali."
+          },
+          {
+            "title": "Kedaluwarsa dan kondisi",
+            "text": "Pemeriksaan dilakukan terjadwal dan setelah penggunaan."
+          },
+          {
+            "title": "Setelah dibuka",
+            "text": "Catat pemakaian, minta penggantian, periksa ulang, dan pasang segel baru."
+          },
+          {
+            "title": "Kebutuhan khusus",
+            "text": "Pisahkan atau beri panduan jelas untuk dosis/alat dewasa dan pediatrik bila berlaku."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -210,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 2 elemen penilaian dari PKPO 3.2 beserta jenis kelengkapan buktinya."
+        "Lokasi diketahui: Perawat dapat menunjukkan troli atau kit emergensi terdekat.",
+        "Isi dan tata letak seragam: Obat/BMHP mudah ditemukan dan sesuai daftar yang ditetapkan.",
+        "Segel dan keamanan: Periksa nomor/kondisi segel serta akses yang terkendali.",
+        "Kedaluwarsa dan kondisi: Pemeriksaan dilakukan terjadwal dan setelah penggunaan."
       ]
     },
     {
@@ -263,28 +270,6 @@
     "Troli dapat dipakai dalam keadaan tidak siap."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 3.2.a adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "O–Observasi",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan O–Observasi. Pokok elemennya: Obat dan BMHP untuk kondisi emergensi yang tersimpan di luar Instalasi Farmasi termasuk di ambulans dikelola secara seragam dalam hal penyimpanan, pemantauan, penggantian karena digunakan, rusak atau kedaluwarsa, dan dilindungi dari kehilangan dan pencurian."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 3.2.b adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan tata laksana obat emergensi untuk meningkatkan ketepatan dan kecepatan pemberian obat."
-    },
     {
       "q": "Dalam situasi “Pemeriksaan awal shift”, tindakan yang paling tepat adalah…",
       "options": [

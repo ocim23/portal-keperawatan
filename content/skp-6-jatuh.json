@@ -8,83 +8,45 @@
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 22,
+  "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian SKP 6",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Siklus pencegahan jatuh",
+      "caption": "Risiko jatuh harus dinilai, ditindaklanjuti, dan dikaji ulang.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "1",
-            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
-            "title": "EP SKP 6.1",
-            "text": "Rumah sakit telah melaksanakan skrining pasien rawat jalan pada kondisi, diagnosis, situasi atau lokasi yang dapat menyebabkan pasien berisiko jatuh, dengan menggunakan alat bantu/metode skrining yang ditetapkan rumah sakit",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pelaksanaan skrining risiko jatuh pasien rawat jalan menggunakan alat bantu/metode yang ditetapkan rumah sakit Pelaksanaan skrining risiko jatuh pasien rawat jalan. - Staf unit terkait - Pasien/ Keluarga.",
-              "Halaman instrumen: 394"
-            ]
+            "title": "Skrining awal",
+            "text": "Lakukan saat pasien masuk sesuai alat dan populasi yang ditetapkan."
           },
           {
-            "level": "2",
-            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
-            "title": "EP SKP 6.2",
-            "text": "Tindakan dan/atau intervensi dilakukan untuk mengurangi risiko jatuh pada pasien jika hasil skrining menunjukkan adanya risiko jatuh dan hasil skrining serta intervensi didokumentasikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelaksanaan tindakan dan/atau intervensi untuk mengurangi risiko jatuh pada pasien didokumentasikan di rekam medis. Tindakan mengurangi risiko jatuh. - Staf unit terkait - Pasien/ Keluarga",
-              "Halaman instrumen: 394"
-            ]
+            "title": "Pengkajian faktor risiko",
+            "text": "Nilai riwayat jatuh, mobilitas, kognitif, obat, eliminasi, penglihatan, alat bantu, dan lingkungan."
+          },
+          {
+            "title": "Intervensi individual",
+            "text": "Sesuaikan pengawasan, bantuan mobilisasi, alas kaki, bel panggil, posisi tempat tidur, toileting, dan edukasi."
+          },
+          {
+            "title": "Komunikasi risiko",
+            "text": "Sampaikan saat serah terima dan gunakan penanda sesuai ketentuan rumah sakit."
+          },
+          {
+            "title": "Pengkajian ulang",
+            "text": "Lakukan bila kondisi, obat, mobilitas, lokasi, atau tingkat kesadaran berubah dan setelah kejadian jatuh."
+          },
+          {
+            "title": "Evaluasi setelah jatuh",
+            "text": "Utamakan cedera, laporkan, dokumentasikan, dan perbaiki faktor penyebab."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian SKP 6.1",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "1",
-            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
-            "title": "EP SKP 6.1.1",
-            "text": "Rumah sakit telah melakukan pengkajian risiko jatuh untuk semua pasien rawat inap baik dewasa maupun anak menggunakan metode pengkajian yang baku sesuai dengan ketentuan rumah sakit",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: pengkajian risiko jatuh untuk semua pasien rawat inap baik dewasa maupun anak menggunakan metode pengkajian yang baku sesuai dengan ketentuan rumah sakit. Pelaksanaan pengkajian risiko jatuh di rawat inap - Staf unit terkait - Pasien/ Keluarga",
-              "Halaman instrumen: 394"
-            ]
-          },
-          {
-            "level": "2",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP SKP 6.1.2",
-            "text": "Rumah sakit telah melaksanakan pengkajian ulang risiko jatuh pada pasien rawat inap karena adanya perubahan kondisi, atau memang sudah mempunyai risiko jatuh dari hasil pengkajian.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pengkajian rekam medis: ulang risiko jatuh pasien rawat inap karena adanya perubahan kondisi, atau memang sudah mempunyai risiko jatuh dari hasil pengkajian. - Staf unit terkait - Pasien/ Keluarga",
-              "Halaman instrumen: 394, 395"
-            ]
-          },
-          {
-            "level": "3",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP SKP 6.1.3",
-            "text": "Tindakan dan/atau intervensi untuk mengurangi risiko jatuh pada pasien rawat inap telah dilakukan dan didokumentasikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: penerapan tindakan dan/atau intervensi untuk mengurangi risiko jatuh pada pasien rawat inap. - Staf unit terkait - Pasien/Keluarga",
-              "Halaman instrumen: 395"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -297,9 +259,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 5 elemen penilaian dari SKP 6, SKP 6.1 beserta jenis kelengkapan buktinya."
+        "Skrining awal: Lakukan saat pasien masuk sesuai alat dan populasi yang ditetapkan.",
+        "Pengkajian faktor risiko: Nilai riwayat jatuh, mobilitas, kognitif, obat, eliminasi, penglihatan, alat bantu, dan lingkungan.",
+        "Intervensi individual: Sesuaikan pengawasan, bantuan mobilisasi, alas kaki, bel panggil, posisi tempat tidur, toileting, dan edukasi.",
+        "Komunikasi risiko: Sampaikan saat serah terima dan gunakan penanda sesuai ketentuan rumah sakit."
       ]
     },
     {
@@ -351,28 +316,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 6.1 adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • O–Observasi • W–Wawancara"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan D–Dokumen • O–Observasi • W–Wawancara. Pokok elemennya: Rumah sakit telah melaksanakan skrining pasien rawat jalan pada kondisi, diagnosis, situasi atau lokasi yang dapat menyebabkan pasien berisiko jatuh, dengan menggunakan alat bantu/metode skrining yang ditetapkan rumah sakit"
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 6.2 adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • O–Observasi • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan D–Dokumen • O–Observasi • W–Wawancara. Pokok elemennya: Tindakan dan/atau intervensi dilakukan untuk mengurangi risiko jatuh pada pasien jika hasil skrining menunjukkan adanya risiko jatuh dan hasil skrining serta intervensi didokumentasikan."
-    },
     {
       "q": "Pasien awalnya risiko rendah, kemudian mendapat sedatif dan tampak goyah. Tindakan terbaik adalah…",
       "options": [

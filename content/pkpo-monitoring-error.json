@@ -10,105 +10,73 @@
   "icon": "rights",
   "priority": "practice",
   "priorityLabel": "Praktik Wajib",
-  "minutes": 16,
+  "minutes": 15,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PKPO 7",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Pemantauan terapi dan efek samping obat",
+      "caption": "Perawat menilai manfaat dan bahaya setelah obat diberikan.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen",
-            "title": "EP PKPO 7.a",
-            "text": "Telah melaksanakan pemantauan terapi obat secara kolaboratif.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis (CPPT) pelaksanaan pemantauan terapi obat secara kolaboratif.",
-              "Halaman instrumen: 366"
-            ]
+            "title": "Efek yang diharapkan",
+            "text": "Pantau perubahan gejala, tanda vital, fungsi, dan hasil laboratorium."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen",
-            "title": "EP PKPO 7.b",
-            "text": "Telah melaksanakan pemantauan dan pelaporan efek samping obat serta analisis laporan untuk meningkatkan keamanan penggunaan obat.",
-            "bullets": [
-              "Kelengkapan bukti: 1. Bukti pemantauan dan pelaporan efek samping obat (MESO) 2. Bukti analisis laporan untuk meningkatkan keamanan penggunaan obat",
-              "Halaman instrumen: 366"
-            ]
+            "title": "Efek samping/toksisitas",
+            "text": "Kenali reaksi yang tidak diinginkan dan faktor risiko pasien."
+          },
+          {
+            "title": "Interaksi dan kepatuhan",
+            "text": "Amati interaksi obat-makanan/obat dan kemampuan pasien mengikuti terapi."
+          },
+          {
+            "title": "Dokumentasi di CPPT",
+            "text": "Catat respons, intervensi, komunikasi, dan rencana monitoring."
+          },
+          {
+            "title": "Pelaporan MESO",
+            "text": "Ikuti sistem rumah sakit untuk efek samping obat yang perlu dilaporkan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian PKPO 7.1 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Medication error dan near miss",
+      "caption": "Efek samping tidak selalu berarti kesalahan obat; kesalahan adalah kegagalan dalam proses penggunaan obat.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi",
-            "title": "EP PKPO 7.1.a",
-            "text": "Rumah sakit telah memiliki regulasi tentang medication safety yang bertujuan mengarahkan penggunaan obat yang aman dan meminimalkan risiko kesalahan penggunaan obat sesuai dengan peraturan perundang-undangan.",
-            "bullets": [
-              "Kelengkapan bukti: Regulasi tentang medication safety",
-              "Halaman instrumen: 367"
-            ]
+            "title": "Contoh kesalahan",
+            "text": "Salah pasien, obat, dosis, rute, waktu, duplikasi, obat terlewat, atau instruksi disalahartikan."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PKPO 7.1.b",
-            "text": "Rumah sakit menerapkan sistem pelaporan kesalahan obat yang menjamin laporan akurat dan tepat waktu yang merupakan bagian program peningkatan mutu dan keselamatan pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelaporan insiden keselamatan pasien terkait kesalahan obat kepada komite/tim mutu - komite/tim mutu (subkomite keselamatan pasien) - PPA",
-              "Halaman instrumen: 367, 368"
-            ]
+            "title": "Near miss/KNC",
+            "text": "Kesalahan ditemukan sebelum mencapai pasien dan tetap harus dilaporkan sesuai sistem."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen",
-            "title": "EP PKPO 7.1.c",
-            "text": "Rumah sakit memiliki upaya untuk mendeteksi, mencegah dan menurunkan kesalahan obat dalam meningkatkan mutu proses penggunaan obat.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti upaya untuk mendeteksi, mencegah dan menurunkan kesalahan obat dalam meningkatkan mutu proses penggunaan obat, antara lain: FMEA (Failure Mode and Effect Analysis), daftar risiko beserta tindak lanjutnya atau metode lainnya.",
-              "Halaman instrumen: 368"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PKPO 7.1 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
+            "title": "Prioritas pertama",
+            "text": "Amankan pasien dan lakukan penanganan klinis."
+          },
           {
-            "level": "D",
-            "tag": "D–Dokumen",
-            "title": "EP PKPO 7.1.d",
-            "text": "Seluruh staf rumah sakit dilatih terkait kesalahan obat (medication error).",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelatihan tentang kesalahan obat (medication error) kepada staff yang terkait.",
-              "Halaman instrumen: 368"
-            ]
+            "title": "Laporkan fakta",
+            "text": "Segera beri tahu pihak terkait, dokumentasikan secara objektif, dan buat laporan insiden."
+          },
+          {
+            "title": "Pembelajaran sistem",
+            "text": "Evaluasi penyebab dan perbaiki pertahanan agar kejadian tidak berulang."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -274,9 +242,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 6 elemen penilaian dari PKPO 7, PKPO 7.1 beserta jenis kelengkapan buktinya."
+        "Efek yang diharapkan: Pantau perubahan gejala, tanda vital, fungsi, dan hasil laboratorium.",
+        "Efek samping/toksisitas: Kenali reaksi yang tidak diinginkan dan faktor risiko pasien.",
+        "Interaksi dan kepatuhan: Amati interaksi obat-makanan/obat dan kemampuan pasien mengikuti terapi.",
+        "Dokumentasi di CPPT: Catat respons, intervensi, komunikasi, dan rencana monitoring.",
+        "Contoh kesalahan: Salah pasien, obat, dosis, rute, waktu, duplikasi, obat terlewat, atau instruksi disalahartikan.",
+        "Near miss/KNC: Kesalahan ditemukan sebelum mencapai pasien dan tetap harus dilaporkan sesuai sistem."
       ]
     },
     {
@@ -327,28 +300,6 @@
     "Penanganan pasien dan pengamanan sistem harus didahulukan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 7.a adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan D–Dokumen. Pokok elemennya: Telah melaksanakan pemantauan terapi obat secara kolaboratif."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 7.b adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen. Pokok elemennya: Telah melaksanakan pemantauan dan pelaporan efek samping obat serta analisis laporan untuk meningkatkan keamanan penggunaan obat."
-    },
     {
       "q": "Dalam situasi “Pasien hipotensi setelah obat”, tindakan yang paling tepat adalah…",
       "options": [

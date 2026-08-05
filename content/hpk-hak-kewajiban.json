@@ -10,113 +10,43 @@
   "icon": "rights",
   "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian HPK 1 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Hak pasien yang harus dijaga dalam setiap interaksi",
+      "caption": "Perawat bukan hanya memberi asuhan klinis, tetapi juga melindungi martabat dan pilihan pasien.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi • D–Dokumen • W–Wawancara",
-            "title": "EP HPK 1.a",
-            "text": "Rumah sakit menerapkan regulasi hak pasien dan keluarga sebagaimana tercantum dalam poin a) – e) pada gambaran umum dan peraturan perundang-undangan.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan Hak Pasien dan Keluarga meliputi poin a)-e) pada gambaran umum. Bukti penerapan Hak Pasien dan Keluarga meliputi poin a)- e)",
-              "Halaman instrumen: 256"
-            ]
+            "title": "Informasi dan partisipasi",
+            "text": "Pasien berhak mengetahui asuhan dan terlibat dalam keputusan sesuai kemampuan."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 1.b",
-            "text": "Rumah sakit memiliki proses untuk mengidentifikasi siapa yang diinginkan pasien untuk berpartisipasi dalam pengambilan keputusan terkait perawatannya",
-            "bullets": [
-              "Kelengkapan bukti: Bukti proses identifikasi siapa yang diinginkan pasien untuk berpartisipasi dalam pengambilan keputusan terkait perawatannya. - Petugas Admisi - PPA - Pasien/ keluarga",
-              "Halaman instrumen: 256"
-            ]
+            "title": "Martabat dan nondiskriminasi",
+            "text": "Pelayanan diberikan dengan hormat tanpa merendahkan atau membedakan."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 1.c",
-            "text": "Rumah sakit memiliki proses untuk menentukan preferensi pasien, dan pada beberapa keadaan preferensi keluarga pasien, dalam menentukan informasi apa mengenai perawatan pasien yang dapat diberikan kepada keluarga/pihak lain, dan dalam situasi apa.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti proses persetujuan dalam menentukan informasi apa mengenai perawatan pasien yang dapat diberikan kepada keluarga/pihak lain, dan dalam situasi apa. - Petugas Admisi - PPA - Pasien/keluarga",
-              "Halaman instrumen: 256, 257"
-            ]
+            "title": "Nilai, budaya, dan spiritual",
+            "text": "Tanyakan kebutuhan individual; jangan berasumsi berdasarkan agama atau suku."
+          },
+          {
+            "title": "Privasi dan kerahasiaan",
+            "text": "Lindungi tubuh, percakapan, dokumen, dan informasi kesehatan."
+          },
+          {
+            "title": "Keamanan dan perlindungan",
+            "text": "Lindungi dari kekerasan, penelantaran, serta kehilangan barang."
+          },
+          {
+            "title": "Keluhan dan penolakan",
+            "text": "Pasien dapat mengadu atau menolak tanpa kehilangan mutu pelayanan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian HPK 1 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 1.d",
-            "text": "Semua staf dilatih tentang proses dan peran mereka dalam mendukung hak-hak serta partisipasi pasien dan keluarga dalam perawatan",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelatihan hak pasien dan keluarga dalam perawatan kepada semua staf Staf yang dilatih",
-              "Halaman instrumen: 257"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian HPK 1.2",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "A",
-            "tag": "O–Observasi • W–Wawancara",
-            "title": "EP HPK 1.2.a",
-            "text": "Staf memberikan perawatan yang penuh penghargaan dengan memerhatikan harkat dan martabat pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Pelaksanaan pemberian perawatan yang penuh penghargaan dengan memperhatikan harkat dan martabat pasien. - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 259"
-            ]
-          },
-          {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 1.2.b",
-            "text": "Rumah sakit menghormati keyakinan spiritual dan budaya pasien serta nilai- nilai yang dianut pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti identifikasi dan menghormati keyakinan spiritual dan budaya pasien serta nilai-nilai yang dianut pasien. - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 259"
-            ]
-          },
-          {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 1.2.c",
-            "text": "Rumah sakit memenuhi kebutuhan pasien terhadap bimbingan rohani.",
-            "bullets": [
-              "Kelengkapan bukti: 1. Bukti perjanjian kerjasama dengan rohaniwan terkait 2. Bukti permintaan pelayanan rohani. 3. Bukti pelaksanaan pelayanan rohani. - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 259"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -325,9 +255,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 7 elemen penilaian dari HPK 1, HPK 1.2 beserta jenis kelengkapan buktinya."
+        "Informasi dan partisipasi: Pasien berhak mengetahui asuhan dan terlibat dalam keputusan sesuai kemampuan.",
+        "Martabat dan nondiskriminasi: Pelayanan diberikan dengan hormat tanpa merendahkan atau membedakan.",
+        "Nilai, budaya, dan spiritual: Tanyakan kebutuhan individual; jangan berasumsi berdasarkan agama atau suku.",
+        "Privasi dan kerahasiaan: Lindungi tubuh, percakapan, dokumen, dan informasi kesehatan."
       ]
     },
     {
@@ -379,28 +312,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.a adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • D–Dokumen • W–Wawancara"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan regulasi hak pasien dan keluarga sebagaimana tercantum dalam poin a) – e) pada gambaran umum dan peraturan perundang-undangan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.b adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit memiliki proses untuk mengidentifikasi siapa yang diinginkan pasien untuk berpartisipasi dalam pengambilan keputusan terkait perawatannya"
-    },
     {
       "q": "Pasien sadar dan kompeten meminta diagnosisnya tidak disampaikan kepada saudara. Tindakan adalah…",
       "options": [

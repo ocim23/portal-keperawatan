@@ -8,73 +8,77 @@
   "color": "#14805E",
   "soft": "#EAF8F2",
   "icon": "hand",
-  "minutes": 17,
+  "minutes": 22,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PPI 11.1 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Memilih APD berdasarkan risiko pajanan",
+      "caption": "APD dipilih dari jenis tindakan dan jalur transmisi, bukan dipakai sama untuk semua pasien.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "O–Observasi • W–Wawancara",
-            "title": "EP PPI 11.1.a",
-            "text": "Rumah sakit menerapkan penggunaan alat pelindung diri, tempat yang harus menyediakan alat pelindung diri, dan pelatihan cara memakainya.",
-            "bullets": [
-              "Kelengkapan bukti: pemakaian APD Tempat yang harus menyediakan APD - PPA - Staf Non Klinis Kepatuhan staf menggunakan",
-              "Halaman instrumen: 209"
-            ]
+            "title": "Sarung tangan",
+            "text": "Saat kemungkinan kontak dengan darah, cairan tubuh, mukosa, kulit tidak utuh, atau benda terkontaminasi."
           },
           {
-            "level": "B",
-            "tag": "W–Wawancara • S–Simulasi • O–Observasi",
-            "title": "EP PPI 11.1.b",
-            "text": "Alat pelindung diri sudah digunakan secara tepat dan benar.",
-            "bullets": [
-              "Kelengkapan bukti: Alat Pelindung Diri (APD) secara tepat dan benar - Komite/Tim PPI - IPCN - Kepala Unit/Ruangan Penggunaan APD secara tepat dan benar Ketersediaan alat pelindung",
-              "Halaman instrumen: 209"
-            ]
+            "title": "Gaun/apron",
+            "text": "Saat pakaian atau kulit berisiko terkena cairan atau lingkungan terkontaminasi."
           },
           {
-            "level": "C",
-            "tag": "W–Wawancara • D–Dokumen",
-            "title": "EP PPI 11.1.c",
-            "text": "Ketersediaan alat pelindung diri sudah cukup sesuai dengan regulasi.",
-            "bullets": [
-              "Kelengkapan bukti: diri dalam jumlah yang cukup - Komite/Tim PPI - IPCN - Kepala Unit/ Ruangan Bukti pelatihan penggunaan",
-              "Halaman instrumen: 209"
-            ]
+            "title": "Masker bedah",
+            "text": "Untuk risiko droplet dan perlindungan mulut/hidung dari percikan sesuai tindakan."
+          },
+          {
+            "title": "Respirator",
+            "text": "Untuk kewaspadaan udara atau prosedur pembentuk aerosol sesuai ketentuan."
+          },
+          {
+            "title": "Pelindung mata/wajah",
+            "text": "Saat ada risiko percikan ke mata, hidung, atau mulut."
+          },
+          {
+            "title": "APD tambahan",
+            "text": "Penutup kepala, sepatu, atau perlindungan lain sesuai prosedur berisiko khusus."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian PPI 11.1 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Prinsip memakai dan melepas APD",
+      "caption": "Urutan dapat disesuaikan dengan kebijakan dan jenis APD; tujuan utamanya mencegah kontaminasi diri.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "D",
-            "tag": "W–Wawancara",
-            "title": "EP PPI 11.1.d",
-            "text": "Ada bukti pelatihan penggunaan alat pelindung diri kepada semua pegawai termasuk tenaga kontrak",
-            "bullets": [
-              "Kelengkapan bukti: alat pelindung diri kepada semua pegawai termasuk tenaga kontrak - Komite/Tim PPI - IPCN - Kepala/Staf Unit/Ruangan",
-              "Halaman instrumen: 209"
-            ]
+            "title": "Sebelum memakai",
+            "text": "Lakukan hand hygiene, pilih ukuran yang tepat, dan siapkan semua APD."
+          },
+          {
+            "title": "Saat memakai",
+            "text": "Pastikan bagian tubuh yang berisiko terlindungi dan APD tidak mengganggu tindakan."
+          },
+          {
+            "title": "Saat melepas",
+            "text": "Anggap bagian luar terkontaminasi; hindari menyentuh wajah/pakaian dan lepaskan perlahan."
+          },
+          {
+            "title": "Buang/kelola ulang",
+            "text": "Masukkan ke wadah yang tepat; APD reusable masuk alur dekontaminasi."
+          },
+          {
+            "title": "Akhiri dengan hand hygiene",
+            "text": "Lakukan segera dan ulangi bila tangan terkontaminasi selama pelepasan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -311,9 +315,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 4 elemen penilaian dari PPI 11.1 beserta jenis kelengkapan buktinya."
+        "Sarung tangan: Saat kemungkinan kontak dengan darah, cairan tubuh, mukosa, kulit tidak utuh, atau benda terkontaminasi.",
+        "Gaun/apron: Saat pakaian atau kulit berisiko terkena cairan atau lingkungan terkontaminasi.",
+        "Masker bedah: Untuk risiko droplet dan perlindungan mulut/hidung dari percikan sesuai tindakan.",
+        "Respirator: Untuk kewaspadaan udara atau prosedur pembentuk aerosol sesuai ketentuan.",
+        "Sebelum memakai: Lakukan hand hygiene, pilih ukuran yang tepat, dan siapkan semua APD.",
+        "Saat memakai: Pastikan bagian tubuh yang berisiko terlindungi dan APD tidak mengganggu tindakan."
       ]
     },
     {
@@ -367,28 +376,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 11.1.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "O–Observasi • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan penggunaan alat pelindung diri, tempat yang harus menyediakan alat pelindung diri, dan pelatihan cara memakainya."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 11.1.b adalah…",
-      "options": [
-        "W–Wawancara • S–Simulasi • O–Observasi",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan W–Wawancara • S–Simulasi • O–Observasi. Pokok elemennya: Alat pelindung diri sudah digunakan secara tepat dan benar."
-    },
     {
       "q": "Perawat akan melakukan suction dengan potensi percikan pada pasien tanpa label isolasi. Dasar pemilihan APD adalah…",
       "options": [

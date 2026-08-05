@@ -8,73 +8,45 @@
   "color": "#A34D78",
   "soft": "#FFF0F7",
   "icon": "rights",
-  "minutes": 19,
+  "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian HPK 1.3 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Privasi fisik dan kerahasiaan informasi",
+      "caption": "Perawat harus melindungi pasien selama wawancara, pemeriksaan, tindakan, transportasi, dan komunikasi.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "O–Observasi • W–Wawancara",
-            "title": "EP HPK 1.3.a",
-            "text": "Rumah sakit menjamin kebutuhan privasi pasien selama perawatan dan pengobatan di rumah sakit, dengan memperhatikan jenis kelamin dan usia.",
-            "bullets": [
-              "Kelengkapan bukti: sakit menjamin kebutuhan privasi pasien Rumah sakit menjamin kebutuhan privasi pasien selama perawatan dan pengobatan di rumah sakit, dengan memperhatikan jenis kelamin dan usia. - PPA - Admisi - Pasien/ Keluarga",
-              "Halaman instrumen: 260, 261"
-            ]
+            "title": "Privasi fisik",
+            "text": "Tutup tirai/pintu, tutupi bagian tubuh yang tidak diperiksa, dan batasi orang yang tidak berkepentingan."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 1.3.b",
-            "text": "Kerahasiaan informasi pasien dijaga sesuai dengan peraturan perundangan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rumah sakit telah menjaga kerahasiaan informasi pasien sesuai dengan peraturan perundangan (Lihat MRMIK 2.1). - PPA - Kepala/Staf Rekam Medis - Pasien/ Keluarga",
-              "Halaman instrumen: 261"
-            ]
+            "title": "Percakapan",
+            "text": "Jangan membahas pasien di lift, koridor, kantin, atau area publik."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 1.3.c",
-            "text": "Rumah sakit memiliki proses untuk meminta persetujuan pasien terkait pemberian informasi.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelaksanaan proses untuk meminta persetujuan pasien terkait pemberian informasi. - PPA - Admisi - Pasien/ Keluarga",
-              "Halaman instrumen: 261"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian HPK 1.3 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
+            "title": "Dokumen dan layar",
+            "text": "Amankan rekam medis, label, monitor, foto, dan akun sistem."
+          },
           {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 1.3.d",
-            "text": "Rumah sakit memiliki proses untuk memberikan pasien akses terhadap informasi kesehatan mereka.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rumah sakit telah memiliki proses untuk memberikan pasien akses terhadap informasi kesehatan mereka. (Lihat MRMIK 10, KE 4) - PPA - Admisi - Pasien/ Keluarga",
-              "Halaman instrumen: 261"
-            ]
+            "title": "Informasi kepada keluarga",
+            "text": "Pastikan pasien mengizinkan dan penerima informasi berwenang."
+          },
+          {
+            "title": "Foto/video",
+            "text": "Ikuti dasar, persetujuan, perangkat, penyimpanan, dan tujuan yang ditetapkan rumah sakit; hindari perangkat/media pribadi."
+          },
+          {
+            "title": "Penolakan privasi",
+            "text": "Hormati preferensi pasien sejauh aman dan dokumentasikan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -283,9 +255,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 4 elemen penilaian dari HPK 1.3 beserta jenis kelengkapan buktinya."
+        "Privasi fisik: Tutup tirai/pintu, tutupi bagian tubuh yang tidak diperiksa, dan batasi orang yang tidak berkepentingan.",
+        "Percakapan: Jangan membahas pasien di lift, koridor, kantin, atau area publik.",
+        "Dokumen dan layar: Amankan rekam medis, label, monitor, foto, dan akun sistem.",
+        "Informasi kepada keluarga: Pastikan pasien mengizinkan dan penerima informasi berwenang."
       ]
     },
     {
@@ -337,28 +312,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.3.a adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "O–Observasi • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara. Pokok elemennya: Rumah sakit menjamin kebutuhan privasi pasien selama perawatan dan pengobatan di rumah sakit, dengan memperhatikan jenis kelamin dan usia."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.3.b adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Kerahasiaan informasi pasien dijaga sesuai dengan peraturan perundangan."
-    },
     {
       "q": "Perawat menutup tirai tetapi menjelaskan diagnosis dengan suara keras di ruang bersama. Masalah utama adalah…",
       "options": [

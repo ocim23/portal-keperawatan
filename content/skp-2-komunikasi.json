@@ -8,51 +8,69 @@
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 24,
+  "minutes": 22,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian SKP 2",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Komunikasi yang dinilai dalam pelayanan",
+      "caption": "Fokus perawat adalah pesan klinis yang lengkap, akurat, tepat waktu, dan dikonfirmasi.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "1",
-            "tag": "D–Dokumen • S–Simulasi • W–Wawancara",
-            "title": "EP SKP 2.1",
-            "text": "Rumah sakit telah menerapkan komunikasi saat menerima instruksi melalui telepon: menulis/menginput ke komputer - membacakan - konfirmasi kembali” (writedown, read back, dan SBAR saat confirmation melaporkan kondisi pasien kepada DPJP serta didokumentasikan dalam rekam medik",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: penerapan komunikasi saat menerima instruksi melalui telepon dan saat melaporkan kondisi pasien kepada DPJP Menerima instruksi melalui telepon dan saat melaporkan kondisi pasien kepada DPJP. PPA",
-              "Halaman instrumen: 383"
-            ]
+            "title": "Instruksi verbal/telepon",
+            "text": "Catat lengkap, baca kembali, dan dapatkan konfirmasi dari pemberi instruksi sesuai ketentuan."
           },
           {
-            "level": "2",
-            "tag": "R–Regulasi • D–Dokumen • S–Simulasi • W–Wawancara",
-            "title": "EP SKP 2.2",
-            "text": "Rumah sakit telah menerapkan komunikasi saat pelaporan hasil kritis pemeriksaan penunjang diagnostic melalui telepon: menulis/menginput ke komputer – membacakan – konfirmasi kembali” (writedown, read back, confirmation dan didokumentasikan dalam rekam medik.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan hasil kritis pemeriksaan penunjang diagnostic. Bukti rekam medis: komunikasi pelaporan hasil kritis. Pelaporan hasil kritis pemeriksaan penunjang diagnostik melalui telepon. - PPA - Staf Laboratorium - Staf radiologi",
-              "Halaman instrumen: 383"
-            ]
+            "title": "Hasil kritis",
+            "text": "Laporkan segera kepada pihak yang berwenang, lakukan read-back, dan dokumentasikan waktu serta penerimanya."
           },
           {
-            "level": "3",
-            "tag": "D–Dokumen • S–Simulasi • W–Wawancara",
-            "title": "EP SKP 2.3",
-            "text": "Rumah sakit telah menerapkan komunikasi saat serah terima sesuai dengan jenis serah terima meliputi poin 1) - 3) dalam maksud dan tujuan",
-            "bullets": [
-              "Kelengkapan bukti: Bukti medis: serah rekam terima sesuai dengan jenis serah terima meliputi poin 1) - 3) dalam maksud dan tujuan; Pelaksanaan serah terima PPA",
-              "Halaman instrumen: 383"
-            ]
+            "title": "Serah terima",
+            "text": "Sampaikan kondisi, risiko, terapi, tugas yang belum selesai, dan rencana tindak lanjut."
+          },
+          {
+            "title": "Komunikasi antar-PPA",
+            "text": "Gunakan format terstruktur seperti SBAR agar rekomendasi dan kebutuhan eskalasi jelas."
+          },
+          {
+            "title": "Closed-loop communication",
+            "text": "Penerima mengulangi pesan penting dan pengirim memastikan pesan dipahami benar."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Isi minimum serah terima yang bermakna",
+      "caption": "Serah terima bukan sekadar menyebut diagnosis dan cairan infus.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Identitas dan situasi",
+            "text": "Siapa pasien dan apa masalah utama saat ini."
+          },
+          {
+            "title": "Latar belakang penting",
+            "text": "Diagnosis, alergi, tindakan, obat berisiko, dan riwayat relevan."
+          },
+          {
+            "title": "Penilaian terkini",
+            "text": "Tanda vital, perubahan kondisi, hasil penting, risiko jatuh/aspirasi/infeksi."
+          },
+          {
+            "title": "Rekomendasi",
+            "text": "Apa yang harus dipantau, dilakukan, dikonfirmasi, atau dieskalasi berikutnya."
+          }
+        ],
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -297,9 +315,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 3 elemen penilaian dari SKP 2 beserta jenis kelengkapan buktinya."
+        "Instruksi verbal/telepon: Catat lengkap, baca kembali, dan dapatkan konfirmasi dari pemberi instruksi sesuai ketentuan.",
+        "Hasil kritis: Laporkan segera kepada pihak yang berwenang, lakukan read-back, dan dokumentasikan waktu serta penerimanya.",
+        "Serah terima: Sampaikan kondisi, risiko, terapi, tugas yang belum selesai, dan rencana tindak lanjut.",
+        "Komunikasi antar-PPA: Gunakan format terstruktur seperti SBAR agar rekomendasi dan kebutuhan eskalasi jelas.",
+        "Identitas dan situasi: Siapa pasien dan apa masalah utama saat ini.",
+        "Latar belakang penting: Diagnosis, alergi, tindakan, obat berisiko, dan riwayat relevan."
       ]
     },
     {
@@ -351,28 +374,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 2.1 adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • S–Simulasi • W–Wawancara"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan D–Dokumen • S–Simulasi • W–Wawancara. Pokok elemennya: Rumah sakit telah menerapkan komunikasi saat menerima instruksi melalui telepon: menulis/menginput ke komputer - membacakan - konfirmasi kembali” (writedown, read back, dan SBAR saat confirmation melaporkan kondisi pasien kepada DPJP serta didokumentasikan dalam rekam medik"
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 2.2 adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • D–Dokumen • S–Simulasi • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen • S–Simulasi • W–Wawancara. Pokok elemennya: Rumah sakit telah menerapkan komunikasi saat pelaporan hasil kritis pemeriksaan penunjang diagnostic melalui telepon: menulis/menginput ke komputer – membacakan – konfirmasi kembali” (writedown, read back, confirmation dan didokumentasikan dalam rekam medik."
-    },
     {
       "q": "Instruksi telepon terdengar “insulin enam unit”, tetapi perawat ragu enam atau enam belas. Tindakan terbaik adalah…",
       "options": [

@@ -8,41 +8,45 @@
   "color": "#5B6F9C",
   "soft": "#EEF2FF",
   "icon": "chat",
-  "minutes": 17,
+  "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian KE 7",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Edukasi kolaboratif antar-PPA",
+      "caption": "Pasien harus menerima pesan yang konsisten dan sesuai kewenangan masing-masing profesi.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen",
-            "title": "EP KE 7.a",
-            "text": "Profesional Pemberi Asuhan (PPA) telah diberikan pelatihan dan terampil melaksanakan komunikasi efektif.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti bahwa Profesional Pemberi Asuhan (PPA) telah diberikan pelatihan dan terampil dalam melaksanakan komunikasi efektif berupa TOR, Materi, Undangan, Sertifikat, Notulen dan Bukti Pelaksanaan lainnya",
-              "Halaman instrumen: 378"
-            ]
+            "title": "Dokter",
+            "text": "Diagnosis, prognosis, pilihan terapi, risiko, dan alternatif medis."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 7.b",
-            "text": "PPA telah memberikan edukasi yang efektif kepada pasien dan keluarga secara kolaboratif.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti dalam rekam medik bahwa Profesional Pemberi Asuhan (PPA) telah memberikan edukasi yang efektif kepada pasien dan keluarga secara kolaboratif.",
-              "Halaman instrumen: 378"
-            ]
+            "title": "Perawat",
+            "text": "Perawatan, pemantauan, keselamatan, mobilisasi, alat, tanda bahaya, dan perawatan rumah."
+          },
+          {
+            "title": "Apoteker",
+            "text": "Penggunaan, penyimpanan, interaksi, dan efek samping obat."
+          },
+          {
+            "title": "Dietisien",
+            "text": "Kebutuhan nutrisi dan pengaturan diet."
+          },
+          {
+            "title": "PPA lain",
+            "text": "Rehabilitasi, terapi, atau kebutuhan spesifik profesi."
+          },
+          {
+            "title": "Koordinasi",
+            "text": "Dokumentasikan apa yang sudah dipahami dan hindari pesan yang saling bertentangan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -253,9 +257,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 2 elemen penilaian dari KE 7 beserta jenis kelengkapan buktinya."
+        "Dokter: Diagnosis, prognosis, pilihan terapi, risiko, dan alternatif medis.",
+        "Perawat: Perawatan, pemantauan, keselamatan, mobilisasi, alat, tanda bahaya, dan perawatan rumah.",
+        "Apoteker: Penggunaan, penyimpanan, interaksi, dan efek samping obat.",
+        "Dietisien: Kebutuhan nutrisi dan pengaturan diet."
       ]
     },
     {
@@ -307,28 +314,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 7.a adalah…",
-      "options": [
-        "D–Dokumen",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen. Pokok elemennya: Profesional Pemberi Asuhan (PPA) telah diberikan pelatihan dan terampil melaksanakan komunikasi efektif."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 7.b adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: PPA telah memberikan edukasi yang efektif kepada pasien dan keluarga secara kolaboratif."
-    },
     {
       "q": "Dalam SBAR, kalimat “Saya khawatir pasien mengalami perburukan respirasi dan perlu dinilai sekarang” terutama termasuk…",
       "options": [

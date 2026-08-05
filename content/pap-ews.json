@@ -8,41 +8,73 @@
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 25,
+  "minutes": 20,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PAP 2.5",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Mengenali perburukan kondisi pasien",
+      "caption": "EWS membantu mendeteksi perubahan fisiologis dan memicu eskalasi yang tepat.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 2.5.a",
-            "text": "Rumah sakit telah menerapkan proses pengenalan perubahan kondisi pasien yang memburuk (EWS) dan mendokumentasikannya di dalam rekam medik pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: Pelaksanaan dan penerapan proses pengenalan perubahan kondisi pasien yang memburuk (EWS) PPA",
-              "Halaman instrumen: 315"
-            ]
+            "title": "Ukur parameter lengkap",
+            "text": "Gunakan tanda vital dan parameter yang ditetapkan dalam sistem EWS rumah sakit."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 2.5.b",
-            "text": "Rumah sakit memiliki bukti PPA dilatih menggunakan EWS.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelatihan PPA tentang EWS",
-              "Halaman instrumen: 315"
-            ]
+            "title": "Hitung skor dengan benar",
+            "text": "Jangan mengabaikan satu parameter atau mengubah nilai agar tampak lebih baik."
+          },
+          {
+            "title": "Ikuti respons berdasarkan skor",
+            "text": "Frekuensi observasi, pemberitahuan dokter, aktivasi tim respons cepat, atau tindakan lain mengikuti matriks eskalasi."
+          },
+          {
+            "title": "Gunakan penilaian klinis",
+            "text": "Kekhawatiran perawat tetap dapat memicu eskalasi meskipun skor belum tinggi."
+          },
+          {
+            "title": "Nilai ulang",
+            "text": "Dokumentasikan respons setelah intervensi dan lanjutkan pemantauan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Tanda yang harus memicu perhatian segera",
+      "caption": "Perburukan tidak selalu menunggu skor total tinggi.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Perubahan kesadaran",
+            "text": "Gelisah baru, kebingungan, mengantuk, atau penurunan respons."
+          },
+          {
+            "title": "Gangguan napas",
+            "text": "Peningkatan kerja napas, saturasi turun, atau kebutuhan oksigen meningkat."
+          },
+          {
+            "title": "Sirkulasi memburuk",
+            "text": "Hipotensi, takikardi/bradikardi, perfusi buruk, atau nyeri dada."
+          },
+          {
+            "title": "Kekhawatiran klinis",
+            "text": "Perawat merasa pasien “tidak seperti biasanya” atau memburuk cepat."
+          },
+          {
+            "title": "Respons tidak adekuat",
+            "text": "Kondisi tidak membaik setelah tindakan awal."
+          }
+        ],
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -259,9 +291,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 2 elemen penilaian dari PAP 2.5 beserta jenis kelengkapan buktinya."
+        "Ukur parameter lengkap: Gunakan tanda vital dan parameter yang ditetapkan dalam sistem EWS rumah sakit.",
+        "Hitung skor dengan benar: Jangan mengabaikan satu parameter atau mengubah nilai agar tampak lebih baik.",
+        "Ikuti respons berdasarkan skor: Frekuensi observasi, pemberitahuan dokter, aktivasi tim respons cepat, atau tindakan lain mengikuti matriks eskalasi.",
+        "Gunakan penilaian klinis: Kekhawatiran perawat tetap dapat memicu eskalasi meskipun skor belum tinggi.",
+        "Perubahan kesadaran: Gelisah baru, kebingungan, mengantuk, atau penurunan respons.",
+        "Gangguan napas: Peningkatan kerja napas, saturasi turun, atau kebutuhan oksigen meningkat."
       ]
     },
     {
@@ -313,28 +350,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.5.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit telah menerapkan proses pengenalan perubahan kondisi pasien yang memburuk (EWS) dan mendokumentasikannya di dalam rekam medik pasien."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.5.b adalah…",
-      "options": [
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit memiliki bukti PPA dilatih menggunakan EWS."
-    },
     {
       "q": "Pasien memiliki NEWS2 total 3, seluruhnya berasal dari satu parameter dengan skor 3. Tindakan adalah…",
       "options": [
@@ -411,17 +426,6 @@
       ],
       "answer": 1,
       "why": "Peningkatan kebutuhan oksigen dapat menunjukkan perburukan meskipun saturasi dipertahankan."
-    },
-    {
-      "q": "NEWS2 paling tepat dipahami sebagai…",
-      "options": [
-        "Diagnosis sepsis",
-        "Alat bantu standardisasi deteksi dan komunikasi perburukan",
-        "Pengganti pemeriksaan klinis",
-        "Alat menentukan obat"
-      ],
-      "answer": 1,
-      "why": "NEWS2 adalah sistem early warning, bukan diagnosis atau resep terapi."
     },
     {
       "q": "NEWS2 total 3 berasal dari satu parameter dengan skor 3. Tindakan adalah…",

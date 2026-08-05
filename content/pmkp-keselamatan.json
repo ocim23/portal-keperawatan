@@ -8,83 +8,77 @@
   "color": "#155E9A",
   "soft": "#E9F4FF",
   "icon": "target",
-  "minutes": 18,
+  "minutes": 20,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PMKP 8 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Jenis insiden keselamatan pasien",
+      "caption": "Perawat harus dapat mengenali kategori dan tetap melaporkan kejadian yang belum menimbulkan cedera.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi • W–Wawancara",
-            "title": "EP PMKP 8.a",
-            "text": "Direktur menetapkan Sistem pelaporan dan pembelajaran keselamatan pasien rumah sakit (SP2KP RS) termasuk didalamnya definisi, jenis insiden keselamatan pasien meliputi kejadian sentinel (poin a–o) dalam bagian maksud dan tujuan), KTD, KNC, KTC dan KPCS, mekanisme pelaporan dan analisanya serta pembelajarannya,",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan Pedoman Sistem Pelaporan dan Pembelajaran Keselamatan Pasien Rumah Sakit (SP2KP RS) sesuai peraturan perundangan",
-              "Halaman instrumen: 149"
-            ]
+            "title": "KNC — Kejadian Nyaris Cedera",
+            "text": "Insiden belum mencapai pasien karena ditemukan lebih dahulu."
           },
           {
-            "level": "B",
-            "tag": "R–Regulasi • W–Wawancara",
-            "title": "EP PMKP 8.b",
-            "text": "Komite/Tim Penyelenggara Mutu membentuk tim investigator sesegera mungkin untuk melakukan investigasi komprehensif/analisa akar masalah (root analysis) cause pada semua kejadian sentinel dalam kurun waktu tidak melebihi 45 (empat puluh lima) hari.",
-            "bullets": [
-              "Kelengkapan bukti: Komite /Tim Mutu membentuk tim investigator adhic yang bertugas untuk melakukan investigasi komprehensif/analisis akar masalah pada kejadian sentinel.",
-              "Halaman instrumen: 149"
-            ]
+            "title": "KTC — Kejadian Tidak Cedera",
+            "text": "Insiden mencapai pasien tetapi tidak menimbulkan cedera yang teridentifikasi."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PMKP 8.c",
-            "text": "Pimpinan rumah sakit melakukan tindakan perbaikan korektif dan memantaunya efektivitasnya untuk mencegah atau mengurangi berulangnya kejadian sentinel tersebut.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti tindakan perbaikan korektif dan pemantauan efektivitasnya untuk mencegah atau mengurangi berulangnya kejadian sentinel tersebut dengan melakukan evaluasi dan monitoring agregasi hasil RCA setiap 6 bulan. - Pimpinan RS - Komite/Tim Mutu - Tim RCA",
-              "Halaman instrumen: 149"
-            ]
+            "title": "KTD — Kejadian Tidak Diharapkan",
+            "text": "Insiden mencapai pasien dan menimbulkan cedera yang bukan akibat perjalanan penyakit."
+          },
+          {
+            "title": "KPCS",
+            "text": "Kondisi berbahaya yang berpotensi menimbulkan cedera signifikan."
+          },
+          {
+            "title": "Kejadian sentinel",
+            "text": "Kejadian serius tertentu yang memerlukan investigasi komprehensif."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian PMKP 8 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Apa yang dilakukan saat insiden terjadi?",
+      "caption": "Keselamatan pasien didahulukan sebelum administrasi laporan.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "D",
-            "tag": "R–Regulasi",
-            "title": "EP PMKP 8.d",
-            "text": "Pimpinan rumah sakit menetapkan proses untuk menganalisa KTD, KNC, KTC, KPCS dengan melakukan investigasi sederhana dengan kurun waktu yaitu grading biru tidak melebihi 7 (tujuh) hari, grading hijau tidak melebihi 14 (empat belas) hari.",
-            "bullets": [
-              "Kelengkapan bukti: Pada Pedoman SP2KP tercantum ketentuan tentang investigasi sederhana dengan kurun waktu: grading biru tidak melebihi 7 (tujuh) hari, grading hijau tidak melebihi 14 (empat belas) hari. (lihat PMKP 8 EP a)",
-              "Halaman instrumen: 149, 150"
-            ]
+            "title": "1. Amankan pasien",
+            "text": "Hentikan sumber bahaya dan lakukan penanganan klinis."
           },
           {
-            "level": "E",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PMKP 8.e",
-            "text": "Pimpinan rumah sakit melakukan tindakan perbaikan korektif dan memantau efektivitasnya untuk mencegah atau mengurangi berulangnya KTD, KNC, KTC, KPCS tersebut",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelaksanaan tindakan perbaikan korektif dan memantau efektivitasnya untuk mencegah atau mengurangi berulangnya KTD, KNC, KTC, KPCS tersebut pada EP d sebagai tindak lanjut hasil investigasi sederhana yang telah dilaksanakan - Pimpinan RS - Komite/Tim Mutu - Kepala unit kerja",
-              "Halaman instrumen: 150"
-            ]
+            "title": "2. Eskalasi",
+            "text": "Hubungi atasan, dokter/PPA, dan pihak terkait sesuai urgensi."
+          },
+          {
+            "title": "3. Dokumentasikan pelayanan",
+            "text": "Catat kondisi dan tindakan secara faktual di rekam medis."
+          },
+          {
+            "title": "4. Laporkan insiden",
+            "text": "Gunakan sistem internal; jangan mengubah catatan atau menutupi kejadian."
+          },
+          {
+            "title": "5. Ikuti investigasi",
+            "text": "Berikan informasi objektif dan dukung tindakan perbaikan."
+          },
+          {
+            "title": "6. Belajar dan pantau",
+            "text": "Pastikan rekomendasi diterapkan dan efektif."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -293,9 +287,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 5 elemen penilaian dari PMKP 8 beserta jenis kelengkapan buktinya."
+        "KNC — Kejadian Nyaris Cedera: Insiden belum mencapai pasien karena ditemukan lebih dahulu.",
+        "KTC — Kejadian Tidak Cedera: Insiden mencapai pasien tetapi tidak menimbulkan cedera yang teridentifikasi.",
+        "KTD — Kejadian Tidak Diharapkan: Insiden mencapai pasien dan menimbulkan cedera yang bukan akibat perjalanan penyakit.",
+        "KPCS: Kondisi berbahaya yang berpotensi menimbulkan cedera signifikan.",
+        "1. Amankan pasien: Hentikan sumber bahaya dan lakukan penanganan klinis.",
+        "2. Eskalasi: Hubungi atasan, dokter/PPA, dan pihak terkait sesuai urgensi."
       ]
     },
     {
@@ -347,28 +346,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 8.a adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • W–Wawancara"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan R–Regulasi • W–Wawancara. Pokok elemennya: Direktur menetapkan Sistem pelaporan dan pembelajaran keselamatan pasien rumah sakit (SP2KP RS) termasuk didalamnya definisi, jenis insiden keselamatan pasien meliputi kejadian sentinel (poin a–o) dalam bagian maksud dan tujuan), KTD, KNC, KTC dan KPCS, mekanisme pelaporan dan analisanya serta pembelajarannya,"
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 8.b adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan R–Regulasi • W–Wawancara. Pokok elemennya: Komite/Tim Penyelenggara Mutu membentuk tim investigator sesegera mungkin untuk melakukan investigasi komprehensif/analisa akar masalah (root analysis) cause pada semua kejadian sentinel dalam kurun waktu tidak melebihi 45 (empat puluh lima) hari."
-    },
     {
       "q": "Obat salah hampir diberikan tetapi tertangkap sebelum mencapai pasien. Ini paling sesuai dengan…",
       "options": [

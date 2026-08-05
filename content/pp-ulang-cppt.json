@@ -8,73 +8,73 @@
   "color": "#7B5EA7",
   "soft": "#F4EEFF",
   "icon": "clipboard",
-  "minutes": 24,
+  "minutes": 20,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PP 2 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Kapan pengkajian ulang dilakukan?",
+      "caption": "Pengkajian ulang menilai respons pasien dan menentukan apakah rencana asuhan masih tepat.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PP 2.a",
-            "text": "Rumah sakit melaksanakan pengkajian ulang oleh DPJP, perawat dan PPA lainnya untuk menentukan rencana asuhan lanjutan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rekam Medis pengkajian ulang oleh DPJP, perawat dan PPA lainnya untuk menentukan rencana asuhan lanjutan.",
-              "Halaman instrumen: 282"
-            ]
+            "title": "Secara berkala",
+            "text": "Perawat minimal satu kali setiap shift atau lebih sering sesuai perkembangan pasien."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PP 2.b",
-            "text": "Terdapat bukti pelaksanaan pengkajian ulang medis dilaksanakan minimal satu kali sehari, termasuk akhir minggu/libur untuk pasien akut.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rekam Medis pengkajian ulang medis dilaksanakan minimal satu kali sehari, termasuk akhir minggu/libur untuk pasien akut.",
-              "Halaman instrumen: 282"
-            ]
+            "title": "Setiap hari oleh DPJP",
+            "text": "Untuk pasien akut, termasuk akhir minggu/hari libur dan ketika kondisi berubah."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen",
-            "title": "EP PP 2.c",
-            "text": "Terdapat bukti pelaksanaan pengkajian ulang oleh perawat minimal satu kali per shift atau sesuai dengan perubahan kondisi pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rekam Medis pengkajian ulang keperawatan yang dilaksanakan minimal 1 (satu) kali per shift atau sesuai dengan perubahan kondisi pasien.",
-              "Halaman instrumen: 282"
-            ]
+            "title": "Saat kondisi berubah",
+            "text": "Lakukan segera bila terdapat perubahan signifikan, hasil kritis, atau masalah baru."
+          },
+          {
+            "title": "Saat diagnosis/rencana berubah",
+            "text": "Perbarui kebutuhan, intervensi, dan target asuhan."
+          },
+          {
+            "title": "Sebelum transfer/pulang",
+            "text": "Nilai keberhasilan terapi dan kesiapan transisi pelayanan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian PP 2 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Isi CPPT yang bermakna",
+      "caption": "Catatan harus menunjukkan perkembangan, keputusan, dan tindak lanjut, bukan salinan berulang.",
       "template": {
-        "style": "bands",
+        "style": "checklist",
         "items": [
           {
-            "level": "D",
-            "tag": "D–Dokumen • R–Regulasi • W–Wawancara",
-            "title": "EP PP 2.d",
-            "text": "Terdapat bukti pengkajian ulang oleh PPA lainnya dilaksanakan dengan interval sesuai regulasi rumah sakit.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rekam Medis pengkajian ulang oleh PPA lainnya yang dilaksanakan dengan interval sesuai regulasi rumah sakit.",
-              "Halaman instrumen: 282"
-            ]
+            "title": "Data terbaru",
+            "text": "Keluhan, tanda vital, hasil pemantauan, dan temuan relevan."
+          },
+          {
+            "title": "Analisis",
+            "text": "Makna perubahan kondisi dan respons terhadap terapi."
+          },
+          {
+            "title": "Rencana",
+            "text": "Tindakan, pemantauan, edukasi, kolaborasi, atau eskalasi berikutnya."
+          },
+          {
+            "title": "Komunikasi antar-PPA",
+            "text": "Catatan dapat dipahami dan digunakan oleh seluruh tim."
+          },
+          {
+            "title": "Verifikasi/koordinasi",
+            "text": "DPJP meninjau integrasi asuhan dan membuat notasi sesuai kebutuhan."
           }
         ],
         "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "note": ""
       }
     },
     {
@@ -287,9 +287,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 4 elemen penilaian dari PP 2 beserta jenis kelengkapan buktinya."
+        "Secara berkala: Perawat minimal satu kali setiap shift atau lebih sering sesuai perkembangan pasien.",
+        "Setiap hari oleh DPJP: Untuk pasien akut, termasuk akhir minggu/hari libur dan ketika kondisi berubah.",
+        "Saat kondisi berubah: Lakukan segera bila terdapat perubahan signifikan, hasil kritis, atau masalah baru.",
+        "Saat diagnosis/rencana berubah: Perbarui kebutuhan, intervensi, dan target asuhan.",
+        "Data terbaru: Keluhan, tanda vital, hasil pemantauan, dan temuan relevan.",
+        "Analisis: Makna perubahan kondisi dan respons terhadap terapi."
       ]
     },
     {
@@ -341,28 +346,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PP 2.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit melaksanakan pengkajian ulang oleh DPJP, perawat dan PPA lainnya untuk menentukan rencana asuhan lanjutan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PP 2.b adalah…",
-      "options": [
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Terdapat bukti pelaksanaan pengkajian ulang medis dilaksanakan minimal satu kali sehari, termasuk akhir minggu/libur untuk pasien akut."
-    },
     {
       "q": "Catatan “pasien tampak lebih baik” kurang bermakna karena…",
       "options": [

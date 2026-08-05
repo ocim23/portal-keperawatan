@@ -8,189 +8,73 @@
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 24,
+  "minutes": 20,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PAP 1",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Asuhan harus seragam, terintegrasi, dan individual",
+      "caption": "Pasien dengan kebutuhan yang sama memperoleh mutu asuhan yang setara sepanjang waktu dan di seluruh unit.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi • W–Wawancara",
-            "title": "EP PAP 1.a",
-            "text": "Rumah sakit menetapkan regulasi tentang pelayanan dan asuhan pasien (PAP) yang meliputi poin a) – e) dalam gambaran umum.",
-            "bullets": [
-              "Kelengkapan bukti: Regulasi tentang pelayanan dan asuhan pasien meliputi: poin a) – e) dalam gambaran umum",
-              "Halaman instrumen: 299"
-            ]
+            "title": "Akses yang seragam",
+            "text": "Pelayanan tidak dibedakan karena waktu, unit, atau status pembayaran."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 1.b",
-            "text": "Asuhan yang seragam diberikan kepada setiap pasien meliputi poin a) – e) dalam maksud dan tujuan",
-            "bullets": [
-              "Kelengkapan bukti: 1. Bukti pemberian asuhan yang seragam meliputi poin a) – e) dalam maksud dan tujuan 2. Bukti rekam medis: memuat rencana pemberian asuhan diintegrasikan dan koordinasikan dengan PPA, MPP, PPA dengan pasien sesuai dengan kebutuhan pasien. • DPJP • PPA • MPP",
-              "Halaman instrumen: 299, 300"
-            ]
+            "title": "Kolaborasi antar-PPA",
+            "text": "Dokter, perawat, dan PPA lain bekerja dengan satu tujuan pasien."
+          },
+          {
+            "title": "Satu rencana terintegrasi",
+            "text": "Temuan setiap PPA diterjemahkan menjadi sasaran dan intervensi yang saling mendukung."
+          },
+          {
+            "title": "Keterlibatan pasien/keluarga",
+            "text": "Preferensi, tujuan, dan kemampuan pasien menjadi bagian rencana."
+          },
+          {
+            "title": "Koordinasi transisi",
+            "text": "Serah terima, transfer, dan pemulangan menjaga kesinambungan asuhan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian PAP 1.1 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Isi rencana asuhan yang dinilai",
+      "caption": "Rencana harus terlihat di rekam medis dan terus dimutakhirkan.",
       "template": {
-        "style": "bands",
+        "style": "checklist",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 1.1.a",
-            "text": "Rumah sakit telah melakukan pelayanan dan asuhan yang terintegrasi serta terkoordinasi kepada setiap pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: pelayanan dan asuhan pasien terintegrasi (antara DPJP sebagai ketua tim, PPA lainnya sebagai tim, MPP) - DPJP - PPA - MPP",
-              "Halaman instrumen: 301, 302"
-            ]
+            "title": "Disusun dalam 24 jam",
+            "text": "Berdasarkan hasil pengkajian awal atau lebih cepat bila dibutuhkan."
           },
           {
-            "level": "B",
-            "tag": "R–Regulasi • W–Wawancara",
-            "title": "EP PAP 1.1.b",
-            "text": "Rumah sakit telah menetapkan kewenangan pemberian instruksi oleh PPA yang kompeten, tata cara pemberian instruksi dan pendokumentasiannya.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan kewenangan pemberian instruksi oleh PPA yang kompeten, tata cara pemberian instruksi dan pendokumentasiannya.",
-              "Halaman instrumen: 302"
-            ]
+            "title": "Sasaran terukur",
+            "text": "Tujuan menjelaskan hasil yang ingin dicapai dan dapat dievaluasi."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen",
-            "title": "EP PAP 1.1.c",
-            "text": "Permintaan pemeriksaan laboratorium dan diagnostik imajing harus disertai indikasi klinis apabila meminta hasilnya berupa interpretasi.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: permintaan pemeriksaan diagnostic imajing disertai indikasi klinis",
-              "Halaman instrumen: 302"
-            ]
+            "title": "Instruksi oleh PPA berwenang",
+            "text": "Ditulis seragam dan didokumentasikan di CPPT atau bagian yang ditetapkan."
+          },
+          {
+            "title": "Evaluasi dan revisi",
+            "text": "Perbarui bila respons pasien, diagnosis, risiko, atau kebutuhan berubah."
+          },
+          {
+            "title": "Review DPJP",
+            "text": "DPJP memantau integrasi asuhan dan melakukan verifikasi harian sesuai kebutuhan."
           }
         ],
         "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PAP 1.1 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 1.1.d",
-            "text": "Prosedur dan tindakan telah dilakukan sesuai instruksi dan PPA yang memberikan instruksi, alasan dilakukan prosedur atau tindakan serta hasilnya telah didokumentasikan di dalam rekam medis pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: prosedur/tindakan dilakukan sesuai instruksi, serta alasan dilakukan prosedur tindakan dan hasilnya. PPA",
-              "Halaman instrumen: 302"
-            ]
-          },
-          {
-            "level": "E",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 1.1.e",
-            "text": "Pasien yang menjalani tindakan invasif/berisiko di rawat jalan telah dilakukan pengkajian dan didokumentasikan dalam rekam medis",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: Pengkajian pasien yang menjalani tindakan invasif/berisiko di rawat jalan.",
-              "Halaman instrumen: 302"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PAP 1.2 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 1.2.a",
-            "text": "PPA telah membuat rencana asuhan untuk setiap pasien setelah diterima sebagai pasien rawat inap dalam waktu 24 jam berdasarkan hasil pengkajian awal.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pengkajian awal pasien masuk rawat inap termasuk rencana asuhan dalam waktu 24 jam PPA",
-              "Halaman instrumen: 304"
-            ]
-          },
-          {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
-            "title": "EP PAP 1.2.b",
-            "text": "Rencana asuhan dievaluasi secara berkala, direvisi atau dimutakhirkan serta didokumentasikan dalam rekam medis oleh setiap PPA.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis rencana asuhan yang dievaluasi secara berkala, direvisi dan dimutakhirkan sesuai regulasi PPA",
-              "Halaman instrumen: 304"
-            ]
-          },
-          {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 1.2.c",
-            "text": "Instruksi berdasarkan rencana asuhan dibuat oleh PPA yang kompeten dan berwenang, dengan cara yang seragam, dan didokumentasikan di CPPT",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pasien pada form CPPT mencakup instruksi sesuai dengan perencanaan asuhan dibuat oleh PPA yang berwenang dan kompeten PPA",
-              "Halaman instrumen: 304"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PAP 1.2 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 1.2.d",
-            "text": "Rencana asuhan pasien dibuat dengan membuat sasaran yang terukur dan didokumentasikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis rencana asuhan pasien ada sasaran yang terukur PPA",
-              "Halaman instrumen: 304"
-            ]
-          },
-          {
-            "level": "E",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 1.2.e",
-            "text": "DPJP telah melakukan evaluasi/review berkala dan verifikasi harian untuk memantau terlaksananya asuhan secara terintegrasi dan membuat notasi sesuai dengan kebutuhan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pasien (lembar CPPT) bahwa DPJP melakukan review secara berkala dan verifikasi harian untuk memantau terlaksananya asuhan secara terintegrasi dan membuat notasi sesuai dengan kebutuhan. DPJP",
-              "Halaman instrumen: 304"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "note": ""
       }
     },
     {
@@ -403,9 +287,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 12 elemen penilaian dari PAP 1, PAP 1.1, PAP 1.2 beserta jenis kelengkapan buktinya."
+        "Akses yang seragam: Pelayanan tidak dibedakan karena waktu, unit, atau status pembayaran.",
+        "Kolaborasi antar-PPA: Dokter, perawat, dan PPA lain bekerja dengan satu tujuan pasien.",
+        "Satu rencana terintegrasi: Temuan setiap PPA diterjemahkan menjadi sasaran dan intervensi yang saling mendukung.",
+        "Keterlibatan pasien/keluarga: Preferensi, tujuan, dan kemampuan pasien menjadi bagian rencana.",
+        "Disusun dalam 24 jam: Berdasarkan hasil pengkajian awal atau lebih cepat bila dibutuhkan.",
+        "Sasaran terukur: Tujuan menjelaskan hasil yang ingin dicapai dan dapat dievaluasi."
       ]
     },
     {
@@ -457,28 +346,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 1.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan R–Regulasi • W–Wawancara. Pokok elemennya: Rumah sakit menetapkan regulasi tentang pelayanan dan asuhan pasien (PAP) yang meliputi poin a) – e) dalam gambaran umum."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 1.b adalah…",
-      "options": [
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Asuhan yang seragam diberikan kepada setiap pasien meliputi poin a) – e) dalam maksud dan tujuan"
-    },
     {
       "q": "Dua PPA memberi instruksi diet yang berbeda. Perawat sebaiknya…",
       "options": [

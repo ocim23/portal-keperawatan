@@ -8,41 +8,45 @@
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 20,
+  "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian SKP 5",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Tindakan utama mengurangi infeksi terkait pelayanan",
+      "caption": "Perawat memutus rantai transmisi pada setiap kontak dan prosedur.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "1",
-            "tag": "O–Observasi • W–Wawancara • S–Simulasi",
-            "title": "EP SKP 5.1",
-            "text": "Rumah sakit telah menerapkan kebersihan tangan (hand hygiene) yang mengacu pada standar WHO terkini.",
-            "bullets": [
-              "Kelengkapan bukti: Pelaksanaan kebersihan tangan di rumah sakit yang mengacu pada standar WHO terkini. Staf Rumah sakit Kebersihan tangan",
-              "Halaman instrumen: 391, 392"
-            ]
+            "title": "Kebersihan tangan",
+            "text": "Lakukan pada lima momen dan dengan teknik serta durasi yang benar."
           },
           {
-            "level": "2",
-            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
-            "title": "EP SKP 5.2",
-            "text": "Terdapat proses evaluasi terhadap pelaksanaan program kebersihan tangan di rumah sakit serta upaya perbaikan yang dilakukan untuk meningkatkan pelaksanaan program.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti evaluasi dan upaya perbaikan pelaksanaan program kebersihan tangan di rumah sakit - Komite/Tim PMKP - Komite/Tim PPI",
-              "Halaman instrumen: 392"
-            ]
+            "title": "Teknik aseptik",
+            "text": "Lindungi bagian kritis alat dan area tindakan dari kontaminasi."
+          },
+          {
+            "title": "Perawatan alat invasif",
+            "text": "Evaluasi kebutuhan alat setiap hari, rawat sesuai bundle, dan lepaskan secepat mungkin bila tidak lagi diperlukan."
+          },
+          {
+            "title": "APD sesuai risiko",
+            "text": "Pilih berdasarkan pajanan, bukan berdasarkan diagnosis saja."
+          },
+          {
+            "title": "Lingkungan dan alat",
+            "text": "Pastikan alat digunakan, dibersihkan, dan disimpan sesuai kategori serta proses dekontaminasinya."
+          },
+          {
+            "title": "Edukasi pasien/keluarga",
+            "text": "Ajarkan kebersihan tangan, etika batuk, dan cara menjaga alat atau luka."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -251,9 +255,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 2 elemen penilaian dari SKP 5 beserta jenis kelengkapan buktinya."
+        "Kebersihan tangan: Lakukan pada lima momen dan dengan teknik serta durasi yang benar.",
+        "Teknik aseptik: Lindungi bagian kritis alat dan area tindakan dari kontaminasi.",
+        "Perawatan alat invasif: Evaluasi kebutuhan alat setiap hari, rawat sesuai bundle, dan lepaskan secepat mungkin bila tidak lagi diperlukan.",
+        "APD sesuai risiko: Pilih berdasarkan pajanan, bukan berdasarkan diagnosis saja."
       ]
     },
     {
@@ -305,28 +312,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 5.1 adalah…",
-      "options": [
-        "O–Observasi • W–Wawancara • S–Simulasi",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan O–Observasi • W–Wawancara • S–Simulasi. Pokok elemennya: Rumah sakit telah menerapkan kebersihan tangan (hand hygiene) yang mengacu pada standar WHO terkini."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 5.2 adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara • R–Regulasi"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara • R–Regulasi. Pokok elemennya: Terdapat proses evaluasi terhadap pelaksanaan program kebersihan tangan di rumah sakit serta upaya perbaikan yang dilakukan untuk meningkatkan pelaksanaan program."
-    },
     {
       "q": "Kewaspadaan standar diterapkan…",
       "options": [

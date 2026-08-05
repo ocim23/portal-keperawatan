@@ -10,51 +10,41 @@
   "icon": "rights",
   "priority": "knowledge",
   "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 10,
+  "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian HPK 4",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Persetujuan umum bukan persetujuan untuk semua tindakan",
+      "caption": "General consent diberikan saat pendaftaran/rawat inap dan memiliki batas cakupan.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi • D–Dokumen • O–Observasi • W–Wawancara",
-            "title": "EP HPK 4.a",
-            "text": "Rumah sakit menerapkan proses bagaimana persetujuan umum didokumentasikan dalam rekam medis pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan proses persetujuan umum. Bukti penerapan proses persetujuan umum di rekam medis. Proses pemberian persetujuan umum. - Staf admisi - Pasien/ keluarga",
-              "Halaman instrumen: 270"
-            ]
+            "title": "Cakupan umum",
+            "text": "Persetujuan pelayanan rutin, tata tertib, penggunaan informasi, atau aspek lain sesuai formulir rumah sakit."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 4.b",
-            "text": "Pasien dan keluarga diberikan informasi mengenai pemeriksaan, tindakan dan pengobatan yang memerlukan informed consent.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pemberian informasi terkait pemeriksaan, tindakan dan pengobatan yang memerlukan informed consent. (Lihat KE 4, MRMIK 10) - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 270"
-            ]
+            "title": "Tindakan khusus tetap terpisah",
+            "text": "Pembedahan/invasif, anestesi, sedasi, darah, dan tindakan berisiko tinggi memerlukan informed consent tersendiri."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 4.c",
-            "text": "Pasien menerima informasi mengenai kemungkinan keterlibatan peserta didik, mahasiswa, residen traine dan yang berpartisipasi fellow dalam proses perawatan",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pemberian informasi mengenai kemungkinan keterlibatan peserta didik, mahasiswa, residen traine yang dan fellow berpartisipasi dalam proses perawatan yang tercatat pada general consent - Petugas admisi - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 270, 271"
-            ]
+            "title": "Peserta didik",
+            "text": "Keterlibatan peserta didik diinformasikan sesuai ketentuan."
+          },
+          {
+            "title": "Bahasa yang dipahami",
+            "text": "Pasien harus memperoleh penjelasan dan kesempatan bertanya."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Identitas pemberi persetujuan dan hubungan/kewenangannya jelas."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -220,9 +210,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 3 elemen penilaian dari HPK 4 beserta jenis kelengkapan buktinya."
+        "Cakupan umum: Persetujuan pelayanan rutin, tata tertib, penggunaan informasi, atau aspek lain sesuai formulir rumah sakit.",
+        "Tindakan khusus tetap terpisah: Pembedahan/invasif, anestesi, sedasi, darah, dan tindakan berisiko tinggi memerlukan informed consent tersendiri.",
+        "Peserta didik: Keterlibatan peserta didik diinformasikan sesuai ketentuan.",
+        "Bahasa yang dipahami: Pasien harus memperoleh penjelasan dan kesempatan bertanya."
       ]
     },
     {
@@ -273,28 +266,6 @@
     "Mengurangi otonomi pasien."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 4.a adalah…",
-      "options": [
-        "R–Regulasi • D–Dokumen • O–Observasi • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen • O–Observasi • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan proses bagaimana persetujuan umum didokumentasikan dalam rekam medis pasien."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 4.b adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Pasien dan keluarga diberikan informasi mengenai pemeriksaan, tindakan dan pengobatan yang memerlukan informed consent."
-    },
     {
       "q": "Dalam situasi “Pasien masuk rawat inap”, tindakan yang paling tepat adalah…",
       "options": [

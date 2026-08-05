@@ -12,123 +12,43 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian MFK 11 (1/3)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Kesiapan staf MFK: yang harus dapat ditunjukkan",
+      "caption": "Halaman ini menjadi checklist kesiapan wawancara dan simulasi.",
       "template": {
-        "style": "bands",
+        "style": "checklist",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
-            "title": "EP MFK 11.a",
-            "text": "Semua staf telah diberikan pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait keselamatan setiap tahun dan dapat menjelaskan dan/atau menunjukkan peran dan tanggung jawabnya dan didokumentasikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait keselamatan untuk semua staf setiap tahun Staf rumah sakit",
-              "Halaman instrumen: 127"
-            ]
+            "title": "Keselamatan/keamanan",
+            "text": "Tunjukkan cara melaporkan bahaya dan menghubungi keamanan."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
-            "title": "EP MFK 11.b",
-            "text": "Semua staf telah diberikan pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait keamanan setiap tahun dan dapat menjelaskan dan/atau menunjukkan peran dan tanggung jawabnya dan didokumentasikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait keamanan untuk semua staf setiap tahun Staf rumah sakit",
-              "Halaman instrumen: 127"
-            ]
+            "title": "B3",
+            "text": "Tunjukkan lokasi spill kit/SDS dan jelaskan respons tumpahan/pajanan."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara • S–Simulasi • R–Regulasi",
-            "title": "EP MFK 11.c",
-            "text": "Semua staf telah diberikan pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait pengelolaan B3 dan limbahnya setiap tahun dan dapat menjelaskan dan/atau menunjukkan peran dan tanggung jawabnya dan didokumentasikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait Pengelolaan B3 untuk semua staf setiap tahun. Staf rumah sakit Staf memperagakan pengelolaan Limbah B3 dan penggunaan APD",
-              "Halaman instrumen: 127"
-            ]
+            "title": "Kebakaran",
+            "text": "Tunjukkan APAR, jalur evakuasi, dan peragakan prinsip penggunaan."
+          },
+          {
+            "title": "Peralatan medis",
+            "text": "Jelaskan respons alat rusak, malfungsi, atau recall."
+          },
+          {
+            "title": "Utilitas",
+            "text": "Jelaskan tindakan saat listrik, air, gas medis, atau komunikasi gagal."
+          },
+          {
+            "title": "Bencana",
+            "text": "Jelaskan kode aktivasi, jalur komando, titik melapor, dan peran unit."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian MFK 11 (2/3)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara • S–Simulasi • R–Regulasi",
-            "title": "EP MFK 11.d",
-            "text": "Semua staf telah diberikan pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait proteksi kebakaran setiap tahun dan dapat menjelaskan dan/atau menunjukkan peran dan tanggung jawabnya dan didokumentasikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait proteksi kebakaran untuk semua staf setiap tahun Staf rumah sakit Staf memperagakan penggunaan APAR dan/atau penggunaan Hydran.",
-              "Halaman instrumen: 127, 128"
-            ]
-          },
-          {
-            "level": "E",
-            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
-            "title": "EP MFK 11.e",
-            "text": "Semua staf telah diberikan pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait peralatan medis setiap tahun dan dapat menjelaskan dan/atau menunjukkan peran dan tanggung jawabnya dan didokumentasikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait peralatan medis untuk staf terkait setiap tahun. Staf terkait",
-              "Halaman instrumen: 128"
-            ]
-          },
-          {
-            "level": "F",
-            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
-            "title": "EP MFK 11.f",
-            "text": "Semua staf telah diberikan pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait sistim utilitas setiap tahun dan dapat menjelaskan dan/atau menunjukkan peran dan tanggung jawabnya dan didokumentasikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait sistim utilitas untuk staf terkait setiap tahun. Staf terkait",
-              "Halaman instrumen: 128"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian MFK 11 (3/3)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "G",
-            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
-            "title": "EP MFK 11.g",
-            "text": "Semua staf telah diberikan pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait penanganan bencana setiap tahun dan dapat menjelaskan dan/atau menunjukkan peran dan tanggung jawabnya dan didokumentasikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait penanganan bencana untuk semua staf setiap tahun. Staf rumah sakit",
-              "Halaman instrumen: 128"
-            ]
-          },
-          {
-            "level": "H",
-            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
-            "title": "EP MFK 11.h",
-            "text": "Pelatihan tentang pengelolaan fasilitas dan program keselamatan mencakup vendor, pekerja kontrak, relawan, pelajar, peserta didik, peserta pelatihan, dan lainnya, sebagaimana berlaku untuk peran dan tanggung jawab individu, dan sebagaimana ditentukan oleh rumah sakit.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelatihan tentang pengelolaan fasilitas dan program keselamatan kepada vendor, pekerja kontrak, relawan, pelajar, pesertra didik, peserta pelatihan dan lainnya. Vendor/pekerja kontrak/relawan/ pelajar/peserta didik/ peserta pelatihan dan lainnya.",
-              "Halaman instrumen: 128, 129"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -294,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 8 elemen penilaian dari MFK 11 beserta jenis kelengkapan buktinya."
+        "Keselamatan/keamanan: Tunjukkan cara melaporkan bahaya dan menghubungi keamanan.",
+        "B3: Tunjukkan lokasi spill kit/SDS dan jelaskan respons tumpahan/pajanan.",
+        "Kebakaran: Tunjukkan APAR, jalur evakuasi, dan peragakan prinsip penggunaan.",
+        "Peralatan medis: Jelaskan respons alat rusak, malfungsi, atau recall."
       ]
     },
     {
@@ -347,28 +270,6 @@
     "Masalah tetap ada."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 11.a adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara • R–Regulasi"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara • R–Regulasi. Pokok elemennya: Semua staf telah diberikan pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait keselamatan setiap tahun dan dapat menjelaskan dan/atau menunjukkan peran dan tanggung jawabnya dan didokumentasikan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 11.b adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara • R–Regulasi",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara • R–Regulasi. Pokok elemennya: Semua staf telah diberikan pelatihan program manajemen fasilitas dan keselamatan (MFK) terkait keamanan setiap tahun dan dapat menjelaskan dan/atau menunjukkan peran dan tanggung jawabnya dan didokumentasikan."
-    },
     {
       "q": "Dalam situasi “Tunjukkan APAR terdekat”, tindakan yang paling tepat adalah…",
       "options": [

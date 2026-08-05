@@ -10,73 +10,45 @@
   "icon": "chat",
   "priority": "knowledge",
   "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 10,
+  "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian KE 2 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Informasi pelayanan yang perlu dibantu perawat",
+      "caption": "Pasien tidak boleh dibiarkan bingung mencari layanan atau tindak lanjut.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 2.a",
-            "text": "Tersedia informasi untuk pasien dan keluarga mengenai asuhan dan pelayanan yang disediakan oleh rumah sakit serta akses untuk mendapatkan layanan tersebut. Informasi dapat disampaikan secara langsung dan/atau tidak langsung.",
-            "bullets": [
-              "Kelengkapan bukti: Dokumen bukti adanya informasi untuk pasien dan keluarga mengenai asuhan dan pelayanan yang disediakan oleh rumah sakit serta informasi akses untuk mendapatkan layanan tersebut. Informasi dapat disampaikan secara langsung dan/atau tidak langsung.",
-              "Halaman instrumen: 371"
-            ]
+            "title": "Jenis pelayanan",
+            "text": "Jelaskan pelayanan yang relevan dan berada dalam kewenangan perawat."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 2.b",
-            "text": "Rumah sakit menyampaikan informasi kepada pasien dan keluarga terkait alternatif asuhan dan pelayanan di tempat lain, apabila rumah sakit tidak dapat memberikan asuhan dan pelayanan yang dibutuhkan pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti penyampaian informasi berupa form edukasi/form rujukan yang telah terisi kepada pasien dan keluarga terkait alternatif asuhan dan pelayanan di tempat lain, apabila rumah sakit tidak dapat memberikan asuhan dan pelayanan yang dibutuhkan pasien.",
-              "Halaman instrumen: 371"
-            ]
+            "title": "Cara mengakses",
+            "text": "Arahkan lokasi, jadwal, alur pendaftaran, rujukan, atau kontak yang tepat."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 2.c",
-            "text": "Akses mendapatkan informasi kesehatan diberikan secara tepat waktu, dan status sosial ekonomi perawatan pasien tidak menghalangi pasien dan keluarga untuk mendapatkan informasi yang dibutuhkan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti informasi kesehatan telah diberikan secara tepat waktu dan status sosial ekonomi perawatan pasien tidak menghalangi pasien dan keluarga untuk mendapatkan informasi yang dibutuhkan pada rekam medik",
-              "Halaman instrumen: 371, 372"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian KE 2 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
+            "title": "Bila layanan tidak tersedia",
+            "text": "Jangan hanya mengatakan “tidak ada”; bantu jelaskan alternatif dan proses rujukan."
+          },
           {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 2.d",
-            "text": "Terdapat bukti pemberian informasi untuk pasien dan keluarga mengenai asuhan dan pelayanan di rumah sakit.",
-            "bullets": [
-              "Kelengkapan bukti: Dokumen bukti di rekam medik tentang pemberian informasi untuk pasien dan keluarga mengenai asuhan",
-              "Halaman instrumen: 372"
-            ]
+            "title": "Informasi tepat waktu",
+            "text": "Berikan sebelum pasien kehilangan kesempatan memperoleh pelayanan."
+          },
+          {
+            "title": "Jangan menebak",
+            "text": "Bila tidak yakin, hubungkan dengan petugas/unit yang berwenang."
+          },
+          {
+            "title": "Pastikan dipahami",
+            "text": "Sesuaikan bahasa dan hambatan komunikasi pasien."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -242,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 4 elemen penilaian dari KE 2 beserta jenis kelengkapan buktinya."
+        "Jenis pelayanan: Jelaskan pelayanan yang relevan dan berada dalam kewenangan perawat.",
+        "Cara mengakses: Arahkan lokasi, jadwal, alur pendaftaran, rujukan, atau kontak yang tepat.",
+        "Bila layanan tidak tersedia: Jangan hanya mengatakan “tidak ada”; bantu jelaskan alternatif dan proses rujukan.",
+        "Informasi tepat waktu: Berikan sebelum pasien kehilangan kesempatan memperoleh pelayanan."
       ]
     },
     {
@@ -295,28 +270,6 @@
     "Informasi dasar harus setara."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 2.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Tersedia informasi untuk pasien dan keluarga mengenai asuhan dan pelayanan yang disediakan oleh rumah sakit serta akses untuk mendapatkan layanan tersebut. Informasi dapat disampaikan secara langsung dan/atau tidak langsung."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 2.b adalah…",
-      "options": [
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menyampaikan informasi kepada pasien dan keluarga terkait alternatif asuhan dan pelayanan di tempat lain, apabila rumah sakit tidak dapat memberikan asuhan dan pelayanan yang dibutuhkan pasien."
-    },
     {
       "q": "Dalam situasi “Pasien mencari layanan yang tidak ada”, tindakan yang paling tepat adalah…",
       "options": [

@@ -8,253 +8,137 @@
   "color": "#7B5EA7",
   "soft": "#F4EEFF",
   "icon": "clipboard",
-  "minutes": 24,
+  "minutes": 22,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PP 1 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Tiga proses utama pengkajian pasien",
+      "caption": "Pengkajian bukan sekadar mengisi formulir; hasilnya harus mengarahkan kebutuhan dan rencana perawatan.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi",
-            "title": "EP PP 1.a",
-            "text": "Rumah sakit menetapkan regulasi tentang pengkajian awal dan pengkajian ulang medis dan keperawatan di unit gawat darurat, rawat inap dan rawat jalan.",
-            "bullets": [
-              "Kelengkapan bukti: Regulasi tentang pengkajian awal dan pengkajian ulang medis dan keperawatan di unit gawat darurat, rawat inap dan rawat jalan.",
-              "Halaman instrumen: 277"
-            ]
+            "title": "1. Pengumpulan data",
+            "text": "Kumpulkan kondisi fisik, psikologis, sosial, dan riwayat kesehatan pasien."
           },
           {
-            "level": "B",
-            "tag": "R–Regulasi",
-            "title": "EP PP 1.b",
-            "text": "Rumah sakit menetapkan isi minimal pengkajian awal meliputi poin a) – l) pada maksud dan tujuan.",
-            "bullets": [
-              "Kelengkapan bukti: Regulasi tentang pengkajian awal dengan isi minimal meliputi poin a) – l) pada maksud dan tujuan.",
-              "Halaman instrumen: 277"
-            ]
+            "title": "2. Analisis data",
+            "text": "Gabungkan wawancara, pemeriksaan, laboratorium, dan pencitraan untuk mengidentifikasi masalah, risiko, dan kebutuhan."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PP 1.c",
-            "text": "Hanya PPA yang kompeten, diperbolehkan untuk melakukan pengkajian sesuai dengan ketentuan rumah sakit.",
-            "bullets": [
-              "Kelengkapan bukti: 1. Bukti SIP, SPK dan RKK PPA yang melakukan pengkajian sesuai dengan ketentuan rumah sakit. 2. Bukti Rekam Medis pengkajian oleh PPA yang kompeten.",
-              "Halaman instrumen: 277"
-            ]
+            "title": "3. Pengembangan rencana",
+            "text": "Gunakan hasil analisis untuk menentukan tata laksana segera dan kebutuhan perawatan berkesinambungan."
           }
         ],
         "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian PP 1 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Isi minimal pengkajian awal",
+      "caption": "Bagian berikut harus tergali sesuai kondisi dan populasi pasien.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PP 1.d",
-            "text": "Perencanaan pulang yang mencakup identifikasi kebutuhan khusus dan rencana untuk memenuhi kebutuhan tersebut, disusun sejak pengkajian awal.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rekam Medis pengkajian awal mencakup perencanaan pulang pasien yang memerlukan kebutuhan khusus dan rencana memenuhi kebutuhan khusus tersebut.",
-              "Halaman instrumen: 277"
-            ]
+            "title": "Keluhan dan status klinis",
+            "text": "Keluhan saat ini, status fisik, dan riwayat kesehatan."
+          },
+          {
+            "title": "Psikososial dan kebutuhan dasar",
+            "text": "Psikososial-spiritual serta kondisi ekonomi yang memengaruhi pelayanan."
+          },
+          {
+            "title": "Alergi dan obat",
+            "text": "Riwayat alergi dan riwayat penggunaan obat."
+          },
+          {
+            "title": "Risiko dan fungsi",
+            "text": "Nyeri, risiko jatuh, status fungsional, dan risiko nutrisi."
+          },
+          {
+            "title": "Kemampuan belajar",
+            "text": "Kebutuhan edukasi dan hambatan menerima informasi."
+          },
+          {
+            "title": "Kelanjutan pelayanan",
+            "text": "Perencanaan pemulangan dimulai sejak pengkajian awal."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": "Jika skrining menunjukkan masalah atau risiko, lanjutkan dengan pengkajian lebih mendalam dan tindak lanjut."
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian PP 1.1 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Batas waktu dan hasil pengkajian",
+      "caption": "Perawat harus mengetahui kapan pengkajian selesai dan apa keluaran klinisnya.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PP 1.1.a",
-            "text": "Pengkajian awal medis dan keperawatan dilaksanakan dan didokumentasikan dalam kurun waktu 24 jam pertama sejak pasien masuk rawat inap, atau lebih awal bila diperlukan sesuai dengan kondisi pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rekam Medis pengkajian awal medis dan keperawatan pasien rawat inap diisi dalam 24 jam pertama sejak pasien masuk rawat inap atau lebih awal bila diperlukan sesuai dengan kondisi pasien.",
-              "Halaman instrumen: 277"
-            ]
+            "title": "Maksimal 24 jam",
+            "text": "Pengkajian awal medis dan keperawatan pasien rawat inap selesai dalam 24 jam pertama atau lebih awal sesuai kondisi."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen",
-            "title": "EP PP 1.1.b",
-            "text": "Pengkajian awal medis menghasilkan diagnosis medis yang mencakup kondisi utama dan kondisi lainnya yang membutuhkan tata laksana dan pemantauan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rekam Medis pengkajian awal medis yang menghasilkan diagnosis medis, mencakup kondisi utama dan kondisi lainnya yang membutuhkan tata laksana dan pemantauan.",
-              "Halaman instrumen: 277, 278"
-            ]
+            "title": "Diagnosis keperawatan",
+            "text": "Hasil pengkajian keperawatan menentukan kebutuhan asuhan, intervensi, atau pemantauan yang spesifik."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PP 1.1.c",
-            "text": "Pengkajian awal keperawatan menghasilkan diagnosis keperawatan untuk menentukan kebutuhan asuhan keperawatan, intervensi atau pemantauan pasien yang spesifik.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rekam Medis pengkajian awal keperawatan yang menghasilkan diagnosis keperawatan untuk menentukan kebutuhan asuhan keperawatan, intervensi atau pemantauan pasien yang spesifik.",
-              "Halaman instrumen: 278"
-            ]
+            "title": "Skrining nutrisi",
+            "text": "Pasien berisiko nutrisi dilanjutkan dengan pengkajian gizi."
+          },
+          {
+            "title": "Fungsi dan jatuh",
+            "text": "Skrining kebutuhan fungsional termasuk risiko jatuh harus ditindaklanjuti sesuai hasil."
+          },
+          {
+            "title": "Pengkajian lama",
+            "text": "Pengkajian sebelum rawat/prosedur berlaku bila berusia ≤30 hari; lebih lama memerlukan pengkajian ulang."
+          },
+          {
+            "title": "Pengkajian dari luar",
+            "text": "Hasil dari luar rumah sakit ditinjau atau diverifikasi sebelum digunakan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian PP 1.1 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Pengkajian tambahan populasi khusus",
+      "caption": "Pengkajian disesuaikan dengan kebutuhan pasien, bukan memakai satu formulir yang sama tanpa pendalaman.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "D",
-            "tag": "D–Dokumen",
-            "title": "EP PP 1.1.d",
-            "text": "Sebelum pembedahan pada kondisi mendesak, minimal terdapat catatan singkat dan diagnosis praoperasi yang didokumentasikan di dalam rekam medik.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rekam Medis pengkajian awal yang memuat catatan singkat dan diagnosis praoperasi sebelum pembedahan pada kondisi mendesak.",
-              "Halaman instrumen: 278"
-            ]
+            "title": "Tahap usia",
+            "text": "Neonatus, anak, remaja, obstetri/maternitas, dan geriatri."
           },
           {
-            "level": "E",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PP 1.1.e",
-            "text": "Pengkajian medis yang dilakukan sebelum masuk rawat inap atau sebelum pasien menjalani prosedur di layanan rawat jalan rumah sakit harus dilakukan dalam waktu kurang atau sama dengan 30 (tiga puluh) hari sebelumnya. Jika lebih dari 30 (tiga puluh) hari, maka harus dilakukan pengkajian ulang.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rekam Medis pengkajian awal pasien yang memuat sebelum masuk rawat inap atau sebelum menjalani prosedur di layanan rawat jalan dalam waktu kurang atau sama dengan 30 (tiga puluh) hari sebelumnya. Jika lebih dari 30 (tiga puluh) hari, maka harus dilakukan pengkajian ulang.",
-              "Halaman instrumen: 278"
-            ]
+            "title": "Kondisi khusus",
+            "text": "Terminal, nyeri kronik/intens, gangguan emosional/psikiatri, atau kecanduan."
           },
           {
-            "level": "A",
-            "tag": "D–Dokumen",
-            "title": "EP PP 1.1.a",
-            "text": "Hasil dari seluruh pengkajian yang dikerjakan di luar rumah sakit ditinjau dan/atau diverifikasi pada saat masuk rawat inap atau sebelum tindakan di unit rawat jalan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pengkajian yang dikerjakan di luar rumah sakit telah ditinjau dan/atau diverifikasi pada saat masuk rawat inap atau sebelum tindakan di unit rawat jalan.",
-              "Halaman instrumen: 278"
-            ]
+            "title": "Risiko perlindungan",
+            "text": "Korban kekerasan atau kesewenangan."
+          },
+          {
+            "title": "Penyakit/terapi khusus",
+            "text": "Penyakit menular, kemoterapi/radioterapi, atau gangguan imun."
+          },
+          {
+            "title": "Nilai dan budaya",
+            "text": "Pendalaman tetap memperhatikan nilai, budaya, dan kondisi individual pasien."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PP 1.2 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "A",
-            "tag": "R–Regulasi • D–Dokumen • W–Wawancara",
-            "title": "EP PP 1.2.a",
-            "text": "Rumah sakit menetapkan kriteria risiko nutrisional yang dikembangkan bersama staf yang kompeten dan berwenang.",
-            "bullets": [
-              "Kelengkapan bukti: Regulasi tentang kriteria risiko nutrisional. Bukti keterlibatan staf yang kompeten dan berwenang (staf gizi) dalam pembuatan kriteria risiko nutrisional.",
-              "Halaman instrumen: 278, 279"
-            ]
-          },
-          {
-            "level": "A",
-            "tag": "D–Dokumen",
-            "title": "EP PP 1.2.a",
-            "text": "Pasien diskrining untuk risiko nutrisi sebagai bagian dari pengkajian awal.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rekam Medis pengkajian awal skrining risiko nutrisi.",
-              "Halaman instrumen: 279"
-            ]
-          },
-          {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PP 1.2.b",
-            "text": "Pasien dengan risiko nutrisional dilanjutkan dengan pengkajian gizi.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rekam Medis pengkajian gizi untuk pasien dengan risiko nutrisional.",
-              "Halaman instrumen: 279"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PP 1.2 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "C",
-            "tag": "R–Regulasi • D–Dokumen • W–Wawancara",
-            "title": "EP PP 1.2.c",
-            "text": "Pasien diskrining untuk kebutuhan fungsional termasuk risiko jatuh.",
-            "bullets": [
-              "Kelengkapan bukti: Regulasi tentang skrining untuk kebutuhan fungsional termasuk risiko jatuh. 1. Bukti keterlibatan staf yang kompeten dan berwenang (staf rehabilitasi medis /fisioterapis) dalam penentuan skrining dan status fungsional dalam pembuatan kriteria risiko jatuh. 2. Bukti Rekam Medis pengkajian awal skrining pasien dengan kebutuhan fungsional pasien termasuk risiko jatuh.",
-              "Halaman instrumen: 279"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PP 1.3",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "A",
-            "tag": "R–Regulasi",
-            "title": "EP PP 1.3.a",
-            "text": "Rumah sakit menetapkan jenis populasi khusus yang akan dilakukan pengkajian meliputi poin a) - m) pada maksud dan tujuan.",
-            "bullets": [
-              "Kelengkapan bukti: Regulasi tentang jenis populasi khusus yang akan dilakukan pengkajian meliputi namun tidak terbatas pada poin a) - m) pada maksud dan tujuan.",
-              "Halaman instrumen: 280"
-            ]
-          },
-          {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PP 1.3.b",
-            "text": "Rumah sakit telah melaksanakan pengkajian tambahan terhadap populasi pasien khusus sesuai ketentuan rumah sakit.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pengkajian tambahan populasi pasien khusus sesuai ketentuan rumah sakit.",
-              "Halaman instrumen: 280"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -460,6 +344,17 @@
   ],
   "summarySections": [
     {
+      "title": "Kompetensi inti perawat",
+      "points": [
+        "1. Pengumpulan data: Kumpulkan kondisi fisik, psikologis, sosial, dan riwayat kesehatan pasien.",
+        "2. Analisis data: Gabungkan wawancara, pemeriksaan, laboratorium, dan pencitraan untuk mengidentifikasi masalah, risiko, dan kebutuhan.",
+        "3. Pengembangan rencana: Gunakan hasil analisis untuk menentukan tata laksana segera dan kebutuhan perawatan berkesinambungan.",
+        "Keluhan dan status klinis: Keluhan saat ini, status fisik, dan riwayat kesehatan.",
+        "Psikososial dan kebutuhan dasar: Psikososial-spiritual serta kondisi ekonomi yang memengaruhi pelayanan.",
+        "Alergi dan obat: Riwayat alergi dan riwayat penggunaan obat."
+      ]
+    },
+    {
       "title": "Dasar penilaian",
       "points": [
         "PP 1–1.3 menilai regulasi dan isi minimal pengkajian, kompetensi PPA, batas waktu, diagnosis medis/keperawatan, skrining, tindak lanjut, dan pengkajian populasi khusus."
@@ -507,28 +402,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PP 1.a adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan R–Regulasi. Pokok elemennya: Rumah sakit menetapkan regulasi tentang pengkajian awal dan pengkajian ulang medis dan keperawatan di unit gawat darurat, rawat inap dan rawat jalan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PP 1.b adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan R–Regulasi. Pokok elemennya: Rumah sakit menetapkan isi minimal pengkajian awal meliputi poin a) – l) pada maksud dan tujuan."
-    },
     {
       "q": "Skrining nutrisi pasien menunjukkan risiko tinggi. Tindakan berikutnya adalah…",
       "options": [

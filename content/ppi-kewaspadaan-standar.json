@@ -10,41 +10,101 @@
   "icon": "hands",
   "priority": "knowledge",
   "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 12,
+  "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PPI 2",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Kewaspadaan standar (1/2)",
+      "caption": "Kewaspadaan standar diterapkan kepada semua pasien, tanpa menunggu diagnosis infeksi.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi",
-            "title": "EP PPI 2.a",
-            "text": "Rumah sakit menetapkan kebijakan Program PPI yang terdiri dari kewaspadaan standar dan kewaspadaan transmisi sesuai maksud dan tujuan diatas.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan Program PPI yang terdiri dari kewaspadaan standar dan kewaspadaan transmisi sesuai maksud dan tujuan.",
-              "Halaman instrumen: 187"
-            ]
+            "title": "1. Kebersihan tangan",
+            "text": "Lakukan pada momen yang tepat dengan teknik yang benar."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
-            "title": "EP PPI 2.b",
-            "text": "Rumah sakit melakukan evaluasi pelaksanaan program PPI.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti evaluasi pelaksanaan program PPI dan disertai tindak lanjut - Komite/Tim PPI IPCN -",
-              "Halaman instrumen: 187"
-            ]
+            "title": "2. Alat pelindung diri",
+            "text": "Pilih sesuai kemungkinan pajanan."
+          },
+          {
+            "title": "3. Dekontaminasi peralatan",
+            "text": "Alat dibersihkan, didesinfeksi, atau disterilkan sesuai penggunaannya."
+          },
+          {
+            "title": "4. Pengendalian lingkungan",
+            "text": "Jaga kebersihan permukaan dan area pelayanan."
+          },
+          {
+            "title": "5. Pengelolaan limbah",
+            "text": "Pisahkan dan buang sesuai jenis dan risiko."
+          },
+          {
+            "title": "6. Penatalaksanaan linen",
+            "text": "Tangani linen kotor tanpa mengibaskan atau mencemari lingkungan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kewaspadaan standar (2/2)",
+      "caption": "Lima komponen berikut melengkapi sebelas kewaspadaan standar.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "7. Perlindungan kesehatan petugas",
+            "text": "Cegah pajanan dan ikuti alur pascapajanan."
+          },
+          {
+            "title": "8. Penempatan pasien",
+            "text": "Tempatkan sesuai risiko penularan dan kondisi klinis."
+          },
+          {
+            "title": "9. Etika batuk/bersin",
+            "text": "Tutup batuk, masker sesuai kondisi, dan kebersihan tangan."
+          },
+          {
+            "title": "10. Praktik menyuntik aman",
+            "text": "Gunakan alat steril sekali pakai dan teknik aseptik."
+          },
+          {
+            "title": "11. Praktik pungsi lumbal aman",
+            "text": "Gunakan perlindungan dan teknik aseptik sesuai prosedur."
+          }
+        ],
+        "columns": 2,
+        "note": "Sarung tangan atau APD lain tidak menggantikan kebersihan tangan."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kewaspadaan berdasarkan transmisi",
+      "caption": "Diterapkan sebagai tambahan terhadap kewaspadaan standar sejak infeksi dicurigai dan setelah jalur penularan diketahui.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kontak",
+            "text": "Untuk penularan melalui sentuhan langsung atau lingkungan/peralatan yang terkontaminasi."
+          },
+          {
+            "title": "Droplet",
+            "text": "Untuk percikan saluran napas pada jarak dekat; gunakan masker dan penempatan sesuai prosedur."
+          },
+          {
+            "title": "Udara / Airborne",
+            "text": "Untuk partikel yang bertahan di udara; gunakan respirator dan pengaturan ruang sesuai prosedur."
           }
         ],
         "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "note": "Kewaspadaan transmisi tidak menggantikan kewaspadaan standar."
       }
     },
     {
@@ -210,9 +270,13 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 2 elemen penilaian dari PPI 2 beserta jenis kelengkapan buktinya."
+        "Menerapkan sebelas kewaspadaan standar kepada semua pasien.",
+        "Membedakan kewaspadaan kontak, droplet, dan udara/airborne.",
+        "Memulai kewaspadaan transmisi sejak infeksi dicurigai, tanpa menunggu diagnosis pasti.",
+        "Memilih APD dan pengamanan berdasarkan risiko pajanan dan jalur penularan.",
+        "Mengomunikasikan status kewaspadaan saat serah terima dan transfer."
       ]
     },
     {
@@ -263,28 +327,6 @@
     "Menyulitkan kerja dan menghabiskan sumber daya tanpa manfaat."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 2.a adalah…",
-      "options": [
-        "R–Regulasi",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan R–Regulasi. Pokok elemennya: Rumah sakit menetapkan kebijakan Program PPI yang terdiri dari kewaspadaan standar dan kewaspadaan transmisi sesuai maksud dan tujuan diatas."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 2.b adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara • R–Regulasi"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara • R–Regulasi. Pokok elemennya: Rumah sakit melakukan evaluasi pelaksanaan program PPI."
-    },
     {
       "q": "Dalam situasi “Sebelum pemasangan infus”, tindakan yang paling tepat adalah…",
       "options": [

@@ -8,51 +8,69 @@
   "color": "#14805E",
   "soft": "#EAF8F2",
   "icon": "hand",
-  "minutes": 16,
+  "minutes": 22,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PPI 11",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Lima momen kebersihan tangan",
+      "caption": "Perawat harus mampu menyebutkan dan menerapkannya pada alur tindakan nyata.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "W–Wawancara • S–Simulasi • O–Observasi",
-            "title": "EP PPI 11.a",
-            "text": "Rumah sakit telah menerapkan hand hygiene yang mencakup kapan, di mana, dan bagaimana melakukan cuci tangan mempergunakan sabun (hand wash) dan atau dengan disinfektan (hand rubs) serta ketersediaan fasilitas hand hygiene.",
-            "bullets": [
-              "Kelengkapan bukti: hygiene - Komite/Tim PPI - IPCN - Kepala Unit/Ruangan Hand hygiene Lihat SKP 5 Ketersediaan sabun,",
-              "Halaman instrumen: 208"
-            ]
+            "title": "1. Sebelum menyentuh pasien",
+            "text": "Melindungi pasien dari mikroorganisme pada tangan petugas."
           },
           {
-            "level": "B",
-            "tag": "W–Wawancara • D–Dokumen",
-            "title": "EP PPI 11.b",
-            "text": "Sabun, disinfektan, serta tissu/handuk sekali pakai tersedia di tempat cuci tangan dan tempat melakukan disinfeksi tangan.",
-            "bullets": [
-              "Kelengkapan bukti: disinfektan, serta tissu/handuk sekali pakai tersedia di tempat cuci tangan dan tempat melakukan disinfeksi tangan. - Komite/Tim PPI - IPCN - Kepala Unit/ Ruangan Bukti pelaksanaan pelatihan",
-              "Halaman instrumen: 208, 209"
-            ]
+            "title": "2. Sebelum tindakan aseptik",
+            "text": "Melindungi titik kritis dan area steril."
           },
           {
-            "level": "C",
-            "tag": "W–Wawancara",
-            "title": "EP PPI 11.c",
-            "text": "Ada bukti pelaksanaan pelatihan hand hygiene kepada semua pegawai termasuk tenaga kontrak.",
-            "bullets": [
-              "Kelengkapan bukti: kepada semua hand hygiene pegawai termasuk tenaga kontrak - PPA - Staf Non Klinis",
-              "Halaman instrumen: 209"
-            ]
+            "title": "3. Setelah risiko cairan tubuh",
+            "text": "Dilakukan segera setelah pajanan atau melepas sarung tangan."
+          },
+          {
+            "title": "4. Setelah menyentuh pasien",
+            "text": "Melindungi petugas dan lingkungan."
+          },
+          {
+            "title": "5. Setelah menyentuh lingkungan pasien",
+            "text": "Termasuk tempat tidur, meja, monitor, atau benda di sekitar pasien."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Pilih handrub atau air mengalir",
+      "caption": "Pemilihan metode bergantung pada kondisi tangan dan pajanan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Handrub berbasis alkohol",
+            "text": "Digunakan bila tangan tidak tampak kotor dan tidak ada indikasi khusus mencuci dengan sabun."
+          },
+          {
+            "title": "Sabun dan air mengalir",
+            "text": "Gunakan bila tangan tampak kotor, setelah toilet, atau sesuai risiko organisme tertentu/prosedur rumah sakit."
+          },
+          {
+            "title": "Sarung tangan bukan pengganti",
+            "text": "Lakukan kebersihan tangan sebelum memakai dan setelah melepas sarung tangan."
+          },
+          {
+            "title": "Jaga kondisi tangan",
+            "text": "Kuku pendek, tanpa aksesori yang mengganggu, dan luka ditutup sesuai ketentuan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -297,9 +315,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 3 elemen penilaian dari PPI 11 beserta jenis kelengkapan buktinya."
+        "1. Sebelum menyentuh pasien: Melindungi pasien dari mikroorganisme pada tangan petugas.",
+        "2. Sebelum tindakan aseptik: Melindungi titik kritis dan area steril.",
+        "3. Setelah risiko cairan tubuh: Dilakukan segera setelah pajanan atau melepas sarung tangan.",
+        "4. Setelah menyentuh pasien: Melindungi petugas dan lingkungan.",
+        "Handrub berbasis alkohol: Digunakan bila tangan tidak tampak kotor dan tidak ada indikasi khusus mencuci dengan sabun.",
+        "Sabun dan air mengalir: Gunakan bila tangan tampak kotor, setelah toilet, atau sesuai risiko organisme tertentu/prosedur rumah sakit."
       ]
     },
     {
@@ -353,28 +376,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 11.a adalah…",
-      "options": [
-        "W–Wawancara • S–Simulasi • O–Observasi",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan W–Wawancara • S–Simulasi • O–Observasi. Pokok elemennya: Rumah sakit telah menerapkan hand hygiene yang mencakup kapan, di mana, dan bagaimana melakukan cuci tangan mempergunakan sabun (hand wash) dan atau dengan disinfektan (hand rubs) serta ketersediaan fasilitas hand hygiene."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PPI 11.b adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "W–Wawancara • D–Dokumen"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan W–Wawancara • D–Dokumen. Pokok elemennya: Sabun, disinfektan, serta tissu/handuk sekali pakai tersedia di tempat cuci tangan dan tempat melakukan disinfeksi tangan."
-    },
     {
       "q": "Perawat merapikan bed rail tanpa menyentuh pasien, lalu akan meninggalkan ruang. Momen yang relevan adalah…",
       "options": [

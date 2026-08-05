@@ -8,73 +8,45 @@
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 24,
+  "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PAP 4 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Pengkajian dan pengelolaan nyeri",
+      "caption": "Nyeri dikaji pada awal pelayanan, dipantau, ditangani, dan dinilai ulang.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi",
-            "title": "EP PAP 4.a",
-            "text": "Rumah sakit memiliki proses untuk melakukan skrining, pengkajian, dan tata laksana nyeri meliputi poin a) - e) pada maksud dan tujuan.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan proses untuk melakukan skrining, pengkajian, dan tata laksana nyeri meliputi poin a) - e) pada maksud dan tujuan.",
-              "Halaman instrumen: 321"
-            ]
+            "title": "Gunakan skala sesuai pasien",
+            "text": "Pilih skala berdasarkan usia, kemampuan komunikasi, dan kondisi kognitif."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 4.b",
-            "text": "Informasi mengenai kemungkinan adanya nyeri dan pilihan tata laksananya diberikan kepada pasien yang menerima terapi/ prosedur/pemeriksaan terencana yang sudah dapat diprediksi menimbulkan rasa nyeri.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: Pemberian informasi kepada pasien tentang kemungkinan timbul rasa nyeri oleh karena tindakan terapi/prosedur/ pemeriksaan - PPA - Pasien / keluarga",
-              "Halaman instrumen: 321"
-            ]
+            "title": "Kaji lebih dari angka",
+            "text": "Lokasi, kualitas, durasi, pencetus/pereda, dampak fungsi/tidur, dan tujuan pasien."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 4.c",
-            "text": "Pasien dan keluarga mendapatkan edukasi mengenai pengelolaan nyeri sesuai dengan latar belakang agama, budaya, nilai-nilai yang dianut.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: edukasi kepada pasien/keluarga tentang pengelolaan nyeri sesuai latar belakang agama, budaya, nilai-nilai yang dianut. - PPA - Pasien/ keluarga",
-              "Halaman instrumen: 321"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PAP 4 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
+            "title": "Intervensi multimodal",
+            "text": "Tindakan farmakologis dan nonfarmakologis sesuai instruksi, kondisi, dan preferensi."
+          },
           {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara • S–Simulasi",
-            "title": "EP PAP 4.d",
-            "text": "Staf rumah sakit mendapatkan pelatihan mengenai cara melakukan edukasi bagi pengelolaan nyeri.",
-            "bullets": [
-              "Kelengkapan bukti: Pelatihan mengenai cara melakukan edukasi nyeri bagi PPA PPA Pemberian edukasi pengelolaan nyeri",
-              "Halaman instrumen: 321"
-            ]
+            "title": "Nilai ulang tepat waktu",
+            "text": "Sesuaikan dengan rute obat, intervensi, dan derajat nyeri."
+          },
+          {
+            "title": "Eskalasi",
+            "text": "Laporkan nyeri tidak terkontrol, perubahan karakter, atau tanda bahaya."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Catat skor, intervensi, respons, efek samping, dan rencana berikutnya."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -287,9 +259,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 4 elemen penilaian dari PAP 4 beserta jenis kelengkapan buktinya."
+        "Gunakan skala sesuai pasien: Pilih skala berdasarkan usia, kemampuan komunikasi, dan kondisi kognitif.",
+        "Kaji lebih dari angka: Lokasi, kualitas, durasi, pencetus/pereda, dampak fungsi/tidur, dan tujuan pasien.",
+        "Intervensi multimodal: Tindakan farmakologis dan nonfarmakologis sesuai instruksi, kondisi, dan preferensi.",
+        "Nilai ulang tepat waktu: Sesuaikan dengan rute obat, intervensi, dan derajat nyeri."
       ]
     },
     {
@@ -341,28 +316,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 4.a adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan R–Regulasi. Pokok elemennya: Rumah sakit memiliki proses untuk melakukan skrining, pengkajian, dan tata laksana nyeri meliputi poin a) - e) pada maksud dan tujuan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 4.b adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Informasi mengenai kemungkinan adanya nyeri dan pilihan tata laksananya diberikan kepada pasien yang menerima terapi/ prosedur/pemeriksaan terencana yang sudah dapat diprediksi menimbulkan rasa nyeri."
-    },
     {
       "q": "Pasien nonverbal tampak meringis dan menarik diri saat digerakkan. Tindakan terbaik adalah…",
       "options": [

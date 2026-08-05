@@ -10,41 +10,45 @@
   "icon": "rights",
   "priority": "practice",
   "priorityLabel": "Praktik Wajib",
-  "minutes": 15,
+  "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PKPO 4",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Rekonsiliasi obat pada transisi pelayanan",
+      "caption": "Tujuannya menemukan dan menyelesaikan perbedaan obat sebelum menimbulkan cedera.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara • O–Observasi",
-            "title": "EP PKPO 4.a",
-            "text": "Rumah sakit menerapkan rekonsiliasi obat saat pasien masuk rumah sakit, pindah antar unit pelayanan di dalam rumah sakit dan sebelum pasien pulang.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekonsiliasi obat saat pasien masuk rumah sakit, pindah antar unit pelayanan di dalam rumah sakit dan sebelum pasien pulang. - Kepala Instalasi Farmasi - Apoteker - Dokter - Perawat dan bidan - Pasien",
-              "Halaman instrumen: 356"
-            ]
+            "title": "Saat masuk",
+            "text": "Kumpulkan daftar obat terbaik: resep, OTC, herbal, suplemen, inhaler, insulin, tetes, dan obat berkala."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen",
-            "title": "EP PKPO 4.b",
-            "text": "Hasil rekonsiliasi obat didokumentasikan di rekam medis.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: rekonsiliasi obat sesuai standar PKPO 4 EP a",
-              "Halaman instrumen: 356"
-            ]
+            "title": "Saat pindah unit",
+            "text": "Bandingkan obat sebelum transfer dengan instruksi baru dan perubahan kondisi."
+          },
+          {
+            "title": "Saat pulang",
+            "text": "Pastikan obat yang dilanjutkan, dihentikan, diubah, dan obat baru dipahami pasien."
+          },
+          {
+            "title": "Cari diskrepansi",
+            "text": "Obat terlewat, duplikasi, dosis/frekuensi berubah, alergi, atau obat masih diminum tanpa instruksi."
+          },
+          {
+            "title": "Klarifikasi",
+            "text": "Perawat tidak memutuskan sendiri; koordinasikan dengan dokter dan apoteker."
+          },
+          {
+            "title": "Dokumentasi dan edukasi",
+            "text": "Catat sumber informasi, keputusan, dan pemahaman pasien/keluarga."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -210,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 2 elemen penilaian dari PKPO 4 beserta jenis kelengkapan buktinya."
+        "Saat masuk: Kumpulkan daftar obat terbaik: resep, OTC, herbal, suplemen, inhaler, insulin, tetes, dan obat berkala.",
+        "Saat pindah unit: Bandingkan obat sebelum transfer dengan instruksi baru dan perubahan kondisi.",
+        "Saat pulang: Pastikan obat yang dilanjutkan, dihentikan, diubah, dan obat baru dipahami pasien.",
+        "Cari diskrepansi: Obat terlewat, duplikasi, dosis/frekuensi berubah, alergi, atau obat masih diminum tanpa instruksi."
       ]
     },
     {
@@ -263,28 +270,6 @@
     "Pasien perlu tahu perubahan dari regimen sebelumnya."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 4.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara • O–Observasi",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara • O–Observasi. Pokok elemennya: Rumah sakit menerapkan rekonsiliasi obat saat pasien masuk rumah sakit, pindah antar unit pelayanan di dalam rumah sakit dan sebelum pasien pulang."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 4.b adalah…",
-      "options": [
-        "D–Dokumen",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen. Pokok elemennya: Hasil rekonsiliasi obat didokumentasikan di rekam medis."
-    },
     {
       "q": "Dalam situasi “Wawancara pasien”, tindakan yang paling tepat adalah…",
       "options": [

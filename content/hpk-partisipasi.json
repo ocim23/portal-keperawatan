@@ -12,81 +12,43 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian HPK 2 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Keterlibatan pasien dan keluarga dalam asuhan",
+      "caption": "Pasien berhak memperoleh informasi dan menentukan sejauh mana keluarga dilibatkan.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 2.a",
-            "text": "Rumah sakit menerapkan proses untuk mendukung pasien dan keluarga terlibat dan berpartisipasi dalam proses asuhan dan dalam pengambilan keputusan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti penerapan proses untuk mendukung pasien dan keluarga terlibat dan berpartisipasi dalam proses perawatan dan dalam pengambilan keputusan (Lihat KE 4) - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 264, 265"
-            ]
+            "title": "Informasi kondisi dan rencana",
+            "text": "Jelaskan sesuai kewenangan dengan bahasa yang dipahami."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 2.b",
-            "text": "Rumah sakit menerapkan proses untuk memberikan edukasi kepada pasien dan keluarganya mengenai kondisi medis, diagnosis, serta rencana perawatan dan terapi yang diberikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pemberian edukasi kepada pasien dan keluarganya mengenai kondisi medis, diagnosis, serta rencana perawatan dan terapi yang diberikan. (Lihat KE KE 4) - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 265"
-            ]
+            "title": "Pilihan dan alternatif",
+            "text": "Beri ruang bertanya, mempertimbangkan, dan menyampaikan preferensi."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 2.c",
-            "text": "Pasien diberikan informasi mengenai hasil asuhan dan tata laksana yang diharapkan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pemberian informasi mengenai hasil perawatan dan tata laksana yang diharapkan. - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 265"
-            ]
+            "title": "Tujuan pasien",
+            "text": "Masukkan tujuan, nilai, dan kemampuan pasien dalam rencana asuhan."
+          },
+          {
+            "title": "Keluarga sesuai pilihan pasien",
+            "text": "Tidak semua keluarga otomatis berhak atas seluruh informasi."
+          },
+          {
+            "title": "Second opinion",
+            "text": "Pasien dapat meminta pendapat lain tanpa mutu pelayanan dikurangi."
+          },
+          {
+            "title": "Hasil tidak diharapkan",
+            "text": "Komunikasikan melalui pihak berwenang secara jujur dan terkoordinasi."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian HPK 2 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 2.d",
-            "text": "Pasien diberikan informasi mengenai kemungkinan hasil yang tidak dapat diantisipasi dari terapi dan perawatan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pemberian informasi mengenai kemungkinan hasil yang tidak dapat diantisipasi dari terapi dan perawatan dan - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 265"
-            ]
-          },
-          {
-            "level": "E",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 2.e",
-            "text": "Rumah sakit memfasilitasi permintaan pasien untuk mencari pendapat kedua tanpa perlu khawatir akan mempengaruhi perawatannya selama di dalam atau luar rumah sakit",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Rumah Sakit memfasilitasi pasien untuk mencari pendapat kedua - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 265"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -252,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 5 elemen penilaian dari HPK 2 beserta jenis kelengkapan buktinya."
+        "Informasi kondisi dan rencana: Jelaskan sesuai kewenangan dengan bahasa yang dipahami.",
+        "Pilihan dan alternatif: Beri ruang bertanya, mempertimbangkan, dan menyampaikan preferensi.",
+        "Tujuan pasien: Masukkan tujuan, nilai, dan kemampuan pasien dalam rencana asuhan.",
+        "Keluarga sesuai pilihan pasien: Tidak semua keluarga otomatis berhak atas seluruh informasi."
       ]
     },
     {
@@ -305,28 +270,6 @@
     "Kondisi dan tujuan pasien dapat berubah."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 2.a adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan proses untuk mendukung pasien dan keluarga terlibat dan berpartisipasi dalam proses asuhan dan dalam pengambilan keputusan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 2.b adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan proses untuk memberikan edukasi kepada pasien dan keluarganya mengenai kondisi medis, diagnosis, serta rencana perawatan dan terapi yang diberikan."
-    },
     {
       "q": "Dalam situasi “Rencana mobilisasi”, tindakan yang paling tepat adalah…",
       "options": [

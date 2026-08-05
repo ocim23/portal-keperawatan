@@ -10,93 +10,45 @@
   "icon": "target",
   "priority": "knowledge",
   "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 11,
+  "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PMKP 11 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Manajemen risiko di unit",
+      "caption": "Risiko adalah potensi kejadian; insiden adalah kejadian yang sudah terjadi atau hampir terjadi.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
-            "title": "EP PMKP 11.a",
-            "text": "Komite/Tim Penyelenggara Mutu memandu penerapan program manajemen risiko yang ditetapkan oleh Direktur",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Komite/Tim Mutu RS melaksanakan supervisi untuk memandu penerapan program manajemen risiko. - Komite/Tim Mutu RS - Kepala Unit kerja",
-              "Halaman instrumen: 153"
-            ]
+            "title": "Identifikasi bahaya",
+            "text": "Amati proses klinis, obat, alat, lingkungan, komunikasi, staf, dan kepatuhan."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen",
-            "title": "EP PMKP 11.b",
-            "text": "Komite/Tim Penyelenggara Mutu telah membuat daftar risiko rumah sakit berdasarkan daftar risiko unit-unit di rumah sakit",
-            "bullets": [
-              "Kelengkapan bukti: Bukti daftar risiko rumah sakit berdasarkan daftar risiko unit- unit di rumah sakit. Lihat TKRS 14 EP b Bukti profil risiko dan rencana",
-              "Halaman instrumen: 153"
-            ]
+            "title": "Nilai risiko",
+            "text": "Pertimbangkan kemungkinan dan dampak untuk menentukan prioritas."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen",
-            "title": "EP PMKP 11.c",
-            "text": "Komite/Tim Penyelenggara Mutu telah membuat profil risiko dan rencana penanganan.",
-            "bullets": [
-              "Kelengkapan bukti: penanganan (strategi penanganan risiko).",
-              "Halaman instrumen: 153, 154"
-            ]
+            "title": "Tentukan pengendalian",
+            "text": "Hilangkan, kurangi, buat pertahanan, atau siapkan respons."
+          },
+          {
+            "title": "Masukkan daftar risiko",
+            "text": "Dokumentasikan pemilik risiko, rencana, target waktu, dan status."
+          },
+          {
+            "title": "Pantau risiko sisa",
+            "text": "Nilai kembali setelah pengendalian."
+          },
+          {
+            "title": "Laporkan perubahan",
+            "text": "Bahaya baru, pengendalian gagal, atau risiko meningkat harus dieskalasi."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PMKP 11 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
-            "title": "EP PMKP 11.d",
-            "text": "Komite/Tim Penyelenggara Mutu telah membuat pemantauan terhadap rencana penanganan dan melaporkan kepada direktur dan representatif pemilik/dewan pengawas setiap 6 (enam) bulan",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Komite Mutu RS telah melakukan pemantauan dan pelaporan meliputi: 1) Ceklis untuk pemantauan 2) Hasil pemantauan 3) Laporan hasil pemantauan kepada Direktur dan representative pemilik/dewan pengawas setiap 6 (enam) bulan. - Komite/Tim Mutu RS - Kepala Unit kerja Penetapan Program Manajemen",
-              "Halaman instrumen: 154"
-            ]
-          },
-          {
-            "level": "E",
-            "tag": "Bukti sesuai instrumen",
-            "title": "EP PMKP 11.e",
-            "text": "Komite/Tim Penyelenggara Mutu telah menyusun Program manajemen risiko tingkat rumah sakit untuk ditetapkan Direktur",
-            "bullets": [
-              "Kelengkapan bukti: Risiko Rumah Sakit oleh Direktur.",
-              "Halaman instrumen: 154"
-            ]
-          },
-          {
-            "level": "F",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PMKP 11.f",
-            "text": "Komite/Tim Penyelenggara Mutu telah memandu pemilihan minimal satu analisa secara proaktif proses berisiko tinggi yang diprioritaskan untuk dilakukan Analisa FMEA setiap tahun",
-            "bullets": [
-              "Kelengkapan bukti: Bukti FMEA terhadap proses berisiko tinggi setahun sekali yang dipandu oleh Komite Mutu RS - Komite/Tim Mutu RS - Kepala Unit kerja",
-              "Halaman instrumen: 154"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -262,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 6 elemen penilaian dari PMKP 11 beserta jenis kelengkapan buktinya."
+        "Identifikasi bahaya: Amati proses klinis, obat, alat, lingkungan, komunikasi, staf, dan kepatuhan.",
+        "Nilai risiko: Pertimbangkan kemungkinan dan dampak untuk menentukan prioritas.",
+        "Tentukan pengendalian: Hilangkan, kurangi, buat pertahanan, atau siapkan respons.",
+        "Masukkan daftar risiko: Dokumentasikan pemilik risiko, rencana, target waktu, dan status."
       ]
     },
     {
@@ -315,28 +270,6 @@
     "Efektivitas perlu dibuktikan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 11.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara • R–Regulasi",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara • R–Regulasi. Pokok elemennya: Komite/Tim Penyelenggara Mutu memandu penerapan program manajemen risiko yang ditetapkan oleh Direktur"
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 11.b adalah…",
-      "options": [
-        "D–Dokumen",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen. Pokok elemennya: Komite/Tim Penyelenggara Mutu telah membuat daftar risiko rumah sakit berdasarkan daftar risiko unit-unit di rumah sakit"
-    },
     {
       "q": "Dalam situasi “LASA berdekatan”, tindakan yang paling tepat adalah…",
       "options": [

@@ -10,73 +10,45 @@
   "icon": "chat",
   "priority": "knowledge",
   "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 11,
+  "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian KE 6 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Edukasi berkelanjutan setelah pasien pulang",
+      "caption": "Discharge education harus menghubungkan pasien dengan perawatan berikutnya.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 6.a",
-            "text": "Rumah sakit mengidentifikasi sumber-sumber yang ada di komunitas untuk mendukung promosi kesehatan berkelanjutan dan edukasi untuk menunjang asuhan pasien yang berkelanjutan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti daftar Faskes dan praktik mandiri untuk mendukung promosi kesehatan dan edukasi yang menunjang asuhan pasien yang berkelanjutan",
-              "Halaman instrumen: 377"
-            ]
+            "title": "Rencana kontrol",
+            "text": "Kapan, di mana, dengan siapa, dan apa yang perlu dibawa."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 6.b",
-            "text": "Rumah sakit telah memiliki jejaring di komunitas untuk mendukung asuhan pasien berkelanjutan.",
-            "bullets": [
-              "Kelengkapan bukti: MOU atau Kerjasama dengan jejaring di komunitas untuk mendukung asuhan pasien berkelanjutan.",
-              "Halaman instrumen: 377"
-            ]
+            "title": "Obat dan perawatan rumah",
+            "text": "Jadwal, cara pakai, alat, diet, luka, mobilisasi, atau terapi lain."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen",
-            "title": "EP KE 6.c",
-            "text": "Memiliki bukti telah disampaikan kepada pasien dan keluarga tentang edukasi lanjutan di komunitas. Rujukan edukasi tersebut dilaksanakan oleh jejaring utama yaitu Fasilitas Kesehatan Tingkat Pertama (FKTP).",
-            "bullets": [
-              "Kelengkapan bukti: Bukti tentang pemberian edukasi rujukan lanjutan di komunitas",
-              "Halaman instrumen: 377"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian KE 6 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
+            "title": "Tanda bahaya",
+            "text": "Gejala yang memerlukan kontak segera atau datang ke fasilitas kesehatan."
+          },
           {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 6.d",
-            "text": "Terdapat bukti edukasi berkelanjutan tersebut diberikan kepada pasien sesuai dengan kebutuhan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti tentang pemberian edukasi berkelanjutan diberikan kepada pasien sesuai dengan kebutuhan.",
-              "Halaman instrumen: 377"
-            ]
+            "title": "Jejaring layanan",
+            "text": "FKTP, rehabilitasi, home care, kelompok dukungan, atau layanan komunitas."
+          },
+          {
+            "title": "Kontak bantuan",
+            "text": "Nomor/unit yang dapat dihubungi sesuai kebijakan."
+          },
+          {
+            "title": "Verifikasi kesiapan",
+            "text": "Pasien/keluarga mampu menjelaskan dan melakukan kebutuhan utama."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -242,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 4 elemen penilaian dari KE 6 beserta jenis kelengkapan buktinya."
+        "Rencana kontrol: Kapan, di mana, dengan siapa, dan apa yang perlu dibawa.",
+        "Obat dan perawatan rumah: Jadwal, cara pakai, alat, diet, luka, mobilisasi, atau terapi lain.",
+        "Tanda bahaya: Gejala yang memerlukan kontak segera atau datang ke fasilitas kesehatan.",
+        "Jejaring layanan: FKTP, rehabilitasi, home care, kelompok dukungan, atau layanan komunitas."
       ]
     },
     {
@@ -295,28 +270,6 @@
     "Pasien terlambat mencari pertolongan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 6.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit mengidentifikasi sumber-sumber yang ada di komunitas untuk mendukung promosi kesehatan berkelanjutan dan edukasi untuk menunjang asuhan pasien yang berkelanjutan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 6.b adalah…",
-      "options": [
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit telah memiliki jejaring di komunitas untuk mendukung asuhan pasien berkelanjutan."
-    },
     {
       "q": "Dalam situasi “Pasien butuh rehabilitasi”, tindakan yang paling tepat adalah…",
       "options": [

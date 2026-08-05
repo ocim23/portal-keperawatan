@@ -10,51 +10,45 @@
   "icon": "heart",
   "priority": "practice",
   "priorityLabel": "Praktik Wajib",
-  "minutes": 16,
+  "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PAP 2.7",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Keselamatan transfusi darah",
+      "caption": "Risiko utama dapat dicegah dengan identifikasi, verifikasi, monitoring, dan respons cepat.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 2.7.a",
-            "text": "Rumah sakit menerapkan penyelenggaraan pelayanan darah.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Penyelenggaraan pelayanan darah dan produk darah yang meliputi a-h dalam maksud dan tujuan Penanggung jawab pelayanan darah",
-              "Halaman instrumen: 318"
-            ]
+            "title": "Sebelum transfusi",
+            "text": "Verifikasi instruksi, persetujuan, identitas pasien, komponen darah, kecocokan, kedaluwarsa, kondisi kantong, dan akses."
           },
           {
-            "level": "B",
-            "tag": "R–Regulasi",
-            "title": "EP PAP 2.7.b",
-            "text": "Panduan klinis dan prosedur disusun dan diterapkan untuk pelayanan darah serta produk darah.",
-            "bullets": [
-              "Kelengkapan bukti: 1. Penetapan panduan klinis pelayanan darah serta produk darah 2. Prosedur terkait pelayanan darah serta produk darah 1.",
-              "Halaman instrumen: 318"
-            ]
+            "title": "Di sisi pasien",
+            "text": "Lakukan pemeriksaan bersama sesuai kebijakan dan cocokkan gelang dengan label komponen serta dokumen."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara • R–Regulasi",
-            "title": "EP PAP 2.7.c",
-            "text": "Staf yang kompeten bertanggungjawab terhadap pelayanan darah di rumah sakit.",
-            "bullets": [
-              "Kelengkapan bukti: Surat Keputusan Penunjukan Staf kompeten yang bertanggung jawab terhadap pelayanan darah sesuai dengan kualifikasi dalam pedoman pengorganisasian atau panduan pelayanan darah 2. SPK dan RKK staf yang bertanggung jawan terhadap pelayanan darah dan yang memberikan pelayanan darah/transfusi kepada pasien. Penanggung jawab pelayanan darah/PPA",
-              "Halaman instrumen: 318"
-            ]
+            "title": "Mulai dan pantau",
+            "text": "Catat tanda vital dasar, mulai sesuai prosedur, observasi ketat terutama fase awal, dan dokumentasikan."
+          },
+          {
+            "title": "Kenali reaksi",
+            "text": "Demam, menggigil, sesak, nyeri, urtikaria, hipotensi, hemoglobinuria, atau perubahan kondisi lain."
+          },
+          {
+            "title": "Bila dicurigai reaksi",
+            "text": "Hentikan transfusi, pertahankan akses sesuai prosedur, nilai pasien, hubungi dokter/bank darah, dan ikuti investigasi."
+          },
+          {
+            "title": "Sesudah selesai",
+            "text": "Catat waktu, jumlah, respons, dan edukasi tanda bahaya."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -220,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 3 elemen penilaian dari PAP 2.7 beserta jenis kelengkapan buktinya."
+        "Sebelum transfusi: Verifikasi instruksi, persetujuan, identitas pasien, komponen darah, kecocokan, kedaluwarsa, kondisi kantong, dan akses.",
+        "Di sisi pasien: Lakukan pemeriksaan bersama sesuai kebijakan dan cocokkan gelang dengan label komponen serta dokumen.",
+        "Mulai dan pantau: Catat tanda vital dasar, mulai sesuai prosedur, observasi ketat terutama fase awal, dan dokumentasikan.",
+        "Kenali reaksi: Demam, menggigil, sesak, nyeri, urtikaria, hipotensi, hemoglobinuria, atau perubahan kondisi lain."
       ]
     },
     {
@@ -273,28 +270,6 @@
     "Dapat merusak produk atau menimbulkan komplikasi."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.7.a adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan penyelenggaraan pelayanan darah."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.7.b adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan R–Regulasi. Pokok elemennya: Panduan klinis dan prosedur disusun dan diterapkan untuk pelayanan darah serta produk darah."
-    },
     {
       "q": "Dalam situasi “Demonstrasi verifikasi”, tindakan yang paling tepat adalah…",
       "options": [

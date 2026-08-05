@@ -10,83 +10,45 @@
   "icon": "rights",
   "priority": "knowledge",
   "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 12,
+  "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PKPO 4.1 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Instruksi pengobatan yang aman",
+      "caption": "Perawat harus mampu mengenali instruksi yang belum lengkap atau berisiko.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • O–Observasi • R–Regulasi",
-            "title": "EP PKPO 4.1.a",
-            "text": "Resep dibuat lengkap sesuai regulasi.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti penulisan resep sesuai regulasi. Resep",
-              "Halaman instrumen: 359"
-            ]
+            "title": "Elemen dasar",
+            "text": "Identitas pasien, nama obat, dosis, rute, frekuensi/waktu, dan indikasi bila diperlukan."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PKPO 4.1.b",
-            "text": "Telah dilakukan evaluasi terhadap penulisan resep/instruksi pengobatan yang tidak lengkap dan tidak terbaca.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelaksanaan evaluasi terhadap penulisan resep/instruksi pengobatan yang tidak lengkap dan tidak terbaca. - Ka Unit Farmasi - Apoteker",
-              "Halaman instrumen: 359"
-            ]
+            "title": "Data pasien",
+            "text": "Alergi, berat badan, fungsi ginjal/hati, hasil laboratorium, dan kondisi klinis relevan."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PKPO 4.1.c",
-            "text": "Telah dilaksanaan proses untuk mengelola resep khusus seperti emergensi, automatic stop order, tapering,",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pengelolaan resep khusus seperti emergensi, automatic stop order, dan tapering - Kepala Instalasi Farmasi - Apoteker - Staf Farmasi",
-              "Halaman instrumen: 359"
-            ]
+            "title": "Instruksi verbal/telepon",
+            "text": "Diterima hanya sesuai ketentuan; tulis, baca kembali, dan konfirmasi."
+          },
+          {
+            "title": "Singkatan",
+            "text": "Gunakan hanya singkatan yang diizinkan; jangan menebak tulisan atau simbol ambigu."
+          },
+          {
+            "title": "PRN",
+            "text": "Harus jelas indikasi, dosis, interval, dan batas maksimal bila diperlukan."
+          },
+          {
+            "title": "Klarifikasi",
+            "text": "Tahan pemberian sampai instruksi yang tidak lengkap atau tidak masuk akal diselesaikan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PKPO 4.1 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "D",
-            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
-            "title": "EP PKPO 4.1.d",
-            "text": "Daftar obat yang diresepkan tercatat dalam rekam medis pasien dan menyertai pasien ketika dipindahkan/transfer.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: Daftar obat / Medication chart Daftar obat yang diresepkan tercatat dalam rekam medis pasien dan menyertai pasien ketika dipindahkan/transfer",
-              "Halaman instrumen: 359"
-            ]
-          },
-          {
-            "level": "E",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PKPO 4.1.e",
-            "text": "Daftar obat pulang diserahkan kepada pasien disertai edukasi penggunaannya.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti edukasi penggunaan obat pulang yang diserahkan kepada pasien. - Kepala Instalasi Farmasi - Apoteker - Staf Farmasi - Pasien/keluarga",
-              "Halaman instrumen: 359"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -252,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 5 elemen penilaian dari PKPO 4.1 beserta jenis kelengkapan buktinya."
+        "Elemen dasar: Identitas pasien, nama obat, dosis, rute, frekuensi/waktu, dan indikasi bila diperlukan.",
+        "Data pasien: Alergi, berat badan, fungsi ginjal/hati, hasil laboratorium, dan kondisi klinis relevan.",
+        "Instruksi verbal/telepon: Diterima hanya sesuai ketentuan; tulis, baca kembali, dan konfirmasi.",
+        "Singkatan: Gunakan hanya singkatan yang diizinkan; jangan menebak tulisan atau simbol ambigu."
       ]
     },
     {
@@ -305,28 +270,6 @@
     "Perubahan harus dapat ditelusuri."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 4.1.a adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • O–Observasi • R–Regulasi",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan D–Dokumen • O–Observasi • R–Regulasi. Pokok elemennya: Resep dibuat lengkap sesuai regulasi."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 4.1.b adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Telah dilakukan evaluasi terhadap penulisan resep/instruksi pengobatan yang tidak lengkap dan tidak terbaca."
-    },
     {
       "q": "Dalam situasi “Instruksi “insulin 5””, tindakan yang paling tepat adalah…",
       "options": [

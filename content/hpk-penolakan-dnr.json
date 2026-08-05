@@ -10,73 +10,41 @@
   "icon": "rights",
   "priority": "knowledge",
   "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 14,
+  "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian HPK 2.1",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Menolak terapi, DNR, dan terapi penunjang kehidupan",
+      "caption": "Ketiganya berbeda dan harus dijelaskan serta didokumentasikan dengan tepat.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi • D–Dokumen • W–Wawancara",
-            "title": "EP HPK 2.1.a",
-            "text": "Rumah sakit menerapkan proses mengenai pemberian pelayanan resusitasi dan penghentian terapi penunjang kehidupan untuk pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan proses tentang penghentian pelayanan resusitasi dan terapi penunjang kehidupan pasien. Bukti pemberian informasi penghentian pelayanan resusitasi dan terapi penunjang kehidupan pasien oleh DPJP. - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 266"
-            ]
+            "title": "Menolak tindakan/terapi",
+            "text": "Pasien memahami manfaat, risiko, konsekuensi, dan alternatif sebelum memutuskan."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 2.1.b",
-            "text": "Rumah sakit memberi informasi kepada pasien dan keluarga mengenai hak mereka untuk menolak atau menghentikan terapi, konsekuensi dari keputusan yang dibuat serta terapi dan alternatif lain yang dapat dijadikan pilihan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pemberian informasi kepada pasien dan keluarga mengenai hak mereka untuk menolak atau menghentikan terapi, konsekuensi dari keputusan yang dibuat serta terapi dan alternatif lain. - PPA - Pasien/ keluarga",
-              "Halaman instrumen: 266, 267"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian HPK 2.2",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 2.2.a",
-            "text": "Rumah sakit menerapkan proses untuk menghargai dan mendukung hak pasien mendapatkan pengkajian dan pengelolaan nyeri.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: pengkajian dan pengelolaan nyeri - PPA - Pasien/ keluarga",
-              "Halaman instrumen: 268"
-            ]
+            "title": "DNR",
+            "text": "Keputusan tidak melakukan resusitasi bila terjadi henti jantung/napas; bukan penghentian seluruh asuhan."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 2.2.b",
-            "text": "Rumah sakit menerapkan proses untuk menghargai dan mendukung hak pasien untuk mendapatkan pengkajian dan pengelolaan terhadap kebutuhan pasien menjelang akhir hayat.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: pengkajian dan pengelolaan terhadap kebutuhan pasien menjelang akhir hayat. - PPA - Pasien/ keluarga",
-              "Halaman instrumen: 268"
-            ]
+            "title": "Penghentian terapi penunjang",
+            "text": "Memerlukan proses klinis, etik, komunikasi, dan dokumentasi sesuai ketentuan."
+          },
+          {
+            "title": "Peran perawat",
+            "text": "Tidak memaksa, memastikan tim mengetahui keputusan, tetap memberi asuhan yang direncanakan, dan menjaga kenyamanan."
+          },
+          {
+            "title": "Nyeri dan akhir hayat",
+            "text": "Pasien tetap berhak atas pengkajian nyeri, pengelolaan gejala, martabat, dan dukungan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -242,9 +210,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 4 elemen penilaian dari HPK 2.1, HPK 2.2 beserta jenis kelengkapan buktinya."
+        "Menolak tindakan/terapi: Pasien memahami manfaat, risiko, konsekuensi, dan alternatif sebelum memutuskan.",
+        "DNR: Keputusan tidak melakukan resusitasi bila terjadi henti jantung/napas; bukan penghentian seluruh asuhan.",
+        "Penghentian terapi penunjang: Memerlukan proses klinis, etik, komunikasi, dan dokumentasi sesuai ketentuan.",
+        "Peran perawat: Tidak memaksa, memastikan tim mengetahui keputusan, tetap memberi asuhan yang direncanakan, dan menjaga kenyamanan."
       ]
     },
     {
@@ -295,28 +266,6 @@
     "Mengabaikan martabat pasien."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 2.1.a adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • D–Dokumen • W–Wawancara"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan proses mengenai pemberian pelayanan resusitasi dan penghentian terapi penunjang kehidupan untuk pasien."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 2.1.b adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit memberi informasi kepada pasien dan keluarga mengenai hak mereka untuk menolak atau menghentikan terapi, konsekuensi dari keputusan yang dibuat serta terapi dan alternatif lain yang dapat dijadikan pilihan."
-    },
     {
       "q": "Dalam situasi “Pasien menolak transfusi”, tindakan yang paling tepat adalah…",
       "options": [

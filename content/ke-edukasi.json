@@ -8,83 +8,45 @@
   "color": "#5B6F9C",
   "soft": "#EEF2FF",
   "icon": "chat",
-  "minutes": 17,
+  "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian KE 5 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Metode edukasi dan verifikasi pemahaman",
+      "caption": "Metode dipilih sesuai kemampuan pasien dan harus diakhiri dengan bukti bahwa pesan dipahami.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 5.a",
-            "text": "Rumah sakit memiliki proses untuk memastikan bahwa pasien dan keluarganya memahami edukasi yang diberikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelaksanaan verifikasi untuk memastikan bahwa pasien dan keluarganya paham edukasi yang diberikan, melalui wawancara",
-              "Halaman instrumen: 375, 376"
-            ]
+            "title": "Metode",
+            "text": "Lisan, tulisan, gambar, video, alat peraga, demonstrasi, atau kombinasi."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 5.b",
-            "text": "Proses pemberian edukasi didokumentasikan dalam rekam medik sesuai dengan metode edukasi yang dapat diterima pasien dan keluarganya.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti dalam rekam medik tentang pelaksanaan edukasi yang sesuai dengan metode edukasi yang dapat diterima pasien dan keluarganya.",
-              "Halaman instrumen: 376"
-            ]
+            "title": "Teach-back",
+            "text": "Minta pasien menjelaskan kembali dengan kata-katanya sendiri."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 5.c",
-            "text": "Materi edukasi untuk pasien dan keluarga selalu tersedia dan diperbaharui secara berkala.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti berupa materi edukasi untuk pasien dan keluarga yang selalu tersedia dan diperbaharui secara berkala. Tim PKRS",
-              "Halaman instrumen: 376"
-            ]
+            "title": "Return demonstration",
+            "text": "Minta pasien mempraktikkan penggunaan alat, obat, atau keterampilan."
+          },
+          {
+            "title": "Jika belum paham",
+            "text": "Jelaskan ulang dengan cara berbeda; jangan menyalahkan pasien."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Materi, penerima, metode, hambatan, hasil verifikasi, kebutuhan ulang, dan tindak lanjut."
+          },
+          {
+            "title": "Tanda tangan",
+            "text": "Mengikuti formulir rumah sakit; bukan pengganti verifikasi pemahaman."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian KE 5 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 5.d",
-            "text": "Informasi dan edukasi disampaikan kepada pasien dan keluarga dengan menggunakan format yang praktis dan dengan bahasa yang dipahami pasien dan keluarga.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti bahwa informasi dan edukasi yang disampaikan kepada pasien dan keluarga, menggunakan format yang praktis dan dengan bahasa yang dipahami pasien dan keluarga.",
-              "Halaman instrumen: 376"
-            ]
-          },
-          {
-            "level": "E",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP KE 5.e",
-            "text": "Rumah sakit menyediakan penerjemah (bahasa dan bahasa isyarat) sesuai dengan kebutuhan pasien dan keluarga.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti daftar penerjemah (bahasa dan bahasa isyarat) sesuai dengan kebutuhan pasien dan keluarga.",
-              "Halaman instrumen: 376"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -294,9 +256,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 5 elemen penilaian dari KE 5 beserta jenis kelengkapan buktinya."
+        "Metode: Lisan, tulisan, gambar, video, alat peraga, demonstrasi, atau kombinasi.",
+        "Teach-back: Minta pasien menjelaskan kembali dengan kata-katanya sendiri.",
+        "Return demonstration: Minta pasien mempraktikkan penggunaan alat, obat, atau keterampilan.",
+        "Jika belum paham: Jelaskan ulang dengan cara berbeda; jangan menyalahkan pasien."
       ]
     },
     {
@@ -348,28 +313,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 5.a adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit memiliki proses untuk memastikan bahwa pasien dan keluarganya memahami edukasi yang diberikan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP KE 5.b adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Proses pemberian edukasi didokumentasikan dalam rekam medik sesuai dengan metode edukasi yang dapat diterima pasien dan keluarganya."
-    },
     {
       "q": "Kalimat teach-back yang paling tepat adalah…",
       "options": [

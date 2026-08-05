@@ -10,83 +10,69 @@
   "icon": "rights",
   "priority": "practice",
   "priorityLabel": "Praktik Wajib",
-  "minutes": 13,
+  "minutes": 15,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian HPK 1.4",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Harta benda pasien",
+      "caption": "Barang pasien harus dapat ditelusuri dan dilindungi, terutama pada pasien tidak sadar atau tanpa pendamping.",
       "template": {
-        "style": "bands",
+        "style": "checklist",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi • W–Wawancara",
-            "title": "EP HPK 1.4.a",
-            "text": "Rumah sakit menetapkan proses untuk mencatat dan melindungi pertanggungjawaban harta benda pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan proses untuk mencatat dan melindungi pertanggungjawaban harta benda pasien",
-              "Halaman instrumen: 262"
-            ]
+            "title": "Inventarisasi",
+            "text": "Catat barang berharga, kondisi, jumlah, dan saksi sesuai prosedur."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
-            "title": "EP HPK 1.4.b",
-            "text": "Pasien mendapat informasi mengenai tanggung jawab rumah sakit untuk melindungi harta benda pribadi mereka di tempat penyimpanan barang pasien berupa nakas/lemari kecil pada masing-masing tempat tidur pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pasien mendapat informasi mengenai tanggung jawab rumah sakit untuk melindungi harta benda pribadi mereka. Tempat penyimpanan harta benda pasien - PPA - Admisi - Pasien/ Keluarga",
-              "Halaman instrumen: 262"
-            ]
+            "title": "Serah terima",
+            "text": "Berikan kepada keluarga atau tempat penyimpanan resmi dengan dokumentasi."
+          },
+          {
+            "title": "Jangan menyimpan pribadi",
+            "text": "Staf tidak membawa atau menyimpan barang pasien tanpa proses resmi."
+          },
+          {
+            "title": "Laporkan kehilangan",
+            "text": "Amankan informasi, hubungi atasan/keamanan, dan ikuti investigasi."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian HPK 1.5",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Perlindungan pasien rentan",
+      "caption": "Perawat harus mengenali tanda kekerasan, pelecehan, intimidasi, atau penelantaran.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi • D–Dokumen • O–Observasi • W–Wawancara",
-            "title": "EP HPK 1.5.a",
-            "text": "Rumah sakit mengembangkan dan menerapkan proses untuk melindungi semua pasien dari serangan fisik dan verbal.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan proses perlindungan semua pasien dari serangan fisik dan verbal. Bukti perlaksanaan proses tersebut. Perlindungan pasien di rawat inap - Pimpinan RS - PPA, - Admisi - Pasien/ Keluarga",
-              "Halaman instrumen: 263"
-            ]
+            "title": "Amankan segera",
+            "text": "Pisahkan dari ancaman bila aman dan penuhi kebutuhan medis."
           },
           {
-            "level": "B",
-            "tag": "R–Regulasi • W–Wawancara",
-            "title": "EP HPK 1.5.b",
-            "text": "Rumah sakit mengidentifikasi populasi yang memiliki risiko lebih tinggi untuk mengalami serangan.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan populasi yang memiliki risiko lebih tinggi untuk mengalami serangan, misalnya bayi, geriatri, ibu hamil, pasien koma, pasien dengan kelemahan fisik",
-              "Halaman instrumen: 263"
-            ]
+            "title": "Kaji secara sensitif",
+            "text": "Gunakan pertanyaan nonmenghakimi dan hindari interogasi."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
-            "title": "EP HPK 1.5.c",
-            "text": "Rumah sakit memantau area fasilitas yang terisolasi dan terpencil.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti proses pemantauan area fasilitas yang terisolasi dan terpencil. - Area fasilitas yang terisolasi dan terpencil - CCTV - Pimpinan RS - PPA - Staf Keamanan - Pasien / Keluarga",
-              "Halaman instrumen: 263"
-            ]
+            "title": "Dokumentasi objektif",
+            "text": "Catat ucapan pasien, temuan fisik, waktu, dan tindakan tanpa kesimpulan spekulatif."
+          },
+          {
+            "title": "Aktifkan jalur perlindungan",
+            "text": "Hubungi tim, atasan, keamanan, atau pihak yang ditetapkan."
+          },
+          {
+            "title": "Jaga kerahasiaan",
+            "text": "Batasi informasi kepada pihak yang perlu mengetahui."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -252,9 +238,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 5 elemen penilaian dari HPK 1.4, HPK 1.5 beserta jenis kelengkapan buktinya."
+        "Inventarisasi: Catat barang berharga, kondisi, jumlah, dan saksi sesuai prosedur.",
+        "Serah terima: Berikan kepada keluarga atau tempat penyimpanan resmi dengan dokumentasi.",
+        "Jangan menyimpan pribadi: Staf tidak membawa atau menyimpan barang pasien tanpa proses resmi.",
+        "Laporkan kehilangan: Amankan informasi, hubungi atasan/keamanan, dan ikuti investigasi.",
+        "Amankan segera: Pisahkan dari ancaman bila aman dan penuhi kebutuhan medis.",
+        "Kaji secara sensitif: Gunakan pertanyaan nonmenghakimi dan hindari interogasi."
       ]
     },
     {
@@ -305,28 +296,6 @@
     "Dapat membahayakan staf dan pasien."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.4.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan R–Regulasi • W–Wawancara. Pokok elemennya: Rumah sakit menetapkan proses untuk mencatat dan melindungi pertanggungjawaban harta benda pasien."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 1.4.b adalah…",
-      "options": [
-        "D–Dokumen • O–Observasi • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen • O–Observasi • W–Wawancara. Pokok elemennya: Pasien mendapat informasi mengenai tanggung jawab rumah sakit untuk melindungi harta benda pribadi mereka di tempat penyimpanan barang pasien berupa nakas/lemari kecil pada masing-masing tempat tidur pasien."
-    },
     {
       "q": "Dalam situasi “Pasien tidak sadar datang dengan barang berharga”, tindakan yang paling tepat adalah…",
       "options": [

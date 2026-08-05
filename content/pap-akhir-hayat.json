@@ -8,41 +8,45 @@
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 25,
+  "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PAP 5",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Asuhan menjelang akhir hayat",
+      "caption": "Fokus pelayanan adalah kenyamanan, martabat, komunikasi, dan kebutuhan pasien serta keluarga.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 5.a",
-            "text": "Rumah sakit menerapkan pengkajian pasien menjelang akhir kehidupan dan dapat dilakukan pengkajian ulang sampai pasien yang memasuki fase akhir kehidupannya, dengan memperhatikan poin 1)-9) pada maksud dan tujuan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pengkajian pasien menjelang akhir kehidupan dan pengkajian ulang sampai pasien yang memasuki fase akhir kehidupannya, meliputi poin 1)-9) pada maksud dan tujuan. - PPA - Keluarga pasien",
-              "Halaman instrumen: 322, 323"
-            ]
+            "title": "Kenali kebutuhan individual",
+            "text": "Gejala fisik, psikologis, sosial, spiritual, budaya, dan kebutuhan keluarga."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 5.b",
-            "text": "Asuhan menjelang akhir kehidupan ditujukan terhadap kebutuhan psikososial, emosional, kultural dan spiritual pasien dan keluarganya.",
-            "bullets": [
-              "Kelengkapan bukti: 1. Bukti rekam medis: Pemberian asuhan menjelang akhir kehidupan ditujukan terhadap kebutuhan psikososial, emosional, kultural dan spiritual pasien dan keluarganya 2. Dokumen kerjasama dengan Rohaniawan",
-              "Halaman instrumen: 323"
-            ]
+            "title": "Kendalikan gejala",
+            "text": "Pantau dan tindak lanjuti nyeri, sesak, sekret, mual, gelisah, kelemahan, dan masalah kenyamanan lain."
+          },
+          {
+            "title": "Jaga martabat dan privasi",
+            "text": "Batasi tindakan yang tidak bermanfaat, lindungi tubuh, dan hormati preferensi pasien."
+          },
+          {
+            "title": "Komunikasi jujur dan empatik",
+            "text": "Sampaikan sesuai kewenangan, beri kesempatan bertanya, dan koordinasikan informasi tim."
+          },
+          {
+            "title": "DNR bukan tanpa perawatan",
+            "text": "Keputusan tidak melakukan resusitasi tidak otomatis menghentikan obat, kenyamanan, nutrisi, oksigen, atau asuhan lain."
+          },
+          {
+            "title": "Dukung keluarga",
+            "text": "Berikan informasi, akses, pendampingan, dan dukungan berduka sesuai kebutuhan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -255,9 +259,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 2 elemen penilaian dari PAP 5 beserta jenis kelengkapan buktinya."
+        "Kenali kebutuhan individual: Gejala fisik, psikologis, sosial, spiritual, budaya, dan kebutuhan keluarga.",
+        "Kendalikan gejala: Pantau dan tindak lanjuti nyeri, sesak, sekret, mual, gelisah, kelemahan, dan masalah kenyamanan lain.",
+        "Jaga martabat dan privasi: Batasi tindakan yang tidak bermanfaat, lindungi tubuh, dan hormati preferensi pasien.",
+        "Komunikasi jujur dan empatik: Sampaikan sesuai kewenangan, beri kesempatan bertanya, dan koordinasikan informasi tim."
       ]
     },
     {
@@ -309,28 +316,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 5.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan pengkajian pasien menjelang akhir kehidupan dan dapat dilakukan pengkajian ulang sampai pasien yang memasuki fase akhir kehidupannya, dengan memperhatikan poin 1)-9) pada maksud dan tujuan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 5.b adalah…",
-      "options": [
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Asuhan menjelang akhir kehidupan ditujukan terhadap kebutuhan psikososial, emosional, kultural dan spiritual pasien dan keluarganya."
-    },
     {
       "q": "Pernyataan paling tepat tentang DNR adalah…",
       "options": [

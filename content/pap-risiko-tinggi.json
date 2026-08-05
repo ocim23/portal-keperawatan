@@ -8,305 +8,113 @@
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 23,
+  "minutes": 22,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PAP 2",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Siapa yang termasuk pasien/pelayanan risiko tinggi?",
+      "caption": "Perawat harus mengenali populasi yang memerlukan pengamanan, kompetensi, dan pemantauan tambahan.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 2.a",
-            "text": "Pimpinan rumah sakit telah melaksanakan tanggung jawabnya untuk memberikan pelayanan pada pasien berisiko tinggi dan pelayanan berisiko tinggi meliputi a)-c) dalam maksud dan tujuan",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelaksanaan tanggung jawab pimpinan untuk memberikan pelayanan pada pasien berisiko tinggi dan pelayanan berisiko tinggi meliputi a)-c) dalam maksud dan tujuan",
-              "Halaman instrumen: 307"
-            ]
+            "title": "Kondisi kritis",
+            "text": "Pasien emergensi, koma, dengan alat bantu hidup, atau penyakit berisiko tinggi."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
-            "title": "EP PAP 2.b",
-            "text": "Rumah sakit telah memberikan pelayanan pada pasien risiko tinggi dan pelayanan risiko tinggi yang telah diidentifikasi berdasarkan populasi yaitu pasien anak, pasien dewasa dan pasien geriatri sesuai dalam maksud dan tujuan.",
-            "bullets": [
-              "Kelengkapan bukti: 1. Hasil Identifikasi (dalam kurun waktu tertentu); a. Jenis pasien risiko tinggi b. Jenis pelayanan risiko tinggi 2. Rumah sakit telah memberikan pelayanan pada pasien risiko tinggi dan pelayanan risiko tinggi, meliputi a-f dalam maksud dan tujuan Sarana dan prasarana PPA",
-              "Halaman instrumen: 307"
-            ]
+            "title": "Risiko perilaku/perlindungan",
+            "text": "Risiko bunuh diri, gangguan jiwa, pasien rentan, korban kekerasan atau penelantaran."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 2.c",
-            "text": "Pimpinan rumah sakit telah mengidentifikasi risiko tambahan yang dapat mempengaruhi pasien dan pelayanan risiko tinggi.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti identifikasi risiko tambahan setelah dilakukan tindakan atau asuhan yang dapat mempengaruhi pasien dan pelayanan risiko tinggi PPA",
-              "Halaman instrumen: 307"
-            ]
+            "title": "Penyakit menular/imunosupresi",
+            "text": "Pasien dengan risiko penularan atau pertahanan tubuh menurun."
+          },
+          {
+            "title": "Terapi berisiko",
+            "text": "Dialisis, restrain, kemoterapi, radioterapi, radiologi intervensi, atau terapi khusus lain."
+          },
+          {
+            "title": "Geriatri dan paliatif",
+            "text": "Membutuhkan pendekatan multidisiplin, fungsi, kenyamanan, dan dukungan keluarga."
+          },
+          {
+            "title": "Risiko tambahan",
+            "text": "DVT, dekubitus, infeksi alat invasif, jatuh, dan komplikasi spesifik pelayanan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian PAP 2.1 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Pengamanan pelayanan risiko tinggi",
+      "caption": "Setiap pelayanan memerlukan rencana yang jelas dan staf yang kompeten.",
       "template": {
-        "style": "bands",
+        "style": "checklist",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi",
-            "title": "EP PAP 2.1.a",
-            "text": "Rumah sakit telah menetapkan regulasi tentang penyelenggaraan pelayanan geriatri di rumah sakit sesuai dengan kemampuan, sumber daya dan sarana prasarananya.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan penyelenggaraan pelayanan geriatri di rumah sakit sesuai dengan kemampuan, sumber daya dan sarana prasarana nya 1.",
-              "Halaman instrumen: 308"
-            ]
+            "title": "Rencana asuhan individual",
+            "text": "Sesuaikan dengan populasi, kondisi, dan risiko tambahan."
           },
           {
-            "level": "B",
-            "tag": "R–Regulasi • O–Observasi",
-            "title": "EP PAP 2.1.b",
-            "text": "Rumah sakit telah menetapkan tim terpadu geriatri dan telah menyelenggarakan pelayanan sesuai tingkat jenis layanan",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan Tim geriatri terpadu disertai Uraian Tugas dan Wewenang 2. Program kerja pelayanan geriatri Penyelenggaraan pelayanan geriatri (pelayanan dan atau sarana prasarana)",
-              "Halaman instrumen: 308, 309"
-            ]
+            "title": "Komunikasi efektif",
+            "text": "Pastikan serah terima dan koordinasi antar-PPA tidak terputus."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 2.1.c",
-            "text": "Rumah sakit telah melaksanakan proses pemantauan dan evaluasi kegiatan pelayanan geriatri",
-            "bullets": [
-              "Kelengkapan bukti: Bukti monitoring dan evaluasi kegiatan pelayanan geriatri Tim geriatri terpadu",
-              "Halaman instrumen: 309"
-            ]
+            "title": "Pemantauan lebih ketat",
+            "text": "Tentukan parameter, frekuensi, dan batas eskalasi."
+          },
+          {
+            "title": "Informed consent bila diperlukan",
+            "text": "Pastikan proses penjelasan dan persetujuan selesai."
+          },
+          {
+            "title": "Peralatan khusus",
+            "text": "Pastikan tersedia, siap pakai, dan digunakan petugas kompeten."
+          },
+          {
+            "title": "Pencegahan komplikasi",
+            "text": "Gunakan bundle atau tindakan pencegahan yang relevan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian PAP 2.1 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Risiko bunuh diri: kompetensi perawat",
+      "caption": "Skrining dan pengamanan dilakukan pada pasien yang membutuhkan, termasuk di unit non-psikiatri.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "D",
-            "tag": "D–Dokumen",
-            "title": "EP PAP 2.1.d",
-            "text": "Ada pelaporan penyelenggaraan pelayanan geriatri di rumah sakit.",
-            "bullets": [
-              "Kelengkapan bukti: Laporan penyelenggaraan pelayanan geriatri di rumah sakit",
-              "Halaman instrumen: 309"
-            ]
+            "title": "Kenali faktor risiko",
+            "text": "Penyakit jiwa/depresi, riwayat percobaan, penggunaan zat, kehilangan, trauma, penyakit kronis, dan dukungan kurang."
+          },
+          {
+            "title": "Gunakan alat berbasis bukti",
+            "text": "Lakukan skrining/pengkajian sesuai kewenangan dan prosedur."
+          },
+          {
+            "title": "Amankan lingkungan",
+            "text": "Singkirkan benda tajam, obat, bahan kimia, titik gantung, atau objek lain yang dapat digunakan melukai diri."
+          },
+          {
+            "title": "Pengawasan sesuai tingkat risiko",
+            "text": "Ikuti frekuensi observasi atau one-to-one bila ditetapkan."
+          },
+          {
+            "title": "Eskalasi dan tindak lanjut",
+            "text": "Segera libatkan tim yang berwenang dan dokumentasikan perubahan risiko."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PAP 2.2 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "A",
-            "tag": "R–Regulasi",
-            "title": "EP PAP 2.2.a",
-            "text": "Ada program PKRS terkait pelayanan kesehatan warga lanjut usia di masyarakat berbasis rumah sakit (hospital based community geriatric service).",
-            "bullets": [
-              "Kelengkapan bukti: Program PKRS mencakup kegiatan pelayanan kesehatan untuk warga lanjut usia di masyarakat berbasis RS (Lihat KE 1 EP c) 1.",
-              "Halaman instrumen: 309"
-            ]
-          },
-          {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 2.2.b",
-            "text": "Rumah sakit telah memberikan edukasi sebagai bagian dari pelayanan kesehatan warga lanjut usia di masyarakat berbasis rumah sakit (hospital based community geriatric service).",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pemberian edukasi pada pelayanan kesehatan warga lanjut usia di masyarakat berbasis RS 2. Bukti edukasi kelompok - Tim Geriatri - Tim PKRS 1.",
-              "Halaman instrumen: 309"
-            ]
-          },
-          {
-            "level": "C",
-            "tag": "D–Dokumen • R–Regulasi",
-            "title": "EP PAP 2.2.c",
-            "text": "Rumah sakit telah melaksanakan kegiatan sesuai program dan tersedia leaflet atau alat bantu kegiatan (brosur, leaflet, dan lain-lainnya).",
-            "bullets": [
-              "Kelengkapan bukti: Bukti kegiatan sesuai program kerja PKRS terkait pelayanan geriatri. 2. Leaflet, brosur, dan media lain-lain sesuai dengan kebutuhan/terkait layanan geriatri/warga lanjut usia)",
-              "Halaman instrumen: 309"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PAP 2.2 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "D",
-            "tag": "D–Dokumen • R–Regulasi",
-            "title": "EP PAP 2.2.d",
-            "text": "Rumah sakit telah melakukan evaluasi dan membuat laporan kegiatan pelayanan secara berkala.",
-            "bullets": [
-              "Kelengkapan bukti: Laporan dan evaluasi program PKRS (terkait pelayanan kesehatan warga lanjut usia di masyarakat berbasis rumah sakit) secara berkala",
-              "Halaman instrumen: 309"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PAP 2.3",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "A",
-            "tag": "R–Regulasi",
-            "title": "EP PAP 2.3.a",
-            "text": "Rumah sakit telah menetapkan regulasi tentang penyelenggaraan pelayanan jiwa di rumah sakit sesuai dengan kemampuan pelayanan, sarana, prasarana, peralatan, sumber daya manusia, dan sumber daya lain sesuai dengan peraturan perundang-undangan.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan kebijakan penyelenggaraan pelayanan jiwa di rumah sakit sesuai dengan kemampuan pelayanan, sarana, prasarana, peralatan, sumber daya manusia, dan sumber daya lain sesuai dengan peraturan perundang-undangan.",
-              "Halaman instrumen: 311"
-            ]
-          },
-          {
-            "level": "B",
-            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
-            "title": "EP PAP 2.3.b",
-            "text": "Rumah sakit telah melaksanakan penyelenggaraan pelayanan jiwa yang berkualitas dan menghargai hak-hak asasi orang dengan gangguan jiwa",
-            "bullets": [
-              "Kelengkapan bukti: 1. Bukti pelayanan jiwa yang berkualitas dan menghargai hak-hak asasi orang dengan gangguan jiwa sesuai dengan kemampuan rumah sakit. 2. Dokter dan perawat yang kompeten (SPK dan RKK) Sarana dan prasarana untuk mendukung pelayanan jiwa Kepala instalasi terkait",
-              "Halaman instrumen: 311"
-            ]
-          },
-          {
-            "level": "C",
-            "tag": "D–Dokumen",
-            "title": "EP PAP 2.3.c",
-            "text": "Rumah sakit telah melaksanakan proses pemantauan dan evaluasi kegiatan pelayanan jiwa",
-            "bullets": [
-              "Kelengkapan bukti: Hasil pemantauan dan evaluasi kegiatan pelayanan jiwa di rumah sakit sesuai dengan kemampuan rumah sakit.",
-              "Halaman instrumen: 311"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PAP 2.4 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "A",
-            "tag": "R–Regulasi • W–Wawancara",
-            "title": "EP PAP 2.4.a",
-            "text": "Rumah sakit menetapkan regulasi skrining, pengkajian dan mengelola serta menindak lanjuti risiko bunuh diri dan melukai diri sendiri bagi semua pasien yang dirawat di rumah sakit.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan kebijakan skrining, pengkajian dan pengelolaan dan tindak lanjut pasien risiko bunuh diri/melukai diri sendiri pasien yang masuk rawat inap di rumah sakit sesuai dengan kemampuan rumah sakit.",
-              "Halaman instrumen: 313"
-            ]
-          },
-          {
-            "level": "B",
-            "tag": "D–Dokumen",
-            "title": "EP PAP 2.4.b",
-            "text": "Rumah sakit menggunakan instrumen berbasis bukti untuk skrining dan pengkajian pasien risiko bunuh diri dan melukai diri sendiri.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: Formulir skrining dan pengkajian risiko bunuh diri dan melukai diri sendiri (berbasis bukti)",
-              "Halaman instrumen: 313"
-            ]
-          },
-          {
-            "level": "C",
-            "tag": "R–Regulasi",
-            "title": "EP PAP 2.4.c",
-            "text": "Rumah sakit menetapkan SPO tentang skrining, pengkajian, dan tatalaksana pencegahan risiko bunuh diri dan melukai diri sendiri",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan SPO 1. SPO skrining risiko bunuh diri dan melukai diri sendiri 2. SPO pengkajian risiko bunuh diri dan melukai diri sendiri 3. SPO tata laksana pencegahan risiko bunuh diri dan melukai diri sendiri",
-              "Halaman instrumen: 313, 314"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PAP 2.4 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 2.4.d",
-            "text": "Rumah sakit melatih sumber daya manusia yang mampu melakukan skrining, pengkajian, dan tata laksana pasien risiko bunuh diri",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelatihan SDM tentang skrining, pengkajian dan tatalaksana pasien risiko bunuh diri PPA 1.",
-              "Halaman instrumen: 314"
-            ]
-          },
-          {
-            "level": "E",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 2.4.e",
-            "text": "Rumah sakit melakukan pengkajian risiko lingkungan yang dapat digunakan dalam percobaan bunuh diri atau melukai diri sendiri; rumah sakit mengambil tindakan yang diperlukan untuk meminimalkan risiko tersebut.",
-            "bullets": [
-              "Kelengkapan bukti: Daftar risiko lingkungan yang dapat digunakan dalam percobaan bunuh diri atau melukai diri sendiri; 2. Terdapat rencana dan tindakan untuk meminimalkan risiko tersebut DPJP/PPA 1.",
-              "Halaman instrumen: 314"
-            ]
-          },
-          {
-            "level": "F",
-            "tag": "D–Dokumen",
-            "title": "EP PAP 2.4.f",
-            "text": "Rumah sakit melakukan pemantauan dan evaluasi pelaksanaan tata kelola pencegahan risiko bunuh diri dan melukai diri sendiri",
-            "bullets": [
-              "Kelengkapan bukti: Hasil pemantauan dan evaluasi pelaksanaan tata kelola pencegahan risiko bunuh diri dan melukai diri sendiri dan RTL 2. Bukti tindak lanjut.",
-              "Halaman instrumen: 314"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -519,9 +327,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 20 elemen penilaian dari PAP 2, PAP 2.1, PAP 2.2, PAP 2.3, PAP 2.4 beserta jenis kelengkapan buktinya."
+        "Kondisi kritis: Pasien emergensi, koma, dengan alat bantu hidup, atau penyakit berisiko tinggi.",
+        "Risiko perilaku/perlindungan: Risiko bunuh diri, gangguan jiwa, pasien rentan, korban kekerasan atau penelantaran.",
+        "Penyakit menular/imunosupresi: Pasien dengan risiko penularan atau pertahanan tubuh menurun.",
+        "Terapi berisiko: Dialisis, restrain, kemoterapi, radioterapi, radiologi intervensi, atau terapi khusus lain.",
+        "Rencana asuhan individual: Sesuaikan dengan populasi, kondisi, dan risiko tambahan.",
+        "Komunikasi efektif: Pastikan serah terima dan koordinasi antar-PPA tidak terputus."
       ]
     },
     {
@@ -573,28 +386,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.a adalah…",
-      "options": [
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Pimpinan rumah sakit telah melaksanakan tanggung jawabnya untuk memberikan pelayanan pada pasien berisiko tinggi dan pelayanan berisiko tinggi meliputi a)-c) dalam maksud dan tujuan"
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.b adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • O–Observasi • W–Wawancara"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan D–Dokumen • O–Observasi • W–Wawancara. Pokok elemennya: Rumah sakit telah memberikan pelayanan pada pasien risiko tinggi dan pelayanan risiko tinggi yang telah diidentifikasi berdasarkan populasi yaitu pasien anak, pasien dewasa dan pasien geriatri sesuai dalam maksud dan tujuan."
-    },
     {
       "q": "Pasien stabil akan menerima sedasi. Mengapa tetap dianggap berisiko?",
       "options": [

@@ -10,41 +10,45 @@
   "icon": "target",
   "priority": "knowledge",
   "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 11,
+  "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PMKP 10",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Budaya keselamatan dan budaya adil",
+      "caption": "Lingkungan aman membuat staf berani berbicara, melapor, dan belajar tanpa menghilangkan akuntabilitas.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PMKP 10.a",
-            "text": "Rumah sakit telah melaksanakan pengukuran budaya keselamatan pasien dengan survei budaya keselamatan pasien setiap tahun menggunakan metode yang telah terbukti.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pengukuran budaya keselamatan pasien berupa hasil survei budaya keselamatan pasien yang dilakukan setiap tahun dan evaluasi secara periodik. Lihat TKRS 13 Komite/Tim Mutu",
-              "Halaman instrumen: 152"
-            ]
+            "title": "Human error",
+            "text": "Kesalahan tidak disengaja; respons berfokus pada dukungan dan perbaikan sistem."
           },
           {
-            "level": "B",
-            "tag": "R–Regulasi • W–Wawancara",
-            "title": "EP PMKP 10.b",
-            "text": "Hasil pengukuran budaya sebagai acuan dalam menyusun program peningkatan budaya keselamatan di rumah sakit.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan Program Budaya keselamatan pasien berdasar hasil survey budaya keselamatan pasien",
-              "Halaman instrumen: 152"
-            ]
+            "title": "Perilaku berisiko",
+            "text": "Risiko sering dianggap normal; respons mencakup coaching dan perbaikan insentif/sistem."
+          },
+          {
+            "title": "Perilaku sembrono",
+            "text": "Sengaja mengabaikan risiko substansial; memerlukan pertanggungjawaban."
+          },
+          {
+            "title": "Speak up",
+            "text": "Staf menyampaikan kekhawatiran keselamatan tanpa intimidasi."
+          },
+          {
+            "title": "Laporan rahasia dan mudah",
+            "text": "Staf mengetahui jalur melaporkan perilaku tidak diinginkan atau kondisi tidak aman."
+          },
+          {
+            "title": "Kerja sama dan rasa hormat",
+            "text": "Tidak ada penghinaan, ancaman, pelecehan, atau pembungkaman antarstaf."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -210,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 2 elemen penilaian dari PMKP 10 beserta jenis kelengkapan buktinya."
+        "Human error: Kesalahan tidak disengaja; respons berfokus pada dukungan dan perbaikan sistem.",
+        "Perilaku berisiko: Risiko sering dianggap normal; respons mencakup coaching dan perbaikan insentif/sistem.",
+        "Perilaku sembrono: Sengaja mengabaikan risiko substansial; memerlukan pertanggungjawaban.",
+        "Speak up: Staf menyampaikan kekhawatiran keselamatan tanpa intimidasi."
       ]
     },
     {
@@ -263,28 +270,6 @@
     "Staf berhenti melapor."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 10.a adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit telah melaksanakan pengukuran budaya keselamatan pasien dengan survei budaya keselamatan pasien setiap tahun menggunakan metode yang telah terbukti."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 10.b adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan R–Regulasi • W–Wawancara. Pokok elemennya: Hasil pengukuran budaya sebagai acuan dalam menyusun program peningkatan budaya keselamatan di rumah sakit."
-    },
     {
       "q": "Dalam situasi “Rekan hampir salah obat”, tindakan yang paling tepat adalah…",
       "options": [

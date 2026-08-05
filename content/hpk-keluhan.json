@@ -12,49 +12,43 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian HPK 3",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Menerima keluhan pasien dan keluarga",
+      "caption": "Keluhan tidak boleh memengaruhi mutu atau sikap pelayanan.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 3.a",
-            "text": "Pasien diberikan informasi mengenai proses untuk menyampaikan keluhan dan proses yang harus dilakukan pada saat terjadi konflik/perbedaan pendapat pada proses perawatan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pemberian informasi mengenai proses penyampaian keluhan (leaflet, kotak pengaduan, dll) - Petugas Penanganan Keluhan - Admisi - Pasien/ keluarga",
-              "Halaman instrumen: 269"
-            ]
+            "title": "Dengarkan",
+            "text": "Berikan ruang bicara tanpa menyela atau berdebat."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 3.b",
-            "text": "Keluhan, konflik, dan perbedaan pendapat tersebut dikaji dan diselesaikan oleh unit/petugas yang bertanggung jawab melalui sebuah alur/proses spesifik.",
-            "bullets": [
-              "Kelengkapan bukti: 1. Bukti kajian penanganan Keluhan, konflik, dan perbedaan pendapat 2. Bukti penyelesaian keluhan, konflik, dan perbedaan pendapat melalui alur dan proses spesifik dengan melibatkan pasien dan keluarga. - Petugas Penanganan Keluhan - Pasien/ Keluarga",
-              "Halaman instrumen: 269"
-            ]
+            "title": "Tunjukkan empati",
+            "text": "Akui pengalaman dan dampak masalah tanpa langsung menyalahkan pihak lain."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 3.c",
-            "text": "Pasien dan keluarga berpartisipasi dalam proses penyelesaian keluhan, konflik, dan perbedaan pendapat.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pasien dan keluarga berpartisipasi dalam proses penyelesaian keluhan, konflik, dan perbedaan pendapat, dan ditandatangani. - Petugas Penanganan Keluhan - Pasien / Keluarga",
-              "Halaman instrumen: 269"
-            ]
+            "title": "Klarifikasi",
+            "text": "Pastikan inti keluhan, harapan, dan kebutuhan keselamatan mendesak."
+          },
+          {
+            "title": "Tindak lanjuti sesuai kewenangan",
+            "text": "Selesaikan yang dapat dilakukan dan hubungkan ke petugas pengaduan/atasan."
+          },
+          {
+            "title": "Jangan berjanji di luar kewenangan",
+            "text": "Jelaskan proses, waktu, dan cara memperoleh informasi lanjutan."
+          },
+          {
+            "title": "Dokumentasikan",
+            "text": "Catat fakta, tindakan, pihak yang dihubungi, dan hasil tindak lanjut."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -220,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 3 elemen penilaian dari HPK 3 beserta jenis kelengkapan buktinya."
+        "Dengarkan: Berikan ruang bicara tanpa menyela atau berdebat.",
+        "Tunjukkan empati: Akui pengalaman dan dampak masalah tanpa langsung menyalahkan pihak lain.",
+        "Klarifikasi: Pastikan inti keluhan, harapan, dan kebutuhan keselamatan mendesak.",
+        "Tindak lanjuti sesuai kewenangan: Selesaikan yang dapat dilakukan dan hubungkan ke petugas pengaduan/atasan."
       ]
     },
     {
@@ -273,28 +270,6 @@
     "Bertentangan dengan hak pasien."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 3.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Pasien diberikan informasi mengenai proses untuk menyampaikan keluhan dan proses yang harus dilakukan pada saat terjadi konflik/perbedaan pendapat pada proses perawatan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 3.b adalah…",
-      "options": [
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Keluhan, konflik, dan perbedaan pendapat tersebut dikaji dan diselesaikan oleh unit/petugas yang bertanggung jawab melalui sebuah alur/proses spesifik."
-    },
     {
       "q": "Dalam situasi “Keluarga marah karena menunggu”, tindakan yang paling tepat adalah…",
       "options": [

@@ -10,41 +10,45 @@
   "icon": "target",
   "priority": "knowledge",
   "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 11,
+  "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PMKP 3",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Indikator mutu yang perlu dikenal staf unit",
+      "caption": "Perawat tidak harus hafal seluruh indikator rumah sakit, tetapi harus mengetahui indikator yang berkaitan dengan unitnya.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PMKP 3.a",
-            "text": "Rumah sakit melakukan pengumpulan data mencakup (poin a-c) dalam maksud dan tujuan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pengumpulan data indikator nasional mutu, indikator mutu prioritas RS, indikator mutu prioritas unit. - Komite / Tim Mutu - Kepala unit kerja - Penanggung jawab data unit",
-              "Halaman instrumen: 135"
-            ]
+            "title": "INM",
+            "text": "Indikator Nasional Mutu yang wajib diukur sesuai ketentuan."
           },
           {
-            "level": "B",
-            "tag": "R–Regulasi • D–Dokumen",
-            "title": "EP PMKP 3.b",
-            "text": "Indikator mutu prioritas rumah sakit (IMP-RS) dan indikator mutu prioritas unit (IMP- Unit) telah dibuat profil indikator mencakup (poin a-t) dalam maksud dan tujuan",
-            "bullets": [
-              "Kelengkapan bukti: Bukti Profile Indikator mutu: Profile Indikator mutu prioritas rumah sakit (IMP-RS) dan profile indikator mutu prioritas unit (IMP- Unit) mencakup (poin a-t) dalam maksud dan tujuan",
-              "Halaman instrumen: 135"
-            ]
+            "title": "IMP-RS",
+            "text": "Indikator Mutu Prioritas Rumah Sakit yang berdampak luas."
+          },
+          {
+            "title": "IMP-Unit",
+            "text": "Indikator spesifik untuk memperbaiki proses dan variasi di unit."
+          },
+          {
+            "title": "Profil indikator",
+            "text": "Pahami definisi, numerator, denominator, target, sumber data, periode, dan penanggung jawab."
+          },
+          {
+            "title": "Peran perawat",
+            "text": "Memberikan pelayanan sesuai standar dan mencatat data yang akurat."
+          },
+          {
+            "title": "Gunakan hasil",
+            "text": "Capaian dibahas untuk perbaikan, bukan sekadar dilaporkan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -210,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 2 elemen penilaian dari PMKP 3 beserta jenis kelengkapan buktinya."
+        "INM: Indikator Nasional Mutu yang wajib diukur sesuai ketentuan.",
+        "IMP-RS: Indikator Mutu Prioritas Rumah Sakit yang berdampak luas.",
+        "IMP-Unit: Indikator spesifik untuk memperbaiki proses dan variasi di unit.",
+        "Profil indikator: Pahami definisi, numerator, denominator, target, sumber data, periode, dan penanggung jawab."
       ]
     },
     {
@@ -263,28 +270,6 @@
     "Staf tidak dapat memperbaiki proses."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 3.a adalah…",
-      "options": [
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit melakukan pengumpulan data mencakup (poin a-c) dalam maksud dan tujuan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 3.b adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • D–Dokumen"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen. Pokok elemennya: Indikator mutu prioritas rumah sakit (IMP-RS) dan indikator mutu prioritas unit (IMP- Unit) telah dibuat profil indikator mencakup (poin a-t) dalam maksud dan tujuan"
-    },
     {
       "q": "Dalam situasi “Menjelaskan indikator unit”, tindakan yang paling tepat adalah…",
       "options": [

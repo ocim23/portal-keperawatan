@@ -10,105 +10,73 @@
   "icon": "monitor",
   "priority": "knowledge",
   "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 12,
+  "minutes": 15,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PP 4",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Keselamatan pasien sebelum pemeriksaan radiologi",
+      "caption": "Perawat memastikan pasien siap dan risiko penting sudah dikomunikasikan.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi • D–Dokumen",
-            "title": "EP PP 4.a",
-            "text": "Rumah Sakit menetapkan dan melaksanakan regulasi pelayanan radiologi klinik.",
-            "bullets": [
-              "Kelengkapan bukti: Regulasi tentang Pedoman pelayanan radiologi klinik. Bukti tentang pelaksanaan pelayanan radiologi klinik sesuai regulasi.",
-              "Halaman instrumen: 292"
-            ]
+            "title": "Identitas dan pemeriksaan",
+            "text": "Cocokkan pasien, jenis pemeriksaan, sisi/lokasi bila relevan, dan instruksi."
           },
           {
-            "level": "B",
-            "tag": "R–Regulasi • D–Dokumen • W–Wawancara",
-            "title": "EP PP 4.b",
-            "text": "Terdapat pelayanan radiologi klinik selama 24 jam, 7 (tujuh) hari seminggu, sesuai dengan kebutuhan pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Regulasi tentang pelayanan radiologi klinik selama 24 jam, 7 (tujuh) hari seminggu, sesuai dengan kebutuhan pasien. 1. Bukti hasil pemeriksaan radiologi selama 24 jam, 7 (tujuh) hari seminggu. 2. Bukti jadwal staf radiologi yang bertugas selama 24 jam, 7 (tujuh) hari seminggu.",
-              "Halaman instrumen: 292"
-            ]
+            "title": "Kehamilan",
+            "text": "Tanyakan kemungkinan hamil sesuai kelompok pasien dan sampaikan kepada petugas radiologi."
+          },
+          {
+            "title": "Kontras dan alergi",
+            "text": "Kaji riwayat reaksi kontras/alergi, fungsi ginjal atau parameter lain sesuai prosedur."
+          },
+          {
+            "title": "Implan/perangkat",
+            "text": "Identifikasi alat, logam, pacemaker, atau implan yang dapat memengaruhi pemeriksaan."
+          },
+          {
+            "title": "Sedasi/monitoring",
+            "text": "Pastikan persiapan, akses, pendampingan, dan pemantauan sesuai kondisi."
+          },
+          {
+            "title": "Transportasi aman",
+            "text": "Jaga oksigen, infus, drain, monitoring, serta komunikasi kondisi pasien saat transfer."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian PP 4.3 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Sesudah pemeriksaan",
+      "caption": "Tanggung jawab tidak berhenti ketika gambar selesai diambil.",
       "template": {
-        "style": "bands",
+        "style": "checklist",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi",
-            "title": "EP PP 4.3.a",
-            "text": "Rumah sakit menetapkan kerangka waktu penyelesaian pemeriksaan radiologi klinik.",
-            "bullets": [
-              "Kelengkapan bukti: Regulasi tentang penetapan kerangka waktu penyelesaian pemeriksaan radiologi klinik regular dan cito.",
-              "Halaman instrumen: 295"
-            ]
+            "title": "Pantau reaksi",
+            "text": "Amati reaksi kontras, perubahan kesadaran, nyeri, perdarahan, atau komplikasi lain."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen",
-            "title": "EP PP 4.3.b",
-            "text": "Dilakukan pencatatan dan evaluasi waktu penyelesaian pemeriksaan radiologi klinik.",
-            "bullets": [
-              "Kelengkapan bukti: 1. Bukti pencatatan waktu penyelesaian pemeriksaan radiologi klinik regular. 2. Bukti evaluasi waktu penyelesaian pemeriksaan radiologi klinik regular.",
-              "Halaman instrumen: 295"
-            ]
+            "title": "Hasil kritis",
+            "text": "Pastikan pelaporan dan tindak lanjut tepat waktu."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen",
-            "title": "EP PP 4.3.c",
-            "text": "Dilakukan pencatatan dan evaluasi waktu penyelesaian pemeriksaan cito.",
-            "bullets": [
-              "Kelengkapan bukti: 1. Bukti pencatatan waktu penyelesaian pemeriksaan radiologi klinik Cito. 2. Bukti evaluasi waktu penyelesaian pemeriksaan radiologi klinik Cito.",
-              "Halaman instrumen: 295"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PP 4.3 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
+            "title": "Instruksi pascaprosedur",
+            "text": "Berikan edukasi tentang observasi, cairan, aktivitas, atau tanda bahaya sesuai prosedur."
+          },
           {
-            "level": "D",
-            "tag": "D–Dokumen",
-            "title": "EP PP 4.3.d",
-            "text": "Terdapat bukti pencatatan dan evaluasi pelayanan radiologi rujukan.",
-            "bullets": [
-              "Kelengkapan bukti: 1. Bukti pencatatan pelayanan radiologi rujukan. 2. Bukti evaluasi pelayanan radiologi rujukan.",
-              "Halaman instrumen: 295"
-            ]
+            "title": "Dokumentasi",
+            "text": "Catat kesiapan, respons, intervensi, dan komunikasi penting."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -274,9 +242,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 6 elemen penilaian dari PP 4, PP 4.3 beserta jenis kelengkapan buktinya."
+        "Identitas dan pemeriksaan: Cocokkan pasien, jenis pemeriksaan, sisi/lokasi bila relevan, dan instruksi.",
+        "Kehamilan: Tanyakan kemungkinan hamil sesuai kelompok pasien dan sampaikan kepada petugas radiologi.",
+        "Kontras dan alergi: Kaji riwayat reaksi kontras/alergi, fungsi ginjal atau parameter lain sesuai prosedur.",
+        "Implan/perangkat: Identifikasi alat, logam, pacemaker, atau implan yang dapat memengaruhi pemeriksaan.",
+        "Pantau reaksi: Amati reaksi kontras, perubahan kesadaran, nyeri, perdarahan, atau komplikasi lain.",
+        "Hasil kritis: Pastikan pelaporan dan tindak lanjut tepat waktu."
       ]
     },
     {
@@ -327,28 +300,6 @@
     "Reaksi dapat muncul setelah pasien kembali ke unit."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PP 4.a adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • D–Dokumen"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen. Pokok elemennya: Rumah Sakit menetapkan dan melaksanakan regulasi pelayanan radiologi klinik."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PP 4.b adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • D–Dokumen • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen • W–Wawancara. Pokok elemennya: Terdapat pelayanan radiologi klinik selama 24 jam, 7 (tujuh) hari seminggu, sesuai dengan kebutuhan pasien."
-    },
     {
       "q": "Dalam situasi “Sebelum CT kontras”, tindakan yang paling tepat adalah…",
       "options": [

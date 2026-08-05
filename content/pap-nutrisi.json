@@ -8,83 +8,45 @@
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 24,
+  "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PAP 3 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Alur asuhan nutrisi pasien",
+      "caption": "Skrining hanya langkah awal; pasien berisiko harus mendapat tindak lanjut.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 3.a",
-            "text": "Berbagai pilihan makanan atau terapi nutrisi yang sesuai untuk kondisi, perawatan, dan kebutuhan pasien tersedia dan disediakan tepat waktu.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti: 1. Daftar menu makanan pasien 2. Daftar menu makanan diet khusus 3. Jadwal waktu penyajian makanan 1.",
-              "Halaman instrumen: 319"
-            ]
+            "title": "Skrining risiko nutrisi",
+            "text": "Dilakukan sebagai bagian pengkajian awal menggunakan alat yang ditetapkan."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 3.b",
-            "text": "Sebelum pasien rawat inap diberi makanan, terdapat instruksi pemberian makanan dalam rekam medis pasien yang didasarkan pada status gizi dan kebutuhan pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pengkajian gizi/ nutrisi pasien 2. Bukti rekam medis yang berisi instruksi pemberian makanan 3. Berkas pemesanan makanan pasien sesuai dengan status gizi dan kebutuhan pasien sesuai kebutuhan pasien. Petugas gizi",
-              "Halaman instrumen: 319, 320"
-            ]
+            "title": "Pengkajian gizi",
+            "text": "Pasien berisiko dirujuk/dikaji oleh tenaga kompeten."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 3.c",
-            "text": "Untuk makanan yang disediakan keluarga, edukasi diberikan mengenai batasan- batasan diet pasien dan penyimpanan yang baik untuk mencegah kontaminasi",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pemberian edukasi tentang pembatasan diet pasien dan penyimpanan makanan yang baik mencegah risiko kontaminasi - PPA - Pasien / keluarga",
-              "Halaman instrumen: 320"
-            ]
+            "title": "Rencana terapi nutrisi",
+            "text": "Diet, rute, kebutuhan, tekstur, suplementasi, atau terapi lain ditetapkan sesuai kondisi."
+          },
+          {
+            "title": "Pemberian makanan aman",
+            "text": "Pastikan identitas, jenis diet, alergi, kemampuan menelan, posisi, dan bantuan makan."
+          },
+          {
+            "title": "Pemantauan",
+            "text": "Nilai asupan, toleransi, berat badan/parameter klinis, dan respons terhadap intervensi."
+          },
+          {
+            "title": "Edukasi dan transisi",
+            "text": "Pasien/keluarga memahami diet dan kebutuhan nutrisi setelah pulang."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PAP 3 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 3.d",
-            "text": "Memiliki bukti pemberian terapi gizi terintegrasi (rencana, pemberian dan evaluasi) pada pasien risiko gizi.",
-            "bullets": [
-              "Kelengkapan bukti: Berkas rekam medis pasien terkait pemberian terapi gizi diintegrasikan pada pasien risiko gizi (ada pengkajian gizi, rencana, pemberian dan evaluasi) Dietisien/ petugas gizi",
-              "Halaman instrumen: 320"
-            ]
-          },
-          {
-            "level": "E",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PAP 3.e",
-            "text": "Pemantauan dan evaluasi terapi gizi dicatat di rekam medis pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: pemantauan dan evaluasi terapi gizi di rekam medis pasien",
-              "Halaman instrumen: 320"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -297,9 +259,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 5 elemen penilaian dari PAP 3 beserta jenis kelengkapan buktinya."
+        "Skrining risiko nutrisi: Dilakukan sebagai bagian pengkajian awal menggunakan alat yang ditetapkan.",
+        "Pengkajian gizi: Pasien berisiko dirujuk/dikaji oleh tenaga kompeten.",
+        "Rencana terapi nutrisi: Diet, rute, kebutuhan, tekstur, suplementasi, atau terapi lain ditetapkan sesuai kondisi.",
+        "Pemberian makanan aman: Pastikan identitas, jenis diet, alergi, kemampuan menelan, posisi, dan bantuan makan."
       ]
     },
     {
@@ -351,28 +316,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 3.a adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Berbagai pilihan makanan atau terapi nutrisi yang sesuai untuk kondisi, perawatan, dan kebutuhan pasien tersedia dan disediakan tepat waktu."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 3.b adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Sebelum pasien rawat inap diberi makanan, terdapat instruksi pemberian makanan dalam rekam medis pasien yang didasarkan pada status gizi dan kebutuhan pasien."
-    },
     {
       "q": "Skrining nutrisi menunjukkan risiko. Langkah berikutnya adalah…",
       "options": [

@@ -8,73 +8,45 @@
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 24,
+  "minutes": 18,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PAP 2.6 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Aktivasi dan respons awal Code Blue",
+      "caption": "Perawat pertama tidak menunggu tim datang untuk memulai tindakan penyelamatan.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "W–Wawancara • D–Dokumen",
-            "title": "EP PAP 2.6.a",
-            "text": "Pelayanan resusitasi tersedia dan diberikan selama 24 jam setiap hari di seluruh area rumah sakit.",
-            "bullets": [
-              "Kelengkapan bukti: blue 24 jam setiap hari. 2. Bukti jumlah tim code blue memadai sesuai luas area rumah sakit. Tim kode biru 1. Daftar peralatan medis",
-              "Halaman instrumen: 316"
-            ]
+            "title": "Kenali kondisi",
+            "text": "Pasien tidak responsif, tidak bernapas normal, atau tanpa tanda sirkulasi sesuai penilaian."
           },
           {
-            "level": "B",
-            "tag": "W–Wawancara • S–Simulasi • D–Dokumen • O–Observasi",
-            "title": "EP PAP 2.6.b",
-            "text": "Peralatan medis untuk resusitasi dan obat untuk bantuan hidup dasar dan lanjut terstandar sesuai dengan kebutuhan populasi pasien.",
-            "bullets": [
-              "Kelengkapan bukti: untuk resusitasi dan obat untuk bantuan hidup dasar terstandar sesuai dengan kebutuhan populasi pasien: 2. Daftar peralatan medis untuk resusitasi dan obat untuk bantuan hidup dasar dan lanjut terstandar di tingkat unit pelayanan 3. Hasil pemantauan peralatan medis untuk resusitasi dan obat untuk bantuan hidup dasar dan lanjut Kepala Instalasi/ruangan Simulasi blue, dengan code",
-              "Halaman instrumen: 316, 317"
-            ]
+            "title": "Aktifkan sistem",
+            "text": "Panggil Code Blue dengan lokasi jelas dan minta troli emergensi/AED."
           },
           {
-            "level": "C",
-            "tag": "W–Wawancara • D–Dokumen",
-            "title": "EP PAP 2.6.c",
-            "text": "Di seluruh area rumah sakit, bantuan hidup dasar diberikan segera saat dikenali henti jantung-paru dan bantuan hidup lanjut diberikan kurang dari 5 menit.",
-            "bullets": [
-              "Kelengkapan bukti: respon time kurang dari 5 menit, prosedur tepat dan akurat Tim kode biru 1.",
-              "Halaman instrumen: 317"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PAP 2.6 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
+            "title": "Mulai BHD",
+            "text": "Kompresi dada segera dan ventilasi sesuai kompetensi."
+          },
           {
-            "level": "D",
-            "tag": "W–Wawancara • D–Dokumen",
-            "title": "EP PAP 2.6.d",
-            "text": "Staf diberi pelatihan pelayanan bantuan hidup dasar/lanjut sesuai dengan ketentuan rumah sakit.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti sertifikat pelatihan BHD untuk seluruh staf dan BHL untuk tim kode biru 2. Bukti pelatihan internal BHD dan BHL Staf RS Unit diklat",
-              "Halaman instrumen: 317"
-            ]
+            "title": "Siapkan akses dan alat",
+            "text": "Bantu defibrilasi, oksigenasi, obat, pencatatan, dan pengendalian area."
+          },
+          {
+            "title": "Serah terima terstruktur",
+            "text": "Sampaikan waktu kejadian, tindakan, ritme/kejut, obat, respons, dan informasi klinis penting."
+          },
+          {
+            "title": "Setelah kejadian",
+            "text": "Lengkapi dokumentasi, isi ulang troli, lakukan debrief, dan tindak lanjuti keselamatan staf/pasien."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -291,9 +263,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 4 elemen penilaian dari PAP 2.6 beserta jenis kelengkapan buktinya."
+        "Kenali kondisi: Pasien tidak responsif, tidak bernapas normal, atau tanpa tanda sirkulasi sesuai penilaian.",
+        "Aktifkan sistem: Panggil Code Blue dengan lokasi jelas dan minta troli emergensi/AED.",
+        "Mulai BHD: Kompresi dada segera dan ventilasi sesuai kompetensi.",
+        "Siapkan akses dan alat: Bantu defibrilasi, oksigenasi, obat, pencatatan, dan pengendalian area."
       ]
     },
     {
@@ -345,28 +320,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.6.a adalah…",
-      "options": [
-        "W–Wawancara • D–Dokumen",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan W–Wawancara • D–Dokumen. Pokok elemennya: Pelayanan resusitasi tersedia dan diberikan selama 24 jam setiap hari di seluruh area rumah sakit."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PAP 2.6.b adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "W–Wawancara • S–Simulasi • D–Dokumen • O–Observasi"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan W–Wawancara • S–Simulasi • D–Dokumen • O–Observasi. Pokok elemennya: Peralatan medis untuk resusitasi dan obat untuk bantuan hidup dasar dan lanjut terstandar sesuai dengan kebutuhan populasi pasien."
-    },
     {
       "q": "Saat menemukan pasien henti jantung, perawat harus…",
       "options": [

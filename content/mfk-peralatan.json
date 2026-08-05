@@ -10,93 +10,45 @@
   "icon": "fire",
   "priority": "practice",
   "priorityLabel": "Praktik Wajib",
-  "minutes": 14,
+  "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian MFK 7 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Keselamatan peralatan medis di unit",
+      "caption": "Perawat menggunakan alat hanya bila siap, benar, dan sesuai kompetensi.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
-            "title": "EP MFK 7.a",
-            "text": "Rumah Sakit telah menerapkan proses pengelolaan peralatan medik yang digunakan di rumah sakit meliputi poin a)-e) pada maksud dan tujuan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti penerapan proses pengelolaan peralatan medis meliputi poin a) - e) pada maksud dan tujuan. Penerapan pengelolaan peralatan medis. - Bagian Umum/Kepala IPSRS - Penanggung jawab peralatan medik - Operator peralatan medik - Kepala Unit Pelayanan",
-              "Halaman instrumen: 112"
-            ]
+            "title": "Sebelum digunakan",
+            "text": "Periksa fisik, kabel, steker, baterai, sensor, aksesori, label pemeliharaan/kalibrasi, dan uji fungsi."
           },
           {
-            "level": "B",
-            "tag": "R–Regulasi • D–Dokumen",
-            "title": "EP MFK 7.b",
-            "text": "Rumah Sakit menetapkan penanggung jawab yang kompeten dalam pengelolaan dan pengawasan peralatan medik di Rumah Sakit.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan penanggung jawab pengelolaan dan pengawasan peralatan medik yang kompeten di rumah sakit. Bukti kompetensi dari penanggung jawab",
-              "Halaman instrumen: 112, 113"
-            ]
+            "title": "Alarm",
+            "text": "Pastikan aktif, batas sesuai pasien, dan tidak dimatikan tanpa alasan."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen",
-            "title": "EP MFK 7.c",
-            "text": "Rumah Sakit telah melakukan pengkajian risiko peralatan medik secara proaktif setiap tahun yang didokumentasikan dalam daftar risiko/risk register.",
-            "bullets": [
-              "Kelengkapan bukti: Daftar inventaris semua peralatan medis termasuk alat yang kerja sama operasional, dilengkapi daftar risiko/risk register",
-              "Halaman instrumen: 113"
-            ]
+            "title": "Gunakan sesuai petunjuk",
+            "text": "Pilih mode, aksesori, dan parameter yang benar."
+          },
+          {
+            "title": "Bila alat bermasalah",
+            "text": "Hentikan bila tidak aman, stabilkan pasien, gunakan alat pengganti, beri label jangan digunakan, dan laporkan."
+          },
+          {
+            "title": "Recall",
+            "text": "Identifikasi alat terdampak, hentikan penggunaan, amankan, dan ikuti penarikan."
+          },
+          {
+            "title": "Insiden alat",
+            "text": "Dokumentasikan dampak pada pasien dan buat laporan sesuai sistem."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian MFK 7 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "D",
-            "tag": "D–Dokumen",
-            "title": "EP MFK 7.d",
-            "text": "Terdapat bukti perbaikan yang dilakukan oleh pihak yang berwenang dan kompeten.",
-            "bullets": [
-              "Kelengkapan bukti: 1. Bukti perbaikan alat oleh pihak yang berwenang 2. Bukti sertifikasi pihak ketiga yang melakukan perbaikan",
-              "Halaman instrumen: 113"
-            ]
-          },
-          {
-            "level": "E",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP MFK 7.e",
-            "text": "Rumah Sakit telah menerapkan pemantauan, pemberitahuan kerusakan (malfungsi) dan penarikan (recall) peralatan medis yang membahayakan pasien.",
-            "bullets": [
-              "Kelengkapan bukti: 1. Bukti pemantauan peralatan medis. 2. Bukti penarikan peralatan/recall peralatan medis. - Penanggung jawab peralatan medis - Staf di unit",
-              "Halaman instrumen: 113"
-            ]
-          },
-          {
-            "level": "F",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP MFK 7.f",
-            "text": "Rumah Sakit telah melaporkan insiden keselamatan pasien terkait peralatan medis sesuai dengan peraturan perundang-undangan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti laporan insiden keselamatan pasien terkait peralatan medis sesuai peraturan perundangan. - Staf Unit - Komite Mutu/ Sub Komite Keselamatan Pasien",
-              "Halaman instrumen: 113"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -262,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 6 elemen penilaian dari MFK 7 beserta jenis kelengkapan buktinya."
+        "Sebelum digunakan: Periksa fisik, kabel, steker, baterai, sensor, aksesori, label pemeliharaan/kalibrasi, dan uji fungsi.",
+        "Alarm: Pastikan aktif, batas sesuai pasien, dan tidak dimatikan tanpa alasan.",
+        "Gunakan sesuai petunjuk: Pilih mode, aksesori, dan parameter yang benar.",
+        "Bila alat bermasalah: Hentikan bila tidak aman, stabilkan pasien, gunakan alat pengganti, beri label jangan digunakan, dan laporkan."
       ]
     },
     {
@@ -315,28 +270,6 @@
     "Merusak alat atau sensor."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 7.a adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • O–Observasi • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan D–Dokumen • O–Observasi • W–Wawancara. Pokok elemennya: Rumah Sakit telah menerapkan proses pengelolaan peralatan medik yang digunakan di rumah sakit meliputi poin a)-e) pada maksud dan tujuan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP MFK 7.b adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • D–Dokumen",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen. Pokok elemennya: Rumah Sakit menetapkan penanggung jawab yang kompeten dalam pengelolaan dan pengawasan peralatan medik di Rumah Sakit."
-    },
     {
       "q": "Dalam situasi “Pompa infus alarm”, tindakan yang paling tepat adalah…",
       "options": [

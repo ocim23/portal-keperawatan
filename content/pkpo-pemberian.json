@@ -8,115 +8,73 @@
   "color": "#9A5B12",
   "soft": "#FFF5E8",
   "icon": "pill",
-  "minutes": 15,
+  "minutes": 20,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PKPO 6 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Verifikasi sebelum pemberian obat",
+      "caption": "Lima benar adalah batas minimum; rumah sakit dapat menambahkan prinsip lain.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "R–Regulasi • D–Dokumen • W–Wawancara",
-            "title": "EP PKPO 6.a",
-            "text": "Staf yang melakukan pemberian obat, kompeten dan berwenang dengan pembatasan yang ditetapkan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti penetapan kewenangan staf klinis yg kompeten dalam melakukan pemberian obat sesuai maksud dan tujuan. 1. Bukti pemberian obat oleh staf klinis yang kompeten dan berwenang 2. SPK dan RKK Tenaga Medis",
-              "Halaman instrumen: 364"
-            ]
+            "title": "Benar pasien",
+            "text": "Gunakan minimal dua identitas."
           },
           {
-            "level": "B",
-            "tag": "S–Simulasi • W–Wawancara",
-            "title": "EP PKPO 6.b",
-            "text": "Telah dilaksanaan verifikasi sebelum obat diberikan kepada pasien minimal meliputi: identitas pasien, nama obat, dosis, rute, dan waktu pemberian.",
-            "bullets": [
-              "Kelengkapan bukti: Pelaksanaan verifikasi sebelum obat diberikan kepada pasien",
-              "Halaman instrumen: 364"
-            ]
+            "title": "Benar obat",
+            "text": "Cocokkan label dengan instruksi dan alergi."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • S–Simulasi",
-            "title": "EP PKPO 6.c",
-            "text": "Telah melaksanakan double checking untuk obat high alert.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelaksanakan double checking untuk obat high alert. Pelaksanaan double check untuk pemberian obat high alert.",
-              "Halaman instrumen: 364"
-            ]
+            "title": "Benar dosis",
+            "text": "Periksa perhitungan, konsentrasi, dan batas dosis."
+          },
+          {
+            "title": "Benar rute",
+            "text": "Pastikan bentuk sediaan dan akses sesuai."
+          },
+          {
+            "title": "Benar waktu",
+            "text": "Perhatikan jadwal, interval, makanan, dan dosis terakhir."
+          },
+          {
+            "title": "Tambahan keselamatan",
+            "text": "Indikasi, dokumentasi, edukasi, respons, serta hak pasien menolak sesuai kebijakan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian PKPO 6 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Sebelum–saat–sesudah pemberian",
+      "caption": "Pemberian obat adalah proses klinis lengkap, bukan hanya menyerahkan obat.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "D",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PKPO 6.d",
-            "text": "Pasien diberi informasi tentang obat yang akan diberikan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pemberian informasi tentang obat yang akan diberikan kepada pasien. - Apoteker - Perawat - Pasien",
-              "Halaman instrumen: 364"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PKPO 6.1",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PKPO 6.1.a",
-            "text": "Telah melakukan penilaian obat yang dibawa pasien dari luar rumah sakit untuk kelayakan penggunaannya di rumah sakit.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti penilaian obat yang dibawa pasien dari luar rumah sakit. - Kepala Instalasi Farmasi - Apoteker - Staf Farmasi",
-              "Halaman instrumen: 365"
-            ]
+            "title": "Sebelum",
+            "text": "Kaji instruksi, alergi, hasil lab, tanda vital, interaksi, kemampuan menelan, dan parameter prapemberian."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PKPO 6.1.b",
-            "text": "Telah melaksanakan edukasi kepada pasien/keluarga jika obat akan digunakan secara mandiri.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti materi edukasi kepada pasien/keluarga jika obat akan digunakan secara mandiri. - Apoteker - Perawat - Pasien",
-              "Halaman instrumen: 365"
-            ]
+            "title": "Saat",
+            "text": "Identifikasi pasien, jelaskan obat, lakukan verifikasi, dan double-check high-alert."
           },
           {
-            "level": "C",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP PKPO 6.1.c",
-            "text": "Telah memantau pelaksanaan penggunaan obat secara mandiri sesuai edukasi.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pemantauan pelaksanaan penggunaan obat secara mandiri sesuai edukasi. - Apoteker - Perawat - Pasien dan keluarga",
-              "Halaman instrumen: 365"
-            ]
+            "title": "Sesudah",
+            "text": "Dokumentasikan setelah benar-benar diberikan, pantau efek, dan laporkan obat tertunda/ditolak/dimuntahkan."
+          },
+          {
+            "title": "Obat bawaan/mandiri",
+            "text": "Gunakan hanya setelah identifikasi, penilaian, instruksi, edukasi, dan pemantauan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -333,9 +291,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 7 elemen penilaian dari PKPO 6, PKPO 6.1 beserta jenis kelengkapan buktinya."
+        "Benar pasien: Gunakan minimal dua identitas.",
+        "Benar obat: Cocokkan label dengan instruksi dan alergi.",
+        "Benar dosis: Periksa perhitungan, konsentrasi, dan batas dosis.",
+        "Benar rute: Pastikan bentuk sediaan dan akses sesuai.",
+        "Sebelum: Kaji instruksi, alergi, hasil lab, tanda vital, interaksi, kemampuan menelan, dan parameter prapemberian.",
+        "Saat: Identifikasi pasien, jelaskan obat, lakukan verifikasi, dan double-check high-alert."
       ]
     },
     {
@@ -387,28 +350,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 6.a adalah…",
-      "options": [
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "R–Regulasi • D–Dokumen • W–Wawancara"
-      ],
-      "answer": 3,
-      "why": "EP tersebut dinilai dengan R–Regulasi • D–Dokumen • W–Wawancara. Pokok elemennya: Staf yang melakukan pemberian obat, kompeten dan berwenang dengan pembatasan yang ditetapkan."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PKPO 6.b adalah…",
-      "options": [
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja",
-        "S–Simulasi • W–Wawancara",
-        "R–Regulasi saja"
-      ],
-      "answer": 2,
-      "why": "EP tersebut dinilai dengan S–Simulasi • W–Wawancara. Pokok elemennya: Telah dilaksanaan verifikasi sebelum obat diberikan kepada pasien minimal meliputi: identitas pasien, nama obat, dosis, rute, dan waktu pemberian."
-    },
     {
       "q": "Sebelum memberi antihipertensi, tekanan darah pasien jauh lebih rendah dari biasanya. Tindakan terbaik adalah…",
       "options": [

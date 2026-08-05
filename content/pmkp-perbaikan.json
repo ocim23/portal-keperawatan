@@ -10,73 +10,45 @@
   "icon": "target",
   "priority": "knowledge",
   "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 12,
+  "minutes": 13,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian PMKP 6 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Siklus perbaikan mutu di unit",
+      "caption": "Masalah harus ditindaklanjuti dengan uji perubahan dan pemantauan hasil.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "A",
-            "tag": "W–Wawancara • D–Dokumen",
-            "title": "EP PMKP 6.a",
-            "text": "Rumah sakit telah membuat rencana perbaikan dan melakukan uji coba menggunakan metode yang telah teruji dan menerapkannya untuk meningkatkan mutu dan keselamatan pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti tentang: Rencana perbaikan (Plan) Rencana perbaikan telah dilakukan uji coba pada skala kecil (Do) 3. Hasil uji coba di analisis (Study, check) 4. hasil uji coba rencana perbaikan telah diterapkan secara luas (Action) - Komite / Tim Mutu - Pimpinan RS - Kepala unit kerja",
-              "Halaman instrumen: 142, 143"
-            ]
+            "title": "Identifikasi masalah",
+            "text": "Gunakan data, insiden, keluhan, risiko, atau variasi praktik."
           },
           {
-            "level": "B",
-            "tag": "W–Wawancara • D–Dokumen",
-            "title": "EP PMKP 6.b",
-            "text": "Tersedia kesinambungan data mulai dari pengumpulan data sampai perbaikan yang dilakukan dan dapat dipertahankan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti kesinambungan data meliputi: 1. Bukti pengumpulan data 2. Bukti validasi data 3. Bukti analisis data 4. Bukti rencana perbaikan 5. Bukti implementasi rencana perbaikan 6. Bukti telah terjadi perbaikan (capaian indikator mutu sesuai/melebihi standar secara terus menerus) - Komite / Tim Mutu - Pimpinan RS - Kepala unit kerja Bukti tentang perubahan",
-              "Halaman instrumen: 143"
-            ]
+            "title": "Rencanakan perubahan",
+            "text": "Tetapkan tujuan, penyebab, intervensi, penanggung jawab, dan ukuran keberhasilan."
           },
           {
-            "level": "C",
-            "tag": "W–Wawancara • D–Dokumen • R–Regulasi",
-            "title": "EP PMKP 6.c",
-            "text": "Memiliki bukti perubahan regulasi dan perubahan proses yang diperlukan untuk mempertahankan perbaikan.",
-            "bullets": [
-              "Kelengkapan bukti: regulasi/regulasi dan baru perubahan proses yang diperlukan sebagai “Action” pada PDCA/PDSA untuk mempertahankan perbaikan setelah dilakukan uji coba - Komite / Tim Mutu - Pimpinan RS - Kepala unit kerja",
-              "Halaman instrumen: 143"
-            ]
-          }
-        ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Elemen Penilaian PMKP 6 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
-      "template": {
-        "style": "bands",
-        "items": [
+            "title": "Uji dalam skala kecil",
+            "text": "Laksanakan perubahan secara terkendali."
+          },
           {
-            "level": "D",
-            "tag": "W–Wawancara • D–Dokumen",
-            "title": "EP PMKP 6.d",
-            "text": "Keberhasilan telah didokumentasikan dan dijadikan laporan PMKP.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti keberhasilan tercantum dalam laporan Triwulan. - Komite / Tim Mutu - Pimpinan RS - Kepala unit kerja",
-              "Halaman instrumen: 143"
-            ]
+            "title": "Pelajari hasil",
+            "text": "Bandingkan data sebelum dan sesudah; cari dampak tak diinginkan."
+          },
+          {
+            "title": "Tindak lanjuti",
+            "text": "Adopsi, sesuaikan, atau hentikan perubahan."
+          },
+          {
+            "title": "Pertahankan",
+            "text": "Masukkan praktik efektif ke alur/SPO, edukasi staf, dan terus pantau."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": "PDSA/PDCA dapat digunakan; yang penting perubahan diuji, diukur, dan dipertahankan."
       }
     },
     {
@@ -242,9 +214,12 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 4 elemen penilaian dari PMKP 6 beserta jenis kelengkapan buktinya."
+        "Identifikasi masalah: Gunakan data, insiden, keluhan, risiko, atau variasi praktik.",
+        "Rencanakan perubahan: Tetapkan tujuan, penyebab, intervensi, penanggung jawab, dan ukuran keberhasilan.",
+        "Uji dalam skala kecil: Laksanakan perubahan secara terkendali.",
+        "Pelajari hasil: Bandingkan data sebelum dan sesudah; cari dampak tak diinginkan."
       ]
     },
     {
@@ -295,28 +270,6 @@
     "Penyebab dan sumber daya mungkin berbeda."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 6.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "W–Wawancara • D–Dokumen",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan W–Wawancara • D–Dokumen. Pokok elemennya: Rumah sakit telah membuat rencana perbaikan dan melakukan uji coba menggunakan metode yang telah teruji dan menerapkannya untuk meningkatkan mutu dan keselamatan pasien."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP PMKP 6.b adalah…",
-      "options": [
-        "W–Wawancara • D–Dokumen",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan W–Wawancara • D–Dokumen. Pokok elemennya: Tersedia kesinambungan data mulai dari pengumpulan data sampai perbaikan yang dilakukan dan dapat dipertahankan."
-    },
     {
       "q": "Dalam situasi “Kepatuhan identifikasi rendah”, tindakan yang paling tepat adalah…",
       "options": [

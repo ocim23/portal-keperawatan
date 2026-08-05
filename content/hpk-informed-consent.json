@@ -12,81 +12,71 @@
   "priorityLabel": "Praktik Wajib",
   "minutes": 15,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian HPK 4.1",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Informed consent adalah proses, bukan tanda tangan",
+      "caption": "Persetujuan sah setelah informasi dipahami dan keputusan diberikan tanpa paksaan.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 4.1.a",
-            "text": "Rumah sakit menerapkan proses bagi pasien untuk mendapatkan informed consent.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: pemberian informed consent. - DPJP - Pasien/ Keluarga",
-              "Halaman instrumen: 272"
-            ]
+            "title": "Informasi utama",
+            "text": "Diagnosis/kondisi, tindakan, tujuan, manfaat, risiko, alternatif, dan konsekuensi bila tidak dilakukan."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 4.1.b",
-            "text": "Pemberian informed consent dilakukan oleh staf yang kompeten dan diberikan dengan cara dan bahasa yang mudah dipahami pasien.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: pemberian informed consent oleh DPJP atau dokter yang diberikan kewenangan dalam kondisi darurat (di IGD) dengan cara dan bahasa yang mudah dipahami pasien (Lihat Maksud dan Tujuan) PAB 7.1) - DPJP - Pasien/ Keluarga",
-              "Halaman instrumen: 272"
-            ]
+            "title": "Pemberi penjelasan",
+            "text": "Tenaga yang kompeten dan berwenang sesuai jenis tindakan."
           },
           {
-            "level": "C",
-            "tag": "R–Regulasi • D–Dokumen",
-            "title": "EP HPK 4.1.c",
-            "text": "Rumah sakit memiliki daftar tindakan invasif, pemeriksaan dan terapi tambahan yang memerlukan informed consent.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan daftar tindakan invasif, pemeriksaan dan terapi tambahan yang memerlukan informed consent",
-              "Halaman instrumen: 272"
-            ]
+            "title": "Kesempatan bertanya",
+            "text": "Pasien dapat meminta penjelasan ulang atau waktu mempertimbangkan."
+          },
+          {
+            "title": "Peran perawat",
+            "text": "Pastikan proses selesai, identitas/dokumen benar, jangan menggantikan penjelasan medis yang belum diberikan."
+          },
+          {
+            "title": "Bila pasien masih ragu",
+            "text": "Tunda sesuai keselamatan dan hubungi pemberi penjelasan."
+          },
+          {
+            "title": "Jangan formulir kosong",
+            "text": "Tidak meminta tanda tangan sebelum informasi dan bagian penting terisi."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian HPK 4.2",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Persetujuan oleh pengambil keputusan pengganti",
+      "caption": "Pendamping tidak otomatis berwenang memberi persetujuan.",
       "template": {
-        "style": "bands",
+        "style": "checklist",
         "items": [
           {
-            "level": "A",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 4.2.a",
-            "text": "Rumah sakit menerapkan proses untuk pemberian oleh orang informed consent lain selain pasien sesuai peraturan perundangan yang berlaku.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis pemberian informed consent oleh orang lain selain pasien sesuai peraturan perundang-undangan. - DPJP - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 273"
-            ]
+            "title": "Nilai kapasitas pasien",
+            "text": "Libatkan pasien sejauh kemampuan mengambil keputusan masih ada."
           },
           {
-            "level": "B",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP HPK 4.2.b",
-            "text": "Rekam medis pasien mencantumkan (satu atau lebih) nama individu yang menyatakan persetujuan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti dalam rekam medis mencantumkan (satu atau lebih) nama orang yang menggantikan pemberian persetujuan (selain pasien) sesuai peraturan perundangan yang berlaku. - PPA - Pasien/ Keluarga",
-              "Halaman instrumen: 273"
-            ]
+            "title": "Verifikasi kewenangan",
+            "text": "Periksa identitas, hubungan, dan urutan pihak yang berhak sesuai regulasi."
+          },
+          {
+            "title": "Anak atau pasien tidak mampu",
+            "text": "Gunakan wali/pihak yang sah; kondisi emergensi mengikuti ketentuan khusus."
+          },
+          {
+            "title": "Dokumentasikan",
+            "text": "Catat siapa yang memberi persetujuan, dasar kewenangan, waktu, dan proses informasi."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -252,9 +242,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 5 elemen penilaian dari HPK 4.1, HPK 4.2 beserta jenis kelengkapan buktinya."
+        "Informasi utama: Diagnosis/kondisi, tindakan, tujuan, manfaat, risiko, alternatif, dan konsekuensi bila tidak dilakukan.",
+        "Pemberi penjelasan: Tenaga yang kompeten dan berwenang sesuai jenis tindakan.",
+        "Kesempatan bertanya: Pasien dapat meminta penjelasan ulang atau waktu mempertimbangkan.",
+        "Peran perawat: Pastikan proses selesai, identitas/dokumen benar, jangan menggantikan penjelasan medis yang belum diberikan.",
+        "Nilai kapasitas pasien: Libatkan pasien sejauh kemampuan mengambil keputusan masih ada.",
+        "Verifikasi kewenangan: Periksa identitas, hubungan, dan urutan pihak yang berhak sesuai regulasi."
       ]
     },
     {
@@ -305,28 +300,6 @@
     "Persetujuan harus bebas dari paksaan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 4.1.a adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit menerapkan proses bagi pasien untuk mendapatkan informed consent."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP HPK 4.1.b adalah…",
-      "options": [
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Pemberian informed consent dilakukan oleh staf yang kompeten dan diberikan dengan cara dan bahasa yang mudah dipahami pasien."
-    },
     {
       "q": "Dalam situasi “Pasien bilang belum paham risiko”, tindakan yang paling tepat adalah…",
       "options": [

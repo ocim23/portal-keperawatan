@@ -8,73 +8,69 @@
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 22,
+  "minutes": 20,
   "updated": "2026-08-05",
-  "notice": "Materi ini dibangun dari Elemen Penilaian dan Kelengkapan Bukti pada Instrumen Survei Akreditasi Rumah Sakit 2024. Setelah memahami elemen yang dinilai, lanjutkan ke alur, praktik, peran perawat, dan kesalahan yang sering terjadi.",
+  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Elemen Penilaian SKP 4 (1/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Tiga tahap memastikan tindakan yang benar",
+      "caption": "Verifikasi dilakukan sejak penjadwalan hingga sesaat sebelum tindakan.",
       "template": {
-        "style": "bands",
+        "style": "timeline",
         "items": [
           {
-            "level": "1",
-            "tag": "D–Dokumen • W–Wawancara",
-            "title": "EP SKP 4.1",
-            "text": "Rumah sakit telah melaksanakan proses verifikasi pra operasi dengan daftar tilik untuk memastikan benar pasien, benar tindakan dan benar sisi.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti pelaksanaan proses verifikasi pra operasi dengan daftar tilik untuk memastikan benar pasien, benar tindakan dan benar sisi - DPJP - Pasien/Keluarga",
-              "Halaman instrumen: 390"
-            ]
+            "title": "Verifikasi pra-prosedur",
+            "text": "Cocokkan identitas, tindakan, sisi/lokasi, dokumen, hasil pemeriksaan, persetujuan, alat, dan kesiapan pasien."
           },
           {
-            "level": "2",
-            "tag": "R–Regulasi • O–Observasi • W–Wawancara",
-            "title": "EP SKP 4.2",
-            "text": "Rumah sakit telah menetapkan dan menerapkan tanda yang seragam, mudah dikenali dan tidak bermakna ganda untuk mengidentifikasi sisi operasi atau tindakan invasif.",
-            "bullets": [
-              "Kelengkapan bukti: Penetapan: 1) tanda yang seragam, 2) mudah dikenali dan 3) tidak bermakna ganda untuk mengidentifikasi sisi operasi atau tindakan invasif. Penandaan sisi operasi atau tindakan invasif - DPJP - Pasien/ keluarga",
-              "Halaman instrumen: 390"
-            ]
+            "title": "Penandaan lokasi",
+            "text": "Dilakukan pada tindakan yang memerlukan penandaan oleh petugas berwenang dengan melibatkan pasien bila memungkinkan."
           },
           {
-            "level": "3",
-            "tag": "D–Dokumen • O–Observasi • W–Wawancara",
-            "title": "EP SKP 4.3",
-            "text": "Rumah sakit telah menerapkan penandaan sisi operasi atau tindakan invasif (site dilakukan oleh marking) dokter operator/dokter asisten yang melakukan operasi atau tindakan invasif dengan melibatkan pasien bila memungkinkan.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: penandaan sisi operasi atau tindakan invasif (site marking) dilakukan oleh dokter operator/dokter asisten yang melakukan operasi atau tindakan invasif dengan melibatkan pasien bila memungkinkan. Penandaan site marking - DPJP - Pasien/ Keluarga",
-              "Halaman instrumen: 390"
-            ]
+            "title": "Time-out",
+            "text": "Seluruh tim berhenti sejenak dan secara aktif mengonfirmasi pasien, prosedur, sisi/lokasi, serta kebutuhan penting sebelum memulai."
+          },
+          {
+            "title": "Sign-out",
+            "text": "Setelah tindakan, pastikan prosedur yang dilakukan, jumlah instrumen/kasa bila relevan, spesimen, masalah alat, dan rencana pascatindakan."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Elemen Penilaian SKP 4 (2/2)",
-      "caption": "Inilah pokok yang dinilai surveior. Pahami bunyi elemen, jenis bukti, dan apa yang harus tampak dalam pelayanan.",
+      "title": "Kapan perawat harus menghentikan proses?",
+      "caption": "Keselamatan lebih penting daripada mengejar jadwal tindakan.",
       "template": {
-        "style": "bands",
+        "style": "cards",
         "items": [
           {
-            "level": "4",
-            "tag": "D–Dokumen",
-            "title": "EP SKP 4.4",
-            "text": "Rumah sakit telah menerapkan proses Time- Outmenggunakan “surgical check list” (Surgical Safety dari WHO terkini Checklist pada tindakan operasi termasuk tindakan medis invasif.",
-            "bullets": [
-              "Kelengkapan bukti: Bukti rekam medis: Time-Out menggunakan “surgical check list” (Surgical Safety Checklist) dari WHO terkini pada tindakan operasi termasuk tindakan medis invasif",
-              "Halaman instrumen: 390, 391"
-            ]
+            "title": "Identitas tidak cocok",
+            "text": "Tahan tindakan sampai semua sumber identitas konsisten."
+          },
+          {
+            "title": "Sisi/lokasi meragukan",
+            "text": "Jangan mengandalkan ingatan; verifikasi kembali dan minta koreksi."
+          },
+          {
+            "title": "Persetujuan belum jelas",
+            "text": "Hubungi petugas pemberi penjelasan; jangan meminta tanda tangan kosong."
+          },
+          {
+            "title": "Tim tidak mengikuti time-out",
+            "text": "Minta semua anggota berhenti dan berpartisipasi aktif."
+          },
+          {
+            "title": "Dokumen/alat penting belum tersedia",
+            "text": "Tunda sampai persyaratan keselamatan terpenuhi."
           }
         ],
-        "columns": 1,
-        "note": "R = regulasi, D = dokumen, O = observasi, W = wawancara, S = simulasi. Skor tetap mengikuti instrumen resmi."
+        "columns": 2,
+        "note": ""
       }
     },
     {
@@ -283,9 +279,14 @@
   ],
   "summarySections": [
     {
-      "title": "Dasar instrumen penilaian",
+      "title": "Kompetensi inti perawat",
       "points": [
-        "Materi ini mencakup 4 elemen penilaian dari SKP 4 beserta jenis kelengkapan buktinya."
+        "Verifikasi pra-prosedur: Cocokkan identitas, tindakan, sisi/lokasi, dokumen, hasil pemeriksaan, persetujuan, alat, dan kesiapan pasien.",
+        "Penandaan lokasi: Dilakukan pada tindakan yang memerlukan penandaan oleh petugas berwenang dengan melibatkan pasien bila memungkinkan.",
+        "Time-out: Seluruh tim berhenti sejenak dan secara aktif mengonfirmasi pasien, prosedur, sisi/lokasi, serta kebutuhan penting sebelum memulai.",
+        "Sign-out: Setelah tindakan, pastikan prosedur yang dilakukan, jumlah instrumen/kasa bila relevan, spesimen, masalah alat, dan rencana pascatindakan.",
+        "Identitas tidak cocok: Tahan tindakan sampai semua sumber identitas konsisten.",
+        "Sisi/lokasi meragukan: Jangan mengandalkan ingatan; verifikasi kembali dan minta koreksi."
       ]
     },
     {
@@ -337,28 +338,6 @@
     "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
   ],
   "quiz": [
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 4.1 adalah…",
-      "options": [
-        "O–Observasi dan S–Simulasi saja",
-        "D–Dokumen • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja"
-      ],
-      "answer": 1,
-      "why": "EP tersebut dinilai dengan D–Dokumen • W–Wawancara. Pokok elemennya: Rumah sakit telah melaksanakan proses verifikasi pra operasi dengan daftar tilik untuk memastikan benar pasien, benar tindakan dan benar sisi."
-    },
-    {
-      "q": "Menurut instrumen, jenis bukti yang tercantum pada EP SKP 4.2 adalah…",
-      "options": [
-        "R–Regulasi • O–Observasi • W–Wawancara",
-        "R–Regulasi saja",
-        "D–Dokumen saja",
-        "O–Observasi dan S–Simulasi saja"
-      ],
-      "answer": 0,
-      "why": "EP tersebut dinilai dengan R–Regulasi • O–Observasi • W–Wawancara. Pokok elemennya: Rumah sakit telah menetapkan dan menerapkan tanda yang seragam, mudah dikenali dan tidak bermakna ganda untuk mengidentifikasi sisi operasi atau tindakan invasif."
-    },
     {
       "q": "Saat time-out, satu anggota tim masih menyiapkan alat dan tidak memperhatikan. Tindakan terbaik adalah…",
       "options": [
