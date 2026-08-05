@@ -1,16 +1,19 @@
-# Portal Keperawatan v4.3.0 — Instrument-first
+# Portal Keperawatan v4.4.0 — Fokus Kompetensi Perawat
 
-Portal pembelajaran internal keperawatan berbasis **Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024**.
+Versi ini membangun ulang tampilan materi dari Instrumen Survei Akreditasi Rumah Sakit 2024 dengan prinsip **instrumen sebagai sumber di belakang layar, kompetensi perawat sebagai isi yang tampil**.
 
-Perubahan utama versi ini adalah mode Pelajari dimulai dari **Elemen Penilaian dan Kelengkapan Bukti**, bukan dari teori umum. Alur, praktik, peran perawat, kesalahan umum, dan kuis ditempatkan setelah pokok yang benar-benar dinilai surveior.
+## Perubahan utama
 
-## Menjalankan
+- Menghapus slide yang menyalin Elemen Penilaian, kode R/D/O/W/S, kelengkapan bukti, dan nomor halaman.
+- Mengganti slide pembuka seluruh 62 submateri dengan substansi yang harus diketahui, dilakukan, didokumentasikan, dijawab, atau diperagakan oleh perawat.
+- Menghapus soal kuis tentang jenis bukti/nomor elemen dan mempertahankan soal berbasis praktik.
+- Mempertahankan tombol kembali internal untuk browser dan mode aplikasi desktop/PWA.
+- Regulasi, struktur organisasi, SK tim, dan laporan pimpinan tidak ditampilkan sebagai materi utama kecuali menghasilkan kompetensi langsung bagi perawat.
 
-Unggah seluruh isi folder ke hosting statis/GitHub Pages, atau jalankan melalui server lokal. Jangan membuka `index.html` melalui `file://` karena konten JSON dimuat melalui fetch.
+## Dasar
 
-## Berkas penting
+Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024 tentang Instrumen Survei Akreditasi Rumah Sakit.
 
-- `assets/data/catalog-v4-3-0.json` — katalog.
-- `content/*.json` — 62 materi.
-- `MAPPING_INSTRUMEN_V4_3_0.md` — kode, jumlah EP, dan halaman sumber.
-- `CONTENT_AUDIT.md` — prinsip audit konten.
+## Pemasangan
+
+Unggah seluruh isi folder ke GitHub Pages atau web hosting statis. Jangan mengunggah ZIP tanpa mengekstraknya.

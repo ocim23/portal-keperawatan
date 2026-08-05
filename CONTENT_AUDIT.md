@@ -1,16 +1,10 @@
-# Audit Konten v4.3.0
+# Audit Konten v4.4.0
 
-## Prinsip sumber
+Checklist otomatis:
 
-Sumber utama: Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024 tentang Instrumen Survei Akreditasi Rumah Sakit.
-
-Urutan konten setiap materi:
-
-1. Elemen Penilaian.
-2. Kelengkapan bukti dan metode telusur R/D/O/W/S.
-3. Konsep dan alur penerapan.
-4. Praktik/peran perawat.
-5. Situasi khusus dan kesalahan yang sering terjadi.
-6. Kuis dan referensi.
-
-Portal tetap berfokus pada tugas keperawatan. Substandar tata kelola atau teknis unit lain yang tidak dibuat sebagai materi dijelaskan pada catatan cakupan kelompok.
+- 62 file materi tersedia.
+- Tidak ada judul slide yang dimulai dengan “Elemen Penilaian”.
+- Tidak ada slide utama yang menampilkan kode R/D/O/W/S atau nomor halaman instrumen.
+- Setiap materi memiliki slide inti kompetensi perawat.
+- Setiap bank kuis memiliki sedikitnya 5 soal setelah pembersihan soal metadata instrumen.
+- JSON, katalog, path aset, JavaScript, dan service worker diperiksa.

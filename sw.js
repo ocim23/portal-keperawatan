@@ -1,10 +1,10 @@
-const CACHE = 'portal-keperawatan-v4.3.0-instrument-aligned';
+const CACHE = 'portal-keperawatan-v4.4.0-focus-nursing';
 const CORE = [
   './',
   './index.html',
-  './assets/css/styles-v4-3-0.css?v=4.3.0',
-  './assets/js/app-v4-3-0.js?v=4.3.0',
-  './assets/data/catalog-v4-3-0.json?v=4.3.0',
+  './assets/css/styles-v4-4-0.css?v=4.4.0',
+  './assets/js/app-v4-4-0.js?v=4.4.0',
+  './assets/data/catalog-v4-4-0.json?v=4.4.0',
   './manifest.webmanifest',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png'
