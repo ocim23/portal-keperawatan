@@ -1,7 +1,7 @@
 {
   "id": "skp-1-identifikasi",
   "group": "skp",
-  "title": "SKP 1 — Identifikasi Pasien",
+  "title": "SKP 1 — Mengidentifikasi Pasien dengan Benar",
   "short": "SKP 1",
   "desc": "Identifikasi aktif dengan minimal dua identitas pada setiap titik kritis pelayanan.",
   "category": "SKP",
@@ -376,5 +376,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

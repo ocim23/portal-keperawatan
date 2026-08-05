@@ -1,9 +1,9 @@
 {
   "id": "pap-risiko-tinggi",
   "group": "pap",
-  "title": "Pelayanan Pasien Risiko Tinggi",
-  "short": "Pasien Risiko Tinggi",
-  "desc": "Mengenali risiko berdasarkan kondisi, tindakan, obat, populasi, dan transisi lalu meningkatkan pengamanan.",
+  "title": "PAP 2 — Pelayanan Pasien Risiko Tinggi dan Penyediaan Pelayanan Risiko Tinggi",
+  "short": "PAP 2",
+  "desc": "Mengenali pasien/pelayanan risiko tinggi serta pengamanan tambahan yang diperlukan.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
@@ -382,5 +382,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib"
 }

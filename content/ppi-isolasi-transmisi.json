@@ -1,0 +1,337 @@
+{
+  "id": "ppi-isolasi-transmisi",
+  "group": "ppi",
+  "title": "PPI 10 dan PPI 10.1 — Kewaspadaan Berbasis Transmisi dan Isolasi",
+  "short": "PPI 10–10.1",
+  "desc": "Kontak, droplet, airborne, penempatan pasien, transportasi, dan komunikasi isolasi.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "minutes": 14,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Tambahan terhadap kewaspadaan standar",
+            "text": "Kewaspadaan transmisi tidak menggantikan kewaspadaan standar."
+          },
+          {
+            "title": "Kontak",
+            "text": "Fokus pada tangan, pakaian, alat, dan lingkungan yang terkontaminasi."
+          },
+          {
+            "title": "Droplet",
+            "text": "Fokus pada percikan jarak dekat dan masker sesuai risiko."
+          },
+          {
+            "title": "Airborne",
+            "text": "Memerlukan perlindungan respirator dan pengaturan ruang sesuai kebijakan."
+          },
+          {
+            "title": "Isolasi harus tetap manusiawi",
+            "text": "Komunikasi, kebutuhan psikososial, dan akses pelayanan pasien tetap dijaga."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Kenali dugaan transmisi",
+            "text": "Gunakan gejala, diagnosis sementara, dan informasi epidemiologis."
+          },
+          {
+            "title": "Tempatkan dan beri penanda",
+            "text": "Ikuti prioritas ruang, kohorting, dan tanda kewaspadaan."
+          },
+          {
+            "title": "Siapkan APD dan alat",
+            "text": "Batasi alat bersama atau dekontaminasi setelah penggunaan."
+          },
+          {
+            "title": "Atur transportasi",
+            "text": "Hanya bila perlu; beri informasi kepada unit tujuan dan perlindungan pasien."
+          },
+          {
+            "title": "Hentikan isolasi secara terkontrol",
+            "text": "Ikuti kriteria klinis/laboratorium dan kewenangan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Masuk ruang kontak",
+            "text": "Lakukan hand hygiene, pakai APD sesuai pajanan, dan batasi barang."
+          },
+          {
+            "title": "Masuk ruang droplet",
+            "text": "Gunakan masker dan perlindungan mata bila ada risiko percikan."
+          },
+          {
+            "title": "Masuk ruang airborne",
+            "text": "Gunakan respirator yang sesuai dan pastikan fit/ruang menurut kebijakan."
+          },
+          {
+            "title": "Membawa pasien keluar",
+            "text": "Pasang perlindungan pada pasien sesuai jenis transmisi dan beri tahu penerima."
+          },
+          {
+            "title": "Melepas APD",
+            "text": "Lepas dalam urutan aman tanpa menyentuh bagian terkontaminasi lalu hand hygiene."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Membuka pintu ruang airborne tanpa alasan",
+            "text": "Mengganggu pengendalian udara."
+          },
+          {
+            "title": "Menggunakan alat bersama tanpa dekontaminasi",
+            "text": "Memindahkan patogen antar pasien."
+          },
+          {
+            "title": "Tidak menjelaskan isolasi",
+            "text": "Pasien dapat merasa dihukum atau menolak."
+          },
+          {
+            "title": "Memakai APD di koridor",
+            "text": "Menyebarkan kontaminasi ke area bersih."
+          },
+          {
+            "title": "Menghentikan isolasi karena gejala membaik",
+            "text": "Harus mengikuti kriteria dan kewenangan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kenali tanda isolasi",
+            "text": "Pahami APD dan alur masuk/keluar."
+          },
+          {
+            "title": "Edukasi pasien/keluarga",
+            "text": "Jelaskan tujuan dan aturan secara empatik."
+          },
+          {
+            "title": "Jaga komunikasi antarunit",
+            "text": "Status isolasi harus diserahterimakan."
+          },
+          {
+            "title": "Minimalkan perpindahan",
+            "text": "Rencanakan pemeriksaan di tempat bila memungkinkan."
+          },
+          {
+            "title": "Pantau kebutuhan klinis",
+            "text": "Isolasi tidak boleh mengurangi mutu asuhan."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Kewaspadaan transmisi tidak menggantikan kewaspadaan standar.",
+        "Fokus pada tangan, pakaian, alat, dan lingkungan yang terkontaminasi.",
+        "Fokus pada percikan jarak dekat dan masker sesuai risiko."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Kenali dugaan transmisi: Gunakan gejala, diagnosis sementara, dan informasi epidemiologis.",
+        "Tempatkan dan beri penanda: Ikuti prioritas ruang, kohorting, dan tanda kewaspadaan.",
+        "Siapkan APD dan alat: Batasi alat bersama atau dekontaminasi setelah penggunaan."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Masuk ruang kontak: Lakukan hand hygiene, pakai APD sesuai pajanan, dan batasi barang.",
+        "Masuk ruang droplet: Gunakan masker dan perlindungan mata bila ada risiko percikan.",
+        "Masuk ruang airborne: Gunakan respirator yang sesuai dan pastikan fit/ruang menurut kebijakan."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Pahami APD dan alur masuk/keluar.",
+        "Jelaskan tujuan dan aturan secara empatik.",
+        "Status isolasi harus diserahterimakan."
+      ]
+    }
+  ],
+  "do": [
+    "Lakukan hand hygiene, pakai APD sesuai pajanan, dan batasi barang.",
+    "Gunakan masker dan perlindungan mata bila ada risiko percikan.",
+    "Gunakan respirator yang sesuai dan pastikan fit/ruang menurut kebijakan.",
+    "Pasang perlindungan pada pasien sesuai jenis transmisi dan beri tahu penerima.",
+    "Lepas dalam urutan aman tanpa menyentuh bagian terkontaminasi lalu hand hygiene."
+  ],
+  "dont": [
+    "Mengganggu pengendalian udara.",
+    "Memindahkan patogen antar pasien.",
+    "Pasien dapat merasa dihukum atau menolak.",
+    "Menyebarkan kontaminasi ke area bersih.",
+    "Harus mengikuti kriteria dan kewenangan."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Masuk ruang kontak”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Lakukan hand hygiene, pakai APD sesuai pajanan, dan batasi barang.",
+        "Mengganggu pengendalian udara.",
+        "Memindahkan patogen antar pasien.",
+        "Pasien dapat merasa dihukum atau menolak."
+      ],
+      "answer": 0,
+      "why": "Lakukan hand hygiene, pakai APD sesuai pajanan, dan batasi barang."
+    },
+    {
+      "q": "Dalam situasi “Masuk ruang droplet”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Memindahkan patogen antar pasien.",
+        "Pasien dapat merasa dihukum atau menolak.",
+        "Menyebarkan kontaminasi ke area bersih.",
+        "Gunakan masker dan perlindungan mata bila ada risiko percikan."
+      ],
+      "answer": 3,
+      "why": "Gunakan masker dan perlindungan mata bila ada risiko percikan."
+    },
+    {
+      "q": "Dalam situasi “Masuk ruang airborne”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Menyebarkan kontaminasi ke area bersih.",
+        "Harus mengikuti kriteria dan kewenangan.",
+        "Gunakan respirator yang sesuai dan pastikan fit/ruang menurut kebijakan.",
+        "Pasien dapat merasa dihukum atau menolak."
+      ],
+      "answer": 2,
+      "why": "Gunakan respirator yang sesuai dan pastikan fit/ruang menurut kebijakan."
+    },
+    {
+      "q": "Dalam situasi “Membawa pasien keluar”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Mengganggu pengendalian udara.",
+        "Pasang perlindungan pada pasien sesuai jenis transmisi dan beri tahu penerima.",
+        "Menyebarkan kontaminasi ke area bersih.",
+        "Harus mengikuti kriteria dan kewenangan."
+      ],
+      "answer": 1,
+      "why": "Pasang perlindungan pada pasien sesuai jenis transmisi dan beri tahu penerima."
+    },
+    {
+      "q": "Dalam situasi “Melepas APD”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Lepas dalam urutan aman tanpa menyentuh bagian terkontaminasi lalu hand hygiene.",
+        "Harus mengikuti kriteria dan kewenangan.",
+        "Mengganggu pengendalian udara.",
+        "Memindahkan patogen antar pasien."
+      ],
+      "answer": 0,
+      "why": "Lepas dalam urutan aman tanpa menyentuh bagian terkontaminasi lalu hand hygiene."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Tambahan terhadap kewaspadaan standar” adalah…",
+      "options": [
+        "Mengganggu pengendalian udara.",
+        "Kewaspadaan transmisi tidak menggantikan kewaspadaan standar.",
+        "Pasien dapat merasa dihukum atau menolak.",
+        "Menyebarkan kontaminasi ke area bersih."
+      ],
+      "answer": 1,
+      "why": "Kewaspadaan transmisi tidak menggantikan kewaspadaan standar."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Kontak” adalah…",
+      "options": [
+        "Memindahkan patogen antar pasien.",
+        "Fokus pada tangan, pakaian, alat, dan lingkungan yang terkontaminasi.",
+        "Menyebarkan kontaminasi ke area bersih.",
+        "Harus mengikuti kriteria dan kewenangan."
+      ],
+      "answer": 1,
+      "why": "Fokus pada tangan, pakaian, alat, dan lingkungan yang terkontaminasi."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Droplet” adalah…",
+      "options": [
+        "Pasien dapat merasa dihukum atau menolak.",
+        "Fokus pada percikan jarak dekat dan masker sesuai risiko.",
+        "Harus mengikuti kriteria dan kewenangan.",
+        "Mengganggu pengendalian udara."
+      ],
+      "answer": 1,
+      "why": "Fokus pada percikan jarak dekat dan masker sesuai risiko."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "isolasi",
+    "kontak",
+    "droplet",
+    "airborne",
+    "transmisi",
+    "n95"
+  ]
+}

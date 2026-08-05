@@ -1,0 +1,338 @@
+{
+  "id": "pkpo-penyimpanan",
+  "group": "pkpo",
+  "title": "PKPO 3 dan PKPO 3.1 — Penyimpanan serta Penanganan Obat Khusus",
+  "short": "PKPO 3–3.1",
+  "desc": "Suhu, keamanan, high-alert, LASA/NORUM, elektrolit konsentrat, narkotika, dan obat pasien.",
+  "category": "PKPO",
+  "color": "#6D48C7",
+  "soft": "#F1ECFF",
+  "icon": "rights",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 13,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kondisi penyimpanan mengikuti produk",
+            "text": "Suhu, cahaya, kelembapan, dan keamanan mengikuti label, petunjuk produsen, serta kebijakan."
+          },
+          {
+            "title": "Obat harus dapat diidentifikasi",
+            "text": "Nama, kekuatan, bentuk, ED/BUD, dan status obat harus terbaca."
+          },
+          {
+            "title": "High-alert membutuhkan pengaman tambahan",
+            "text": "Pemisahan, penandaan, akses terbatas, standardisasi, dan double-check digunakan sesuai daftar rumah sakit."
+          },
+          {
+            "title": "LASA/NORUM harus dipisahkan",
+            "text": "Nama, rupa, atau bunyi mirip tidak boleh hanya dibedakan oleh ingatan."
+          },
+          {
+            "title": "Produk tertentu memerlukan kendali khusus",
+            "text": "Narkotika, psikotropika, elektrolit konsentrat, sitostatika, nutrisi parenteral, dan obat penelitian mengikuti proses khusus."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Terima dan periksa",
+            "text": "Cocokkan jumlah, label, kondisi, ED/BUD, dan kebutuhan suhu."
+          },
+          {
+            "title": "Simpan sesuai kategori",
+            "text": "Pisahkan obat khusus, obat luar, obat pasien, dan produk dingin sesuai kebijakan."
+          },
+          {
+            "title": "Pantau kondisi",
+            "text": "Catat suhu dan tindak lanjuti penyimpangan."
+          },
+          {
+            "title": "Lakukan rotasi stok",
+            "text": "Gunakan FEFO dan singkirkan produk tidak layak."
+          },
+          {
+            "title": "Supervisi berkala",
+            "text": "Farmasi dan unit menilai kepatuhan serta stok."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Lemari es obat",
+            "text": "Periksa rentang suhu, pencatatan, alarm/penyimpangan, dan larangan makanan."
+          },
+          {
+            "title": "High-alert di unit",
+            "text": "Pastikan label, konsentrasi standar, lokasi, dan pengaman sesuai."
+          },
+          {
+            "title": "LASA",
+            "text": "Pisahkan pasangan, gunakan tall-man/label bila diterapkan, dan baca label berulang."
+          },
+          {
+            "title": "Elektrolit konsentrat",
+            "text": "Simpan hanya di area yang diizinkan dan jangan diberikan tanpa proses pengenceran/penyiapan yang benar."
+          },
+          {
+            "title": "Obat pasien",
+            "text": "Identifikasi, nilai kelayakan, simpan, dan dokumentasikan sesuai kebijakan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mengandalkan warna kemasan",
+            "text": "Produsen dapat mengubah tampilan dan kemasan berbeda bisa serupa."
+          },
+          {
+            "title": "Menyimpan obat tanpa label",
+            "text": "Tidak dapat diverifikasi dan harus dianggap tidak aman."
+          },
+          {
+            "title": "Mencampur makanan dengan obat",
+            "text": "Meningkatkan kontaminasi dan gangguan suhu."
+          },
+          {
+            "title": "Membiarkan obat kedaluwarsa di stok aktif",
+            "text": "Berisiko terambil saat situasi sibuk."
+          },
+          {
+            "title": "Memindahkan elektrolit konsentrat sembarangan",
+            "text": "Menghilangkan pengaman sistem."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Memeriksa sebelum mengambil",
+            "text": "Baca nama, dosis, konsentrasi, dan ED/BUD."
+          },
+          {
+            "title": "Menjaga suhu",
+            "text": "Laporkan penyimpangan, jangan memutuskan kelayakan sendiri."
+          },
+          {
+            "title": "Menjaga akses",
+            "text": "Lemari/kit tetap aman namun tersedia saat dibutuhkan."
+          },
+          {
+            "title": "Melaporkan LASA baru",
+            "text": "Near miss dapat menunjukkan pasangan berisiko baru."
+          },
+          {
+            "title": "Berkoordinasi dengan farmasi",
+            "text": "Klarifikasi setiap produk yang tidak jelas."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Suhu, cahaya, kelembapan, dan keamanan mengikuti label, petunjuk produsen, serta kebijakan.",
+        "Nama, kekuatan, bentuk, ED/BUD, dan status obat harus terbaca.",
+        "Pemisahan, penandaan, akses terbatas, standardisasi, dan double-check digunakan sesuai daftar rumah sakit."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Terima dan periksa: Cocokkan jumlah, label, kondisi, ED/BUD, dan kebutuhan suhu.",
+        "Simpan sesuai kategori: Pisahkan obat khusus, obat luar, obat pasien, dan produk dingin sesuai kebijakan.",
+        "Pantau kondisi: Catat suhu dan tindak lanjuti penyimpangan."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Lemari es obat: Periksa rentang suhu, pencatatan, alarm/penyimpangan, dan larangan makanan.",
+        "High-alert di unit: Pastikan label, konsentrasi standar, lokasi, dan pengaman sesuai.",
+        "LASA: Pisahkan pasangan, gunakan tall-man/label bila diterapkan, dan baca label berulang."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Baca nama, dosis, konsentrasi, dan ED/BUD.",
+        "Laporkan penyimpangan, jangan memutuskan kelayakan sendiri.",
+        "Lemari/kit tetap aman namun tersedia saat dibutuhkan."
+      ]
+    }
+  ],
+  "do": [
+    "Periksa rentang suhu, pencatatan, alarm/penyimpangan, dan larangan makanan.",
+    "Pastikan label, konsentrasi standar, lokasi, dan pengaman sesuai.",
+    "Pisahkan pasangan, gunakan tall-man/label bila diterapkan, dan baca label berulang.",
+    "Simpan hanya di area yang diizinkan dan jangan diberikan tanpa proses pengenceran/penyiapan yang benar.",
+    "Identifikasi, nilai kelayakan, simpan, dan dokumentasikan sesuai kebijakan."
+  ],
+  "dont": [
+    "Produsen dapat mengubah tampilan dan kemasan berbeda bisa serupa.",
+    "Tidak dapat diverifikasi dan harus dianggap tidak aman.",
+    "Meningkatkan kontaminasi dan gangguan suhu.",
+    "Berisiko terambil saat situasi sibuk.",
+    "Menghilangkan pengaman sistem."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Lemari es obat”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Periksa rentang suhu, pencatatan, alarm/penyimpangan, dan larangan makanan.",
+        "Produsen dapat mengubah tampilan dan kemasan berbeda bisa serupa.",
+        "Tidak dapat diverifikasi dan harus dianggap tidak aman.",
+        "Meningkatkan kontaminasi dan gangguan suhu."
+      ],
+      "answer": 0,
+      "why": "Periksa rentang suhu, pencatatan, alarm/penyimpangan, dan larangan makanan."
+    },
+    {
+      "q": "Dalam situasi “High-alert di unit”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tidak dapat diverifikasi dan harus dianggap tidak aman.",
+        "Meningkatkan kontaminasi dan gangguan suhu.",
+        "Berisiko terambil saat situasi sibuk.",
+        "Pastikan label, konsentrasi standar, lokasi, dan pengaman sesuai."
+      ],
+      "answer": 3,
+      "why": "Pastikan label, konsentrasi standar, lokasi, dan pengaman sesuai."
+    },
+    {
+      "q": "Dalam situasi “LASA”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Berisiko terambil saat situasi sibuk.",
+        "Menghilangkan pengaman sistem.",
+        "Pisahkan pasangan, gunakan tall-man/label bila diterapkan, dan baca label berulang.",
+        "Meningkatkan kontaminasi dan gangguan suhu."
+      ],
+      "answer": 2,
+      "why": "Pisahkan pasangan, gunakan tall-man/label bila diterapkan, dan baca label berulang."
+    },
+    {
+      "q": "Dalam situasi “Elektrolit konsentrat”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Produsen dapat mengubah tampilan dan kemasan berbeda bisa serupa.",
+        "Simpan hanya di area yang diizinkan dan jangan diberikan tanpa proses pengenceran/penyiapan yang benar.",
+        "Berisiko terambil saat situasi sibuk.",
+        "Menghilangkan pengaman sistem."
+      ],
+      "answer": 1,
+      "why": "Simpan hanya di area yang diizinkan dan jangan diberikan tanpa proses pengenceran/penyiapan yang benar."
+    },
+    {
+      "q": "Dalam situasi “Obat pasien”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Identifikasi, nilai kelayakan, simpan, dan dokumentasikan sesuai kebijakan.",
+        "Menghilangkan pengaman sistem.",
+        "Produsen dapat mengubah tampilan dan kemasan berbeda bisa serupa.",
+        "Tidak dapat diverifikasi dan harus dianggap tidak aman."
+      ],
+      "answer": 0,
+      "why": "Identifikasi, nilai kelayakan, simpan, dan dokumentasikan sesuai kebijakan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Kondisi penyimpanan mengikuti produk” adalah…",
+      "options": [
+        "Produsen dapat mengubah tampilan dan kemasan berbeda bisa serupa.",
+        "Suhu, cahaya, kelembapan, dan keamanan mengikuti label, petunjuk produsen, serta kebijakan.",
+        "Meningkatkan kontaminasi dan gangguan suhu.",
+        "Berisiko terambil saat situasi sibuk."
+      ],
+      "answer": 1,
+      "why": "Suhu, cahaya, kelembapan, dan keamanan mengikuti label, petunjuk produsen, serta kebijakan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Obat harus dapat diidentifikasi” adalah…",
+      "options": [
+        "Tidak dapat diverifikasi dan harus dianggap tidak aman.",
+        "Nama, kekuatan, bentuk, ED/BUD, dan status obat harus terbaca.",
+        "Berisiko terambil saat situasi sibuk.",
+        "Menghilangkan pengaman sistem."
+      ],
+      "answer": 1,
+      "why": "Nama, kekuatan, bentuk, ED/BUD, dan status obat harus terbaca."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “High-alert membutuhkan pengaman tambahan” adalah…",
+      "options": [
+        "Meningkatkan kontaminasi dan gangguan suhu.",
+        "Pemisahan, penandaan, akses terbatas, standardisasi, dan double-check digunakan sesuai daftar rumah sakit.",
+        "Menghilangkan pengaman sistem.",
+        "Produsen dapat mengubah tampilan dan kemasan berbeda bisa serupa."
+      ],
+      "answer": 1,
+      "why": "Pemisahan, penandaan, akses terbatas, standardisasi, dan double-check digunakan sesuai daftar rumah sakit."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "penyimpanan obat",
+    "high alert",
+    "lasa",
+    "norum",
+    "elektrolit konsentrat",
+    "kcl",
+    "narkotika"
+  ]
+}

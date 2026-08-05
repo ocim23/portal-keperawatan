@@ -1,9 +1,9 @@
 {
   "id": "skp-6-jatuh",
   "group": "skp",
-  "title": "SKP 6 — Mengurangi Risiko Cedera Akibat Jatuh",
+  "title": "SKP 6 — Mengurangi Risiko Cedera Pasien Akibat Jatuh",
   "short": "SKP 6",
-  "desc": "Skrining, asesmen, intervensi individual, asesmen ulang, dan evaluasi setelah jatuh.",
+  "desc": "Skrining, pengkajian, intervensi individual, edukasi, dan evaluasi ulang risiko jatuh.",
   "category": "SKP",
   "color": "#0B7285",
   "soft": "#E6F7FA",
@@ -382,5 +382,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

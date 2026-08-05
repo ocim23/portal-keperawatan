@@ -1,9 +1,9 @@
 {
   "id": "pap-nutrisi",
   "group": "pap",
-  "title": "Skrining, Asuhan Nutrisi, dan Pemantauan",
-  "short": "Nutrisi",
-  "desc": "Membedakan skrining dan asesmen, memastikan diet/rute aman, serta memantau intake, toleransi, dan risiko aspirasi.",
+  "title": "PAP 3 — Pemberian Makanan dan Terapi Nutrisi",
+  "short": "PAP 3",
+  "desc": "Skrining, keamanan makan, terapi nutrisi, pemantauan, dan kolaborasi.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
@@ -382,5 +382,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib"
 }

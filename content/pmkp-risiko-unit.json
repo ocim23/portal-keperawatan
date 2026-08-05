@@ -1,0 +1,335 @@
+{
+  "id": "pmkp-risiko-unit",
+  "group": "pmkp",
+  "title": "PMKP 11 — Manajemen Risiko di Unit",
+  "short": "PMKP 11",
+  "desc": "Mengenali bahaya sebelum insiden, menilai prioritas, mengendalikan, dan memantau risiko.",
+  "category": "PMKP",
+  "color": "#155E9A",
+  "soft": "#E9F4FF",
+  "icon": "target",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 11,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Risiko berbeda dari insiden",
+            "text": "Risiko adalah potensi bahaya; insiden adalah kejadian yang telah terjadi atau hampir terjadi."
+          },
+          {
+            "title": "Daftar risiko harus hidup",
+            "text": "Risiko diperbarui ketika proses, alat, lingkungan, atau populasi berubah."
+          },
+          {
+            "title": "Prioritas berdasarkan kemungkinan dan dampak",
+            "text": "Risiko sering namun ringan dan risiko jarang namun fatal sama-sama perlu dinilai."
+          },
+          {
+            "title": "Pengendalian mengikuti hierarki",
+            "text": "Hilangkan bahaya bila mungkin; kemudian rekayasa, administrasi, dan APD."
+          },
+          {
+            "title": "Risiko sisa tetap dipantau",
+            "text": "Kontrol tidak selalu menghilangkan seluruh risiko."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Identifikasi bahaya",
+            "text": "Observasi proses, insiden, keluhan, dan perubahan."
+          },
+          {
+            "title": "Deskripsikan risiko",
+            "text": "Sebab–kejadian–dampak harus jelas."
+          },
+          {
+            "title": "Nilai",
+            "text": "Tentukan kemungkinan dan dampak sesuai matriks."
+          },
+          {
+            "title": "Kendalikan",
+            "text": "Pilih tindakan, penanggung jawab, dan waktu."
+          },
+          {
+            "title": "Pantau",
+            "text": "Ukur efektivitas dan risiko sisa."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "LASA berdekatan",
+            "text": "Pisahkan dan perbaiki label serta alur."
+          },
+          {
+            "title": "Bel panggil rusak",
+            "text": "Lindungi pasien, sediakan alternatif, dan laporkan segera."
+          },
+          {
+            "title": "Lantai sering basah",
+            "text": "Cari sumber, pasang pengamanan, dan perbaiki sistem."
+          },
+          {
+            "title": "Oksigen emergensi tidak konsisten",
+            "text": "Standarkan pemeriksaan dan cadangan."
+          },
+          {
+            "title": "Jalur evakuasi terhalang",
+            "text": "Kosongkan segera dan cegah pengulangan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menulis risiko terlalu umum",
+            "text": "“Risiko keselamatan” tidak menjelaskan sebab dan dampak."
+          },
+          {
+            "title": "Hanya mencatat setelah insiden",
+            "text": "Manajemen risiko harus proaktif."
+          },
+          {
+            "title": "Mengandalkan APD sebagai satu-satunya kontrol",
+            "text": "Kontrol pada sumber lebih kuat."
+          },
+          {
+            "title": "Tidak menetapkan penanggung jawab",
+            "text": "Tindakan tidak bergerak."
+          },
+          {
+            "title": "Menghapus risiko setelah satu perbaikan",
+            "text": "Efektivitas perlu dibuktikan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Melaporkan bahaya",
+            "text": "Tidak perlu menunggu cedera."
+          },
+          {
+            "title": "Memberi data nyata",
+            "text": "Frekuensi, lokasi, dan kondisi membantu penilaian."
+          },
+          {
+            "title": "Mengikuti kontrol",
+            "text": "Prosedur baru harus diterapkan."
+          },
+          {
+            "title": "Menilai dampak pada pasien",
+            "text": "Prioritaskan kelompok rentan."
+          },
+          {
+            "title": "Memantau pengulangan",
+            "text": "Laporkan bila kontrol tidak efektif."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Risiko adalah potensi bahaya; insiden adalah kejadian yang telah terjadi atau hampir terjadi.",
+        "Risiko diperbarui ketika proses, alat, lingkungan, atau populasi berubah.",
+        "Risiko sering namun ringan dan risiko jarang namun fatal sama-sama perlu dinilai."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Identifikasi bahaya: Observasi proses, insiden, keluhan, dan perubahan.",
+        "Deskripsikan risiko: Sebab–kejadian–dampak harus jelas.",
+        "Nilai: Tentukan kemungkinan dan dampak sesuai matriks."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "LASA berdekatan: Pisahkan dan perbaiki label serta alur.",
+        "Bel panggil rusak: Lindungi pasien, sediakan alternatif, dan laporkan segera.",
+        "Lantai sering basah: Cari sumber, pasang pengamanan, dan perbaiki sistem."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Tidak perlu menunggu cedera.",
+        "Frekuensi, lokasi, dan kondisi membantu penilaian.",
+        "Prosedur baru harus diterapkan."
+      ]
+    }
+  ],
+  "do": [
+    "Pisahkan dan perbaiki label serta alur.",
+    "Lindungi pasien, sediakan alternatif, dan laporkan segera.",
+    "Cari sumber, pasang pengamanan, dan perbaiki sistem.",
+    "Standarkan pemeriksaan dan cadangan.",
+    "Kosongkan segera dan cegah pengulangan."
+  ],
+  "dont": [
+    "“Risiko keselamatan” tidak menjelaskan sebab dan dampak.",
+    "Manajemen risiko harus proaktif.",
+    "Kontrol pada sumber lebih kuat.",
+    "Tindakan tidak bergerak.",
+    "Efektivitas perlu dibuktikan."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “LASA berdekatan”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pisahkan dan perbaiki label serta alur.",
+        "“Risiko keselamatan” tidak menjelaskan sebab dan dampak.",
+        "Manajemen risiko harus proaktif.",
+        "Kontrol pada sumber lebih kuat."
+      ],
+      "answer": 0,
+      "why": "Pisahkan dan perbaiki label serta alur."
+    },
+    {
+      "q": "Dalam situasi “Bel panggil rusak”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Manajemen risiko harus proaktif.",
+        "Kontrol pada sumber lebih kuat.",
+        "Tindakan tidak bergerak.",
+        "Lindungi pasien, sediakan alternatif, dan laporkan segera."
+      ],
+      "answer": 3,
+      "why": "Lindungi pasien, sediakan alternatif, dan laporkan segera."
+    },
+    {
+      "q": "Dalam situasi “Lantai sering basah”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tindakan tidak bergerak.",
+        "Efektivitas perlu dibuktikan.",
+        "Cari sumber, pasang pengamanan, dan perbaiki sistem.",
+        "Kontrol pada sumber lebih kuat."
+      ],
+      "answer": 2,
+      "why": "Cari sumber, pasang pengamanan, dan perbaiki sistem."
+    },
+    {
+      "q": "Dalam situasi “Oksigen emergensi tidak konsisten”, tindakan yang paling tepat adalah…",
+      "options": [
+        "“Risiko keselamatan” tidak menjelaskan sebab dan dampak.",
+        "Standarkan pemeriksaan dan cadangan.",
+        "Tindakan tidak bergerak.",
+        "Efektivitas perlu dibuktikan."
+      ],
+      "answer": 1,
+      "why": "Standarkan pemeriksaan dan cadangan."
+    },
+    {
+      "q": "Dalam situasi “Jalur evakuasi terhalang”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Kosongkan segera dan cegah pengulangan.",
+        "Efektivitas perlu dibuktikan.",
+        "“Risiko keselamatan” tidak menjelaskan sebab dan dampak.",
+        "Manajemen risiko harus proaktif."
+      ],
+      "answer": 0,
+      "why": "Kosongkan segera dan cegah pengulangan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Risiko berbeda dari insiden” adalah…",
+      "options": [
+        "“Risiko keselamatan” tidak menjelaskan sebab dan dampak.",
+        "Risiko adalah potensi bahaya; insiden adalah kejadian yang telah terjadi atau hampir terjadi.",
+        "Kontrol pada sumber lebih kuat.",
+        "Tindakan tidak bergerak."
+      ],
+      "answer": 1,
+      "why": "Risiko adalah potensi bahaya; insiden adalah kejadian yang telah terjadi atau hampir terjadi."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Daftar risiko harus hidup” adalah…",
+      "options": [
+        "Manajemen risiko harus proaktif.",
+        "Risiko diperbarui ketika proses, alat, lingkungan, atau populasi berubah.",
+        "Tindakan tidak bergerak.",
+        "Efektivitas perlu dibuktikan."
+      ],
+      "answer": 1,
+      "why": "Risiko diperbarui ketika proses, alat, lingkungan, atau populasi berubah."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Prioritas berdasarkan kemungkinan dan dampak” adalah…",
+      "options": [
+        "Kontrol pada sumber lebih kuat.",
+        "Risiko sering namun ringan dan risiko jarang namun fatal sama-sama perlu dinilai.",
+        "Efektivitas perlu dibuktikan.",
+        "“Risiko keselamatan” tidak menjelaskan sebab dan dampak."
+      ],
+      "answer": 1,
+      "why": "Risiko sering namun ringan dan risiko jarang namun fatal sama-sama perlu dinilai."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "risk register",
+    "daftar risiko",
+    "manajemen risiko",
+    "bahaya"
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "id": "mfk-utilitas",
+  "group": "mfk",
+  "title": "MFK 8 dan MFK 8.2 — Sistem Utilitas dan Respons Kegagalan",
+  "short": "MFK 8–8.2",
+  "desc": "Respons perawat terhadap gangguan listrik, air, gas medis, ventilasi, lift, dan komunikasi.",
+  "category": "MFK",
+  "color": "#E47A13",
+  "soft": "#FFF3E6",
+  "icon": "fire",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 12,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Utilitas menopang pelayanan 24 jam",
+            "text": "Listrik, air, gas medis, ventilasi, komunikasi, dan lift memengaruhi keselamatan."
+          },
+          {
+            "title": "Area kritis memiliki prioritas",
+            "text": "ICU, kamar operasi, IGD, laboratorium, dan pasien alat bantu hidup memerlukan rencana cadangan."
+          },
+          {
+            "title": "Sumber alternatif harus dikenal",
+            "text": "Genset, baterai, tabung, air cadangan, dan komunikasi alternatif."
+          },
+          {
+            "title": "Staf tidak mengoperasikan sistem di luar kewenangan",
+            "text": "Katup/panel yang salah dapat memperluas bahaya."
+          },
+          {
+            "title": "Gangguan perlu komunikasi cepat",
+            "text": "Unit teknis dan pimpinan harus mengetahui dampak klinis."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Kenali gangguan",
+            "text": "Apa yang gagal dan area terdampak."
+          },
+          {
+            "title": "Prioritaskan pasien",
+            "text": "Alat bantu hidup dan kebutuhan mendesak."
+          },
+          {
+            "title": "Aktifkan alternatif",
+            "text": "Baterai, manual, tabung, atau lokasi cadangan sesuai prosedur."
+          },
+          {
+            "title": "Laporkan",
+            "text": "Sampaikan jenis gangguan dan dampak."
+          },
+          {
+            "title": "Pantau dan dokumentasikan",
+            "text": "Catat pasien/tindakan yang terpengaruh."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Listrik padam",
+            "text": "Periksa ventilator, monitor, pompa, oksigen, dan baterai; gunakan alternatif."
+          },
+          {
+            "title": "Air terganggu",
+            "text": "Ikuti instruksi penggunaan, hand hygiene alternatif, dan prosedur yang terdampak."
+          },
+          {
+            "title": "Tekanan gas medis turun",
+            "text": "Pindah ke sumber cadangan sesuai kompetensi dan laporkan."
+          },
+          {
+            "title": "Ventilasi ruang isolasi gagal",
+            "text": "Batasi penggunaan/akses dan koordinasi PPI/fasilitas."
+          },
+          {
+            "title": "Lift berhenti",
+            "text": "Jangan memaksa; gunakan jalur dan bantuan resmi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mencolok banyak alat ke satu terminal",
+            "text": "Dapat membebani sistem."
+          },
+          {
+            "title": "Memutar katup gas tanpa kewenangan",
+            "text": "Membahayakan banyak pasien."
+          },
+          {
+            "title": "Mengabaikan alarm utilitas",
+            "text": "Gangguan dapat memburuk."
+          },
+          {
+            "title": "Tidak mengecek baterai",
+            "text": "Alat mati saat transfer/padam."
+          },
+          {
+            "title": "Menunggu teknisi tanpa melindungi pasien",
+            "text": "Alternatif klinis harus segera dilakukan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Tahu sumber cadangan unit",
+            "text": "Baterai, tabung, lampu, dan komunikasi."
+          },
+          {
+            "title": "Menjaga alat terisi",
+            "text": "Baterai dan oksigen."
+          },
+          {
+            "title": "Memprioritaskan pasien",
+            "text": "Buat daftar risiko saat gangguan."
+          },
+          {
+            "title": "Melaporkan dampak",
+            "text": "Bukan hanya “listrik mati”."
+          },
+          {
+            "title": "Ikut simulasi",
+            "text": "Uji kesiapan nyata."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Listrik, air, gas medis, ventilasi, komunikasi, dan lift memengaruhi keselamatan.",
+        "ICU, kamar operasi, IGD, laboratorium, dan pasien alat bantu hidup memerlukan rencana cadangan.",
+        "Genset, baterai, tabung, air cadangan, dan komunikasi alternatif."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Kenali gangguan: Apa yang gagal dan area terdampak.",
+        "Prioritaskan pasien: Alat bantu hidup dan kebutuhan mendesak.",
+        "Aktifkan alternatif: Baterai, manual, tabung, atau lokasi cadangan sesuai prosedur."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Listrik padam: Periksa ventilator, monitor, pompa, oksigen, dan baterai; gunakan alternatif.",
+        "Air terganggu: Ikuti instruksi penggunaan, hand hygiene alternatif, dan prosedur yang terdampak.",
+        "Tekanan gas medis turun: Pindah ke sumber cadangan sesuai kompetensi dan laporkan."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Baterai, tabung, lampu, dan komunikasi.",
+        "Baterai dan oksigen.",
+        "Buat daftar risiko saat gangguan."
+      ]
+    }
+  ],
+  "do": [
+    "Periksa ventilator, monitor, pompa, oksigen, dan baterai; gunakan alternatif.",
+    "Ikuti instruksi penggunaan, hand hygiene alternatif, dan prosedur yang terdampak.",
+    "Pindah ke sumber cadangan sesuai kompetensi dan laporkan.",
+    "Batasi penggunaan/akses dan koordinasi PPI/fasilitas.",
+    "Jangan memaksa; gunakan jalur dan bantuan resmi."
+  ],
+  "dont": [
+    "Dapat membebani sistem.",
+    "Membahayakan banyak pasien.",
+    "Gangguan dapat memburuk.",
+    "Alat mati saat transfer/padam.",
+    "Alternatif klinis harus segera dilakukan."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Listrik padam”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Periksa ventilator, monitor, pompa, oksigen, dan baterai; gunakan alternatif.",
+        "Dapat membebani sistem.",
+        "Membahayakan banyak pasien.",
+        "Gangguan dapat memburuk."
+      ],
+      "answer": 0,
+      "why": "Periksa ventilator, monitor, pompa, oksigen, dan baterai; gunakan alternatif."
+    },
+    {
+      "q": "Dalam situasi “Air terganggu”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Membahayakan banyak pasien.",
+        "Gangguan dapat memburuk.",
+        "Alat mati saat transfer/padam.",
+        "Ikuti instruksi penggunaan, hand hygiene alternatif, dan prosedur yang terdampak."
+      ],
+      "answer": 3,
+      "why": "Ikuti instruksi penggunaan, hand hygiene alternatif, dan prosedur yang terdampak."
+    },
+    {
+      "q": "Dalam situasi “Tekanan gas medis turun”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Alat mati saat transfer/padam.",
+        "Alternatif klinis harus segera dilakukan.",
+        "Pindah ke sumber cadangan sesuai kompetensi dan laporkan.",
+        "Gangguan dapat memburuk."
+      ],
+      "answer": 2,
+      "why": "Pindah ke sumber cadangan sesuai kompetensi dan laporkan."
+    },
+    {
+      "q": "Dalam situasi “Ventilasi ruang isolasi gagal”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Dapat membebani sistem.",
+        "Batasi penggunaan/akses dan koordinasi PPI/fasilitas.",
+        "Alat mati saat transfer/padam.",
+        "Alternatif klinis harus segera dilakukan."
+      ],
+      "answer": 1,
+      "why": "Batasi penggunaan/akses dan koordinasi PPI/fasilitas."
+    },
+    {
+      "q": "Dalam situasi “Lift berhenti”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Jangan memaksa; gunakan jalur dan bantuan resmi.",
+        "Alternatif klinis harus segera dilakukan.",
+        "Dapat membebani sistem.",
+        "Membahayakan banyak pasien."
+      ],
+      "answer": 0,
+      "why": "Jangan memaksa; gunakan jalur dan bantuan resmi."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Utilitas menopang pelayanan 24 jam” adalah…",
+      "options": [
+        "Dapat membebani sistem.",
+        "Listrik, air, gas medis, ventilasi, komunikasi, dan lift memengaruhi keselamatan.",
+        "Gangguan dapat memburuk.",
+        "Alat mati saat transfer/padam."
+      ],
+      "answer": 1,
+      "why": "Listrik, air, gas medis, ventilasi, komunikasi, dan lift memengaruhi keselamatan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Area kritis memiliki prioritas” adalah…",
+      "options": [
+        "Membahayakan banyak pasien.",
+        "ICU, kamar operasi, IGD, laboratorium, dan pasien alat bantu hidup memerlukan rencana cadangan.",
+        "Alat mati saat transfer/padam.",
+        "Alternatif klinis harus segera dilakukan."
+      ],
+      "answer": 1,
+      "why": "ICU, kamar operasi, IGD, laboratorium, dan pasien alat bantu hidup memerlukan rencana cadangan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Sumber alternatif harus dikenal” adalah…",
+      "options": [
+        "Gangguan dapat memburuk.",
+        "Genset, baterai, tabung, air cadangan, dan komunikasi alternatif.",
+        "Alternatif klinis harus segera dilakukan.",
+        "Dapat membebani sistem."
+      ],
+      "answer": 1,
+      "why": "Genset, baterai, tabung, air cadangan, dan komunikasi alternatif."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "utilitas",
+    "listrik padam",
+    "air",
+    "gas medis",
+    "genset"
+  ]
+}

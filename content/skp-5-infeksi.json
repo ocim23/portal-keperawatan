@@ -1,9 +1,9 @@
 {
   "id": "skp-5-infeksi",
   "group": "skp",
-  "title": "SKP 5 — Mengurangi Risiko Infeksi",
+  "title": "SKP 5 — Mengurangi Risiko Infeksi Akibat Perawatan Kesehatan",
   "short": "SKP 5",
-  "desc": "Prinsip pencegahan infeksi pada tangan, alat, lingkungan, tindakan, dan transmisi.",
+  "desc": "Kebersihan tangan dan praktik pencegahan infeksi pada titik pelayanan.",
   "category": "SKP",
   "color": "#0B7285",
   "soft": "#E6F7FA",
@@ -388,5 +388,7 @@
       "org": "Centers for Disease Control and Prevention",
       "url": "https://www.cdc.gov/infection-control/media/pdfs/Toolkits-PPE-Sequence-P.pdf"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

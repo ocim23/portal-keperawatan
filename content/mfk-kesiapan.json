@@ -1,0 +1,334 @@
+{
+  "id": "mfk-kesiapan",
+  "group": "mfk",
+  "title": "MFK 11 — Pelatihan, Simulasi, dan Peran Staf",
+  "short": "MFK 11",
+  "desc": "Checklist kesiapan staf menjawab dan memperagakan keselamatan, kebakaran, B3, alat, utilitas, dan bencana.",
+  "category": "MFK",
+  "color": "#E47A13",
+  "soft": "#FFF3E6",
+  "icon": "fire",
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "minutes": 13,
+  "updated": "2026-08-05",
+  "notice": "Nomor kode, titik kumpul, warna helm, jalur evakuasi, lokasi alat, dan struktur komando harus disesuaikan dengan kebijakan rumah sakit.",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kompetensi harus dapat diperagakan",
+            "text": "Surveior dapat meminta staf menunjukkan tindakan, bukan hanya definisi."
+          },
+          {
+            "title": "Pelatihan disesuaikan peran",
+            "text": "Perawat, vendor, dan petugas lain memiliki kedalaman berbeda."
+          },
+          {
+            "title": "Simulasi menguji sistem",
+            "text": "Waktu respons, komunikasi, alat, jalur, dan koordinasi dinilai."
+          },
+          {
+            "title": "Temuan latihan harus ditindaklanjuti",
+            "text": "Latihan tanpa perbaikan tidak meningkatkan kesiapan."
+          },
+          {
+            "title": "Kesiapan bersifat lokal",
+            "text": "Nomor kode, lokasi alat, jalur, dan titik kumpul mengikuti rumah sakit."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Kenali lingkungan unit",
+            "text": "APAR, spill kit, jalur, pintu, troli, panel darurat, dan kontak."
+          },
+          {
+            "title": "Pelajari peran",
+            "text": "Apa yang dilakukan saat kode/bencana."
+          },
+          {
+            "title": "Latih demonstrasi",
+            "text": "PASS, tumpahan, evakuasi, alat rusak, dan listrik padam."
+          },
+          {
+            "title": "Ikut evaluasi",
+            "text": "Catat hambatan."
+          },
+          {
+            "title": "Perbarui pengetahuan",
+            "text": "Saat lokasi, alat, atau SOP berubah."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Tunjukkan APAR terdekat",
+            "text": "Sebut jenis dan batas penggunaannya."
+          },
+          {
+            "title": "Jelaskan jalur evakuasi",
+            "text": "Sebut jalur utama dan alternatif."
+          },
+          {
+            "title": "Tumpahan B3",
+            "text": "Amankan, identifikasi, APD, spill kit, limbah, laporan."
+          },
+          {
+            "title": "Alat medis rusak",
+            "text": "Amankan pasien, ganti, labeli, laporkan."
+          },
+          {
+            "title": "Listrik padam",
+            "text": "Prioritaskan pasien dan aktifkan sumber cadangan."
+          }
+        ],
+        "columns": 2,
+        "note": "Nomor kode, titik kumpul, warna helm, jalur evakuasi, lokasi alat, dan struktur komando harus disesuaikan dengan kebijakan rumah sakit."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menghafal kode tanpa tahu tindakan",
+            "text": "Tidak membantu saat kejadian."
+          },
+          {
+            "title": "Tidak tahu lokasi alat",
+            "text": "Waktu terbuang."
+          },
+          {
+            "title": "Berlatih hanya menjelang survei",
+            "text": "Keterampilan cepat hilang."
+          },
+          {
+            "title": "Menggunakan prosedur unit lain",
+            "text": "Alur lokal dapat berbeda."
+          },
+          {
+            "title": "Tidak melaporkan hambatan simulasi",
+            "text": "Masalah tetap ada."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Mampu menjawab “apa peran Anda?”",
+            "text": "Jawaban spesifik unit."
+          },
+          {
+            "title": "Mampu menunjukkan alat",
+            "text": "Bukan sekadar menyebut."
+          },
+          {
+            "title": "Mengikuti komando",
+            "text": "Tidak bertindak sendiri."
+          },
+          {
+            "title": "Menjaga pasien prioritas",
+            "text": "Kenali pasien paling bergantung."
+          },
+          {
+            "title": "Menjadi pengingat tim",
+            "text": "Briefing singkat meningkatkan kesiapan."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Surveior dapat meminta staf menunjukkan tindakan, bukan hanya definisi.",
+        "Perawat, vendor, dan petugas lain memiliki kedalaman berbeda.",
+        "Waktu respons, komunikasi, alat, jalur, dan koordinasi dinilai."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Kenali lingkungan unit: APAR, spill kit, jalur, pintu, troli, panel darurat, dan kontak.",
+        "Pelajari peran: Apa yang dilakukan saat kode/bencana.",
+        "Latih demonstrasi: PASS, tumpahan, evakuasi, alat rusak, dan listrik padam."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Tunjukkan APAR terdekat: Sebut jenis dan batas penggunaannya.",
+        "Jelaskan jalur evakuasi: Sebut jalur utama dan alternatif.",
+        "Tumpahan B3: Amankan, identifikasi, APD, spill kit, limbah, laporan."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Jawaban spesifik unit.",
+        "Bukan sekadar menyebut.",
+        "Tidak bertindak sendiri."
+      ]
+    }
+  ],
+  "do": [
+    "Sebut jenis dan batas penggunaannya.",
+    "Sebut jalur utama dan alternatif.",
+    "Amankan, identifikasi, APD, spill kit, limbah, laporan.",
+    "Amankan pasien, ganti, labeli, laporkan.",
+    "Prioritaskan pasien dan aktifkan sumber cadangan."
+  ],
+  "dont": [
+    "Tidak membantu saat kejadian.",
+    "Waktu terbuang.",
+    "Keterampilan cepat hilang.",
+    "Alur lokal dapat berbeda.",
+    "Masalah tetap ada."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Tunjukkan APAR terdekat”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Sebut jenis dan batas penggunaannya.",
+        "Tidak membantu saat kejadian.",
+        "Waktu terbuang.",
+        "Keterampilan cepat hilang."
+      ],
+      "answer": 0,
+      "why": "Sebut jenis dan batas penggunaannya."
+    },
+    {
+      "q": "Dalam situasi “Jelaskan jalur evakuasi”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Waktu terbuang.",
+        "Keterampilan cepat hilang.",
+        "Alur lokal dapat berbeda.",
+        "Sebut jalur utama dan alternatif."
+      ],
+      "answer": 3,
+      "why": "Sebut jalur utama dan alternatif."
+    },
+    {
+      "q": "Dalam situasi “Tumpahan B3”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Alur lokal dapat berbeda.",
+        "Masalah tetap ada.",
+        "Amankan, identifikasi, APD, spill kit, limbah, laporan.",
+        "Keterampilan cepat hilang."
+      ],
+      "answer": 2,
+      "why": "Amankan, identifikasi, APD, spill kit, limbah, laporan."
+    },
+    {
+      "q": "Dalam situasi “Alat medis rusak”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tidak membantu saat kejadian.",
+        "Amankan pasien, ganti, labeli, laporkan.",
+        "Alur lokal dapat berbeda.",
+        "Masalah tetap ada."
+      ],
+      "answer": 1,
+      "why": "Amankan pasien, ganti, labeli, laporkan."
+    },
+    {
+      "q": "Dalam situasi “Listrik padam”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Prioritaskan pasien dan aktifkan sumber cadangan.",
+        "Masalah tetap ada.",
+        "Tidak membantu saat kejadian.",
+        "Waktu terbuang."
+      ],
+      "answer": 0,
+      "why": "Prioritaskan pasien dan aktifkan sumber cadangan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Kompetensi harus dapat diperagakan” adalah…",
+      "options": [
+        "Tidak membantu saat kejadian.",
+        "Surveior dapat meminta staf menunjukkan tindakan, bukan hanya definisi.",
+        "Keterampilan cepat hilang.",
+        "Alur lokal dapat berbeda."
+      ],
+      "answer": 1,
+      "why": "Surveior dapat meminta staf menunjukkan tindakan, bukan hanya definisi."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Pelatihan disesuaikan peran” adalah…",
+      "options": [
+        "Waktu terbuang.",
+        "Perawat, vendor, dan petugas lain memiliki kedalaman berbeda.",
+        "Alur lokal dapat berbeda.",
+        "Masalah tetap ada."
+      ],
+      "answer": 1,
+      "why": "Perawat, vendor, dan petugas lain memiliki kedalaman berbeda."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Simulasi menguji sistem” adalah…",
+      "options": [
+        "Keterampilan cepat hilang.",
+        "Waktu respons, komunikasi, alat, jalur, dan koordinasi dinilai.",
+        "Masalah tetap ada.",
+        "Tidak membantu saat kejadian."
+      ],
+      "answer": 1,
+      "why": "Waktu respons, komunikasi, alat, jalur, dan koordinasi dinilai."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "simulasi mfk",
+    "kesiapan surveior",
+    "peran staf"
+  ]
+}

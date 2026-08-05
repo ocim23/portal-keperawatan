@@ -1,9 +1,9 @@
 {
   "id": "ppi-tangan",
   "group": "ppi",
-  "title": "Kebersihan Tangan",
-  "short": "5 momen, teknik, dan pemilihan metode",
-  "desc": "Memutus transmisi mikroorganisme pada saat yang tepat dengan metode dan teknik yang benar.",
+  "title": "PPI 11 — Kebersihan Tangan",
+  "short": "PPI 11",
+  "desc": "Lima momen, enam langkah, handrub/handwash, kuku, dan evaluasi kepatuhan.",
   "category": "PPI",
   "color": "#14805E",
   "soft": "#EAF8F2",
@@ -426,5 +426,7 @@
       "org": "World Health Organization",
       "url": "https://cdn.who.int/media/docs/default-source/documents/health-topics/hand-hygiene-why-how-and-when-brochure.pdf"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

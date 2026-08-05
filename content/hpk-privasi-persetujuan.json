@@ -1,9 +1,9 @@
 {
   "id": "hpk-privasi-persetujuan",
   "group": "hpk",
-  "title": "Privasi, Kerahasiaan, Persetujuan, dan Penolakan",
-  "short": "Empat konsep berbeda yang saling berkaitan",
-  "desc": "Melindungi tubuh dan informasi pasien, serta mendukung keputusan yang sadar, sukarela, dan terdokumentasi.",
+  "title": "HPK 1.3 — Privasi dan Kerahasiaan Informasi",
+  "short": "HPK 1.3",
+  "desc": "Privasi fisik, kerahasiaan, akses informasi, foto/video, dan komunikasi aman.",
   "category": "HPK",
   "color": "#A34D78",
   "soft": "#FFF0F7",
@@ -383,5 +383,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://jdih.kemkes.go.id/documents/peraturan-menteri-kesehatan-nomor-24-tahun-2022"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

@@ -1,0 +1,337 @@
+{
+  "id": "ppi-dekontaminasi-lingkungan",
+  "group": "ppi",
+  "title": "PPI 4, PPI 5, dan PPI 6 — Peralatan, Lingkungan, dan Linen",
+  "short": "PPI 4–6",
+  "desc": "Pengelolaan alat, kebersihan lingkungan, serta linen untuk memutus rantai infeksi.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 12,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Dekontaminasi dimulai segera setelah penggunaan",
+            "text": "Kotoran organik yang mengering mengurangi efektivitas proses berikutnya."
+          },
+          {
+            "title": "Tingkat proses mengikuti risiko alat",
+            "text": "Pembersihan, disinfeksi, atau sterilisasi dipilih berdasarkan penggunaan dan kebijakan."
+          },
+          {
+            "title": "Permukaan sering disentuh perlu perhatian",
+            "text": "Bed rail, meja, tombol, monitor, dan gagang dapat menjadi reservoir."
+          },
+          {
+            "title": "Linen kotor diperlakukan minimal",
+            "text": "Jangan dikibas; masukkan ke wadah yang sesuai di titik penggunaan."
+          },
+          {
+            "title": "Alur kotor dan bersih harus terpisah",
+            "text": "Pemisahan mencegah kontaminasi silang selama transportasi dan penyimpanan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Setelah alat digunakan",
+            "text": "Lindungi petugas, hilangkan kotoran sesuai prosedur, dan kirim melalui alur kotor."
+          },
+          {
+            "title": "Pilih proses yang benar",
+            "text": "Ikuti klasifikasi alat dan petunjuk produsen."
+          },
+          {
+            "title": "Bersihkan lingkungan",
+            "text": "Prioritaskan tumpahan dan high-touch surfaces."
+          },
+          {
+            "title": "Kelola linen",
+            "text": "Gulung bagian kotor ke dalam, masukkan wadah, dan jangan diletakkan di lantai."
+          },
+          {
+            "title": "Simpan hasil proses",
+            "text": "Pastikan area bersih, kering, dan terlindung."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Alat reusable",
+            "text": "Jangan digunakan ulang sebelum proses selesai dan statusnya jelas."
+          },
+          {
+            "title": "Tumpahan cairan tubuh",
+            "text": "Amankan area, gunakan APD, bersihkan sesuai prosedur, dan kelola limbah."
+          },
+          {
+            "title": "Kasur atau permukaan rusak",
+            "text": "Laporkan karena retakan sulit didekontaminasi."
+          },
+          {
+            "title": "Linen sangat basah",
+            "text": "Gunakan wadah tahan bocor sesuai sistem rumah sakit."
+          },
+          {
+            "title": "Alat pinjaman antarunit",
+            "text": "Pastikan status kebersihan dan serah terima dapat ditelusuri."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menyemprot disinfektan tanpa pembersihan",
+            "text": "Bahan organik dapat tetap melindungi mikroorganisme."
+          },
+          {
+            "title": "Mengibaskan linen",
+            "text": "Menyebarkan partikel dan kontaminasi."
+          },
+          {
+            "title": "Mencampur alat bersih dan kotor",
+            "text": "Menghilangkan hasil dekontaminasi."
+          },
+          {
+            "title": "Menggunakan bahan tidak sesuai produsen",
+            "text": "Dapat merusak alat dan tidak efektif."
+          },
+          {
+            "title": "Menyimpan alat lembap",
+            "text": "Mendukung pertumbuhan mikroorganisme."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kenali status alat",
+            "text": "Bersih, kotor, steril, atau kedaluwarsa harus jelas."
+          },
+          {
+            "title": "Jaga titik penggunaan",
+            "text": "Lakukan pemisahan sejak awal."
+          },
+          {
+            "title": "Laporkan kerusakan",
+            "text": "Permukaan retak atau alat sulit dibersihkan perlu ditindaklanjuti."
+          },
+          {
+            "title": "Koordinasi dengan CSSD/laundry",
+            "text": "Informasi khusus alat atau linen harus diteruskan."
+          },
+          {
+            "title": "Audit kebiasaan unit",
+            "text": "Temukan area high-touch dan celah alur."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Kotoran organik yang mengering mengurangi efektivitas proses berikutnya.",
+        "Pembersihan, disinfeksi, atau sterilisasi dipilih berdasarkan penggunaan dan kebijakan.",
+        "Bed rail, meja, tombol, monitor, dan gagang dapat menjadi reservoir."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Setelah alat digunakan: Lindungi petugas, hilangkan kotoran sesuai prosedur, dan kirim melalui alur kotor.",
+        "Pilih proses yang benar: Ikuti klasifikasi alat dan petunjuk produsen.",
+        "Bersihkan lingkungan: Prioritaskan tumpahan dan high-touch surfaces."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Alat reusable: Jangan digunakan ulang sebelum proses selesai dan statusnya jelas.",
+        "Tumpahan cairan tubuh: Amankan area, gunakan APD, bersihkan sesuai prosedur, dan kelola limbah.",
+        "Kasur atau permukaan rusak: Laporkan karena retakan sulit didekontaminasi."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Bersih, kotor, steril, atau kedaluwarsa harus jelas.",
+        "Lakukan pemisahan sejak awal.",
+        "Permukaan retak atau alat sulit dibersihkan perlu ditindaklanjuti."
+      ]
+    }
+  ],
+  "do": [
+    "Jangan digunakan ulang sebelum proses selesai dan statusnya jelas.",
+    "Amankan area, gunakan APD, bersihkan sesuai prosedur, dan kelola limbah.",
+    "Laporkan karena retakan sulit didekontaminasi.",
+    "Gunakan wadah tahan bocor sesuai sistem rumah sakit.",
+    "Pastikan status kebersihan dan serah terima dapat ditelusuri."
+  ],
+  "dont": [
+    "Bahan organik dapat tetap melindungi mikroorganisme.",
+    "Menyebarkan partikel dan kontaminasi.",
+    "Menghilangkan hasil dekontaminasi.",
+    "Dapat merusak alat dan tidak efektif.",
+    "Mendukung pertumbuhan mikroorganisme."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Alat reusable”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Jangan digunakan ulang sebelum proses selesai dan statusnya jelas.",
+        "Bahan organik dapat tetap melindungi mikroorganisme.",
+        "Menyebarkan partikel dan kontaminasi.",
+        "Menghilangkan hasil dekontaminasi."
+      ],
+      "answer": 0,
+      "why": "Jangan digunakan ulang sebelum proses selesai dan statusnya jelas."
+    },
+    {
+      "q": "Dalam situasi “Tumpahan cairan tubuh”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Menyebarkan partikel dan kontaminasi.",
+        "Menghilangkan hasil dekontaminasi.",
+        "Dapat merusak alat dan tidak efektif.",
+        "Amankan area, gunakan APD, bersihkan sesuai prosedur, dan kelola limbah."
+      ],
+      "answer": 3,
+      "why": "Amankan area, gunakan APD, bersihkan sesuai prosedur, dan kelola limbah."
+    },
+    {
+      "q": "Dalam situasi “Kasur atau permukaan rusak”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Dapat merusak alat dan tidak efektif.",
+        "Mendukung pertumbuhan mikroorganisme.",
+        "Laporkan karena retakan sulit didekontaminasi.",
+        "Menghilangkan hasil dekontaminasi."
+      ],
+      "answer": 2,
+      "why": "Laporkan karena retakan sulit didekontaminasi."
+    },
+    {
+      "q": "Dalam situasi “Linen sangat basah”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Bahan organik dapat tetap melindungi mikroorganisme.",
+        "Gunakan wadah tahan bocor sesuai sistem rumah sakit.",
+        "Dapat merusak alat dan tidak efektif.",
+        "Mendukung pertumbuhan mikroorganisme."
+      ],
+      "answer": 1,
+      "why": "Gunakan wadah tahan bocor sesuai sistem rumah sakit."
+    },
+    {
+      "q": "Dalam situasi “Alat pinjaman antarunit”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pastikan status kebersihan dan serah terima dapat ditelusuri.",
+        "Mendukung pertumbuhan mikroorganisme.",
+        "Bahan organik dapat tetap melindungi mikroorganisme.",
+        "Menyebarkan partikel dan kontaminasi."
+      ],
+      "answer": 0,
+      "why": "Pastikan status kebersihan dan serah terima dapat ditelusuri."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Dekontaminasi dimulai segera setelah penggunaan” adalah…",
+      "options": [
+        "Bahan organik dapat tetap melindungi mikroorganisme.",
+        "Kotoran organik yang mengering mengurangi efektivitas proses berikutnya.",
+        "Menghilangkan hasil dekontaminasi.",
+        "Dapat merusak alat dan tidak efektif."
+      ],
+      "answer": 1,
+      "why": "Kotoran organik yang mengering mengurangi efektivitas proses berikutnya."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Tingkat proses mengikuti risiko alat” adalah…",
+      "options": [
+        "Menyebarkan partikel dan kontaminasi.",
+        "Pembersihan, disinfeksi, atau sterilisasi dipilih berdasarkan penggunaan dan kebijakan.",
+        "Dapat merusak alat dan tidak efektif.",
+        "Mendukung pertumbuhan mikroorganisme."
+      ],
+      "answer": 1,
+      "why": "Pembersihan, disinfeksi, atau sterilisasi dipilih berdasarkan penggunaan dan kebijakan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Permukaan sering disentuh perlu perhatian” adalah…",
+      "options": [
+        "Menghilangkan hasil dekontaminasi.",
+        "Bed rail, meja, tombol, monitor, dan gagang dapat menjadi reservoir.",
+        "Mendukung pertumbuhan mikroorganisme.",
+        "Bahan organik dapat tetap melindungi mikroorganisme."
+      ],
+      "answer": 1,
+      "why": "Bed rail, meja, tombol, monitor, dan gagang dapat menjadi reservoir."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "dekontaminasi",
+    "sterilisasi",
+    "disinfeksi",
+    "linen",
+    "lingkungan",
+    "cssd"
+  ]
+}

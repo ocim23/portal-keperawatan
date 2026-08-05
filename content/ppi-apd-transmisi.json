@@ -1,9 +1,9 @@
 {
   "id": "ppi-apd-transmisi",
   "group": "ppi",
-  "title": "APD dan Kewaspadaan Transmisi",
-  "short": "Pilih perlindungan sesuai risiko pajanan",
-  "desc": "Menggunakan kewaspadaan standar dan tambahan secara proporsional, lalu melepas APD tanpa mencemari diri atau lingkungan.",
+  "title": "PPI 11.1 — Penggunaan Alat Pelindung Diri",
+  "short": "PPI 11.1",
+  "desc": "Pemilihan, urutan memakai/melepas, pencegahan kontaminasi, dan keterbatasan APD.",
   "category": "PPI",
   "color": "#14805E",
   "soft": "#EAF8F2",
@@ -413,5 +413,7 @@
       "org": "Centers for Disease Control and Prevention",
       "url": "https://www.cdc.gov/infection-control/media/pdfs/Toolkits-PPE-Sequence-P.pdf"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

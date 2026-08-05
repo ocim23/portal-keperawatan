@@ -1,0 +1,335 @@
+{
+  "id": "pkpo-emergensi",
+  "group": "pkpo",
+  "title": "PKPO 3.2 — Obat dan BMHP untuk Kondisi Emergensi",
+  "short": "PKPO 3.2",
+  "desc": "Kesiapan troli/kit emergensi, segel, pemeriksaan, penggunaan, dan pengisian kembali.",
+  "category": "PKPO",
+  "color": "#6D48C7",
+  "soft": "#F1ECFF",
+  "icon": "rights",
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "minutes": 13,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Harus tersedia setiap saat",
+            "text": "Obat dan BMHP emergensi tersedia di lokasi yang ditetapkan tanpa hambatan tidak perlu."
+          },
+          {
+            "title": "Isi dan tata letak seragam",
+            "text": "Keseragaman mempercepat pencarian saat resusitasi."
+          },
+          {
+            "title": "Keamanan tidak boleh menghambat akses",
+            "text": "Segel atau kunci digunakan dengan sistem yang tetap memungkinkan respons cepat."
+          },
+          {
+            "title": "Pemeriksaan harus terdokumentasi",
+            "text": "Segel, kelengkapan, kondisi, dan kedaluwarsa dipantau sesuai jadwal."
+          },
+          {
+            "title": "Setelah digunakan harus segera dipulihkan",
+            "text": "Troli belum siap sampai isi dilengkapi, diperiksa, dan disegel kembali."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Periksa segel dan kondisi luar",
+            "text": "Pastikan nomor/status segel sesuai dan troli mudah dipindahkan."
+          },
+          {
+            "title": "Periksa sesuai jadwal",
+            "text": "Gunakan daftar tilik untuk obat, BMHP, alat, dan ED."
+          },
+          {
+            "title": "Saat dibuka",
+            "text": "Catat waktu, alasan, dan item yang digunakan."
+          },
+          {
+            "title": "Isi ulang",
+            "text": "Farmasi/unit mengganti sesuai alur dan melakukan verifikasi."
+          },
+          {
+            "title": "Segel dan dokumentasikan",
+            "text": "Pastikan troli kembali siap."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pemeriksaan awal shift",
+            "text": "Lihat segel, akses, oksigen/alat terkait, dan dokumentasi."
+          },
+          {
+            "title": "Segel rusak tanpa catatan",
+            "text": "Anggap perlu pemeriksaan lengkap dan laporkan."
+          },
+          {
+            "title": "Obat mendekati ED",
+            "text": "Ikuti rotasi/penggantian sebelum tidak layak."
+          },
+          {
+            "title": "Setelah Code Blue",
+            "text": "Pisahkan item terpakai, minta pengisian, dan jangan meninggalkan troli tanpa status."
+          },
+          {
+            "title": "Troli dipindah",
+            "text": "Pastikan lokasi baru diketahui dan akses tetap aman."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Hanya melihat segel",
+            "text": "Segel utuh tidak menjamin item tidak kedaluwarsa."
+          },
+          {
+            "title": "Mengisi ulang tanpa verifikasi",
+            "text": "Dapat terjadi salah item atau jumlah."
+          },
+          {
+            "title": "Mengubah tata letak sendiri",
+            "text": "Membingungkan tim lain saat emergensi."
+          },
+          {
+            "title": "Menyimpan barang nonemergensi",
+            "text": "Mengurangi ruang dan memperlambat pencarian."
+          },
+          {
+            "title": "Menunda pelaporan item habis",
+            "text": "Troli dapat dipakai dalam keadaan tidak siap."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Tahu lokasi troli",
+            "text": "Staf harus dapat menunjukkan lokasi dan akses."
+          },
+          {
+            "title": "Mengerti tata letak",
+            "text": "Latihan mengurangi waktu mencari."
+          },
+          {
+            "title": "Melakukan cek sesuai peran",
+            "text": "Gunakan daftar tilik, bukan ingatan."
+          },
+          {
+            "title": "Menjaga status siap",
+            "text": "Pasang penanda bila sedang tidak siap."
+          },
+          {
+            "title": "Melaporkan hambatan",
+            "text": "Roda rusak, laci macet, atau segel tidak tersedia harus diperbaiki."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Obat dan BMHP emergensi tersedia di lokasi yang ditetapkan tanpa hambatan tidak perlu.",
+        "Keseragaman mempercepat pencarian saat resusitasi.",
+        "Segel atau kunci digunakan dengan sistem yang tetap memungkinkan respons cepat."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Periksa segel dan kondisi luar: Pastikan nomor/status segel sesuai dan troli mudah dipindahkan.",
+        "Periksa sesuai jadwal: Gunakan daftar tilik untuk obat, BMHP, alat, dan ED.",
+        "Saat dibuka: Catat waktu, alasan, dan item yang digunakan."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Pemeriksaan awal shift: Lihat segel, akses, oksigen/alat terkait, dan dokumentasi.",
+        "Segel rusak tanpa catatan: Anggap perlu pemeriksaan lengkap dan laporkan.",
+        "Obat mendekati ED: Ikuti rotasi/penggantian sebelum tidak layak."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Staf harus dapat menunjukkan lokasi dan akses.",
+        "Latihan mengurangi waktu mencari.",
+        "Gunakan daftar tilik, bukan ingatan."
+      ]
+    }
+  ],
+  "do": [
+    "Lihat segel, akses, oksigen/alat terkait, dan dokumentasi.",
+    "Anggap perlu pemeriksaan lengkap dan laporkan.",
+    "Ikuti rotasi/penggantian sebelum tidak layak.",
+    "Pisahkan item terpakai, minta pengisian, dan jangan meninggalkan troli tanpa status.",
+    "Pastikan lokasi baru diketahui dan akses tetap aman."
+  ],
+  "dont": [
+    "Segel utuh tidak menjamin item tidak kedaluwarsa.",
+    "Dapat terjadi salah item atau jumlah.",
+    "Membingungkan tim lain saat emergensi.",
+    "Mengurangi ruang dan memperlambat pencarian.",
+    "Troli dapat dipakai dalam keadaan tidak siap."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Pemeriksaan awal shift”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Lihat segel, akses, oksigen/alat terkait, dan dokumentasi.",
+        "Segel utuh tidak menjamin item tidak kedaluwarsa.",
+        "Dapat terjadi salah item atau jumlah.",
+        "Membingungkan tim lain saat emergensi."
+      ],
+      "answer": 0,
+      "why": "Lihat segel, akses, oksigen/alat terkait, dan dokumentasi."
+    },
+    {
+      "q": "Dalam situasi “Segel rusak tanpa catatan”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Dapat terjadi salah item atau jumlah.",
+        "Membingungkan tim lain saat emergensi.",
+        "Mengurangi ruang dan memperlambat pencarian.",
+        "Anggap perlu pemeriksaan lengkap dan laporkan."
+      ],
+      "answer": 3,
+      "why": "Anggap perlu pemeriksaan lengkap dan laporkan."
+    },
+    {
+      "q": "Dalam situasi “Obat mendekati ED”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Mengurangi ruang dan memperlambat pencarian.",
+        "Troli dapat dipakai dalam keadaan tidak siap.",
+        "Ikuti rotasi/penggantian sebelum tidak layak.",
+        "Membingungkan tim lain saat emergensi."
+      ],
+      "answer": 2,
+      "why": "Ikuti rotasi/penggantian sebelum tidak layak."
+    },
+    {
+      "q": "Dalam situasi “Setelah Code Blue”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Segel utuh tidak menjamin item tidak kedaluwarsa.",
+        "Pisahkan item terpakai, minta pengisian, dan jangan meninggalkan troli tanpa status.",
+        "Mengurangi ruang dan memperlambat pencarian.",
+        "Troli dapat dipakai dalam keadaan tidak siap."
+      ],
+      "answer": 1,
+      "why": "Pisahkan item terpakai, minta pengisian, dan jangan meninggalkan troli tanpa status."
+    },
+    {
+      "q": "Dalam situasi “Troli dipindah”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pastikan lokasi baru diketahui dan akses tetap aman.",
+        "Troli dapat dipakai dalam keadaan tidak siap.",
+        "Segel utuh tidak menjamin item tidak kedaluwarsa.",
+        "Dapat terjadi salah item atau jumlah."
+      ],
+      "answer": 0,
+      "why": "Pastikan lokasi baru diketahui dan akses tetap aman."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Harus tersedia setiap saat” adalah…",
+      "options": [
+        "Segel utuh tidak menjamin item tidak kedaluwarsa.",
+        "Obat dan BMHP emergensi tersedia di lokasi yang ditetapkan tanpa hambatan tidak perlu.",
+        "Membingungkan tim lain saat emergensi.",
+        "Mengurangi ruang dan memperlambat pencarian."
+      ],
+      "answer": 1,
+      "why": "Obat dan BMHP emergensi tersedia di lokasi yang ditetapkan tanpa hambatan tidak perlu."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Isi dan tata letak seragam” adalah…",
+      "options": [
+        "Dapat terjadi salah item atau jumlah.",
+        "Keseragaman mempercepat pencarian saat resusitasi.",
+        "Mengurangi ruang dan memperlambat pencarian.",
+        "Troli dapat dipakai dalam keadaan tidak siap."
+      ],
+      "answer": 1,
+      "why": "Keseragaman mempercepat pencarian saat resusitasi."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Keamanan tidak boleh menghambat akses” adalah…",
+      "options": [
+        "Membingungkan tim lain saat emergensi.",
+        "Segel atau kunci digunakan dengan sistem yang tetap memungkinkan respons cepat.",
+        "Troli dapat dipakai dalam keadaan tidak siap.",
+        "Segel utuh tidak menjamin item tidak kedaluwarsa."
+      ],
+      "answer": 1,
+      "why": "Segel atau kunci digunakan dengan sistem yang tetap memungkinkan respons cepat."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "troli emergensi",
+    "crash cart",
+    "obat emergensi",
+    "segel"
+  ]
+}

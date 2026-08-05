@@ -1,9 +1,9 @@
 {
   "id": "ppi-limbah-spill",
   "group": "ppi",
-  "title": "Limbah, Spill Kit, dan Pajanan",
-  "short": "Pisahkan tiga risiko: limbah, tumpahan, dan pajanan",
-  "desc": "Memilah limbah sejak sumber, menangani tumpahan darah/cairan tubuh secara aman, dan merespons pajanan tanpa menunda.",
+  "title": "PPI 7 — Limbah Infeksius, Benda Tajam, dan Pajanan",
+  "short": "PPI 7",
+  "desc": "Pemilahan, sharps safety, tumpahan biologis, dan respons pajanan.",
   "category": "PPI",
   "color": "#14805E",
   "soft": "#EAF8F2",
@@ -424,5 +424,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

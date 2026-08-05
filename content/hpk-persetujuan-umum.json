@@ -1,0 +1,333 @@
+{
+  "id": "hpk-persetujuan-umum",
+  "group": "hpk",
+  "title": "HPK 4 — Persetujuan Umum",
+  "short": "HPK 4",
+  "desc": "Memahami ruang lingkup general consent dan batasnya terhadap tindakan invasif atau berisiko tinggi.",
+  "category": "HPK",
+  "color": "#B64B73",
+  "soft": "#FFF0F6",
+  "icon": "rights",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 10,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Persetujuan umum diberikan pada awal pelayanan",
+            "text": "Biasanya saat rawat inap atau pendaftaran pertama sesuai kebijakan."
+          },
+          {
+            "title": "Ruang lingkup harus dijelaskan",
+            "text": "Pasien mengetahui pelayanan umum yang tercakup."
+          },
+          {
+            "title": "Bukan izin untuk semua tindakan",
+            "text": "Pembedahan, tindakan invasif, anestesi, sedasi, darah, dan risiko tinggi memerlukan proses tersendiri."
+          },
+          {
+            "title": "Keterlibatan peserta didik perlu diinformasikan",
+            "text": "Pasien mengetahui kemungkinan keterlibatan sesuai kebijakan."
+          },
+          {
+            "title": "Pasien tetap dapat bertanya atau menolak",
+            "text": "General consent tidak menghapus hak pasien."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Berikan informasi",
+            "text": "Jelaskan hak, kewajiban, privasi, pelayanan, dan batas persetujuan."
+          },
+          {
+            "title": "Pastikan identitas dan kapasitas",
+            "text": "Tentukan siapa yang menandatangani."
+          },
+          {
+            "title": "Berikan kesempatan bertanya",
+            "text": "Gunakan bahasa yang dipahami."
+          },
+          {
+            "title": "Dokumentasikan",
+            "text": "Simpan sesuai rekam medis."
+          },
+          {
+            "title": "Perbarui bila diperlukan",
+            "text": "Ikuti perubahan status atau perwakilan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pasien masuk rawat inap",
+            "text": "Pastikan general consent selesai tanpa menunda kondisi emergensi."
+          },
+          {
+            "title": "Pasien akan operasi",
+            "text": "General consent tidak menggantikan informed consent operasi."
+          },
+          {
+            "title": "Pasien tidak mampu",
+            "text": "Ikuti aturan pengambil keputusan pengganti."
+          },
+          {
+            "title": "Pasien menolak bagian tertentu",
+            "text": "Klarifikasi dan dokumentasikan."
+          },
+          {
+            "title": "Formulir ditandatangani tanpa penjelasan",
+            "text": "Proses perlu dilengkapi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menganggap tanda tangan cukup",
+            "text": "Persetujuan adalah proses informasi."
+          },
+          {
+            "title": "Menggunakan general consent untuk transfusi",
+            "text": "Tindakan khusus membutuhkan persetujuan tersendiri."
+          },
+          {
+            "title": "Meminta tanda tangan formulir kosong",
+            "text": "Tidak sah dan tidak aman."
+          },
+          {
+            "title": "Tidak memeriksa identitas penandatangan",
+            "text": "Dapat dilakukan pihak tidak berwenang."
+          },
+          {
+            "title": "Menyembunyikan hak bertanya",
+            "text": "Mengurangi otonomi pasien."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Memahami batas general consent",
+            "text": "Tahu kapan perlu formulir/proses lain."
+          },
+          {
+            "title": "Memeriksa kelengkapan",
+            "text": "Identitas, tanggal, pihak, dan saksi sesuai kebijakan."
+          },
+          {
+            "title": "Menghubungkan pertanyaan",
+            "text": "Rujuk ke pihak berwenang."
+          },
+          {
+            "title": "Menjaga privasi",
+            "text": "Proses dilakukan di lingkungan yang layak."
+          },
+          {
+            "title": "Mendokumentasikan",
+            "text": "Jangan mengisi mundur tanpa proses."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Biasanya saat rawat inap atau pendaftaran pertama sesuai kebijakan.",
+        "Pasien mengetahui pelayanan umum yang tercakup.",
+        "Pembedahan, tindakan invasif, anestesi, sedasi, darah, dan risiko tinggi memerlukan proses tersendiri."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Berikan informasi: Jelaskan hak, kewajiban, privasi, pelayanan, dan batas persetujuan.",
+        "Pastikan identitas dan kapasitas: Tentukan siapa yang menandatangani.",
+        "Berikan kesempatan bertanya: Gunakan bahasa yang dipahami."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Pasien masuk rawat inap: Pastikan general consent selesai tanpa menunda kondisi emergensi.",
+        "Pasien akan operasi: General consent tidak menggantikan informed consent operasi.",
+        "Pasien tidak mampu: Ikuti aturan pengambil keputusan pengganti."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Tahu kapan perlu formulir/proses lain.",
+        "Identitas, tanggal, pihak, dan saksi sesuai kebijakan.",
+        "Rujuk ke pihak berwenang."
+      ]
+    }
+  ],
+  "do": [
+    "Pastikan general consent selesai tanpa menunda kondisi emergensi.",
+    "General consent tidak menggantikan informed consent operasi.",
+    "Ikuti aturan pengambil keputusan pengganti.",
+    "Klarifikasi dan dokumentasikan.",
+    "Proses perlu dilengkapi."
+  ],
+  "dont": [
+    "Persetujuan adalah proses informasi.",
+    "Tindakan khusus membutuhkan persetujuan tersendiri.",
+    "Tidak sah dan tidak aman.",
+    "Dapat dilakukan pihak tidak berwenang.",
+    "Mengurangi otonomi pasien."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Pasien masuk rawat inap”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pastikan general consent selesai tanpa menunda kondisi emergensi.",
+        "Persetujuan adalah proses informasi.",
+        "Tindakan khusus membutuhkan persetujuan tersendiri.",
+        "Tidak sah dan tidak aman."
+      ],
+      "answer": 0,
+      "why": "Pastikan general consent selesai tanpa menunda kondisi emergensi."
+    },
+    {
+      "q": "Dalam situasi “Pasien akan operasi”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tindakan khusus membutuhkan persetujuan tersendiri.",
+        "Tidak sah dan tidak aman.",
+        "Dapat dilakukan pihak tidak berwenang.",
+        "General consent tidak menggantikan informed consent operasi."
+      ],
+      "answer": 3,
+      "why": "General consent tidak menggantikan informed consent operasi."
+    },
+    {
+      "q": "Dalam situasi “Pasien tidak mampu”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Dapat dilakukan pihak tidak berwenang.",
+        "Mengurangi otonomi pasien.",
+        "Ikuti aturan pengambil keputusan pengganti.",
+        "Tidak sah dan tidak aman."
+      ],
+      "answer": 2,
+      "why": "Ikuti aturan pengambil keputusan pengganti."
+    },
+    {
+      "q": "Dalam situasi “Pasien menolak bagian tertentu”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Persetujuan adalah proses informasi.",
+        "Klarifikasi dan dokumentasikan.",
+        "Dapat dilakukan pihak tidak berwenang.",
+        "Mengurangi otonomi pasien."
+      ],
+      "answer": 1,
+      "why": "Klarifikasi dan dokumentasikan."
+    },
+    {
+      "q": "Dalam situasi “Formulir ditandatangani tanpa penjelasan”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Proses perlu dilengkapi.",
+        "Mengurangi otonomi pasien.",
+        "Persetujuan adalah proses informasi.",
+        "Tindakan khusus membutuhkan persetujuan tersendiri."
+      ],
+      "answer": 0,
+      "why": "Proses perlu dilengkapi."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Persetujuan umum diberikan pada awal pelayanan” adalah…",
+      "options": [
+        "Persetujuan adalah proses informasi.",
+        "Biasanya saat rawat inap atau pendaftaran pertama sesuai kebijakan.",
+        "Tidak sah dan tidak aman.",
+        "Dapat dilakukan pihak tidak berwenang."
+      ],
+      "answer": 1,
+      "why": "Biasanya saat rawat inap atau pendaftaran pertama sesuai kebijakan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Ruang lingkup harus dijelaskan” adalah…",
+      "options": [
+        "Tindakan khusus membutuhkan persetujuan tersendiri.",
+        "Pasien mengetahui pelayanan umum yang tercakup.",
+        "Dapat dilakukan pihak tidak berwenang.",
+        "Mengurangi otonomi pasien."
+      ],
+      "answer": 1,
+      "why": "Pasien mengetahui pelayanan umum yang tercakup."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Bukan izin untuk semua tindakan” adalah…",
+      "options": [
+        "Tidak sah dan tidak aman.",
+        "Pembedahan, tindakan invasif, anestesi, sedasi, darah, dan risiko tinggi memerlukan proses tersendiri.",
+        "Mengurangi otonomi pasien.",
+        "Persetujuan adalah proses informasi."
+      ],
+      "answer": 1,
+      "why": "Pembedahan, tindakan invasif, anestesi, sedasi, darah, dan risiko tinggi memerlukan proses tersendiri."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "general consent",
+    "persetujuan umum"
+  ]
+}

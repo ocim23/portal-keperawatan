@@ -1,0 +1,334 @@
+{
+  "id": "ke-materi",
+  "group": "ke",
+  "title": "KE 4 — Edukasi tentang Proses Asuhan",
+  "short": "KE 4",
+  "desc": "Menentukan materi edukasi individual tentang kondisi, obat, alat, nutrisi, nyeri, rehabilitasi, dan asuhan di rumah.",
+  "category": "KE",
+  "color": "#008A83",
+  "soft": "#E8FAF7",
+  "icon": "chat",
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "minutes": 14,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Materi mengikuti kebutuhan pasien",
+            "text": "Tidak semua pasien harus mendapat semua topik."
+          },
+          {
+            "title": "PPA menjelaskan sesuai kewenangan",
+            "text": "Pesan medis, keperawatan, farmasi, dan gizi harus konsisten."
+          },
+          {
+            "title": "Informasi mencakup proses asuhan",
+            "text": "Hasil pengkajian, rencana, hasil terapi, dan tindak lanjut."
+          },
+          {
+            "title": "Keselamatan di rumah menjadi fokus",
+            "text": "Obat, alat, luka, diet, mobilisasi, tanda bahaya, dan kontrol."
+          },
+          {
+            "title": "Edukasi dimulai sejak awal",
+            "text": "Discharge planning bukan kegiatan pada menit terakhir."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Prioritaskan",
+            "text": "Apa yang paling berisiko bila tidak dipahami."
+          },
+          {
+            "title": "Bagi berdasarkan profesi",
+            "text": "Tentukan siapa menjelaskan apa."
+          },
+          {
+            "title": "Gunakan media",
+            "text": "Demonstrasi untuk keterampilan."
+          },
+          {
+            "title": "Hubungkan dengan rutinitas pasien",
+            "text": "Jadwal dan lingkungan rumah."
+          },
+          {
+            "title": "Verifikasi dan ulangi",
+            "text": "Pastikan materi utama dikuasai."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pasien stroke pulang",
+            "text": "Ajarkan obat, menelan, mobilisasi, jatuh, tanda bahaya, dan kontrol sesuai kebutuhan."
+          },
+          {
+            "title": "Pasien dengan insulin",
+            "text": "Demonstrasikan dosis, penyimpanan, hipoglikemia, dan pembuangan jarum."
+          },
+          {
+            "title": "Pasien dengan luka",
+            "text": "Ajarkan kebersihan, balutan, tanda infeksi, dan kapan mencari bantuan."
+          },
+          {
+            "title": "Pasien memakai oksigen",
+            "text": "Ajarkan keamanan api, aliran yang ditetapkan, dan perawatan alat."
+          },
+          {
+            "title": "Pasien nyeri",
+            "text": "Ajarkan obat, metode nonfarmakologi, dan batas aman."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Memberi semua leaflet",
+            "text": "Informasi berlebihan menutupi prioritas."
+          },
+          {
+            "title": "Pesan antar-PPA bertentangan",
+            "text": "Membingungkan pasien."
+          },
+          {
+            "title": "Mengajar tanpa alat yang akan dipakai",
+            "text": "Keterampilan tidak realistis."
+          },
+          {
+            "title": "Tidak menyertakan tanda bahaya",
+            "text": "Pasien tidak tahu kapan mencari pertolongan."
+          },
+          {
+            "title": "Mengabaikan biaya/akses praktis",
+            "text": "Rencana mungkin tidak dapat dijalankan; koordinasikan solusi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Menentukan tujuan belajar",
+            "text": "Spesifik dan dapat dinilai."
+          },
+          {
+            "title": "Menggunakan bahasa sehari-hari",
+            "text": "Hubungkan dengan kebiasaan."
+          },
+          {
+            "title": "Mendemonstrasikan",
+            "text": "Tunjukkan langkah dan minta return demonstration."
+          },
+          {
+            "title": "Mengkoordinasikan pesan",
+            "text": "Baca dokumentasi edukasi PPA lain."
+          },
+          {
+            "title": "Menyiapkan pulang",
+            "text": "Pastikan kontak, kontrol, dan alat tersedia."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Tidak semua pasien harus mendapat semua topik.",
+        "Pesan medis, keperawatan, farmasi, dan gizi harus konsisten.",
+        "Hasil pengkajian, rencana, hasil terapi, dan tindak lanjut."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Prioritaskan: Apa yang paling berisiko bila tidak dipahami.",
+        "Bagi berdasarkan profesi: Tentukan siapa menjelaskan apa.",
+        "Gunakan media: Demonstrasi untuk keterampilan."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Pasien stroke pulang: Ajarkan obat, menelan, mobilisasi, jatuh, tanda bahaya, dan kontrol sesuai kebutuhan.",
+        "Pasien dengan insulin: Demonstrasikan dosis, penyimpanan, hipoglikemia, dan pembuangan jarum.",
+        "Pasien dengan luka: Ajarkan kebersihan, balutan, tanda infeksi, dan kapan mencari bantuan."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Spesifik dan dapat dinilai.",
+        "Hubungkan dengan kebiasaan.",
+        "Tunjukkan langkah dan minta return demonstration."
+      ]
+    }
+  ],
+  "do": [
+    "Ajarkan obat, menelan, mobilisasi, jatuh, tanda bahaya, dan kontrol sesuai kebutuhan.",
+    "Demonstrasikan dosis, penyimpanan, hipoglikemia, dan pembuangan jarum.",
+    "Ajarkan kebersihan, balutan, tanda infeksi, dan kapan mencari bantuan.",
+    "Ajarkan keamanan api, aliran yang ditetapkan, dan perawatan alat.",
+    "Ajarkan obat, metode nonfarmakologi, dan batas aman."
+  ],
+  "dont": [
+    "Informasi berlebihan menutupi prioritas.",
+    "Membingungkan pasien.",
+    "Keterampilan tidak realistis.",
+    "Pasien tidak tahu kapan mencari pertolongan.",
+    "Rencana mungkin tidak dapat dijalankan; koordinasikan solusi."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Pasien stroke pulang”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Ajarkan obat, menelan, mobilisasi, jatuh, tanda bahaya, dan kontrol sesuai kebutuhan.",
+        "Informasi berlebihan menutupi prioritas.",
+        "Membingungkan pasien.",
+        "Keterampilan tidak realistis."
+      ],
+      "answer": 0,
+      "why": "Ajarkan obat, menelan, mobilisasi, jatuh, tanda bahaya, dan kontrol sesuai kebutuhan."
+    },
+    {
+      "q": "Dalam situasi “Pasien dengan insulin”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Membingungkan pasien.",
+        "Keterampilan tidak realistis.",
+        "Pasien tidak tahu kapan mencari pertolongan.",
+        "Demonstrasikan dosis, penyimpanan, hipoglikemia, dan pembuangan jarum."
+      ],
+      "answer": 3,
+      "why": "Demonstrasikan dosis, penyimpanan, hipoglikemia, dan pembuangan jarum."
+    },
+    {
+      "q": "Dalam situasi “Pasien dengan luka”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pasien tidak tahu kapan mencari pertolongan.",
+        "Rencana mungkin tidak dapat dijalankan; koordinasikan solusi.",
+        "Ajarkan kebersihan, balutan, tanda infeksi, dan kapan mencari bantuan.",
+        "Keterampilan tidak realistis."
+      ],
+      "answer": 2,
+      "why": "Ajarkan kebersihan, balutan, tanda infeksi, dan kapan mencari bantuan."
+    },
+    {
+      "q": "Dalam situasi “Pasien memakai oksigen”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Informasi berlebihan menutupi prioritas.",
+        "Ajarkan keamanan api, aliran yang ditetapkan, dan perawatan alat.",
+        "Pasien tidak tahu kapan mencari pertolongan.",
+        "Rencana mungkin tidak dapat dijalankan; koordinasikan solusi."
+      ],
+      "answer": 1,
+      "why": "Ajarkan keamanan api, aliran yang ditetapkan, dan perawatan alat."
+    },
+    {
+      "q": "Dalam situasi “Pasien nyeri”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Ajarkan obat, metode nonfarmakologi, dan batas aman.",
+        "Rencana mungkin tidak dapat dijalankan; koordinasikan solusi.",
+        "Informasi berlebihan menutupi prioritas.",
+        "Membingungkan pasien."
+      ],
+      "answer": 0,
+      "why": "Ajarkan obat, metode nonfarmakologi, dan batas aman."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Materi mengikuti kebutuhan pasien” adalah…",
+      "options": [
+        "Informasi berlebihan menutupi prioritas.",
+        "Tidak semua pasien harus mendapat semua topik.",
+        "Keterampilan tidak realistis.",
+        "Pasien tidak tahu kapan mencari pertolongan."
+      ],
+      "answer": 1,
+      "why": "Tidak semua pasien harus mendapat semua topik."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “PPA menjelaskan sesuai kewenangan” adalah…",
+      "options": [
+        "Membingungkan pasien.",
+        "Pesan medis, keperawatan, farmasi, dan gizi harus konsisten.",
+        "Pasien tidak tahu kapan mencari pertolongan.",
+        "Rencana mungkin tidak dapat dijalankan; koordinasikan solusi."
+      ],
+      "answer": 1,
+      "why": "Pesan medis, keperawatan, farmasi, dan gizi harus konsisten."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Informasi mencakup proses asuhan” adalah…",
+      "options": [
+        "Keterampilan tidak realistis.",
+        "Hasil pengkajian, rencana, hasil terapi, dan tindak lanjut.",
+        "Rencana mungkin tidak dapat dijalankan; koordinasikan solusi.",
+        "Informasi berlebihan menutupi prioritas."
+      ],
+      "answer": 1,
+      "why": "Hasil pengkajian, rencana, hasil terapi, dan tindak lanjut."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "materi edukasi",
+    "discharge planning",
+    "edukasi pulang"
+  ]
+}

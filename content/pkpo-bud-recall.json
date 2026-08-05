@@ -1,0 +1,336 @@
+{
+  "id": "pkpo-bud-recall",
+  "group": "pkpo",
+  "title": "PKPO 3.3 — BUD, Obat Rusak, Recall, dan Pemusnahan",
+  "short": "PKPO 3.3",
+  "desc": "Membedakan ED dan BUD serta mengamankan produk rusak, ditarik, atau tidak layak.",
+  "category": "PKPO",
+  "color": "#6D48C7",
+  "soft": "#F1ECFF",
+  "icon": "rights",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 11,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "ED berbeda dengan BUD",
+            "text": "ED berlaku pada produk belum dibuka sesuai pabrik; BUD ditetapkan setelah dibuka, diracik, atau disiapkan."
+          },
+          {
+            "title": "BUD harus terlihat",
+            "text": "Tanggal/waktu pembukaan atau BUD dicantumkan sesuai kebijakan."
+          },
+          {
+            "title": "Produk rusak tidak boleh digunakan",
+            "text": "Perubahan warna, partikel, kebocoran, label rusak, atau penyimpanan menyimpang perlu dikarantina."
+          },
+          {
+            "title": "Recall harus dapat ditelusuri",
+            "text": "Produk yang ditarik dicari, diamankan, dihentikan, dan dikembalikan sesuai alur."
+          },
+          {
+            "title": "Pemusnahan bukan tindakan sembarangan",
+            "text": "Pemusnahan dilakukan oleh pihak berwenang dan terdokumentasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Periksa sebelum digunakan",
+            "text": "Lihat ED/BUD, kondisi, label, dan riwayat penyimpanan."
+          },
+          {
+            "title": "Tandai pembukaan",
+            "text": "Catat tanggal/waktu sesuai jenis produk."
+          },
+          {
+            "title": "Karantina bila meragukan",
+            "text": "Pisahkan dari stok aktif dan beri label jangan digunakan."
+          },
+          {
+            "title": "Laporkan ke farmasi",
+            "text": "Berikan identitas produk, batch, jumlah, dan lokasi."
+          },
+          {
+            "title": "Dokumentasikan tindak lanjut",
+            "text": "Recall atau kerusakan harus dapat diaudit."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Vial multidose dibuka",
+            "text": "Tandai sesuai kebijakan dan simpan pada kondisi yang benar."
+          },
+          {
+            "title": "Label BUD terlepas",
+            "text": "Jangan memperkirakan waktu pembukaan; karantina."
+          },
+          {
+            "title": "Produk terkena penyimpangan suhu",
+            "text": "Jangan langsung digunakan atau dibuang; minta penilaian kelayakan."
+          },
+          {
+            "title": "Recall diumumkan",
+            "text": "Cari seluruh lokasi, cocokkan batch/lot, hentikan penggunaan, dan laporkan jumlah."
+          },
+          {
+            "title": "Obat tampak berubah",
+            "text": "Amankan meski ED masih lama."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menganggap ED masih berlaku setelah dibuka",
+            "text": "Stabilitas dan risiko kontaminasi telah berubah."
+          },
+          {
+            "title": "Menulis BUD tanpa jam bila diperlukan",
+            "text": "Dapat membingungkan pada produk berumur pendek."
+          },
+          {
+            "title": "Mengembalikan produk rusak ke rak",
+            "text": "Berisiko digunakan kembali."
+          },
+          {
+            "title": "Membuang narkotika sendiri",
+            "text": "Melanggar alur pengawasan."
+          },
+          {
+            "title": "Mengabaikan nomor batch recall",
+            "text": "Tidak semua produk dengan nama sama selalu ditarik."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Membaca label setiap kali",
+            "text": "ED/BUD dan kondisi adalah bagian verifikasi obat."
+          },
+          {
+            "title": "Menandai pembukaan",
+            "text": "Lakukan segera, bukan di akhir shift."
+          },
+          {
+            "title": "Mengamankan produk",
+            "text": "Pisahkan dengan jelas dari stok aktif."
+          },
+          {
+            "title": "Meneruskan informasi recall",
+            "text": "Pastikan seluruh shift mengetahui."
+          },
+          {
+            "title": "Membuat jejak dokumentasi",
+            "text": "Catat jumlah, lokasi, dan serah terima."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "ED berlaku pada produk belum dibuka sesuai pabrik; BUD ditetapkan setelah dibuka, diracik, atau disiapkan.",
+        "Tanggal/waktu pembukaan atau BUD dicantumkan sesuai kebijakan.",
+        "Perubahan warna, partikel, kebocoran, label rusak, atau penyimpanan menyimpang perlu dikarantina."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Periksa sebelum digunakan: Lihat ED/BUD, kondisi, label, dan riwayat penyimpanan.",
+        "Tandai pembukaan: Catat tanggal/waktu sesuai jenis produk.",
+        "Karantina bila meragukan: Pisahkan dari stok aktif dan beri label jangan digunakan."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Vial multidose dibuka: Tandai sesuai kebijakan dan simpan pada kondisi yang benar.",
+        "Label BUD terlepas: Jangan memperkirakan waktu pembukaan; karantina.",
+        "Produk terkena penyimpangan suhu: Jangan langsung digunakan atau dibuang; minta penilaian kelayakan."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "ED/BUD dan kondisi adalah bagian verifikasi obat.",
+        "Lakukan segera, bukan di akhir shift.",
+        "Pisahkan dengan jelas dari stok aktif."
+      ]
+    }
+  ],
+  "do": [
+    "Tandai sesuai kebijakan dan simpan pada kondisi yang benar.",
+    "Jangan memperkirakan waktu pembukaan; karantina.",
+    "Jangan langsung digunakan atau dibuang; minta penilaian kelayakan.",
+    "Cari seluruh lokasi, cocokkan batch/lot, hentikan penggunaan, dan laporkan jumlah.",
+    "Amankan meski ED masih lama."
+  ],
+  "dont": [
+    "Stabilitas dan risiko kontaminasi telah berubah.",
+    "Dapat membingungkan pada produk berumur pendek.",
+    "Berisiko digunakan kembali.",
+    "Melanggar alur pengawasan.",
+    "Tidak semua produk dengan nama sama selalu ditarik."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Vial multidose dibuka”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tandai sesuai kebijakan dan simpan pada kondisi yang benar.",
+        "Stabilitas dan risiko kontaminasi telah berubah.",
+        "Dapat membingungkan pada produk berumur pendek.",
+        "Berisiko digunakan kembali."
+      ],
+      "answer": 0,
+      "why": "Tandai sesuai kebijakan dan simpan pada kondisi yang benar."
+    },
+    {
+      "q": "Dalam situasi “Label BUD terlepas”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Dapat membingungkan pada produk berumur pendek.",
+        "Berisiko digunakan kembali.",
+        "Melanggar alur pengawasan.",
+        "Jangan memperkirakan waktu pembukaan; karantina."
+      ],
+      "answer": 3,
+      "why": "Jangan memperkirakan waktu pembukaan; karantina."
+    },
+    {
+      "q": "Dalam situasi “Produk terkena penyimpangan suhu”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Melanggar alur pengawasan.",
+        "Tidak semua produk dengan nama sama selalu ditarik.",
+        "Jangan langsung digunakan atau dibuang; minta penilaian kelayakan.",
+        "Berisiko digunakan kembali."
+      ],
+      "answer": 2,
+      "why": "Jangan langsung digunakan atau dibuang; minta penilaian kelayakan."
+    },
+    {
+      "q": "Dalam situasi “Recall diumumkan”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Stabilitas dan risiko kontaminasi telah berubah.",
+        "Cari seluruh lokasi, cocokkan batch/lot, hentikan penggunaan, dan laporkan jumlah.",
+        "Melanggar alur pengawasan.",
+        "Tidak semua produk dengan nama sama selalu ditarik."
+      ],
+      "answer": 1,
+      "why": "Cari seluruh lokasi, cocokkan batch/lot, hentikan penggunaan, dan laporkan jumlah."
+    },
+    {
+      "q": "Dalam situasi “Obat tampak berubah”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Amankan meski ED masih lama.",
+        "Tidak semua produk dengan nama sama selalu ditarik.",
+        "Stabilitas dan risiko kontaminasi telah berubah.",
+        "Dapat membingungkan pada produk berumur pendek."
+      ],
+      "answer": 0,
+      "why": "Amankan meski ED masih lama."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “ED berbeda dengan BUD” adalah…",
+      "options": [
+        "Stabilitas dan risiko kontaminasi telah berubah.",
+        "ED berlaku pada produk belum dibuka sesuai pabrik; BUD ditetapkan setelah dibuka, diracik, atau disiapkan.",
+        "Berisiko digunakan kembali.",
+        "Melanggar alur pengawasan."
+      ],
+      "answer": 1,
+      "why": "ED berlaku pada produk belum dibuka sesuai pabrik; BUD ditetapkan setelah dibuka, diracik, atau disiapkan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “BUD harus terlihat” adalah…",
+      "options": [
+        "Dapat membingungkan pada produk berumur pendek.",
+        "Tanggal/waktu pembukaan atau BUD dicantumkan sesuai kebijakan.",
+        "Melanggar alur pengawasan.",
+        "Tidak semua produk dengan nama sama selalu ditarik."
+      ],
+      "answer": 1,
+      "why": "Tanggal/waktu pembukaan atau BUD dicantumkan sesuai kebijakan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Produk rusak tidak boleh digunakan” adalah…",
+      "options": [
+        "Berisiko digunakan kembali.",
+        "Perubahan warna, partikel, kebocoran, label rusak, atau penyimpanan menyimpang perlu dikarantina.",
+        "Tidak semua produk dengan nama sama selalu ditarik.",
+        "Stabilitas dan risiko kontaminasi telah berubah."
+      ],
+      "answer": 1,
+      "why": "Perubahan warna, partikel, kebocoran, label rusak, atau penyimpanan menyimpang perlu dikarantina."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "bud",
+    "beyond use date",
+    "expired date",
+    "recall",
+    "obat rusak"
+  ]
+}

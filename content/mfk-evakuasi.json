@@ -1,9 +1,9 @@
 {
   "id": "mfk-evakuasi",
   "group": "mfk",
-  "title": "Kebakaran, Evakuasi, dan Kesiapsiagaan Unit",
-  "short": "Selamatkan, batasi, pindahkan, dan lacak pasien",
-  "desc": "Menjalankan respons unit yang terkoordinasi berdasarkan ancaman, kemampuan pasien, rute aman, dan kesinambungan pelayanan.",
+  "title": "MFK 6 — Proteksi Kebakaran: Evakuasi Pasien",
+  "short": "MFK 6",
+  "desc": "Alarm, pemindahan pasien, jalur evakuasi, kompartemen, dan titik aman sesuai rumah sakit.",
   "category": "MFK",
   "color": "#B75A24",
   "soft": "#FFF1E8",
@@ -387,5 +387,7 @@
       "org": "Occupational Safety and Health Administration",
       "url": "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/use"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

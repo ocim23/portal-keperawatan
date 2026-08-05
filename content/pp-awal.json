@@ -1,16 +1,16 @@
 {
   "id": "pp-awal",
   "group": "pp",
-  "title": "Pengkajian Awal dan Skrining",
-  "short": "Pengkajian Awal",
-  "desc": "Mengumpulkan, menganalisis, dan menggunakan data awal untuk menentukan kebutuhan pasien.",
+  "title": "PP 1, PP 1.1, dan PP 1.2 — Pengkajian Awal Pasien",
+  "short": "PP 1–1.2",
+  "desc": "Pengkajian medis dan keperawatan, skrining wajib, populasi khusus, dan rencana pulang sejak awal.",
   "category": "PP",
   "color": "#7B5EA7",
   "soft": "#F4EEFF",
   "icon": "clipboard",
   "minutes": 24,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Pengkajian populasi khusus (misalnya neonatus, anak, geriatri, terminal, psikiatri, korban kekerasan, penyakit menular, dan terapi khusus) dirangkum dalam materi ini sesuai populasi yang dilayani rumah sakit.",
   "quizDisplayCount": 5,
   "slides": [
     {
@@ -382,5 +382,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

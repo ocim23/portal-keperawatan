@@ -1,0 +1,335 @@
+{
+  "id": "ke-berkelanjutan",
+  "group": "ke",
+  "title": "KE 6 — Promosi Kesehatan Berkelanjutan dan Jejaring Komunitas",
+  "short": "KE 6",
+  "desc": "Menghubungkan pasien dengan kontrol, FKTP, rehabilitasi, home care, kelompok dukungan, dan sumber komunitas.",
+  "category": "KE",
+  "color": "#008A83",
+  "soft": "#E8FAF7",
+  "icon": "chat",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 11,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Edukasi tidak berhenti saat pulang",
+            "text": "Kebutuhan belajar berlanjut di rumah dan komunitas."
+          },
+          {
+            "title": "Jejaring harus sesuai kebutuhan",
+            "text": "FKTP, rehabilitasi, home care, komunitas, dan layanan sosial dapat terlibat."
+          },
+          {
+            "title": "Pasien perlu tahu cara mengakses",
+            "text": "Alamat, jadwal, kontak, syarat, dan tanda bahaya dijelaskan."
+          },
+          {
+            "title": "Informasi transisi harus konsisten",
+            "text": "Rujukan dan ringkasan pulang mendukung kesinambungan."
+          },
+          {
+            "title": "Hambatan akses perlu diidentifikasi",
+            "text": "Transportasi, alat, caregiver, bahasa, atau biaya perlu dikoordinasikan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Kaji kebutuhan setelah pulang",
+            "text": "Klinis, edukasi, alat, caregiver, dan kontrol."
+          },
+          {
+            "title": "Pilih jejaring",
+            "text": "Sesuai lokasi dan layanan."
+          },
+          {
+            "title": "Komunikasikan rencana",
+            "text": "Kepada pasien dan penerima layanan."
+          },
+          {
+            "title": "Berikan kontak/tanda bahaya",
+            "text": "Pastikan pasien tahu kapan mencari pertolongan."
+          },
+          {
+            "title": "Verifikasi",
+            "text": "Gunakan teach-back sebelum pulang."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pasien butuh rehabilitasi",
+            "text": "Pastikan rujukan, jadwal, transportasi, dan latihan awal."
+          },
+          {
+            "title": "Pasien tanpa caregiver",
+            "text": "Koordinasikan MPP/sosial/home care."
+          },
+          {
+            "title": "Pasien tinggal jauh",
+            "text": "Sesuaikan kontrol dan jejaring terdekat."
+          },
+          {
+            "title": "Pasien membutuhkan alat",
+            "text": "Pastikan ketersediaan dan cara penggunaan."
+          },
+          {
+            "title": "Pasien berisiko readmisi",
+            "text": "Susun follow-up dan tanda bahaya prioritas."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Hanya memberi surat rujukan",
+            "text": "Pasien mungkin tidak tahu langkah akses."
+          },
+          {
+            "title": "Menggunakan nomor kontak tidak aktif",
+            "text": "Menghambat tindak lanjut."
+          },
+          {
+            "title": "Tidak mengirim informasi penting",
+            "text": "Penerima harus mengulang atau kehilangan konteks."
+          },
+          {
+            "title": "Mengabaikan kemampuan caregiver",
+            "text": "Rencana rumah menjadi tidak aman."
+          },
+          {
+            "title": "Tidak menjelaskan kondisi darurat",
+            "text": "Pasien terlambat mencari pertolongan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Memulai discharge planning awal",
+            "text": "Jangan menunggu hari pulang."
+          },
+          {
+            "title": "Mengidentifikasi hambatan",
+            "text": "Laporkan dan koordinasikan."
+          },
+          {
+            "title": "Memberi informasi praktis",
+            "text": "Kontak, waktu, lokasi, dan syarat."
+          },
+          {
+            "title": "Mendokumentasikan rujukan",
+            "text": "Catat penerima dan edukasi."
+          },
+          {
+            "title": "Mendorong kemandirian aman",
+            "text": "Sesuaikan dengan kemampuan pasien."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Kebutuhan belajar berlanjut di rumah dan komunitas.",
+        "FKTP, rehabilitasi, home care, komunitas, dan layanan sosial dapat terlibat.",
+        "Alamat, jadwal, kontak, syarat, dan tanda bahaya dijelaskan."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Kaji kebutuhan setelah pulang: Klinis, edukasi, alat, caregiver, dan kontrol.",
+        "Pilih jejaring: Sesuai lokasi dan layanan.",
+        "Komunikasikan rencana: Kepada pasien dan penerima layanan."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Pasien butuh rehabilitasi: Pastikan rujukan, jadwal, transportasi, dan latihan awal.",
+        "Pasien tanpa caregiver: Koordinasikan MPP/sosial/home care.",
+        "Pasien tinggal jauh: Sesuaikan kontrol dan jejaring terdekat."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Jangan menunggu hari pulang.",
+        "Laporkan dan koordinasikan.",
+        "Kontak, waktu, lokasi, dan syarat."
+      ]
+    }
+  ],
+  "do": [
+    "Pastikan rujukan, jadwal, transportasi, dan latihan awal.",
+    "Koordinasikan MPP/sosial/home care.",
+    "Sesuaikan kontrol dan jejaring terdekat.",
+    "Pastikan ketersediaan dan cara penggunaan.",
+    "Susun follow-up dan tanda bahaya prioritas."
+  ],
+  "dont": [
+    "Pasien mungkin tidak tahu langkah akses.",
+    "Menghambat tindak lanjut.",
+    "Penerima harus mengulang atau kehilangan konteks.",
+    "Rencana rumah menjadi tidak aman.",
+    "Pasien terlambat mencari pertolongan."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Pasien butuh rehabilitasi”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pastikan rujukan, jadwal, transportasi, dan latihan awal.",
+        "Pasien mungkin tidak tahu langkah akses.",
+        "Menghambat tindak lanjut.",
+        "Penerima harus mengulang atau kehilangan konteks."
+      ],
+      "answer": 0,
+      "why": "Pastikan rujukan, jadwal, transportasi, dan latihan awal."
+    },
+    {
+      "q": "Dalam situasi “Pasien tanpa caregiver”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Menghambat tindak lanjut.",
+        "Penerima harus mengulang atau kehilangan konteks.",
+        "Rencana rumah menjadi tidak aman.",
+        "Koordinasikan MPP/sosial/home care."
+      ],
+      "answer": 3,
+      "why": "Koordinasikan MPP/sosial/home care."
+    },
+    {
+      "q": "Dalam situasi “Pasien tinggal jauh”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Rencana rumah menjadi tidak aman.",
+        "Pasien terlambat mencari pertolongan.",
+        "Sesuaikan kontrol dan jejaring terdekat.",
+        "Penerima harus mengulang atau kehilangan konteks."
+      ],
+      "answer": 2,
+      "why": "Sesuaikan kontrol dan jejaring terdekat."
+    },
+    {
+      "q": "Dalam situasi “Pasien membutuhkan alat”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pasien mungkin tidak tahu langkah akses.",
+        "Pastikan ketersediaan dan cara penggunaan.",
+        "Rencana rumah menjadi tidak aman.",
+        "Pasien terlambat mencari pertolongan."
+      ],
+      "answer": 1,
+      "why": "Pastikan ketersediaan dan cara penggunaan."
+    },
+    {
+      "q": "Dalam situasi “Pasien berisiko readmisi”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Susun follow-up dan tanda bahaya prioritas.",
+        "Pasien terlambat mencari pertolongan.",
+        "Pasien mungkin tidak tahu langkah akses.",
+        "Menghambat tindak lanjut."
+      ],
+      "answer": 0,
+      "why": "Susun follow-up dan tanda bahaya prioritas."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Edukasi tidak berhenti saat pulang” adalah…",
+      "options": [
+        "Pasien mungkin tidak tahu langkah akses.",
+        "Kebutuhan belajar berlanjut di rumah dan komunitas.",
+        "Penerima harus mengulang atau kehilangan konteks.",
+        "Rencana rumah menjadi tidak aman."
+      ],
+      "answer": 1,
+      "why": "Kebutuhan belajar berlanjut di rumah dan komunitas."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Jejaring harus sesuai kebutuhan” adalah…",
+      "options": [
+        "Menghambat tindak lanjut.",
+        "FKTP, rehabilitasi, home care, komunitas, dan layanan sosial dapat terlibat.",
+        "Rencana rumah menjadi tidak aman.",
+        "Pasien terlambat mencari pertolongan."
+      ],
+      "answer": 1,
+      "why": "FKTP, rehabilitasi, home care, komunitas, dan layanan sosial dapat terlibat."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Pasien perlu tahu cara mengakses” adalah…",
+      "options": [
+        "Penerima harus mengulang atau kehilangan konteks.",
+        "Alamat, jadwal, kontak, syarat, dan tanda bahaya dijelaskan.",
+        "Pasien terlambat mencari pertolongan.",
+        "Pasien mungkin tidak tahu langkah akses."
+      ],
+      "answer": 1,
+      "why": "Alamat, jadwal, kontak, syarat, dan tanda bahaya dijelaskan."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "jejaring komunitas",
+    "home care",
+    "fktp",
+    "promosi kesehatan"
+  ]
+}

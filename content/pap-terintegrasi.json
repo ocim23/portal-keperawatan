@@ -1,9 +1,9 @@
 {
   "id": "pap-terintegrasi",
   "group": "pap",
-  "title": "Asuhan Terintegrasi dan Berkesinambungan",
-  "short": "Asuhan Terintegrasi",
-  "desc": "Menghubungkan pengkajian, tujuan, rencana, pelaksanaan, evaluasi, dan transisi antar-PPA.",
+  "title": "PAP 1, PAP 1.1, dan PAP 1.2 — Pelayanan dan Asuhan yang Seragam, Terintegrasi, dan Individual",
+  "short": "PAP 1–1.2",
+  "desc": "Asuhan seragam, kolaborasi PPA, instruksi, CPPT, dan rencana individual.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
@@ -382,5 +382,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib"
 }

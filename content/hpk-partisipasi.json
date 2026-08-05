@@ -1,0 +1,334 @@
+{
+  "id": "hpk-partisipasi",
+  "group": "hpk",
+  "title": "HPK 2 — Keterlibatan Pasien dan Keluarga dalam Asuhan",
+  "short": "HPK 2",
+  "desc": "Informasi, pilihan, pertanyaan, keputusan bersama, dan pemberdayaan pasien dalam rencana asuhan.",
+  "category": "HPK",
+  "color": "#B64B73",
+  "soft": "#FFF0F6",
+  "icon": "rights",
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "minutes": 13,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Pasien adalah mitra",
+            "text": "Asuhan direncanakan bersama berdasarkan kebutuhan, nilai, dan preferensi."
+          },
+          {
+            "title": "Informasi harus dapat dipahami",
+            "text": "Kondisi, rencana, manfaat, risiko, alternatif, dan hasil disampaikan sesuai kewenangan."
+          },
+          {
+            "title": "Pasien berhak bertanya dan memilih",
+            "text": "Pertanyaan tidak boleh dianggap mengganggu."
+          },
+          {
+            "title": "Keluarga dilibatkan sesuai pilihan pasien",
+            "text": "Tidak semua anggota keluarga otomatis berwenang."
+          },
+          {
+            "title": "Partisipasi meningkatkan keselamatan",
+            "text": "Pasien dapat membantu mengingat alergi, obat, dan perubahan kondisi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Tanyakan tujuan pasien",
+            "text": "Apa yang paling penting bagi pasien."
+          },
+          {
+            "title": "Jelaskan rencana",
+            "text": "Gunakan bahasa sederhana dan peran setiap PPA."
+          },
+          {
+            "title": "Bahas pilihan",
+            "text": "Sampaikan alternatif sesuai kewenangan."
+          },
+          {
+            "title": "Sepakati tindakan",
+            "text": "Pastikan pasien memahami dan bersedia."
+          },
+          {
+            "title": "Evaluasi",
+            "text": "Tinjau kembali ketika kondisi atau preferensi berubah."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Rencana mobilisasi",
+            "text": "Tentukan target bersama dan hambatan pasien."
+          },
+          {
+            "title": "Pasien menolak tindakan",
+            "text": "Dengarkan alasan, jelaskan konsekuensi, dan hubungi pihak berwenang."
+          },
+          {
+            "title": "Keluarga mendominasi",
+            "text": "Kembalikan percakapan kepada pasien yang kompeten."
+          },
+          {
+            "title": "Pasien meminta second opinion",
+            "text": "Jelaskan proses tanpa mengurangi pelayanan."
+          },
+          {
+            "title": "Rencana pulang",
+            "text": "Libatkan caregiver yang akan melakukan perawatan di rumah."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mengatakan “pokoknya instruksi dokter”",
+            "text": "Menghilangkan otonomi dan pemahaman."
+          },
+          {
+            "title": "Memberi informasi di luar kewenangan",
+            "text": "Berisiko salah dan melampaui peran."
+          },
+          {
+            "title": "Memutuskan untuk pasien kompeten",
+            "text": "Preferensi pasien harus dihormati."
+          },
+          {
+            "title": "Menganggap tanda tangan berarti paham",
+            "text": "Pemahaman perlu diverifikasi."
+          },
+          {
+            "title": "Tidak memperbarui rencana",
+            "text": "Kondisi dan tujuan pasien dapat berubah."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Mendengarkan aktif",
+            "text": "Tanyakan kekhawatiran dan tujuan."
+          },
+          {
+            "title": "Menjelaskan tindakan keperawatan",
+            "text": "Sebut tujuan dan apa yang dirasakan pasien."
+          },
+          {
+            "title": "Memfasilitasi pertanyaan",
+            "text": "Hubungkan dengan DPJP/PPA terkait."
+          },
+          {
+            "title": "Mendokumentasikan preferensi",
+            "text": "Agar tim konsisten."
+          },
+          {
+            "title": "Mendorong kemandirian",
+            "text": "Ajarkan keterampilan yang aman."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Asuhan direncanakan bersama berdasarkan kebutuhan, nilai, dan preferensi.",
+        "Kondisi, rencana, manfaat, risiko, alternatif, dan hasil disampaikan sesuai kewenangan.",
+        "Pertanyaan tidak boleh dianggap mengganggu."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Tanyakan tujuan pasien: Apa yang paling penting bagi pasien.",
+        "Jelaskan rencana: Gunakan bahasa sederhana dan peran setiap PPA.",
+        "Bahas pilihan: Sampaikan alternatif sesuai kewenangan."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Rencana mobilisasi: Tentukan target bersama dan hambatan pasien.",
+        "Pasien menolak tindakan: Dengarkan alasan, jelaskan konsekuensi, dan hubungi pihak berwenang.",
+        "Keluarga mendominasi: Kembalikan percakapan kepada pasien yang kompeten."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Tanyakan kekhawatiran dan tujuan.",
+        "Sebut tujuan dan apa yang dirasakan pasien.",
+        "Hubungkan dengan DPJP/PPA terkait."
+      ]
+    }
+  ],
+  "do": [
+    "Tentukan target bersama dan hambatan pasien.",
+    "Dengarkan alasan, jelaskan konsekuensi, dan hubungi pihak berwenang.",
+    "Kembalikan percakapan kepada pasien yang kompeten.",
+    "Jelaskan proses tanpa mengurangi pelayanan.",
+    "Libatkan caregiver yang akan melakukan perawatan di rumah."
+  ],
+  "dont": [
+    "Menghilangkan otonomi dan pemahaman.",
+    "Berisiko salah dan melampaui peran.",
+    "Preferensi pasien harus dihormati.",
+    "Pemahaman perlu diverifikasi.",
+    "Kondisi dan tujuan pasien dapat berubah."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Rencana mobilisasi”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tentukan target bersama dan hambatan pasien.",
+        "Menghilangkan otonomi dan pemahaman.",
+        "Berisiko salah dan melampaui peran.",
+        "Preferensi pasien harus dihormati."
+      ],
+      "answer": 0,
+      "why": "Tentukan target bersama dan hambatan pasien."
+    },
+    {
+      "q": "Dalam situasi “Pasien menolak tindakan”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Berisiko salah dan melampaui peran.",
+        "Preferensi pasien harus dihormati.",
+        "Pemahaman perlu diverifikasi.",
+        "Dengarkan alasan, jelaskan konsekuensi, dan hubungi pihak berwenang."
+      ],
+      "answer": 3,
+      "why": "Dengarkan alasan, jelaskan konsekuensi, dan hubungi pihak berwenang."
+    },
+    {
+      "q": "Dalam situasi “Keluarga mendominasi”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pemahaman perlu diverifikasi.",
+        "Kondisi dan tujuan pasien dapat berubah.",
+        "Kembalikan percakapan kepada pasien yang kompeten.",
+        "Preferensi pasien harus dihormati."
+      ],
+      "answer": 2,
+      "why": "Kembalikan percakapan kepada pasien yang kompeten."
+    },
+    {
+      "q": "Dalam situasi “Pasien meminta second opinion”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Menghilangkan otonomi dan pemahaman.",
+        "Jelaskan proses tanpa mengurangi pelayanan.",
+        "Pemahaman perlu diverifikasi.",
+        "Kondisi dan tujuan pasien dapat berubah."
+      ],
+      "answer": 1,
+      "why": "Jelaskan proses tanpa mengurangi pelayanan."
+    },
+    {
+      "q": "Dalam situasi “Rencana pulang”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Libatkan caregiver yang akan melakukan perawatan di rumah.",
+        "Kondisi dan tujuan pasien dapat berubah.",
+        "Menghilangkan otonomi dan pemahaman.",
+        "Berisiko salah dan melampaui peran."
+      ],
+      "answer": 0,
+      "why": "Libatkan caregiver yang akan melakukan perawatan di rumah."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Pasien adalah mitra” adalah…",
+      "options": [
+        "Menghilangkan otonomi dan pemahaman.",
+        "Asuhan direncanakan bersama berdasarkan kebutuhan, nilai, dan preferensi.",
+        "Preferensi pasien harus dihormati.",
+        "Pemahaman perlu diverifikasi."
+      ],
+      "answer": 1,
+      "why": "Asuhan direncanakan bersama berdasarkan kebutuhan, nilai, dan preferensi."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Informasi harus dapat dipahami” adalah…",
+      "options": [
+        "Berisiko salah dan melampaui peran.",
+        "Kondisi, rencana, manfaat, risiko, alternatif, dan hasil disampaikan sesuai kewenangan.",
+        "Pemahaman perlu diverifikasi.",
+        "Kondisi dan tujuan pasien dapat berubah."
+      ],
+      "answer": 1,
+      "why": "Kondisi, rencana, manfaat, risiko, alternatif, dan hasil disampaikan sesuai kewenangan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Pasien berhak bertanya dan memilih” adalah…",
+      "options": [
+        "Preferensi pasien harus dihormati.",
+        "Pertanyaan tidak boleh dianggap mengganggu.",
+        "Kondisi dan tujuan pasien dapat berubah.",
+        "Menghilangkan otonomi dan pemahaman."
+      ],
+      "answer": 1,
+      "why": "Pertanyaan tidak boleh dianggap mengganggu."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "partisipasi pasien",
+    "patient centered care",
+    "keputusan bersama"
+  ]
+}

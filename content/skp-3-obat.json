@@ -1,9 +1,9 @@
 {
   "id": "skp-3-obat",
   "group": "skp",
-  "title": "SKP 3 — Keamanan Obat yang Harus Diwaspadai",
+  "title": "SKP 3 — Meningkatkan Keamanan Obat-obatan yang Harus Diwaspadai",
   "short": "SKP 3",
-  "desc": "Pengamanan LASA/NORUM, high-alert, dan elektrolit konsentrat melalui sistem berlapis.",
+  "desc": "High-alert, LASA/NORUM, elektrolit konsentrat, dan pengaman pemberian obat.",
   "category": "SKP",
   "color": "#0B7285",
   "soft": "#E6F7FA",
@@ -19,6 +19,42 @@
       "caption": "Obat berisiko tidak cukup diamankan dengan kewaspadaan pribadi; sistem harus mencegah, mendeteksi, dan mengurangi dampak kesalahan.",
       "image": "assets/images/v4/skp-3-obat/skp-3-obat-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-3-obat/skp-3-obat-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Contoh obat yang sering ditanyakan",
+      "caption": "Daftar fasilitas tetap menjadi rujukan utama; contoh berikut membantu mengenali kelompoknya.",
+      "template": {
+        "style": "cards",
+        "columns": 2,
+        "note": "Contoh dapat berbeda antar rumah sakit. D40 adalah dekstrosa hipertonik, bukan elektrolit konsentrat.",
+        "items": [
+          {
+            "title": "High-alert",
+            "text": "Contoh: norepinefrin, insulin, heparin, obat kemoterapi, dan sedatif tertentu seperti diazepam—ikuti daftar resmi rumah sakit."
+          },
+          {
+            "title": "LASA/NORUM rupa mirip",
+            "text": "Contoh yang dapat tertukar karena kemasan/tampilan: citicoline dan ondansetron bila bentuk/kemasannya mirip di fasilitas."
+          },
+          {
+            "title": "LASA/NORUM bunyi mirip",
+            "text": "Contoh pasangan harus diambil dari daftar rumah sakit; eja nama dan sebut indikasi saat komunikasi."
+          },
+          {
+            "title": "Elektrolit konsentrat",
+            "text": "Contoh: KCl konsentrat, kalium fosfat, natrium klorida hipertonik, atau magnesium sulfat konsentrat sesuai daftar fasilitas."
+          },
+          {
+            "title": "Larutan hipertonik lain",
+            "text": "Dextrose 40% (D40) berisiko tinggi dan memerlukan pengamanan, tetapi bukan elektrolit konsentrat."
+          },
+          {
+            "title": "Pengaman",
+            "text": "Pemisahan, label, akses terbatas, konsentrasi standar, smart pump, dan double-check independen sesuai kebijakan."
+          }
+        ]
+      }
     },
     {
       "type": "html",
@@ -383,5 +419,7 @@
       "org": "Institute for Safe Medication Practices",
       "url": "https://www.ismp.org/node/103"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

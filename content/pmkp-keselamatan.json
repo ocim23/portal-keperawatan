@@ -1,9 +1,9 @@
 {
   "id": "pmkp-keselamatan",
   "group": "pmkp",
-  "title": "Insiden Keselamatan dan Manajemen Risiko",
-  "short": "Respons, lapor, belajar, dan cegah berulang",
-  "desc": "Membedakan jenis insiden, mengutamakan keselamatan pasien, dan menggunakan laporan serta analisis untuk perbaikan sistem.",
+  "title": "PMKP 8 — Sistem Pelaporan dan Pembelajaran Keselamatan Pasien",
+  "short": "PMKP 8",
+  "desc": "KNC, KTC, KTD, KPCS, sentinel, respons awal, dan pelaporan insiden.",
   "category": "PMKP",
   "color": "#155E9A",
   "soft": "#E9F4FF",
@@ -383,5 +383,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://jdih.kemkes.go.id/documents/peraturan-menteri-kesehatan-nomor-6-tahun-2026"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

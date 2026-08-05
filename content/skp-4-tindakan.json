@@ -1,9 +1,9 @@
 {
   "id": "skp-4-tindakan",
   "group": "skp",
-  "title": "SKP 4 — Benar Pasien, Prosedur, dan Sisi/Lokasi",
+  "title": "SKP 4 — Memastikan Sisi yang Benar, Prosedur yang Benar, Pasien yang Benar pada Pembedahan/Tindakan Invasif",
   "short": "SKP 4",
-  "desc": "Verifikasi pra-prosedur, penandaan sisi/lokasi, dan time-out sebagai tiga pengaman berbeda.",
+  "desc": "Verifikasi praoperasi, penandaan lokasi, Surgical Safety Checklist, dan time-out.",
   "category": "SKP",
   "color": "#0B7285",
   "soft": "#E6F7FA",
@@ -378,5 +378,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

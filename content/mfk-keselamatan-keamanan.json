@@ -1,0 +1,335 @@
+{
+  "id": "mfk-keselamatan-keamanan",
+  "group": "mfk",
+  "title": "MFK 3 dan MFK 4 — Keselamatan dan Keamanan di Rumah Sakit",
+  "short": "MFK 3–4",
+  "desc": "Mengenali bahaya fisik, akses ilegal, kehilangan, kekerasan, dan tindakan pelaporan di unit.",
+  "category": "MFK",
+  "color": "#E47A13",
+  "soft": "#FFF3E6",
+  "icon": "fire",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 11,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Keselamatan berbeda dengan keamanan",
+            "text": "Keselamatan mencegah bahaya fisik; keamanan melindungi dari akses, kekerasan, kehilangan, dan kerusakan."
+          },
+          {
+            "title": "Bahaya harus ditangani segera",
+            "text": "Lantai basah, kabel, alat rusak, atau jalur terhalang perlu pengamanan sementara dan laporan."
+          },
+          {
+            "title": "Identitas dan akses penting",
+            "text": "Staf, pasien, pengunjung, vendor, dan area terbatas dikenali sesuai sistem."
+          },
+          {
+            "title": "Kekerasan di tempat kerja adalah risiko",
+            "text": "Ancaman verbal maupun fisik membutuhkan respons terencana."
+          },
+          {
+            "title": "Pasien rentan perlu perlindungan tambahan",
+            "text": "Bayi, anak, lansia, tidak sadar, atau gangguan kognitif."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Kenali",
+            "text": "Amati bahaya atau orang/situasi mencurigakan."
+          },
+          {
+            "title": "Lindungi",
+            "text": "Jauhkan pasien dan beri pengamanan sementara."
+          },
+          {
+            "title": "Laporkan",
+            "text": "Hubungi fasilitas atau keamanan."
+          },
+          {
+            "title": "Dokumentasikan",
+            "text": "Catat lokasi, waktu, dan dampak."
+          },
+          {
+            "title": "Pantau tindak lanjut",
+            "text": "Pastikan bahaya tidak kembali."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Lantai basah",
+            "text": "Pasang tanda, cegah akses, dan minta pembersihan."
+          },
+          {
+            "title": "Stopkontak berasap",
+            "text": "Hentikan penggunaan bila aman, jauhkan pasien, dan aktifkan bantuan."
+          },
+          {
+            "title": "Orang tanpa identitas masuk area terbatas",
+            "text": "Jangan konfrontasi berbahaya; hubungi keamanan."
+          },
+          {
+            "title": "Ancaman keluarga",
+            "text": "Jaga jarak, panggil bantuan, dan lindungi pasien."
+          },
+          {
+            "title": "Barang pasien hilang",
+            "text": "Ikuti alur keamanan dan dokumentasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Memperbaiki listrik sendiri",
+            "text": "Di luar kewenangan dan berbahaya."
+          },
+          {
+            "title": "Mengabaikan bahaya kecil",
+            "text": "Dapat berkembang menjadi insiden."
+          },
+          {
+            "title": "Membiarkan pintu akses terbuka",
+            "text": "Mengurangi keamanan."
+          },
+          {
+            "title": "Menghadapi pelaku sendirian",
+            "text": "Meningkatkan risiko cedera."
+          },
+          {
+            "title": "Tidak melaporkan near miss fasilitas",
+            "text": "Sistem tidak dapat memperbaiki."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Melakukan ronde keselamatan",
+            "text": "Lihat lingkungan sebelum mulai shift."
+          },
+          {
+            "title": "Mengetahui nomor pelaporan",
+            "text": "Fasilitas dan keamanan."
+          },
+          {
+            "title": "Menjaga jalur",
+            "text": "Koridor, APAR, dan pintu bebas hambatan."
+          },
+          {
+            "title": "Mengenali identitas",
+            "text": "Tanyakan secara sopan sesuai kebijakan."
+          },
+          {
+            "title": "Mengutamakan pasien",
+            "text": "Pindahkan dari bahaya bila aman."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Keselamatan mencegah bahaya fisik; keamanan melindungi dari akses, kekerasan, kehilangan, dan kerusakan.",
+        "Lantai basah, kabel, alat rusak, atau jalur terhalang perlu pengamanan sementara dan laporan.",
+        "Staf, pasien, pengunjung, vendor, dan area terbatas dikenali sesuai sistem."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Kenali: Amati bahaya atau orang/situasi mencurigakan.",
+        "Lindungi: Jauhkan pasien dan beri pengamanan sementara.",
+        "Laporkan: Hubungi fasilitas atau keamanan."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Lantai basah: Pasang tanda, cegah akses, dan minta pembersihan.",
+        "Stopkontak berasap: Hentikan penggunaan bila aman, jauhkan pasien, dan aktifkan bantuan.",
+        "Orang tanpa identitas masuk area terbatas: Jangan konfrontasi berbahaya; hubungi keamanan."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Lihat lingkungan sebelum mulai shift.",
+        "Fasilitas dan keamanan.",
+        "Koridor, APAR, dan pintu bebas hambatan."
+      ]
+    }
+  ],
+  "do": [
+    "Pasang tanda, cegah akses, dan minta pembersihan.",
+    "Hentikan penggunaan bila aman, jauhkan pasien, dan aktifkan bantuan.",
+    "Jangan konfrontasi berbahaya; hubungi keamanan.",
+    "Jaga jarak, panggil bantuan, dan lindungi pasien.",
+    "Ikuti alur keamanan dan dokumentasi."
+  ],
+  "dont": [
+    "Di luar kewenangan dan berbahaya.",
+    "Dapat berkembang menjadi insiden.",
+    "Mengurangi keamanan.",
+    "Meningkatkan risiko cedera.",
+    "Sistem tidak dapat memperbaiki."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Lantai basah”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pasang tanda, cegah akses, dan minta pembersihan.",
+        "Di luar kewenangan dan berbahaya.",
+        "Dapat berkembang menjadi insiden.",
+        "Mengurangi keamanan."
+      ],
+      "answer": 0,
+      "why": "Pasang tanda, cegah akses, dan minta pembersihan."
+    },
+    {
+      "q": "Dalam situasi “Stopkontak berasap”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Dapat berkembang menjadi insiden.",
+        "Mengurangi keamanan.",
+        "Meningkatkan risiko cedera.",
+        "Hentikan penggunaan bila aman, jauhkan pasien, dan aktifkan bantuan."
+      ],
+      "answer": 3,
+      "why": "Hentikan penggunaan bila aman, jauhkan pasien, dan aktifkan bantuan."
+    },
+    {
+      "q": "Dalam situasi “Orang tanpa identitas masuk area terbatas”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Meningkatkan risiko cedera.",
+        "Sistem tidak dapat memperbaiki.",
+        "Jangan konfrontasi berbahaya; hubungi keamanan.",
+        "Mengurangi keamanan."
+      ],
+      "answer": 2,
+      "why": "Jangan konfrontasi berbahaya; hubungi keamanan."
+    },
+    {
+      "q": "Dalam situasi “Ancaman keluarga”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Di luar kewenangan dan berbahaya.",
+        "Jaga jarak, panggil bantuan, dan lindungi pasien.",
+        "Meningkatkan risiko cedera.",
+        "Sistem tidak dapat memperbaiki."
+      ],
+      "answer": 1,
+      "why": "Jaga jarak, panggil bantuan, dan lindungi pasien."
+    },
+    {
+      "q": "Dalam situasi “Barang pasien hilang”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Ikuti alur keamanan dan dokumentasi.",
+        "Sistem tidak dapat memperbaiki.",
+        "Di luar kewenangan dan berbahaya.",
+        "Dapat berkembang menjadi insiden."
+      ],
+      "answer": 0,
+      "why": "Ikuti alur keamanan dan dokumentasi."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Keselamatan berbeda dengan keamanan” adalah…",
+      "options": [
+        "Di luar kewenangan dan berbahaya.",
+        "Keselamatan mencegah bahaya fisik; keamanan melindungi dari akses, kekerasan, kehilangan, dan kerusakan.",
+        "Mengurangi keamanan.",
+        "Meningkatkan risiko cedera."
+      ],
+      "answer": 1,
+      "why": "Keselamatan mencegah bahaya fisik; keamanan melindungi dari akses, kekerasan, kehilangan, dan kerusakan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Bahaya harus ditangani segera” adalah…",
+      "options": [
+        "Dapat berkembang menjadi insiden.",
+        "Lantai basah, kabel, alat rusak, atau jalur terhalang perlu pengamanan sementara dan laporan.",
+        "Meningkatkan risiko cedera.",
+        "Sistem tidak dapat memperbaiki."
+      ],
+      "answer": 1,
+      "why": "Lantai basah, kabel, alat rusak, atau jalur terhalang perlu pengamanan sementara dan laporan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Identitas dan akses penting” adalah…",
+      "options": [
+        "Mengurangi keamanan.",
+        "Staf, pasien, pengunjung, vendor, dan area terbatas dikenali sesuai sistem.",
+        "Sistem tidak dapat memperbaiki.",
+        "Di luar kewenangan dan berbahaya."
+      ],
+      "answer": 1,
+      "why": "Staf, pasien, pengunjung, vendor, dan area terbatas dikenali sesuai sistem."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "keselamatan fasilitas",
+    "keamanan rumah sakit",
+    "bahaya fisik",
+    "security"
+  ]
+}

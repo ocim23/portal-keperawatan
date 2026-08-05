@@ -1,0 +1,335 @@
+{
+  "id": "pmkp-perbaikan",
+  "group": "pmkp",
+  "title": "PMKP 6 — Perbaikan Mutu dan Upaya Mempertahankannya",
+  "short": "PMKP 6",
+  "desc": "Menggunakan data untuk menguji perubahan, mengevaluasi hasil, dan mempertahankan perbaikan.",
+  "category": "PMKP",
+  "color": "#155E9A",
+  "soft": "#E9F4FF",
+  "icon": "target",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 12,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Perbaikan dimulai dari masalah terukur",
+            "text": "Pilih gap yang jelas dan bermakna bagi pasien."
+          },
+          {
+            "title": "PDSA adalah salah satu metode",
+            "text": "Plan–Do–Study–Act dapat digunakan untuk uji perubahan skala kecil."
+          },
+          {
+            "title": "Uji kecil mengurangi risiko",
+            "text": "Perubahan dicoba sebelum diterapkan luas."
+          },
+          {
+            "title": "Hasil perlu dibandingkan",
+            "text": "Lihat data sebelum, selama, dan setelah perubahan."
+          },
+          {
+            "title": "Perbaikan harus dipertahankan",
+            "text": "Standardisasi, sosialisasi, audit, dan umpan balik mencegah kemunduran."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Plan",
+            "text": "Tentukan masalah, penyebab, tujuan, indikator, dan perubahan."
+          },
+          {
+            "title": "Do",
+            "text": "Uji pada lingkup kecil dan catat apa yang terjadi."
+          },
+          {
+            "title": "Study",
+            "text": "Bandingkan hasil dengan prediksi dan pelajari variasi."
+          },
+          {
+            "title": "Act",
+            "text": "Adopsi, adaptasi, atau hentikan perubahan."
+          },
+          {
+            "title": "Sustain",
+            "text": "Masukkan ke proses kerja dan pantau berkala."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Kepatuhan identifikasi rendah",
+            "text": "Uji penempatan pengingat dan observasi langsung pada satu shift."
+          },
+          {
+            "title": "Waktu respons lambat",
+            "text": "Petakan alur dan hilangkan langkah yang tidak bernilai."
+          },
+          {
+            "title": "Hasil belum membaik",
+            "text": "Pelajari apakah perubahan dilakukan konsisten atau penyebab salah."
+          },
+          {
+            "title": "Hasil membaik",
+            "text": "Standarkan dan perluas bertahap."
+          },
+          {
+            "title": "Capaian turun kembali",
+            "text": "Lakukan audit, umpan balik, dan PDSA baru."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Langsung menerapkan besar",
+            "text": "Risiko gangguan dan sulit mengetahui penyebab."
+          },
+          {
+            "title": "Menganggap sosialisasi adalah perbaikan",
+            "text": "Pelatihan saja belum tentu mengubah sistem."
+          },
+          {
+            "title": "Tidak mengukur baseline",
+            "text": "Tidak dapat menilai dampak."
+          },
+          {
+            "title": "Menghentikan pemantauan setelah target",
+            "text": "Perbaikan dapat hilang."
+          },
+          {
+            "title": "Menyalin solusi unit lain tanpa konteks",
+            "text": "Penyebab dan sumber daya mungkin berbeda."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Mengusulkan masalah nyata",
+            "text": "Staf garis depan melihat hambatan harian."
+          },
+          {
+            "title": "Mengikuti uji secara konsisten",
+            "text": "Catat deviasi dan hasil."
+          },
+          {
+            "title": "Memberi umpan balik",
+            "text": "Sampaikan apa yang memudahkan atau menyulitkan."
+          },
+          {
+            "title": "Menggunakan data",
+            "text": "Hindari kesimpulan dari satu kejadian."
+          },
+          {
+            "title": "Menjaga perubahan",
+            "text": "Masukkan ke briefing dan orientasi staf."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Pilih gap yang jelas dan bermakna bagi pasien.",
+        "Plan–Do–Study–Act dapat digunakan untuk uji perubahan skala kecil.",
+        "Perubahan dicoba sebelum diterapkan luas."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Plan: Tentukan masalah, penyebab, tujuan, indikator, dan perubahan.",
+        "Do: Uji pada lingkup kecil dan catat apa yang terjadi.",
+        "Study: Bandingkan hasil dengan prediksi dan pelajari variasi."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Kepatuhan identifikasi rendah: Uji penempatan pengingat dan observasi langsung pada satu shift.",
+        "Waktu respons lambat: Petakan alur dan hilangkan langkah yang tidak bernilai.",
+        "Hasil belum membaik: Pelajari apakah perubahan dilakukan konsisten atau penyebab salah."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Staf garis depan melihat hambatan harian.",
+        "Catat deviasi dan hasil.",
+        "Sampaikan apa yang memudahkan atau menyulitkan."
+      ]
+    }
+  ],
+  "do": [
+    "Uji penempatan pengingat dan observasi langsung pada satu shift.",
+    "Petakan alur dan hilangkan langkah yang tidak bernilai.",
+    "Pelajari apakah perubahan dilakukan konsisten atau penyebab salah.",
+    "Standarkan dan perluas bertahap.",
+    "Lakukan audit, umpan balik, dan PDSA baru."
+  ],
+  "dont": [
+    "Risiko gangguan dan sulit mengetahui penyebab.",
+    "Pelatihan saja belum tentu mengubah sistem.",
+    "Tidak dapat menilai dampak.",
+    "Perbaikan dapat hilang.",
+    "Penyebab dan sumber daya mungkin berbeda."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Kepatuhan identifikasi rendah”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Uji penempatan pengingat dan observasi langsung pada satu shift.",
+        "Risiko gangguan dan sulit mengetahui penyebab.",
+        "Pelatihan saja belum tentu mengubah sistem.",
+        "Tidak dapat menilai dampak."
+      ],
+      "answer": 0,
+      "why": "Uji penempatan pengingat dan observasi langsung pada satu shift."
+    },
+    {
+      "q": "Dalam situasi “Waktu respons lambat”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pelatihan saja belum tentu mengubah sistem.",
+        "Tidak dapat menilai dampak.",
+        "Perbaikan dapat hilang.",
+        "Petakan alur dan hilangkan langkah yang tidak bernilai."
+      ],
+      "answer": 3,
+      "why": "Petakan alur dan hilangkan langkah yang tidak bernilai."
+    },
+    {
+      "q": "Dalam situasi “Hasil belum membaik”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Perbaikan dapat hilang.",
+        "Penyebab dan sumber daya mungkin berbeda.",
+        "Pelajari apakah perubahan dilakukan konsisten atau penyebab salah.",
+        "Tidak dapat menilai dampak."
+      ],
+      "answer": 2,
+      "why": "Pelajari apakah perubahan dilakukan konsisten atau penyebab salah."
+    },
+    {
+      "q": "Dalam situasi “Hasil membaik”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Risiko gangguan dan sulit mengetahui penyebab.",
+        "Standarkan dan perluas bertahap.",
+        "Perbaikan dapat hilang.",
+        "Penyebab dan sumber daya mungkin berbeda."
+      ],
+      "answer": 1,
+      "why": "Standarkan dan perluas bertahap."
+    },
+    {
+      "q": "Dalam situasi “Capaian turun kembali”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Lakukan audit, umpan balik, dan PDSA baru.",
+        "Penyebab dan sumber daya mungkin berbeda.",
+        "Risiko gangguan dan sulit mengetahui penyebab.",
+        "Pelatihan saja belum tentu mengubah sistem."
+      ],
+      "answer": 0,
+      "why": "Lakukan audit, umpan balik, dan PDSA baru."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Perbaikan dimulai dari masalah terukur” adalah…",
+      "options": [
+        "Risiko gangguan dan sulit mengetahui penyebab.",
+        "Pilih gap yang jelas dan bermakna bagi pasien.",
+        "Tidak dapat menilai dampak.",
+        "Perbaikan dapat hilang."
+      ],
+      "answer": 1,
+      "why": "Pilih gap yang jelas dan bermakna bagi pasien."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “PDSA adalah salah satu metode” adalah…",
+      "options": [
+        "Pelatihan saja belum tentu mengubah sistem.",
+        "Plan–Do–Study–Act dapat digunakan untuk uji perubahan skala kecil.",
+        "Perbaikan dapat hilang.",
+        "Penyebab dan sumber daya mungkin berbeda."
+      ],
+      "answer": 1,
+      "why": "Plan–Do–Study–Act dapat digunakan untuk uji perubahan skala kecil."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Uji kecil mengurangi risiko” adalah…",
+      "options": [
+        "Tidak dapat menilai dampak.",
+        "Perubahan dicoba sebelum diterapkan luas.",
+        "Penyebab dan sumber daya mungkin berbeda.",
+        "Risiko gangguan dan sulit mengetahui penyebab."
+      ],
+      "answer": 1,
+      "why": "Perubahan dicoba sebelum diterapkan luas."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "pdsa",
+    "pdca",
+    "perbaikan mutu",
+    "sustain"
+  ]
+}

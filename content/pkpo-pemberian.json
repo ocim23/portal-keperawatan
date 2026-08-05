@@ -1,9 +1,9 @@
 {
   "id": "pkpo-pemberian",
   "group": "pkpo",
-  "title": "Pemberian Obat yang Aman",
-  "short": "Verifikasi, berikan, pantau, dan dokumentasikan",
-  "desc": "Menjalankan seluruh rantai pemberian obat secara aman—bukan hanya mencocokkan beberapa “benar”.",
+  "title": "PKPO 6 dan PKPO 6.1 — Pemberian Obat, Obat Bawaan, dan Penggunaan Mandiri",
+  "short": "PKPO 6–6.1",
+  "desc": "Lima benar, double-check, edukasi, obat bawaan pasien, dan self-administration.",
   "category": "PKPO",
   "color": "#9A5B12",
   "soft": "#FFF5E8",
@@ -391,5 +391,7 @@
       "org": "Institute for Safe Medication Practices",
       "url": "https://www.ismp.org/node/103"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

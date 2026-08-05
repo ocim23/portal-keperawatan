@@ -1,0 +1,335 @@
+{
+  "id": "hpk-informed-consent",
+  "group": "hpk",
+  "title": "HPK 4.1 dan HPK 4.2 — Persetujuan Tindakan dan Pengambil Keputusan Pengganti",
+  "short": "HPK 4.1–4.2",
+  "desc": "Informed consent sebagai proses, pembagian peran, verifikasi dokumen, dan pihak yang berwenang mewakili pasien.",
+  "category": "HPK",
+  "color": "#B64B73",
+  "soft": "#FFF0F6",
+  "icon": "rights",
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "minutes": 15,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Persetujuan adalah proses",
+            "text": "Informasi, pemahaman, kesempatan bertanya, keputusan bebas, dan dokumentasi."
+          },
+          {
+            "title": "Penjelasan medis oleh pihak kompeten",
+            "text": "Diagnosis, tindakan, manfaat, risiko, alternatif, dan konsekuensi disampaikan sesuai kewenangan."
+          },
+          {
+            "title": "Perawat tidak menggantikan penjelasan yang belum diberikan",
+            "text": "Perawat memverifikasi, memfasilitasi, dan menghubungi dokter."
+          },
+          {
+            "title": "Pasien kompeten adalah pengambil keputusan utama",
+            "text": "Keluarga tidak otomatis menggantikan."
+          },
+          {
+            "title": "Perwakilan mengikuti hukum dan kebijakan",
+            "text": "Identitas, hubungan, dan kewenangan perlu diperiksa."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Sebelum tindakan",
+            "text": "Periksa pasien, tindakan, lokasi, formulir, waktu, dan pihak pemberi informasi."
+          },
+          {
+            "title": "Tanyakan pemahaman",
+            "text": "Pastikan pasien tidak sekadar menandatangani."
+          },
+          {
+            "title": "Bila ada keraguan",
+            "text": "Hentikan proses dan hubungi pemberi penjelasan."
+          },
+          {
+            "title": "Verifikasi perwakilan",
+            "text": "Ikuti urutan dan dokumentasi."
+          },
+          {
+            "title": "Dokumentasikan",
+            "text": "Catat persetujuan/penolakan dan perubahan keputusan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pasien bilang belum paham risiko",
+            "text": "Jangan lanjut; minta dokter menjelaskan kembali."
+          },
+          {
+            "title": "Formulir belum ada saat pasien dibawa",
+            "text": "Tahan tindakan nonemergensi sesuai kewenangan dan klarifikasi."
+          },
+          {
+            "title": "Pendamping mengaku keluarga",
+            "text": "Verifikasi apakah berwenang mewakili."
+          },
+          {
+            "title": "Pasien buta huruf",
+            "text": "Gunakan proses yang memastikan pemahaman dan saksi sesuai kebijakan."
+          },
+          {
+            "title": "Keadaan emergensi",
+            "text": "Ikuti pengecualian dan dokumentasi sesuai peraturan, bukan membuat aturan sendiri."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Meminta tanda tangan saat pasien tersedasi",
+            "text": "Kapasitas pengambilan keputusan diragukan."
+          },
+          {
+            "title": "Mengisi formulir setelah tindakan",
+            "text": "Tidak memenuhi proses persetujuan sebelumnya."
+          },
+          {
+            "title": "Menjelaskan risiko medis di luar kompetensi",
+            "text": "Dapat menyesatkan pasien."
+          },
+          {
+            "title": "Menganggap suami/anak otomatis sah",
+            "text": "Perlu verifikasi kewenangan."
+          },
+          {
+            "title": "Memaksa karena jadwal operasi",
+            "text": "Persetujuan harus bebas dari paksaan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Memeriksa dokumen",
+            "text": "Pasien, prosedur, sisi, tanggal, pemberi informasi, dan tanda tangan."
+          },
+          {
+            "title": "Mendengar keraguan",
+            "text": "Jangan menenangkan dengan informasi yang tidak dikuasai."
+          },
+          {
+            "title": "Memastikan privasi",
+            "text": "Berikan ruang bertanya."
+          },
+          {
+            "title": "Menghubungi DPJP/operator",
+            "text": "Selesaikan informasi yang belum jelas."
+          },
+          {
+            "title": "Menjadi saksi sesuai kebijakan",
+            "text": "Saksi bukan pengganti pemberi penjelasan."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Informasi, pemahaman, kesempatan bertanya, keputusan bebas, dan dokumentasi.",
+        "Diagnosis, tindakan, manfaat, risiko, alternatif, dan konsekuensi disampaikan sesuai kewenangan.",
+        "Perawat memverifikasi, memfasilitasi, dan menghubungi dokter."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Sebelum tindakan: Periksa pasien, tindakan, lokasi, formulir, waktu, dan pihak pemberi informasi.",
+        "Tanyakan pemahaman: Pastikan pasien tidak sekadar menandatangani.",
+        "Bila ada keraguan: Hentikan proses dan hubungi pemberi penjelasan."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Pasien bilang belum paham risiko: Jangan lanjut; minta dokter menjelaskan kembali.",
+        "Formulir belum ada saat pasien dibawa: Tahan tindakan nonemergensi sesuai kewenangan dan klarifikasi.",
+        "Pendamping mengaku keluarga: Verifikasi apakah berwenang mewakili."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Pasien, prosedur, sisi, tanggal, pemberi informasi, dan tanda tangan.",
+        "Jangan menenangkan dengan informasi yang tidak dikuasai.",
+        "Berikan ruang bertanya."
+      ]
+    }
+  ],
+  "do": [
+    "Jangan lanjut; minta dokter menjelaskan kembali.",
+    "Tahan tindakan nonemergensi sesuai kewenangan dan klarifikasi.",
+    "Verifikasi apakah berwenang mewakili.",
+    "Gunakan proses yang memastikan pemahaman dan saksi sesuai kebijakan.",
+    "Ikuti pengecualian dan dokumentasi sesuai peraturan, bukan membuat aturan sendiri."
+  ],
+  "dont": [
+    "Kapasitas pengambilan keputusan diragukan.",
+    "Tidak memenuhi proses persetujuan sebelumnya.",
+    "Dapat menyesatkan pasien.",
+    "Perlu verifikasi kewenangan.",
+    "Persetujuan harus bebas dari paksaan."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Pasien bilang belum paham risiko”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Jangan lanjut; minta dokter menjelaskan kembali.",
+        "Kapasitas pengambilan keputusan diragukan.",
+        "Tidak memenuhi proses persetujuan sebelumnya.",
+        "Dapat menyesatkan pasien."
+      ],
+      "answer": 0,
+      "why": "Jangan lanjut; minta dokter menjelaskan kembali."
+    },
+    {
+      "q": "Dalam situasi “Formulir belum ada saat pasien dibawa”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tidak memenuhi proses persetujuan sebelumnya.",
+        "Dapat menyesatkan pasien.",
+        "Perlu verifikasi kewenangan.",
+        "Tahan tindakan nonemergensi sesuai kewenangan dan klarifikasi."
+      ],
+      "answer": 3,
+      "why": "Tahan tindakan nonemergensi sesuai kewenangan dan klarifikasi."
+    },
+    {
+      "q": "Dalam situasi “Pendamping mengaku keluarga”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Perlu verifikasi kewenangan.",
+        "Persetujuan harus bebas dari paksaan.",
+        "Verifikasi apakah berwenang mewakili.",
+        "Dapat menyesatkan pasien."
+      ],
+      "answer": 2,
+      "why": "Verifikasi apakah berwenang mewakili."
+    },
+    {
+      "q": "Dalam situasi “Pasien buta huruf”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Kapasitas pengambilan keputusan diragukan.",
+        "Gunakan proses yang memastikan pemahaman dan saksi sesuai kebijakan.",
+        "Perlu verifikasi kewenangan.",
+        "Persetujuan harus bebas dari paksaan."
+      ],
+      "answer": 1,
+      "why": "Gunakan proses yang memastikan pemahaman dan saksi sesuai kebijakan."
+    },
+    {
+      "q": "Dalam situasi “Keadaan emergensi”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Ikuti pengecualian dan dokumentasi sesuai peraturan, bukan membuat aturan sendiri.",
+        "Persetujuan harus bebas dari paksaan.",
+        "Kapasitas pengambilan keputusan diragukan.",
+        "Tidak memenuhi proses persetujuan sebelumnya."
+      ],
+      "answer": 0,
+      "why": "Ikuti pengecualian dan dokumentasi sesuai peraturan, bukan membuat aturan sendiri."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Persetujuan adalah proses” adalah…",
+      "options": [
+        "Kapasitas pengambilan keputusan diragukan.",
+        "Informasi, pemahaman, kesempatan bertanya, keputusan bebas, dan dokumentasi.",
+        "Dapat menyesatkan pasien.",
+        "Perlu verifikasi kewenangan."
+      ],
+      "answer": 1,
+      "why": "Informasi, pemahaman, kesempatan bertanya, keputusan bebas, dan dokumentasi."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Penjelasan medis oleh pihak kompeten” adalah…",
+      "options": [
+        "Tidak memenuhi proses persetujuan sebelumnya.",
+        "Diagnosis, tindakan, manfaat, risiko, alternatif, dan konsekuensi disampaikan sesuai kewenangan.",
+        "Perlu verifikasi kewenangan.",
+        "Persetujuan harus bebas dari paksaan."
+      ],
+      "answer": 1,
+      "why": "Diagnosis, tindakan, manfaat, risiko, alternatif, dan konsekuensi disampaikan sesuai kewenangan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Perawat tidak menggantikan penjelasan yang belum diberikan” adalah…",
+      "options": [
+        "Dapat menyesatkan pasien.",
+        "Perawat memverifikasi, memfasilitasi, dan menghubungi dokter.",
+        "Persetujuan harus bebas dari paksaan.",
+        "Kapasitas pengambilan keputusan diragukan."
+      ],
+      "answer": 1,
+      "why": "Perawat memverifikasi, memfasilitasi, dan menghubungi dokter."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "informed consent",
+    "persetujuan tindakan",
+    "wali",
+    "pengambil keputusan"
+  ]
+}

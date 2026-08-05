@@ -1,9 +1,9 @@
 {
   "id": "pap-nyeri",
   "group": "pap",
-  "title": "Pengkajian dan Pengelolaan Nyeri",
-  "short": "Nyeri",
-  "desc": "Menilai pengalaman nyeri, memilih skala, menyusun target, memberikan intervensi, dan melakukan reassessment.",
+  "title": "PAP 4 — Pengelolaan Nyeri",
+  "short": "PAP 4",
+  "desc": "Pengkajian, intervensi, evaluasi ulang, dokumentasi, dan eskalasi nyeri.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
@@ -382,5 +382,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

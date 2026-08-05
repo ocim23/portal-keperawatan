@@ -1,0 +1,337 @@
+{
+  "id": "mfk-b3",
+  "group": "mfk",
+  "title": "MFK 5 dan MFK 5.1 — B3, Tumpahan, dan Limbah B3",
+  "short": "MFK 5–5.1",
+  "desc": "Simbol, SDS, APD, spill kit, pajanan, pemilahan, dan pelaporan tumpahan bahan berbahaya.",
+  "category": "MFK",
+  "color": "#E47A13",
+  "soft": "#FFF3E6",
+  "icon": "fire",
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "minutes": 15,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kenali bahan sebelum menangani",
+            "text": "Label dan SDS menjelaskan bahaya, APD, pertolongan pertama, serta pembersihan."
+          },
+          {
+            "title": "Spill kit disesuaikan jenis tumpahan",
+            "text": "Tidak semua bahan ditangani dengan cara yang sama."
+          },
+          {
+            "title": "Area harus diamankan",
+            "text": "Cegah orang lain terpajan sebelum membersihkan."
+          },
+          {
+            "title": "Limbah hasil penanganan tetap berbahaya",
+            "text": "Masukkan ke wadah dan label sesuai prosedur."
+          },
+          {
+            "title": "Pajanan memerlukan respons cepat",
+            "text": "Mata, kulit, inhalasi, atau tertusuk memiliki pertolongan awal berbeda."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Hentikan dan amankan",
+            "text": "Batasi area serta jauhkan sumber api bila relevan dan aman."
+          },
+          {
+            "title": "Identifikasi bahan",
+            "text": "Baca label/SDS dan nilai besar tumpahan."
+          },
+          {
+            "title": "Gunakan APD",
+            "text": "Pilih berdasarkan risiko."
+          },
+          {
+            "title": "Tangani",
+            "text": "Gunakan spill kit dan teknik yang ditetapkan."
+          },
+          {
+            "title": "Buang, bersihkan, dan laporkan",
+            "text": "Kelola limbah, lepas APD, hand hygiene, dan dokumentasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Tumpahan kecil yang dikenal",
+            "text": "Ikuti SDS dan spill kit oleh petugas terlatih."
+          },
+          {
+            "title": "Bahan tidak dikenal atau tumpahan besar",
+            "text": "Jangan tangani sendiri; evakuasi area dan panggil tim."
+          },
+          {
+            "title": "Pajanan mata",
+            "text": "Gunakan eyewash segera sesuai durasi/prosedur dan laporkan."
+          },
+          {
+            "title": "Wadah limbah bocor",
+            "text": "Amankan, gunakan wadah sekunder, dan laporkan."
+          },
+          {
+            "title": "Benda tajam penuh",
+            "text": "Tutup sesuai batas, ganti, dan jangan dipadatkan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mencium bahan untuk mengenali",
+            "text": "Menambah pajanan."
+          },
+          {
+            "title": "Membersihkan tanpa APD",
+            "text": "Membahayakan petugas."
+          },
+          {
+            "title": "Mencampur bahan penetral sembarangan",
+            "text": "Dapat menghasilkan reaksi berbahaya."
+          },
+          {
+            "title": "Membuang ke sampah umum",
+            "text": "Memindahkan risiko ke petugas lain."
+          },
+          {
+            "title": "Tidak melaporkan pajanan kecil",
+            "text": "Tindak lanjut medis dapat terlambat."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Tahu lokasi spill kit dan SDS",
+            "text": "Mampu menunjukkannya."
+          },
+          {
+            "title": "Mengenali batas kemampuan",
+            "text": "Panggil tim untuk tumpahan besar/tidak dikenal."
+          },
+          {
+            "title": "Menjaga pemilahan",
+            "text": "Wadah, label, dan batas isi."
+          },
+          {
+            "title": "Melakukan pertolongan awal",
+            "text": "Jangan menunggu laporan administratif."
+          },
+          {
+            "title": "Mendokumentasikan",
+            "text": "Bahan, jumlah, lokasi, pajanan, dan tindakan."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Label dan SDS menjelaskan bahaya, APD, pertolongan pertama, serta pembersihan.",
+        "Tidak semua bahan ditangani dengan cara yang sama.",
+        "Cegah orang lain terpajan sebelum membersihkan."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Hentikan dan amankan: Batasi area serta jauhkan sumber api bila relevan dan aman.",
+        "Identifikasi bahan: Baca label/SDS dan nilai besar tumpahan.",
+        "Gunakan APD: Pilih berdasarkan risiko."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Tumpahan kecil yang dikenal: Ikuti SDS dan spill kit oleh petugas terlatih.",
+        "Bahan tidak dikenal atau tumpahan besar: Jangan tangani sendiri; evakuasi area dan panggil tim.",
+        "Pajanan mata: Gunakan eyewash segera sesuai durasi/prosedur dan laporkan."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Mampu menunjukkannya.",
+        "Panggil tim untuk tumpahan besar/tidak dikenal.",
+        "Wadah, label, dan batas isi."
+      ]
+    }
+  ],
+  "do": [
+    "Ikuti SDS dan spill kit oleh petugas terlatih.",
+    "Jangan tangani sendiri; evakuasi area dan panggil tim.",
+    "Gunakan eyewash segera sesuai durasi/prosedur dan laporkan.",
+    "Amankan, gunakan wadah sekunder, dan laporkan.",
+    "Tutup sesuai batas, ganti, dan jangan dipadatkan."
+  ],
+  "dont": [
+    "Menambah pajanan.",
+    "Membahayakan petugas.",
+    "Dapat menghasilkan reaksi berbahaya.",
+    "Memindahkan risiko ke petugas lain.",
+    "Tindak lanjut medis dapat terlambat."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Tumpahan kecil yang dikenal”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Ikuti SDS dan spill kit oleh petugas terlatih.",
+        "Menambah pajanan.",
+        "Membahayakan petugas.",
+        "Dapat menghasilkan reaksi berbahaya."
+      ],
+      "answer": 0,
+      "why": "Ikuti SDS dan spill kit oleh petugas terlatih."
+    },
+    {
+      "q": "Dalam situasi “Bahan tidak dikenal atau tumpahan besar”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Membahayakan petugas.",
+        "Dapat menghasilkan reaksi berbahaya.",
+        "Memindahkan risiko ke petugas lain.",
+        "Jangan tangani sendiri; evakuasi area dan panggil tim."
+      ],
+      "answer": 3,
+      "why": "Jangan tangani sendiri; evakuasi area dan panggil tim."
+    },
+    {
+      "q": "Dalam situasi “Pajanan mata”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Memindahkan risiko ke petugas lain.",
+        "Tindak lanjut medis dapat terlambat.",
+        "Gunakan eyewash segera sesuai durasi/prosedur dan laporkan.",
+        "Dapat menghasilkan reaksi berbahaya."
+      ],
+      "answer": 2,
+      "why": "Gunakan eyewash segera sesuai durasi/prosedur dan laporkan."
+    },
+    {
+      "q": "Dalam situasi “Wadah limbah bocor”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Menambah pajanan.",
+        "Amankan, gunakan wadah sekunder, dan laporkan.",
+        "Memindahkan risiko ke petugas lain.",
+        "Tindak lanjut medis dapat terlambat."
+      ],
+      "answer": 1,
+      "why": "Amankan, gunakan wadah sekunder, dan laporkan."
+    },
+    {
+      "q": "Dalam situasi “Benda tajam penuh”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tutup sesuai batas, ganti, dan jangan dipadatkan.",
+        "Tindak lanjut medis dapat terlambat.",
+        "Menambah pajanan.",
+        "Membahayakan petugas."
+      ],
+      "answer": 0,
+      "why": "Tutup sesuai batas, ganti, dan jangan dipadatkan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Kenali bahan sebelum menangani” adalah…",
+      "options": [
+        "Menambah pajanan.",
+        "Label dan SDS menjelaskan bahaya, APD, pertolongan pertama, serta pembersihan.",
+        "Dapat menghasilkan reaksi berbahaya.",
+        "Memindahkan risiko ke petugas lain."
+      ],
+      "answer": 1,
+      "why": "Label dan SDS menjelaskan bahaya, APD, pertolongan pertama, serta pembersihan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Spill kit disesuaikan jenis tumpahan” adalah…",
+      "options": [
+        "Membahayakan petugas.",
+        "Tidak semua bahan ditangani dengan cara yang sama.",
+        "Memindahkan risiko ke petugas lain.",
+        "Tindak lanjut medis dapat terlambat."
+      ],
+      "answer": 1,
+      "why": "Tidak semua bahan ditangani dengan cara yang sama."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Area harus diamankan” adalah…",
+      "options": [
+        "Dapat menghasilkan reaksi berbahaya.",
+        "Cegah orang lain terpajan sebelum membersihkan.",
+        "Tindak lanjut medis dapat terlambat.",
+        "Menambah pajanan."
+      ],
+      "answer": 1,
+      "why": "Cegah orang lain terpajan sebelum membersihkan."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "b3",
+    "spill kit",
+    "sds",
+    "tumpahan",
+    "limbah b3",
+    "eyewash"
+  ]
+}

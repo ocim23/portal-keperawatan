@@ -1,0 +1,335 @@
+{
+  "id": "pmkp-budaya",
+  "group": "pmkp",
+  "title": "PMKP 10 — Budaya Keselamatan Pasien",
+  "short": "PMKP 10",
+  "desc": "Budaya adil, keterbukaan, pelaporan, pembelajaran, dan akuntabilitas yang proporsional.",
+  "category": "PMKP",
+  "color": "#155E9A",
+  "soft": "#E9F4FF",
+  "icon": "target",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 11,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Keselamatan membutuhkan rasa aman untuk berbicara",
+            "text": "Staf harus dapat menyampaikan risiko dan insiden tanpa takut pembalasan tidak adil."
+          },
+          {
+            "title": "Just culture bukan bebas tanggung jawab",
+            "text": "Kesalahan manusia, perilaku berisiko, dan tindakan disengaja ditangani berbeda."
+          },
+          {
+            "title": "Pemimpin merespons secara adil",
+            "text": "Fokus pada sistem, konteks, dan pilihan yang tersedia."
+          },
+          {
+            "title": "Pembelajaran harus kembali ke staf",
+            "text": "Laporan tanpa umpan balik melemahkan kepercayaan."
+          },
+          {
+            "title": "Survei budaya adalah alat",
+            "text": "Hasil digunakan untuk perbaikan, bukan sekadar nilai."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Speak up",
+            "text": "Sampaikan kondisi tidak aman dengan fakta."
+          },
+          {
+            "title": "Amankan pasien",
+            "text": "Tindakan klinis didahulukan."
+          },
+          {
+            "title": "Laporkan",
+            "text": "Gunakan sistem yang tersedia."
+          },
+          {
+            "title": "Analisis sistem",
+            "text": "Lihat desain kerja, alat, beban, komunikasi, dan pengawasan."
+          },
+          {
+            "title": "Perbaiki dan beri umpan balik",
+            "text": "Tunjukkan perubahan nyata."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Rekan hampir salah obat",
+            "text": "Hentikan dengan sopan dan laporkan near miss."
+          },
+          {
+            "title": "Staf takut melapor",
+            "text": "Pemimpin menjamin proses adil dan kerahasiaan sesuai kebijakan."
+          },
+          {
+            "title": "Pelanggaran disengaja",
+            "text": "Tetap ada akuntabilitas sesuai regulasi."
+          },
+          {
+            "title": "Kesalahan berulang",
+            "text": "Cari pertahanan sistem yang gagal."
+          },
+          {
+            "title": "Umpan balik belum ada",
+            "text": "Tanyakan tindak lanjut melalui jalur mutu."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menanyakan “siapa salah?” sebagai respons pertama",
+            "text": "Membungkam pelaporan dan melewatkan penyebab sistem."
+          },
+          {
+            "title": "Menghukum semua kesalahan sama",
+            "text": "Tidak adil dan tidak efektif."
+          },
+          {
+            "title": "Menganggap laporan sebagai pengaduan pribadi",
+            "text": "Tujuannya pembelajaran keselamatan."
+          },
+          {
+            "title": "Menyebarkan nama pelapor",
+            "text": "Merusak kepercayaan."
+          },
+          {
+            "title": "Tidak menindaklanjuti",
+            "text": "Staf berhenti melapor."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Berani berbicara",
+            "text": "Gunakan komunikasi profesional."
+          },
+          {
+            "title": "Mendukung rekan",
+            "text": "Fokus pada pasien dan fakta."
+          },
+          {
+            "title": "Tidak menutupi kejadian",
+            "text": "Integritas adalah bagian keselamatan."
+          },
+          {
+            "title": "Ikut pembelajaran",
+            "text": "Terapkan perubahan proses."
+          },
+          {
+            "title": "Menjadi teladan",
+            "text": "Respons harian membentuk budaya."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Staf harus dapat menyampaikan risiko dan insiden tanpa takut pembalasan tidak adil.",
+        "Kesalahan manusia, perilaku berisiko, dan tindakan disengaja ditangani berbeda.",
+        "Fokus pada sistem, konteks, dan pilihan yang tersedia."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Speak up: Sampaikan kondisi tidak aman dengan fakta.",
+        "Amankan pasien: Tindakan klinis didahulukan.",
+        "Laporkan: Gunakan sistem yang tersedia."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Rekan hampir salah obat: Hentikan dengan sopan dan laporkan near miss.",
+        "Staf takut melapor: Pemimpin menjamin proses adil dan kerahasiaan sesuai kebijakan.",
+        "Pelanggaran disengaja: Tetap ada akuntabilitas sesuai regulasi."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Gunakan komunikasi profesional.",
+        "Fokus pada pasien dan fakta.",
+        "Integritas adalah bagian keselamatan."
+      ]
+    }
+  ],
+  "do": [
+    "Hentikan dengan sopan dan laporkan near miss.",
+    "Pemimpin menjamin proses adil dan kerahasiaan sesuai kebijakan.",
+    "Tetap ada akuntabilitas sesuai regulasi.",
+    "Cari pertahanan sistem yang gagal.",
+    "Tanyakan tindak lanjut melalui jalur mutu."
+  ],
+  "dont": [
+    "Membungkam pelaporan dan melewatkan penyebab sistem.",
+    "Tidak adil dan tidak efektif.",
+    "Tujuannya pembelajaran keselamatan.",
+    "Merusak kepercayaan.",
+    "Staf berhenti melapor."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Rekan hampir salah obat”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Hentikan dengan sopan dan laporkan near miss.",
+        "Membungkam pelaporan dan melewatkan penyebab sistem.",
+        "Tidak adil dan tidak efektif.",
+        "Tujuannya pembelajaran keselamatan."
+      ],
+      "answer": 0,
+      "why": "Hentikan dengan sopan dan laporkan near miss."
+    },
+    {
+      "q": "Dalam situasi “Staf takut melapor”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tidak adil dan tidak efektif.",
+        "Tujuannya pembelajaran keselamatan.",
+        "Merusak kepercayaan.",
+        "Pemimpin menjamin proses adil dan kerahasiaan sesuai kebijakan."
+      ],
+      "answer": 3,
+      "why": "Pemimpin menjamin proses adil dan kerahasiaan sesuai kebijakan."
+    },
+    {
+      "q": "Dalam situasi “Pelanggaran disengaja”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Merusak kepercayaan.",
+        "Staf berhenti melapor.",
+        "Tetap ada akuntabilitas sesuai regulasi.",
+        "Tujuannya pembelajaran keselamatan."
+      ],
+      "answer": 2,
+      "why": "Tetap ada akuntabilitas sesuai regulasi."
+    },
+    {
+      "q": "Dalam situasi “Kesalahan berulang”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Membungkam pelaporan dan melewatkan penyebab sistem.",
+        "Cari pertahanan sistem yang gagal.",
+        "Merusak kepercayaan.",
+        "Staf berhenti melapor."
+      ],
+      "answer": 1,
+      "why": "Cari pertahanan sistem yang gagal."
+    },
+    {
+      "q": "Dalam situasi “Umpan balik belum ada”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tanyakan tindak lanjut melalui jalur mutu.",
+        "Staf berhenti melapor.",
+        "Membungkam pelaporan dan melewatkan penyebab sistem.",
+        "Tidak adil dan tidak efektif."
+      ],
+      "answer": 0,
+      "why": "Tanyakan tindak lanjut melalui jalur mutu."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Keselamatan membutuhkan rasa aman untuk berbicara” adalah…",
+      "options": [
+        "Membungkam pelaporan dan melewatkan penyebab sistem.",
+        "Staf harus dapat menyampaikan risiko dan insiden tanpa takut pembalasan tidak adil.",
+        "Tujuannya pembelajaran keselamatan.",
+        "Merusak kepercayaan."
+      ],
+      "answer": 1,
+      "why": "Staf harus dapat menyampaikan risiko dan insiden tanpa takut pembalasan tidak adil."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Just culture bukan bebas tanggung jawab” adalah…",
+      "options": [
+        "Tidak adil dan tidak efektif.",
+        "Kesalahan manusia, perilaku berisiko, dan tindakan disengaja ditangani berbeda.",
+        "Merusak kepercayaan.",
+        "Staf berhenti melapor."
+      ],
+      "answer": 1,
+      "why": "Kesalahan manusia, perilaku berisiko, dan tindakan disengaja ditangani berbeda."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Pemimpin merespons secara adil” adalah…",
+      "options": [
+        "Tujuannya pembelajaran keselamatan.",
+        "Fokus pada sistem, konteks, dan pilihan yang tersedia.",
+        "Staf berhenti melapor.",
+        "Membungkam pelaporan dan melewatkan penyebab sistem."
+      ],
+      "answer": 1,
+      "why": "Fokus pada sistem, konteks, dan pilihan yang tersedia."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "budaya keselamatan",
+    "just culture",
+    "speak up",
+    "non punitive"
+  ]
+}

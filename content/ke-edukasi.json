@@ -1,9 +1,9 @@
 {
   "id": "ke-edukasi",
   "group": "ke",
-  "title": "Edukasi Pasien dan Teach-Back",
-  "short": "Dari memberi informasi menjadi memastikan pemahaman",
-  "desc": "Merencanakan edukasi sesuai kebutuhan, menyampaikan secara sederhana, menilai pemahaman, dan mendokumentasikan hasilnya.",
+  "title": "KE 5 — Metode Edukasi, Verifikasi Pemahaman, dan Dokumentasi",
+  "short": "KE 5",
+  "desc": "Pemilihan media, teach-back, return demonstration, edukasi ulang, dan dokumentasi.",
   "category": "KE",
   "color": "#5B6F9C",
   "soft": "#EEF2FF",
@@ -384,5 +384,7 @@
       "org": "Agency for Healthcare Research and Quality",
       "url": "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

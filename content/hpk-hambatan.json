@@ -1,0 +1,335 @@
+{
+  "id": "hpk-hambatan",
+  "group": "hpk",
+  "title": "HPK 1.1 — Mengurangi Hambatan dalam Pelayanan dan Komunikasi",
+  "short": "HPK 1.1",
+  "desc": "Bahasa, disabilitas, literasi, kondisi emosional, dan hambatan lain yang memengaruhi akses serta pemahaman.",
+  "category": "HPK",
+  "color": "#B64B73",
+  "soft": "#FFF0F6",
+  "icon": "rights",
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "minutes": 13,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Hambatan harus diidentifikasi",
+            "text": "Bahasa, pendengaran, penglihatan, kognitif, fisik, budaya, usia, dan kondisi klinis dapat menghambat pelayanan."
+          },
+          {
+            "title": "Akomodasi disesuaikan individu",
+            "text": "Jangan mengasumsikan semua pasien dengan kondisi sama memiliki kebutuhan sama."
+          },
+          {
+            "title": "Penerjemah harus sesuai proses",
+            "text": "Kerahasiaan dan akurasi perlu dijaga; anak sebaiknya tidak dijadikan penerjemah rutin."
+          },
+          {
+            "title": "Bahasa sederhana lebih aman",
+            "text": "Hindari jargon dan informasi terlalu banyak sekaligus."
+          },
+          {
+            "title": "Pemahaman perlu diverifikasi",
+            "text": "Mengangguk bukan bukti memahami."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Kaji hambatan",
+            "text": "Tanyakan bahasa, alat bantu, kemampuan baca, dan preferensi."
+          },
+          {
+            "title": "Pilih metode",
+            "text": "Lisan, tulisan besar, gambar, demonstrasi, penerjemah, atau kombinasi."
+          },
+          {
+            "title": "Ciptakan lingkungan aman",
+            "text": "Kurangi bising dan jaga privasi."
+          },
+          {
+            "title": "Sampaikan bertahap",
+            "text": "Gunakan kalimat pendek dan fokus utama."
+          },
+          {
+            "title": "Verifikasi",
+            "text": "Minta pasien menjelaskan atau mempraktikkan kembali."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pasien gangguan pendengaran",
+            "text": "Hadap pasien, pastikan alat bantu, bicara jelas tanpa berteriak, dan gunakan tulisan bila perlu."
+          },
+          {
+            "title": "Pasien tidak dapat membaca",
+            "text": "Gunakan gambar/demonstrasi dan teach-back."
+          },
+          {
+            "title": "Bahasa berbeda",
+            "text": "Gunakan penerjemah sesuai proses dan bicara kepada pasien, bukan hanya penerjemah."
+          },
+          {
+            "title": "Pasien cemas berat",
+            "text": "Atasi kebutuhan mendesak dan pilih waktu edukasi yang lebih siap."
+          },
+          {
+            "title": "Pasien kognitif terbatas",
+            "text": "Libatkan pengambil keputusan/pendamping yang sah sambil tetap menghargai pasien."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mengulang lebih keras",
+            "text": "Tidak menyelesaikan hambatan bahasa atau pemahaman."
+          },
+          {
+            "title": "Menganggap keluarga selalu boleh menerima informasi",
+            "text": "Perlu persetujuan dan kewenangan."
+          },
+          {
+            "title": "Memakai istilah teknis",
+            "text": "Meningkatkan salah tafsir."
+          },
+          {
+            "title": "Memberi leaflet sebagai satu-satunya edukasi",
+            "text": "Media harus sesuai kemampuan."
+          },
+          {
+            "title": "Menyalahkan pasien karena “tidak paham”",
+            "text": "Cara penyampaian perlu diperbaiki."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Mencatat hambatan",
+            "text": "Agar seluruh tim menggunakan pendekatan konsisten."
+          },
+          {
+            "title": "Menyiapkan alat bantu",
+            "text": "Pastikan tersedia sebelum tindakan."
+          },
+          {
+            "title": "Menjaga otonomi",
+            "text": "Bicara langsung kepada pasien sejauh mampu."
+          },
+          {
+            "title": "Melakukan teach-back",
+            "text": "Nilai efektivitas penjelasan."
+          },
+          {
+            "title": "Mengeskalasi kebutuhan",
+            "text": "Hubungi penerjemah atau petugas terkait."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Bahasa, pendengaran, penglihatan, kognitif, fisik, budaya, usia, dan kondisi klinis dapat menghambat pelayanan.",
+        "Jangan mengasumsikan semua pasien dengan kondisi sama memiliki kebutuhan sama.",
+        "Kerahasiaan dan akurasi perlu dijaga; anak sebaiknya tidak dijadikan penerjemah rutin."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Kaji hambatan: Tanyakan bahasa, alat bantu, kemampuan baca, dan preferensi.",
+        "Pilih metode: Lisan, tulisan besar, gambar, demonstrasi, penerjemah, atau kombinasi.",
+        "Ciptakan lingkungan aman: Kurangi bising dan jaga privasi."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Pasien gangguan pendengaran: Hadap pasien, pastikan alat bantu, bicara jelas tanpa berteriak, dan gunakan tulisan bila perlu.",
+        "Pasien tidak dapat membaca: Gunakan gambar/demonstrasi dan teach-back.",
+        "Bahasa berbeda: Gunakan penerjemah sesuai proses dan bicara kepada pasien, bukan hanya penerjemah."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Agar seluruh tim menggunakan pendekatan konsisten.",
+        "Pastikan tersedia sebelum tindakan.",
+        "Bicara langsung kepada pasien sejauh mampu."
+      ]
+    }
+  ],
+  "do": [
+    "Hadap pasien, pastikan alat bantu, bicara jelas tanpa berteriak, dan gunakan tulisan bila perlu.",
+    "Gunakan gambar/demonstrasi dan teach-back.",
+    "Gunakan penerjemah sesuai proses dan bicara kepada pasien, bukan hanya penerjemah.",
+    "Atasi kebutuhan mendesak dan pilih waktu edukasi yang lebih siap.",
+    "Libatkan pengambil keputusan/pendamping yang sah sambil tetap menghargai pasien."
+  ],
+  "dont": [
+    "Tidak menyelesaikan hambatan bahasa atau pemahaman.",
+    "Perlu persetujuan dan kewenangan.",
+    "Meningkatkan salah tafsir.",
+    "Media harus sesuai kemampuan.",
+    "Cara penyampaian perlu diperbaiki."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Pasien gangguan pendengaran”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Hadap pasien, pastikan alat bantu, bicara jelas tanpa berteriak, dan gunakan tulisan bila perlu.",
+        "Tidak menyelesaikan hambatan bahasa atau pemahaman.",
+        "Perlu persetujuan dan kewenangan.",
+        "Meningkatkan salah tafsir."
+      ],
+      "answer": 0,
+      "why": "Hadap pasien, pastikan alat bantu, bicara jelas tanpa berteriak, dan gunakan tulisan bila perlu."
+    },
+    {
+      "q": "Dalam situasi “Pasien tidak dapat membaca”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Perlu persetujuan dan kewenangan.",
+        "Meningkatkan salah tafsir.",
+        "Media harus sesuai kemampuan.",
+        "Gunakan gambar/demonstrasi dan teach-back."
+      ],
+      "answer": 3,
+      "why": "Gunakan gambar/demonstrasi dan teach-back."
+    },
+    {
+      "q": "Dalam situasi “Bahasa berbeda”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Media harus sesuai kemampuan.",
+        "Cara penyampaian perlu diperbaiki.",
+        "Gunakan penerjemah sesuai proses dan bicara kepada pasien, bukan hanya penerjemah.",
+        "Meningkatkan salah tafsir."
+      ],
+      "answer": 2,
+      "why": "Gunakan penerjemah sesuai proses dan bicara kepada pasien, bukan hanya penerjemah."
+    },
+    {
+      "q": "Dalam situasi “Pasien cemas berat”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tidak menyelesaikan hambatan bahasa atau pemahaman.",
+        "Atasi kebutuhan mendesak dan pilih waktu edukasi yang lebih siap.",
+        "Media harus sesuai kemampuan.",
+        "Cara penyampaian perlu diperbaiki."
+      ],
+      "answer": 1,
+      "why": "Atasi kebutuhan mendesak dan pilih waktu edukasi yang lebih siap."
+    },
+    {
+      "q": "Dalam situasi “Pasien kognitif terbatas”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Libatkan pengambil keputusan/pendamping yang sah sambil tetap menghargai pasien.",
+        "Cara penyampaian perlu diperbaiki.",
+        "Tidak menyelesaikan hambatan bahasa atau pemahaman.",
+        "Perlu persetujuan dan kewenangan."
+      ],
+      "answer": 0,
+      "why": "Libatkan pengambil keputusan/pendamping yang sah sambil tetap menghargai pasien."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Hambatan harus diidentifikasi” adalah…",
+      "options": [
+        "Tidak menyelesaikan hambatan bahasa atau pemahaman.",
+        "Bahasa, pendengaran, penglihatan, kognitif, fisik, budaya, usia, dan kondisi klinis dapat menghambat pelayanan.",
+        "Meningkatkan salah tafsir.",
+        "Media harus sesuai kemampuan."
+      ],
+      "answer": 1,
+      "why": "Bahasa, pendengaran, penglihatan, kognitif, fisik, budaya, usia, dan kondisi klinis dapat menghambat pelayanan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Akomodasi disesuaikan individu” adalah…",
+      "options": [
+        "Perlu persetujuan dan kewenangan.",
+        "Jangan mengasumsikan semua pasien dengan kondisi sama memiliki kebutuhan sama.",
+        "Media harus sesuai kemampuan.",
+        "Cara penyampaian perlu diperbaiki."
+      ],
+      "answer": 1,
+      "why": "Jangan mengasumsikan semua pasien dengan kondisi sama memiliki kebutuhan sama."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Penerjemah harus sesuai proses” adalah…",
+      "options": [
+        "Meningkatkan salah tafsir.",
+        "Kerahasiaan dan akurasi perlu dijaga; anak sebaiknya tidak dijadikan penerjemah rutin.",
+        "Cara penyampaian perlu diperbaiki.",
+        "Tidak menyelesaikan hambatan bahasa atau pemahaman."
+      ],
+      "answer": 1,
+      "why": "Kerahasiaan dan akurasi perlu dijaga; anak sebaiknya tidak dijadikan penerjemah rutin."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "hambatan komunikasi",
+    "penerjemah",
+    "disabilitas",
+    "literasi"
+  ]
+}

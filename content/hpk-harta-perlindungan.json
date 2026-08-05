@@ -1,0 +1,336 @@
+{
+  "id": "hpk-harta-perlindungan",
+  "group": "hpk",
+  "title": "HPK 1.4 dan HPK 1.5 — Harta Benda dan Perlindungan Pasien Rentan",
+  "short": "HPK 1.4–1.5",
+  "desc": "Pengamanan barang pasien serta perlindungan dari kekerasan, pelecehan, penculikan, dan akses tidak sah.",
+  "category": "HPK",
+  "color": "#B64B73",
+  "soft": "#FFF0F6",
+  "icon": "rights",
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "minutes": 13,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Barang pasien perlu jejak serah terima",
+            "text": "Uang, perhiasan, gawai, dokumen, dan alat bantu dicatat sesuai kebijakan."
+          },
+          {
+            "title": "Pasien tanpa pendamping lebih berisiko",
+            "text": "Pasien tidak sadar, anak, lansia, atau gangguan kognitif memerlukan pengamanan khusus."
+          },
+          {
+            "title": "Perlindungan mencakup fisik dan verbal",
+            "text": "Kekerasan, intimidasi, pelecehan, penelantaran, dan ancaman harus dikenali."
+          },
+          {
+            "title": "Area terpencil perlu pengawasan",
+            "text": "Risiko meningkat pada lokasi tanpa pengawasan atau akses terbatas."
+          },
+          {
+            "title": "Keselamatan korban didahulukan",
+            "text": "Jangan menghadapkan korban dengan terduga pelaku tanpa rencana aman."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Inventarisasi",
+            "text": "Catat barang dan kondisi bersama saksi sesuai proses."
+          },
+          {
+            "title": "Amankan",
+            "text": "Gunakan tempat/serah terima yang ditetapkan."
+          },
+          {
+            "title": "Kenali tanda kerentanan",
+            "text": "Cedera tidak konsisten, ketakutan, kontrol berlebihan, atau pengabaian."
+          },
+          {
+            "title": "Lindungi dan laporkan",
+            "text": "Pisahkan dari ancaman bila aman dan gunakan jalur perlindungan."
+          },
+          {
+            "title": "Dokumentasikan objektif",
+            "text": "Catat temuan dan ucapan pasien tanpa kesimpulan spekulatif."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pasien tidak sadar datang dengan barang berharga",
+            "text": "Inventarisasi, saksi, simpan/serahkan sesuai kebijakan."
+          },
+          {
+            "title": "Anak tampak takut pada pendamping",
+            "text": "Wawancara sesuai kompetensi dan aktifkan jalur perlindungan."
+          },
+          {
+            "title": "Orang tanpa identitas masuk unit",
+            "text": "Batasi akses dan hubungi keamanan."
+          },
+          {
+            "title": "Pasien melaporkan pelecehan",
+            "text": "Dengarkan, percaya secara profesional, amankan, dan laporkan."
+          },
+          {
+            "title": "Barang hilang",
+            "text": "Jangan menuduh; ikuti proses pelaporan dan investigasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menyimpan barang di laci tanpa catatan",
+            "text": "Tidak ada akuntabilitas."
+          },
+          {
+            "title": "Menginterogasi korban",
+            "text": "Dapat menambah trauma dan mengganggu investigasi."
+          },
+          {
+            "title": "Membahas dugaan kekerasan di ruang terbuka",
+            "text": "Membahayakan privasi dan keselamatan."
+          },
+          {
+            "title": "Menganggap keluarga pasti aman",
+            "text": "Ancaman dapat berasal dari orang dekat."
+          },
+          {
+            "title": "Menghadapi pelaku sendirian",
+            "text": "Dapat membahayakan staf dan pasien."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Mengamankan barang",
+            "text": "Ikuti daftar, saksi, dan serah terima."
+          },
+          {
+            "title": "Mengenali kerentanan",
+            "text": "Kaji risiko secara sensitif."
+          },
+          {
+            "title": "Menjaga privasi",
+            "text": "Batasi informasi kepada pihak berwenang."
+          },
+          {
+            "title": "Mengaktifkan dukungan",
+            "text": "Koordinasi keamanan, dokter, sosial, dan pihak terkait."
+          },
+          {
+            "title": "Mendokumentasikan fakta",
+            "text": "Gunakan bahasa objektif dan tepat waktu."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Uang, perhiasan, gawai, dokumen, dan alat bantu dicatat sesuai kebijakan.",
+        "Pasien tidak sadar, anak, lansia, atau gangguan kognitif memerlukan pengamanan khusus.",
+        "Kekerasan, intimidasi, pelecehan, penelantaran, dan ancaman harus dikenali."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Inventarisasi: Catat barang dan kondisi bersama saksi sesuai proses.",
+        "Amankan: Gunakan tempat/serah terima yang ditetapkan.",
+        "Kenali tanda kerentanan: Cedera tidak konsisten, ketakutan, kontrol berlebihan, atau pengabaian."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Pasien tidak sadar datang dengan barang berharga: Inventarisasi, saksi, simpan/serahkan sesuai kebijakan.",
+        "Anak tampak takut pada pendamping: Wawancara sesuai kompetensi dan aktifkan jalur perlindungan.",
+        "Orang tanpa identitas masuk unit: Batasi akses dan hubungi keamanan."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Ikuti daftar, saksi, dan serah terima.",
+        "Kaji risiko secara sensitif.",
+        "Batasi informasi kepada pihak berwenang."
+      ]
+    }
+  ],
+  "do": [
+    "Inventarisasi, saksi, simpan/serahkan sesuai kebijakan.",
+    "Wawancara sesuai kompetensi dan aktifkan jalur perlindungan.",
+    "Batasi akses dan hubungi keamanan.",
+    "Dengarkan, percaya secara profesional, amankan, dan laporkan.",
+    "Jangan menuduh; ikuti proses pelaporan dan investigasi."
+  ],
+  "dont": [
+    "Tidak ada akuntabilitas.",
+    "Dapat menambah trauma dan mengganggu investigasi.",
+    "Membahayakan privasi dan keselamatan.",
+    "Ancaman dapat berasal dari orang dekat.",
+    "Dapat membahayakan staf dan pasien."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Pasien tidak sadar datang dengan barang berharga”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Inventarisasi, saksi, simpan/serahkan sesuai kebijakan.",
+        "Tidak ada akuntabilitas.",
+        "Dapat menambah trauma dan mengganggu investigasi.",
+        "Membahayakan privasi dan keselamatan."
+      ],
+      "answer": 0,
+      "why": "Inventarisasi, saksi, simpan/serahkan sesuai kebijakan."
+    },
+    {
+      "q": "Dalam situasi “Anak tampak takut pada pendamping”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Dapat menambah trauma dan mengganggu investigasi.",
+        "Membahayakan privasi dan keselamatan.",
+        "Ancaman dapat berasal dari orang dekat.",
+        "Wawancara sesuai kompetensi dan aktifkan jalur perlindungan."
+      ],
+      "answer": 3,
+      "why": "Wawancara sesuai kompetensi dan aktifkan jalur perlindungan."
+    },
+    {
+      "q": "Dalam situasi “Orang tanpa identitas masuk unit”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Ancaman dapat berasal dari orang dekat.",
+        "Dapat membahayakan staf dan pasien.",
+        "Batasi akses dan hubungi keamanan.",
+        "Membahayakan privasi dan keselamatan."
+      ],
+      "answer": 2,
+      "why": "Batasi akses dan hubungi keamanan."
+    },
+    {
+      "q": "Dalam situasi “Pasien melaporkan pelecehan”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tidak ada akuntabilitas.",
+        "Dengarkan, percaya secara profesional, amankan, dan laporkan.",
+        "Ancaman dapat berasal dari orang dekat.",
+        "Dapat membahayakan staf dan pasien."
+      ],
+      "answer": 1,
+      "why": "Dengarkan, percaya secara profesional, amankan, dan laporkan."
+    },
+    {
+      "q": "Dalam situasi “Barang hilang”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Jangan menuduh; ikuti proses pelaporan dan investigasi.",
+        "Dapat membahayakan staf dan pasien.",
+        "Tidak ada akuntabilitas.",
+        "Dapat menambah trauma dan mengganggu investigasi."
+      ],
+      "answer": 0,
+      "why": "Jangan menuduh; ikuti proses pelaporan dan investigasi."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Barang pasien perlu jejak serah terima” adalah…",
+      "options": [
+        "Tidak ada akuntabilitas.",
+        "Uang, perhiasan, gawai, dokumen, dan alat bantu dicatat sesuai kebijakan.",
+        "Membahayakan privasi dan keselamatan.",
+        "Ancaman dapat berasal dari orang dekat."
+      ],
+      "answer": 1,
+      "why": "Uang, perhiasan, gawai, dokumen, dan alat bantu dicatat sesuai kebijakan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Pasien tanpa pendamping lebih berisiko” adalah…",
+      "options": [
+        "Dapat menambah trauma dan mengganggu investigasi.",
+        "Pasien tidak sadar, anak, lansia, atau gangguan kognitif memerlukan pengamanan khusus.",
+        "Ancaman dapat berasal dari orang dekat.",
+        "Dapat membahayakan staf dan pasien."
+      ],
+      "answer": 1,
+      "why": "Pasien tidak sadar, anak, lansia, atau gangguan kognitif memerlukan pengamanan khusus."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Perlindungan mencakup fisik dan verbal” adalah…",
+      "options": [
+        "Membahayakan privasi dan keselamatan.",
+        "Kekerasan, intimidasi, pelecehan, penelantaran, dan ancaman harus dikenali.",
+        "Dapat membahayakan staf dan pasien.",
+        "Tidak ada akuntabilitas."
+      ],
+      "answer": 1,
+      "why": "Kekerasan, intimidasi, pelecehan, penelantaran, dan ancaman harus dikenali."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "harta pasien",
+    "kekerasan",
+    "pasien rentan",
+    "pelecehan",
+    "penculikan"
+  ]
+}

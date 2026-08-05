@@ -1,0 +1,336 @@
+{
+  "id": "hpk-penolakan-dnr",
+  "group": "hpk",
+  "title": "HPK 2.1 dan HPK 2.2 — Penolakan Terapi, DNR, Nyeri, dan Akhir Hayat",
+  "short": "HPK 2.1–2.2",
+  "desc": "Hak pasien menolak, perbedaan DNR, kenyamanan, pengelolaan nyeri, dan martabat akhir hayat.",
+  "category": "HPK",
+  "color": "#B64B73",
+  "soft": "#FFF0F6",
+  "icon": "rights",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 14,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Penolakan membutuhkan informasi",
+            "text": "Pasien memahami kondisi, manfaat, risiko, konsekuensi, dan alternatif."
+          },
+          {
+            "title": "DNR hanya terkait resusitasi",
+            "text": "DNR tidak otomatis menghentikan obat, nutrisi, oksigen, perawatan, atau kenyamanan."
+          },
+          {
+            "title": "Penghentian terapi penunjang berbeda",
+            "text": "Keputusan kompleks memerlukan proses, kewenangan, dan dokumentasi khusus."
+          },
+          {
+            "title": "Nyeri adalah hak untuk dinilai dan dikelola",
+            "text": "Keluhan tidak boleh diabaikan atau dinilai berdasarkan asumsi."
+          },
+          {
+            "title": "Akhir hayat berfokus pada kenyamanan dan martabat",
+            "text": "Kebutuhan fisik, psikologis, sosial, dan spiritual dipertimbangkan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Pastikan kapasitas dan informasi",
+            "text": "Koordinasikan penjelasan oleh pihak berwenang."
+          },
+          {
+            "title": "Gali nilai dan tujuan",
+            "text": "Dengarkan alasan dan preferensi."
+          },
+          {
+            "title": "Dokumentasikan keputusan",
+            "text": "Pastikan status terlihat dan dikomunikasikan ke tim."
+          },
+          {
+            "title": "Teruskan asuhan yang disepakati",
+            "text": "Jangan menelantarkan pasien."
+          },
+          {
+            "title": "Evaluasi berkala",
+            "text": "Keputusan dan gejala dapat berubah."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pasien menolak transfusi",
+            "text": "Hargai, pastikan informasi, dokumentasikan, dan diskusikan alternatif."
+          },
+          {
+            "title": "Pasien DNR sesak",
+            "text": "Tetap berikan penanganan yang disepakati; DNR bukan “do not treat”."
+          },
+          {
+            "title": "Keluarga meminta DNR tanpa proses",
+            "text": "Hubungi DPJP dan ikuti proses pengambilan keputusan."
+          },
+          {
+            "title": "Nyeri berat di akhir hayat",
+            "text": "Lakukan pengkajian, eskalasi, dan intervensi kenyamanan."
+          },
+          {
+            "title": "Pasien berubah pikiran",
+            "text": "Laporkan dan perbarui dokumentasi sesuai proses."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menghakimi penolakan",
+            "text": "Merusak kepercayaan."
+          },
+          {
+            "title": "Menganggap DNR berarti tidak perlu monitoring",
+            "text": "Asuhan tetap berjalan sesuai tujuan."
+          },
+          {
+            "title": "Menulis status DNR tidak jelas",
+            "text": "Tim dapat memberikan tindakan yang bertentangan."
+          },
+          {
+            "title": "Menunda analgesia karena takut adiksi tanpa penilaian",
+            "text": "Nyeri harus dikelola secara klinis."
+          },
+          {
+            "title": "Membicarakan akhir hayat tanpa privasi",
+            "text": "Mengabaikan martabat pasien."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Menghormati keputusan",
+            "text": "Tanpa memaksa atau menghukum."
+          },
+          {
+            "title": "Menjaga komunikasi tim",
+            "text": "Pastikan semua shift memahami rencana."
+          },
+          {
+            "title": "Melakukan pengkajian gejala",
+            "text": "Nyeri, sesak, kecemasan, delirium, dan kebutuhan keluarga."
+          },
+          {
+            "title": "Memberikan perawatan kenyamanan",
+            "text": "Posisi, kebersihan, lingkungan, dan dukungan."
+          },
+          {
+            "title": "Mendokumentasikan respons",
+            "text": "Catat perubahan dan tindak lanjut."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Pasien memahami kondisi, manfaat, risiko, konsekuensi, dan alternatif.",
+        "DNR tidak otomatis menghentikan obat, nutrisi, oksigen, perawatan, atau kenyamanan.",
+        "Keputusan kompleks memerlukan proses, kewenangan, dan dokumentasi khusus."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Pastikan kapasitas dan informasi: Koordinasikan penjelasan oleh pihak berwenang.",
+        "Gali nilai dan tujuan: Dengarkan alasan dan preferensi.",
+        "Dokumentasikan keputusan: Pastikan status terlihat dan dikomunikasikan ke tim."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Pasien menolak transfusi: Hargai, pastikan informasi, dokumentasikan, dan diskusikan alternatif.",
+        "Pasien DNR sesak: Tetap berikan penanganan yang disepakati; DNR bukan “do not treat”.",
+        "Keluarga meminta DNR tanpa proses: Hubungi DPJP dan ikuti proses pengambilan keputusan."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Tanpa memaksa atau menghukum.",
+        "Pastikan semua shift memahami rencana.",
+        "Nyeri, sesak, kecemasan, delirium, dan kebutuhan keluarga."
+      ]
+    }
+  ],
+  "do": [
+    "Hargai, pastikan informasi, dokumentasikan, dan diskusikan alternatif.",
+    "Tetap berikan penanganan yang disepakati; DNR bukan “do not treat”.",
+    "Hubungi DPJP dan ikuti proses pengambilan keputusan.",
+    "Lakukan pengkajian, eskalasi, dan intervensi kenyamanan.",
+    "Laporkan dan perbarui dokumentasi sesuai proses."
+  ],
+  "dont": [
+    "Merusak kepercayaan.",
+    "Asuhan tetap berjalan sesuai tujuan.",
+    "Tim dapat memberikan tindakan yang bertentangan.",
+    "Nyeri harus dikelola secara klinis.",
+    "Mengabaikan martabat pasien."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Pasien menolak transfusi”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Hargai, pastikan informasi, dokumentasikan, dan diskusikan alternatif.",
+        "Merusak kepercayaan.",
+        "Asuhan tetap berjalan sesuai tujuan.",
+        "Tim dapat memberikan tindakan yang bertentangan."
+      ],
+      "answer": 0,
+      "why": "Hargai, pastikan informasi, dokumentasikan, dan diskusikan alternatif."
+    },
+    {
+      "q": "Dalam situasi “Pasien DNR sesak”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Asuhan tetap berjalan sesuai tujuan.",
+        "Tim dapat memberikan tindakan yang bertentangan.",
+        "Nyeri harus dikelola secara klinis.",
+        "Tetap berikan penanganan yang disepakati; DNR bukan “do not treat”."
+      ],
+      "answer": 3,
+      "why": "Tetap berikan penanganan yang disepakati; DNR bukan “do not treat”."
+    },
+    {
+      "q": "Dalam situasi “Keluarga meminta DNR tanpa proses”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Nyeri harus dikelola secara klinis.",
+        "Mengabaikan martabat pasien.",
+        "Hubungi DPJP dan ikuti proses pengambilan keputusan.",
+        "Tim dapat memberikan tindakan yang bertentangan."
+      ],
+      "answer": 2,
+      "why": "Hubungi DPJP dan ikuti proses pengambilan keputusan."
+    },
+    {
+      "q": "Dalam situasi “Nyeri berat di akhir hayat”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Merusak kepercayaan.",
+        "Lakukan pengkajian, eskalasi, dan intervensi kenyamanan.",
+        "Nyeri harus dikelola secara klinis.",
+        "Mengabaikan martabat pasien."
+      ],
+      "answer": 1,
+      "why": "Lakukan pengkajian, eskalasi, dan intervensi kenyamanan."
+    },
+    {
+      "q": "Dalam situasi “Pasien berubah pikiran”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Laporkan dan perbarui dokumentasi sesuai proses.",
+        "Mengabaikan martabat pasien.",
+        "Merusak kepercayaan.",
+        "Asuhan tetap berjalan sesuai tujuan."
+      ],
+      "answer": 0,
+      "why": "Laporkan dan perbarui dokumentasi sesuai proses."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Penolakan membutuhkan informasi” adalah…",
+      "options": [
+        "Merusak kepercayaan.",
+        "Pasien memahami kondisi, manfaat, risiko, konsekuensi, dan alternatif.",
+        "Tim dapat memberikan tindakan yang bertentangan.",
+        "Nyeri harus dikelola secara klinis."
+      ],
+      "answer": 1,
+      "why": "Pasien memahami kondisi, manfaat, risiko, konsekuensi, dan alternatif."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “DNR hanya terkait resusitasi” adalah…",
+      "options": [
+        "Asuhan tetap berjalan sesuai tujuan.",
+        "DNR tidak otomatis menghentikan obat, nutrisi, oksigen, perawatan, atau kenyamanan.",
+        "Nyeri harus dikelola secara klinis.",
+        "Mengabaikan martabat pasien."
+      ],
+      "answer": 1,
+      "why": "DNR tidak otomatis menghentikan obat, nutrisi, oksigen, perawatan, atau kenyamanan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Penghentian terapi penunjang berbeda” adalah…",
+      "options": [
+        "Tim dapat memberikan tindakan yang bertentangan.",
+        "Keputusan kompleks memerlukan proses, kewenangan, dan dokumentasi khusus.",
+        "Mengabaikan martabat pasien.",
+        "Merusak kepercayaan."
+      ],
+      "answer": 1,
+      "why": "Keputusan kompleks memerlukan proses, kewenangan, dan dokumentasi khusus."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "dnr",
+    "penolakan terapi",
+    "akhir hayat",
+    "nyeri",
+    "paliatif"
+  ]
+}

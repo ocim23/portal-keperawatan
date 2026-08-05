@@ -1,16 +1,16 @@
 {
   "id": "skp-ringkasan",
   "group": "skp",
-  "title": "Ringkasan 6 SKP",
+  "title": "Ringkasan 6 Sasaran Keselamatan Pasien",
   "short": "Ringkasan 6 SKP",
-  "desc": "Peta enam sasaran keselamatan pasien, risiko yang dicegah, dan contoh penerapannya.",
+  "desc": "Urutan dan nama baku enam sasaran nasional beserta inti penerapannya.",
   "category": "SKP",
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
   "minutes": 20,
   "updated": "2026-08-05",
-  "notice": "",
+  "notice": "Nama enam sasaran ditampilkan dengan redaksi baku. Gunakan urutan ini saat belajar dan menjawab surveior.",
   "quizDisplayCount": 5,
   "slides": [
     {
@@ -19,6 +19,42 @@
       "caption": "Enam sasaran, satu tujuan: mencegah pasien menerima pelayanan yang salah atau tidak aman.",
       "image": "assets/images/v4/skp-ringkasan/skp-ringkasan-01.webp",
       "thumbnail": "assets/images/thumb/v4/skp-ringkasan/skp-ringkasan-01.webp"
+    },
+    {
+      "type": "html",
+      "title": "Enam Sasaran Keselamatan Pasien",
+      "caption": "Nama baku dan inti penerapan yang perlu diingat secara berurutan.",
+      "template": {
+        "style": "bands",
+        "columns": 2,
+        "note": "Nomor dan redaksi sasaran dipertahankan agar selaras dengan referensi akreditasi.",
+        "items": [
+          {
+            "title": "Sasaran 1 — Mengidentifikasi pasien dengan benar",
+            "text": "Gunakan minimal dua identitas. Contoh identitas: nama lengkap, tanggal lahir, NIK, atau nomor rekam medis sesuai regulasi; bukan nomor kamar atau lokasi."
+          },
+          {
+            "title": "Sasaran 2 — Meningkatkan komunikasi yang efektif",
+            "text": "Gunakan TBaK/read-back, SBAR, serah terima terstruktur, hasil kritis, dan closed-loop communication."
+          },
+          {
+            "title": "Sasaran 3 — Meningkatkan keamanan obat-obatan yang harus diwaspadai",
+            "text": "Kenali high-alert, LASA/NORUM, elektrolit konsentrat, serta pengaman penyimpanan, penyiapan, pemberian, dan pemantauan."
+          },
+          {
+            "title": "Sasaran 4 — Memastikan sisi yang benar, prosedur yang benar, pasien yang benar pada pembedahan/tindakan invasif",
+            "text": "Lakukan verifikasi praoperasi, penandaan lokasi, Surgical Safety Checklist, dan time-out sebelum tindakan."
+          },
+          {
+            "title": "Sasaran 5 — Mengurangi risiko infeksi akibat perawatan kesehatan",
+            "text": "Terapkan kebersihan tangan, teknik aseptik, APD, pengelolaan alat, dan kewaspadaan sesuai risiko."
+          },
+          {
+            "title": "Sasaran 6 — Mengurangi risiko cedera pasien akibat jatuh",
+            "text": "Lakukan skrining/pengkajian, intervensi individual, edukasi, pemantauan, dan asesmen ulang."
+          }
+        ]
+      }
     },
     {
       "type": "html",
@@ -368,5 +404,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib"
 }

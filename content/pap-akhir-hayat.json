@@ -1,9 +1,9 @@
 {
   "id": "pap-akhir-hayat",
   "group": "pap",
-  "title": "Pelayanan Menjelang Akhir Hayat dan DNR",
-  "short": "Akhir Hayat & DNR",
-  "desc": "Perawatan berpusat pada kenyamanan, tujuan pasien, komunikasi, dukungan keluarga, dan kejelasan keputusan resusitasi.",
+  "title": "PAP 5 — Pelayanan Menjelang Akhir Hayat",
+  "short": "PAP 5",
+  "desc": "Kenyamanan, martabat, gejala, komunikasi, keluarga, dan kebutuhan spiritual.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
@@ -392,5 +392,7 @@
       "org": "NHS",
       "url": "https://www.nhs.uk/tests-and-treatments/do-not-attempt-cardiopulmonary-resuscitation-dnacpr-decisions/"
     }
-  ]
+  ],
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib"
 }

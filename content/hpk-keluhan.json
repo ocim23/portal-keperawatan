@@ -1,0 +1,335 @@
+{
+  "id": "hpk-keluhan",
+  "group": "hpk",
+  "title": "HPK 3 — Keluhan, Konflik, dan Perbedaan Pendapat",
+  "short": "HPK 3",
+  "desc": "Menerima keluhan dengan empati, menjaga keselamatan, dan mengarahkan penyelesaian tanpa mengurangi pelayanan.",
+  "category": "HPK",
+  "color": "#B64B73",
+  "soft": "#FFF0F6",
+  "icon": "rights",
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "minutes": 13,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Keluhan adalah hak pasien",
+            "text": "Penyampaian keluhan tidak boleh menurunkan mutu pelayanan."
+          },
+          {
+            "title": "Respons awal menentukan eskalasi",
+            "text": "Mendengar dan mengakui emosi dapat menurunkan ketegangan."
+          },
+          {
+            "title": "Keselamatan tetap prioritas",
+            "text": "Keluhan klinis mendesak ditangani sebelum proses administratif."
+          },
+          {
+            "title": "Staf perlu tahu jalur",
+            "text": "Siapa penanggung jawab, batas kewenangan, dan cara dokumentasi harus jelas."
+          },
+          {
+            "title": "Konflik memerlukan proses adil",
+            "text": "Pasien/keluarga dilibatkan dan diberi informasi tindak lanjut."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Dengarkan",
+            "text": "Jangan menyela dan jaga lingkungan aman."
+          },
+          {
+            "title": "Tunjukkan empati",
+            "text": "Akui pengalaman tanpa langsung mengakui kesalahan yang belum diketahui."
+          },
+          {
+            "title": "Klarifikasi",
+            "text": "Ringkas masalah dan kebutuhan utama."
+          },
+          {
+            "title": "Tindak lanjuti",
+            "text": "Atasi yang dapat dilakukan dan eskalasi sisanya."
+          },
+          {
+            "title": "Dokumentasikan dan beri kabar",
+            "text": "Jelaskan siapa yang menindaklanjuti serta kapan pasien mendapat respons."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Keluarga marah karena menunggu",
+            "text": "Dengarkan, cek status nyata, jelaskan, dan hubungi penanggung jawab."
+          },
+          {
+            "title": "Keluhan tentang nyeri",
+            "text": "Nilai dan tangani kebutuhan klinis segera."
+          },
+          {
+            "title": "Permintaan di luar kewenangan",
+            "text": "Jangan menjanjikan; hubungkan dengan pihak yang tepat."
+          },
+          {
+            "title": "Ancaman kekerasan",
+            "text": "Jaga jarak, lindungi pasien/staf, dan aktifkan keamanan."
+          },
+          {
+            "title": "Keluhan berulang",
+            "text": "Pastikan masalah sistem diteruskan ke mutu/manajemen."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Membela diri sebelum mendengar",
+            "text": "Meningkatkan konflik."
+          },
+          {
+            "title": "Mengatakan “bukan bagian saya”",
+            "text": "Pasien tetap perlu diarahkan."
+          },
+          {
+            "title": "Menjanjikan hasil",
+            "text": "Menciptakan ekspektasi yang tidak dapat dipenuhi."
+          },
+          {
+            "title": "Mendiskusikan keluhan di tempat umum",
+            "text": "Melanggar privasi."
+          },
+          {
+            "title": "Mengurangi perhatian setelah pasien mengadu",
+            "text": "Bertentangan dengan hak pasien."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Menjaga nada tenang",
+            "text": "Gunakan kalimat pendek dan empatik."
+          },
+          {
+            "title": "Mengenali batas",
+            "text": "Eskalasi bila di luar kewenangan."
+          },
+          {
+            "title": "Melindungi keselamatan",
+            "text": "Pisahkan kebutuhan klinis dan administratif."
+          },
+          {
+            "title": "Memberi informasi tindak lanjut",
+            "text": "Jangan membiarkan pasien tanpa kepastian."
+          },
+          {
+            "title": "Mencatat fakta",
+            "text": "Hindari label seperti “pasien sulit”."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Penyampaian keluhan tidak boleh menurunkan mutu pelayanan.",
+        "Mendengar dan mengakui emosi dapat menurunkan ketegangan.",
+        "Keluhan klinis mendesak ditangani sebelum proses administratif."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Dengarkan: Jangan menyela dan jaga lingkungan aman.",
+        "Tunjukkan empati: Akui pengalaman tanpa langsung mengakui kesalahan yang belum diketahui.",
+        "Klarifikasi: Ringkas masalah dan kebutuhan utama."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Keluarga marah karena menunggu: Dengarkan, cek status nyata, jelaskan, dan hubungi penanggung jawab.",
+        "Keluhan tentang nyeri: Nilai dan tangani kebutuhan klinis segera.",
+        "Permintaan di luar kewenangan: Jangan menjanjikan; hubungkan dengan pihak yang tepat."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Gunakan kalimat pendek dan empatik.",
+        "Eskalasi bila di luar kewenangan.",
+        "Pisahkan kebutuhan klinis dan administratif."
+      ]
+    }
+  ],
+  "do": [
+    "Dengarkan, cek status nyata, jelaskan, dan hubungi penanggung jawab.",
+    "Nilai dan tangani kebutuhan klinis segera.",
+    "Jangan menjanjikan; hubungkan dengan pihak yang tepat.",
+    "Jaga jarak, lindungi pasien/staf, dan aktifkan keamanan.",
+    "Pastikan masalah sistem diteruskan ke mutu/manajemen."
+  ],
+  "dont": [
+    "Meningkatkan konflik.",
+    "Pasien tetap perlu diarahkan.",
+    "Menciptakan ekspektasi yang tidak dapat dipenuhi.",
+    "Melanggar privasi.",
+    "Bertentangan dengan hak pasien."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Keluarga marah karena menunggu”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Dengarkan, cek status nyata, jelaskan, dan hubungi penanggung jawab.",
+        "Meningkatkan konflik.",
+        "Pasien tetap perlu diarahkan.",
+        "Menciptakan ekspektasi yang tidak dapat dipenuhi."
+      ],
+      "answer": 0,
+      "why": "Dengarkan, cek status nyata, jelaskan, dan hubungi penanggung jawab."
+    },
+    {
+      "q": "Dalam situasi “Keluhan tentang nyeri”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pasien tetap perlu diarahkan.",
+        "Menciptakan ekspektasi yang tidak dapat dipenuhi.",
+        "Melanggar privasi.",
+        "Nilai dan tangani kebutuhan klinis segera."
+      ],
+      "answer": 3,
+      "why": "Nilai dan tangani kebutuhan klinis segera."
+    },
+    {
+      "q": "Dalam situasi “Permintaan di luar kewenangan”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Melanggar privasi.",
+        "Bertentangan dengan hak pasien.",
+        "Jangan menjanjikan; hubungkan dengan pihak yang tepat.",
+        "Menciptakan ekspektasi yang tidak dapat dipenuhi."
+      ],
+      "answer": 2,
+      "why": "Jangan menjanjikan; hubungkan dengan pihak yang tepat."
+    },
+    {
+      "q": "Dalam situasi “Ancaman kekerasan”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Meningkatkan konflik.",
+        "Jaga jarak, lindungi pasien/staf, dan aktifkan keamanan.",
+        "Melanggar privasi.",
+        "Bertentangan dengan hak pasien."
+      ],
+      "answer": 1,
+      "why": "Jaga jarak, lindungi pasien/staf, dan aktifkan keamanan."
+    },
+    {
+      "q": "Dalam situasi “Keluhan berulang”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pastikan masalah sistem diteruskan ke mutu/manajemen.",
+        "Bertentangan dengan hak pasien.",
+        "Meningkatkan konflik.",
+        "Pasien tetap perlu diarahkan."
+      ],
+      "answer": 0,
+      "why": "Pastikan masalah sistem diteruskan ke mutu/manajemen."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Keluhan adalah hak pasien” adalah…",
+      "options": [
+        "Meningkatkan konflik.",
+        "Penyampaian keluhan tidak boleh menurunkan mutu pelayanan.",
+        "Menciptakan ekspektasi yang tidak dapat dipenuhi.",
+        "Melanggar privasi."
+      ],
+      "answer": 1,
+      "why": "Penyampaian keluhan tidak boleh menurunkan mutu pelayanan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Respons awal menentukan eskalasi” adalah…",
+      "options": [
+        "Pasien tetap perlu diarahkan.",
+        "Mendengar dan mengakui emosi dapat menurunkan ketegangan.",
+        "Melanggar privasi.",
+        "Bertentangan dengan hak pasien."
+      ],
+      "answer": 1,
+      "why": "Mendengar dan mengakui emosi dapat menurunkan ketegangan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Keselamatan tetap prioritas” adalah…",
+      "options": [
+        "Menciptakan ekspektasi yang tidak dapat dipenuhi.",
+        "Keluhan klinis mendesak ditangani sebelum proses administratif.",
+        "Bertentangan dengan hak pasien.",
+        "Meningkatkan konflik."
+      ],
+      "answer": 1,
+      "why": "Keluhan klinis mendesak ditangani sebelum proses administratif."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "keluhan pasien",
+    "komplain",
+    "konflik",
+    "pengaduan"
+  ]
+}

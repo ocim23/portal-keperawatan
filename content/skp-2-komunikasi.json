@@ -1,9 +1,9 @@
 {
   "id": "skp-2-komunikasi",
   "group": "skp",
-  "title": "SKP 2 — Komunikasi Efektif",
+  "title": "SKP 2 — Meningkatkan Komunikasi yang Efektif",
   "short": "SKP 2",
-  "desc": "Komunikasi hasil kritis, instruksi verbal/telepon, serah terima, dan closed-loop.",
+  "desc": "TBaK, SBAR, serah terima, hasil kritis, dan closed-loop communication.",
   "category": "SKP",
   "color": "#0B7285",
   "soft": "#E6F7FA",
@@ -54,6 +54,42 @@
         ],
         "columns": 2,
         "note": "Bila ada angka atau nama obat yang meragukan, minta ejaan/penegasan—jangan mengisi sendiri."
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik: contoh SBAR dan serah terima",
+      "caption": "Latihan singkat untuk menjawab permintaan simulasi surveior.",
+      "template": {
+        "style": "practice",
+        "columns": 2,
+        "note": "Isi klinis harus disesuaikan dengan pasien nyata dan kebijakan rumah sakit.",
+        "items": [
+          {
+            "title": "S — Situation",
+            "text": "“Dok, saya perawat Rina di ruang X. Pasien Bapak A mendadak sesak sejak 10 menit, SpO₂ turun menjadi 88%.”"
+          },
+          {
+            "title": "B — Background",
+            "text": "“Masuk dengan pneumonia, memakai O₂ 3 L/menit, sebelumnya SpO₂ 95%, tidak ada alergi yang tercatat.”"
+          },
+          {
+            "title": "A — Assessment",
+            "text": "“RR 32/menit, nadi 118, tekanan darah 100/64, suara napas memburuk. Saya menilai pasien mengalami perburukan respirasi.”"
+          },
+          {
+            "title": "R — Recommendation",
+            "text": "“Mohon evaluasi segera. Apakah O₂ dinaikkan dan pemeriksaan tambahan disiapkan sambil saya aktifkan eskalasi?”"
+          },
+          {
+            "title": "Serah terima",
+            "text": "Sampaikan identitas, kondisi terkini, risiko, terapi/alat, hasil pending, tindakan yang sudah dilakukan, dan prioritas shift berikutnya."
+          },
+          {
+            "title": "Konfirmasi penerima",
+            "text": "Penerima mengulang prioritas dan diberi kesempatan bertanya; tanggung jawab berpindah secara jelas."
+          }
+        ]
       }
     },
     {
@@ -378,5 +414,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

@@ -1,9 +1,9 @@
 {
   "id": "hpk-hak-kewajiban",
   "group": "hpk",
-  "title": "Hak dan Kewajiban Pasien",
-  "short": "Pahami hak secara utuh dan terapkan dalam praktik",
-  "desc": "Menghormati hak pasien, menjelaskan tanggung jawab pasien, dan menerjemahkannya ke tindakan keperawatan sehari-hari.",
+  "title": "HPK 1 dan HPK 1.2 — Hak, Martabat, Nilai, Budaya, dan Spiritual",
+  "short": "HPK 1 & 1.2",
+  "desc": "Menghormati hak, martabat, nilai, budaya, agama, spiritual, dan pilihan pasien.",
   "category": "HPK",
   "color": "#A34D78",
   "soft": "#FFF0F7",
@@ -383,5 +383,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://jdih.kemkes.go.id/documents/peraturan-menteri-kesehatan-nomor-6-tahun-2026"
     }
-  ]
+  ],
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib"
 }

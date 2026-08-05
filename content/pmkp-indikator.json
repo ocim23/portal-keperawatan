@@ -1,0 +1,337 @@
+{
+  "id": "pmkp-indikator",
+  "group": "pmkp",
+  "title": "PMKP 3 — Pengumpulan Data Indikator Mutu",
+  "short": "PMKP 3",
+  "desc": "Memahami INM, IMP-RS, IMP-Unit, profil indikator, dan peran staf dalam data yang valid.",
+  "category": "PMKP",
+  "color": "#155E9A",
+  "soft": "#E9F4FF",
+  "icon": "target",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 11,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Indikator mengukur proses atau hasil",
+            "text": "Angka digunakan untuk melihat mutu, bukan sekadar memenuhi laporan."
+          },
+          {
+            "title": "Tiga tingkat umum",
+            "text": "INM, indikator prioritas rumah sakit, dan indikator prioritas unit memiliki tujuan berbeda."
+          },
+          {
+            "title": "Profil indikator adalah acuan",
+            "text": "Definisi, numerator, denominator, target, sumber, frekuensi, dan penanggung jawab harus jelas."
+          },
+          {
+            "title": "Data harus konsisten",
+            "text": "Kriteria inklusi/eksklusi diterapkan sama oleh seluruh pengumpul."
+          },
+          {
+            "title": "Staf perlu tahu indikator unit",
+            "text": "Perawat harus memahami apa yang diukur dan bagaimana praktiknya memengaruhi hasil."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Kenali definisi",
+            "text": "Pahami kejadian yang dihitung."
+          },
+          {
+            "title": "Ambil dari sumber yang ditetapkan",
+            "text": "Jangan memilih sumber yang paling mudah."
+          },
+          {
+            "title": "Catat lengkap dan tepat waktu",
+            "text": "Data klinis yang akurat menjadi dasar."
+          },
+          {
+            "title": "Periksa anomali",
+            "text": "Tanyakan bila angka tidak masuk akal."
+          },
+          {
+            "title": "Gunakan hasil",
+            "text": "Bahas capaian dan tindakan perbaikan di unit."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Menjelaskan indikator unit",
+            "text": "Sebutkan nama, tujuan, target, sumber data, dan peran perawat."
+          },
+          {
+            "title": "Menghitung kepatuhan sederhana",
+            "text": "Numerator adalah kejadian sesuai; denominator adalah peluang yang memenuhi kriteria."
+          },
+          {
+            "title": "Menemukan data kosong",
+            "text": "Telusuri sumber, jangan mengisi perkiraan."
+          },
+          {
+            "title": "Capaian turun",
+            "text": "Cari perubahan proses, bukan langsung menyalahkan staf."
+          },
+          {
+            "title": "Target tercapai",
+            "text": "Tetap pantau agar perbaikan bertahan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mengumpulkan tanpa definisi",
+            "text": "Angka antarpetugas tidak dapat dibandingkan."
+          },
+          {
+            "title": "Mengubah kriteria agar target tercapai",
+            "text": "Merusak validitas dan keselamatan."
+          },
+          {
+            "title": "Menganggap dokumentasi tidak memengaruhi mutu",
+            "text": "Data tidak tercatat dianggap tidak dilakukan."
+          },
+          {
+            "title": "Fokus pada angka tanpa pasien",
+            "text": "Indikator harus kembali pada kualitas pelayanan."
+          },
+          {
+            "title": "Menyimpan hasil tanpa umpan balik",
+            "text": "Staf tidak dapat memperbaiki proses."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Tahu indikator unit",
+            "text": "Mampu menjelaskan secara singkat."
+          },
+          {
+            "title": "Mencatat secara benar",
+            "text": "Gunakan waktu dan sumber yang tepat."
+          },
+          {
+            "title": "Mengklarifikasi definisi",
+            "text": "Jangan menafsir sendiri."
+          },
+          {
+            "title": "Mengikuti umpan balik",
+            "text": "Terapkan perubahan yang disepakati."
+          },
+          {
+            "title": "Melaporkan hambatan data",
+            "text": "Sistem, formulir, atau beban kerja perlu diperbaiki."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Angka digunakan untuk melihat mutu, bukan sekadar memenuhi laporan.",
+        "INM, indikator prioritas rumah sakit, dan indikator prioritas unit memiliki tujuan berbeda.",
+        "Definisi, numerator, denominator, target, sumber, frekuensi, dan penanggung jawab harus jelas."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Kenali definisi: Pahami kejadian yang dihitung.",
+        "Ambil dari sumber yang ditetapkan: Jangan memilih sumber yang paling mudah.",
+        "Catat lengkap dan tepat waktu: Data klinis yang akurat menjadi dasar."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Menjelaskan indikator unit: Sebutkan nama, tujuan, target, sumber data, dan peran perawat.",
+        "Menghitung kepatuhan sederhana: Numerator adalah kejadian sesuai; denominator adalah peluang yang memenuhi kriteria.",
+        "Menemukan data kosong: Telusuri sumber, jangan mengisi perkiraan."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Mampu menjelaskan secara singkat.",
+        "Gunakan waktu dan sumber yang tepat.",
+        "Jangan menafsir sendiri."
+      ]
+    }
+  ],
+  "do": [
+    "Sebutkan nama, tujuan, target, sumber data, dan peran perawat.",
+    "Numerator adalah kejadian sesuai; denominator adalah peluang yang memenuhi kriteria.",
+    "Telusuri sumber, jangan mengisi perkiraan.",
+    "Cari perubahan proses, bukan langsung menyalahkan staf.",
+    "Tetap pantau agar perbaikan bertahan."
+  ],
+  "dont": [
+    "Angka antarpetugas tidak dapat dibandingkan.",
+    "Merusak validitas dan keselamatan.",
+    "Data tidak tercatat dianggap tidak dilakukan.",
+    "Indikator harus kembali pada kualitas pelayanan.",
+    "Staf tidak dapat memperbaiki proses."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Menjelaskan indikator unit”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Sebutkan nama, tujuan, target, sumber data, dan peran perawat.",
+        "Angka antarpetugas tidak dapat dibandingkan.",
+        "Merusak validitas dan keselamatan.",
+        "Data tidak tercatat dianggap tidak dilakukan."
+      ],
+      "answer": 0,
+      "why": "Sebutkan nama, tujuan, target, sumber data, dan peran perawat."
+    },
+    {
+      "q": "Dalam situasi “Menghitung kepatuhan sederhana”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Merusak validitas dan keselamatan.",
+        "Data tidak tercatat dianggap tidak dilakukan.",
+        "Indikator harus kembali pada kualitas pelayanan.",
+        "Numerator adalah kejadian sesuai; denominator adalah peluang yang memenuhi kriteria."
+      ],
+      "answer": 3,
+      "why": "Numerator adalah kejadian sesuai; denominator adalah peluang yang memenuhi kriteria."
+    },
+    {
+      "q": "Dalam situasi “Menemukan data kosong”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Indikator harus kembali pada kualitas pelayanan.",
+        "Staf tidak dapat memperbaiki proses.",
+        "Telusuri sumber, jangan mengisi perkiraan.",
+        "Data tidak tercatat dianggap tidak dilakukan."
+      ],
+      "answer": 2,
+      "why": "Telusuri sumber, jangan mengisi perkiraan."
+    },
+    {
+      "q": "Dalam situasi “Capaian turun”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Angka antarpetugas tidak dapat dibandingkan.",
+        "Cari perubahan proses, bukan langsung menyalahkan staf.",
+        "Indikator harus kembali pada kualitas pelayanan.",
+        "Staf tidak dapat memperbaiki proses."
+      ],
+      "answer": 1,
+      "why": "Cari perubahan proses, bukan langsung menyalahkan staf."
+    },
+    {
+      "q": "Dalam situasi “Target tercapai”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Tetap pantau agar perbaikan bertahan.",
+        "Staf tidak dapat memperbaiki proses.",
+        "Angka antarpetugas tidak dapat dibandingkan.",
+        "Merusak validitas dan keselamatan."
+      ],
+      "answer": 0,
+      "why": "Tetap pantau agar perbaikan bertahan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Indikator mengukur proses atau hasil” adalah…",
+      "options": [
+        "Angka antarpetugas tidak dapat dibandingkan.",
+        "Angka digunakan untuk melihat mutu, bukan sekadar memenuhi laporan.",
+        "Data tidak tercatat dianggap tidak dilakukan.",
+        "Indikator harus kembali pada kualitas pelayanan."
+      ],
+      "answer": 1,
+      "why": "Angka digunakan untuk melihat mutu, bukan sekadar memenuhi laporan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Tiga tingkat umum” adalah…",
+      "options": [
+        "Merusak validitas dan keselamatan.",
+        "INM, indikator prioritas rumah sakit, dan indikator prioritas unit memiliki tujuan berbeda.",
+        "Indikator harus kembali pada kualitas pelayanan.",
+        "Staf tidak dapat memperbaiki proses."
+      ],
+      "answer": 1,
+      "why": "INM, indikator prioritas rumah sakit, dan indikator prioritas unit memiliki tujuan berbeda."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Profil indikator adalah acuan” adalah…",
+      "options": [
+        "Data tidak tercatat dianggap tidak dilakukan.",
+        "Definisi, numerator, denominator, target, sumber, frekuensi, dan penanggung jawab harus jelas.",
+        "Staf tidak dapat memperbaiki proses.",
+        "Angka antarpetugas tidak dapat dibandingkan."
+      ],
+      "answer": 1,
+      "why": "Definisi, numerator, denominator, target, sumber, frekuensi, dan penanggung jawab harus jelas."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "indikator mutu",
+    "inm",
+    "imprs",
+    "imput",
+    "numerator",
+    "denominator"
+  ]
+}

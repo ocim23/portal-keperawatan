@@ -1,9 +1,9 @@
 {
   "id": "pp-ulang-cppt",
   "group": "pp",
-  "title": "Pengkajian Ulang dan CPPT",
-  "short": "Pengkajian Ulang",
-  "desc": "Menilai perubahan dan respons pasien serta mengintegrasikan rencana melalui CPPT.",
+  "title": "PP 2 — Pengkajian Ulang Pasien",
+  "short": "PP 2",
+  "desc": "Pengkajian ulang minimal setiap shift atau saat kondisi berubah, terintegrasi dalam CPPT.",
   "category": "PP",
   "color": "#7B5EA7",
   "soft": "#F4EEFF",
@@ -382,5 +382,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

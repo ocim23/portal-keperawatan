@@ -1,0 +1,336 @@
+{
+  "id": "mfk-bencana",
+  "group": "mfk",
+  "title": "MFK 9 — Penanganan Kedaruratan dan Bencana",
+  "short": "MFK 9",
+  "desc": "Aktivasi rencana bencana, komando, komunikasi, triase, evakuasi, dekontaminasi, dan kontinuitas pelayanan.",
+  "category": "MFK",
+  "color": "#E47A13",
+  "soft": "#FFF3E6",
+  "icon": "fire",
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "minutes": 15,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Bencana dapat internal atau eksternal",
+            "text": "Kebakaran, gempa, banjir, wabah, kerusuhan, kebocoran, atau korban massal."
+          },
+          {
+            "title": "Ikuti satu jalur komando",
+            "text": "Tugas dan komunikasi mengikuti Hospital Disaster Plan."
+          },
+          {
+            "title": "Keselamatan diri mendahului bantuan",
+            "text": "Staf yang cedera tidak dapat menolong."
+          },
+          {
+            "title": "Prioritas dapat berubah",
+            "text": "Triase dan alokasi sumber daya mengikuti kondisi bencana."
+          },
+          {
+            "title": "Kontinuitas pelayanan penting",
+            "text": "Pasien yang sudah dirawat tetap harus terlindungi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Kenali dan aktifkan",
+            "text": "Gunakan kode/mekanisme sesuai rumah sakit."
+          },
+          {
+            "title": "Lapor ke titik komando",
+            "text": "Dapatkan penugasan, jangan bergerak tanpa koordinasi."
+          },
+          {
+            "title": "Lindungi dan triase",
+            "text": "Prioritaskan keselamatan dan kebutuhan mendesak."
+          },
+          {
+            "title": "Komunikasi dan dokumentasi",
+            "text": "Gunakan saluran alternatif bila sistem gagal."
+          },
+          {
+            "title": "Pemulihan",
+            "text": "Hitung pasien/staf, laporkan dampak, dan evaluasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Gempa saat merawat pasien",
+            "text": "Lindungi diri/pasien dari benda jatuh, setelah guncangan ikuti evakuasi."
+          },
+          {
+            "title": "Korban massal ke IGD",
+            "text": "Ikuti triase dan pembagian zona."
+          },
+          {
+            "title": "Kebocoran bahan kimia",
+            "text": "Jangan membawa korban terkontaminasi ke area bersih tanpa dekontaminasi."
+          },
+          {
+            "title": "Komunikasi seluler gagal",
+            "text": "Gunakan radio, runner, atau sistem cadangan."
+          },
+          {
+            "title": "Evakuasi unit",
+            "text": "Bawa identitas, kebutuhan kritis, dan dokumentasi minimum sesuai prosedur."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Berangkat membantu tanpa penugasan",
+            "text": "Dapat meninggalkan unit dan mengacaukan komando."
+          },
+          {
+            "title": "Menggunakan lift saat dilarang",
+            "text": "Berisiko terjebak."
+          },
+          {
+            "title": "Mencampur jalur bersih dan terkontaminasi",
+            "text": "Menyebarkan bahaya."
+          },
+          {
+            "title": "Tidak mencatat perpindahan pasien",
+            "text": "Pasien dapat hilang dari pelacakan."
+          },
+          {
+            "title": "Menyebarkan informasi belum terverifikasi",
+            "text": "Menimbulkan panik."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Tahu peran unit",
+            "text": "Siapa membawa pasien, alat, obat, dan dokumen."
+          },
+          {
+            "title": "Kenali jalur/titik kumpul",
+            "text": "Termasuk alternatif."
+          },
+          {
+            "title": "Menjaga komunikasi",
+            "text": "Lapor singkat dan terstruktur."
+          },
+          {
+            "title": "Membantu triase sesuai kompetensi",
+            "text": "Ikuti sistem rumah sakit."
+          },
+          {
+            "title": "Ikut latihan",
+            "text": "Kesiapan tidak cukup dari teori."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Kebakaran, gempa, banjir, wabah, kerusuhan, kebocoran, atau korban massal.",
+        "Tugas dan komunikasi mengikuti Hospital Disaster Plan.",
+        "Staf yang cedera tidak dapat menolong."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Kenali dan aktifkan: Gunakan kode/mekanisme sesuai rumah sakit.",
+        "Lapor ke titik komando: Dapatkan penugasan, jangan bergerak tanpa koordinasi.",
+        "Lindungi dan triase: Prioritaskan keselamatan dan kebutuhan mendesak."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Gempa saat merawat pasien: Lindungi diri/pasien dari benda jatuh, setelah guncangan ikuti evakuasi.",
+        "Korban massal ke IGD: Ikuti triase dan pembagian zona.",
+        "Kebocoran bahan kimia: Jangan membawa korban terkontaminasi ke area bersih tanpa dekontaminasi."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Siapa membawa pasien, alat, obat, dan dokumen.",
+        "Termasuk alternatif.",
+        "Lapor singkat dan terstruktur."
+      ]
+    }
+  ],
+  "do": [
+    "Lindungi diri/pasien dari benda jatuh, setelah guncangan ikuti evakuasi.",
+    "Ikuti triase dan pembagian zona.",
+    "Jangan membawa korban terkontaminasi ke area bersih tanpa dekontaminasi.",
+    "Gunakan radio, runner, atau sistem cadangan.",
+    "Bawa identitas, kebutuhan kritis, dan dokumentasi minimum sesuai prosedur."
+  ],
+  "dont": [
+    "Dapat meninggalkan unit dan mengacaukan komando.",
+    "Berisiko terjebak.",
+    "Menyebarkan bahaya.",
+    "Pasien dapat hilang dari pelacakan.",
+    "Menimbulkan panik."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Gempa saat merawat pasien”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Lindungi diri/pasien dari benda jatuh, setelah guncangan ikuti evakuasi.",
+        "Dapat meninggalkan unit dan mengacaukan komando.",
+        "Berisiko terjebak.",
+        "Menyebarkan bahaya."
+      ],
+      "answer": 0,
+      "why": "Lindungi diri/pasien dari benda jatuh, setelah guncangan ikuti evakuasi."
+    },
+    {
+      "q": "Dalam situasi “Korban massal ke IGD”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Berisiko terjebak.",
+        "Menyebarkan bahaya.",
+        "Pasien dapat hilang dari pelacakan.",
+        "Ikuti triase dan pembagian zona."
+      ],
+      "answer": 3,
+      "why": "Ikuti triase dan pembagian zona."
+    },
+    {
+      "q": "Dalam situasi “Kebocoran bahan kimia”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pasien dapat hilang dari pelacakan.",
+        "Menimbulkan panik.",
+        "Jangan membawa korban terkontaminasi ke area bersih tanpa dekontaminasi.",
+        "Menyebarkan bahaya."
+      ],
+      "answer": 2,
+      "why": "Jangan membawa korban terkontaminasi ke area bersih tanpa dekontaminasi."
+    },
+    {
+      "q": "Dalam situasi “Komunikasi seluler gagal”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Dapat meninggalkan unit dan mengacaukan komando.",
+        "Gunakan radio, runner, atau sistem cadangan.",
+        "Pasien dapat hilang dari pelacakan.",
+        "Menimbulkan panik."
+      ],
+      "answer": 1,
+      "why": "Gunakan radio, runner, atau sistem cadangan."
+    },
+    {
+      "q": "Dalam situasi “Evakuasi unit”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Bawa identitas, kebutuhan kritis, dan dokumentasi minimum sesuai prosedur.",
+        "Menimbulkan panik.",
+        "Dapat meninggalkan unit dan mengacaukan komando.",
+        "Berisiko terjebak."
+      ],
+      "answer": 0,
+      "why": "Bawa identitas, kebutuhan kritis, dan dokumentasi minimum sesuai prosedur."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Bencana dapat internal atau eksternal” adalah…",
+      "options": [
+        "Dapat meninggalkan unit dan mengacaukan komando.",
+        "Kebakaran, gempa, banjir, wabah, kerusuhan, kebocoran, atau korban massal.",
+        "Menyebarkan bahaya.",
+        "Pasien dapat hilang dari pelacakan."
+      ],
+      "answer": 1,
+      "why": "Kebakaran, gempa, banjir, wabah, kerusuhan, kebocoran, atau korban massal."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Ikuti satu jalur komando” adalah…",
+      "options": [
+        "Berisiko terjebak.",
+        "Tugas dan komunikasi mengikuti Hospital Disaster Plan.",
+        "Pasien dapat hilang dari pelacakan.",
+        "Menimbulkan panik."
+      ],
+      "answer": 1,
+      "why": "Tugas dan komunikasi mengikuti Hospital Disaster Plan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Keselamatan diri mendahului bantuan” adalah…",
+      "options": [
+        "Menyebarkan bahaya.",
+        "Staf yang cedera tidak dapat menolong.",
+        "Menimbulkan panik.",
+        "Dapat meninggalkan unit dan mengacaukan komando."
+      ],
+      "answer": 1,
+      "why": "Staf yang cedera tidak dapat menolong."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "bencana",
+    "disaster plan",
+    "hva",
+    "triase bencana",
+    "evakuasi"
+  ]
+}

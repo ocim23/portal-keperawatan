@@ -1,9 +1,9 @@
 {
   "id": "pap-ews",
   "group": "pap",
-  "title": "EWS / NEWS2 dan Eskalasi Klinis",
-  "short": "EWS / NEWS2",
-  "desc": "Menghitung skor fisiologis, membaca tren, mengenali trigger, dan melakukan eskalasi tepat waktu.",
+  "title": "PAP 2.5 — Pelayanan Pasien dengan Risiko Perburukan Kondisi",
+  "short": "PAP 2.5",
+  "desc": "Deteksi dini, eskalasi, respons klinis, dan evaluasi perubahan kondisi pasien.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
@@ -391,5 +391,7 @@
       "org": "Royal College of Physicians",
       "url": "https://www.rcp.ac.uk/resources/national-early-warning-score-news-2/"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

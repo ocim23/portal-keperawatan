@@ -1,0 +1,334 @@
+{
+  "id": "ke-akses",
+  "group": "ke",
+  "title": "KE 2 — Informasi tentang Asuhan, Pelayanan, dan Akses Pelayanan",
+  "short": "KE 2",
+  "desc": "Mengarahkan pasien pada pelayanan yang tersedia, alternatif, dan jalur tindak lanjut secara tepat.",
+  "category": "KE",
+  "color": "#008A83",
+  "soft": "#E8FAF7",
+  "icon": "chat",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 10,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Informasi harus tersedia dan tepat waktu",
+            "text": "Pasien perlu tahu jenis pelayanan dan cara mengaksesnya."
+          },
+          {
+            "title": "Staf memberi informasi sesuai kewenangan",
+            "text": "Jangan menebak jadwal, biaya, atau ketersediaan."
+          },
+          {
+            "title": "Alternatif dijelaskan bila layanan tidak tersedia",
+            "text": "Pasien tidak dibiarkan tanpa arah."
+          },
+          {
+            "title": "Bahasa harus dapat dipahami",
+            "text": "Sesuaikan dengan hambatan komunikasi."
+          },
+          {
+            "title": "Status sosial tidak boleh menghalangi informasi",
+            "text": "Setiap pasien berhak menerima arahan yang jelas."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Dengarkan kebutuhan",
+            "text": "Tentukan layanan yang dicari."
+          },
+          {
+            "title": "Berikan informasi yang pasti",
+            "text": "Gunakan sumber resmi."
+          },
+          {
+            "title": "Arahkan",
+            "text": "Hubungkan dengan unit/petugas."
+          },
+          {
+            "title": "Jelaskan alternatif",
+            "text": "Bila layanan tidak tersedia."
+          },
+          {
+            "title": "Verifikasi",
+            "text": "Pastikan pasien tahu langkah berikutnya."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pasien mencari layanan yang tidak ada",
+            "text": "Jelaskan alternatif dan proses rujukan."
+          },
+          {
+            "title": "Jadwal berubah",
+            "text": "Konfirmasi sumber resmi sebelum memberi jawaban."
+          },
+          {
+            "title": "Pasien kebingungan di koridor",
+            "text": "Antarkan atau arahkan jelas, bukan sekadar menunjuk."
+          },
+          {
+            "title": "Pasien butuh layanan setelah pulang",
+            "text": "Berikan kontak dan tanda bahaya."
+          },
+          {
+            "title": "Pertanyaan administrasi di luar peran",
+            "text": "Hubungkan ke petugas yang tepat."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mengatakan “tidak tahu” lalu pergi",
+            "text": "Pasien tidak memperoleh akses."
+          },
+          {
+            "title": "Memberi nomor lama",
+            "text": "Informasi harus diperbarui."
+          },
+          {
+            "title": "Menjanjikan pelayanan",
+            "text": "Ketersediaan perlu dikonfirmasi."
+          },
+          {
+            "title": "Menggunakan istilah internal",
+            "text": "Pasien mungkin tidak memahami singkatan unit."
+          },
+          {
+            "title": "Membedakan bantuan berdasarkan kelas",
+            "text": "Informasi dasar harus setara."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kenali layanan unit",
+            "text": "Tahu alur utama dan kontak."
+          },
+          {
+            "title": "Gunakan sumber resmi",
+            "text": "Jangan mengandalkan kabar lisan."
+          },
+          {
+            "title": "Bantu pasien rentan",
+            "text": "Disabilitas dan literasi memerlukan dukungan."
+          },
+          {
+            "title": "Koordinasi rujukan",
+            "text": "Pastikan informasi penting ikut diteruskan."
+          },
+          {
+            "title": "Verifikasi pemahaman",
+            "text": "Minta pasien mengulang langkah berikutnya."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Pasien perlu tahu jenis pelayanan dan cara mengaksesnya.",
+        "Jangan menebak jadwal, biaya, atau ketersediaan.",
+        "Pasien tidak dibiarkan tanpa arah."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Dengarkan kebutuhan: Tentukan layanan yang dicari.",
+        "Berikan informasi yang pasti: Gunakan sumber resmi.",
+        "Arahkan: Hubungkan dengan unit/petugas."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Pasien mencari layanan yang tidak ada: Jelaskan alternatif dan proses rujukan.",
+        "Jadwal berubah: Konfirmasi sumber resmi sebelum memberi jawaban.",
+        "Pasien kebingungan di koridor: Antarkan atau arahkan jelas, bukan sekadar menunjuk."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Tahu alur utama dan kontak.",
+        "Jangan mengandalkan kabar lisan.",
+        "Disabilitas dan literasi memerlukan dukungan."
+      ]
+    }
+  ],
+  "do": [
+    "Jelaskan alternatif dan proses rujukan.",
+    "Konfirmasi sumber resmi sebelum memberi jawaban.",
+    "Antarkan atau arahkan jelas, bukan sekadar menunjuk.",
+    "Berikan kontak dan tanda bahaya.",
+    "Hubungkan ke petugas yang tepat."
+  ],
+  "dont": [
+    "Pasien tidak memperoleh akses.",
+    "Informasi harus diperbarui.",
+    "Ketersediaan perlu dikonfirmasi.",
+    "Pasien mungkin tidak memahami singkatan unit.",
+    "Informasi dasar harus setara."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Pasien mencari layanan yang tidak ada”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Jelaskan alternatif dan proses rujukan.",
+        "Pasien tidak memperoleh akses.",
+        "Informasi harus diperbarui.",
+        "Ketersediaan perlu dikonfirmasi."
+      ],
+      "answer": 0,
+      "why": "Jelaskan alternatif dan proses rujukan."
+    },
+    {
+      "q": "Dalam situasi “Jadwal berubah”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Informasi harus diperbarui.",
+        "Ketersediaan perlu dikonfirmasi.",
+        "Pasien mungkin tidak memahami singkatan unit.",
+        "Konfirmasi sumber resmi sebelum memberi jawaban."
+      ],
+      "answer": 3,
+      "why": "Konfirmasi sumber resmi sebelum memberi jawaban."
+    },
+    {
+      "q": "Dalam situasi “Pasien kebingungan di koridor”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pasien mungkin tidak memahami singkatan unit.",
+        "Informasi dasar harus setara.",
+        "Antarkan atau arahkan jelas, bukan sekadar menunjuk.",
+        "Ketersediaan perlu dikonfirmasi."
+      ],
+      "answer": 2,
+      "why": "Antarkan atau arahkan jelas, bukan sekadar menunjuk."
+    },
+    {
+      "q": "Dalam situasi “Pasien butuh layanan setelah pulang”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pasien tidak memperoleh akses.",
+        "Berikan kontak dan tanda bahaya.",
+        "Pasien mungkin tidak memahami singkatan unit.",
+        "Informasi dasar harus setara."
+      ],
+      "answer": 1,
+      "why": "Berikan kontak dan tanda bahaya."
+    },
+    {
+      "q": "Dalam situasi “Pertanyaan administrasi di luar peran”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Hubungkan ke petugas yang tepat.",
+        "Informasi dasar harus setara.",
+        "Pasien tidak memperoleh akses.",
+        "Informasi harus diperbarui."
+      ],
+      "answer": 0,
+      "why": "Hubungkan ke petugas yang tepat."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Informasi harus tersedia dan tepat waktu” adalah…",
+      "options": [
+        "Pasien tidak memperoleh akses.",
+        "Pasien perlu tahu jenis pelayanan dan cara mengaksesnya.",
+        "Ketersediaan perlu dikonfirmasi.",
+        "Pasien mungkin tidak memahami singkatan unit."
+      ],
+      "answer": 1,
+      "why": "Pasien perlu tahu jenis pelayanan dan cara mengaksesnya."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Staf memberi informasi sesuai kewenangan” adalah…",
+      "options": [
+        "Informasi harus diperbarui.",
+        "Jangan menebak jadwal, biaya, atau ketersediaan.",
+        "Pasien mungkin tidak memahami singkatan unit.",
+        "Informasi dasar harus setara."
+      ],
+      "answer": 1,
+      "why": "Jangan menebak jadwal, biaya, atau ketersediaan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Alternatif dijelaskan bila layanan tidak tersedia” adalah…",
+      "options": [
+        "Ketersediaan perlu dikonfirmasi.",
+        "Pasien tidak dibiarkan tanpa arah.",
+        "Informasi dasar harus setara.",
+        "Pasien tidak memperoleh akses."
+      ],
+      "answer": 1,
+      "why": "Pasien tidak dibiarkan tanpa arah."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "akses pelayanan",
+    "informasi pelayanan",
+    "rujukan"
+  ]
+}

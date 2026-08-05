@@ -1,0 +1,334 @@
+{
+  "id": "pmkp-clinical-pathway",
+  "group": "pmkp",
+  "title": "PMKP 7 — Clinical Pathway dalam Pelayanan Klinis",
+  "short": "PMKP 7",
+  "desc": "Peran perawat dalam standardisasi asuhan, dokumentasi, variasi, dan evaluasi clinical pathway.",
+  "category": "PMKP",
+  "color": "#155E9A",
+  "soft": "#E9F4FF",
+  "icon": "target",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 11,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Clinical pathway mengintegrasikan asuhan",
+            "text": "Rencana multidisiplin untuk kondisi tertentu berdasarkan bukti dan waktu pelayanan."
+          },
+          {
+            "title": "Bukan pengganti penilaian klinis",
+            "text": "Kebutuhan individual pasien tetap menjadi dasar."
+          },
+          {
+            "title": "Variasi perlu dicatat",
+            "text": "Deviasi dapat tepat secara klinis atau menunjukkan masalah proses."
+          },
+          {
+            "title": "Dokumentasi lintas profesi",
+            "text": "Setiap PPA mencatat pelayanan sesuai peran."
+          },
+          {
+            "title": "Evaluasi pathway memperbaiki mutu",
+            "text": "Kepatuhan, hasil, lama rawat, komplikasi, dan variasi dianalisis."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Identifikasi pasien yang sesuai",
+            "text": "Gunakan kriteria inklusi pathway."
+          },
+          {
+            "title": "Ikuti target harian",
+            "text": "Laksanakan pengkajian, tindakan, edukasi, dan pemulangan sesuai kebutuhan."
+          },
+          {
+            "title": "Dokumentasikan",
+            "text": "Catat yang dilakukan dan respons."
+          },
+          {
+            "title": "Catat variasi",
+            "text": "Sebutkan alasan klinis atau operasional."
+          },
+          {
+            "title": "Evaluasi bersama",
+            "text": "Gunakan hasil untuk perbaikan pathway."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Target mobilisasi belum tercapai",
+            "text": "Catat penyebab dan sesuaikan rencana."
+          },
+          {
+            "title": "Pemeriksaan tertunda",
+            "text": "Dokumentasikan variasi operasional dan eskalasi."
+          },
+          {
+            "title": "Pasien memiliki komorbid",
+            "text": "Individualisasi tanpa menghapus jejak pathway."
+          },
+          {
+            "title": "Pasien pulang lebih cepat",
+            "text": "Pastikan kriteria aman dan edukasi terpenuhi."
+          },
+          {
+            "title": "Variasi berulang",
+            "text": "Angkat sebagai isu mutu, bukan sekadar “ketidakpatuhan”."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mencentang tanpa melakukan",
+            "text": "Merusak data dan keselamatan."
+          },
+          {
+            "title": "Memaksa semua pasien sama",
+            "text": "Pathway bukan resep kaku."
+          },
+          {
+            "title": "Tidak mencatat alasan variasi",
+            "text": "Tim tidak dapat belajar."
+          },
+          {
+            "title": "Menganggap hanya dokter yang berperan",
+            "text": "Pathway bersifat multidisiplin."
+          },
+          {
+            "title": "Menunda dokumentasi",
+            "text": "Detail penting mudah hilang."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kenali target keperawatan",
+            "text": "Pengkajian, mobilisasi, nyeri, nutrisi, edukasi, dan discharge planning."
+          },
+          {
+            "title": "Pantau respons",
+            "text": "Sampaikan bila target tidak aman."
+          },
+          {
+            "title": "Koordinasi PPA",
+            "text": "Pastikan tindakan saling mendukung."
+          },
+          {
+            "title": "Catat variasi faktual",
+            "text": "Hindari menyalahkan."
+          },
+          {
+            "title": "Ikut evaluasi",
+            "text": "Berikan perspektif alur nyata di unit."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Rencana multidisiplin untuk kondisi tertentu berdasarkan bukti dan waktu pelayanan.",
+        "Kebutuhan individual pasien tetap menjadi dasar.",
+        "Deviasi dapat tepat secara klinis atau menunjukkan masalah proses."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Identifikasi pasien yang sesuai: Gunakan kriteria inklusi pathway.",
+        "Ikuti target harian: Laksanakan pengkajian, tindakan, edukasi, dan pemulangan sesuai kebutuhan.",
+        "Dokumentasikan: Catat yang dilakukan dan respons."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Target mobilisasi belum tercapai: Catat penyebab dan sesuaikan rencana.",
+        "Pemeriksaan tertunda: Dokumentasikan variasi operasional dan eskalasi.",
+        "Pasien memiliki komorbid: Individualisasi tanpa menghapus jejak pathway."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Pengkajian, mobilisasi, nyeri, nutrisi, edukasi, dan discharge planning.",
+        "Sampaikan bila target tidak aman.",
+        "Pastikan tindakan saling mendukung."
+      ]
+    }
+  ],
+  "do": [
+    "Catat penyebab dan sesuaikan rencana.",
+    "Dokumentasikan variasi operasional dan eskalasi.",
+    "Individualisasi tanpa menghapus jejak pathway.",
+    "Pastikan kriteria aman dan edukasi terpenuhi.",
+    "Angkat sebagai isu mutu, bukan sekadar “ketidakpatuhan”."
+  ],
+  "dont": [
+    "Merusak data dan keselamatan.",
+    "Pathway bukan resep kaku.",
+    "Tim tidak dapat belajar.",
+    "Pathway bersifat multidisiplin.",
+    "Detail penting mudah hilang."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Target mobilisasi belum tercapai”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Catat penyebab dan sesuaikan rencana.",
+        "Merusak data dan keselamatan.",
+        "Pathway bukan resep kaku.",
+        "Tim tidak dapat belajar."
+      ],
+      "answer": 0,
+      "why": "Catat penyebab dan sesuaikan rencana."
+    },
+    {
+      "q": "Dalam situasi “Pemeriksaan tertunda”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pathway bukan resep kaku.",
+        "Tim tidak dapat belajar.",
+        "Pathway bersifat multidisiplin.",
+        "Dokumentasikan variasi operasional dan eskalasi."
+      ],
+      "answer": 3,
+      "why": "Dokumentasikan variasi operasional dan eskalasi."
+    },
+    {
+      "q": "Dalam situasi “Pasien memiliki komorbid”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pathway bersifat multidisiplin.",
+        "Detail penting mudah hilang.",
+        "Individualisasi tanpa menghapus jejak pathway.",
+        "Tim tidak dapat belajar."
+      ],
+      "answer": 2,
+      "why": "Individualisasi tanpa menghapus jejak pathway."
+    },
+    {
+      "q": "Dalam situasi “Pasien pulang lebih cepat”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Merusak data dan keselamatan.",
+        "Pastikan kriteria aman dan edukasi terpenuhi.",
+        "Pathway bersifat multidisiplin.",
+        "Detail penting mudah hilang."
+      ],
+      "answer": 1,
+      "why": "Pastikan kriteria aman dan edukasi terpenuhi."
+    },
+    {
+      "q": "Dalam situasi “Variasi berulang”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Angkat sebagai isu mutu, bukan sekadar “ketidakpatuhan”.",
+        "Detail penting mudah hilang.",
+        "Merusak data dan keselamatan.",
+        "Pathway bukan resep kaku."
+      ],
+      "answer": 0,
+      "why": "Angkat sebagai isu mutu, bukan sekadar “ketidakpatuhan”."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Clinical pathway mengintegrasikan asuhan” adalah…",
+      "options": [
+        "Merusak data dan keselamatan.",
+        "Rencana multidisiplin untuk kondisi tertentu berdasarkan bukti dan waktu pelayanan.",
+        "Tim tidak dapat belajar.",
+        "Pathway bersifat multidisiplin."
+      ],
+      "answer": 1,
+      "why": "Rencana multidisiplin untuk kondisi tertentu berdasarkan bukti dan waktu pelayanan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Bukan pengganti penilaian klinis” adalah…",
+      "options": [
+        "Pathway bukan resep kaku.",
+        "Kebutuhan individual pasien tetap menjadi dasar.",
+        "Pathway bersifat multidisiplin.",
+        "Detail penting mudah hilang."
+      ],
+      "answer": 1,
+      "why": "Kebutuhan individual pasien tetap menjadi dasar."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Variasi perlu dicatat” adalah…",
+      "options": [
+        "Tim tidak dapat belajar.",
+        "Deviasi dapat tepat secara klinis atau menunjukkan masalah proses.",
+        "Detail penting mudah hilang.",
+        "Merusak data dan keselamatan."
+      ],
+      "answer": 1,
+      "why": "Deviasi dapat tepat secara klinis atau menunjukkan masalah proses."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "clinical pathway",
+    "alur klinis",
+    "variasi"
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "id": "ke-komunikasi",
   "group": "ke",
-  "title": "Komunikasi Klinis: SBAR, TBaK, dan Serah Terima",
-  "short": "Informasi kritis harus jelas, lengkap, dan terkonfirmasi",
-  "desc": "Menggunakan struktur komunikasi yang tepat untuk konsultasi, instruksi verbal/telepon, hasil kritis, dan transisi pelayanan.",
+  "title": "KE 7 — Kompetensi PPA dalam Memberikan Edukasi Efektif",
+  "short": "KE 7",
+  "desc": "Komunikasi efektif, pembagian peran PPA, konsistensi pesan, dan kolaborasi edukasi.",
   "category": "KE",
   "color": "#5B6F9C",
   "soft": "#EEF2FF",
@@ -380,5 +380,7 @@
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

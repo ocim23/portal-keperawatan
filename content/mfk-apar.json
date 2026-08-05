@@ -1,9 +1,9 @@
 {
   "id": "mfk-apar",
   "group": "mfk",
-  "title": "APAR dan Respons Awal Kebakaran",
-  "short": "Nilai aman, aktifkan alarm, gunakan PASS bila terlatih",
-  "desc": "Mengenali batas penggunaan APAR pada api tahap awal sambil menjaga jalur keluar dan memprioritaskan keselamatan.",
+  "title": "MFK 6 — Proteksi Kebakaran: Penggunaan APAR",
+  "short": "MFK 6",
+  "desc": "Keputusan aman menggunakan APAR, PASS, batas pemadaman awal, dan eskalasi.",
   "category": "MFK",
   "color": "#B75A24",
   "soft": "#FFF1E8",
@@ -428,5 +428,7 @@
       "org": "Occupational Safety and Health Administration",
       "url": "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/use"
     }
-  ]
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib"
 }

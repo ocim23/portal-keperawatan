@@ -1,0 +1,336 @@
+{
+  "id": "mfk-peralatan",
+  "group": "mfk",
+  "title": "MFK 7 — Pengelolaan dan Keselamatan Peralatan Medis",
+  "short": "MFK 7",
+  "desc": "Pemeriksaan sebelum pakai, alarm, malfungsi, pelabelan jangan digunakan, recall, dan pelaporan insiden alat.",
+  "category": "MFK",
+  "color": "#E47A13",
+  "soft": "#FFF3E6",
+  "icon": "fire",
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "minutes": 14,
+  "updated": "2026-08-05",
+  "notice": "",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "Pahami konsep",
+      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Alat harus layak dan sesuai tujuan",
+            "text": "Status pemeliharaan/kalibrasi, kondisi fisik, aksesori, dan fungsi diperiksa."
+          },
+          {
+            "title": "Alarm adalah sistem keselamatan",
+            "text": "Volume, batas, sensor, dan respons alarm tidak boleh diabaikan."
+          },
+          {
+            "title": "Malfungsi membutuhkan pengamanan",
+            "text": "Hentikan bila tidak aman, stabilkan pasien, gunakan alternatif, dan beri label."
+          },
+          {
+            "title": "Recall harus dipatuhi",
+            "text": "Identifikasi model/seri, hentikan penggunaan, karantina, dan ikuti instruksi."
+          },
+          {
+            "title": "Insiden alat perlu dilaporkan",
+            "text": "Data membantu perbaikan dan pelacakan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Alur penerapan",
+      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "Sebelum pakai",
+            "text": "Periksa fisik, kabel, baterai, aksesori, label, dan uji fungsi."
+          },
+          {
+            "title": "Pasang pada pasien",
+            "text": "Atur parameter dan alarm sesuai kondisi."
+          },
+          {
+            "title": "Pantau",
+            "text": "Nilai alat dan pasien, bukan angka alat saja."
+          },
+          {
+            "title": "Bila bermasalah",
+            "text": "Amankan pasien, ganti alat, labeli, dan laporkan."
+          },
+          {
+            "title": "Setelah pakai",
+            "text": "Bersihkan, simpan, isi daya, dan dokumentasikan bila perlu."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Praktik di unit",
+      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pompa infus alarm",
+            "text": "Nilai pasien, jalur, oklusi, baterai, dan setting sebelum reset."
+          },
+          {
+            "title": "Monitor membaca tidak masuk akal",
+            "text": "Cocokkan klinis, sensor, dan alat lain."
+          },
+          {
+            "title": "Kabel terkelupas",
+            "text": "Jangan gunakan; beri label dan laporkan."
+          },
+          {
+            "title": "Alat recall",
+            "text": "Cocokkan nomor seri dan karantina."
+          },
+          {
+            "title": "Alat gagal saat resusitasi",
+            "text": "Gunakan alternatif manual/alat cadangan dan laporkan setelah pasien aman."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Kesalahan yang sering terjadi",
+      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mematikan alarm permanen",
+            "text": "Menghilangkan pertahanan keselamatan."
+          },
+          {
+            "title": "Memakai alat tanpa uji fungsi",
+            "text": "Kegagalan baru diketahui saat kritis."
+          },
+          {
+            "title": "Mengembalikan alat rusak tanpa label",
+            "text": "Dapat digunakan pasien berikutnya."
+          },
+          {
+            "title": "Menganggap kalibrasi adalah tanggung jawab teknisi saja",
+            "text": "Pengguna tetap memeriksa status."
+          },
+          {
+            "title": "Membersihkan dengan bahan tidak sesuai",
+            "text": "Merusak alat atau sensor."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "Peran perawat",
+      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
+      "template": {
+        "style": "checklist",
+        "items": [
+          {
+            "title": "Kompeten sebelum menggunakan",
+            "text": "Ikuti pelatihan dan kewenangan."
+          },
+          {
+            "title": "Mengenali batas alat",
+            "text": "Tidak semua angka akurat pada semua kondisi."
+          },
+          {
+            "title": "Menjaga alarm",
+            "text": "Atur individual dan respons cepat."
+          },
+          {
+            "title": "Mengamankan alat rusak",
+            "text": "Label dan pisahkan."
+          },
+          {
+            "title": "Melaporkan detail",
+            "text": "Model, nomor seri, kondisi, waktu, dan dampak pasien."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Konsep utama",
+      "points": [
+        "Status pemeliharaan/kalibrasi, kondisi fisik, aksesori, dan fungsi diperiksa.",
+        "Volume, batas, sensor, dan respons alarm tidak boleh diabaikan.",
+        "Hentikan bila tidak aman, stabilkan pasien, gunakan alternatif, dan beri label."
+      ]
+    },
+    {
+      "title": "Alur aman",
+      "points": [
+        "Sebelum pakai: Periksa fisik, kabel, baterai, aksesori, label, dan uji fungsi.",
+        "Pasang pada pasien: Atur parameter dan alarm sesuai kondisi.",
+        "Pantau: Nilai alat dan pasien, bukan angka alat saja."
+      ]
+    },
+    {
+      "title": "Saat diminta praktik",
+      "points": [
+        "Pompa infus alarm: Nilai pasien, jalur, oklusi, baterai, dan setting sebelum reset.",
+        "Monitor membaca tidak masuk akal: Cocokkan klinis, sensor, dan alat lain.",
+        "Kabel terkelupas: Jangan gunakan; beri label dan laporkan."
+      ]
+    },
+    {
+      "title": "Peran perawat",
+      "points": [
+        "Ikuti pelatihan dan kewenangan.",
+        "Tidak semua angka akurat pada semua kondisi.",
+        "Atur individual dan respons cepat."
+      ]
+    }
+  ],
+  "do": [
+    "Nilai pasien, jalur, oklusi, baterai, dan setting sebelum reset.",
+    "Cocokkan klinis, sensor, dan alat lain.",
+    "Jangan gunakan; beri label dan laporkan.",
+    "Cocokkan nomor seri dan karantina.",
+    "Gunakan alternatif manual/alat cadangan dan laporkan setelah pasien aman."
+  ],
+  "dont": [
+    "Menghilangkan pertahanan keselamatan.",
+    "Kegagalan baru diketahui saat kritis.",
+    "Dapat digunakan pasien berikutnya.",
+    "Pengguna tetap memeriksa status.",
+    "Merusak alat atau sensor."
+  ],
+  "quiz": [
+    {
+      "q": "Dalam situasi “Pompa infus alarm”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Nilai pasien, jalur, oklusi, baterai, dan setting sebelum reset.",
+        "Menghilangkan pertahanan keselamatan.",
+        "Kegagalan baru diketahui saat kritis.",
+        "Dapat digunakan pasien berikutnya."
+      ],
+      "answer": 0,
+      "why": "Nilai pasien, jalur, oklusi, baterai, dan setting sebelum reset."
+    },
+    {
+      "q": "Dalam situasi “Monitor membaca tidak masuk akal”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Kegagalan baru diketahui saat kritis.",
+        "Dapat digunakan pasien berikutnya.",
+        "Pengguna tetap memeriksa status.",
+        "Cocokkan klinis, sensor, dan alat lain."
+      ],
+      "answer": 3,
+      "why": "Cocokkan klinis, sensor, dan alat lain."
+    },
+    {
+      "q": "Dalam situasi “Kabel terkelupas”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Pengguna tetap memeriksa status.",
+        "Merusak alat atau sensor.",
+        "Jangan gunakan; beri label dan laporkan.",
+        "Dapat digunakan pasien berikutnya."
+      ],
+      "answer": 2,
+      "why": "Jangan gunakan; beri label dan laporkan."
+    },
+    {
+      "q": "Dalam situasi “Alat recall”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Menghilangkan pertahanan keselamatan.",
+        "Cocokkan nomor seri dan karantina.",
+        "Pengguna tetap memeriksa status.",
+        "Merusak alat atau sensor."
+      ],
+      "answer": 1,
+      "why": "Cocokkan nomor seri dan karantina."
+    },
+    {
+      "q": "Dalam situasi “Alat gagal saat resusitasi”, tindakan yang paling tepat adalah…",
+      "options": [
+        "Gunakan alternatif manual/alat cadangan dan laporkan setelah pasien aman.",
+        "Merusak alat atau sensor.",
+        "Menghilangkan pertahanan keselamatan.",
+        "Kegagalan baru diketahui saat kritis."
+      ],
+      "answer": 0,
+      "why": "Gunakan alternatif manual/alat cadangan dan laporkan setelah pasien aman."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Alat harus layak dan sesuai tujuan” adalah…",
+      "options": [
+        "Menghilangkan pertahanan keselamatan.",
+        "Status pemeliharaan/kalibrasi, kondisi fisik, aksesori, dan fungsi diperiksa.",
+        "Dapat digunakan pasien berikutnya.",
+        "Pengguna tetap memeriksa status."
+      ],
+      "answer": 1,
+      "why": "Status pemeliharaan/kalibrasi, kondisi fisik, aksesori, dan fungsi diperiksa."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Alarm adalah sistem keselamatan” adalah…",
+      "options": [
+        "Kegagalan baru diketahui saat kritis.",
+        "Volume, batas, sensor, dan respons alarm tidak boleh diabaikan.",
+        "Pengguna tetap memeriksa status.",
+        "Merusak alat atau sensor."
+      ],
+      "answer": 1,
+      "why": "Volume, batas, sensor, dan respons alarm tidak boleh diabaikan."
+    },
+    {
+      "q": "Pernyataan yang paling tepat tentang “Malfungsi membutuhkan pengamanan” adalah…",
+      "options": [
+        "Dapat digunakan pasien berikutnya.",
+        "Hentikan bila tidak aman, stabilkan pasien, gunakan alternatif, dan beri label.",
+        "Merusak alat atau sensor.",
+        "Menghilangkan pertahanan keselamatan."
+      ],
+      "answer": 1,
+      "why": "Hentikan bila tidak aman, stabilkan pasien, gunakan alternatif, dan beri label."
+    }
+  ],
+  "references": [
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "alat medis",
+    "kalibrasi",
+    "alarm",
+    "recall",
+    "malfungsi"
+  ]
+}
