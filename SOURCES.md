@@ -1,7 +1,6 @@
 # Sumber Utama
 
-1. Kementerian Kesehatan Republik Indonesia. **Instrumen Survei Akreditasi Rumah Sakit 2024**.
-2. Regulasi, SPO, daftar obat, alur kode darurat, lokasi fasilitas, dan kebijakan lokal rumah sakit.
-3. AHA Guidelines 2025 untuk ringkasan Bantuan Hidup Dasar dewasa pada materi PAP 2.6.
+1. Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024 tentang Instrumen Survei Akreditasi Rumah Sakit.
+2. Keputusan Menteri Kesehatan Nomor HK.01.07/MENKES/1596/2024 tentang Standar Akreditasi Rumah Sakit.
 
-Materi portal merupakan ringkasan pembelajaran. Bila terdapat perbedaan, dokumen resmi dan kebijakan rumah sakit menjadi rujukan.
+Elemen penilaian, kelengkapan bukti, serta kode R/D/O/W/S pada materi mengikuti sumber nomor 1. Rincian operasional tetap harus disesuaikan dengan regulasi dan SPO rumah sakit.

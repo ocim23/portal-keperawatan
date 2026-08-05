@@ -1,23 +1,16 @@
-# CONTENT AUDIT v4.2.0
+# Audit Konten v4.3.0
 
-- Total submateri: 62
-- Praktik Wajib: 38
-- Pengetahuan Wajib: 24
-- Bagian pembelajaran: 376
-- Bank soal: 524
+## Prinsip sumber
 
-## Jumlah per kelompok
-- SKP: 7
-- PP: 4
-- PAP: 9
-- PPI: 6
-- PKPO: 7
-- PMKP: 6
-- HPK: 9
-- KE: 6
-- MFK: 8
+Sumber utama: Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024 tentang Instrumen Survei Akreditasi Rumah Sakit.
 
-## Prinsip
-- Judul mempertahankan kode standar.
-- Materi tata kelola/teknis di luar fokus perawat tidak ditampilkan sebagai kartu.
-- Penerapan lokal tetap mengikuti regulasi dan SPO rumah sakit.
+Urutan konten setiap materi:
+
+1. Elemen Penilaian.
+2. Kelengkapan bukti dan metode telusur R/D/O/W/S.
+3. Konsep dan alur penerapan.
+4. Praktik/peran perawat.
+5. Situasi khusus dan kesalahan yang sering terjadi.
+6. Kuis dan referensi.
+
+Portal tetap berfokus pada tugas keperawatan. Substandar tata kelola atau teknis unit lain yang tidak dibuat sebagai materi dijelaskan pada catatan cakupan kelompok.
