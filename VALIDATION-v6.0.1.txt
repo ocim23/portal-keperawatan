@@ -1,0 +1,17 @@
+Portal Keperawatan v6.0.1 — Editorial Cleanup
+PASS
+
+Perbaikan utama:
+- Menghapus bahasa riwayat revisi dari tampilan pengguna ("poster terbaru", "sudah ada tetap digunakan", dll.).
+- APAR: judul menjadi "Cara Menggunakan APAR"; caption fokus ke isi praktik, bukan proses revisi.
+- Poster APAR: tidak lagi diberi label "TERBARU".
+- Poster Pemilahan Limbah: caption hanya menjelaskan isi poster.
+- Code Red: caption menjelaskan pembagian peran, bukan status aset.
+- Membersihkan beberapa wording drafting lain yang lolos ke materi PKPO/MFK.
+- Cache/version dinaikkan ke 6.0.1 agar perubahan terbaca oleh PWA.
+
+Validasi:
+- 40 content JSON parse: PASS
+- Editorial phrase guard: PASS
+- JS syntax: PASS
+- Referensi 15 image slides: PASS

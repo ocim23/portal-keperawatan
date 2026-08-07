@@ -72,7 +72,7 @@
     {
       "type": "html",
       "title": "🧭 Yang wajib staf tahu di tempat kerja",
-      "caption": "Detail ini memang lokal dan harus dipelajari dari RS masing-masing.",
+      "caption": "Kode, nomor, jalur, titik kumpul, dan command center mengikuti Hospital Disaster Plan rumah sakit.",
       "template": {
         "style": "cards",
         "items": [
@@ -105,7 +105,7 @@
         "Kenali bahaya → aktifkan sistem → ikuti komando → lindungi pasien dan jalankan peran unit.",
         "Evakuasi bukan selalu jawaban; shelter in place dapat digunakan pada bahaya tertentu.",
         "Saat gempa kuat, lindungi diri/pasien dari bahaya langsung lalu evakuasi setelah memungkinkan dan sesuai instruksi.",
-        "Kode, nomor, jalur, titik kumpul, dan command center adalah detail lokal yang wajib diketahui staf dari RS masing-masing."
+        "Kenali kode, nomor, jalur, titik kumpul, dan command center sesuai Hospital Disaster Plan rumah sakit."
       ]
     }
   ],
@@ -113,7 +113,7 @@
     "Kenali bahaya → aktifkan sistem → ikuti komando → lindungi pasien dan jalankan peran unit.",
     "Evakuasi bukan selalu jawaban; shelter in place dapat digunakan pada bahaya tertentu.",
     "Saat gempa kuat, lindungi diri/pasien dari bahaya langsung lalu evakuasi setelah memungkinkan dan sesuai instruksi.",
-    "Kode, nomor, jalur, titik kumpul, dan command center adalah detail lokal yang wajib diketahui staf dari RS masing-masing."
+    "Kenali kode, nomor, jalur, titik kumpul, dan command center sesuai Hospital Disaster Plan rumah sakit."
   ],
   "dont": [],
   "quiz": [

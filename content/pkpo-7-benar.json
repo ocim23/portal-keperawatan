@@ -16,7 +16,7 @@
     {
       "type": "html",
       "title": "7️⃣ Tujuh Benar",
-      "caption": "Ini daftar yang kita gunakan secara konsisten.",
+      "caption": "Tujuh prinsip utama untuk pemberian obat yang aman.",
       "template": {
         "style": "cards",
         "items": [
@@ -74,7 +74,7 @@
           },
           {
             "title": "Bukan “benar ke-8”",
-            "text": "Monitoring setelah pemberian penting, tetapi tidak kita namakan sebagai komponen kedelapan."
+            "text": "Monitoring setelah pemberian tetap penting, tetapi bukan komponen kedelapan dari 7 Benar."
           }
         ],
         "columns": 2,
@@ -137,7 +137,7 @@
   "dont": [],
   "quiz": [
     {
-      "q": "Mana yang termasuk 7 Benar yang kita gunakan?",
+      "q": "Mana yang termasuk prinsip 7 Benar Pemberian Obat?",
       "options": [
         "Benar warna vial",
         "Benar informasi/edukasi",

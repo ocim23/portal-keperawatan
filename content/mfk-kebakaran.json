@@ -43,8 +43,8 @@
     },
     {
       "type": "html",
-      "title": "🧯 APAR — alur praktik lokal",
-      "caption": "Poster terbaru menjadi acuan visual; langkah ini sengaja mengikuti praktik RS yang sudah disepakati.",
+      "title": "🧯 Cara Menggunakan APAR",
+      "caption": "Ikuti langkah penggunaan APAR sesuai SOP rumah sakit dan utamakan jalur keluar yang aman.",
       "template": {
         "style": "cards",
         "items": [
@@ -72,7 +72,7 @@
     {
       "type": "html",
       "title": "⛑️ Code Red dan pembagian helm",
-      "caption": "Warna peran adalah sistem lokal rumah sakit, bukan kode nasional universal.",
+      "caption": "Pembagian warna helm mengikuti sistem Code Red rumah sakit.",
       "template": {
         "style": "cards",
         "items": [
@@ -127,15 +127,15 @@
     },
     {
       "type": "image",
-      "title": "Poster — APAR TERBARU",
-      "caption": "Poster APAR terbaru: manometer, semprot uji, pangkal api, jarak, dan keselamatan.",
+      "title": "Poster — APAR",
+      "caption": "Panduan visual penggunaan APAR dengan aman dan benar.",
       "image": "assets/images/posters/v6/cara-menggunakan-apar.webp",
       "thumbnail": "assets/images/posters/v6/thumb/cara-menggunakan-apar.webp"
     },
     {
       "type": "image",
       "title": "Poster — Code Red & Pembagian Helm",
-      "caption": "Poster Code Red yang sudah ada tetap digunakan.",
+      "caption": "Pembagian peran Code Red berdasarkan warna helm.",
       "image": "assets/images/posters/v6/code-red-pembagian-helm.webp",
       "thumbnail": "assets/images/posters/v6/thumb/code-red-pembagian-helm.webp"
     }
@@ -145,16 +145,16 @@
       "title": "Inti materi — 1 menit",
       "points": [
         "Api/asap → aktifkan Code Red/alarm, selamatkan dari bahaya langsung, padamkan hanya bila aman.",
-        "APAR lokal: cek manometer hijau, jalur aman, tarik pin, semprot uji sesuai SOP, arahkan pangkal api, tekan, sapu, jarak 2–3 m, berhenti bila tidak aman.",
-        "Helm lokal: merah pemadaman, biru evakuasi, kuning alat, putih dokumen; manusia selalu prioritas.",
+        "Penggunaan APAR: cek manometer hijau, jalur aman, tarik pin, semprot uji sesuai SOP, arahkan pangkal api, tekan, sapu, jarak 2–3 m, berhenti bila tidak aman.",
+        "Pembagian helm Code Red: merah pemadaman, biru evakuasi, kuning alat, putih dokumen; manusia selalu prioritas.",
         "Evakuasi umumnya horizontal dulu lalu vertikal/keluar bila perlu; jangan gunakan lift biasa saat kebakaran."
       ]
     }
   ],
   "do": [
     "Api/asap → aktifkan Code Red/alarm, selamatkan dari bahaya langsung, padamkan hanya bila aman.",
-    "APAR lokal: cek manometer hijau, jalur aman, tarik pin, semprot uji sesuai SOP, arahkan pangkal api, tekan, sapu, jarak 2–3 m, berhenti bila tidak aman.",
-    "Helm lokal: merah pemadaman, biru evakuasi, kuning alat, putih dokumen; manusia selalu prioritas.",
+    "Penggunaan APAR: cek manometer hijau, jalur aman, tarik pin, semprot uji sesuai SOP, arahkan pangkal api, tekan, sapu, jarak 2–3 m, berhenti bila tidak aman.",
+    "Pembagian helm Code Red: merah pemadaman, biru evakuasi, kuning alat, putih dokumen; manusia selalu prioritas.",
     "Evakuasi umumnya horizontal dulu lalu vertikal/keluar bila perlu; jangan gunakan lift biasa saat kebakaran."
   ],
   "dont": [],
@@ -171,7 +171,7 @@
       "why": "Pemadaman hanya dilakukan dengan jalur mundur yang aman."
     },
     {
-      "q": "Dalam SOP lokal ini, setelah pin ditarik dilakukan…",
+      "q": "Setelah pin APAR ditarik, sesuai SOP langkah berikutnya adalah…",
       "options": [
         "Semprot uji singkat ke area aman untuk memastikan APAR berfungsi",
         "Melempar APAR",
@@ -179,7 +179,7 @@
         "Menyemprot ke orang"
       ],
       "answer": 0,
-      "why": "Semprot uji adalah langkah lokal yang sengaja dipertahankan."
+      "why": "Semprot uji dilakukan sesuai SOP untuk memastikan APAR berfungsi sebelum digunakan pada api."
     },
     {
       "q": "Pada Code Red, peran helm kuning adalah…",

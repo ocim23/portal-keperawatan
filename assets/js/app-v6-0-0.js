@@ -5,7 +5,7 @@ const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelect
 const esc=(x='')=>String(x).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
 let CATALOG,GROUPS={},TOPICS={},ICONS={},ASKEP='',CACHE={},currentId=null,current=null,currentTab='learn',quizRun=null,lbZoom=1;
 const KEY='ak_portal_state_v6', def={favorites:[],recent:[],lastTopic:null,lastSlides:{}};
-const ASSET_VERSION='6.0.0';
+const ASSET_VERSION='6.0.1';
 let state=load();
 function load(){try{return {...def,...JSON.parse(localStorage.getItem(KEY)||'{}')}}catch{return {...def}}}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch{}}

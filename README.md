@@ -1,4 +1,4 @@
-# Portal Keperawatan v6.0.0 — Final Revisi
+# Portal Keperawatan v6.0.2 — Final Revisi
 
 PWA pembelajaran internal akreditasi keperawatan. Versi ini merupakan hasil review materi menyeluruh: 9 kelompok, 40 materi, fokus kompetensi perawat, anti-pengulangan, dan poster praktik terpilih.
 

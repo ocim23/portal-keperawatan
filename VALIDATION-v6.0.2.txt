@@ -1,0 +1,4 @@
+Portal Keperawatan v6.0.2
+- Poster SBAR & Tulis-Baca-Konfirmasi diganti memakai file terbaru dari pengguna.
+- Thumbnail poster ikut diperbarui.
+- Cache PWA diperbarui ke portal-keperawatan-v6.0.2-clean agar perubahan aset lebih mudah termuat.
