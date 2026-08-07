@@ -1,0 +1,370 @@
+{
+  "id": "pp-skrining-risiko",
+  "group": "pp",
+  "title": "Skrining Risiko dan Tindak Lanjut",
+  "short": "Skrining Risiko dan Tindak Lanjut",
+  "desc": "Nyeri, nutrisi, jatuh, fungsi, dan tindak lanjut hasil skrining.",
+  "category": "PP",
+  "color": "#7B5EA7",
+  "soft": "#F4EEFF",
+  "icon": "clipboard",
+  "minutes": 15,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "💡 Apa intinya?",
+      "caption": "Skrining membantu mengenali risiko dengan cepat. Hasil positif harus dilanjutkan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Nyeri",
+            "text": "Nilai ada tidaknya nyeri, intensitas, lokasi, karakter, dan dampaknya."
+          },
+          {
+            "title": "Risiko nutrisi",
+            "text": "Gunakan instrumen yang berlaku; hasil berisiko diteruskan untuk pengkajian gizi."
+          },
+          {
+            "title": "Risiko jatuh",
+            "text": "Tentukan tingkat risiko dan intervensi sesuai hasil."
+          },
+          {
+            "title": "Kebutuhan fungsional",
+            "text": "Kenali keterbatasan mobilitas, aktivitas, alat bantu, dan kebutuhan rehabilitasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🧭 Dari skrining ke tindakan",
+      "caption": "Jangan berhenti pada skor atau tanda centang.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "1. Lakukan skrining",
+            "text": "Gunakan instrumen dan waktu yang ditetapkan."
+          },
+          {
+            "title": "2. Baca hasilnya",
+            "text": "Kenali risiko rendah, sedang, tinggi, atau kebutuhan lanjutan."
+          },
+          {
+            "title": "3. Lakukan pengkajian lanjut",
+            "text": "Perdalam masalah sesuai hasil skrining."
+          },
+          {
+            "title": "4. Terapkan tindak lanjut",
+            "text": "Intervensi, kolaborasi, edukasi, dan pemantauan."
+          },
+          {
+            "title": "5. Dokumentasikan",
+            "text": "Catat hasil, tindak lanjut, dan evaluasinya."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "💬 Contohnya gimana?",
+      "caption": "Hubungkan hasil dengan tindakan nyata.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Risiko nutrisi positif",
+            "text": "Koordinasikan pengkajian gizi dan pantau asupan."
+          },
+          {
+            "title": "Nyeri sedang–berat",
+            "text": "Lakukan pengkajian lengkap, intervensi, dan evaluasi ulang."
+          },
+          {
+            "title": "Risiko jatuh meningkat",
+            "text": "Tambahkan intervensi dan komunikasikan saat serah terima."
+          },
+          {
+            "title": "Fungsi menurun",
+            "text": "Kolaborasikan kebutuhan mobilisasi, alat bantu, atau rehabilitasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚨 Apa yang sering keliru?",
+      "caption": "Skrining yang tidak ditindaklanjuti tidak melindungi pasien.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Skor ada, tindak lanjut tidak ada",
+            "text": "Tidak terlihat hubungan antara hasil dan asuhan."
+          },
+          {
+            "title": "Instrumen tidak sesuai populasi",
+            "text": "Hasil dapat tidak akurat."
+          },
+          {
+            "title": "Tidak dikaji ulang",
+            "text": "Perubahan risiko tidak terdeteksi."
+          },
+          {
+            "title": "Dokumentasi tidak konsisten",
+            "text": "Skor, intervensi, dan kondisi pasien saling bertentangan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Yang wajib diingat",
+      "points": [
+        "Skrining adalah pintu masuk, bukan akhir proses.",
+        "Hasil positif dilanjutkan dengan pengkajian dan tindakan.",
+        "Risiko perlu dikaji ulang saat kondisi berubah."
+      ]
+    }
+  ],
+  "do": [
+    "Gunakan instrumen sesuai populasi.",
+    "Tindak lanjuti hasil positif.",
+    "Dokumentasikan hasil dan respons."
+  ],
+  "dont": [
+    "Mencatat skor tanpa tindakan.",
+    "Menggunakan instrumen yang tidak sesuai.",
+    "Mengabaikan perubahan kondisi."
+  ],
+  "quiz": [
+    {
+      "q": "Hasil skrining nutrisi menunjukkan pasien berisiko. Apa langkah berikutnya?",
+      "options": [
+        "Tidak perlu apa-apa",
+        "Lanjutkan pengkajian gizi dan tindak lanjut",
+        "Hapus hasil",
+        "Tunggu pasien pulang"
+      ],
+      "answer": 1,
+      "why": "Hasil positif harus diteruskan ke pengkajian dan intervensi yang sesuai."
+    },
+    {
+      "q": "Apa fungsi utama skrining?",
+      "options": [
+        "Menetapkan diagnosis akhir",
+        "Mengenali risiko atau kebutuhan tindak lanjut secara cepat",
+        "Menggantikan seluruh pengkajian",
+        "Mengisi waktu"
+      ],
+      "answer": 1,
+      "why": "Skrining mengenali risiko awal dan menentukan kebutuhan pengkajian lanjut."
+    },
+    {
+      "q": "Kapan risiko perlu dikaji ulang?",
+      "options": [
+        "Hanya saat masuk",
+        "Saat kondisi, terapi, atau situasi berubah",
+        "Tidak pernah",
+        "Setelah pasien pulang"
+      ],
+      "answer": 1,
+      "why": "Risiko bersifat dinamis dan dapat berubah selama pelayanan."
+    },
+    {
+      "q": "Apa kesalahan yang paling berbahaya?",
+      "options": [
+        "Mencatat hasil dan menindaklanjuti",
+        "Skor positif tanpa tindak lanjut",
+        "Menggunakan instrumen baku",
+        "Memberi edukasi"
+      ],
+      "answer": 1,
+      "why": "Risiko yang dikenali tetapi tidak ditindaklanjuti tetap membahayakan pasien."
+    },
+    {
+      "q": "Gangguan fungsi ditemukan saat skrining. Apa yang dilakukan?",
+      "options": [
+        "Abaikan",
+        "Kaji lebih lanjut dan koordinasikan kebutuhan bantuan/rehabilitasi",
+        "Berikan obat sendiri",
+        "Hapus dari catatan"
+      ],
+      "answer": 1,
+      "why": "Temuan fungsi perlu diterjemahkan menjadi kebutuhan asuhan dan kolaborasi."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    }
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "PP 1",
+    "PP 1.1",
+    "PP 1.2",
+    "PP 1.3"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    277,
+    278,
+    279,
+    280
+  ],
+  "standardRef": "PP 1.2",
+  "keywords": [
+    "1.",
+    "1.2",
+    "2.",
+    "3.",
+    "4.",
+    "5.",
+    "ada",
+    "aktivitas",
+    "akurat.",
+    "alat",
+    "antara",
+    "apa",
+    "asuhan.",
+    "asupan.",
+    "atau",
+    "baca",
+    "bantu",
+    "berat",
+    "berhenti",
+    "berisiko",
+    "berlaku",
+    "bertentangan.",
+    "catat",
+    "centang.",
+    "cepat.",
+    "contohnya",
+    "dampaknya.",
+    "dan",
+    "dapat",
+    "dari",
+    "dengan",
+    "dikaji",
+    "dilanjutkan.",
+    "diteruskan",
+    "ditetapkan.",
+    "ditindaklanjuti",
+    "dokumentasi",
+    "dokumentasikan",
+    "edukasi",
+    "evaluasi",
+    "evaluasinya.",
+    "fungsi",
+    "fungsional",
+    "gimana",
+    "gizi",
+    "gizi.",
+    "gunakan",
+    "harus",
+    "hasil",
+    "hasil.",
+    "hasilnya",
+    "hubungan",
+    "hubungkan",
+    "instrumen",
+    "intensitas",
+    "intervensi",
+    "intinya",
+    "jangan",
+    "jatuh",
+    "karakter",
+    "ke",
+    "kebutuhan",
+    "keliru",
+    "kenali",
+    "keterbatasan",
+    "kolaborasi",
+    "kolaborasikan",
+    "komunikasikan",
+    "kondisi",
+    "konsisten",
+    "koordinasikan",
+    "lakukan",
+    "lanjut",
+    "lanjutan.",
+    "lengkap",
+    "lokasi",
+    "masalah",
+    "melindungi",
+    "membantu",
+    "mengenali",
+    "meningkat",
+    "menurun",
+    "mobilisasi",
+    "mobilitas",
+    "nilai",
+    "nutrisi",
+    "nyata.",
+    "nyeri",
+    "pada",
+    "pantau",
+    "pasien",
+    "pasien.",
+    "pemantauan.",
+    "pengkajian",
+    "perdalam",
+    "perubahan",
+    "populasi",
+    "positif",
+    "pp",
+    "rehabilitasi.",
+    "rendah",
+    "risiko",
+    "saat",
+    "saling",
+    "sedang",
+    "serah",
+    "sering",
+    "sesuai",
+    "skor",
+    "skrining",
+    "skrining.",
+    "tambahkan",
+    "tanda",
+    "tentukan",
+    "terapkan",
+    "terdeteksi.",
+    "terima.",
+    "terlihat",
+    "tidak",
+    "tidaknya",
+    "tindak",
+    "tindakan",
+    "tinggi",
+    "tingkat",
+    "ulang",
+    "ulang.",
+    "untuk",
+    "waktu",
+    "yang"
+  ],
+  "searchText": "Skrining Risiko dan Tindak Lanjut Nyeri, nutrisi, jatuh, fungsi, dan tindak lanjut hasil skrining. PP 1.2 💡 Apa intinya? Skrining membantu mengenali risiko dengan cepat. Hasil positif harus dilanjutkan. Nyeri Nilai ada tidaknya nyeri, intensitas, lokasi, karakter, dan dampaknya. Risiko nutrisi Gunakan instrumen yang berlaku; hasil berisiko diteruskan untuk pengkajian gizi. Risiko jatuh Tentukan tingkat risiko dan intervensi sesuai hasil. Kebutuhan fungsional Kenali keterbatasan mobilitas, aktivitas, alat bantu, dan kebutuhan rehabilitasi. 🧭 Dari skrining ke tindakan Jangan berhenti pada skor atau tanda centang. 1. Lakukan skrining Gunakan instrumen dan waktu yang ditetapkan. 2. Baca hasilnya Kenali risiko rendah, sedang, tinggi, atau kebutuhan lanjutan. 3. Lakukan pengkajian lanjut Perdalam masalah sesuai hasil skrining. 4. Terapkan tindak lanjut Intervensi, kolaborasi, edukasi, dan pemantauan. 5. Dokumentasikan Catat hasil, tindak lanjut, dan evaluasinya. 💬 Contohnya gimana? Hubungkan hasil dengan tindakan nyata. Risiko nutrisi positif Koordinasikan pengkajian gizi dan pantau asupan. Nyeri sedang–berat Lakukan pengkajian lengkap, intervensi, dan evaluasi ulang. Risiko jatuh meningkat Tambahkan intervensi dan komunikasikan saat serah terima. Fungsi menurun Kolaborasikan kebutuhan mobilisasi, alat bantu, atau rehabilitasi. 🚨 Apa yang sering keliru? Skrining yang tidak ditindaklanjuti tidak melindungi pasien. Skor ada, tindak lanjut tidak ada Tidak terlihat hubungan antara hasil dan asuhan. Instrumen tidak sesuai populasi Hasil dapat tidak akurat. Tidak dikaji ulang Perubahan risiko tidak terdeteksi. Dokumentasi tidak konsisten Skor, intervensi, dan kondisi pasien saling bertentangan."
+}

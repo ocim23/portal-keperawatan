@@ -1,0 +1,335 @@
+{
+  "id": "ppi-kebersihan-lingkungan",
+  "group": "ppi",
+  "title": "Kebersihan Lingkungan",
+  "short": "Kebersihan Lingkungan",
+  "desc": "Jaga permukaan dan area pasien tetap bersih sesuai risiko dan frekuensi.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 15,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "💡 Apa intinya?",
+      "caption": "Permukaan yang sering disentuh dapat menjadi jalur perpindahan mikroorganisme.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Area pasien",
+            "text": "Bed rail, meja, monitor, gagang, tombol, dan permukaan sekitar pasien."
+          },
+          {
+            "title": "Bersihkan dari area lebih bersih",
+            "text": "Hindari membawa kotoran dari area kotor ke area yang lebih bersih."
+          },
+          {
+            "title": "Gunakan bahan yang tepat",
+            "text": "Ikuti konsentrasi, waktu kontak, dan petunjuk produk."
+          },
+          {
+            "title": "Tumpahan ditangani khusus",
+            "text": "Tumpahan darah/cairan tubuh menggunakan alur spill kit."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "💪 Perawat harus ngapain?",
+      "caption": "Perawat ikut menjaga lingkungan di titik pelayanan.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Jaga area tindakan",
+            "text": "Pisahkan area bersih dan area yang terkontaminasi."
+          },
+          {
+            "title": "Bersihkan alat kecil sesuai tanggung jawab",
+            "text": "Misalnya permukaan alat yang sering disentuh, mengikuti petunjuk."
+          },
+          {
+            "title": "Laporkan kebutuhan pembersihan",
+            "text": "Jangan membiarkan tumpahan atau area kotor tanpa pengamanan."
+          },
+          {
+            "title": "Edukasi pasien/keluarga",
+            "text": "Jangan meletakkan barang kotor di area bersih atau menghalangi pembersihan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚨 Apa yang sering keliru?",
+      "caption": "Lingkungan tampak bersih belum tentu aman.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Satu kain untuk banyak area",
+            "text": "Memindahkan kontaminasi."
+          },
+          {
+            "title": "Tidak mengikuti waktu kontak",
+            "text": "Disinfektan belum bekerja optimal."
+          },
+          {
+            "title": "Mencampur bahan kimia",
+            "text": "Dapat menghasilkan gas atau reaksi berbahaya."
+          },
+          {
+            "title": "Menyemprot dekat pasien tanpa penilaian",
+            "text": "Dapat menimbulkan pajanan atau mengganggu pernapasan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Yang wajib diingat",
+      "points": [
+        "Fokus pada permukaan sering disentuh.",
+        "Gunakan bahan sesuai petunjuk.",
+        "Tumpahan cairan tubuh memakai alur khusus."
+      ]
+    }
+  ],
+  "do": [
+    "Pisahkan area bersih dan kotor.",
+    "Laporkan area yang perlu dibersihkan.",
+    "Ikuti waktu kontak produk."
+  ],
+  "dont": [
+    "Mencampur bahan kimia.",
+    "Menggunakan satu kain untuk semua area.",
+    "Membiarkan tumpahan tanpa pengamanan."
+  ],
+  "quiz": [
+    {
+      "q": "Permukaan mana yang perlu perhatian tinggi?",
+      "options": [
+        "Permukaan sering disentuh",
+        "Langit-langit saja",
+        "Area yang tidak pernah digunakan",
+        "Tidak ada"
+      ],
+      "answer": 0,
+      "why": "Permukaan sering disentuh lebih mudah menjadi jalur perpindahan mikroorganisme."
+    },
+    {
+      "q": "Apa yang perlu diperhatikan saat memakai disinfektan?",
+      "options": [
+        "Warna botol saja",
+        "Konsentrasi dan waktu kontak",
+        "Harga produk",
+        "Ukuran ruangan saja"
+      ],
+      "answer": 1,
+      "why": "Efektivitas bergantung pada penggunaan sesuai petunjuk."
+    },
+    {
+      "q": "Bolehkan mencampur dua bahan pembersih?",
+      "options": [
+        "Selalu boleh",
+        "Tidak, kecuali secara khusus dinyatakan aman dalam petunjuk",
+        "Boleh jika baunya enak",
+        "Boleh tanpa APD"
+      ],
+      "answer": 1,
+      "why": "Pencampuran dapat menghasilkan reaksi berbahaya."
+    },
+    {
+      "q": "Ada tumpahan darah. Apa yang dilakukan?",
+      "options": [
+        "Biarkan kering",
+        "Amankan area dan gunakan alur spill kit",
+        "Lap dengan tangan kosong",
+        "Tutup dengan kertas"
+      ],
+      "answer": 1,
+      "why": "Tumpahan biologis memerlukan pengamanan dan prosedur khusus."
+    },
+    {
+      "q": "Apa peran perawat?",
+      "options": [
+        "Mengabaikan lingkungan",
+        "Menjaga area tindakan dan melaporkan kebutuhan pembersihan",
+        "Mencampur semua limbah",
+        "Menutup ventilasi"
+      ],
+      "answer": 1,
+      "why": "Perawat berperan langsung pada lingkungan titik pelayanan."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "5",
+    "alat",
+    "alur",
+    "aman.",
+    "apa",
+    "area",
+    "atau",
+    "bahan",
+    "banyak",
+    "barang",
+    "bed",
+    "bekerja",
+    "belum",
+    "berbahaya.",
+    "bersih",
+    "bersih.",
+    "bersihkan",
+    "dan",
+    "dapat",
+    "darah/cairan",
+    "dari",
+    "dekat",
+    "di",
+    "disentuh",
+    "disinfektan",
+    "ditangani",
+    "edukasi",
+    "frekuensi.",
+    "gagang",
+    "gas",
+    "gunakan",
+    "harus",
+    "hindari",
+    "ikut",
+    "ikuti",
+    "intinya",
+    "jaga",
+    "jalur",
+    "jangan",
+    "jawab",
+    "kain",
+    "ke",
+    "kebersihan",
+    "kebutuhan",
+    "kecil",
+    "keliru",
+    "khusus",
+    "kimia",
+    "kit.",
+    "konsentrasi",
+    "kontak",
+    "kontaminasi.",
+    "kotor",
+    "kotoran",
+    "laporkan",
+    "lebih",
+    "lingkungan",
+    "meja",
+    "meletakkan",
+    "membawa",
+    "membiarkan",
+    "memindahkan",
+    "mencampur",
+    "mengganggu",
+    "menggunakan",
+    "menghalangi",
+    "menghasilkan",
+    "mengikuti",
+    "menimbulkan",
+    "menjadi",
+    "menjaga",
+    "menyemprot",
+    "mikroorganisme.",
+    "misalnya",
+    "monitor",
+    "ngapain",
+    "optimal.",
+    "pajanan",
+    "pasien",
+    "pasien.",
+    "pasien/keluarga",
+    "pelayanan.",
+    "pembersihan",
+    "pembersihan.",
+    "pengamanan.",
+    "penilaian",
+    "perawat",
+    "permukaan",
+    "pernapasan.",
+    "perpindahan",
+    "petunjuk",
+    "petunjuk.",
+    "pisahkan",
+    "ppi",
+    "produk.",
+    "rail",
+    "reaksi",
+    "risiko",
+    "satu",
+    "sekitar",
+    "sering",
+    "sesuai",
+    "spill",
+    "tampak",
+    "tanggung",
+    "tanpa",
+    "tentu",
+    "tepat",
+    "terkontaminasi.",
+    "tetap",
+    "tidak",
+    "tindakan",
+    "titik",
+    "tombol",
+    "tubuh",
+    "tumpahan",
+    "untuk",
+    "waktu",
+    "yang"
+  ],
+  "instrumentCodes": [
+    "PPI 4",
+    "PPI 4.1",
+    "PPI 5",
+    "PPI 6"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    191,
+    192,
+    193,
+    194,
+    195,
+    196
+  ],
+  "standardRef": "PPI 5",
+  "searchText": "Kebersihan Lingkungan Jaga permukaan dan area pasien tetap bersih sesuai risiko dan frekuensi. PPI 5 💡 Apa intinya? Permukaan yang sering disentuh dapat menjadi jalur perpindahan mikroorganisme. Area pasien Bed rail, meja, monitor, gagang, tombol, dan permukaan sekitar pasien. Bersihkan dari area lebih bersih Hindari membawa kotoran dari area kotor ke area yang lebih bersih. Gunakan bahan yang tepat Ikuti konsentrasi, waktu kontak, dan petunjuk produk. Tumpahan ditangani khusus Tumpahan darah/cairan tubuh menggunakan alur spill kit. 💪 Perawat harus ngapain? Perawat ikut menjaga lingkungan di titik pelayanan. Jaga area tindakan Pisahkan area bersih dan area yang terkontaminasi. Bersihkan alat kecil sesuai tanggung jawab Misalnya permukaan alat yang sering disentuh, mengikuti petunjuk. Laporkan kebutuhan pembersihan Jangan membiarkan tumpahan atau area kotor tanpa pengamanan. Edukasi pasien/keluarga Jangan meletakkan barang kotor di area bersih atau menghalangi pembersihan. 🚨 Apa yang sering keliru? Lingkungan tampak bersih belum tentu aman. Satu kain untuk banyak area Memindahkan kontaminasi. Tidak mengikuti waktu kontak Disinfektan belum bekerja optimal. Mencampur bahan kimia Dapat menghasilkan gas atau reaksi berbahaya. Menyemprot dekat pasien tanpa penilaian Dapat menimbulkan pajanan atau mengganggu pernapasan."
+}

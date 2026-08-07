@@ -1,0 +1,343 @@
+{
+  "id": "ppi-pemilahan-limbah",
+  "group": "ppi",
+  "title": "Pemilahan Limbah dan Benda Tajam",
+  "short": "Pemilahan Limbah dan Benda Tajam",
+  "desc": "Pisahkan limbah di titik penggunaan dan gunakan wadah yang sesuai.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 18,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "💡 Apa intinya?",
+      "caption": "Pisahkan limbah berdasarkan jenis dan bentuk fisiknya sejak dari sumber.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Infeksius non-tajam",
+            "text": "Masuk ke wadah/kantong infeksius sesuai sistem rumah sakit."
+          },
+          {
+            "title": "Benda tajam biasa",
+            "text": "Masuk ke safety box kaku, tahan tusuk, tahan bocor, dan dapat ditutup."
+          },
+          {
+            "title": "Sitotoksik non-tajam",
+            "text": "Masuk ke kantong/kontainer ungu berlabel sitotoksik."
+          },
+          {
+            "title": "Sitotoksik tajam atau kaca",
+            "text": "Masuk ke safety box khusus yang diberi label/simbol sitotoksik."
+          }
+        ],
+        "columns": 2,
+        "note": "Benda tajam tidak pernah dibuang langsung ke kantong plastik."
+      }
+    },
+    {
+      "type": "image",
+      "title": "Ilustrasi pemilahan limbah rumah sakit",
+      "caption": "Gunakan poster sebagai pengingat visual; warna dan bentuk wadah mengikuti sistem rumah sakit.",
+      "image": "assets/images/posters/v5/pemilahan-limbah-rs.webp",
+      "thumbnail": "assets/images/posters/v5/thumb/pemilahan-limbah-rs.webp"
+    },
+    {
+      "type": "html",
+      "title": "💪 Perawat harus ngapain?",
+      "caption": "Buang limbah langsung ke wadah yang benar.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Buang segera",
+            "text": "Jangan meletakkan jarum atau limbah terkontaminasi di meja."
+          },
+          {
+            "title": "Jangan recap",
+            "text": "Jangan menutup kembali, membengkokkan, atau mematahkan jarum."
+          },
+          {
+            "title": "Perhatikan batas isi",
+            "text": "Tutup safety box saat mencapai batas yang ditentukan."
+          },
+          {
+            "title": "Laporkan salah pilah",
+            "text": "Amankan tanpa memasukkan tangan ke dalam wadah."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚨 Apa yang sering keliru?",
+      "caption": "Kesalahan pemilahan membahayakan petugas berikutnya.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Jarum ke kantong kuning/ungu",
+            "text": "Benda tajam dapat menembus kantong."
+          },
+          {
+            "title": "Safety box terlalu penuh",
+            "text": "Meningkatkan risiko tertusuk."
+          },
+          {
+            "title": "Menekan isi dengan tangan",
+            "text": "Dilarang karena risiko cedera."
+          },
+          {
+            "title": "Label tidak jelas",
+            "text": "Limbah dapat masuk ke alur pengolahan yang salah."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Yang wajib diingat",
+      "points": [
+        "Tajam biasa masuk safety box biasa.",
+        "Sitotoksik tajam/kaca masuk safety box berlabel sitotoksik.",
+        "Sitotoksik lunak masuk wadah ungu."
+      ]
+    }
+  ],
+  "do": [
+    "Pilah di titik penggunaan.",
+    "Tutup safety box sesuai batas.",
+    "Ikuti warna dan label sistem RS."
+  ],
+  "dont": [
+    "Membuang benda tajam ke kantong plastik.",
+    "Recap jarum.",
+    "Memasukkan tangan ke wadah."
+  ],
+  "quiz": [
+    {
+      "q": "Ke mana spuit dan vial bekas kemoterapi dibuang?",
+      "options": [
+        "Kantong ungu langsung",
+        "Safety box kaku berlabel sitotoksik",
+        "Sampah umum",
+        "Kantong kuning biasa"
+      ],
+      "answer": 1,
+      "why": "Bentuk tajam/kaca memerlukan wadah tahan tusuk sekaligus identitas sitotoksik."
+    },
+    {
+      "q": "Ke mana gaun lunak terkontaminasi obat sitotoksik dibuang?",
+      "options": [
+        "Wadah ungu sitotoksik",
+        "Safety box biasa",
+        "Sampah umum",
+        "Wastafel"
+      ],
+      "answer": 0,
+      "why": "Limbah sitotoksik non-tajam menggunakan wadah/kantong ungu."
+    },
+    {
+      "q": "Safety box sudah mencapai batas isi. Apa yang dilakukan?",
+      "options": [
+        "Tekan isinya",
+        "Tutup dan ganti sesuai prosedur",
+        "Tambahkan jarum lagi",
+        "Kosongkan dengan tangan"
+      ],
+      "answer": 1,
+      "why": "Wadah penuh meningkatkan risiko tertusuk."
+    },
+    {
+      "q": "Bolehkan jarum ditutup kembali sebelum dibuang?",
+      "options": [
+        "Boleh selalu",
+        "Tidak, buang segera tanpa recap",
+        "Boleh jika terburu-buru",
+        "Boleh pada malam hari"
+      ],
+      "answer": 1,
+      "why": "Recap meningkatkan risiko tertusuk jarum."
+    },
+    {
+      "q": "Apa prinsip utama pemilahan?",
+      "options": [
+        "Pilah di titik penggunaan",
+        "Campur lalu pilah di akhir",
+        "Pilah hanya saat audit",
+        "Pilih wadah terdekat tanpa melihat label"
+      ],
+      "answer": 0,
+      "why": "Pemilahan sejak sumber mengurangi pajanan dan salah alur."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "7",
+    "alur",
+    "amankan",
+    "apa",
+    "atau",
+    "batas",
+    "benar.",
+    "benda",
+    "bentuk",
+    "berdasarkan",
+    "berikutnya.",
+    "berlabel",
+    "biasa",
+    "bocor",
+    "box",
+    "buang",
+    "cedera.",
+    "dalam",
+    "dan",
+    "dapat",
+    "dari",
+    "dengan",
+    "di",
+    "diberi",
+    "dilarang",
+    "ditentukan.",
+    "ditutup.",
+    "fisiknya",
+    "gunakan",
+    "harus",
+    "ilustrasi",
+    "infeksius",
+    "intinya",
+    "isi",
+    "jangan",
+    "jarum",
+    "jarum.",
+    "jelas",
+    "jenis",
+    "kaca",
+    "kaku",
+    "kantong",
+    "kantong.",
+    "kantong/kontainer",
+    "karena",
+    "ke",
+    "keliru",
+    "kembali",
+    "kesalahan",
+    "khusus",
+    "kuning/ungu",
+    "label",
+    "label/simbol",
+    "langsung",
+    "laporkan",
+    "limbah",
+    "masuk",
+    "meja.",
+    "meletakkan",
+    "memasukkan",
+    "mematahkan",
+    "membahayakan",
+    "membengkokkan",
+    "mencapai",
+    "menekan",
+    "menembus",
+    "mengikuti",
+    "meningkatkan",
+    "menutup",
+    "ngapain",
+    "non-tajam",
+    "pemilahan",
+    "penggunaan",
+    "pengingat",
+    "pengolahan",
+    "penuh",
+    "perawat",
+    "perhatikan",
+    "petugas",
+    "pilah",
+    "pisahkan",
+    "poster",
+    "ppi",
+    "recap",
+    "risiko",
+    "rumah",
+    "saat",
+    "safety",
+    "sakit",
+    "sakit.",
+    "salah",
+    "salah.",
+    "sebagai",
+    "segera",
+    "sejak",
+    "sering",
+    "sesuai",
+    "sesuai.",
+    "sistem",
+    "sitotoksik",
+    "sitotoksik.",
+    "sumber.",
+    "tahan",
+    "tajam",
+    "tangan",
+    "tanpa",
+    "terkontaminasi",
+    "terlalu",
+    "tertusuk.",
+    "tidak",
+    "titik",
+    "tusuk",
+    "tutup",
+    "ungu",
+    "visual",
+    "wadah",
+    "wadah.",
+    "wadah/kantong",
+    "warna",
+    "yang"
+  ],
+  "instrumentCodes": [
+    "PPI 4",
+    "PPI 4.1",
+    "PPI 5",
+    "PPI 6"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    191,
+    192,
+    193,
+    194,
+    195,
+    196
+  ],
+  "standardRef": "PPI 7",
+  "searchText": "Pemilahan Limbah dan Benda Tajam Pisahkan limbah di titik penggunaan dan gunakan wadah yang sesuai. PPI 7 💡 Apa intinya? Pisahkan limbah berdasarkan jenis dan bentuk fisiknya sejak dari sumber. Infeksius non-tajam Masuk ke wadah/kantong infeksius sesuai sistem rumah sakit. Benda tajam biasa Masuk ke safety box kaku, tahan tusuk, tahan bocor, dan dapat ditutup. Sitotoksik non-tajam Masuk ke kantong/kontainer ungu berlabel sitotoksik. Sitotoksik tajam atau kaca Masuk ke safety box khusus yang diberi label/simbol sitotoksik. Ilustrasi pemilahan limbah rumah sakit Gunakan poster sebagai pengingat visual; warna dan bentuk wadah mengikuti sistem rumah sakit. 💪 Perawat harus ngapain? Buang limbah langsung ke wadah yang benar. Buang segera Jangan meletakkan jarum atau limbah terkontaminasi di meja. Jangan recap Jangan menutup kembali, membengkokkan, atau mematahkan jarum. Perhatikan batas isi Tutup safety box saat mencapai batas yang ditentukan. Laporkan salah pilah Amankan tanpa memasukkan tangan ke dalam wadah. 🚨 Apa yang sering keliru? Kesalahan pemilahan membahayakan petugas berikutnya. Jarum ke kantong kuning/ungu Benda tajam dapat menembus kantong. Safety box terlalu penuh Meningkatkan risiko tertusuk. Menekan isi dengan tangan Dilarang karena risiko cedera. Label tidak jelas Limbah dapat masuk ke alur pengolahan yang salah."
+}

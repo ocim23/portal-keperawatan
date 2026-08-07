@@ -1,36 +1,36 @@
 {
   "id": "pp-awal",
   "group": "pp",
-  "title": "PP 1, PP 1.1, PP 1.2, dan PP 1.3 — Pengkajian Awal Pasien",
-  "short": "PP 1–1.3",
-  "desc": "Pengkajian medis dan keperawatan, skrining wajib, populasi khusus, dan rencana pulang sejak awal.",
+  "title": "Pengkajian Awal Pasien",
+  "short": "Pengkajian Awal Pasien",
+  "desc": "Kumpulkan data, analisis temuan, dan tentukan kebutuhan asuhan tepat waktu.",
   "category": "PP",
   "color": "#7B5EA7",
   "soft": "#F4EEFF",
   "icon": "clipboard",
   "minutes": 22,
-  "updated": "2026-08-05",
-  "notice": "Materi diringkas dari Instrumen Survei Akreditasi Rumah Sakit 2024. Isi difokuskan pada pengetahuan, tindakan, dokumentasi, wawancara, observasi, dan simulasi yang relevan bagi perawat; unsur tata kelola rumah sakit tidak ditampilkan sebagai bahan belajar utama.",
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
   "quizDisplayCount": 5,
   "slides": [
     {
       "type": "html",
-      "title": "Tiga proses utama pengkajian pasien",
-      "caption": "Pengkajian bukan sekadar mengisi formulir; hasilnya harus mengarahkan kebutuhan dan rencana perawatan.",
+      "title": "🎯 Tiga proses utama pengkajian",
+      "caption": "Pengkajian bukan sekadar mengisi form. Temuan harus menghasilkan keputusan.",
       "template": {
         "style": "timeline",
         "items": [
           {
-            "title": "1. Pengumpulan data",
-            "text": "Kumpulkan kondisi fisik, psikologis, sosial, dan riwayat kesehatan pasien."
+            "title": "1. Kumpulkan data",
+            "text": "Gali kondisi fisik, psikologis, sosial, spiritual, ekonomi, dan riwayat kesehatan."
           },
           {
-            "title": "2. Analisis data",
-            "text": "Gabungkan wawancara, pemeriksaan, laboratorium, dan pencitraan untuk mengidentifikasi masalah, risiko, dan kebutuhan."
+            "title": "2. Analisis temuan",
+            "text": "Hubungkan data pasien dengan pemeriksaan fisik, laboratorium, dan penunjang."
           },
           {
-            "title": "3. Pengembangan rencana",
-            "text": "Gunakan hasil analisis untuk menentukan tata laksana segera dan kebutuhan perawatan berkesinambungan."
+            "title": "3. Tentukan kebutuhan asuhan",
+            "text": "Tetapkan masalah, prioritas, intervensi, pemantauan, dan kolaborasi yang diperlukan."
           }
         ],
         "columns": 1,
@@ -39,70 +39,26 @@
     },
     {
       "type": "html",
-      "title": "Isi minimal pengkajian awal",
-      "caption": "Bagian berikut harus tergali sesuai kondisi dan populasi pasien.",
+      "title": "📂 Apa saja isi minimalnya?",
+      "caption": "Pastikan bagian penting ini tidak terlewat.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Keluhan dan status klinis",
-            "text": "Keluhan saat ini, status fisik, dan riwayat kesehatan."
+            "title": "Keluhan dan kondisi klinis",
+            "text": "Keluhan saat ini, status fisik, riwayat kesehatan, alergi, dan penggunaan obat."
           },
           {
-            "title": "Psikososial dan kebutuhan dasar",
-            "text": "Psikososial-spiritual serta kondisi ekonomi yang memengaruhi pelayanan."
-          },
-          {
-            "title": "Alergi dan obat",
-            "text": "Riwayat alergi dan riwayat penggunaan obat."
+            "title": "Psikososial dan kebutuhan pasien",
+            "text": "Psikososial-spiritual, ekonomi, nilai, komunikasi, dan kebutuhan edukasi."
           },
           {
             "title": "Risiko dan fungsi",
-            "text": "Nyeri, risiko jatuh, status fungsional, dan risiko nutrisi."
-          },
-          {
-            "title": "Kemampuan belajar",
-            "text": "Kebutuhan edukasi dan hambatan menerima informasi."
+            "text": "Nyeri, risiko jatuh, fungsi, dan risiko nutrisi."
           },
           {
             "title": "Kelanjutan pelayanan",
-            "text": "Perencanaan pemulangan dimulai sejak pengkajian awal."
-          }
-        ],
-        "columns": 2,
-        "note": "Jika skrining menunjukkan masalah atau risiko, lanjutkan dengan pengkajian lebih mendalam dan tindak lanjut."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Batas waktu dan hasil pengkajian",
-      "caption": "Perawat harus mengetahui kapan pengkajian selesai dan apa keluaran klinisnya.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Maksimal 24 jam",
-            "text": "Pengkajian awal medis dan keperawatan pasien rawat inap selesai dalam 24 jam pertama atau lebih awal sesuai kondisi."
-          },
-          {
-            "title": "Diagnosis keperawatan",
-            "text": "Hasil pengkajian keperawatan menentukan kebutuhan asuhan, intervensi, atau pemantauan yang spesifik."
-          },
-          {
-            "title": "Skrining nutrisi",
-            "text": "Pasien berisiko nutrisi dilanjutkan dengan pengkajian gizi."
-          },
-          {
-            "title": "Fungsi dan jatuh",
-            "text": "Skrining kebutuhan fungsional termasuk risiko jatuh harus ditindaklanjuti sesuai hasil."
-          },
-          {
-            "title": "Pengkajian lama",
-            "text": "Pengkajian sebelum rawat/prosedur berlaku bila berusia ≤30 hari; lebih lama memerlukan pengkajian ulang."
-          },
-          {
-            "title": "Pengkajian dari luar",
-            "text": "Hasil dari luar rumah sakit ditinjau atau diverifikasi sebelum digunakan."
+            "text": "Mulai perencanaan pulang sejak awal."
           }
         ],
         "columns": 2,
@@ -111,166 +67,50 @@
     },
     {
       "type": "html",
-      "title": "Pengkajian tambahan populasi khusus",
-      "caption": "Pengkajian disesuaikan dengan kebutuhan pasien, bukan memakai satu formulir yang sama tanpa pendalaman.",
+      "title": "⏱️ Kapan harus selesai?",
+      "caption": "Untuk rawat inap, pengkajian medis dan keperawatan diselesaikan dalam 24 jam pertama atau lebih cepat bila kondisi menuntut.",
       "template": {
-        "style": "cards",
+        "style": "checklist",
         "items": [
           {
-            "title": "Tahap usia",
-            "text": "Neonatus, anak, remaja, obstetri/maternitas, dan geriatri."
+            "title": "24 jam adalah batas maksimum",
+            "text": "Jangan menunggu sampai jam ke-24 bila pasien sesak, nyeri berat, perdarahan, penurunan kesadaran, atau berisiko tinggi."
           },
           {
-            "title": "Kondisi khusus",
-            "text": "Terminal, nyeri kronik/intens, gangguan emosional/psikiatri, atau kecanduan."
+            "title": "Hasilnya harus jelas",
+            "text": "Pengkajian keperawatan menghasilkan diagnosis/masalah keperawatan dan kebutuhan intervensi atau pemantauan."
           },
           {
-            "title": "Risiko perlindungan",
-            "text": "Korban kekerasan atau kesewenangan."
-          },
-          {
-            "title": "Penyakit/terapi khusus",
-            "text": "Penyakit menular, kemoterapi/radioterapi, atau gangguan imun."
-          },
-          {
-            "title": "Nilai dan budaya",
-            "text": "Pendalaman tetap memperhatikan nilai, budaya, dan kondisi individual pasien."
+            "title": "Temuan penting langsung ditindaklanjuti",
+            "text": "Jangan menunda eskalasi hanya karena pengkajian belum selesai seluruhnya."
           }
         ],
-        "columns": 2,
+        "columns": 1,
         "note": ""
       }
     },
     {
       "type": "html",
-      "title": "Pahami konsep",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Skrining",
-            "text": "Penyaringan cepat untuk menemukan risiko atau kebutuhan yang memerlukan asesmen lebih lanjut."
-          },
-          {
-            "title": "Pengkajian awal",
-            "text": "Penilaian komprehensif pada awal episode pelayanan untuk menentukan kebutuhan awal dan berkelanjutan."
-          },
-          {
-            "title": "Data subjektif",
-            "text": "Informasi yang disampaikan pasien/keluarga seperti keluhan, pengalaman, dan preferensi."
-          },
-          {
-            "title": "Data objektif",
-            "text": "Hasil observasi, pemeriksaan fisik, tanda vital, dan hasil penunjang."
-          },
-          {
-            "title": "Analisis",
-            "text": "Menghubungkan data untuk mengenali masalah, risiko, prioritas, dan kebutuhan kolaborasi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Alur penerapan",
-      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Siapkan lingkungan",
-            "text": "Jaga privasi, gunakan bahasa yang dipahami, dan pastikan pasien mampu berpartisipasi."
-          },
-          {
-            "title": "Mulai dari kondisi segera",
-            "text": "Nilai stabilitas dan kebutuhan tindakan cepat sebelum pengkajian rinci."
-          },
-          {
-            "title": "Gunakan sumber multipel",
-            "text": "Gabungkan wawancara, observasi, pemeriksaan, rekam medis, keluarga, dan hasil diagnostik."
-          },
-          {
-            "title": "Validasi data",
-            "text": "Klarifikasi informasi yang bertentangan, tidak lengkap, atau tidak sesuai kondisi."
-          },
-          {
-            "title": "Tindak lanjuti hasil positif",
-            "text": "Skrining positif harus diikuti asesmen lebih mendalam, intervensi, atau rujukan."
-          },
-          {
-            "title": "Dokumentasikan bermakna",
-            "text": "Catat temuan penting, analisis, prioritas, tindakan, dan siapa yang diberi tahu."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Praktik: pengkajian awal yang menghasilkan rencana",
-      "caption": "Pengkajian bukan daftar centang; setiap temuan penting harus memengaruhi prioritas dan tindak lanjut.",
+      "title": "💪 Perawat harus ngapain?",
+      "caption": "Gunakan pengkajian untuk mengarahkan asuhan, bukan sekadar mencentang kolom.",
       "template": {
         "style": "practice",
         "items": [
           {
             "title": "Mulai dari keselamatan",
-            "text": "Nilai kegawatan, jalan napas, pernapasan, sirkulasi, kesadaran, nyeri, dan risiko segera."
+            "text": "Nilai jalan napas, pernapasan, sirkulasi, kesadaran, nyeri, dan risiko segera."
           },
           {
             "title": "Kumpulkan data terarah",
-            "text": "Gabungkan keluhan, riwayat, pemeriksaan, obat, alergi, fungsi, psikososial, nutrisi, dan kebutuhan edukasi."
+            "text": "Gabungkan wawancara, observasi, pemeriksaan, catatan, dan informasi keluarga."
           },
           {
             "title": "Validasi data",
-            "text": "Bandingkan informasi pasien/keluarga dengan temuan objektif dan sumber lain yang sah."
-          },
-          {
-            "title": "Identifikasi masalah dan risiko",
-            "text": "Pisahkan masalah aktual, risiko, kebutuhan kolaborasi, dan kebutuhan pemulangan."
-          },
-          {
-            "title": "Hasilkan diagnosis dan tindak lanjut",
-            "text": "Pengkajian keperawatan harus menghasilkan diagnosis keperawatan serta kebutuhan intervensi atau pemantauan yang spesifik; rencana asuhan terukur diperdalam pada PAP 1.2."
+            "text": "Bandingkan informasi pasien/keluarga dengan hasil objektif dan sumber lain."
           },
           {
             "title": "Dokumentasikan tepat waktu",
-            "text": "Catatan harus menunjukkan alasan klinis dan kesinambungan, bukan sekadar semua kolom terisi."
-          }
-        ],
-        "columns": 2,
-        "note": "Temuan abnormal atau risiko tinggi harus ditindaklanjuti, bukan hanya dicatat."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Situasi khusus",
-      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "title": "Pasien tidak mampu memberi riwayat",
-            "text": "Gunakan keluarga, pendamping, dokumen, atau sumber lain sambil membedakan informasi terverifikasi dan belum terverifikasi."
-          },
-          {
-            "title": "Hambatan bahasa atau sensorik",
-            "text": "Gunakan metode komunikasi, penerjemah, alat bantu, atau demonstrasi yang sesuai."
-          },
-          {
-            "title": "Kondisi berubah saat pengkajian",
-            "text": "Hentikan pengkajian rutin, tangani perburukan, dan lakukan eskalasi."
-          },
-          {
-            "title": "Data lama tersedia",
-            "text": "Jangan menyalin tanpa verifikasi; kondisi dan kebutuhan pasien dapat berubah."
-          },
-          {
-            "title": "Pasien rawat jalan",
-            "text": "Cakupan menyesuaikan kebutuhan layanan tetapi tetap harus cukup untuk keputusan yang aman."
+            "text": "Catatan harus sesuai kondisi nyata dan mudah ditelusuri."
           }
         ],
         "columns": 2,
@@ -279,30 +119,18 @@
     },
     {
       "type": "html",
-      "title": "Peran perawat",
-      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
+      "title": "💬 Contohnya gimana?",
+      "caption": "Temuan harus mengubah keputusan asuhan.",
       "template": {
-        "style": "checklist",
+        "style": "cards",
         "items": [
           {
-            "title": "Prioritaskan keselamatan",
-            "text": "Kenali temuan yang membutuhkan tindakan segera sebelum melanjutkan detail."
+            "title": "Contoh",
+            "text": "Pasien berjalan tidak stabil dan pernah jatuh. Perawat tidak cukup mencatat “risiko jatuh tinggi”; perawat menerapkan intervensi, mengedukasi, mengomunikasikan, dan mengkaji ulang."
           },
           {
-            "title": "Gunakan pertanyaan terbuka dan terarah",
-            "text": "Berikan ruang pasien bercerita lalu lengkapi informasi spesifik."
-          },
-          {
-            "title": "Hubungkan data dengan rencana",
-            "text": "Setiap masalah utama harus memiliki tujuan dan tindakan yang jelas."
-          },
-          {
-            "title": "Libatkan pasien dan keluarga",
-            "text": "Tanyakan preferensi, kemampuan, dukungan, dan tujuan pasien."
-          },
-          {
-            "title": "Komunikasikan risiko",
-            "text": "Sampaikan temuan penting kepada PPA yang relevan dan pastikan tindak lanjut."
+            "title": "Jawaban singkat saat ditanya",
+            "text": "“Saya mengumpulkan dan menganalisis data, menetapkan masalah keperawatan, menindaklanjuti risiko, lalu mendokumentasikannya dalam batas waktu yang ditetapkan.”"
           }
         ],
         "columns": 1,
@@ -311,30 +139,26 @@
     },
     {
       "type": "html",
-      "title": "Kesalahan yang sering terjadi",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "title": "🚨 Apa yang sering keliru?",
+      "caption": "Kesalahan kecil dapat membuat pengkajian tidak bermakna.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Mengisi semua kolom tetapi tidak menganalisis",
-            "text": "Data banyak tidak otomatis menghasilkan asuhan yang tepat."
+            "title": "Salin-tempel",
+            "text": "Data lama tidak sesuai kondisi pasien saat ini."
           },
           {
-            "title": "Menyalin pengkajian sebelumnya",
-            "text": "Kesalahan lama dan kondisi yang sudah berubah dapat terbawa."
+            "title": "Data tanpa analisis",
+            "text": "Form penuh, tetapi masalah dan prioritas tidak jelas."
           },
           {
-            "title": "Skrining positif tanpa tindak lanjut",
-            "text": "Risiko sudah ditemukan tetapi tidak menghasilkan perlindungan."
+            "title": "Temuan tidak ditindaklanjuti",
+            "text": "Risiko atau hasil abnormal hanya dicatat."
           },
           {
-            "title": "Tidak menggali obat dan alergi",
-            "text": "Meningkatkan risiko interaksi, duplikasi, atau reaksi alergi."
-          },
-          {
-            "title": "Rencana pulang dimulai di akhir",
-            "text": "Edukasi, alat, dukungan, dan rujukan dapat terlambat."
+            "title": "Terlambat",
+            "text": "Pengkajian melewati batas waktu atau tindakan penting tertunda."
           }
         ],
         "columns": 2,
@@ -344,162 +168,86 @@
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Yang wajib diingat",
       "points": [
-        "1. Pengumpulan data: Kumpulkan kondisi fisik, psikologis, sosial, dan riwayat kesehatan pasien.",
-        "2. Analisis data: Gabungkan wawancara, pemeriksaan, laboratorium, dan pencitraan untuk mengidentifikasi masalah, risiko, dan kebutuhan.",
-        "3. Pengembangan rencana: Gunakan hasil analisis untuk menentukan tata laksana segera dan kebutuhan perawatan berkesinambungan.",
-        "Keluhan dan status klinis: Keluhan saat ini, status fisik, dan riwayat kesehatan.",
-        "Psikososial dan kebutuhan dasar: Psikososial-spiritual serta kondisi ekonomi yang memengaruhi pelayanan.",
-        "Alergi dan obat: Riwayat alergi dan riwayat penggunaan obat."
+        "Pengkajian mencakup pengumpulan data, analisis, dan penentuan kebutuhan asuhan.",
+        "Isi minimal mencakup kondisi klinis, psikososial, risiko, fungsi, edukasi, dan rencana pulang.",
+        "Rawat inap diselesaikan dalam 24 jam atau lebih cepat sesuai kondisi."
       ]
     },
     {
-      "title": "Dasar penilaian",
+      "title": "Jawaban cepat",
       "points": [
-        "PP 1–1.3 menilai regulasi dan isi minimal pengkajian, kompetensi PPA, batas waktu, diagnosis medis/keperawatan, skrining, tindak lanjut, dan pengkajian populasi khusus."
-      ]
-    },
-    {
-      "title": "Batas waktu utama",
-      "points": [
-        "Pengkajian awal medis dan keperawatan rawat inap selesai dan terdokumentasi dalam 24 jam pertama atau lebih awal sesuai kondisi pasien."
-      ]
-    },
-    {
-      "title": "Hasil pengkajian",
-      "points": [
-        "Pengkajian medis menghasilkan diagnosis medis; pengkajian keperawatan menghasilkan diagnosis keperawatan yang mengarahkan intervensi atau pemantauan spesifik."
-      ]
-    },
-    {
-      "title": "Skrining harus ditindaklanjuti",
-      "points": [
-        "Risiko nutrisi dilanjutkan dengan pengkajian gizi; kebutuhan fungsional dan risiko jatuh harus teridentifikasi serta terdokumentasi."
-      ]
-    },
-    {
-      "title": "Populasi khusus",
-      "points": [
-        "Pengkajian tambahan disesuaikan dengan populasi khusus yang dilayani rumah sakit."
+        "Pengkajian harus menghasilkan masalah/diagnosis keperawatan serta tindak lanjut yang spesifik.",
+        "Temuan risiko tidak boleh berhenti pada tanda centang."
       ]
     }
   ],
   "do": [
-    "Nilai kondisi mendesak terlebih dahulu.",
-    "Gunakan data subjektif dan objektif.",
-    "Validasi informasi yang tidak cocok.",
-    "Tindak lanjuti skrining positif.",
-    "Hubungkan temuan dengan rencana asuhan.",
-    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
+    "Kaji kondisi segera lebih dahulu.",
+    "Validasi data dan tindak lanjuti temuan abnormal.",
+    "Dokumentasikan sesuai kondisi nyata."
   ],
   "dont": [
-    "Menyalin data lama tanpa verifikasi.",
-    "Mengisi formulir tanpa analisis.",
-    "Mengabaikan hambatan komunikasi.",
-    "Menunda discharge planning sampai hari pulang.",
-    "Membiarkan temuan risiko tanpa eskalasi.",
-    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
+    "Menunggu jam ke-24 pada pasien tidak stabil.",
+    "Mengisi form tanpa analisis.",
+    "Menyalin data lama tanpa verifikasi."
   ],
   "quiz": [
     {
-      "q": "Skrining nutrisi pasien menunjukkan risiko tinggi. Tindakan berikutnya adalah…",
+      "q": "Pasien rawat inap baru datang dengan sesak. Kapan pengkajian harus dilakukan?",
       "options": [
-        "Mencatat skor saja",
-        "Melakukan/merujuk pengkajian nutrisi dan memulai tindak lanjut sesuai kebutuhan",
-        "Mengulang skor saat pulang",
-        "Mengurangi diet tanpa asesmen"
+        "Menunggu hingga akhir shift",
+        "Segera sesuai kondisi, tidak menunggu batas 24 jam",
+        "Besok pagi",
+        "Saat dokter meminta"
       ],
       "answer": 1,
-      "why": "Skrining positif harus menghasilkan asesmen lebih lanjut dan tindakan."
+      "why": "Batas 24 jam adalah batas maksimum; kondisi berisiko harus dikaji lebih awal."
     },
     {
-      "q": "Perbedaan utama skrining dan pengkajian adalah…",
+      "q": "Apa hasil yang diharapkan dari pengkajian keperawatan?",
       "options": [
-        "Skrining selalu lebih lama",
-        "Skrining menyaring risiko, pengkajian mendalami masalah dan kebutuhan",
-        "Pengkajian hanya untuk dokter",
-        "Keduanya sama"
+        "Form terisi penuh saja",
+        "Diagnosis/masalah keperawatan dan kebutuhan asuhan yang jelas",
+        "Daftar pemeriksaan dokter",
+        "Nomor kamar pasien"
       ],
       "answer": 1,
-      "why": "Skrining menemukan siapa yang perlu dinilai lebih lanjut."
+      "why": "Data harus dianalisis menjadi kebutuhan asuhan, intervensi, atau pemantauan."
     },
     {
-      "q": "Pasien tiba sesak berat saat wawancara pengkajian. Prioritas perawat adalah…",
+      "q": "Perawat menemukan risiko jatuh tinggi. Apa langkah terbaik?",
       "options": [
-        "Menyelesaikan seluruh formulir",
-        "Menilai dan menangani kondisi akut serta melakukan eskalasi",
-        "Menanyakan riwayat keluarga lengkap",
-        "Menunda tanda vital"
+        "Cukup beri tanda centang",
+        "Terapkan intervensi, edukasi, komunikasi, dan kaji ulang",
+        "Hapus hasil agar tidak merepotkan",
+        "Tunggu pasien jatuh"
       ],
       "answer": 1,
-      "why": "Stabilitas dan keselamatan mendahului kelengkapan administratif."
+      "why": "Temuan risiko harus mengubah tindakan dan pemantauan."
     },
     {
-      "q": "Data subjektif adalah…",
+      "q": "Apa yang harus dihindari saat mengisi pengkajian?",
       "options": [
-        "Tekanan darah 90/60 mmHg",
-        "Pasien mengatakan pusing saat berdiri",
-        "Saturasi 88%",
-        "Luka tampak kemerahan"
+        "Validasi data",
+        "Salin-tempel yang tidak sesuai kondisi",
+        "Pemeriksaan fisik",
+        "Wawancara keluarga"
       ],
       "answer": 1,
-      "why": "Keluhan yang disampaikan pasien merupakan data subjektif."
+      "why": "Salin-tempel dapat menghasilkan informasi keliru dan asuhan yang tidak tepat."
     },
     {
-      "q": "Mengapa data lama tidak boleh disalin langsung?",
+      "q": "Kapan perencanaan pulang mulai dikenali?",
       "options": [
-        "Karena tulisan lama tidak rapi",
-        "Kondisi dapat berubah dan kesalahan dapat ikut terbawa",
-        "Karena hanya dokter boleh membaca",
-        "Karena semua data harus dihapus"
+        "Saat pasien sudah akan pulang",
+        "Sejak pengkajian awal",
+        "Setelah tagihan selesai",
+        "Hanya jika keluarga meminta"
       ],
       "answer": 1,
-      "why": "Pengkajian harus mencerminkan kondisi saat ini."
-    },
-    {
-      "q": "Discharge planning dimulai…",
-      "options": [
-        "Saat pasien meminta pulang",
-        "Sejak awal pengkajian ketika kebutuhan transisi dapat dikenali",
-        "Setelah resep pulang selesai",
-        "Hanya pada pasien lansia"
-      ],
-      "answer": 1,
-      "why": "Perencanaan awal mencegah kebutuhan pulang terlambat dipenuhi."
-    },
-    {
-      "q": "Pasien tidak dapat menjawab dan keluarga belum hadir. Perawat sebaiknya…",
-      "options": [
-        "Mengosongkan seluruh pengkajian",
-        "Menggunakan observasi dan sumber resmi yang tersedia serta menandai data yang belum terverifikasi",
-        "Mengarang riwayat",
-        "Menunggu tanpa menilai kondisi"
-      ],
-      "answer": 1,
-      "why": "Gunakan sumber yang tersedia dan bedakan informasi pasti dengan yang belum terverifikasi."
-    },
-    {
-      "q": "Pengkajian yang bermakna ditunjukkan oleh…",
-      "options": [
-        "Semua kolom terisi",
-        "Temuan dianalisis dan menghasilkan prioritas serta rencana yang sesuai",
-        "Formulir ditandatangani cepat",
-        "Data dicopy dari pasien lain"
-      ],
-      "answer": 1,
-      "why": "Nilai pengkajian terletak pada keputusan asuhan yang dihasilkan."
-    },
-    {
-      "q": "Pengkajian awal lengkap, tetapi temuan sesak dan saturasi menurun hanya dicatat tanpa tindak lanjut. Kekurangan utamanya adalah…",
-      "options": [
-        "Tidak memakai warna tertentu",
-        "Pengkajian tidak menghasilkan prioritas, tindakan, dan eskalasi",
-        "Tidak mencetak formulir",
-        "Tidak menambah diagnosis sebanyak mungkin"
-      ],
-      "answer": 1,
-      "why": "Data bermakna harus memicu analisis dan tindakan, bukan berhenti sebagai dokumentasi."
+      "why": "Kebutuhan pulang perlu dikenali sejak awal agar persiapan tidak terlambat."
     }
   ],
   "references": [
@@ -528,5 +276,221 @@
     278,
     279,
     280
-  ]
+  ],
+  "standardRef": "PP 1 dan PP 1.1",
+  "keywords": [
+    "1",
+    "1.",
+    "1.1",
+    "2.",
+    "24",
+    "3.",
+    "abnormal",
+    "adalah",
+    "alergi",
+    "analisis",
+    "apa",
+    "asuhan",
+    "asuhan.",
+    "atau",
+    "awal",
+    "awal.",
+    "bagian",
+    "bandingkan",
+    "batas",
+    "belum",
+    "berat",
+    "berisiko",
+    "berjalan",
+    "bermakna.",
+    "bila",
+    "bukan",
+    "catatan",
+    "cepat",
+    "contoh",
+    "contohnya",
+    "cukup",
+    "dalam",
+    "dan",
+    "dapat",
+    "dari",
+    "data",
+    "dengan",
+    "diagnosis/masalah",
+    "dicatat.",
+    "diperlukan.",
+    "diselesaikan",
+    "ditanya",
+    "ditelusuri.",
+    "ditetapkan.",
+    "ditindaklanjuti",
+    "dokumentasikan",
+    "edukasi.",
+    "ekonomi",
+    "eskalasi",
+    "fisik",
+    "form",
+    "form.",
+    "fungsi",
+    "gabungkan",
+    "gali",
+    "gimana",
+    "gunakan",
+    "hanya",
+    "harus",
+    "hasil",
+    "hasilnya",
+    "hubungkan",
+    "inap",
+    "informasi",
+    "ini",
+    "ini.",
+    "intervensi",
+    "isi",
+    "jalan",
+    "jam",
+    "jangan",
+    "jatuh",
+    "jatuh.",
+    "jawaban",
+    "jelas",
+    "jelas.",
+    "kapan",
+    "karena",
+    "ke-24",
+    "kebutuhan",
+    "kecil",
+    "kelanjutan",
+    "keliru",
+    "keluarga.",
+    "keluhan",
+    "keperawatan",
+    "keputusan",
+    "keputusan.",
+    "kesadaran",
+    "kesalahan",
+    "kesehatan",
+    "kesehatan.",
+    "keselamatan",
+    "klinis",
+    "kolaborasi",
+    "kolom.",
+    "komunikasi",
+    "kondisi",
+    "kumpulkan",
+    "laboratorium",
+    "lain.",
+    "lalu",
+    "lama",
+    "langsung",
+    "lebih",
+    "maksimum",
+    "masalah",
+    "medis",
+    "melewati",
+    "membuat",
+    "mencatat",
+    "mencentang",
+    "mendokumentasikannya",
+    "menerapkan",
+    "menetapkan",
+    "menganalisis",
+    "mengarahkan",
+    "mengedukasi",
+    "menghasilkan",
+    "mengisi",
+    "mengkaji",
+    "mengomunikasikan",
+    "mengubah",
+    "mengumpulkan",
+    "menindaklanjuti",
+    "menunda",
+    "menunggu",
+    "menuntut.",
+    "minimalnya",
+    "mudah",
+    "mulai",
+    "napas",
+    "ngapain",
+    "nilai",
+    "nutrisi.",
+    "nyata",
+    "nyeri",
+    "obat.",
+    "objektif",
+    "observasi",
+    "pasien",
+    "pasien/keluarga",
+    "pastikan",
+    "pelayanan",
+    "pemantauan",
+    "pemantauan.",
+    "pemeriksaan",
+    "penggunaan",
+    "pengkajian",
+    "penting",
+    "penuh",
+    "penunjang.",
+    "penurunan",
+    "perawat",
+    "perdarahan",
+    "perencanaan",
+    "pernah",
+    "pernapasan",
+    "pertama",
+    "pp",
+    "prioritas",
+    "proses",
+    "psikologis",
+    "psikososial",
+    "psikososial-spiritual",
+    "pulang",
+    "rawat",
+    "risiko",
+    "riwayat",
+    "saat",
+    "saja",
+    "salin-tempel",
+    "sampai",
+    "saya",
+    "segera.",
+    "sejak",
+    "sekadar",
+    "selesai",
+    "seluruhnya.",
+    "sering",
+    "sesak",
+    "sesuai",
+    "singkat",
+    "sirkulasi",
+    "sosial",
+    "spiritual",
+    "stabil",
+    "status",
+    "sumber",
+    "tanpa",
+    "temuan",
+    "tentukan",
+    "tepat",
+    "terarah",
+    "terlambat",
+    "terlewat.",
+    "tertunda.",
+    "tetapi",
+    "tetapkan",
+    "tidak",
+    "tiga",
+    "tindakan",
+    "tinggi",
+    "tinggi.",
+    "ulang.",
+    "untuk",
+    "utama",
+    "validasi",
+    "waktu",
+    "waktu.",
+    "wawancara",
+    "yang"
+  ],
+  "searchText": "Pengkajian Awal Pasien Kumpulkan data, analisis temuan, dan tentukan kebutuhan asuhan tepat waktu. PP 1 dan PP 1.1 🎯 Tiga proses utama pengkajian Pengkajian bukan sekadar mengisi form. Temuan harus menghasilkan keputusan. 1. Kumpulkan data Gali kondisi fisik, psikologis, sosial, spiritual, ekonomi, dan riwayat kesehatan. 2. Analisis temuan Hubungkan data pasien dengan pemeriksaan fisik, laboratorium, dan penunjang. 3. Tentukan kebutuhan asuhan Tetapkan masalah, prioritas, intervensi, pemantauan, dan kolaborasi yang diperlukan. 📂 Apa saja isi minimalnya? Pastikan bagian penting ini tidak terlewat. Keluhan dan kondisi klinis Keluhan saat ini, status fisik, riwayat kesehatan, alergi, dan penggunaan obat. Psikososial dan kebutuhan pasien Psikososial-spiritual, ekonomi, nilai, komunikasi, dan kebutuhan edukasi. Risiko dan fungsi Nyeri, risiko jatuh, fungsi, dan risiko nutrisi. Kelanjutan pelayanan Mulai perencanaan pulang sejak awal. ⏱️ Kapan harus selesai? Untuk rawat inap, pengkajian medis dan keperawatan diselesaikan dalam 24 jam pertama atau lebih cepat bila kondisi menuntut. 24 jam adalah batas maksimum Jangan menunggu sampai jam ke-24 bila pasien sesak, nyeri berat, perdarahan, penurunan kesadaran, atau berisiko tinggi. Hasilnya harus jelas Pengkajian keperawatan menghasilkan diagnosis/masalah keperawatan dan kebutuhan intervensi atau pemantauan. Temuan penting langsung ditindaklanjuti Jangan menunda eskalasi hanya karena pengkajian belum selesai seluruhnya. 💪 Perawat harus ngapain? Gunakan pengkajian untuk mengarahkan asuhan, bukan sekadar mencentang kolom. Mulai dari keselamatan Nilai jalan napas, pernapasan, sirkulasi, kesadaran, nyeri, dan risiko segera. Kumpulkan data terarah Gabungkan wawancara, observasi, pemeriksaan, catatan, dan informasi keluarga. Validasi data Bandingkan informasi pasien/keluarga dengan hasil objektif dan sumber lain. Dokumentasikan tepat waktu Catatan harus sesuai kondisi nyata dan mudah ditelusuri. 💬 Contohnya gimana? Temuan harus mengubah keputusan asuhan. Contoh Pasien berjalan tidak stabil dan pernah jatuh. Perawat tidak cukup mencatat “risiko jatuh tinggi”; perawat menerapkan intervensi, mengedukasi, mengomunikasikan, dan mengkaji ulang. Jawaban singkat saat ditanya “Saya mengumpulkan dan menganalisis data, menetapkan masalah keperawatan, menindaklanjuti risiko, lalu mendokumentasikannya dalam batas waktu yang ditetapkan.” 🚨 Apa yang sering keliru? Kesalahan kecil dapat membuat pengkajian tidak bermakna. Salin-tempel Data lama tidak sesuai kondisi pasien saat ini. Data tanpa analisis Form penuh, tetapi masalah dan prioritas tidak jelas. Temuan tidak ditindaklanjuti Risiko atau hasil abnormal hanya dicatat. Terlambat Pengkajian melewati batas waktu atau tindakan penting tertunda."
 }

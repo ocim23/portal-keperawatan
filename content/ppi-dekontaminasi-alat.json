@@ -1,0 +1,388 @@
+{
+  "id": "ppi-dekontaminasi-alat",
+  "group": "ppi",
+  "title": "Dekontaminasi Peralatan Pasien",
+  "short": "Dekontaminasi Peralatan Pasien",
+  "desc": "Pisahkan alat kotor dan bersih, lalu proses sesuai tingkat risikonya.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 15,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "💡 Apa intinya?",
+      "caption": "Alat pasien tidak boleh berpindah tanpa proses dekontaminasi yang benar.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Pembersihan",
+            "text": "Menghilangkan kotoran dan bahan organik sebelum proses berikutnya."
+          },
+          {
+            "title": "Disinfeksi",
+            "text": "Mengurangi atau mematikan mikroorganisme sesuai tingkat kebutuhan."
+          },
+          {
+            "title": "Sterilisasi",
+            "text": "Menghilangkan seluruh mikroorganisme termasuk spora untuk alat kritis."
+          },
+          {
+            "title": "Pisahkan alurnya",
+            "text": "Jangan mencampur alat kotor, proses, dan alat bersih."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🧭 Alurnya gimana?",
+      "caption": "Mulai dari titik penggunaan sampai alat aman dipakai kembali.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "1. Amankan setelah dipakai",
+            "text": "Gunakan APD sesuai risiko dan cegah cedera benda tajam."
+          },
+          {
+            "title": "2. Pisahkan dan kirim",
+            "text": "Gunakan wadah tertutup sesuai alur unit."
+          },
+          {
+            "title": "3. Bersihkan",
+            "text": "Hilangkan kotoran sesuai petunjuk alat."
+          },
+          {
+            "title": "4. Disinfeksi/sterilisasi",
+            "text": "Pilih proses berdasarkan jenis alat dan penggunaannya."
+          },
+          {
+            "title": "5. Simpan",
+            "text": "Jaga alat bersih tetap kering, utuh, dan tidak terkontaminasi kembali."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "💪 Perawat harus ngapain?",
+      "caption": "Perawat menjaga titik awal dan akhir proses alat.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Ikuti petunjuk alat",
+            "text": "Jangan merendam atau menyeka alat dengan bahan yang merusak."
+          },
+          {
+            "title": "Jaga pemisahan",
+            "text": "Alat bersih tidak boleh bersentuhan dengan wadah atau area kotor."
+          },
+          {
+            "title": "Periksa sebelum pakai",
+            "text": "Pastikan kemasan, indikator, tanggal, dan kondisi alat sesuai."
+          },
+          {
+            "title": "Laporkan masalah",
+            "text": "Alat rusak, kemasan terbuka, atau proses meragukan tidak digunakan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚨 Apa yang sering keliru?",
+      "caption": "Kesalahan alur dapat memindahkan infeksi ke pasien berikutnya.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Langsung disinfeksi tanpa dibersihkan",
+            "text": "Bahan organik dapat menghambat proses."
+          },
+          {
+            "title": "Alat kotor dibawa terbuka",
+            "text": "Mencemari lingkungan dan membahayakan petugas."
+          },
+          {
+            "title": "Mencampur bersih dan kotor",
+            "text": "Alat yang sudah diproses dapat terkontaminasi kembali."
+          },
+          {
+            "title": "Memakai alat dengan kemasan rusak",
+            "text": "Sterilitas tidak dapat dijamin."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Yang wajib diingat",
+      "points": [
+        "Pembersihan mendahului disinfeksi/sterilisasi.",
+        "Pisahkan alur kotor dan bersih.",
+        "Jangan gunakan alat bila integritas atau prosesnya diragukan."
+      ]
+    }
+  ],
+  "do": [
+    "Gunakan APD sesuai risiko.",
+    "Ikuti petunjuk alat dan alur unit.",
+    "Periksa alat sebelum digunakan."
+  ],
+  "dont": [
+    "Mencampur alat kotor dan bersih.",
+    "Menggunakan kemasan rusak.",
+    "Memproses alat dengan cara yang merusak."
+  ],
+  "quiz": [
+    {
+      "q": "Apa langkah penting sebelum disinfeksi atau sterilisasi?",
+      "options": [
+        "Pembersihan",
+        "Penyimpanan",
+        "Pelabelan pasien",
+        "Pemberian obat"
+      ],
+      "answer": 0,
+      "why": "Kotoran dan bahan organik harus dihilangkan agar proses berikutnya efektif."
+    },
+    {
+      "q": "Alat steril kemasannya terbuka. Apa yang dilakukan?",
+      "options": [
+        "Tetap gunakan",
+        "Jangan gunakan dan ikuti alur pemrosesan ulang",
+        "Tutup dengan plester",
+        "Simpan kembali"
+      ],
+      "answer": 1,
+      "why": "Integritas kemasan sudah terganggu sehingga sterilitas tidak dapat dijamin."
+    },
+    {
+      "q": "Mengapa alur kotor dan bersih dipisahkan?",
+      "options": [
+        "Agar ruangan terlihat rapi",
+        "Mencegah kontaminasi silang",
+        "Menghemat waktu",
+        "Tidak ada alasan"
+      ],
+      "answer": 1,
+      "why": "Pemisahan mencegah alat bersih terkontaminasi kembali."
+    },
+    {
+      "q": "Apa yang dilakukan bila alat rusak setelah dipakai?",
+      "options": [
+        "Sembunyikan",
+        "Laporkan dan pisahkan sesuai alur",
+        "Gunakan pada pasien berikutnya",
+        "Buang ke sampah umum"
+      ],
+      "answer": 1,
+      "why": "Alat rusak perlu ditangani aman dan tidak boleh digunakan kembali."
+    },
+    {
+      "q": "Apa peran perawat sebelum alat digunakan?",
+      "options": [
+        "Memastikan kondisi dan integritas alat",
+        "Mengabaikan kemasan",
+        "Menghapus label",
+        "Merendam semua alat"
+      ],
+      "answer": 0,
+      "why": "Perawat memastikan alat aman dan siap dipakai."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "1.",
+    "2.",
+    "3.",
+    "4",
+    "4.",
+    "4.1",
+    "5.",
+    "akhir",
+    "alat",
+    "alat.",
+    "alur",
+    "alurnya",
+    "aman",
+    "amankan",
+    "apa",
+    "apd",
+    "area",
+    "atau",
+    "awal",
+    "bahan",
+    "benar.",
+    "benda",
+    "berdasarkan",
+    "berikutnya.",
+    "berpindah",
+    "bersentuhan",
+    "bersih",
+    "bersih.",
+    "bersihkan",
+    "boleh",
+    "cedera",
+    "cegah",
+    "dan",
+    "dapat",
+    "dari",
+    "dekontaminasi",
+    "dengan",
+    "dibawa",
+    "dibersihkan",
+    "digunakan.",
+    "dijamin.",
+    "dipakai",
+    "diproses",
+    "disinfeksi",
+    "disinfeksi/sterilisasi",
+    "gimana",
+    "gunakan",
+    "harus",
+    "hilangkan",
+    "ikuti",
+    "indikator",
+    "infeksi",
+    "intinya",
+    "jaga",
+    "jangan",
+    "jenis",
+    "ke",
+    "kebutuhan.",
+    "keliru",
+    "kemasan",
+    "kembali.",
+    "kering",
+    "kesalahan",
+    "kirim",
+    "kondisi",
+    "kotor",
+    "kotor.",
+    "kotoran",
+    "kritis.",
+    "lalu",
+    "langsung",
+    "laporkan",
+    "lingkungan",
+    "masalah",
+    "memakai",
+    "mematikan",
+    "membahayakan",
+    "memindahkan",
+    "mencampur",
+    "mencemari",
+    "menghambat",
+    "menghilangkan",
+    "mengurangi",
+    "menjaga",
+    "menyeka",
+    "meragukan",
+    "merendam",
+    "merusak.",
+    "mikroorganisme",
+    "mulai",
+    "ngapain",
+    "organik",
+    "pakai",
+    "pasien",
+    "pastikan",
+    "pembersihan",
+    "pemisahan",
+    "penggunaan",
+    "penggunaannya.",
+    "peralatan",
+    "perawat",
+    "periksa",
+    "petugas.",
+    "petunjuk",
+    "pilih",
+    "pisahkan",
+    "ppi",
+    "proses",
+    "proses.",
+    "risiko",
+    "risikonya.",
+    "rusak",
+    "sampai",
+    "sebelum",
+    "seluruh",
+    "sering",
+    "sesuai",
+    "sesuai.",
+    "setelah",
+    "simpan",
+    "spora",
+    "sterilisasi",
+    "sterilitas",
+    "sudah",
+    "tajam.",
+    "tanggal",
+    "tanpa",
+    "terbuka",
+    "terkontaminasi",
+    "termasuk",
+    "tertutup",
+    "tetap",
+    "tidak",
+    "tingkat",
+    "titik",
+    "unit.",
+    "untuk",
+    "utuh",
+    "wadah",
+    "yang"
+  ],
+  "instrumentCodes": [
+    "PPI 4",
+    "PPI 4.1",
+    "PPI 5",
+    "PPI 6"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    191,
+    192,
+    193,
+    194,
+    195,
+    196
+  ],
+  "standardRef": "PPI 4 dan PPI 4.1",
+  "searchText": "Dekontaminasi Peralatan Pasien Pisahkan alat kotor dan bersih, lalu proses sesuai tingkat risikonya. PPI 4 dan PPI 4.1 💡 Apa intinya? Alat pasien tidak boleh berpindah tanpa proses dekontaminasi yang benar. Pembersihan Menghilangkan kotoran dan bahan organik sebelum proses berikutnya. Disinfeksi Mengurangi atau mematikan mikroorganisme sesuai tingkat kebutuhan. Sterilisasi Menghilangkan seluruh mikroorganisme termasuk spora untuk alat kritis. Pisahkan alurnya Jangan mencampur alat kotor, proses, dan alat bersih. 🧭 Alurnya gimana? Mulai dari titik penggunaan sampai alat aman dipakai kembali. 1. Amankan setelah dipakai Gunakan APD sesuai risiko dan cegah cedera benda tajam. 2. Pisahkan dan kirim Gunakan wadah tertutup sesuai alur unit. 3. Bersihkan Hilangkan kotoran sesuai petunjuk alat. 4. Disinfeksi/sterilisasi Pilih proses berdasarkan jenis alat dan penggunaannya. 5. Simpan Jaga alat bersih tetap kering, utuh, dan tidak terkontaminasi kembali. 💪 Perawat harus ngapain? Perawat menjaga titik awal dan akhir proses alat. Ikuti petunjuk alat Jangan merendam atau menyeka alat dengan bahan yang merusak. Jaga pemisahan Alat bersih tidak boleh bersentuhan dengan wadah atau area kotor. Periksa sebelum pakai Pastikan kemasan, indikator, tanggal, dan kondisi alat sesuai. Laporkan masalah Alat rusak, kemasan terbuka, atau proses meragukan tidak digunakan. 🚨 Apa yang sering keliru? Kesalahan alur dapat memindahkan infeksi ke pasien berikutnya. Langsung disinfeksi tanpa dibersihkan Bahan organik dapat menghambat proses. Alat kotor dibawa terbuka Mencemari lingkungan dan membahayakan petugas. Mencampur bersih dan kotor Alat yang sudah diproses dapat terkontaminasi kembali. Memakai alat dengan kemasan rusak Sterilitas tidak dapat dijamin."
+}

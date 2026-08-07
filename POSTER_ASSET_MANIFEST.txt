@@ -1,35 +1,15 @@
-POSTER ASSET MANIFEST v4.2.0
-
-Poster WebP lama dipertahankan untuk materi yang telah memiliki aset. Materi baru menggunakan infografik HTML responsif agar ringan dan tajam di desktop maupun mobile.
-
-assets/images/v4/hpk-hak-kewajiban/hpk-hak-kewajiban-01.webp
-assets/images/v4/hpk-privasi-persetujuan/hpk-privasi-persetujuan-01.webp
-assets/images/v4/ke-edukasi/ke-edukasi-01.webp
-assets/images/v4/ke-komunikasi/ke-komunikasi-01.webp
-assets/images/v4/mfk-apar/mfk-apar-01.webp
-assets/images/v4/mfk-apar/mfk-apar-02.webp
-assets/images/v4/mfk-evakuasi/mfk-evakuasi-01.webp
-assets/images/v4/pap-akhir-hayat/pap-akhir-hayat-01.webp
-assets/images/v4/pap-bhd/pap-bhd-01.webp
-assets/images/v4/pap-bhd/pap-bhd-02.webp
-assets/images/v4/pap-bhd/pap-bhd-03.webp
-assets/images/v4/pap-code-blue/pap-code-blue-01.webp
-assets/images/v4/pap-ews/pap-ews-01.webp
-assets/images/v4/pap-nutrisi/pap-nutrisi-01.webp
-assets/images/v4/pap-nyeri/pap-nyeri-01.webp
-assets/images/v4/pap-risiko-tinggi/pap-risiko-tinggi-01.webp
-assets/images/v4/pap-terintegrasi/pap-terintegrasi-01.webp
-assets/images/v4/pkpo-pemberian/pkpo-pemberian-01.webp
-assets/images/v4/pmkp-keselamatan/pmkp-keselamatan-01.webp
-assets/images/v4/pp-awal/pp-awal-01.webp
-assets/images/v4/pp-ulang-cppt/pp-ulang-cppt-01.webp
-assets/images/v4/ppi-apd-transmisi/ppi-apd-transmisi-01.webp
-assets/images/v4/ppi-limbah-spill/ppi-limbah-spill-01.webp
-assets/images/v4/ppi-tangan/ppi-tangan-01.webp
-assets/images/v4/skp-1-identifikasi/skp-1-identifikasi-01.webp
-assets/images/v4/skp-2-komunikasi/skp-2-komunikasi-01.webp
-assets/images/v4/skp-3-obat/skp-3-obat-01.webp
-assets/images/v4/skp-4-tindakan/skp-4-tindakan-01.webp
-assets/images/v4/skp-5-infeksi/skp-5-infeksi-01.webp
-assets/images/v4/skp-6-jatuh/skp-6-jatuh-01.webp
-assets/images/v4/skp-ringkasan/skp-ringkasan-01.webp
+5-momen-kebersihan-tangan.webp <- 5 Momen kebersihan tangan.png
+6-langkah-kebersihan-tangan.webp <- 6 Langkah Kebersihan tangan.png
+cara-menggunakan-apar.webp <- APAR.png
+memakai-dan-melepas-apd.webp <- APD.png
+bhd-dewasa.webp <- BHD dewasa.png
+code-red-pembagian-helm.webp <- code red dan pembagian helm.png
+high-alert-lasa-elektrolit.webp <- High-alert, LASA, elektrolit konsentrat.png
+identifikasi-dua-identitas.webp <- Identifikasi dua identitas.png
+7-benar-pemberian-obat.webp <- Pemberian obat aman.png
+pemilahan-limbah-rs.webp <- Pemilahan limbah.png
+pencegahan-pasien-jatuh.webp <- Pencegahan pasien jatuh.png
+sbar-tulis-baca-konfirmasi.webp <- SBAR & tulis-baca-konfirmasi.png
+spill-kit-cairan-tubuh.webp <- spill kit.png
+tertusuk-jarum-pajanan-darah.webp <- Tertusuk jarum pajanan darah.png
+transfusi-darah-aman.webp <- Transfusi darah aman.png

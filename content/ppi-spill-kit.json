@@ -1,0 +1,354 @@
+{
+  "id": "ppi-spill-kit",
+  "group": "ppi",
+  "title": "Spill Kit Cairan Tubuh",
+  "short": "Spill Kit Cairan Tubuh",
+  "desc": "Amankan area dan tangani tumpahan darah/cairan tubuh dengan urutan yang aman.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 17,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "💡 Apa intinya?",
+      "caption": "Jangan langsung mengelap tumpahan. Amankan area, pakai APD sesuai risiko, lalu bersihkan dengan cara yang benar.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Batasi area",
+            "text": "Cegah orang menginjak atau menyentuh tumpahan."
+          },
+          {
+            "title": "Gunakan APD sesuai risiko",
+            "text": "Tambahkan pelindung mata/wajah bila ada risiko percikan."
+          },
+          {
+            "title": "Serap dan bersihkan",
+            "text": "Gunakan bahan spill kit dan disinfektan sesuai prosedur."
+          },
+          {
+            "title": "Kelola limbah",
+            "text": "Masukkan seluruh bahan bekas ke wadah yang sesuai."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "image",
+      "title": "Ilustrasi penanganan tumpahan cairan tubuh",
+      "caption": "Urutan visual ini khusus tumpahan darah/cairan tubuh, bukan tumpahan B3 kimia atau sitotoksik.",
+      "image": "assets/images/posters/v5/spill-kit-cairan-tubuh.webp",
+      "thumbnail": "assets/images/posters/v5/thumb/spill-kit-cairan-tubuh.webp"
+    },
+    {
+      "type": "html",
+      "title": "🧭 Alurnya gimana?",
+      "caption": "Lakukan langkah berurutan agar pajanan tidak meluas.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "1. Amankan dan beri tanda",
+            "text": "Jauhkan pasien/pengunjung dari area."
+          },
+          {
+            "title": "2. Siapkan spill kit",
+            "text": "Periksa isi dan pilih APD sesuai risiko."
+          },
+          {
+            "title": "3. Serap tumpahan",
+            "text": "Kerjakan dari tepi menuju pusat agar tidak melebar."
+          },
+          {
+            "title": "4. Bersihkan dan disinfeksi",
+            "text": "Ikuti konsentrasi serta waktu kontak produk."
+          },
+          {
+            "title": "5. Buang, lepas APD, dan kebersihan tangan",
+            "text": "Laporkan bila terjadi pajanan."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚨 Apa yang sering keliru?",
+      "caption": "Kesalahan dapat memperluas kontaminasi.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Langsung mengelap tanpa membatasi area",
+            "text": "Orang lain dapat terpajan."
+          },
+          {
+            "title": "APD tidak sesuai",
+            "text": "Petugas berisiko terkena percikan."
+          },
+          {
+            "title": "Mencampur bahan kimia",
+            "text": "Dapat menimbulkan reaksi berbahaya."
+          },
+          {
+            "title": "Tidak mengikuti waktu kontak",
+            "text": "Disinfeksi dapat tidak efektif."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Yang wajib diingat",
+      "points": [
+        "Amankan area sebelum membersihkan.",
+        "Gunakan APD sesuai risiko.",
+        "Ikuti konsentrasi dan waktu kontak produk."
+      ]
+    }
+  ],
+  "do": [
+    "Batasi area.",
+    "Gunakan spill kit yang sesuai.",
+    "Laporkan pajanan."
+  ],
+  "dont": [
+    "Membersihkan dengan tangan kosong.",
+    "Mencampur bahan kimia.",
+    "Membiarkan area tanpa tanda."
+  ],
+  "quiz": [
+    {
+      "q": "Apa langkah pertama saat menemukan tumpahan darah?",
+      "options": [
+        "Mengelap dengan tangan kosong",
+        "Amankan dan batasi area",
+        "Menyiram sebanyak-banyaknya",
+        "Membiarkannya"
+      ],
+      "answer": 1,
+      "why": "Area perlu diamankan agar pajanan tidak meluas."
+    },
+    {
+      "q": "APD apa yang digunakan?",
+      "options": [
+        "Selalu semua APD lengkap",
+        "Sesuai risiko pajanan dan percikan",
+        "Tidak perlu APD",
+        "Hanya masker kain"
+      ],
+      "answer": 1,
+      "why": "Pemilihan APD didasarkan pada risiko tindakan."
+    },
+    {
+      "q": "Mengapa waktu kontak disinfektan penting?",
+      "options": [
+        "Agar warna lebih cerah",
+        "Agar produk bekerja sesuai petunjuk",
+        "Agar cepat kering",
+        "Tidak penting"
+      ],
+      "answer": 1,
+      "why": "Disinfektan memerlukan waktu kontak yang cukup."
+    },
+    {
+      "q": "Poster spill kit ini digunakan untuk apa?",
+      "options": [
+        "Tumpahan cairan tubuh",
+        "Semua tumpahan kimia tanpa melihat SDS",
+        "Kebakaran",
+        "Listrik padam"
+      ],
+      "answer": 0,
+      "why": "B3 kimia/sitotoksik dapat memerlukan spill kit dan alur yang berbeda."
+    },
+    {
+      "q": "Apa yang dilakukan setelah selesai?",
+      "options": [
+        "Lepas APD aman, kebersihan tangan, dan laporkan pajanan bila ada",
+        "Langsung makan",
+        "Simpan limbah di meja",
+        "Tidak perlu apa-apa"
+      ],
+      "answer": 0,
+      "why": "Tahap akhir mencegah kontaminasi dan memastikan tindak lanjut."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "1.",
+    "2.",
+    "3.",
+    "4.",
+    "5.",
+    "7.2",
+    "ada",
+    "agar",
+    "alurnya",
+    "aman.",
+    "amankan",
+    "apa",
+    "apd",
+    "area",
+    "area.",
+    "atau",
+    "b3",
+    "bahan",
+    "batasi",
+    "bekas",
+    "benar.",
+    "berbahaya.",
+    "beri",
+    "berisiko",
+    "bersihkan",
+    "berurutan",
+    "bila",
+    "buang",
+    "bukan",
+    "cairan",
+    "cara",
+    "cegah",
+    "dan",
+    "dapat",
+    "darah/cairan",
+    "dari",
+    "dengan",
+    "disinfeksi",
+    "disinfektan",
+    "efektif.",
+    "gimana",
+    "gunakan",
+    "ikuti",
+    "ilustrasi",
+    "ini",
+    "intinya",
+    "isi",
+    "jangan",
+    "jauhkan",
+    "ke",
+    "kebersihan",
+    "keliru",
+    "kelola",
+    "kerjakan",
+    "kesalahan",
+    "khusus",
+    "kimia",
+    "kit",
+    "konsentrasi",
+    "kontak",
+    "kontaminasi.",
+    "lain",
+    "lakukan",
+    "lalu",
+    "langkah",
+    "langsung",
+    "laporkan",
+    "lepas",
+    "limbah",
+    "masukkan",
+    "mata/wajah",
+    "melebar.",
+    "meluas.",
+    "membatasi",
+    "memperluas",
+    "mencampur",
+    "mengelap",
+    "mengikuti",
+    "menginjak",
+    "menimbulkan",
+    "menuju",
+    "menyentuh",
+    "orang",
+    "pajanan",
+    "pajanan.",
+    "pakai",
+    "pasien/pengunjung",
+    "pelindung",
+    "penanganan",
+    "percikan.",
+    "periksa",
+    "petugas",
+    "pilih",
+    "ppi",
+    "produk.",
+    "prosedur.",
+    "pusat",
+    "reaksi",
+    "risiko",
+    "risiko.",
+    "seluruh",
+    "serap",
+    "sering",
+    "serta",
+    "sesuai",
+    "sesuai.",
+    "siapkan",
+    "sitotoksik.",
+    "spill",
+    "tambahkan",
+    "tanda",
+    "tangan",
+    "tangani",
+    "tanpa",
+    "tepi",
+    "terjadi",
+    "terkena",
+    "terpajan.",
+    "tidak",
+    "tubuh",
+    "tumpahan",
+    "tumpahan.",
+    "urutan",
+    "visual",
+    "wadah",
+    "waktu",
+    "yang"
+  ],
+  "instrumentCodes": [
+    "PPI 4",
+    "PPI 4.1",
+    "PPI 5",
+    "PPI 6"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    191,
+    192,
+    193,
+    194,
+    195,
+    196
+  ],
+  "standardRef": "PPI 7.2",
+  "searchText": "Spill Kit Cairan Tubuh Amankan area dan tangani tumpahan darah/cairan tubuh dengan urutan yang aman. PPI 7.2 💡 Apa intinya? Jangan langsung mengelap tumpahan. Amankan area, pakai APD sesuai risiko, lalu bersihkan dengan cara yang benar. Batasi area Cegah orang menginjak atau menyentuh tumpahan. Gunakan APD sesuai risiko Tambahkan pelindung mata/wajah bila ada risiko percikan. Serap dan bersihkan Gunakan bahan spill kit dan disinfektan sesuai prosedur. Kelola limbah Masukkan seluruh bahan bekas ke wadah yang sesuai. Ilustrasi penanganan tumpahan cairan tubuh Urutan visual ini khusus tumpahan darah/cairan tubuh, bukan tumpahan B3 kimia atau sitotoksik. 🧭 Alurnya gimana? Lakukan langkah berurutan agar pajanan tidak meluas. 1. Amankan dan beri tanda Jauhkan pasien/pengunjung dari area. 2. Siapkan spill kit Periksa isi dan pilih APD sesuai risiko. 3. Serap tumpahan Kerjakan dari tepi menuju pusat agar tidak melebar. 4. Bersihkan dan disinfeksi Ikuti konsentrasi serta waktu kontak produk. 5. Buang, lepas APD, dan kebersihan tangan Laporkan bila terjadi pajanan. 🚨 Apa yang sering keliru? Kesalahan dapat memperluas kontaminasi. Langsung mengelap tanpa membatasi area Orang lain dapat terpajan. APD tidak sesuai Petugas berisiko terkena percikan. Mencampur bahan kimia Dapat menimbulkan reaksi berbahaya. Tidak mengikuti waktu kontak Disinfeksi dapat tidak efektif."
+}

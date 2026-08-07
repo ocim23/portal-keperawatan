@@ -1,0 +1,395 @@
+{
+  "id": "pp-perencanaan-pulang",
+  "group": "pp",
+  "title": "Perencanaan Pulang Sejak Awal",
+  "short": "Perencanaan Pulang Sejak Awal",
+  "desc": "Kenali kebutuhan di rumah sejak awal agar transisi pasien aman.",
+  "category": "PP",
+  "color": "#7B5EA7",
+  "soft": "#F4EEFF",
+  "icon": "clipboard",
+  "minutes": 14,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "💡 Apa intinya?",
+      "caption": "Rencana pulang dimulai sejak pengkajian awal, bukan saat pasien sudah akan pulang.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Siapa yang merawat?",
+            "text": "Kenali caregiver, kemampuan, dan dukungan keluarga."
+          },
+          {
+            "title": "Apa yang dibutuhkan?",
+            "text": "Obat, alat, perawatan luka, diet, mobilisasi, rehabilitasi, dan kontrol."
+          },
+          {
+            "title": "Apa hambatannya?",
+            "text": "Bahasa, literasi, biaya, transportasi, rumah, dan akses layanan."
+          },
+          {
+            "title": "Apa yang harus dipahami?",
+            "text": "Tanda bahaya, cara mencari pertolongan, dan rencana tindak lanjut."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🧭 Alurnya gimana?",
+      "caption": "Rencana pulang berkembang selama perawatan.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "1. Kaji sejak awal",
+            "text": "Identifikasi kebutuhan dan hambatan."
+          },
+          {
+            "title": "2. Susun rencana",
+            "text": "Tentukan edukasi, alat, obat, caregiver, dan layanan lanjutan."
+          },
+          {
+            "title": "3. Latih dan edukasi",
+            "text": "Gunakan demonstrasi serta teach-back."
+          },
+          {
+            "title": "4. Koordinasikan",
+            "text": "Hubungkan dengan PPA, MPP, farmasi, rehabilitasi, atau jejaring."
+          },
+          {
+            "title": "5. Verifikasi sebelum pulang",
+            "text": "Pastikan pasien/keluarga mampu menjelaskan dan melakukan hal penting."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "💬 Contohnya gimana?",
+      "caption": "Rencana disesuaikan dengan kebutuhan nyata pasien.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Perawatan luka di rumah",
+            "text": "Pastikan caregiver mampu mendemonstrasikan langkah dan mengenali tanda infeksi."
+          },
+          {
+            "title": "Obat berisiko",
+            "text": "Pastikan pasien memahami dosis, waktu, efek samping, dan penyimpanan."
+          },
+          {
+            "title": "Mobilitas terbatas",
+            "text": "Siapkan alat bantu, latihan, lingkungan rumah, dan pendamping."
+          },
+          {
+            "title": "Kontrol lanjutan",
+            "text": "Jelaskan tempat, waktu, dokumen, transportasi, dan tanda bahaya."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚨 Apa yang sering keliru?",
+      "caption": "Rencana yang terlambat membuat pasien belum siap saat pulang.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mulai pada hari pulang",
+            "text": "Waktu edukasi dan koordinasi terlalu sempit."
+          },
+          {
+            "title": "Tidak menilai caregiver",
+            "text": "Rencana bagus di kertas tetapi tidak dapat dijalankan."
+          },
+          {
+            "title": "Edukasi satu arah",
+            "text": "Pasien mengangguk tetapi belum tentu paham."
+          },
+          {
+            "title": "Tidak mendokumentasikan",
+            "text": "Tim berikutnya tidak tahu apa yang sudah atau belum dipersiapkan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Yang wajib diingat",
+      "points": [
+        "Mulai sejak pengkajian awal.",
+        "Sesuaikan dengan kemampuan pasien dan keluarga.",
+        "Verifikasi pemahaman sebelum pulang."
+      ]
+    }
+  ],
+  "do": [
+    "Kaji caregiver dan hambatan.",
+    "Koordinasikan kebutuhan lintas profesi.",
+    "Gunakan teach-back dan demonstrasi."
+  ],
+  "dont": [
+    "Menunggu hari pulang.",
+    "Menganggap pasien paham hanya karena mengangguk.",
+    "Memberi instruksi tanpa memeriksa kemampuan."
+  ],
+  "quiz": [
+    {
+      "q": "Kapan perencanaan pulang dimulai?",
+      "options": [
+        "Hari pasien pulang",
+        "Sejak pengkajian awal",
+        "Setelah obat selesai",
+        "Jika keluarga meminta"
+      ],
+      "answer": 1,
+      "why": "Kebutuhan dan hambatan perlu dikenali sejak awal."
+    },
+    {
+      "q": "Pasien akan merawat luka sendiri di rumah. Apa yang perlu dilakukan?",
+      "options": [
+        "Berikan leaflet saja",
+        "Demonstrasikan, minta pasien mempraktikkan kembali, dan verifikasi",
+        "Tidak perlu edukasi",
+        "Minta mencari di internet"
+      ],
+      "answer": 1,
+      "why": "Kemampuan perlu dibuktikan melalui demonstrasi/teach-back."
+    },
+    {
+      "q": "Apa yang termasuk hambatan rencana pulang?",
+      "options": [
+        "Bahasa, biaya, transportasi, dan caregiver",
+        "Warna dinding",
+        "Nomor kamar",
+        "Nama shift"
+      ],
+      "answer": 0,
+      "why": "Hambatan tersebut dapat menentukan apakah rencana aman dan realistis."
+    },
+    {
+      "q": "Mengapa caregiver perlu dikaji?",
+      "options": [
+        "Agar pasien lebih cepat pulang tanpa edukasi",
+        "Agar rencana sesuai kemampuan orang yang membantu di rumah",
+        "Untuk menggantikan perawat",
+        "Tidak ada alasan"
+      ],
+      "answer": 1,
+      "why": "Rencana rumah harus dapat dilakukan oleh pasien atau pendamping."
+    },
+    {
+      "q": "Apa kesalahan umum?",
+      "options": [
+        "Mulai sejak awal",
+        "Menunggu hari pulang baru menyiapkan semuanya",
+        "Menggunakan teach-back",
+        "Koordinasi lintas profesi"
+      ],
+      "answer": 1,
+      "why": "Persiapan yang terlambat meningkatkan risiko transisi yang tidak aman."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+    }
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "instrumentCodes": [
+    "PP 1",
+    "PP 1.1",
+    "PP 1.2",
+    "PP 1.3"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    277,
+    278,
+    279,
+    280
+  ],
+  "standardRef": "PP 1",
+  "keywords": [
+    "1",
+    "1.",
+    "2.",
+    "3.",
+    "4.",
+    "5.",
+    "agar",
+    "akan",
+    "akses",
+    "alat",
+    "alurnya",
+    "aman.",
+    "apa",
+    "arah",
+    "atau",
+    "awal",
+    "bagus",
+    "bahasa",
+    "bahaya",
+    "bahaya.",
+    "bantu",
+    "belum",
+    "berikutnya",
+    "berisiko",
+    "berkembang",
+    "biaya",
+    "bukan",
+    "cara",
+    "caregiver",
+    "contohnya",
+    "dan",
+    "dapat",
+    "demonstrasi",
+    "dengan",
+    "di",
+    "dibutuhkan",
+    "diet",
+    "dijalankan.",
+    "dimulai",
+    "dipahami",
+    "dipersiapkan.",
+    "disesuaikan",
+    "dokumen",
+    "dosis",
+    "dukungan",
+    "edukasi",
+    "efek",
+    "farmasi",
+    "gimana",
+    "gunakan",
+    "hal",
+    "hambatan.",
+    "hambatannya",
+    "hari",
+    "harus",
+    "hubungkan",
+    "identifikasi",
+    "infeksi.",
+    "intinya",
+    "jejaring.",
+    "jelaskan",
+    "kaji",
+    "kebutuhan",
+    "keliru",
+    "keluarga.",
+    "kemampuan",
+    "kenali",
+    "kertas",
+    "kontrol",
+    "kontrol.",
+    "koordinasi",
+    "koordinasikan",
+    "langkah",
+    "lanjut.",
+    "lanjutan",
+    "lanjutan.",
+    "latih",
+    "latihan",
+    "layanan",
+    "layanan.",
+    "lingkungan",
+    "literasi",
+    "luka",
+    "mampu",
+    "melakukan",
+    "memahami",
+    "membuat",
+    "mencari",
+    "mendemonstrasikan",
+    "mendokumentasikan",
+    "mengangguk",
+    "mengenali",
+    "menilai",
+    "menjelaskan",
+    "merawat",
+    "mobilisasi",
+    "mobilitas",
+    "mpp",
+    "mulai",
+    "nyata",
+    "obat",
+    "pada",
+    "paham.",
+    "pasien",
+    "pasien.",
+    "pasien/keluarga",
+    "pastikan",
+    "pendamping.",
+    "pengkajian",
+    "penting.",
+    "penyimpanan.",
+    "perawatan",
+    "perawatan.",
+    "perencanaan",
+    "pertolongan",
+    "pp",
+    "ppa",
+    "pulang",
+    "pulang.",
+    "rehabilitasi",
+    "rencana",
+    "rumah",
+    "saat",
+    "samping",
+    "satu",
+    "sebelum",
+    "sejak",
+    "selama",
+    "sempit.",
+    "sering",
+    "serta",
+    "siap",
+    "siapa",
+    "siapkan",
+    "sudah",
+    "susun",
+    "tahu",
+    "tanda",
+    "teach-back.",
+    "tempat",
+    "tentu",
+    "tentukan",
+    "terbatas",
+    "terlalu",
+    "terlambat",
+    "tetapi",
+    "tidak",
+    "tim",
+    "tindak",
+    "transisi",
+    "transportasi",
+    "verifikasi",
+    "waktu",
+    "yang"
+  ],
+  "searchText": "Perencanaan Pulang Sejak Awal Kenali kebutuhan di rumah sejak awal agar transisi pasien aman. PP 1 💡 Apa intinya? Rencana pulang dimulai sejak pengkajian awal, bukan saat pasien sudah akan pulang. Siapa yang merawat? Kenali caregiver, kemampuan, dan dukungan keluarga. Apa yang dibutuhkan? Obat, alat, perawatan luka, diet, mobilisasi, rehabilitasi, dan kontrol. Apa hambatannya? Bahasa, literasi, biaya, transportasi, rumah, dan akses layanan. Apa yang harus dipahami? Tanda bahaya, cara mencari pertolongan, dan rencana tindak lanjut. 🧭 Alurnya gimana? Rencana pulang berkembang selama perawatan. 1. Kaji sejak awal Identifikasi kebutuhan dan hambatan. 2. Susun rencana Tentukan edukasi, alat, obat, caregiver, dan layanan lanjutan. 3. Latih dan edukasi Gunakan demonstrasi serta teach-back. 4. Koordinasikan Hubungkan dengan PPA, MPP, farmasi, rehabilitasi, atau jejaring. 5. Verifikasi sebelum pulang Pastikan pasien/keluarga mampu menjelaskan dan melakukan hal penting. 💬 Contohnya gimana? Rencana disesuaikan dengan kebutuhan nyata pasien. Perawatan luka di rumah Pastikan caregiver mampu mendemonstrasikan langkah dan mengenali tanda infeksi. Obat berisiko Pastikan pasien memahami dosis, waktu, efek samping, dan penyimpanan. Mobilitas terbatas Siapkan alat bantu, latihan, lingkungan rumah, dan pendamping. Kontrol lanjutan Jelaskan tempat, waktu, dokumen, transportasi, dan tanda bahaya. 🚨 Apa yang sering keliru? Rencana yang terlambat membuat pasien belum siap saat pulang. Mulai pada hari pulang Waktu edukasi dan koordinasi terlalu sempit. Tidak menilai caregiver Rencana bagus di kertas tetapi tidak dapat dijalankan. Edukasi satu arah Pasien mengangguk tetapi belum tentu paham. Tidak mendokumentasikan Tim berikutnya tidak tahu apa yang sudah atau belum dipersiapkan."
+}

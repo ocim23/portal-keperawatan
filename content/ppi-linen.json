@@ -1,0 +1,330 @@
+{
+  "id": "ppi-linen",
+  "group": "ppi",
+  "title": "Penatalaksanaan Linen",
+  "short": "Penatalaksanaan Linen",
+  "desc": "Tangani linen kotor tanpa mengibaskan, mencemari lingkungan, atau melukai petugas.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 15,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "💡 Apa intinya?",
+      "caption": "Linen kotor ditangani sesedikit mungkin dan langsung masuk ke wadah yang sesuai.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Jangan dikibaskan",
+            "text": "Mengurangi penyebaran partikel dan kontaminasi."
+          },
+          {
+            "title": "Gulung bagian kotor ke dalam",
+            "text": "Batasi kontak dengan seragam, pasien, dan lingkungan."
+          },
+          {
+            "title": "Masukkan di titik penggunaan",
+            "text": "Jangan membawa linen kotor terbuka melintasi ruangan."
+          },
+          {
+            "title": "Pisahkan sesuai ketentuan",
+            "text": "Gunakan kantong/wadah dan label yang berlaku di rumah sakit."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "💪 Perawat harus ngapain?",
+      "caption": "Gunakan teknik yang aman saat melepas dan memindahkan linen.",
+      "template": {
+        "style": "practice",
+        "items": [
+          {
+            "title": "Pakai APD sesuai risiko",
+            "text": "Sarung tangan dan perlindungan lain bila ada pajanan."
+          },
+          {
+            "title": "Jangan letakkan di lantai",
+            "text": "Masukkan langsung ke wadah."
+          },
+          {
+            "title": "Jangan memilah dengan tangan kosong",
+            "text": "Hindari tertusuk benda yang tersembunyi."
+          },
+          {
+            "title": "Laporkan benda asing",
+            "text": "Benda tajam atau alat yang tertinggal ditangani melalui alur keselamatan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚨 Apa yang sering keliru?",
+      "caption": "Kebiasaan sederhana dapat menyebarkan kontaminasi.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Mengibaskan linen",
+            "text": "Partikel dapat menyebar ke udara dan permukaan."
+          },
+          {
+            "title": "Memeluk linen ke seragam",
+            "text": "Mencemari pakaian petugas."
+          },
+          {
+            "title": "Menaruh linen di lantai",
+            "text": "Mencemari area dan menyulitkan alur."
+          },
+          {
+            "title": "Mengisi kantong terlalu penuh",
+            "text": "Meningkatkan risiko robek dan pajanan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Yang wajib diingat",
+      "points": [
+        "Jangan kibaskan.",
+        "Gulung bagian kotor ke dalam.",
+        "Masukkan langsung ke wadah sesuai ketentuan."
+      ]
+    }
+  ],
+  "do": [
+    "Gunakan APD sesuai risiko.",
+    "Masukkan linen di titik penggunaan.",
+    "Jaga kantong tidak terlalu penuh."
+  ],
+  "dont": [
+    "Menaruh linen di lantai.",
+    "Memeluk linen ke tubuh.",
+    "Mencari benda dengan tangan kosong."
+  ],
+  "quiz": [
+    {
+      "q": "Mengapa linen tidak boleh dikibaskan?",
+      "options": [
+        "Agar cepat selesai",
+        "Mencegah penyebaran partikel dan kontaminasi",
+        "Agar linen tidak kusut",
+        "Tidak ada alasan"
+      ],
+      "answer": 1,
+      "why": "Mengibaskan dapat menyebarkan kontaminasi ke udara dan permukaan."
+    },
+    {
+      "q": "Di mana linen kotor dimasukkan ke wadah?",
+      "options": [
+        "Di titik penggunaan",
+        "Di koridor",
+        "Di meja makan",
+        "Di nurse station"
+      ],
+      "answer": 0,
+      "why": "Memasukkan segera mengurangi pemindahan terbuka."
+    },
+    {
+      "q": "Apa yang dilakukan bila ada benda tajam tersembunyi?",
+      "options": [
+        "Ambil dengan tangan kosong",
+        "Ikuti alur benda tajam dan laporkan",
+        "Dorong ke dalam kantong",
+        "Abaikan"
+      ],
+      "answer": 1,
+      "why": "Benda tajam perlu ditangani aman untuk mencegah pajanan."
+    },
+    {
+      "q": "Apa yang harus dihindari?",
+      "options": [
+        "Menggulung bagian kotor ke dalam",
+        "Menaruh linen di lantai",
+        "Memakai APD sesuai risiko",
+        "Menggunakan wadah sesuai ketentuan"
+      ],
+      "answer": 1,
+      "why": "Lantai dapat mencemari linen dan lingkungan."
+    },
+    {
+      "q": "Kantong linen sudah terlalu penuh. Apa tindakan tepat?",
+      "options": [
+        "Tekan dengan tangan",
+        "Ganti/tutup sesuai prosedur",
+        "Tambahkan air",
+        "Biarkan terbuka"
+      ],
+      "answer": 1,
+      "why": "Kantong terlalu penuh meningkatkan risiko robek dan pajanan."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "6",
+    "ada",
+    "alat",
+    "alur",
+    "alur.",
+    "aman",
+    "apa",
+    "apd",
+    "area",
+    "asing",
+    "atau",
+    "bagian",
+    "batasi",
+    "benda",
+    "berlaku",
+    "bila",
+    "dalam",
+    "dan",
+    "dapat",
+    "dengan",
+    "di",
+    "dikibaskan",
+    "ditangani",
+    "gulung",
+    "gunakan",
+    "harus",
+    "hindari",
+    "intinya",
+    "jangan",
+    "kantong",
+    "kantong/wadah",
+    "ke",
+    "kebiasaan",
+    "keliru",
+    "keselamatan.",
+    "ketentuan",
+    "kontak",
+    "kontaminasi.",
+    "kosong",
+    "kotor",
+    "label",
+    "lain",
+    "langsung",
+    "lantai",
+    "laporkan",
+    "letakkan",
+    "linen",
+    "linen.",
+    "lingkungan",
+    "lingkungan.",
+    "masuk",
+    "masukkan",
+    "melalui",
+    "melepas",
+    "melintasi",
+    "melukai",
+    "membawa",
+    "memeluk",
+    "memilah",
+    "memindahkan",
+    "menaruh",
+    "mencemari",
+    "mengibaskan",
+    "mengisi",
+    "mengurangi",
+    "meningkatkan",
+    "menyebar",
+    "menyebarkan",
+    "menyulitkan",
+    "mungkin",
+    "ngapain",
+    "pajanan.",
+    "pakai",
+    "pakaian",
+    "partikel",
+    "pasien",
+    "penatalaksanaan",
+    "penggunaan",
+    "penuh",
+    "penyebaran",
+    "perawat",
+    "perlindungan",
+    "permukaan.",
+    "petugas.",
+    "pisahkan",
+    "ppi",
+    "risiko",
+    "robek",
+    "ruangan.",
+    "rumah",
+    "saat",
+    "sakit.",
+    "sarung",
+    "sederhana",
+    "seragam",
+    "sering",
+    "sesedikit",
+    "sesuai",
+    "sesuai.",
+    "tajam",
+    "tangan",
+    "tangani",
+    "tanpa",
+    "teknik",
+    "terbuka",
+    "terlalu",
+    "tersembunyi.",
+    "tertinggal",
+    "tertusuk",
+    "titik",
+    "udara",
+    "wadah",
+    "wadah.",
+    "yang"
+  ],
+  "instrumentCodes": [
+    "PPI 4",
+    "PPI 4.1",
+    "PPI 5",
+    "PPI 6"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    191,
+    192,
+    193,
+    194,
+    195,
+    196
+  ],
+  "standardRef": "PPI 6",
+  "searchText": "Penatalaksanaan Linen Tangani linen kotor tanpa mengibaskan, mencemari lingkungan, atau melukai petugas. PPI 6 💡 Apa intinya? Linen kotor ditangani sesedikit mungkin dan langsung masuk ke wadah yang sesuai. Jangan dikibaskan Mengurangi penyebaran partikel dan kontaminasi. Gulung bagian kotor ke dalam Batasi kontak dengan seragam, pasien, dan lingkungan. Masukkan di titik penggunaan Jangan membawa linen kotor terbuka melintasi ruangan. Pisahkan sesuai ketentuan Gunakan kantong/wadah dan label yang berlaku di rumah sakit. 💪 Perawat harus ngapain? Gunakan teknik yang aman saat melepas dan memindahkan linen. Pakai APD sesuai risiko Sarung tangan dan perlindungan lain bila ada pajanan. Jangan letakkan di lantai Masukkan langsung ke wadah. Jangan memilah dengan tangan kosong Hindari tertusuk benda yang tersembunyi. Laporkan benda asing Benda tajam atau alat yang tertinggal ditangani melalui alur keselamatan. 🚨 Apa yang sering keliru? Kebiasaan sederhana dapat menyebarkan kontaminasi. Mengibaskan linen Partikel dapat menyebar ke udara dan permukaan. Memeluk linen ke seragam Mencemari pakaian petugas. Menaruh linen di lantai Mencemari area dan menyulitkan alur. Mengisi kantong terlalu penuh Meningkatkan risiko robek dan pajanan."
+}

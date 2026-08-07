@@ -1,8 +1,7 @@
-Portal Keperawatan v4.4.0 validation
-Content files: 62
-Slides: 467
-Quiz items: 522
-Raw EP slides: 0
-Evidence metadata in slides: 0
-Minimum quiz bank per topic: >=5
-Status: PASS
+VALIDATION V5.0.0
+PASS
+- Kelompok: 9
+- Submateri: 67
+- Poster WebP: 15
+- Total slide: 480
+- Total bank soal: 532

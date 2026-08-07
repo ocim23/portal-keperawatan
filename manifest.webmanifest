@@ -1,7 +1,7 @@
 {
   "name": "Portal Keperawatan — Akreditasi dan Askep",
   "short_name": "Portal Keperawatan",
-  "description": "Microlearning akreditasi yang berfokus pada pengetahuan dan praktik wajib perawat.",
+  "description": "Portal belajar akreditasi yang ringan, fokus pada pengetahuan dan praktik perawat.",
   "lang": "id",
   "start_url": "./#/home",
   "scope": "./",

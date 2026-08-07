@@ -1,0 +1,349 @@
+{
+  "id": "ppi-pajanan-petugas",
+  "group": "ppi",
+  "title": "Tertusuk Jarum dan Pajanan Darah",
+  "short": "Tertusuk Jarum dan Pajanan Darah",
+  "desc": "Lakukan pertolongan awal, laporkan segera, dan jalani penilaian pascapajanan.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "priority": "knowledge",
+  "priorityLabel": "Pengetahuan Wajib",
+  "minutes": 16,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 5,
+  "slides": [
+    {
+      "type": "html",
+      "title": "💡 Apa intinya?",
+      "caption": "Pajanan adalah kondisi mendesak. Pertolongan awal dan pelaporan tidak boleh ditunda.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Luka tusuk/sayat",
+            "text": "Cuci segera dengan sabun dan air mengalir. Jangan memencet atau memijat luka."
+          },
+          {
+            "title": "Percikan ke mata",
+            "text": "Bilas dengan air bersih atau cairan saline."
+          },
+          {
+            "title": "Percikan ke mulut/hidung",
+            "text": "Bilas dengan air."
+          },
+          {
+            "title": "Percikan ke kulit",
+            "text": "Cuci dengan sabun dan air, terutama bila kulit tidak utuh."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "image",
+      "title": "Ilustrasi tertusuk jarum dan pajanan darah",
+      "caption": "Poster membantu mengingat pertolongan awal dan alur pelaporan.",
+      "image": "assets/images/posters/v5/tertusuk-jarum-pajanan-darah.webp",
+      "thumbnail": "assets/images/posters/v5/thumb/tertusuk-jarum-pajanan-darah.webp"
+    },
+    {
+      "type": "html",
+      "title": "🧭 Setelah pertolongan awal",
+      "caption": "Jangan berhenti setelah luka dibersihkan.",
+      "template": {
+        "style": "timeline",
+        "items": [
+          {
+            "title": "1. Laporkan segera",
+            "text": "Hubungi atasan/unit yang ditetapkan."
+          },
+          {
+            "title": "2. Nilai jenis pajanan",
+            "text": "Jenis cairan, kedalaman luka, alat, sumber, dan status klinis."
+          },
+          {
+            "title": "3. Jalani evaluasi medis",
+            "text": "Pemeriksaan dasar dan penilaian kebutuhan profilaksis."
+          },
+          {
+            "title": "4. Mulai profilaksis bila diindikasikan",
+            "text": "Semakin cepat dievaluasi semakin baik."
+          },
+          {
+            "title": "5. Ikuti tindak lanjut",
+            "text": "Pemeriksaan, konseling, dan dokumentasi sesuai program."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚨 Apa yang sering keliru?",
+      "caption": "Kesalahan ini dapat menunda perlindungan petugas.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Menunda laporan",
+            "text": "Waktu evaluasi dan profilaksis terbuang."
+          },
+          {
+            "title": "Memencet luka",
+            "text": "Tidak dianjurkan dan dapat menambah trauma."
+          },
+          {
+            "title": "Menggunakan bahan kaustik",
+            "text": "Pemutih atau bahan keras dapat merusak jaringan."
+          },
+          {
+            "title": "Takut disalahkan",
+            "text": "Pelaporan diperlukan untuk keselamatan dan tindak lanjut, bukan untuk menghukum."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Yang wajib diingat",
+      "points": [
+        "Lakukan pertolongan awal sesuai lokasi pajanan.",
+        "Laporkan segera.",
+        "Jalani evaluasi dan tindak lanjut."
+      ]
+    }
+  ],
+  "do": [
+    "Cuci/bilas segera.",
+    "Laporkan tanpa menunda.",
+    "Ikuti evaluasi medis."
+  ],
+  "dont": [
+    "Memencet luka.",
+    "Mengoles bahan kaustik.",
+    "Menyembunyikan pajanan."
+  ],
+  "quiz": [
+    {
+      "q": "Apa tindakan awal setelah tertusuk jarum?",
+      "options": [
+        "Memencet luka kuat-kuat",
+        "Cuci dengan sabun dan air mengalir",
+        "Tutup tanpa dicuci",
+        "Tunggu besok"
+      ],
+      "answer": 1,
+      "why": "Pembersihan segera merupakan pertolongan awal yang tepat."
+    },
+    {
+      "q": "Percikan darah masuk ke mata. Apa yang dilakukan?",
+      "options": [
+        "Gosok mata",
+        "Bilas dengan air bersih atau saline",
+        "Teteskan pemutih",
+        "Tutup dan tidur"
+      ],
+      "answer": 1,
+      "why": "Mukosa mata perlu segera dibilas."
+    },
+    {
+      "q": "Kapan pajanan dilaporkan?",
+      "options": [
+        "Segera",
+        "Setelah seminggu",
+        "Jika muncul gejala",
+        "Tidak perlu"
+      ],
+      "answer": 0,
+      "why": "Evaluasi dan profilaksis bergantung pada waktu."
+    },
+    {
+      "q": "Apa yang tidak dianjurkan pada luka tusuk?",
+      "options": [
+        "Mencuci",
+        "Melapor",
+        "Memencet atau memijat luka",
+        "Evaluasi medis"
+      ],
+      "answer": 2,
+      "why": "Memencet tidak dianjurkan dan dapat menambah trauma."
+    },
+    {
+      "q": "Mengapa tindak lanjut penting?",
+      "options": [
+        "Untuk menghukum petugas",
+        "Untuk evaluasi, profilaksis, pemeriksaan, dan konseling",
+        "Untuk mengganti shift",
+        "Tidak penting"
+      ],
+      "answer": 1,
+      "why": "Tindak lanjut melindungi kesehatan petugas."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
+      "org": "Kementerian Kesehatan Republik Indonesia",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "1.",
+    "2.",
+    "3.",
+    "4.",
+    "5.",
+    "7.2",
+    "adalah",
+    "air",
+    "air.",
+    "alat",
+    "alur",
+    "apa",
+    "atasan/unit",
+    "atau",
+    "awal",
+    "bahan",
+    "baik.",
+    "berhenti",
+    "bersih",
+    "bila",
+    "bilas",
+    "boleh",
+    "bukan",
+    "cairan",
+    "cepat",
+    "cuci",
+    "dan",
+    "dapat",
+    "darah",
+    "dasar",
+    "dengan",
+    "dianjurkan",
+    "dibersihkan.",
+    "dievaluasi",
+    "diindikasikan",
+    "diperlukan",
+    "disalahkan",
+    "ditetapkan.",
+    "ditunda.",
+    "dokumentasi",
+    "evaluasi",
+    "hubungi",
+    "ikuti",
+    "ilustrasi",
+    "ini",
+    "intinya",
+    "jalani",
+    "jangan",
+    "jaringan.",
+    "jarum",
+    "jenis",
+    "kaustik",
+    "ke",
+    "kebutuhan",
+    "kedalaman",
+    "keliru",
+    "keras",
+    "kesalahan",
+    "keselamatan",
+    "klinis.",
+    "kondisi",
+    "konseling",
+    "kulit",
+    "lakukan",
+    "lanjut",
+    "laporan",
+    "laporkan",
+    "luka",
+    "luka.",
+    "mata",
+    "medis",
+    "membantu",
+    "memencet",
+    "memijat",
+    "menambah",
+    "mendesak.",
+    "mengalir.",
+    "menggunakan",
+    "menghukum.",
+    "mengingat",
+    "menunda",
+    "merusak",
+    "mulai",
+    "mulut/hidung",
+    "nilai",
+    "pajanan",
+    "pascapajanan.",
+    "pelaporan",
+    "pelaporan.",
+    "pemeriksaan",
+    "pemutih",
+    "penilaian",
+    "percikan",
+    "perlindungan",
+    "pertolongan",
+    "petugas.",
+    "poster",
+    "ppi",
+    "profilaksis",
+    "profilaksis.",
+    "program.",
+    "sabun",
+    "saline.",
+    "segera",
+    "semakin",
+    "sering",
+    "sesuai",
+    "setelah",
+    "status",
+    "sumber",
+    "takut",
+    "terbuang.",
+    "tertusuk",
+    "terutama",
+    "tidak",
+    "tindak",
+    "trauma.",
+    "tusuk/sayat",
+    "untuk",
+    "utuh.",
+    "waktu",
+    "yang"
+  ],
+  "instrumentCodes": [
+    "PPI 4",
+    "PPI 4.1",
+    "PPI 5",
+    "PPI 6"
+  ],
+  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
+  "instrumentPages": [
+    191,
+    192,
+    193,
+    194,
+    195,
+    196
+  ],
+  "standardRef": "PPI 7.2",
+  "searchText": "Tertusuk Jarum dan Pajanan Darah Lakukan pertolongan awal, laporkan segera, dan jalani penilaian pascapajanan. PPI 7.2 💡 Apa intinya? Pajanan adalah kondisi mendesak. Pertolongan awal dan pelaporan tidak boleh ditunda. Luka tusuk/sayat Cuci segera dengan sabun dan air mengalir. Jangan memencet atau memijat luka. Percikan ke mata Bilas dengan air bersih atau cairan saline. Percikan ke mulut/hidung Bilas dengan air. Percikan ke kulit Cuci dengan sabun dan air, terutama bila kulit tidak utuh. Ilustrasi tertusuk jarum dan pajanan darah Poster membantu mengingat pertolongan awal dan alur pelaporan. 🧭 Setelah pertolongan awal Jangan berhenti setelah luka dibersihkan. 1. Laporkan segera Hubungi atasan/unit yang ditetapkan. 2. Nilai jenis pajanan Jenis cairan, kedalaman luka, alat, sumber, dan status klinis. 3. Jalani evaluasi medis Pemeriksaan dasar dan penilaian kebutuhan profilaksis. 4. Mulai profilaksis bila diindikasikan Semakin cepat dievaluasi semakin baik. 5. Ikuti tindak lanjut Pemeriksaan, konseling, dan dokumentasi sesuai program. 🚨 Apa yang sering keliru? Kesalahan ini dapat menunda perlindungan petugas. Menunda laporan Waktu evaluasi dan profilaksis terbuang. Memencet luka Tidak dianjurkan dan dapat menambah trauma. Menggunakan bahan kaustik Pemutih atau bahan keras dapat merusak jaringan. Takut disalahkan Pelaporan diperlukan untuk keselamatan dan tindak lanjut, bukan untuk menghukum."
+}
