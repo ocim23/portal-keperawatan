@@ -1,0 +1,195 @@
+{
+  "id": "pkpo-7-benar",
+  "group": "pkpo",
+  "title": "7 Benar Pemberian Obat",
+  "short": "7 Benar Pemberian Obat",
+  "desc": "Terapkan tujuh benar secara konsisten dan pantau respons pasien setelah obat diberikan.",
+  "category": "PKPO",
+  "color": "#6D48C7",
+  "soft": "#F1ECFF",
+  "icon": "rights",
+  "minutes": 12,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 3,
+  "slides": [
+    {
+      "type": "html",
+      "title": "7️⃣ Tujuh Benar",
+      "caption": "Ini daftar yang kita gunakan secara konsisten.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "1. Benar Pasien",
+            "text": "Gunakan minimal dua identitas."
+          },
+          {
+            "title": "2. Benar Obat",
+            "text": "Cocokkan nama/kekuatan dengan order."
+          },
+          {
+            "title": "3. Benar Dosis",
+            "text": "Hitung dan verifikasi dosis yang diperlukan."
+          },
+          {
+            "title": "4. Benar Cara/Rute",
+            "text": "Pastikan rute dan teknik sesuai."
+          },
+          {
+            "title": "5. Benar Waktu",
+            "text": "Berikan pada waktu/frekuensi yang benar."
+          },
+          {
+            "title": "6. Benar Informasi/Edukasi",
+            "text": "Jelaskan obat sesuai kebutuhan pasien."
+          },
+          {
+            "title": "7. Benar Dokumentasi",
+            "text": "Catat pemberian secara benar dan tepat waktu."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "💪 Sebelum–saat–setelah",
+      "caption": "7 benar bukan ritual sekali cek.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Sebelum",
+            "text": "Cek alergi, order, obat, tanggal/kondisi, dan parameter klinis/lab bila relevan."
+          },
+          {
+            "title": "Saat",
+            "text": "Pertahankan identifikasi, teknik aseptik, rute, kecepatan, dan pengamanan high-alert bila perlu."
+          },
+          {
+            "title": "Setelah",
+            "text": "Pantau respons terapi, efek samping, alergi, dan komplikasi."
+          },
+          {
+            "title": "Bukan “benar ke-8”",
+            "text": "Monitoring setelah pemberian penting, tetapi tidak kita namakan sebagai komponen kedelapan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚨 Jangan normalisasi deviasi",
+      "caption": "Kesibukan bukan alasan melewati pengaman.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Obat tanpa label",
+            "text": "Jangan diberikan sampai identitas/kandungan dapat dipastikan."
+          },
+          {
+            "title": "Order berubah",
+            "text": "Gunakan order terbaru yang sah."
+          },
+          {
+            "title": "Pasien menolak",
+            "text": "Jangan memaksa; cari alasan, edukasi, laporkan/dokumentasikan sesuai kondisi."
+          },
+          {
+            "title": "High-alert",
+            "text": "Double-check nyata sesuai kebijakan, bukan sekadar dua tanda tangan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "image",
+      "title": "Poster — 7 Benar Pemberian Obat",
+      "caption": "Recap visual tujuh benar.",
+      "image": "assets/images/posters/v6/7-benar-pemberian-obat.webp",
+      "thumbnail": "assets/images/posters/v6/thumb/7-benar-pemberian-obat.webp"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Inti materi — 1 menit",
+      "points": [
+        "7 Benar: pasien, obat, dosis, cara/rute, waktu, informasi/edukasi, dokumentasi.",
+        "Cek alergi dan parameter relevan sebelum pemberian.",
+        "Setelah obat, monitor respons/efek samping/alergi; bukan disebut “Benar ke-8”.",
+        "High-alert mengikuti pengamanan SKP 3."
+      ]
+    }
+  ],
+  "do": [
+    "7 Benar: pasien, obat, dosis, cara/rute, waktu, informasi/edukasi, dokumentasi.",
+    "Cek alergi dan parameter relevan sebelum pemberian.",
+    "Setelah obat, monitor respons/efek samping/alergi; bukan disebut “Benar ke-8”.",
+    "High-alert mengikuti pengamanan SKP 3."
+  ],
+  "dont": [],
+  "quiz": [
+    {
+      "q": "Mana yang termasuk 7 Benar yang kita gunakan?",
+      "options": [
+        "Benar warna vial",
+        "Benar informasi/edukasi",
+        "Benar nomor kamar",
+        "Benar merek mahal"
+      ],
+      "answer": 1,
+      "why": "Informasi/edukasi adalah salah satu tujuh benar."
+    },
+    {
+      "q": "Setelah obat diberikan, perawat perlu…",
+      "options": [
+        "Langsung melupakan",
+        "Memantau respons, efek samping, dan alergi sesuai obat/kondisi",
+        "Menambah “Benar ke-8”",
+        "Menghapus dokumentasi"
+      ],
+      "answer": 1,
+      "why": "Monitoring merupakan bagian keselamatan setelah pemberian."
+    },
+    {
+      "q": "Pasien menolak obat setelah dijelaskan. Perawat sebaiknya…",
+      "options": [
+        "Memaksa",
+        "Menggali alasan, edukasi, dan melaporkan/dokumentasikan sesuai kondisi",
+        "Sembunyikan obat di makanan tanpa order",
+        "Mengubah dosis sendiri"
+      ],
+      "answer": 1,
+      "why": "Hak pasien dan keselamatan membutuhkan komunikasi serta tindak lanjut."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "7 Benar Pemberian Obat Terapkan tujuh benar secara konsisten dan pantau respons pasien setelah obat diberikan."
+}

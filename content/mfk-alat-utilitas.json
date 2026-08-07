@@ -1,0 +1,176 @@
+{
+  "id": "mfk-alat-utilitas",
+  "group": "mfk",
+  "title": "Keselamatan Alat Medis, Utilitas, dan Gas Medik",
+  "short": "Keselamatan Alat Medis, Utilitas, dan Gas Medik",
+  "desc": "Gunakan alat yang layak dan ketahui respons awal bila alat, listrik, air, atau gas medik bermasalah.",
+  "category": "MFK",
+  "color": "#B42318",
+  "soft": "#FFF0EE",
+  "icon": "fire",
+  "minutes": 9,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 3,
+  "slides": [
+    {
+      "type": "html",
+      "title": "🩺 Alat medis sebelum digunakan",
+      "caption": "“Masih menyala” tidak selalu berarti aman.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Periksa visual/fungsi",
+            "text": "Kabel, konektor, casing, alarm, kebocoran, kebersihan, dan self-test bila ada."
+          },
+          {
+            "title": "Hasil tidak masuk akal",
+            "text": "Jangan mengandalkan alat tanpa verifikasi; gunakan alternatif/konfirmasi."
+          },
+          {
+            "title": "Alat rusak",
+            "text": "Hentikan penggunaan, beri tanda/pisahkan sesuai sistem, dan laporkan."
+          },
+          {
+            "title": "Pemeliharaan",
+            "text": "Kalibrasi dan pemeliharaan dikelola sistem RS; perawat memastikan label/status alat layak sebelum pakai."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "⚡ Utilitas",
+      "caption": "Gangguan utilitas dapat langsung memengaruhi keselamatan pasien.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Listrik",
+            "text": "Ketahui sumber/stopkontak prioritas atau cadangan di area kritis sesuai sistem RS."
+          },
+          {
+            "title": "Air dan sistem lain",
+            "text": "Laporkan gangguan yang menghambat higiene, pelayanan, atau keselamatan."
+          },
+          {
+            "title": "Komunikasi",
+            "text": "Ketahui cara meminta bantuan ketika sistem normal gagal."
+          },
+          {
+            "title": "Prioritas",
+            "text": "Pertahankan terapi vital dan pindahkan ke sumber cadangan sesuai rencana unit."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🫧 Gas medik",
+      "caption": "Oksigen membantu pasien tetapi juga meningkatkan risiko kebakaran.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Outlet/sambungan",
+            "text": "Gunakan outlet dan konektor yang benar; jangan melakukan modifikasi."
+          },
+          {
+            "title": "Tabung",
+            "text": "Amankan dari jatuh/terguling dan transport dengan alat yang sesuai."
+          },
+          {
+            "title": "Api/panas",
+            "text": "Jauhkan oksigen dari sumber api dan bahan mudah terbakar."
+          },
+          {
+            "title": "Kebocoran/gangguan",
+            "text": "Hentikan sumber risiko bila aman dan laporkan; shut-off utama dilakukan petugas berwenang sesuai rencana RS."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Inti materi — 1 menit",
+      "points": [
+        "Periksa kelayakan alat sebelum digunakan.",
+        "Alat rusak/hasil meragukan: hentikan, amankan, beri tanda, dan laporkan.",
+        "Ketahui respons unit saat utilitas terganggu agar terapi vital tetap berjalan.",
+        "Gas medik harus aman dari jatuh, sambungan salah, kebocoran, dan sumber api."
+      ]
+    }
+  ],
+  "do": [
+    "Periksa kelayakan alat sebelum digunakan.",
+    "Alat rusak/hasil meragukan: hentikan, amankan, beri tanda, dan laporkan.",
+    "Ketahui respons unit saat utilitas terganggu agar terapi vital tetap berjalan.",
+    "Gas medik harus aman dari jatuh, sambungan salah, kebocoran, dan sumber api."
+  ],
+  "dont": [],
+  "quiz": [
+    {
+      "q": "Monitor menampilkan angka tidak masuk akal dan alarm bermasalah. Yang tepat adalah…",
+      "options": [
+        "Tetap pakai karena layar hidup",
+        "Verifikasi pasien dengan cara lain, hentikan/isolasi alat bermasalah dan laporkan",
+        "Memukul alat",
+        "Menghapus alarm"
+      ],
+      "answer": 1,
+      "why": "Alat tidak layak tidak boleh menjadi satu-satunya dasar keputusan."
+    },
+    {
+      "q": "Tabung oksigen portabel sebaiknya…",
+      "options": [
+        "Diletakkan bebas di lantai",
+        "Diamankan agar tidak jatuh dan dijauhkan dari api/panas",
+        "Disimpan dekat kompor",
+        "Dimodifikasi konektornya"
+      ],
+      "answer": 1,
+      "why": "Tabung bertekanan dan oksigen memerlukan pengamanan khusus."
+    },
+    {
+      "q": "Siapa yang sebaiknya melakukan shut-off utilitas utama?",
+      "options": [
+        "Siapa saja",
+        "Petugas berwenang sesuai rencana/prosedur RS",
+        "Keluarga pasien",
+        "Pengunjung"
+      ],
+      "answer": 1,
+      "why": "Shutdown utilitas dapat memengaruhi banyak pasien sehingga harus terkendali."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Keselamatan Alat Medis, Utilitas, dan Gas Medik Gunakan alat yang layak dan ketahui respons awal bila alat, listrik, air, atau gas medik bermasalah."
+}

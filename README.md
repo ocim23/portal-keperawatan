@@ -1,7 +1,12 @@
-# Portal Keperawatan v5.0.0
+# Portal Keperawatan v6.0.0 — Final Revisi
 
-Versi ini berfokus pada pengalaman belajar yang ringan: judul kartu berupa topik praktik, sedangkan nomor standar tampil sebagai sumber. Materi utama tetap diturunkan dari Instrumen Survei Akreditasi Rumah Sakit 2024; Buku Pintar Akreditasi 2023 digunakan sebagai pengayaan pertanyaan dan praktik staf, sementara rincian lokal mengikuti SOP rumah sakit.
+PWA pembelajaran internal akreditasi keperawatan. Versi ini merupakan hasil review materi menyeluruh: 9 kelompok, 40 materi, fokus kompetensi perawat, anti-pengulangan, dan poster praktik terpilih.
 
-## Menjalankan
-
-Unggah seluruh isi folder ke hosting statis/GitHub Pages atau jalankan melalui server lokal. Jangan membuka `index.html` langsung dengan skema `file://` karena konten JSON dimuat melalui `fetch`.
+## Perubahan utama
+- Struktur final 40 materi: SKP 6, PP 4, PAP 8, PPI 6, PKPO 5, PMKP 2, HPK 3, KE 2, MFK 4.
+- Kode substandar kecil dihapus; hanya nomor SKP dipertahankan pada judul.
+- Poster hanya digunakan sebagai recap visual bila memang tersedia.
+- Poster Pemilahan Limbah dan APAR diganti dengan versi terbaru pengguna.
+- Tombol Kembali desktop diberi latar teal muda, border, dan shadow agar mudah terlihat.
+- Pembukaan ulang submateri kembali ke slide pertama; perpindahan slide/tab tetap mereset posisi baca ke atas sesuai perilaku aplikasi.
+- Hak/Kewajiban Pasien menggunakan kerangka regulasi kesehatan terbaru; INM ditulis lengkap 13 indikator.

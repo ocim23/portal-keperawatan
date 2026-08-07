@@ -3,48 +3,42 @@
   "group": "pap",
   "title": "Transfusi Darah Aman",
   "short": "Transfusi Darah Aman",
-  "desc": "Verifikasi, pemantauan, dan respons terhadap reaksi transfusi.",
+  "desc": "Verifikasi pasien dan komponen darah dengan ketat, pantau reaksi, dan hentikan transfusi segera bila dicurigai reaksi.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "priority": "practice",
-  "priorityLabel": "Praktik Wajib",
-  "minutes": 13,
+  "minutes": 12,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Keselamatan transfusi darah",
-      "caption": "Risiko utama dapat dicegah dengan identifikasi, verifikasi, monitoring, dan respons cepat.",
+      "title": "🩸 Sebelum transfusi",
+      "caption": "Kesalahan identifikasi dapat berakibat fatal.",
       "template": {
-        "style": "timeline",
+        "style": "cards",
         "items": [
           {
-            "title": "Sebelum transfusi",
-            "text": "Verifikasi instruksi, persetujuan, identitas pasien, komponen darah, kecocokan, kedaluwarsa, kondisi kantong, dan akses."
+            "title": "Persetujuan dan order",
+            "text": "Pastikan indikasi/order dan persetujuan yang dipersyaratkan tersedia."
           },
           {
-            "title": "Di sisi pasien",
-            "text": "Lakukan pemeriksaan bersama sesuai kebijakan dan cocokkan gelang dengan label komponen serta dokumen."
+            "title": "Identitas",
+            "text": "Gunakan minimal dua identitas pasien."
           },
           {
-            "title": "Mulai dan pantau",
-            "text": "Catat tanda vital dasar, mulai sesuai prosedur, observasi ketat terutama fase awal, dan dokumentasikan."
+            "title": "Komponen",
+            "text": "Cocokkan ABO/Rh, jenis komponen, nomor kantong, kedaluwarsa, kondisi fisik, dan order."
           },
           {
-            "title": "Kenali reaksi",
-            "text": "Demam, menggigil, sesak, nyeri, urtikaria, hipotensi, hemoglobinuria, atau perubahan kondisi lain."
+            "title": "Baseline",
+            "text": "Nilai kondisi dan tanda vital sebelum transfusi."
           },
           {
-            "title": "Bila dicurigai reaksi",
-            "text": "Hentikan transfusi, pertahankan akses sesuai prosedur, nilai pasien, hubungi dokter/bank darah, dan ikuti investigasi."
-          },
-          {
-            "title": "Sesudah selesai",
-            "text": "Catat waktu, jumlah, respons, dan edukasi tanda bahaya."
+            "title": "Verifikasi petugas",
+            "text": "Dua-person verification dilakukan bila dipersyaratkan RS; yang penting verifikasi nyata, bukan formalitas."
           }
         ],
         "columns": 2,
@@ -53,30 +47,58 @@
     },
     {
       "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "title": "💧 Saat transfusi",
+      "caption": "Jaga jalur dan pantau pasien, terutama pada fase awal.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Transfusi adalah pelayanan berisiko tinggi",
-            "text": "Kesalahan identitas, produk, penyimpanan, atau pemantauan dapat menimbulkan cedera berat."
+            "title": "Set/filter",
+            "text": "Gunakan transfusion set/filter yang sesuai."
           },
           {
-            "title": "Verifikasi di sisi pasien",
-            "text": "Pasien, gelang, dokumen, label kantong, jenis produk, nomor unit, kompatibilitas, dan kedaluwarsa dicocokkan sesuai prosedur."
+            "title": "Jalur IV",
+            "text": "Hindari mencampurkan obat dalam jalur yang sama kecuali dinyatakan kompatibel; NaCl 0,9% lazim digunakan sesuai protokol."
           },
           {
-            "title": "Pemantauan awal penting",
-            "text": "Reaksi berat sering muncul pada awal pemberian; observasi dan tanda vital mengikuti kebijakan."
+            "title": "Kecepatan/durasi",
+            "text": "Ikuti jenis komponen, kondisi pasien, dan prosedur RS."
           },
           {
-            "title": "Reaksi transfusi adalah emergensi potensial",
-            "text": "Gejala seperti demam, menggigil, sesak, nyeri, hipotensi, urtikaria, atau perubahan kesadaran harus segera dinilai."
+            "title": "Monitoring awal",
+            "text": "Pantau ketat terutama 15 menit pertama sesuai prosedur RS."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚨 Bila dicurigai reaksi transfusi",
+      "caption": "Prioritas pertama adalah keselamatan pasien dan mempertahankan akses untuk penanganan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "STOP transfusi",
+            "text": "Hentikan komponen darah segera."
           },
           {
-            "title": "Jejak dokumentasi harus lengkap",
-            "text": "Waktu mulai/selesai, petugas, tanda vital, produk, respons, dan kejadian dicatat."
+            "title": "Assess ABC dan tanda vital",
+            "text": "Nilai kondisi, berikan dukungan sesuai kebutuhan."
+          },
+          {
+            "title": "Pertahankan akses IV",
+            "text": "Ikuti protokol cairan/jalur yang berlaku dan laporkan segera."
+          },
+          {
+            "title": "Jangan buang kantong/set",
+            "text": "Pertahankan untuk investigasi sesuai prosedur."
+          },
+          {
+            "title": "Dokumentasi dan tindak lanjut",
+            "text": "Catat reaksi, terapi, komunikasi, dan pemeriksaan yang diminta."
           }
         ],
         "columns": 2,
@@ -85,569 +107,85 @@
     },
     {
       "type": "image",
-      "title": "Ilustrasi transfusi darah aman",
-      "caption": "Cocokkan identitas, komponen darah, pantau pasien, dan tangani reaksi.",
-      "image": "assets/images/posters/v5/transfusi-darah-aman.webp",
-      "thumbnail": "assets/images/posters/v5/thumb/transfusi-darah-aman.webp"
-    },
-    {
-      "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Pastikan indikasi dan persetujuan",
-            "text": "Periksa instruksi, hasil pemeriksaan, dan persetujuan sesuai ketentuan."
-          },
-          {
-            "title": "Siapkan pasien dan akses",
-            "text": "Konfirmasi identitas, edukasi tanda bahaya, dan pastikan akses sesuai."
-          },
-          {
-            "title": "Lakukan verifikasi produk",
-            "text": "Dua petugas kompeten melakukan pemeriksaan sesuai kebijakan."
-          },
-          {
-            "title": "Mulai dan observasi",
-            "text": "Berikan sesuai laju yang ditetapkan dan pantau ketat pada fase awal."
-          },
-          {
-            "title": "Selesaikan dan dokumentasikan",
-            "text": "Catat hasil serta tindak lanjut, termasuk bila terjadi reaksi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktiknya di unit",
-      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Demonstrasi verifikasi",
-            "text": "Sebutkan setiap elemen yang dicocokkan tanpa melewati identitas aktif pasien."
-          },
-          {
-            "title": "Saat gejala muncul",
-            "text": "Hentikan transfusi, pertahankan akses sesuai prosedur, nilai ABC, hubungi dokter/bank darah, dan aktifkan alur."
-          },
-          {
-            "title": "Produk datang terlalu awal",
-            "text": "Jangan menyimpan di tempat yang tidak disahkan; koordinasikan dengan bank darah."
-          },
-          {
-            "title": "Pasien tidak dapat menyebut identitas",
-            "text": "Gunakan metode identifikasi khusus sesuai regulasi, bukan nomor tempat tidur."
-          },
-          {
-            "title": "Setelah reaksi",
-            "text": "Kirim kantong/sampel dan dokumentasi sesuai prosedur; jangan membuang bukti."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Mendidik pasien",
-            "text": "Minta pasien segera melapor bila merasa tidak nyaman."
-          },
-          {
-            "title": "Melakukan identifikasi aktif",
-            "text": "Pastikan dua identitas dan cocokkan semua dokumen."
-          },
-          {
-            "title": "Mengobservasi",
-            "text": "Pantau tanda vital dan gejala sesuai kebijakan."
-          },
-          {
-            "title": "Merespons cepat",
-            "text": "Utamakan keselamatan dan eskalasi."
-          },
-          {
-            "title": "Melaporkan insiden",
-            "text": "Reaksi dan near miss menjadi pembelajaran sistem."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Verifikasi di nurse station",
-            "text": "Identitas aktif pasien tidak terkonfirmasi."
-          },
-          {
-            "title": "Mengandalkan warna kantong",
-            "text": "Warna bukan pengganti label dan dokumen."
-          },
-          {
-            "title": "Meninggalkan pasien segera setelah mulai",
-            "text": "Reaksi awal dapat tidak terdeteksi."
-          },
-          {
-            "title": "Memberi obat tanpa mengaktifkan alur reaksi",
-            "text": "Dapat menutupi gejala dan menunda penanganan."
-          },
-          {
-            "title": "Menggunakan jalur dengan larutan tidak kompatibel",
-            "text": "Dapat merusak produk atau menimbulkan komplikasi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
+      "title": "Poster — Transfusi Darah Aman",
+      "caption": "Recap visual verifikasi, monitoring, dan respons reaksi transfusi.",
+      "image": "assets/images/posters/v6/transfusi-darah-aman.webp",
+      "thumbnail": "assets/images/posters/v6/thumb/transfusi-darah-aman.webp"
     }
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Sebelum transfusi: Verifikasi instruksi, persetujuan, identitas pasien, komponen darah, kecocokan, kedaluwarsa, kondisi kantong, dan akses.",
-        "Di sisi pasien: Lakukan pemeriksaan bersama sesuai kebijakan dan cocokkan gelang dengan label komponen serta dokumen.",
-        "Mulai dan pantau: Catat tanda vital dasar, mulai sesuai prosedur, observasi ketat terutama fase awal, dan dokumentasikan.",
-        "Kenali reaksi: Demam, menggigil, sesak, nyeri, urtikaria, hipotensi, hemoglobinuria, atau perubahan kondisi lain."
-      ]
-    },
-    {
-      "title": "Konsep utama",
-      "points": [
-        "Kesalahan identitas, produk, penyimpanan, atau pemantauan dapat menimbulkan cedera berat.",
-        "Pasien, gelang, dokumen, label kantong, jenis produk, nomor unit, kompatibilitas, dan kedaluwarsa dicocokkan sesuai prosedur.",
-        "Reaksi berat sering muncul pada awal pemberian; observasi dan tanda vital mengikuti kebijakan."
-      ]
-    },
-    {
-      "title": "Alur aman",
-      "points": [
-        "Pastikan indikasi dan persetujuan: Periksa instruksi, hasil pemeriksaan, dan persetujuan sesuai ketentuan.",
-        "Siapkan pasien dan akses: Konfirmasi identitas, edukasi tanda bahaya, dan pastikan akses sesuai.",
-        "Lakukan verifikasi produk: Dua petugas kompeten melakukan pemeriksaan sesuai kebijakan."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "Demonstrasi verifikasi: Sebutkan setiap elemen yang dicocokkan tanpa melewati identitas aktif pasien.",
-        "Saat gejala muncul: Hentikan transfusi, pertahankan akses sesuai prosedur, nilai ABC, hubungi dokter/bank darah, dan aktifkan alur.",
-        "Produk datang terlalu awal: Jangan menyimpan di tempat yang tidak disahkan; koordinasikan dengan bank darah."
-      ]
-    },
-    {
-      "title": "Peran perawat",
-      "points": [
-        "Minta pasien segera melapor bila merasa tidak nyaman.",
-        "Pastikan dua identitas dan cocokkan semua dokumen.",
-        "Pantau tanda vital dan gejala sesuai kebijakan."
+        "Sebelum transfusi: consent/order, dua identitas, cocokkan komponen dan baseline.",
+        "Pantau ketat terutama 15 menit awal sesuai prosedur RS.",
+        "Curiga reaksi → STOP, ABC/vital, pertahankan akses, lapor dan tata laksana.",
+        "Jangan membuang kantong/set bila reaksi dicurigai."
       ]
     }
   ],
   "do": [
-    "Sebutkan setiap elemen yang dicocokkan tanpa melewati identitas aktif pasien.",
-    "Hentikan transfusi, pertahankan akses sesuai prosedur, nilai ABC, hubungi dokter/bank darah, dan aktifkan alur.",
-    "Jangan menyimpan di tempat yang tidak disahkan; koordinasikan dengan bank darah.",
-    "Gunakan metode identifikasi khusus sesuai regulasi, bukan nomor tempat tidur.",
-    "Kirim kantong/sampel dan dokumentasi sesuai prosedur; jangan membuang bukti."
+    "Sebelum transfusi: consent/order, dua identitas, cocokkan komponen dan baseline.",
+    "Pantau ketat terutama 15 menit awal sesuai prosedur RS.",
+    "Curiga reaksi → STOP, ABC/vital, pertahankan akses, lapor dan tata laksana.",
+    "Jangan membuang kantong/set bila reaksi dicurigai."
   ],
-  "dont": [
-    "Identitas aktif pasien tidak terkonfirmasi.",
-    "Warna bukan pengganti label dan dokumen.",
-    "Reaksi awal dapat tidak terdeteksi.",
-    "Dapat menutupi gejala dan menunda penanganan.",
-    "Dapat merusak produk atau menimbulkan komplikasi."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Dalam situasi “Demonstrasi verifikasi”, tindakan yang paling tepat adalah…",
+      "q": "Pasien menggigil dan sesak beberapa menit setelah transfusi dimulai. Tindakan pertama adalah…",
       "options": [
-        "Sebutkan setiap elemen yang dicocokkan tanpa melewati identitas aktif pasien.",
-        "Identitas aktif pasien tidak terkonfirmasi.",
-        "Warna bukan pengganti label dan dokumen.",
-        "Reaksi awal dapat tidak terdeteksi."
-      ],
-      "answer": 0,
-      "why": "Sebutkan setiap elemen yang dicocokkan tanpa melewati identitas aktif pasien."
-    },
-    {
-      "q": "Dalam situasi “Saat gejala muncul”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Warna bukan pengganti label dan dokumen.",
-        "Reaksi awal dapat tidak terdeteksi.",
-        "Dapat menutupi gejala dan menunda penanganan.",
-        "Hentikan transfusi, pertahankan akses sesuai prosedur, nilai ABC, hubungi dokter/bank darah, dan aktifkan alur."
-      ],
-      "answer": 3,
-      "why": "Hentikan transfusi, pertahankan akses sesuai prosedur, nilai ABC, hubungi dokter/bank darah, dan aktifkan alur."
-    },
-    {
-      "q": "Dalam situasi “Produk datang terlalu awal”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Dapat menutupi gejala dan menunda penanganan.",
-        "Dapat merusak produk atau menimbulkan komplikasi.",
-        "Jangan menyimpan di tempat yang tidak disahkan; koordinasikan dengan bank darah.",
-        "Reaksi awal dapat tidak terdeteksi."
-      ],
-      "answer": 2,
-      "why": "Jangan menyimpan di tempat yang tidak disahkan; koordinasikan dengan bank darah."
-    },
-    {
-      "q": "Dalam situasi “Pasien tidak dapat menyebut identitas”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Identitas aktif pasien tidak terkonfirmasi.",
-        "Gunakan metode identifikasi khusus sesuai regulasi, bukan nomor tempat tidur.",
-        "Dapat menutupi gejala dan menunda penanganan.",
-        "Dapat merusak produk atau menimbulkan komplikasi."
+        "Mempercepat transfusi",
+        "Menghentikan transfusi dan menilai pasien",
+        "Membuang kantong darah",
+        "Menunggu 30 menit"
       ],
       "answer": 1,
-      "why": "Gunakan metode identifikasi khusus sesuai regulasi, bukan nomor tempat tidur."
+      "why": "Transfusi dihentikan segera bila dicurigai reaksi."
     },
     {
-      "q": "Dalam situasi “Setelah reaksi”, tindakan yang paling tepat adalah…",
+      "q": "Sebelum transfusi, identifikasi pasien dilakukan dengan…",
       "options": [
-        "Kirim kantong/sampel dan dokumentasi sesuai prosedur; jangan membuang bukti.",
-        "Dapat merusak produk atau menimbulkan komplikasi.",
-        "Identitas aktif pasien tidak terkonfirmasi.",
-        "Warna bukan pengganti label dan dokumen."
-      ],
-      "answer": 0,
-      "why": "Kirim kantong/sampel dan dokumentasi sesuai prosedur; jangan membuang bukti."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Transfusi adalah pelayanan berisiko tinggi” adalah…",
-      "options": [
-        "Identitas aktif pasien tidak terkonfirmasi.",
-        "Kesalahan identitas, produk, penyimpanan, atau pemantauan dapat menimbulkan cedera berat.",
-        "Reaksi awal dapat tidak terdeteksi.",
-        "Dapat menutupi gejala dan menunda penanganan."
+        "Nomor kamar",
+        "Minimal dua identitas yang sah",
+        "Wajah saja",
+        "Nama panggilan"
       ],
       "answer": 1,
-      "why": "Kesalahan identitas, produk, penyimpanan, atau pemantauan dapat menimbulkan cedera berat."
+      "why": "Transfusi merupakan titik berisiko tinggi untuk salah pasien."
     },
     {
-      "q": "Pernyataan yang paling tepat tentang “Verifikasi di sisi pasien” adalah…",
+      "q": "Kantong darah setelah dicurigai reaksi sebaiknya…",
       "options": [
-        "Warna bukan pengganti label dan dokumen.",
-        "Pasien, gelang, dokumen, label kantong, jenis produk, nomor unit, kompatibilitas, dan kedaluwarsa dicocokkan sesuai prosedur.",
-        "Dapat menutupi gejala dan menunda penanganan.",
-        "Dapat merusak produk atau menimbulkan komplikasi."
+        "Langsung dibuang",
+        "Dipertahankan bersama set untuk proses investigasi sesuai prosedur",
+        "Dibawa pulang keluarga",
+        "Dikosongkan ke wastafel"
       ],
       "answer": 1,
-      "why": "Pasien, gelang, dokumen, label kantong, jenis produk, nomor unit, kompatibilitas, dan kedaluwarsa dicocokkan sesuai prosedur."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Pemantauan awal penting” adalah…",
-      "options": [
-        "Reaksi awal dapat tidak terdeteksi.",
-        "Reaksi berat sering muncul pada awal pemberian; observasi dan tanda vital mengikuti kebijakan.",
-        "Dapat merusak produk atau menimbulkan komplikasi.",
-        "Identitas aktif pasien tidak terkonfirmasi."
-      ],
-      "answer": 1,
-      "why": "Reaksi berat sering muncul pada awal pemberian; observasi dan tanda vital mengikuti kebijakan."
+      "why": "Kantong/set dapat diperlukan untuk investigasi reaksi."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
-      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
-      "org": "Kementerian Kesehatan Republik Indonesia",
-      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
     },
     {
-      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
       "org": "Rumah sakit masing-masing",
       "url": ""
     }
   ],
-  "keywords": [
-    "2.7",
-    "abc",
-    "adalah",
-    "akses",
-    "akses.",
-    "aktif",
-    "aktifkan",
-    "alasan",
-    "alur",
-    "alur.",
-    "alurnya",
-    "aman",
-    "apa",
-    "atau",
-    "awal",
-    "awal.",
-    "bahaya",
-    "bahaya.",
-    "bank",
-    "berat",
-    "berat.",
-    "berikan",
-    "berisiko",
-    "bersama",
-    "bila",
-    "bukan",
-    "bukti.",
-    "catat",
-    "cedera",
-    "cepat",
-    "cepat.",
-    "cocokkan",
-    "contoh",
-    "dan",
-    "dapat",
-    "darah",
-    "darah.",
-    "dasar",
-    "datang",
-    "demam",
-    "demonstrasi",
-    "dengan",
-    "di",
-    "dicatat.",
-    "dicegah",
-    "dicocokkan",
-    "dicurigai",
-    "dijelaskan",
-    "dinilai.",
-    "dipahami",
-    "diperagakan.",
-    "disahkan",
-    "ditetapkan",
-    "dokter/bank",
-    "dokumen",
-    "dokumen.",
-    "dokumentasi",
-    "dokumentasikan",
-    "dokumentasikan.",
-    "dua",
-    "edukasi",
-    "elemen",
-    "emergensi",
-    "eskalasi.",
-    "fase",
-    "gejala",
-    "gelang",
-    "gimana",
-    "gunakan",
-    "harus",
-    "hasil",
-    "hemoglobinuria",
-    "hentikan",
-    "hipotensi",
-    "hubungi",
-    "identifikasi",
-    "identitas",
-    "ikuti",
-    "ilustrasi",
-    "indikasi",
-    "insiden",
-    "instruksi",
-    "intinya",
-    "investigasi.",
-    "istilah",
-    "jalur",
-    "jangan",
-    "jejak",
-    "jenis",
-    "jumlah",
-    "kantong",
-    "kantong/sampel",
-    "kebiasaan",
-    "kebijakan",
-    "kebijakan.",
-    "kecocokan",
-    "kedaluwarsa",
-    "kejadian",
-    "keliru",
-    "kenali",
-    "kerja",
-    "kesadaran",
-    "kesalahan",
-    "keselamatan",
-    "ketat",
-    "ketentuan.",
-    "kewenangan",
-    "khusus",
-    "kirim",
-    "kompatibel",
-    "kompatibilitas",
-    "kompeten",
-    "komplikasi.",
-    "komponen",
-    "kondisi",
-    "konfirmasi",
-    "konkret",
-    "konsistensi.",
-    "koordinasikan",
-    "label",
-    "lain.",
-    "laju",
-    "lakukan",
-    "lanjut",
-    "larutan",
-    "lengkap",
-    "melakukan",
-    "melapor",
-    "melaporkan",
-    "melewati",
-    "membantu",
-    "memberi",
-    "membuang",
-    "mendidik",
-    "menerapkan.",
-    "mengaktifkan",
-    "mengandalkan",
-    "menggigil",
-    "menggunakan",
-    "mengikuti",
-    "mengobservasi",
-    "menimbulkan",
-    "meninggalkan",
-    "meningkatkan",
-    "menjadi",
-    "menjaga",
-    "menunda",
-    "menutupi",
-    "menyebut",
-    "menyimpan",
-    "merasa",
-    "merespons",
-    "merusak",
-    "metode",
-    "minta",
-    "miss",
-    "monitoring",
-    "mulai",
-    "mulai/selesai",
-    "muncul",
-    "near",
-    "ngapain",
-    "nilai",
-    "nomor",
-    "nurse",
-    "nyaman.",
-    "nyeri",
-    "obat",
-    "observasi",
-    "pada",
-    "pantau",
-    "pap",
-    "pasien",
-    "pasien.",
-    "pastikan",
-    "pelayanan",
-    "pemantauan",
-    "pembelajaran",
-    "pemberian",
-    "pemeriksaan",
-    "penanganan.",
-    "pengganti",
-    "penting",
-    "penyimpanan",
-    "perawat",
-    "periksa",
-    "perlu",
-    "persetujuan",
-    "pertahankan",
-    "perubahan",
-    "petugas",
-    "potensial",
-    "praktiknya",
-    "produk",
-    "prosedur",
-    "prosedur.",
-    "proses",
-    "reaksi",
-    "reaksi.",
-    "regulasi",
-    "respons",
-    "risiko",
-    "risiko.",
-    "rumah",
-    "saat",
-    "sakit.",
-    "sebelum",
-    "sebutkan",
-    "sederhana",
-    "segera",
-    "selesai",
-    "selesaikan",
-    "semua",
-    "seperti",
-    "sering",
-    "serta",
-    "sesak",
-    "sesuai",
-    "sesuai.",
-    "sesudah",
-    "setelah",
-    "setiap",
-    "siapkan",
-    "sisi",
-    "sistem.",
-    "station",
-    "tampak",
-    "tanda",
-    "tangani",
-    "tanpa",
-    "tempat",
-    "terdeteksi.",
-    "terhadap",
-    "terjadi",
-    "terkonfirmasi.",
-    "terlalu",
-    "termasuk",
-    "terutama",
-    "tetapi",
-    "tidak",
-    "tidur.",
-    "tindak",
-    "tindakan",
-    "tinggi",
-    "transfusi",
-    "transfusi.",
-    "unit",
-    "urtikaria",
-    "urutan",
-    "utama",
-    "utamakan",
-    "verifikasi",
-    "vital",
-    "waktu",
-    "warna",
-    "yang"
-  ],
-  "instrumentCodes": [
-    "PAP 2.7"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    318
-  ],
-  "standardRef": "PAP 2.7",
-  "searchText": "Transfusi Darah Aman Verifikasi, pemantauan, dan respons terhadap reaksi transfusi. PAP 2.7 Keselamatan transfusi darah Risiko utama dapat dicegah dengan identifikasi, verifikasi, monitoring, dan respons cepat. Sebelum transfusi Verifikasi instruksi, persetujuan, identitas pasien, komponen darah, kecocokan, kedaluwarsa, kondisi kantong, dan akses. Di sisi pasien Lakukan pemeriksaan bersama sesuai kebijakan dan cocokkan gelang dengan label komponen serta dokumen. Mulai dan pantau Catat tanda vital dasar, mulai sesuai prosedur, observasi ketat terutama fase awal, dan dokumentasikan. Kenali reaksi Demam, menggigil, sesak, nyeri, urtikaria, hipotensi, hemoglobinuria, atau perubahan kondisi lain. Bila dicurigai reaksi Hentikan transfusi, pertahankan akses sesuai prosedur, nilai pasien, hubungi dokter/bank darah, dan ikuti investigasi. Sesudah selesai Catat waktu, jumlah, respons, dan edukasi tanda bahaya. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Transfusi adalah pelayanan berisiko tinggi Kesalahan identitas, produk, penyimpanan, atau pemantauan dapat menimbulkan cedera berat. Verifikasi di sisi pasien Pasien, gelang, dokumen, label kantong, jenis produk, nomor unit, kompatibilitas, dan kedaluwarsa dicocokkan sesuai prosedur. Pemantauan awal penting Reaksi berat sering muncul pada awal pemberian; observasi dan tanda vital mengikuti kebijakan. Reaksi transfusi adalah emergensi potensial Gejala seperti demam, menggigil, sesak, nyeri, hipotensi, urtikaria, atau perubahan kesadaran harus segera dinilai. Jejak dokumentasi harus lengkap Waktu mulai/selesai, petugas, tanda vital, produk, respons, dan kejadian dicatat. Ilustrasi transfusi darah aman Cocokkan identitas, komponen darah, pantau pasien, dan tangani reaksi. 🧭 Alurnya gimana? Urutan kerja yang membantu menjaga keselamatan dan konsistensi. Pastikan indikasi dan persetujuan Periksa instruksi, hasil pemeriksaan, dan persetujuan sesuai ketentuan. Siapkan pasien dan akses Konfirmasi identitas, edukasi tanda bahaya, dan pastikan akses sesuai. Lakukan verifikasi produk Dua petugas kompeten melakukan pemeriksaan sesuai kebijakan. Mulai dan observasi Berikan sesuai laju yang ditetapkan dan pantau ketat pada fase awal. Selesaikan dan dokumentasikan Catat hasil serta tindak lanjut, termasuk bila terjadi reaksi. 💪 Praktiknya di unit Contoh tindakan yang dapat dijelaskan atau diperagakan. Demonstrasi verifikasi Sebutkan setiap elemen yang dicocokkan tanpa melewati identitas aktif pasien. Saat gejala muncul Hentikan transfusi, pertahankan akses sesuai prosedur, nilai ABC, hubungi dokter/bank darah, dan aktifkan alur. Produk datang terlalu awal Jangan menyimpan di tempat yang tidak disahkan; koordinasikan dengan bank darah. Pasien tidak dapat menyebut identitas Gunakan metode identifikasi khusus sesuai regulasi, bukan nomor tempat tidur. Setelah reaksi Kirim kantong/sampel dan dokumentasi sesuai prosedur; jangan membuang bukti. 💪 Perawat harus ngapain? Tindakan konkret sesuai kewenangan dan proses rumah sakit. Mendidik pasien Minta pasien segera melapor bila merasa tidak nyaman. Melakukan identifikasi aktif Pastikan dua identitas dan cocokkan semua dokumen. Mengobservasi Pantau tanda vital dan gejala sesuai kebijakan. Merespons cepat Utamakan keselamatan dan eskalasi. Melaporkan insiden Reaksi dan near miss menjadi pembelajaran sistem. 🚨 Apa yang sering keliru? Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko. Verifikasi di nurse station Identitas aktif pasien tidak terkonfirmasi. Mengandalkan warna kantong Warna bukan pengganti label dan dokumen. Meninggalkan pasien segera setelah mulai Reaksi awal dapat tidak terdeteksi. Memberi obat tanpa mengaktifkan alur reaksi Dapat menutupi gejala dan menunda penanganan. Menggunakan jalur dengan larutan tidak kompatibel Dapat merusak produk atau menimbulkan komplikasi."
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Transfusi Darah Aman Verifikasi pasien dan komponen darah dengan ketat, pantau reaksi, dan hentikan transfusi segera bila dicurigai reaksi."
 }

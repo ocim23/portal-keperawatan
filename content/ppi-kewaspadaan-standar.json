@@ -3,48 +3,38 @@
   "group": "ppi",
   "title": "Kewaspadaan Standar",
   "short": "Kewaspadaan Standar",
-  "desc": "Sebelas kewaspadaan standar yang diterapkan kepada semua pasien.",
+  "desc": "Terapkan kewaspadaan standar pada semua pasien dan pilih tindakan/APD berdasarkan risiko pajanan.",
   "category": "PPI",
   "color": "#1877C9",
   "soft": "#EAF3FF",
   "icon": "hands",
-  "priority": "knowledge",
-  "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 18,
+  "minutes": 12,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Kewaspadaan standar (1/2)",
-      "caption": "Kewaspadaan standar diterapkan kepada semua pasien, tanpa menunggu diagnosis infeksi.",
+      "title": "🎯 Berlaku untuk semua pasien",
+      "caption": "Status infeksi belum diketahui bukan alasan untuk menunda kewaspadaan dasar.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "1. Kebersihan tangan",
-            "text": "Lakukan pada momen yang tepat dengan teknik yang benar."
+            "title": "Semua pasien",
+            "text": "Kewaspadaan standar diterapkan pada setiap pasien di semua area pelayanan."
           },
           {
-            "title": "2. Alat pelindung diri",
-            "text": "Pilih sesuai kemungkinan pajanan."
+            "title": "Tujuan",
+            "text": "Melindungi pasien, petugas, pengunjung, dan lingkungan dari penularan."
           },
           {
-            "title": "3. Dekontaminasi peralatan",
-            "text": "Alat dibersihkan, didesinfeksi, atau disterilkan sesuai penggunaannya."
+            "title": "HAIs",
+            "text": "Infeksi terkait pelayanan dapat berupa misalnya flebitis, CAUTI/ISK terkait perawatan, SSI/IDO, VAP, atau CLABSI/IADP."
           },
           {
-            "title": "4. Pengendalian lingkungan",
-            "text": "Jaga kebersihan permukaan dan area pelayanan."
-          },
-          {
-            "title": "5. Pengelolaan limbah",
-            "text": "Pisahkan dan buang sesuai jenis dan risiko."
-          },
-          {
-            "title": "6. Penatalaksanaan linen",
-            "text": "Tangani linen kotor tanpa mengibaskan atau mencemari lingkungan."
+            "title": "Dasar tindakan",
+            "text": "Risiko pajanan menentukan pengamanan yang dibutuhkan."
           }
         ],
         "columns": 2,
@@ -53,86 +43,22 @@
     },
     {
       "type": "html",
-      "title": "Kewaspadaan standar (2/2)",
-      "caption": "Lima komponen berikut melengkapi sebelas kewaspadaan standar.",
+      "title": "🧠 Hafalkan 11 komponen",
+      "caption": "Ini daftar nasional yang perlu dikenal; detailnya tidak semuanya menjadi kartu sendiri.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "7. Perlindungan kesehatan petugas",
-            "text": "Cegah pajanan dan ikuti alur pascapajanan."
+            "title": "1–4",
+            "text": "Kebersihan tangan; APD; dekontaminasi peralatan perawatan pasien; pengendalian lingkungan."
           },
           {
-            "title": "8. Penempatan pasien",
-            "text": "Tempatkan sesuai risiko penularan dan kondisi klinis."
+            "title": "5–8",
+            "text": "Pengelolaan limbah; linen; perlindungan kesehatan petugas; penempatan pasien."
           },
           {
-            "title": "9. Etika batuk/bersin",
-            "text": "Tutup batuk, masker sesuai kondisi, dan kebersihan tangan."
-          },
-          {
-            "title": "10. Praktik menyuntik aman",
-            "text": "Gunakan alat steril sekali pakai dan teknik aseptik."
-          },
-          {
-            "title": "11. Praktik pungsi lumbal aman",
-            "text": "Gunakan perlindungan dan teknik aseptik sesuai prosedur."
-          }
-        ],
-        "columns": 2,
-        "note": "Sarung tangan atau APD lain tidak menggantikan kebersihan tangan."
-      }
-    },
-    {
-      "type": "html",
-      "title": "Kewaspadaan berdasarkan transmisi",
-      "caption": "Diterapkan sebagai tambahan terhadap kewaspadaan standar sejak infeksi dicurigai dan setelah jalur penularan diketahui.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Kontak",
-            "text": "Untuk penularan melalui sentuhan langsung atau lingkungan/peralatan yang terkontaminasi."
-          },
-          {
-            "title": "Droplet",
-            "text": "Untuk percikan saluran napas pada jarak dekat; gunakan masker dan penempatan sesuai prosedur."
-          },
-          {
-            "title": "Udara / Airborne",
-            "text": "Untuk partikel yang bertahan di udara; gunakan respirator dan pengaturan ruang sesuai prosedur."
-          }
-        ],
-        "columns": 1,
-        "note": "Kewaspadaan transmisi tidak menggantikan kewaspadaan standar."
-      }
-    },
-    {
-      "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Berlaku untuk semua pasien",
-            "text": "Kewaspadaan standar tidak bergantung pada diagnosis atau status infeksi yang diketahui."
-          },
-          {
-            "title": "Berdasarkan risiko tindakan",
-            "text": "Kebersihan tangan, APD, teknik aseptik, keamanan injeksi, pengelolaan alat, linen, limbah, dan lingkungan dipilih sesuai risiko."
-          },
-          {
-            "title": "Darah dan cairan tubuh berpotensi menularkan",
-            "text": "Perlindungan diterapkan saat ada kemungkinan kontak, percikan, atau aerosol sesuai tindakan."
-          },
-          {
-            "title": "Etika batuk dan higiene respirasi",
-            "text": "Pasien, keluarga, dan staf menerapkan penutup batuk, masker sesuai kondisi, dan kebersihan tangan."
-          },
-          {
-            "title": "Keselamatan benda tajam",
-            "text": "Pencegahan cedera, pembuangan segera, dan pelaporan pajanan merupakan bagian kewaspadaan standar."
+            "title": "9–11",
+            "text": "Etika batuk/respiratory hygiene; praktik injeksi aman; praktik pungsi lumbal aman."
           }
         ],
         "columns": 2,
@@ -141,126 +67,54 @@
     },
     {
       "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Nilai risiko sebelum tindakan",
-            "text": "Tentukan kemungkinan kontak dengan darah, cairan, mukosa, kulit tidak utuh, atau aerosol."
-          },
-          {
-            "title": "Siapkan lingkungan dan alat",
-            "text": "Pastikan APD, wadah tajam, handrub, dan alat bersih tersedia."
-          },
-          {
-            "title": "Lakukan tindakan aman",
-            "text": "Terapkan kebersihan tangan, teknik aseptik, dan injeksi aman."
-          },
-          {
-            "title": "Kelola setelah tindakan",
-            "text": "Lepas APD aman, buang limbah, dekontaminasi alat, dan lakukan kebersihan tangan."
-          },
-          {
-            "title": "Laporkan pajanan atau kegagalan",
-            "text": "Jangan menunda alur pascapajanan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktiknya di unit",
-      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Sebelum pemasangan infus",
-            "text": "Kaji APD, hand hygiene, antisepsis kulit, dan teknik aseptik."
-          },
-          {
-            "title": "Saat batuk/sekret",
-            "text": "Gunakan perlindungan sesuai risiko dan ajarkan etika batuk."
-          },
-          {
-            "title": "Saat membersihkan alat",
-            "text": "Pisahkan alat kotor dan bersih serta ikuti alur dekontaminasi."
-          },
-          {
-            "title": "Saat benda tajam terpakai",
-            "text": "Buang segera ke wadah pada titik penggunaan."
-          },
-          {
-            "title": "Saat terjadi pajanan",
-            "text": "Lakukan pertolongan awal, laporkan segera, dan ikuti evaluasi pascapajanan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Menilai risiko",
-            "text": "Perawat memilih tindakan pencegahan sebelum kontak."
-          },
-          {
-            "title": "Menjadi teladan",
-            "text": "Kepatuhan staf memengaruhi pasien dan keluarga."
-          },
-          {
-            "title": "Menjaga teknik aseptik",
-            "text": "Lindungi titik kritis dan bagian kritis alat."
-          },
-          {
-            "title": "Menghentikan praktik tidak aman",
-            "text": "Berani mengingatkan dengan komunikasi profesional."
-          },
-          {
-            "title": "Mendokumentasikan pajanan",
-            "text": "Pastikan tindak lanjut tidak hilang."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "title": "🧤 Pilih berdasarkan risiko pajanan",
+      "caption": "“Pasien infeksi = APD lengkap” adalah cara pikir yang salah.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Memakai sarung tangan untuk semua hal",
-            "text": "Sarung tangan bukan pengganti hand hygiene dan dapat menyebarkan kontaminasi."
+            "title": "Kontak biasa tanpa pajanan",
+            "text": "Mengukur tekanan darah tidak otomatis membutuhkan sarung tangan."
           },
           {
-            "title": "Menunggu diagnosis infeksi",
-            "text": "Kewaspadaan standar harus sudah diterapkan."
+            "title": "Luka/cairan tubuh",
+            "text": "Sarung tangan dan APD lain dipilih sesuai risiko kontak."
           },
           {
-            "title": "Recapping jarum",
-            "text": "Meningkatkan risiko tertusuk."
+            "title": "Risiko percikan",
+            "text": "Tambahkan pelindung mukosa wajah/mata sesuai kebutuhan."
           },
           {
-            "title": "Membawa alat kotor tanpa wadah",
-            "text": "Mencemari lingkungan dan mencederai petugas."
+            "title": "Barang terkontaminasi",
+            "text": "Tangani alat/permukaan dengan cara yang mencegah perpindahan mikroorganisme."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "😷 Etika batuk dan penempatan pasien",
+      "caption": "Kewaspadaan transmisi dapat ditambahkan bila diperlukan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Etika batuk",
+            "text": "Tutup batuk/bersin dengan tisu atau siku, masker bila perlu, buang tisu, lalu hand hygiene."
           },
           {
-            "title": "Memakai APD berlebihan tanpa risiko",
-            "text": "Menyulitkan kerja dan menghabiskan sumber daya tanpa manfaat."
+            "title": "Penempatan",
+            "text": "Pertimbangkan risiko penularan/kontaminasi dan kebutuhan isolasi/kohort."
+          },
+          {
+            "title": "Tambahan, bukan pengganti",
+            "text": "Kontak, droplet, atau airborne ditambahkan di atas kewaspadaan standar."
+          },
+          {
+            "title": "Mulai sejak dicurigai",
+            "text": "Jangan selalu menunggu diagnosis pasti bila risiko penularan sudah jelas secara klinis."
           }
         ],
         "columns": 2,
@@ -270,471 +124,76 @@
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Menerapkan sebelas kewaspadaan standar kepada semua pasien.",
-        "Membedakan kewaspadaan kontak, droplet, dan udara/airborne.",
-        "Memulai kewaspadaan transmisi sejak infeksi dicurigai, tanpa menunggu diagnosis pasti.",
-        "Memilih APD dan pengamanan berdasarkan risiko pajanan dan jalur penularan.",
-        "Mengomunikasikan status kewaspadaan saat serah terima dan transfer."
-      ]
-    },
-    {
-      "title": "Konsep utama",
-      "points": [
-        "Kewaspadaan standar tidak bergantung pada diagnosis atau status infeksi yang diketahui.",
-        "Kebersihan tangan, APD, teknik aseptik, keamanan injeksi, pengelolaan alat, linen, limbah, dan lingkungan dipilih sesuai risiko.",
-        "Perlindungan diterapkan saat ada kemungkinan kontak, percikan, atau aerosol sesuai tindakan."
-      ]
-    },
-    {
-      "title": "Alur aman",
-      "points": [
-        "Nilai risiko sebelum tindakan: Tentukan kemungkinan kontak dengan darah, cairan, mukosa, kulit tidak utuh, atau aerosol.",
-        "Siapkan lingkungan dan alat: Pastikan APD, wadah tajam, handrub, dan alat bersih tersedia.",
-        "Lakukan tindakan aman: Terapkan kebersihan tangan, teknik aseptik, dan injeksi aman."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "Sebelum pemasangan infus: Kaji APD, hand hygiene, antisepsis kulit, dan teknik aseptik.",
-        "Saat batuk/sekret: Gunakan perlindungan sesuai risiko dan ajarkan etika batuk.",
-        "Saat membersihkan alat: Pisahkan alat kotor dan bersih serta ikuti alur dekontaminasi."
-      ]
-    },
-    {
-      "title": "Peran perawat",
-      "points": [
-        "Perawat memilih tindakan pencegahan sebelum kontak.",
-        "Kepatuhan staf memengaruhi pasien dan keluarga.",
-        "Lindungi titik kritis dan bagian kritis alat."
+        "Kewaspadaan standar berlaku pada semua pasien.",
+        "Kenali 11 komponen nasional.",
+        "APD/tindakan dipilih berdasarkan risiko pajanan.",
+        "Kewaspadaan kontak/droplet/airborne ditambahkan, bukan menggantikan kewaspadaan standar."
       ]
     }
   ],
   "do": [
-    "Kaji APD, hand hygiene, antisepsis kulit, dan teknik aseptik.",
-    "Gunakan perlindungan sesuai risiko dan ajarkan etika batuk.",
-    "Pisahkan alat kotor dan bersih serta ikuti alur dekontaminasi.",
-    "Buang segera ke wadah pada titik penggunaan.",
-    "Lakukan pertolongan awal, laporkan segera, dan ikuti evaluasi pascapajanan."
+    "Kewaspadaan standar berlaku pada semua pasien.",
+    "Kenali 11 komponen nasional.",
+    "APD/tindakan dipilih berdasarkan risiko pajanan.",
+    "Kewaspadaan kontak/droplet/airborne ditambahkan, bukan menggantikan kewaspadaan standar."
   ],
-  "dont": [
-    "Sarung tangan bukan pengganti hand hygiene dan dapat menyebarkan kontaminasi.",
-    "Kewaspadaan standar harus sudah diterapkan.",
-    "Meningkatkan risiko tertusuk.",
-    "Mencemari lingkungan dan mencederai petugas.",
-    "Menyulitkan kerja dan menghabiskan sumber daya tanpa manfaat."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Dalam situasi “Sebelum pemasangan infus”, tindakan yang paling tepat adalah…",
+      "q": "Apakah kewaspadaan standar hanya untuk pasien dengan diagnosis infeksi?",
       "options": [
-        "Kaji APD, hand hygiene, antisepsis kulit, dan teknik aseptik.",
-        "Sarung tangan bukan pengganti hand hygiene dan dapat menyebarkan kontaminasi.",
-        "Kewaspadaan standar harus sudah diterapkan.",
-        "Meningkatkan risiko tertusuk."
-      ],
-      "answer": 0,
-      "why": "Kaji APD, hand hygiene, antisepsis kulit, dan teknik aseptik."
-    },
-    {
-      "q": "Dalam situasi “Saat batuk/sekret”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Kewaspadaan standar harus sudah diterapkan.",
-        "Meningkatkan risiko tertusuk.",
-        "Mencemari lingkungan dan mencederai petugas.",
-        "Gunakan perlindungan sesuai risiko dan ajarkan etika batuk."
-      ],
-      "answer": 3,
-      "why": "Gunakan perlindungan sesuai risiko dan ajarkan etika batuk."
-    },
-    {
-      "q": "Dalam situasi “Saat membersihkan alat”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Mencemari lingkungan dan mencederai petugas.",
-        "Menyulitkan kerja dan menghabiskan sumber daya tanpa manfaat.",
-        "Pisahkan alat kotor dan bersih serta ikuti alur dekontaminasi.",
-        "Meningkatkan risiko tertusuk."
-      ],
-      "answer": 2,
-      "why": "Pisahkan alat kotor dan bersih serta ikuti alur dekontaminasi."
-    },
-    {
-      "q": "Dalam situasi “Saat benda tajam terpakai”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Sarung tangan bukan pengganti hand hygiene dan dapat menyebarkan kontaminasi.",
-        "Buang segera ke wadah pada titik penggunaan.",
-        "Mencemari lingkungan dan mencederai petugas.",
-        "Menyulitkan kerja dan menghabiskan sumber daya tanpa manfaat."
+        "Ya",
+        "Tidak, berlaku untuk semua pasien"
       ],
       "answer": 1,
-      "why": "Buang segera ke wadah pada titik penggunaan."
+      "why": "Status infeksi tidak selalu sudah diketahui."
     },
     {
-      "q": "Dalam situasi “Saat terjadi pajanan”, tindakan yang paling tepat adalah…",
+      "q": "Mengukur tekanan darah pasien tanpa risiko cairan tubuh otomatis harus memakai sarung tangan?",
       "options": [
-        "Lakukan pertolongan awal, laporkan segera, dan ikuti evaluasi pascapajanan.",
-        "Menyulitkan kerja dan menghabiskan sumber daya tanpa manfaat.",
-        "Sarung tangan bukan pengganti hand hygiene dan dapat menyebarkan kontaminasi.",
-        "Kewaspadaan standar harus sudah diterapkan."
-      ],
-      "answer": 0,
-      "why": "Lakukan pertolongan awal, laporkan segera, dan ikuti evaluasi pascapajanan."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Berlaku untuk semua pasien” adalah…",
-      "options": [
-        "Sarung tangan bukan pengganti hand hygiene dan dapat menyebarkan kontaminasi.",
-        "Kewaspadaan standar tidak bergantung pada diagnosis atau status infeksi yang diketahui.",
-        "Meningkatkan risiko tertusuk.",
-        "Mencemari lingkungan dan mencederai petugas."
+        "Ya selalu",
+        "Tidak, APD dipilih berdasarkan risiko pajanan"
       ],
       "answer": 1,
-      "why": "Kewaspadaan standar tidak bergantung pada diagnosis atau status infeksi yang diketahui."
+      "why": "Sarung tangan tidak dipakai hanya karena berada dekat pasien."
     },
     {
-      "q": "Pernyataan yang paling tepat tentang “Berdasarkan risiko tindakan” adalah…",
+      "q": "Kewaspadaan transmisi dibanding kewaspadaan standar adalah…",
       "options": [
-        "Kewaspadaan standar harus sudah diterapkan.",
-        "Kebersihan tangan, APD, teknik aseptik, keamanan injeksi, pengelolaan alat, linen, limbah, dan lingkungan dipilih sesuai risiko.",
-        "Mencemari lingkungan dan mencederai petugas.",
-        "Menyulitkan kerja dan menghabiskan sumber daya tanpa manfaat."
+        "Pengganti",
+        "Tambahan bila ada indikasi"
       ],
       "answer": 1,
-      "why": "Kebersihan tangan, APD, teknik aseptik, keamanan injeksi, pengelolaan alat, linen, limbah, dan lingkungan dipilih sesuai risiko."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Darah dan cairan tubuh berpotensi menularkan” adalah…",
-      "options": [
-        "Meningkatkan risiko tertusuk.",
-        "Perlindungan diterapkan saat ada kemungkinan kontak, percikan, atau aerosol sesuai tindakan.",
-        "Menyulitkan kerja dan menghabiskan sumber daya tanpa manfaat.",
-        "Sarung tangan bukan pengganti hand hygiene dan dapat menyebarkan kontaminasi."
-      ],
-      "answer": 1,
-      "why": "Perlindungan diterapkan saat ada kemungkinan kontak, percikan, atau aerosol sesuai tindakan."
+      "why": "Standard precautions tetap berjalan."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
-      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
-      "org": "Kementerian Kesehatan Republik Indonesia",
-      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
     },
     {
-      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
-      "org": "Rumah sakit masing-masing",
-      "url": ""
+      "title": "WHO Infection Prevention and Control resources",
+      "org": "World Health Organization",
+      "url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control"
+    },
+    {
+      "title": "Transmission-Based Precautions and Infection Control",
+      "org": "CDC",
+      "url": "https://www.cdc.gov/infection-control/"
     }
   ],
-  "keywords": [
-    "/",
-    "1.",
-    "1/2",
-    "10.",
-    "11.",
-    "2",
-    "2.",
-    "2/2",
-    "3.",
-    "4.",
-    "5.",
-    "6.",
-    "7.",
-    "8.",
-    "9.",
-    "ada",
-    "aerosol",
-    "aerosol.",
-    "airborne",
-    "ajarkan",
-    "alasan",
-    "alat",
-    "alat.",
-    "alur",
-    "alurnya",
-    "aman",
-    "aman.",
-    "antisepsis",
-    "apa",
-    "apd",
-    "area",
-    "aseptik",
-    "aseptik.",
-    "atau",
-    "awal",
-    "bagian",
-    "batuk",
-    "batuk.",
-    "batuk/bersin",
-    "batuk/sekret",
-    "benar.",
-    "benda",
-    "berani",
-    "berdasarkan",
-    "bergantung",
-    "berikut",
-    "berlaku",
-    "berlebihan",
-    "berpotensi",
-    "bersih",
-    "bertahan",
-    "buang",
-    "bukan",
-    "cairan",
-    "cedera",
-    "cegah",
-    "contoh",
-    "dan",
-    "dapat",
-    "darah",
-    "daya",
-    "dekat",
-    "dekontaminasi",
-    "dekontaminasi.",
-    "dengan",
-    "di",
-    "diagnosis",
-    "dibersihkan",
-    "dicurigai",
-    "didesinfeksi",
-    "dijelaskan",
-    "diketahui.",
-    "dipahami",
-    "diperagakan.",
-    "dipilih",
-    "diri",
-    "disterilkan",
-    "diterapkan",
-    "diterapkan.",
-    "droplet",
-    "etika",
-    "evaluasi",
-    "gimana",
-    "gunakan",
-    "hal",
-    "hand",
-    "handrub",
-    "harus",
-    "higiene",
-    "hilang.",
-    "hygiene",
-    "ikuti",
-    "infeksi",
-    "infeksi.",
-    "infus",
-    "injeksi",
-    "intinya",
-    "istilah",
-    "jaga",
-    "jalur",
-    "jangan",
-    "jarak",
-    "jarum",
-    "jenis",
-    "kaji",
-    "ke",
-    "keamanan",
-    "kebersihan",
-    "kebiasaan",
-    "kegagalan",
-    "keliru",
-    "kelola",
-    "keluarga",
-    "keluarga.",
-    "kemungkinan",
-    "kenali",
-    "kepada",
-    "kepatuhan",
-    "kerja",
-    "kesehatan",
-    "keselamatan",
-    "kewaspadaan",
-    "kewenangan",
-    "klinis.",
-    "komponen",
-    "komunikasi",
-    "kondisi",
-    "konkret",
-    "konsistensi.",
-    "kontak",
-    "kontak.",
-    "kontaminasi.",
-    "kotor",
-    "kritis",
-    "kulit",
-    "lakukan",
-    "langsung",
-    "lanjut",
-    "laporkan",
-    "lepas",
-    "lima",
-    "limbah",
-    "lindungi",
-    "linen",
-    "lingkungan",
-    "lingkungan.",
-    "lingkungan/peralatan",
-    "lumbal",
-    "manfaat.",
-    "masker",
-    "melalui",
-    "melengkapi",
-    "memakai",
-    "membantu",
-    "membawa",
-    "membersihkan",
-    "memengaruhi",
-    "memilih",
-    "mencederai",
-    "mencemari",
-    "mendokumentasikan",
-    "menerapkan",
-    "menerapkan.",
-    "menghabiskan",
-    "menghentikan",
-    "mengibaskan",
-    "mengingatkan",
-    "menilai",
-    "meningkatkan",
-    "menjadi",
-    "menjaga",
-    "menularkan",
-    "menunda",
-    "menunggu",
-    "menyebarkan",
-    "menyulitkan",
-    "menyuntik",
-    "merupakan",
-    "momen",
-    "mukosa",
-    "napas",
-    "ngapain",
-    "nilai",
-    "pada",
-    "pajanan",
-    "pajanan.",
-    "pakai",
-    "partikel",
-    "pascapajanan.",
-    "pasien",
-    "pasien.",
-    "pastikan",
-    "pelaporan",
-    "pelayanan.",
-    "pelindung",
-    "pemasangan",
-    "pembuangan",
-    "penatalaksanaan",
-    "pencegahan",
-    "penempatan",
-    "pengaturan",
-    "pengelolaan",
-    "pengendalian",
-    "pengganti",
-    "penggunaan.",
-    "penggunaannya.",
-    "penularan",
-    "penutup",
-    "peralatan",
-    "perawat",
-    "percikan",
-    "perlindungan",
-    "perlu",
-    "permukaan",
-    "pertolongan",
-    "petugas",
-    "petugas.",
-    "pilih",
-    "pisahkan",
-    "ppi",
-    "praktik",
-    "praktiknya",
-    "profesional.",
-    "prosedur.",
-    "proses",
-    "pungsi",
-    "recapping",
-    "respirasi",
-    "respirator",
-    "risiko",
-    "risiko.",
-    "ruang",
-    "rumah",
-    "saat",
-    "sakit.",
-    "saluran",
-    "sarung",
-    "sebagai",
-    "sebelas",
-    "sebelum",
-    "sederhana",
-    "segera",
-    "sejak",
-    "sekali",
-    "semua",
-    "sentuhan",
-    "sering",
-    "serta",
-    "sesuai",
-    "setelah",
-    "siapkan",
-    "staf",
-    "standar",
-    "standar.",
-    "status",
-    "steril",
-    "sudah",
-    "sumber",
-    "tajam",
-    "tambahan",
-    "tampak",
-    "tangan",
-    "tangan.",
-    "tangani",
-    "tanpa",
-    "teknik",
-    "teladan",
-    "tempatkan",
-    "tentukan",
-    "tepat",
-    "terapkan",
-    "terhadap",
-    "terjadi",
-    "terkontaminasi.",
-    "terpakai",
-    "tersedia.",
-    "tertusuk.",
-    "tetapi",
-    "tidak",
-    "tindak",
-    "tindakan",
-    "tindakan.",
-    "titik",
-    "transmisi",
-    "tubuh",
-    "tutup",
-    "udara",
-    "unit",
-    "untuk",
-    "urutan",
-    "utuh",
-    "wadah",
-    "yang"
-  ],
-  "instrumentCodes": [
-    "PPI 2"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    187
-  ],
-  "standardRef": "PPI 2",
-  "searchText": "Kewaspadaan Standar Sebelas kewaspadaan standar yang diterapkan kepada semua pasien. PPI 2 Kewaspadaan standar (1/2) Kewaspadaan standar diterapkan kepada semua pasien, tanpa menunggu diagnosis infeksi. 1. Kebersihan tangan Lakukan pada momen yang tepat dengan teknik yang benar. 2. Alat pelindung diri Pilih sesuai kemungkinan pajanan. 3. Dekontaminasi peralatan Alat dibersihkan, didesinfeksi, atau disterilkan sesuai penggunaannya. 4. Pengendalian lingkungan Jaga kebersihan permukaan dan area pelayanan. 5. Pengelolaan limbah Pisahkan dan buang sesuai jenis dan risiko. 6. Penatalaksanaan linen Tangani linen kotor tanpa mengibaskan atau mencemari lingkungan. Kewaspadaan standar (2/2) Lima komponen berikut melengkapi sebelas kewaspadaan standar. 7. Perlindungan kesehatan petugas Cegah pajanan dan ikuti alur pascapajanan. 8. Penempatan pasien Tempatkan sesuai risiko penularan dan kondisi klinis. 9. Etika batuk/bersin Tutup batuk, masker sesuai kondisi, dan kebersihan tangan. 10. Praktik menyuntik aman Gunakan alat steril sekali pakai dan teknik aseptik. 11. Praktik pungsi lumbal aman Gunakan perlindungan dan teknik aseptik sesuai prosedur. Kewaspadaan berdasarkan transmisi Diterapkan sebagai tambahan terhadap kewaspadaan standar sejak infeksi dicurigai dan setelah jalur penularan diketahui. Kontak Untuk penularan melalui sentuhan langsung atau lingkungan/peralatan yang terkontaminasi. Droplet Untuk percikan saluran napas pada jarak dekat; gunakan masker dan penempatan sesuai prosedur. Udara / Airborne Untuk partikel yang bertahan di udara; gunakan respirator dan pengaturan ruang sesuai prosedur. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Berlaku untuk semua pasien Kewaspadaan standar tidak bergantung pada diagnosis atau status infeksi yang diketahui. Berdasarkan risiko tindakan Kebersihan tangan, APD, teknik aseptik, keamanan injeksi, pengelolaan alat, linen, limbah, dan lingkungan dipilih sesuai risiko. Darah dan cairan tubuh berpotensi menularkan Perlindungan diterapkan saat ada kemungkinan kontak, percikan, atau aerosol sesuai tindakan. Etika batuk dan higiene respirasi Pasien, keluarga, dan staf menerapkan penutup batuk, masker sesuai kondisi, dan kebersihan tangan. Keselamatan benda tajam Pencegahan cedera, pembuangan segera, dan pelaporan pajanan merupakan bagian kewaspadaan standar. 🧭 Alurnya gimana? Urutan kerja yang membantu menjaga keselamatan dan konsistensi. Nilai risiko sebelum tindakan Tentukan kemungkinan kontak dengan darah, cairan, mukosa, kulit tidak utuh, atau aerosol. Siapkan lingkungan dan alat Pastikan APD, wadah tajam, handrub, dan alat bersih tersedia. Lakukan tindakan aman Terapkan kebersihan tangan, teknik aseptik, dan injeksi aman. Kelola setelah tindakan Lepas APD aman, buang limbah, dekontaminasi alat, dan lakukan kebersihan tangan. Laporkan pajanan atau kegagalan Jangan menunda alur pascapajanan. 💪 Praktiknya di unit Contoh tindakan yang dapat dijelaskan atau diperagakan. Sebelum pemasangan infus Kaji APD, hand hygiene, antisepsis kulit, dan teknik aseptik. Saat batuk/sekret Gunakan perlindungan sesuai risiko dan ajarkan etika batuk. Saat membersihkan alat Pisahkan alat kotor dan bersih serta ikuti alur dekontaminasi. Saat benda tajam terpakai Buang segera ke wadah pada titik penggunaan. Saat terjadi pajanan Lakukan pertolongan awal, laporkan segera, dan ikuti evaluasi pascapajanan. 💪 Perawat harus ngapain? Tindakan konkret sesuai kewenangan dan proses rumah sakit. Menilai risiko Perawat memilih tindakan pencegahan sebelum kontak. Menjadi teladan Kepatuhan staf memengaruhi pasien dan keluarga. Menjaga teknik aseptik Lindungi titik kritis dan bagian kritis alat. Menghentikan praktik tidak aman Berani mengingatkan dengan komunikasi profesional. Mendokumentasikan pajanan Pastikan tindak lanjut tidak hilang. 🚨 Apa yang sering keliru? Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko. Memakai sarung tangan untuk semua hal Sarung tangan bukan pengganti hand hygiene dan dapat menyebarkan kontaminasi. Menunggu diagnosis infeksi Kewaspadaan standar harus sudah diterapkan. Recapping jarum Meningkatkan risiko tertusuk. Membawa alat kotor tanpa wadah Mencemari lingkungan dan mencederai petugas. Memakai APD berlebihan tanpa risiko Menyulitkan kerja dan menghabiskan sumber daya tanpa manfaat."
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Kewaspadaan Standar Terapkan kewaspadaan standar pada semua pasien dan pilih tindakan/APD berdasarkan risiko pajanan."
 }

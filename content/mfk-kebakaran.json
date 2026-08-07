@@ -1,0 +1,229 @@
+{
+  "id": "mfk-kebakaran",
+  "group": "mfk",
+  "title": "Kebakaran, Code Red, dan Evakuasi",
+  "short": "Kebakaran, Code Red, dan Evakuasi",
+  "desc": "Aktifkan bantuan, lakukan pemadaman awal bila aman, dan evakuasi berdasarkan bahaya nyata serta sistem Code Red rumah sakit.",
+  "category": "MFK",
+  "color": "#B42318",
+  "soft": "#FFF0EE",
+  "icon": "fire",
+  "minutes": 18,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 4,
+  "slides": [
+    {
+      "type": "html",
+      "title": "🔥 Saat menemukan api/asap",
+      "caption": "Keselamatan manusia dan aktivasi bantuan didahulukan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kenali bahaya",
+            "text": "Api, asap, panas, sumber bahan bakar, dan jalur keluar."
+          },
+          {
+            "title": "Aktifkan Code Red/alarm",
+            "text": "Gunakan mekanisme panggilan yang berlaku di RS."
+          },
+          {
+            "title": "Selamatkan dari bahaya langsung",
+            "text": "Pindahkan pasien/orang yang terancam bila aman dilakukan."
+          },
+          {
+            "title": "Pemadaman awal",
+            "text": "Gunakan APAR hanya bila api masih dapat ditangani dan jalur keluar tetap aman."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🧯 APAR — alur praktik lokal",
+      "caption": "Poster terbaru menjadi acuan visual; langkah ini sengaja mengikuti praktik RS yang sudah disepakati.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "1–3",
+            "text": "Cek manometer di zona hijau → pastikan jalur aman/posisi keluar → bawa APAR dengan benar."
+          },
+          {
+            "title": "4–5",
+            "text": "Tarik pin/segel → lakukan semprot uji ke area aman sesuai SOP untuk memastikan fungsi."
+          },
+          {
+            "title": "6–8",
+            "text": "Arahkan ke pangkal api → tekan tuas → sapukan kanan-kiri."
+          },
+          {
+            "title": "9–10",
+            "text": "Jaga jarak sekitar 2–3 meter sesuai prosedur setempat → hentikan bila kondisi tidak aman."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "⛑️ Code Red dan pembagian helm",
+      "caption": "Warna peran adalah sistem lokal rumah sakit, bukan kode nasional universal.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Merah",
+            "text": "Pemadaman awal."
+          },
+          {
+            "title": "Biru",
+            "text": "Evakuasi pasien, pengunjung, dan staf."
+          },
+          {
+            "title": "Kuning",
+            "text": "Penyelamatan peralatan medis bila aman dan tidak menunda manusia."
+          },
+          {
+            "title": "Putih",
+            "text": "Penyelamatan dokumen vital bila aman dan tidak menunda evakuasi."
+          }
+        ],
+        "columns": 2,
+        "note": "Prioritas selalu keselamatan manusia; alat dan dokumen hanya diselamatkan bila aman."
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚪 Prinsip evakuasi kebakaran",
+      "caption": "Jangan membuat aturan kaku “pasien tertentu selalu terakhir”.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Bahaya langsung lebih dulu",
+            "text": "Orang yang paling terancam dipindahkan lebih dulu sesuai situasi."
+          },
+          {
+            "title": "Horizontal dahulu",
+            "text": "Bila memungkinkan pindah ke kompartemen/area aman pada lantai yang sama sebelum vertikal/keluar."
+          },
+          {
+            "title": "Jalur aman",
+            "text": "Gunakan rute evakuasi; jangan mengganjal fire door."
+          },
+          {
+            "title": "Lift",
+            "text": "Jangan gunakan lift biasa saat kebakaran; lift evakuasi khusus hanya bila merupakan bagian sistem yang disetujui."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "image",
+      "title": "Poster — APAR TERBARU",
+      "caption": "Poster APAR terbaru: manometer, semprot uji, pangkal api, jarak, dan keselamatan.",
+      "image": "assets/images/posters/v6/cara-menggunakan-apar.webp",
+      "thumbnail": "assets/images/posters/v6/thumb/cara-menggunakan-apar.webp"
+    },
+    {
+      "type": "image",
+      "title": "Poster — Code Red & Pembagian Helm",
+      "caption": "Poster Code Red yang sudah ada tetap digunakan.",
+      "image": "assets/images/posters/v6/code-red-pembagian-helm.webp",
+      "thumbnail": "assets/images/posters/v6/thumb/code-red-pembagian-helm.webp"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Inti materi — 1 menit",
+      "points": [
+        "Api/asap → aktifkan Code Red/alarm, selamatkan dari bahaya langsung, padamkan hanya bila aman.",
+        "APAR lokal: cek manometer hijau, jalur aman, tarik pin, semprot uji sesuai SOP, arahkan pangkal api, tekan, sapu, jarak 2–3 m, berhenti bila tidak aman.",
+        "Helm lokal: merah pemadaman, biru evakuasi, kuning alat, putih dokumen; manusia selalu prioritas.",
+        "Evakuasi umumnya horizontal dulu lalu vertikal/keluar bila perlu; jangan gunakan lift biasa saat kebakaran."
+      ]
+    }
+  ],
+  "do": [
+    "Api/asap → aktifkan Code Red/alarm, selamatkan dari bahaya langsung, padamkan hanya bila aman.",
+    "APAR lokal: cek manometer hijau, jalur aman, tarik pin, semprot uji sesuai SOP, arahkan pangkal api, tekan, sapu, jarak 2–3 m, berhenti bila tidak aman.",
+    "Helm lokal: merah pemadaman, biru evakuasi, kuning alat, putih dokumen; manusia selalu prioritas.",
+    "Evakuasi umumnya horizontal dulu lalu vertikal/keluar bila perlu; jangan gunakan lift biasa saat kebakaran."
+  ],
+  "dont": [],
+  "quiz": [
+    {
+      "q": "Sebelum menggunakan APAR, hal penting adalah…",
+      "options": [
+        "Memastikan jalur keluar aman dan APAR layak",
+        "Berdiri dengan api di belakang",
+        "Menutup semua jalan keluar",
+        "Mengabaikan manometer"
+      ],
+      "answer": 0,
+      "why": "Pemadaman hanya dilakukan dengan jalur mundur yang aman."
+    },
+    {
+      "q": "Dalam SOP lokal ini, setelah pin ditarik dilakukan…",
+      "options": [
+        "Semprot uji singkat ke area aman untuk memastikan APAR berfungsi",
+        "Melempar APAR",
+        "Menunggu api membesar",
+        "Menyemprot ke orang"
+      ],
+      "answer": 0,
+      "why": "Semprot uji adalah langkah lokal yang sengaja dipertahankan."
+    },
+    {
+      "q": "Pada Code Red, peran helm kuning adalah…",
+      "options": [
+        "Evakuasi manusia utama",
+        "Menyelamatkan peralatan medis bila aman dan tidak menunda manusia",
+        "Memadamkan api utama",
+        "Dokumen"
+      ],
+      "answer": 1,
+      "why": "Keselamatan manusia tetap prioritas."
+    },
+    {
+      "q": "Lift biasa saat kebakaran…",
+      "options": [
+        "Digunakan agar cepat",
+        "Tidak digunakan; ikuti jalur evakuasi yang ditetapkan",
+        "Hanya untuk dokumen",
+        "Wajib untuk semua pasien"
+      ],
+      "answer": 1,
+      "why": "Lift biasa dapat gagal atau membuka ke area berbahaya."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Kebakaran, Code Red, dan Evakuasi Aktifkan bantuan, lakukan pemadaman awal bila aman, dan evakuasi berdasarkan bahaya nyata serta sistem Code Red rumah sakit."
+}

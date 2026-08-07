@@ -3,144 +3,66 @@
   "group": "pkpo",
   "title": "Rekonsiliasi Obat",
   "short": "Rekonsiliasi Obat",
-  "desc": "Cocokkan obat saat masuk, pindah unit, dan pulang.",
+  "desc": "Cocokkan obat yang digunakan pasien pada setiap transisi pelayanan untuk mencegah obat terlewat, ganda, salah dosis, atau interaksi.",
   "category": "PKPO",
   "color": "#6D48C7",
   "soft": "#F1ECFF",
   "icon": "rights",
-  "priority": "practice",
-  "priorityLabel": "Praktik Wajib",
-  "minutes": 13,
+  "minutes": 9,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Rekonsiliasi obat pada transisi pelayanan",
-      "caption": "Tujuannya menemukan dan menyelesaikan perbedaan obat sebelum menimbulkan cedera.",
+      "title": "🔄 Rekonsiliasi = mencocokkan daftar obat",
+      "caption": "Tujuan utamanya kontinuitas terapi yang aman.",
       "template": {
-        "style": "timeline",
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kumpulkan",
+            "text": "Dapatkan daftar obat lengkap: nama, dosis, rute, frekuensi, kapan terakhir digunakan, termasuk obat bebas/herbal bila relevan."
+          },
+          {
+            "title": "Bandingkan",
+            "text": "Cocokkan dengan order saat ini."
+          },
+          {
+            "title": "Klarifikasi",
+            "text": "Perbedaan yang tidak disengaja dikonfirmasi kepada PPA yang berwenang."
+          },
+          {
+            "title": "Dokumentasikan",
+            "text": "Catat keputusan: lanjut, ubah, hentikan, atau tunda."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚪 Kapan penting?",
+      "caption": "Transisi adalah titik rawan informasi hilang.",
+      "template": {
+        "style": "cards",
         "items": [
           {
             "title": "Saat masuk",
-            "text": "Kumpulkan daftar obat terbaik: resep, OTC, herbal, suplemen, inhaler, insulin, tetes, dan obat berkala."
+            "text": "Bandingkan obat sebelum masuk dengan order awal."
           },
           {
-            "title": "Saat pindah unit",
-            "text": "Bandingkan obat sebelum transfer dengan instruksi baru dan perubahan kondisi."
-          },
-          {
-            "title": "Saat pulang",
-            "text": "Pastikan obat yang dilanjutkan, dihentikan, diubah, dan obat baru dipahami pasien."
-          },
-          {
-            "title": "Cari diskrepansi",
-            "text": "Obat terlewat, duplikasi, dosis/frekuensi berubah, alergi, atau obat masih diminum tanpa instruksi."
-          },
-          {
-            "title": "Klarifikasi",
-            "text": "Perawat tidak memutuskan sendiri; koordinasikan dengan dokter dan apoteker."
-          },
-          {
-            "title": "Dokumentasi dan edukasi",
-            "text": "Catat sumber informasi, keputusan, dan pemahaman pasien/keluarga."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Rekonsiliasi adalah proses membandingkan",
-            "text": "Daftar obat terbaik dibandingkan dengan instruksi saat ini untuk menemukan perbedaan yang tidak disengaja."
-          },
-          {
-            "title": "Dilakukan pada transisi pelayanan",
-            "text": "Masuk, pindah unit, dan pulang merupakan titik risiko."
-          },
-          {
-            "title": "Sumber informasi harus lebih dari satu bila mungkin",
-            "text": "Pasien/keluarga, obat yang dibawa, resep, catatan, farmasi, dan fasilitas sebelumnya dapat digunakan."
-          },
-          {
-            "title": "Diskrepansi perlu klarifikasi",
-            "text": "Obat hilang, duplikasi, perubahan dosis/frekuensi, atau obat yang tidak lagi digunakan harus ditinjau."
-          },
-          {
-            "title": "Keputusan klinis dilakukan pihak berwenang",
-            "text": "Perawat mengumpulkan dan mengeskalasi, bukan memutuskan sendiri."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Kumpulkan daftar obat terbaik",
-            "text": "Nama, dosis, rute, frekuensi, waktu terakhir, indikasi, dan kepatuhan."
-          },
-          {
-            "title": "Bandingkan dengan instruksi",
-            "text": "Tandai setiap perbedaan."
-          },
-          {
-            "title": "Klasifikasikan",
-            "text": "Apakah perubahan disengaja dan terdokumentasi atau belum jelas."
-          },
-          {
-            "title": "Klarifikasi",
-            "text": "Hubungi dokter/apoteker sesuai alur."
-          },
-          {
-            "title": "Komunikasikan dan dokumentasikan",
-            "text": "Perbarui daftar untuk transisi berikutnya dan edukasi pasien."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktiknya di unit",
-      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Wawancara pasien",
-            "text": "Tanyakan obat resep, bebas, herbal, suplemen, insulin, inhaler, tetes, dan obat berkala."
-          },
-          {
-            "title": "Pasien tidak ingat",
-            "text": "Gunakan kemasan, keluarga, farmasi, atau catatan sebelumnya."
-          },
-          {
-            "title": "Transfer ke ICU",
-            "text": "Pastikan infus, obat terjadwal, PRN, obat dihentikan, dan dosis terakhir jelas."
+            "title": "Transfer",
+            "text": "Pastikan obat dan perubahan terapi ikut saat pindah unit/level pelayanan."
           },
           {
             "title": "Pulang",
-            "text": "Cocokkan obat pulang dengan obat lama: lanjut, ubah, atau stop."
+            "text": "Pastikan daftar obat pulang jelas dan konsisten dengan keputusan akhir."
           },
           {
-            "title": "Temukan duplikasi",
-            "text": "Tahan pemberian bila berisiko dan klarifikasi segera sesuai kewenangan."
+            "title": "Sumber informasi",
+            "text": "Pasien/keluarga, daftar resep, kemasan obat, rekam medis, atau sumber lain yang dapat dipercaya."
           }
         ],
         "columns": 2,
@@ -149,62 +71,26 @@
     },
     {
       "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Menggali riwayat rinci",
-            "text": "Gunakan pertanyaan terbuka dan spesifik."
-          },
-          {
-            "title": "Menilai kepatuhan dan hambatan",
-            "text": "Cara pasien benar-benar menggunakan obat penting."
-          },
-          {
-            "title": "Mengidentifikasi diskrepansi",
-            "text": "Tandai dan eskalasi."
-          },
-          {
-            "title": "Menjaga komunikasi transisi",
-            "text": "Daftar terbaru ikut pindah bersama pasien."
-          },
-          {
-            "title": "Melakukan teach-back saat pulang",
-            "text": "Pastikan pasien memahami obat yang diteruskan, diubah, dan dihentikan."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
+      "title": "🚨 Apa yang ingin dicegah?",
+      "caption": "Bukan sekadar membuat daftar.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Menyalin daftar lama tanpa verifikasi",
-            "text": "Daftar dapat sudah tidak akurat."
+            "title": "Omission",
+            "text": "Obat penting yang seharusnya diteruskan justru hilang."
           },
           {
-            "title": "Hanya menanyakan “obat rutin?”",
-            "text": "Pasien sering tidak menganggap herbal, inhaler, atau suntikan sebagai obat."
+            "title": "Duplikasi",
+            "text": "Obat lama dan baru dengan efek sama diberikan tanpa sengaja."
           },
           {
-            "title": "Menghapus obat sendiri",
-            "text": "Perbedaan harus diklarifikasi."
+            "title": "Dosis/rute/frekuensi salah",
+            "text": "Perubahan transisi tidak terkomunikasikan."
           },
           {
-            "title": "Tidak mencatat waktu dosis terakhir",
-            "text": "Dapat menyebabkan dosis ganda atau terlambat."
-          },
-          {
-            "title": "Edukasi pulang hanya menyerahkan resep",
-            "text": "Pasien perlu tahu perubahan dari regimen sebelumnya."
+            "title": "Interaksi/kontraindikasi",
+            "text": "Obat baru bertabrakan dengan terapi sebelumnya atau kondisi pasien."
           }
         ],
         "columns": 2,
@@ -214,414 +100,75 @@
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Saat masuk: Kumpulkan daftar obat terbaik: resep, OTC, herbal, suplemen, inhaler, insulin, tetes, dan obat berkala.",
-        "Saat pindah unit: Bandingkan obat sebelum transfer dengan instruksi baru dan perubahan kondisi.",
-        "Saat pulang: Pastikan obat yang dilanjutkan, dihentikan, diubah, dan obat baru dipahami pasien.",
-        "Cari diskrepansi: Obat terlewat, duplikasi, dosis/frekuensi berubah, alergi, atau obat masih diminum tanpa instruksi."
-      ]
-    },
-    {
-      "title": "Konsep utama",
-      "points": [
-        "Daftar obat terbaik dibandingkan dengan instruksi saat ini untuk menemukan perbedaan yang tidak disengaja.",
-        "Masuk, pindah unit, dan pulang merupakan titik risiko.",
-        "Pasien/keluarga, obat yang dibawa, resep, catatan, farmasi, dan fasilitas sebelumnya dapat digunakan."
-      ]
-    },
-    {
-      "title": "Alur aman",
-      "points": [
-        "Kumpulkan daftar obat terbaik: Nama, dosis, rute, frekuensi, waktu terakhir, indikasi, dan kepatuhan.",
-        "Bandingkan dengan instruksi: Tandai setiap perbedaan.",
-        "Klasifikasikan: Apakah perubahan disengaja dan terdokumentasi atau belum jelas."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "Wawancara pasien: Tanyakan obat resep, bebas, herbal, suplemen, insulin, inhaler, tetes, dan obat berkala.",
-        "Pasien tidak ingat: Gunakan kemasan, keluarga, farmasi, atau catatan sebelumnya.",
-        "Transfer ke ICU: Pastikan infus, obat terjadwal, PRN, obat dihentikan, dan dosis terakhir jelas."
-      ]
-    },
-    {
-      "title": "Peran perawat",
-      "points": [
-        "Gunakan pertanyaan terbuka dan spesifik.",
-        "Cara pasien benar-benar menggunakan obat penting.",
-        "Tandai dan eskalasi."
+        "Kumpulkan daftar obat terbaik → bandingkan → klarifikasi → dokumentasikan keputusan.",
+        "Lakukan pada transisi: masuk, transfer, dan pulang.",
+        "Tujuan: mencegah omission, duplikasi, dosis/rute/frekuensi salah, dan interaksi."
       ]
     }
   ],
   "do": [
-    "Tanyakan obat resep, bebas, herbal, suplemen, insulin, inhaler, tetes, dan obat berkala.",
-    "Gunakan kemasan, keluarga, farmasi, atau catatan sebelumnya.",
-    "Pastikan infus, obat terjadwal, PRN, obat dihentikan, dan dosis terakhir jelas.",
-    "Cocokkan obat pulang dengan obat lama: lanjut, ubah, atau stop.",
-    "Tahan pemberian bila berisiko dan klarifikasi segera sesuai kewenangan."
+    "Kumpulkan daftar obat terbaik → bandingkan → klarifikasi → dokumentasikan keputusan.",
+    "Lakukan pada transisi: masuk, transfer, dan pulang.",
+    "Tujuan: mencegah omission, duplikasi, dosis/rute/frekuensi salah, dan interaksi."
   ],
-  "dont": [
-    "Daftar dapat sudah tidak akurat.",
-    "Pasien sering tidak menganggap herbal, inhaler, atau suntikan sebagai obat.",
-    "Perbedaan harus diklarifikasi.",
-    "Dapat menyebabkan dosis ganda atau terlambat.",
-    "Pasien perlu tahu perubahan dari regimen sebelumnya."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Dalam situasi “Wawancara pasien”, tindakan yang paling tepat adalah…",
+      "q": "Pasien masuk dengan obat hipertensi rutin tetapi tidak muncul di order rawat inap. Langkah yang tepat adalah…",
       "options": [
-        "Tanyakan obat resep, bebas, herbal, suplemen, insulin, inhaler, tetes, dan obat berkala.",
-        "Daftar dapat sudah tidak akurat.",
-        "Pasien sering tidak menganggap herbal, inhaler, atau suntikan sebagai obat.",
-        "Perbedaan harus diklarifikasi."
+        "Menghentikan sendiri",
+        "Menandai perbedaan dan mengklarifikasi melalui proses rekonsiliasi",
+        "Memberikan obat dari rumah tanpa order",
+        "Mengabaikan"
+      ],
+      "answer": 1,
+      "why": "Perbedaan perlu dipastikan apakah disengaja atau tidak."
+    },
+    {
+      "q": "Rekonsiliasi obat paling penting dilakukan saat…",
+      "options": [
+        "Transisi pelayanan seperti masuk, transfer, pulang",
+        "Hanya setahun sekali",
+        "Hanya saat audit",
+        "Hanya di farmasi"
       ],
       "answer": 0,
-      "why": "Tanyakan obat resep, bebas, herbal, suplemen, insulin, inhaler, tetes, dan obat berkala."
+      "why": "Transisi adalah titik rawan kehilangan informasi terapi."
     },
     {
-      "q": "Dalam situasi “Pasien tidak ingat”, tindakan yang paling tepat adalah…",
+      "q": "Daftar obat pulang yang berbeda dari keputusan terapi terakhir harus…",
       "options": [
-        "Pasien sering tidak menganggap herbal, inhaler, atau suntikan sebagai obat.",
-        "Perbedaan harus diklarifikasi.",
-        "Dapat menyebabkan dosis ganda atau terlambat.",
-        "Gunakan kemasan, keluarga, farmasi, atau catatan sebelumnya."
-      ],
-      "answer": 3,
-      "why": "Gunakan kemasan, keluarga, farmasi, atau catatan sebelumnya."
-    },
-    {
-      "q": "Dalam situasi “Transfer ke ICU”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Dapat menyebabkan dosis ganda atau terlambat.",
-        "Pasien perlu tahu perubahan dari regimen sebelumnya.",
-        "Pastikan infus, obat terjadwal, PRN, obat dihentikan, dan dosis terakhir jelas.",
-        "Perbedaan harus diklarifikasi."
-      ],
-      "answer": 2,
-      "why": "Pastikan infus, obat terjadwal, PRN, obat dihentikan, dan dosis terakhir jelas."
-    },
-    {
-      "q": "Dalam situasi “Pulang”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Daftar dapat sudah tidak akurat.",
-        "Cocokkan obat pulang dengan obat lama: lanjut, ubah, atau stop.",
-        "Dapat menyebabkan dosis ganda atau terlambat.",
-        "Pasien perlu tahu perubahan dari regimen sebelumnya."
+        "Dibiarkan",
+        "Diklarifikasi sebelum pasien pulang",
+        "Dihapus semua",
+        "Diserahkan tanpa edukasi"
       ],
       "answer": 1,
-      "why": "Cocokkan obat pulang dengan obat lama: lanjut, ubah, atau stop."
-    },
-    {
-      "q": "Dalam situasi “Temukan duplikasi”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Tahan pemberian bila berisiko dan klarifikasi segera sesuai kewenangan.",
-        "Pasien perlu tahu perubahan dari regimen sebelumnya.",
-        "Daftar dapat sudah tidak akurat.",
-        "Pasien sering tidak menganggap herbal, inhaler, atau suntikan sebagai obat."
-      ],
-      "answer": 0,
-      "why": "Tahan pemberian bila berisiko dan klarifikasi segera sesuai kewenangan."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Rekonsiliasi adalah proses membandingkan” adalah…",
-      "options": [
-        "Daftar dapat sudah tidak akurat.",
-        "Daftar obat terbaik dibandingkan dengan instruksi saat ini untuk menemukan perbedaan yang tidak disengaja.",
-        "Perbedaan harus diklarifikasi.",
-        "Dapat menyebabkan dosis ganda atau terlambat."
-      ],
-      "answer": 1,
-      "why": "Daftar obat terbaik dibandingkan dengan instruksi saat ini untuk menemukan perbedaan yang tidak disengaja."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Dilakukan pada transisi pelayanan” adalah…",
-      "options": [
-        "Pasien sering tidak menganggap herbal, inhaler, atau suntikan sebagai obat.",
-        "Masuk, pindah unit, dan pulang merupakan titik risiko.",
-        "Dapat menyebabkan dosis ganda atau terlambat.",
-        "Pasien perlu tahu perubahan dari regimen sebelumnya."
-      ],
-      "answer": 1,
-      "why": "Masuk, pindah unit, dan pulang merupakan titik risiko."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Sumber informasi harus lebih dari satu bila mungkin” adalah…",
-      "options": [
-        "Perbedaan harus diklarifikasi.",
-        "Pasien/keluarga, obat yang dibawa, resep, catatan, farmasi, dan fasilitas sebelumnya dapat digunakan.",
-        "Pasien perlu tahu perubahan dari regimen sebelumnya.",
-        "Daftar dapat sudah tidak akurat."
-      ],
-      "answer": 1,
-      "why": "Pasien/keluarga, obat yang dibawa, resep, catatan, farmasi, dan fasilitas sebelumnya dapat digunakan."
+      "why": "Daftar pulang harus mencerminkan keputusan final yang benar."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
-      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
-      "org": "Kementerian Kesehatan Republik Indonesia",
-      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
     },
     {
-      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
       "org": "Rumah sakit masing-masing",
       "url": ""
     }
   ],
-  "keywords": [
-    "4",
-    "adalah",
-    "akurat.",
-    "alasan",
-    "alergi",
-    "alur.",
-    "alurnya",
-    "apa",
-    "apakah",
-    "apoteker.",
-    "atau",
-    "bandingkan",
-    "baru",
-    "bebas",
-    "belum",
-    "benar-benar",
-    "berikutnya",
-    "berisiko",
-    "berkala.",
-    "bersama",
-    "berubah",
-    "berwenang",
-    "bila",
-    "bukan",
-    "cara",
-    "cari",
-    "catat",
-    "catatan",
-    "cedera.",
-    "cocokkan",
-    "contoh",
-    "daftar",
-    "dan",
-    "dapat",
-    "dari",
-    "dengan",
-    "di",
-    "dibandingkan",
-    "dibawa",
-    "digunakan",
-    "digunakan.",
-    "dihentikan",
-    "dihentikan.",
-    "dijelaskan",
-    "diklarifikasi.",
-    "dilakukan",
-    "dilanjutkan",
-    "diminum",
-    "dipahami",
-    "diperagakan.",
-    "disengaja",
-    "disengaja.",
-    "diskrepansi",
-    "diteruskan",
-    "ditinjau.",
-    "diubah",
-    "dokter",
-    "dokter/apoteker",
-    "dokumentasi",
-    "dokumentasikan",
-    "dosis",
-    "dosis/frekuensi",
-    "duplikasi",
-    "edukasi",
-    "eskalasi.",
-    "farmasi",
-    "fasilitas",
-    "frekuensi",
-    "ganda",
-    "gimana",
-    "gunakan",
-    "hambatan",
-    "hanya",
-    "harus",
-    "herbal",
-    "hilang",
-    "hubungi",
-    "icu",
-    "ikut",
-    "indikasi",
-    "informasi",
-    "infus",
-    "ingat",
-    "inhaler",
-    "ini",
-    "instruksi",
-    "instruksi.",
-    "insulin",
-    "intinya",
-    "istilah",
-    "jelas.",
-    "ke",
-    "kebiasaan",
-    "keliru",
-    "keluarga",
-    "kemasan",
-    "kenali",
-    "kepatuhan",
-    "kepatuhan.",
-    "keputusan",
-    "kerja",
-    "keselamatan",
-    "kewenangan",
-    "kewenangan.",
-    "klarifikasi",
-    "klasifikasikan",
-    "klinis",
-    "komunikasi",
-    "komunikasikan",
-    "kondisi.",
-    "konkret",
-    "konsistensi.",
-    "koordinasikan",
-    "kumpulkan",
-    "lagi",
-    "lama",
-    "lanjut",
-    "lebih",
-    "masih",
-    "masuk",
-    "melakukan",
-    "memahami",
-    "membandingkan",
-    "membantu",
-    "memutuskan",
-    "menanyakan",
-    "mencatat",
-    "menemukan",
-    "menerapkan.",
-    "menganggap",
-    "mengeskalasi",
-    "menggali",
-    "menggunakan",
-    "menghapus",
-    "mengidentifikasi",
-    "mengumpulkan",
-    "menilai",
-    "menimbulkan",
-    "meningkatkan",
-    "menjaga",
-    "menyalin",
-    "menyebabkan",
-    "menyelesaikan",
-    "menyerahkan",
-    "merupakan",
-    "mungkin",
-    "nama",
-    "ngapain",
-    "obat",
-    "obat.",
-    "otc",
-    "pada",
-    "pasien",
-    "pasien.",
-    "pasien/keluarga",
-    "pasien/keluarga.",
-    "pastikan",
-    "pelayanan",
-    "pemahaman",
-    "pemberian",
-    "penting.",
-    "perawat",
-    "perbarui",
-    "perbedaan",
-    "perbedaan.",
-    "perlu",
-    "pertanyaan",
-    "perubahan",
-    "pihak",
-    "pindah",
-    "pkpo",
-    "praktiknya",
-    "prn",
-    "proses",
-    "pulang",
-    "pulang.",
-    "regimen",
-    "rekonsiliasi",
-    "resep",
-    "rinci",
-    "risiko.",
-    "riwayat",
-    "rumah",
-    "rute",
-    "rutin",
-    "saat",
-    "sakit.",
-    "satu",
-    "sebagai",
-    "sebelum",
-    "sebelumnya",
-    "sebelumnya.",
-    "sederhana",
-    "segera",
-    "sendiri",
-    "sendiri.",
-    "sering",
-    "sesuai",
-    "setiap",
-    "spesifik.",
-    "stop.",
-    "sudah",
-    "sumber",
-    "suntikan",
-    "suplemen",
-    "tahan",
-    "tahu",
-    "tampak",
-    "tandai",
-    "tanpa",
-    "tanyakan",
-    "teach-back",
-    "temukan",
-    "terakhir",
-    "terbaik",
-    "terbaru",
-    "terbuka",
-    "terdokumentasi",
-    "terjadwal",
-    "terlambat.",
-    "terlewat",
-    "tetapi",
-    "tetes",
-    "tidak",
-    "tindakan",
-    "titik",
-    "transfer",
-    "transisi",
-    "tujuannya",
-    "ubah",
-    "unit",
-    "untuk",
-    "urutan",
-    "verifikasi",
-    "waktu",
-    "wawancara",
-    "yang"
-  ],
-  "instrumentCodes": [
-    "PKPO 4"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    356
-  ],
-  "standardRef": "PKPO 4",
-  "searchText": "Rekonsiliasi Obat Cocokkan obat saat masuk, pindah unit, dan pulang. PKPO 4 Rekonsiliasi obat pada transisi pelayanan Tujuannya menemukan dan menyelesaikan perbedaan obat sebelum menimbulkan cedera. Saat masuk Kumpulkan daftar obat terbaik: resep, OTC, herbal, suplemen, inhaler, insulin, tetes, dan obat berkala. Saat pindah unit Bandingkan obat sebelum transfer dengan instruksi baru dan perubahan kondisi. Saat pulang Pastikan obat yang dilanjutkan, dihentikan, diubah, dan obat baru dipahami pasien. Cari diskrepansi Obat terlewat, duplikasi, dosis/frekuensi berubah, alergi, atau obat masih diminum tanpa instruksi. Klarifikasi Perawat tidak memutuskan sendiri; koordinasikan dengan dokter dan apoteker. Dokumentasi dan edukasi Catat sumber informasi, keputusan, dan pemahaman pasien/keluarga. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Rekonsiliasi adalah proses membandingkan Daftar obat terbaik dibandingkan dengan instruksi saat ini untuk menemukan perbedaan yang tidak disengaja. Dilakukan pada transisi pelayanan Masuk, pindah unit, dan pulang merupakan titik risiko. Sumber informasi harus lebih dari satu bila mungkin Pasien/keluarga, obat yang dibawa, resep, catatan, farmasi, dan fasilitas sebelumnya dapat digunakan. Diskrepansi perlu klarifikasi Obat hilang, duplikasi, perubahan dosis/frekuensi, atau obat yang tidak lagi digunakan harus ditinjau. Keputusan klinis dilakukan pihak berwenang Perawat mengumpulkan dan mengeskalasi, bukan memutuskan sendiri. 🧭 Alurnya gimana? Urutan kerja yang membantu menjaga keselamatan dan konsistensi. Kumpulkan daftar obat terbaik Nama, dosis, rute, frekuensi, waktu terakhir, indikasi, dan kepatuhan. Bandingkan dengan instruksi Tandai setiap perbedaan. Klasifikasikan Apakah perubahan disengaja dan terdokumentasi atau belum jelas. Klarifikasi Hubungi dokter/apoteker sesuai alur. Komunikasikan dan dokumentasikan Perbarui daftar untuk transisi berikutnya dan edukasi pasien. 💪 Praktiknya di unit Contoh tindakan yang dapat dijelaskan atau diperagakan. Wawancara pasien Tanyakan obat resep, bebas, herbal, suplemen, insulin, inhaler, tetes, dan obat berkala. Pasien tidak ingat Gunakan kemasan, keluarga, farmasi, atau catatan sebelumnya. Transfer ke ICU Pastikan infus, obat terjadwal, PRN, obat dihentikan, dan dosis terakhir jelas. Pulang Cocokkan obat pulang dengan obat lama: lanjut, ubah, atau stop. Temukan duplikasi Tahan pemberian bila berisiko dan klarifikasi segera sesuai kewenangan. 💪 Perawat harus ngapain? Tindakan konkret sesuai kewenangan dan proses rumah sakit. Menggali riwayat rinci Gunakan pertanyaan terbuka dan spesifik. Menilai kepatuhan dan hambatan Cara pasien benar-benar menggunakan obat penting. Mengidentifikasi diskrepansi Tandai dan eskalasi. Menjaga komunikasi transisi Daftar terbaru ikut pindah bersama pasien. Melakukan teach-back saat pulang Pastikan pasien memahami obat yang diteruskan, diubah, dan dihentikan. 🚨 Apa yang sering keliru? Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko. Menyalin daftar lama tanpa verifikasi Daftar dapat sudah tidak akurat. Hanya menanyakan “obat rutin?” Pasien sering tidak menganggap herbal, inhaler, atau suntikan sebagai obat. Menghapus obat sendiri Perbedaan harus diklarifikasi. Tidak mencatat waktu dosis terakhir Dapat menyebabkan dosis ganda atau terlambat. Edukasi pulang hanya menyerahkan resep Pasien perlu tahu perubahan dari regimen sebelumnya."
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Rekonsiliasi Obat Cocokkan obat yang digunakan pasien pada setiap transisi pelayanan untuk mencegah obat terlewat, ganda, salah dosis, atau interaksi."
 }

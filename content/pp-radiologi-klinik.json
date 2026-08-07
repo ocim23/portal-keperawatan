@@ -1,50 +1,40 @@
 {
   "id": "pp-radiologi-klinik",
   "group": "pp",
-  "title": "Persiapan Pasien untuk Pemeriksaan Radiologi",
-  "short": "Persiapan Pasien untuk Pemeriksaan Radiologi",
-  "desc": "Identifikasi, kesiapan klinis, keselamatan, dan tindak lanjut pemeriksaan radiologi.",
+  "title": "Pelayanan Radiologi Klinik",
+  "short": "Pelayanan Radiologi Klinik",
+  "desc": "Siapkan pasien dan transport secara aman, terutama pada pemeriksaan kontras dan pasien berisiko.",
   "category": "PP",
   "color": "#0F766E",
   "soft": "#E7F7F4",
   "icon": "monitor",
-  "priority": "knowledge",
-  "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 15,
+  "minutes": 9,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Keselamatan pasien sebelum pemeriksaan radiologi",
-      "caption": "Perawat memastikan pasien siap dan risiko penting sudah dikomunikasikan.",
+      "title": "📷 Sebelum pemeriksaan",
+      "caption": "Pastikan pemeriksaan yang benar pada pasien yang benar.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Identitas dan pemeriksaan",
-            "text": "Cocokkan pasien, jenis pemeriksaan, sisi/lokasi bila relevan, dan instruksi."
+            "title": "Verifikasi",
+            "text": "Cocokkan identitas, jenis pemeriksaan, sisi/lokasi bila relevan, dan permintaan."
           },
           {
-            "title": "Kehamilan",
-            "text": "Tanyakan kemungkinan hamil sesuai kelompok pasien dan sampaikan kepada petugas radiologi."
+            "title": "Persiapan",
+            "text": "Puasa, akses IV, obat, atau persiapan lain mengikuti jenis pemeriksaan dan protokol."
           },
           {
-            "title": "Kontras dan alergi",
-            "text": "Kaji riwayat reaksi kontras/alergi, fungsi ginjal atau parameter lain sesuai prosedur."
+            "title": "Kontras",
+            "text": "Tanyakan riwayat reaksi kontras/alergi relevan; fungsi ginjal, kehamilan, obat/kondisi tertentu dinilai bila diperlukan."
           },
           {
-            "title": "Implan/perangkat",
-            "text": "Identifikasi alat, logam, pacemaker, atau implan yang dapat memengaruhi pemeriksaan."
-          },
-          {
-            "title": "Sedasi/monitoring",
-            "text": "Pastikan persiapan, akses, pendampingan, dan pemantauan sesuai kondisi."
-          },
-          {
-            "title": "Transportasi aman",
-            "text": "Jaga oksigen, infus, drain, monitoring, serta komunikasi kondisi pasien saat transfer."
+            "title": "Dokumen",
+            "text": "Pastikan hasil asesmen dan persetujuan yang dipersyaratkan tersedia."
           }
         ],
         "columns": 2,
@@ -53,186 +43,54 @@
     },
     {
       "type": "html",
-      "title": "Sesudah pemeriksaan",
-      "caption": "Tanggung jawab tidak berhenti ketika gambar selesai diambil.",
+      "title": "🚑 Transport dan handover",
+      "caption": "Risiko pasien tidak berhenti saat meninggalkan ruangan.",
       "template": {
-        "style": "checklist",
+        "style": "cards",
         "items": [
           {
-            "title": "Pantau reaksi",
-            "text": "Amati reaksi kontras, perubahan kesadaran, nyeri, perdarahan, atau komplikasi lain."
+            "title": "Stabilitas",
+            "text": "Nilai apakah pasien aman dipindahkan dan tentukan kebutuhan pendamping/monitor."
+          },
+          {
+            "title": "Terapi berjalan",
+            "text": "Oksigen, infus, pompa, drain, dan alat lain tetap aman selama transport."
+          },
+          {
+            "title": "Handover",
+            "text": "Sampaikan kondisi, risiko, alergi/kontras, terapi, dan kebutuhan pemantauan."
+          },
+          {
+            "title": "Kembali ke unit",
+            "text": "Reasesmen bila pemeriksaan/intervensi dapat mengubah kondisi pasien."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚨 Hasil cito/kritis",
+      "caption": "Gunakan jalur yang sudah ada, jangan membuat sistem komunikasi kedua.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "TAT",
+            "text": "Target pemeriksaan cito mengikuti layanan radiologi rumah sakit."
           },
           {
             "title": "Hasil kritis",
-            "text": "Pastikan pelaporan dan tindak lanjut tepat waktu."
+            "text": "Ikuti proses hasil kritis SKP 2."
           },
           {
-            "title": "Instruksi pascaprosedur",
-            "text": "Berikan edukasi tentang observasi, cairan, aktivitas, atau tanda bahaya sesuai prosedur."
+            "title": "Intervensional",
+            "text": "Perhatikan persiapan, monitoring, perdarahan/komplikasi, dan observasi sesuai prosedur."
           },
           {
-            "title": "Dokumentasi",
-            "text": "Catat kesiapan, respons, intervensi, dan komunikasi penting."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Pemeriksaan harus tepat pasien dan tepat indikasi",
-            "text": "Permintaan, area tubuh, jenis pemeriksaan, dan kondisi klinis harus cocok."
-          },
-          {
-            "title": "Keselamatan radiasi",
-            "text": "Paparan diminimalkan dan perlindungan diterapkan sesuai jenis pemeriksaan serta kebijakan."
-          },
-          {
-            "title": "Kontras membutuhkan skrining",
-            "text": "Riwayat alergi, fungsi ginjal, kehamilan, obat tertentu, dan akses intravena dinilai sesuai prosedur."
-          },
-          {
-            "title": "Transportasi aman",
-            "text": "Oksigen, infus, monitor, alat bantu, dan pendamping disiapkan berdasarkan kondisi pasien."
-          },
-          {
-            "title": "Hasil penting harus ditindaklanjuti",
-            "text": "Temuan kritis tidak berhenti pada laporan; komunikasi dan respons klinis perlu didokumentasikan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Tinjau permintaan",
-            "text": "Pastikan identitas, pemeriksaan, lokasi, dan persiapan."
-          },
-          {
-            "title": "Kaji risiko",
-            "text": "Nilai kondisi, alergi, kehamilan, fungsi ginjal, alat implan, dan kebutuhan sedasi."
-          },
-          {
-            "title": "Siapkan pasien",
-            "text": "Jelaskan proses, puasa bila perlu, lepaskan benda yang mengganggu, dan jaga privasi."
-          },
-          {
-            "title": "Dampingi secara aman",
-            "text": "Pertahankan monitor, oksigen, akses, dan kewaspadaan jatuh."
-          },
-          {
-            "title": "Pantau setelah pemeriksaan",
-            "text": "Nilai reaksi kontras/sedasi dan pastikan hasil kritis ditindaklanjuti."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktiknya di unit",
-      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Sebelum CT kontras",
-            "text": "Konfirmasi identitas, alergi, fungsi ginjal, akses, dan kesiapan emergensi sesuai kebijakan."
-          },
-          {
-            "title": "Pasien tidak stabil",
-            "text": "Koordinasikan kebutuhan monitor, oksigen, obat, dan petugas pendamping sebelum pindah."
-          },
-          {
-            "title": "Pasien dengan implan",
-            "text": "Jangan mengasumsikan aman untuk MRI; lakukan skrining formal."
-          },
-          {
-            "title": "Pasien berisiko jatuh",
-            "text": "Gunakan alat bantu dan pengawasan saat berpindah meja pemeriksaan."
-          },
-          {
-            "title": "Hasil kritis diterima",
-            "text": "Terapkan komunikasi efektif dan dokumentasikan penerima serta tindak lanjut."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Melakukan skrining awal",
-            "text": "Kenali risiko dan kebutuhan persiapan."
-          },
-          {
-            "title": "Menjaga kontinuitas asuhan",
-            "text": "Pastikan peralatan, obat, dan informasi ikut berpindah."
-          },
-          {
-            "title": "Melindungi privasi",
-            "text": "Tutup tubuh dan batasi paparan yang tidak perlu."
-          },
-          {
-            "title": "Mengenali perburukan",
-            "text": "Aktifkan bantuan bila muncul reaksi atau instabilitas."
-          },
-          {
-            "title": "Menindaklanjuti hasil",
-            "text": "Pastikan temuan penting sampai kepada pengambil keputusan."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Mengirim pasien tanpa handover",
-            "text": "Risiko klinis dan kebutuhan alat dapat terlewat."
-          },
-          {
-            "title": "Menganggap semua “alergi” sama",
-            "text": "Jenis dan berat reaksi perlu diklarifikasi."
-          },
-          {
-            "title": "Melepas monitor tanpa penilaian",
-            "text": "Perjalanan singkat tetap dapat berisiko."
-          },
-          {
-            "title": "Memberi penjelasan teknis yang tidak dipahami",
-            "text": "Kecemasan dan ketidakpatuhan meningkat."
-          },
-          {
-            "title": "Tidak menilai reaksi setelah kontras",
-            "text": "Reaksi dapat muncul setelah pasien kembali ke unit."
+            "title": "Radiasi",
+            "text": "Ikuti instruksi keselamatan radiologi dan pembatasan area."
           }
         ],
         "columns": 2,
@@ -242,455 +100,77 @@
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Identitas dan pemeriksaan: Cocokkan pasien, jenis pemeriksaan, sisi/lokasi bila relevan, dan instruksi.",
-        "Kehamilan: Tanyakan kemungkinan hamil sesuai kelompok pasien dan sampaikan kepada petugas radiologi.",
-        "Kontras dan alergi: Kaji riwayat reaksi kontras/alergi, fungsi ginjal atau parameter lain sesuai prosedur.",
-        "Implan/perangkat: Identifikasi alat, logam, pacemaker, atau implan yang dapat memengaruhi pemeriksaan.",
-        "Pantau reaksi: Amati reaksi kontras, perubahan kesadaran, nyeri, perdarahan, atau komplikasi lain.",
-        "Hasil kritis: Pastikan pelaporan dan tindak lanjut tepat waktu."
-      ]
-    },
-    {
-      "title": "Konsep utama",
-      "points": [
-        "Permintaan, area tubuh, jenis pemeriksaan, dan kondisi klinis harus cocok.",
-        "Paparan diminimalkan dan perlindungan diterapkan sesuai jenis pemeriksaan serta kebijakan.",
-        "Riwayat alergi, fungsi ginjal, kehamilan, obat tertentu, dan akses intravena dinilai sesuai prosedur."
-      ]
-    },
-    {
-      "title": "Alur aman",
-      "points": [
-        "Tinjau permintaan: Pastikan identitas, pemeriksaan, lokasi, dan persiapan.",
-        "Kaji risiko: Nilai kondisi, alergi, kehamilan, fungsi ginjal, alat implan, dan kebutuhan sedasi.",
-        "Siapkan pasien: Jelaskan proses, puasa bila perlu, lepaskan benda yang mengganggu, dan jaga privasi."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "Sebelum CT kontras: Konfirmasi identitas, alergi, fungsi ginjal, akses, dan kesiapan emergensi sesuai kebijakan.",
-        "Pasien tidak stabil: Koordinasikan kebutuhan monitor, oksigen, obat, dan petugas pendamping sebelum pindah.",
-        "Pasien dengan implan: Jangan mengasumsikan aman untuk MRI; lakukan skrining formal."
-      ]
-    },
-    {
-      "title": "Peran perawat",
-      "points": [
-        "Kenali risiko dan kebutuhan persiapan.",
-        "Pastikan peralatan, obat, dan informasi ikut berpindah.",
-        "Tutup tubuh dan batasi paparan yang tidak perlu."
+        "Verifikasi pasien dan pemeriksaan sebelum radiologi.",
+        "Kontras memerlukan skrining risiko yang relevan sesuai protokol.",
+        "Transport harus menjaga terapi dan monitoring pasien.",
+        "Hasil kritis mengikuti alur SKP 2; TAT cito ditetapkan RS."
       ]
     }
   ],
   "do": [
-    "Konfirmasi identitas, alergi, fungsi ginjal, akses, dan kesiapan emergensi sesuai kebijakan.",
-    "Koordinasikan kebutuhan monitor, oksigen, obat, dan petugas pendamping sebelum pindah.",
-    "Jangan mengasumsikan aman untuk MRI; lakukan skrining formal.",
-    "Gunakan alat bantu dan pengawasan saat berpindah meja pemeriksaan.",
-    "Terapkan komunikasi efektif dan dokumentasikan penerima serta tindak lanjut."
+    "Verifikasi pasien dan pemeriksaan sebelum radiologi.",
+    "Kontras memerlukan skrining risiko yang relevan sesuai protokol.",
+    "Transport harus menjaga terapi dan monitoring pasien.",
+    "Hasil kritis mengikuti alur SKP 2; TAT cito ditetapkan RS."
   ],
-  "dont": [
-    "Risiko klinis dan kebutuhan alat dapat terlewat.",
-    "Jenis dan berat reaksi perlu diklarifikasi.",
-    "Perjalanan singkat tetap dapat berisiko.",
-    "Kecemasan dan ketidakpatuhan meningkat.",
-    "Reaksi dapat muncul setelah pasien kembali ke unit."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Dalam situasi “Sebelum CT kontras”, tindakan yang paling tepat adalah…",
+      "q": "Pasien dengan riwayat reaksi kontras akan menjalani CT kontras. Tindakan awal adalah…",
       "options": [
-        "Konfirmasi identitas, alergi, fungsi ginjal, akses, dan kesiapan emergensi sesuai kebijakan.",
-        "Risiko klinis dan kebutuhan alat dapat terlewat.",
-        "Jenis dan berat reaksi perlu diklarifikasi.",
-        "Perjalanan singkat tetap dapat berisiko."
+        "Mengabaikan karena terjadi lama",
+        "Menyampaikan dan mengikuti asesmen/protokol kontras",
+        "Membatalkan sendiri tanpa konsultasi",
+        "Memberi makan"
+      ],
+      "answer": 1,
+      "why": "Riwayat reaksi kontras perlu diketahui sebelum pemeriksaan."
+    },
+    {
+      "q": "Saat transport pasien dengan oksigen dan infus, yang benar adalah…",
+      "options": [
+        "Memutus semuanya agar mudah",
+        "Memastikan terapi tetap aman dan melakukan handover",
+        "Mengirim tanpa informasi",
+        "Keluarga memegang semua alat"
+      ],
+      "answer": 1,
+      "why": "Keselamatan transport mencakup kontinuitas terapi."
+    },
+    {
+      "q": "Jika radiologi menemukan hasil kritis, komunikasi mengikuti…",
+      "options": [
+        "Alur hasil kritis yang berlaku, terhubung dengan SKP 2",
+        "Menunggu pasien kontrol",
+        "Hanya mengirim foto",
+        "Tidak perlu konfirmasi"
       ],
       "answer": 0,
-      "why": "Konfirmasi identitas, alergi, fungsi ginjal, akses, dan kesiapan emergensi sesuai kebijakan."
-    },
-    {
-      "q": "Dalam situasi “Pasien tidak stabil”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Jenis dan berat reaksi perlu diklarifikasi.",
-        "Perjalanan singkat tetap dapat berisiko.",
-        "Kecemasan dan ketidakpatuhan meningkat.",
-        "Koordinasikan kebutuhan monitor, oksigen, obat, dan petugas pendamping sebelum pindah."
-      ],
-      "answer": 3,
-      "why": "Koordinasikan kebutuhan monitor, oksigen, obat, dan petugas pendamping sebelum pindah."
-    },
-    {
-      "q": "Dalam situasi “Pasien dengan implan”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Kecemasan dan ketidakpatuhan meningkat.",
-        "Reaksi dapat muncul setelah pasien kembali ke unit.",
-        "Jangan mengasumsikan aman untuk MRI; lakukan skrining formal.",
-        "Perjalanan singkat tetap dapat berisiko."
-      ],
-      "answer": 2,
-      "why": "Jangan mengasumsikan aman untuk MRI; lakukan skrining formal."
-    },
-    {
-      "q": "Dalam situasi “Pasien berisiko jatuh”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Risiko klinis dan kebutuhan alat dapat terlewat.",
-        "Gunakan alat bantu dan pengawasan saat berpindah meja pemeriksaan.",
-        "Kecemasan dan ketidakpatuhan meningkat.",
-        "Reaksi dapat muncul setelah pasien kembali ke unit."
-      ],
-      "answer": 1,
-      "why": "Gunakan alat bantu dan pengawasan saat berpindah meja pemeriksaan."
-    },
-    {
-      "q": "Dalam situasi “Hasil kritis diterima”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Terapkan komunikasi efektif dan dokumentasikan penerima serta tindak lanjut.",
-        "Reaksi dapat muncul setelah pasien kembali ke unit.",
-        "Risiko klinis dan kebutuhan alat dapat terlewat.",
-        "Jenis dan berat reaksi perlu diklarifikasi."
-      ],
-      "answer": 0,
-      "why": "Terapkan komunikasi efektif dan dokumentasikan penerima serta tindak lanjut."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Pemeriksaan harus tepat pasien dan tepat indikasi” adalah…",
-      "options": [
-        "Risiko klinis dan kebutuhan alat dapat terlewat.",
-        "Permintaan, area tubuh, jenis pemeriksaan, dan kondisi klinis harus cocok.",
-        "Perjalanan singkat tetap dapat berisiko.",
-        "Kecemasan dan ketidakpatuhan meningkat."
-      ],
-      "answer": 1,
-      "why": "Permintaan, area tubuh, jenis pemeriksaan, dan kondisi klinis harus cocok."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Keselamatan radiasi” adalah…",
-      "options": [
-        "Jenis dan berat reaksi perlu diklarifikasi.",
-        "Paparan diminimalkan dan perlindungan diterapkan sesuai jenis pemeriksaan serta kebijakan.",
-        "Kecemasan dan ketidakpatuhan meningkat.",
-        "Reaksi dapat muncul setelah pasien kembali ke unit."
-      ],
-      "answer": 1,
-      "why": "Paparan diminimalkan dan perlindungan diterapkan sesuai jenis pemeriksaan serta kebijakan."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Kontras membutuhkan skrining” adalah…",
-      "options": [
-        "Perjalanan singkat tetap dapat berisiko.",
-        "Riwayat alergi, fungsi ginjal, kehamilan, obat tertentu, dan akses intravena dinilai sesuai prosedur.",
-        "Reaksi dapat muncul setelah pasien kembali ke unit.",
-        "Risiko klinis dan kebutuhan alat dapat terlewat."
-      ],
-      "answer": 1,
-      "why": "Riwayat alergi, fungsi ginjal, kehamilan, obat tertentu, dan akses intravena dinilai sesuai prosedur."
+      "why": "Sistem hasil kritis harus konsisten dan cepat."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
-      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
-      "org": "Kementerian Kesehatan Republik Indonesia",
-      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
     },
     {
-      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
       "org": "Rumah sakit masing-masing",
       "url": ""
     }
   ],
-  "keywords": [
-    "4",
-    "4.3",
-    "akses",
-    "aktifkan",
-    "aktivitas",
-    "alasan",
-    "alat",
-    "alergi",
-    "alurnya",
-    "aman",
-    "amati",
-    "apa",
-    "area",
-    "asuhan",
-    "atau",
-    "awal",
-    "bahaya",
-    "bantu",
-    "bantuan",
-    "batasi",
-    "benda",
-    "berat",
-    "berdasarkan",
-    "berhenti",
-    "berikan",
-    "berisiko",
-    "berisiko.",
-    "berpindah",
-    "berpindah.",
-    "bila",
-    "cairan",
-    "catat",
-    "cocok.",
-    "cocokkan",
-    "contoh",
-    "ct",
-    "dampingi",
-    "dan",
-    "dapat",
-    "dengan",
-    "di",
-    "diambil.",
-    "didokumentasikan.",
-    "dijelaskan",
-    "diklarifikasi.",
-    "dikomunikasikan.",
-    "diminimalkan",
-    "dinilai",
-    "dipahami",
-    "diperagakan.",
-    "disiapkan",
-    "diterapkan",
-    "diterima",
-    "ditindaklanjuti",
-    "ditindaklanjuti.",
-    "dokumentasi",
-    "dokumentasikan",
-    "drain",
-    "edukasi",
-    "efektif",
-    "emergensi",
-    "formal.",
-    "fungsi",
-    "gambar",
-    "gimana",
-    "ginjal",
-    "gunakan",
-    "hamil",
-    "handover",
-    "harus",
-    "hasil",
-    "identifikasi",
-    "identitas",
-    "ikut",
-    "implan",
-    "implan/perangkat",
-    "indikasi",
-    "informasi",
-    "infus",
-    "instabilitas.",
-    "instruksi",
-    "instruksi.",
-    "intervensi",
-    "intinya",
-    "intravena",
-    "istilah",
-    "jaga",
-    "jangan",
-    "jatuh",
-    "jatuh.",
-    "jawab",
-    "jelaskan",
-    "jenis",
-    "kaji",
-    "ke",
-    "kebiasaan",
-    "kebijakan.",
-    "kebutuhan",
-    "kecemasan",
-    "kehamilan",
-    "keliru",
-    "kelompok",
-    "kembali",
-    "kemungkinan",
-    "kenali",
-    "kepada",
-    "keputusan.",
-    "kerja",
-    "kesadaran",
-    "keselamatan",
-    "kesiapan",
-    "ketidakpatuhan",
-    "ketika",
-    "kewaspadaan",
-    "kewenangan",
-    "klinis",
-    "komplikasi",
-    "komunikasi",
-    "kondisi",
-    "kondisi.",
-    "konfirmasi",
-    "konkret",
-    "konsistensi.",
-    "kontinuitas",
-    "kontras",
-    "kontras/alergi",
-    "kontras/sedasi",
-    "koordinasikan",
-    "kritis",
-    "lain",
-    "lain.",
-    "lakukan",
-    "lanjut",
-    "lanjut.",
-    "laporan",
-    "lepaskan",
-    "logam",
-    "lokasi",
-    "meja",
-    "melakukan",
-    "melepas",
-    "melindungi",
-    "memastikan",
-    "membantu",
-    "memberi",
-    "membutuhkan",
-    "memengaruhi",
-    "menerapkan.",
-    "menganggap",
-    "mengasumsikan",
-    "mengenali",
-    "mengganggu",
-    "mengirim",
-    "menilai",
-    "menindaklanjuti",
-    "meningkat.",
-    "meningkatkan",
-    "menjaga",
-    "monitor",
-    "monitoring",
-    "mri",
-    "muncul",
-    "ngapain",
-    "nilai",
-    "nyeri",
-    "obat",
-    "observasi",
-    "oksigen",
-    "pacemaker",
-    "pada",
-    "pantau",
-    "paparan",
-    "parameter",
-    "pascaprosedur",
-    "pasien",
-    "pasien.",
-    "pastikan",
-    "pelaporan",
-    "pemantauan",
-    "pemeriksaan",
-    "pemeriksaan.",
-    "pendamping",
-    "pendampingan",
-    "penerima",
-    "pengambil",
-    "pengawasan",
-    "penilaian",
-    "penjelasan",
-    "penting",
-    "penting.",
-    "peralatan",
-    "perawat",
-    "perburukan",
-    "perdarahan",
-    "perjalanan",
-    "perlindungan",
-    "perlu",
-    "perlu.",
-    "permintaan",
-    "persiapan",
-    "persiapan.",
-    "pertahankan",
-    "perubahan",
-    "petugas",
-    "pindah.",
-    "pp",
-    "praktiknya",
-    "privasi",
-    "privasi.",
-    "prosedur.",
-    "proses",
-    "puasa",
-    "radiasi",
-    "radiologi",
-    "radiologi.",
-    "reaksi",
-    "relevan",
-    "respons",
-    "risiko",
-    "risiko.",
-    "riwayat",
-    "rumah",
-    "saat",
-    "sakit.",
-    "sama",
-    "sampai",
-    "sampaikan",
-    "sebelum",
-    "secara",
-    "sedasi.",
-    "sedasi/monitoring",
-    "sederhana",
-    "selesai",
-    "semua",
-    "sering",
-    "serta",
-    "sesuai",
-    "sesudah",
-    "setelah",
-    "siap",
-    "siapkan",
-    "singkat",
-    "sisi/lokasi",
-    "skrining",
-    "stabil",
-    "sudah",
-    "tampak",
-    "tanda",
-    "tanggung",
-    "tanpa",
-    "tanyakan",
-    "teknis",
-    "temuan",
-    "tentang",
-    "tepat",
-    "terapkan",
-    "terlewat.",
-    "tertentu",
-    "tetap",
-    "tetapi",
-    "tidak",
-    "tindak",
-    "tindakan",
-    "tinjau",
-    "transfer.",
-    "transportasi",
-    "tubuh",
-    "tutup",
-    "unit",
-    "unit.",
-    "untuk",
-    "urutan",
-    "waktu.",
-    "yang"
-  ],
-  "instrumentCodes": [
-    "PP 4",
-    "PP 4.3"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    292,
-    295
-  ],
-  "standardRef": "PP 4 dan PP 4.3",
-  "searchText": "Persiapan Pasien untuk Pemeriksaan Radiologi Identifikasi, kesiapan klinis, keselamatan, dan tindak lanjut pemeriksaan radiologi. PP 4 dan PP 4.3 Keselamatan pasien sebelum pemeriksaan radiologi Perawat memastikan pasien siap dan risiko penting sudah dikomunikasikan. Identitas dan pemeriksaan Cocokkan pasien, jenis pemeriksaan, sisi/lokasi bila relevan, dan instruksi. Kehamilan Tanyakan kemungkinan hamil sesuai kelompok pasien dan sampaikan kepada petugas radiologi. Kontras dan alergi Kaji riwayat reaksi kontras/alergi, fungsi ginjal atau parameter lain sesuai prosedur. Implan/perangkat Identifikasi alat, logam, pacemaker, atau implan yang dapat memengaruhi pemeriksaan. Sedasi/monitoring Pastikan persiapan, akses, pendampingan, dan pemantauan sesuai kondisi. Transportasi aman Jaga oksigen, infus, drain, monitoring, serta komunikasi kondisi pasien saat transfer. Sesudah pemeriksaan Tanggung jawab tidak berhenti ketika gambar selesai diambil. Pantau reaksi Amati reaksi kontras, perubahan kesadaran, nyeri, perdarahan, atau komplikasi lain. Hasil kritis Pastikan pelaporan dan tindak lanjut tepat waktu. Instruksi pascaprosedur Berikan edukasi tentang observasi, cairan, aktivitas, atau tanda bahaya sesuai prosedur. Dokumentasi Catat kesiapan, respons, intervensi, dan komunikasi penting. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Pemeriksaan harus tepat pasien dan tepat indikasi Permintaan, area tubuh, jenis pemeriksaan, dan kondisi klinis harus cocok. Keselamatan radiasi Paparan diminimalkan dan perlindungan diterapkan sesuai jenis pemeriksaan serta kebijakan. Kontras membutuhkan skrining Riwayat alergi, fungsi ginjal, kehamilan, obat tertentu, dan akses intravena dinilai sesuai prosedur. Transportasi aman Oksigen, infus, monitor, alat bantu, dan pendamping disiapkan berdasarkan kondisi pasien. Hasil penting harus ditindaklanjuti Temuan kritis tidak berhenti pada laporan; komunikasi dan respons klinis perlu didokumentasikan. 🧭 Alurnya gimana? Urutan kerja yang membantu menjaga keselamatan dan konsistensi. Tinjau permintaan Pastikan identitas, pemeriksaan, lokasi, dan persiapan. Kaji risiko Nilai kondisi, alergi, kehamilan, fungsi ginjal, alat implan, dan kebutuhan sedasi. Siapkan pasien Jelaskan proses, puasa bila perlu, lepaskan benda yang mengganggu, dan jaga privasi. Dampingi secara aman Pertahankan monitor, oksigen, akses, dan kewaspadaan jatuh. Pantau setelah pemeriksaan Nilai reaksi kontras/sedasi dan pastikan hasil kritis ditindaklanjuti. 💪 Praktiknya di unit Contoh tindakan yang dapat dijelaskan atau diperagakan. Sebelum CT kontras Konfirmasi identitas, alergi, fungsi ginjal, akses, dan kesiapan emergensi sesuai kebijakan. Pasien tidak stabil Koordinasikan kebutuhan monitor, oksigen, obat, dan petugas pendamping sebelum pindah. Pasien dengan implan Jangan mengasumsikan aman untuk MRI; lakukan skrining formal. Pasien berisiko jatuh Gunakan alat bantu dan pengawasan saat berpindah meja pemeriksaan. Hasil kritis diterima Terapkan komunikasi efektif dan dokumentasikan penerima serta tindak lanjut. 💪 Perawat harus ngapain? Tindakan konkret sesuai kewenangan dan proses rumah sakit. Melakukan skrining awal Kenali risiko dan kebutuhan persiapan. Menjaga kontinuitas asuhan Pastikan peralatan, obat, dan informasi ikut berpindah. Melindungi privasi Tutup tubuh dan batasi paparan yang tidak perlu. Mengenali perburukan Aktifkan bantuan bila muncul reaksi atau instabilitas. Menindaklanjuti hasil Pastikan temuan penting sampai kepada pengambil keputusan. 🚨 Apa yang sering keliru? Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko. Mengirim pasien tanpa handover Risiko klinis dan kebutuhan alat dapat terlewat. Menganggap semua “alergi” sama Jenis dan berat reaksi perlu diklarifikasi. Melepas monitor tanpa penilaian Perjalanan singkat tetap dapat berisiko. Memberi penjelasan teknis yang tidak dipahami Kecemasan dan ketidakpatuhan meningkat. Tidak menilai reaksi setelah kontras Reaksi dapat muncul setelah pasien kembali ke unit."
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Pelayanan Radiologi Klinik Siapkan pasien dan transport secara aman, terutama pada pemeriksaan kontras dan pasien berisiko."
 }

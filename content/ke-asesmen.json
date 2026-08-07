@@ -1,50 +1,40 @@
 {
   "id": "ke-asesmen",
   "group": "ke",
-  "title": "Mengkaji Kebutuhan dan Kesiapan Edukasi",
-  "short": "Mengkaji Kebutuhan dan Kesiapan Edukasi",
-  "desc": "Kaji bahasa, literasi, emosi, kemampuan fisik, kognitif, dan pendamping.",
+  "title": "Asesmen Kebutuhan dan Kesiapan Edukasi",
+  "short": "Asesmen Kebutuhan dan Kesiapan Edukasi",
+  "desc": "Nilai apa yang perlu diketahui pasien dan apakah pasien/keluarga siap serta mampu menerima edukasi.",
   "category": "KE",
-  "color": "#008A83",
-  "soft": "#E8FAF7",
+  "color": "#0E7490",
+  "soft": "#E9F8FB",
   "icon": "chat",
-  "priority": "practice",
-  "priorityLabel": "Praktik Wajib",
-  "minutes": 13,
+  "minutes": 8,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Pengkajian kebutuhan dan kesiapan edukasi",
-      "caption": "Edukasi dimulai setelah perawat mengetahui apa yang dibutuhkan dan bagaimana pasien dapat belajar.",
+      "title": "🎯 Jangan edukasi dengan satu cara untuk semua",
+      "caption": "Asesmen menentukan isi, waktu, bahasa, dan metode edukasi.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Kemampuan membaca/pendidikan",
-            "text": "Sesuaikan istilah, panjang materi, dan media."
+            "title": "Kebutuhan informasi",
+            "text": "Apa yang pasien perlu pahami untuk mengambil keputusan dan merawat diri."
           },
           {
-            "title": "Bahasa",
-            "text": "Identifikasi kebutuhan penerjemah atau bahasa isyarat."
+            "title": "Literasi dan bahasa",
+            "text": "Kemampuan membaca, bahasa utama, kebutuhan penerjemah/alat bantu."
           },
           {
             "title": "Hambatan fisik/kognitif",
-            "text": "Penglihatan, pendengaran, memori, kesadaran, nyeri, dan kelelahan."
+            "text": "Pendengaran, penglihatan, kognitif, nyeri, sesak, sedasi, atau kondisi lain."
           },
           {
-            "title": "Emosi dan motivasi",
-            "text": "Cemas, marah, takut, atau belum siap dapat menghambat belajar."
-          },
-          {
-            "title": "Kesediaan menerima informasi",
-            "text": "Hormati waktu dan pilihan pasien; jadwalkan ulang bila perlu."
-          },
-          {
-            "title": "Nilai dan preferensi",
-            "text": "Sesuaikan materi dengan budaya, keyakinan, tujuan, dan siapa yang dilibatkan."
+            "title": "Budaya/nilai",
+            "text": "Pertimbangkan preferensi, keyakinan, dan kebiasaan yang memengaruhi belajar."
           }
         ],
         "columns": 2,
@@ -53,158 +43,26 @@
     },
     {
       "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "title": "👥 Siapa yang perlu dilibatkan?",
+      "caption": "Tidak selalu pasien belajar sendiri.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Edukasi dimulai dari asesmen",
-            "text": "Materi dan metode ditentukan oleh kebutuhan pasien."
+            "title": "Kesiapan/motivasi",
+            "text": "Nilai apakah pasien cukup nyaman dan siap menerima informasi."
           },
           {
-            "title": "Kesiapan dapat berubah",
-            "text": "Nyeri, sesak, cemas, mengantuk, atau berita buruk dapat menurunkan kemampuan belajar."
+            "title": "Caregiver",
+            "text": "Libatkan keluarga/pengasuh bila pasien membutuhkan bantuan setelah pulang."
           },
           {
-            "title": "Kemampuan baca bukan satu-satunya faktor",
-            "text": "Bahasa, kognitif, penglihatan, pendengaran, dan budaya juga penting."
+            "title": "Izin pasien",
+            "text": "Hormati siapa yang boleh menerima informasi, selama pasien memiliki kapasitas."
           },
           {
-            "title": "Penerima edukasi perlu ditentukan",
-            "text": "Pasien memilih keluarga/caregiver yang dilibatkan sejauh memungkinkan."
-          },
-          {
-            "title": "Hasil asesmen didokumentasikan",
-            "text": "PPA lain dapat melanjutkan edukasi secara konsisten."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Tentukan kebutuhan",
-            "text": "Apa yang harus diketahui untuk keselamatan dan kemandirian."
-          },
-          {
-            "title": "Nilai kesiapan",
-            "text": "Fisik, emosional, motivasi, dan waktu."
-          },
-          {
-            "title": "Kenali hambatan",
-            "text": "Bahasa, sensorik, kognitif, literasi, dan nilai."
-          },
-          {
-            "title": "Pilih penerima dan metode",
-            "text": "Pasien, keluarga, atau caregiver dengan media sesuai."
-          },
-          {
-            "title": "Dokumentasikan",
-            "text": "Catat hambatan dan rencana edukasi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktiknya di unit",
-      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Pasien nyeri berat",
-            "text": "Atasi nyeri dan pilih waktu ulang."
-          },
-          {
-            "title": "Pasien tidak bisa membaca",
-            "text": "Gunakan gambar dan demonstrasi."
-          },
-          {
-            "title": "Pasien menggunakan bahasa daerah",
-            "text": "Gunakan penerjemah sesuai proses."
-          },
-          {
-            "title": "Caregiver belum hadir",
-            "text": "Tunda bagian keterampilan rumah yang aman ditunda dan jadwalkan ulang."
-          },
-          {
-            "title": "Pasien menolak informasi saat ini",
-            "text": "Hormati, gali alasan, dan rencanakan ulang bila memungkinkan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Melakukan asesmen singkat",
-            "text": "Gunakan pertanyaan terbuka."
-          },
-          {
-            "title": "Menentukan prioritas",
-            "text": "Dahulukan informasi keselamatan."
-          },
-          {
-            "title": "Menyesuaikan waktu",
-            "text": "Bagi edukasi menjadi sesi kecil."
-          },
-          {
-            "title": "Libatkan caregiver",
-            "text": "Sesuai persetujuan dan peran."
-          },
-          {
-            "title": "Memperbarui asesmen",
-            "text": "Kesiapan dan kebutuhan berubah."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Memberi edukasi karena checklist",
-            "text": "Tidak menjamin relevan atau dipahami."
-          },
-          {
-            "title": "Menganggap tingkat pendidikan tinggi pasti paham",
-            "text": "Kondisi klinis memengaruhi."
-          },
-          {
-            "title": "Menggunakan keluarga sebagai penerjemah tanpa pertimbangan",
-            "text": "Akurasi dan privasi dapat terganggu."
-          },
-          {
-            "title": "Tidak mencatat hambatan",
-            "text": "PPA lain mengulang pendekatan yang gagal."
-          },
-          {
-            "title": "Memaksa saat pasien tidak siap",
-            "text": "Menurunkan retensi dan kepercayaan."
+            "title": "Prioritaskan",
+            "text": "Pada pasien nyeri hebat/sesak, tangani kebutuhan akut terlebih dahulu sebelum edukasi panjang."
           }
         ],
         "columns": 2,
@@ -214,402 +72,75 @@
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Kemampuan membaca/pendidikan: Sesuaikan istilah, panjang materi, dan media.",
-        "Bahasa: Identifikasi kebutuhan penerjemah atau bahasa isyarat.",
-        "Hambatan fisik/kognitif: Penglihatan, pendengaran, memori, kesadaran, nyeri, dan kelelahan.",
-        "Emosi dan motivasi: Cemas, marah, takut, atau belum siap dapat menghambat belajar."
-      ]
-    },
-    {
-      "title": "Konsep utama",
-      "points": [
-        "Materi dan metode ditentukan oleh kebutuhan pasien.",
-        "Nyeri, sesak, cemas, mengantuk, atau berita buruk dapat menurunkan kemampuan belajar.",
-        "Bahasa, kognitif, penglihatan, pendengaran, dan budaya juga penting."
-      ]
-    },
-    {
-      "title": "Alur aman",
-      "points": [
-        "Tentukan kebutuhan: Apa yang harus diketahui untuk keselamatan dan kemandirian.",
-        "Nilai kesiapan: Fisik, emosional, motivasi, dan waktu.",
-        "Kenali hambatan: Bahasa, sensorik, kognitif, literasi, dan nilai."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "Pasien nyeri berat: Atasi nyeri dan pilih waktu ulang.",
-        "Pasien tidak bisa membaca: Gunakan gambar dan demonstrasi.",
-        "Pasien menggunakan bahasa daerah: Gunakan penerjemah sesuai proses."
-      ]
-    },
-    {
-      "title": "Peran perawat",
-      "points": [
-        "Gunakan pertanyaan terbuka.",
-        "Dahulukan informasi keselamatan.",
-        "Bagi edukasi menjadi sesi kecil."
+        "Asesmen edukasi mencakup kebutuhan informasi, literasi, bahasa, hambatan fisik/kognitif, budaya, dan kesiapan.",
+        "Waktu edukasi harus sesuai kondisi pasien.",
+        "Libatkan caregiver bila diperlukan dan sesuai preferensi/hak pasien."
       ]
     }
   ],
   "do": [
-    "Atasi nyeri dan pilih waktu ulang.",
-    "Gunakan gambar dan demonstrasi.",
-    "Gunakan penerjemah sesuai proses.",
-    "Tunda bagian keterampilan rumah yang aman ditunda dan jadwalkan ulang.",
-    "Hormati, gali alasan, dan rencanakan ulang bila memungkinkan."
+    "Asesmen edukasi mencakup kebutuhan informasi, literasi, bahasa, hambatan fisik/kognitif, budaya, dan kesiapan.",
+    "Waktu edukasi harus sesuai kondisi pasien.",
+    "Libatkan caregiver bila diperlukan dan sesuai preferensi/hak pasien."
   ],
-  "dont": [
-    "Tidak menjamin relevan atau dipahami.",
-    "Kondisi klinis memengaruhi.",
-    "Akurasi dan privasi dapat terganggu.",
-    "PPA lain mengulang pendekatan yang gagal.",
-    "Menurunkan retensi dan kepercayaan."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Dalam situasi “Pasien nyeri berat”, tindakan yang paling tepat adalah…",
+      "q": "Pasien sedang sesak berat dan gelisah. Waktu terbaik memberi edukasi pulang panjang adalah…",
       "options": [
-        "Atasi nyeri dan pilih waktu ulang.",
-        "Tidak menjamin relevan atau dipahami.",
-        "Kondisi klinis memengaruhi.",
-        "Akurasi dan privasi dapat terganggu."
+        "Saat itu juga",
+        "Setelah kebutuhan akut ditangani dan pasien lebih siap",
+        "Tidak pernah",
+        "Di depan pasien lain"
+      ],
+      "answer": 1,
+      "why": "Kesiapan klinis memengaruhi kemampuan belajar."
+    },
+    {
+      "q": "Pasien tidak memahami bahasa yang digunakan petugas. Yang tepat adalah…",
+      "options": [
+        "Berbicara lebih keras",
+        "Menggunakan dukungan komunikasi/penerjemahan yang sesuai",
+        "Menganggap setuju",
+        "Hanya memberi brosur"
+      ],
+      "answer": 1,
+      "why": "Bahasa adalah bagian asesmen kebutuhan edukasi."
+    },
+    {
+      "q": "Caregiver perlu dilibatkan terutama bila…",
+      "options": [
+        "Pasien membutuhkan bantuan perawatan di rumah dan pasien mengizinkan/tepat secara hukum",
+        "Selalu tanpa izin pasien",
+        "Tidak pernah",
+        "Hanya saat survei"
       ],
       "answer": 0,
-      "why": "Atasi nyeri dan pilih waktu ulang."
-    },
-    {
-      "q": "Dalam situasi “Pasien tidak bisa membaca”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Kondisi klinis memengaruhi.",
-        "Akurasi dan privasi dapat terganggu.",
-        "PPA lain mengulang pendekatan yang gagal.",
-        "Gunakan gambar dan demonstrasi."
-      ],
-      "answer": 3,
-      "why": "Gunakan gambar dan demonstrasi."
-    },
-    {
-      "q": "Dalam situasi “Pasien menggunakan bahasa daerah”, tindakan yang paling tepat adalah…",
-      "options": [
-        "PPA lain mengulang pendekatan yang gagal.",
-        "Menurunkan retensi dan kepercayaan.",
-        "Gunakan penerjemah sesuai proses.",
-        "Akurasi dan privasi dapat terganggu."
-      ],
-      "answer": 2,
-      "why": "Gunakan penerjemah sesuai proses."
-    },
-    {
-      "q": "Dalam situasi “Caregiver belum hadir”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Tidak menjamin relevan atau dipahami.",
-        "Tunda bagian keterampilan rumah yang aman ditunda dan jadwalkan ulang.",
-        "PPA lain mengulang pendekatan yang gagal.",
-        "Menurunkan retensi dan kepercayaan."
-      ],
-      "answer": 1,
-      "why": "Tunda bagian keterampilan rumah yang aman ditunda dan jadwalkan ulang."
-    },
-    {
-      "q": "Dalam situasi “Pasien menolak informasi saat ini”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Hormati, gali alasan, dan rencanakan ulang bila memungkinkan.",
-        "Menurunkan retensi dan kepercayaan.",
-        "Tidak menjamin relevan atau dipahami.",
-        "Kondisi klinis memengaruhi."
-      ],
-      "answer": 0,
-      "why": "Hormati, gali alasan, dan rencanakan ulang bila memungkinkan."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Edukasi dimulai dari asesmen” adalah…",
-      "options": [
-        "Tidak menjamin relevan atau dipahami.",
-        "Materi dan metode ditentukan oleh kebutuhan pasien.",
-        "Akurasi dan privasi dapat terganggu.",
-        "PPA lain mengulang pendekatan yang gagal."
-      ],
-      "answer": 1,
-      "why": "Materi dan metode ditentukan oleh kebutuhan pasien."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Kesiapan dapat berubah” adalah…",
-      "options": [
-        "Kondisi klinis memengaruhi.",
-        "Nyeri, sesak, cemas, mengantuk, atau berita buruk dapat menurunkan kemampuan belajar.",
-        "PPA lain mengulang pendekatan yang gagal.",
-        "Menurunkan retensi dan kepercayaan."
-      ],
-      "answer": 1,
-      "why": "Nyeri, sesak, cemas, mengantuk, atau berita buruk dapat menurunkan kemampuan belajar."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Kemampuan baca bukan satu-satunya faktor” adalah…",
-      "options": [
-        "Akurasi dan privasi dapat terganggu.",
-        "Bahasa, kognitif, penglihatan, pendengaran, dan budaya juga penting.",
-        "Menurunkan retensi dan kepercayaan.",
-        "Tidak menjamin relevan atau dipahami."
-      ],
-      "answer": 1,
-      "why": "Bahasa, kognitif, penglihatan, pendengaran, dan budaya juga penting."
+      "why": "Edukasi harus mendukung keberlanjutan perawatan sekaligus menghormati hak pasien."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
-      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
-      "org": "Kementerian Kesehatan Republik Indonesia",
-      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
     },
     {
-      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
       "org": "Rumah sakit masing-masing",
       "url": ""
     }
   ],
-  "keywords": [
-    "3",
-    "akurasi",
-    "alasan",
-    "alurnya",
-    "aman",
-    "apa",
-    "asesmen",
-    "atasi",
-    "atau",
-    "baca",
-    "bagaimana",
-    "bagi",
-    "bagian",
-    "bahasa",
-    "belajar.",
-    "belum",
-    "berat",
-    "berita",
-    "berubah",
-    "berubah.",
-    "bila",
-    "bisa",
-    "budaya",
-    "bukan",
-    "buruk",
-    "caregiver",
-    "catat",
-    "cemas",
-    "checklist",
-    "contoh",
-    "daerah",
-    "dahulukan",
-    "dan",
-    "dapat",
-    "dari",
-    "demonstrasi.",
-    "dengan",
-    "di",
-    "dibutuhkan",
-    "didokumentasikan",
-    "dijelaskan",
-    "diketahui",
-    "dilibatkan",
-    "dilibatkan.",
-    "dimulai",
-    "dipahami",
-    "dipahami.",
-    "diperagakan.",
-    "ditentukan",
-    "ditunda",
-    "dokumentasikan",
-    "edukasi",
-    "edukasi.",
-    "emosi",
-    "emosional",
-    "faktor",
-    "fisik",
-    "fisik/kognitif",
-    "gagal.",
-    "gali",
-    "gambar",
-    "gimana",
-    "gunakan",
-    "hadir",
-    "hambatan",
-    "harus",
-    "hasil",
-    "hormati",
-    "identifikasi",
-    "informasi",
-    "ini",
-    "intinya",
-    "istilah",
-    "isyarat.",
-    "jadwalkan",
-    "juga",
-    "kaji",
-    "karena",
-    "ke",
-    "kebiasaan",
-    "kebutuhan",
-    "kecil.",
-    "kelelahan.",
-    "keliru",
-    "keluarga",
-    "keluarga/caregiver",
-    "kemampuan",
-    "kemandirian.",
-    "kenali",
-    "kepercayaan.",
-    "kerja",
-    "kesadaran",
-    "kesediaan",
-    "keselamatan",
-    "keselamatan.",
-    "kesiapan",
-    "keterampilan",
-    "kewenangan",
-    "keyakinan",
-    "klinis",
-    "kognitif",
-    "kondisi",
-    "konkret",
-    "konsisten.",
-    "konsistensi.",
-    "lain",
-    "libatkan",
-    "literasi",
-    "marah",
-    "materi",
-    "media",
-    "media.",
-    "melakukan",
-    "melanjutkan",
-    "memaksa",
-    "membaca",
-    "membaca/pendidikan",
-    "membantu",
-    "memberi",
-    "memengaruhi.",
-    "memilih",
-    "memori",
-    "memperbarui",
-    "memungkinkan.",
-    "mencatat",
-    "menentukan",
-    "menerapkan.",
-    "menerima",
-    "menganggap",
-    "mengantuk",
-    "mengetahui",
-    "menggunakan",
-    "menghambat",
-    "mengkaji",
-    "mengulang",
-    "meningkatkan",
-    "menjadi",
-    "menjaga",
-    "menjamin",
-    "menolak",
-    "menurunkan",
-    "menyesuaikan",
-    "metode",
-    "motivasi",
-    "ngapain",
-    "nilai",
-    "nilai.",
-    "nyeri",
-    "oleh",
-    "paham",
-    "panjang",
-    "pasien",
-    "pasien.",
-    "pasti",
-    "pendamping.",
-    "pendekatan",
-    "pendengaran",
-    "pendidikan",
-    "penerima",
-    "penerjemah",
-    "pengkajian",
-    "penglihatan",
-    "penting.",
-    "peran.",
-    "perawat",
-    "perlu",
-    "perlu.",
-    "persetujuan",
-    "pertanyaan",
-    "pertimbangan",
-    "pilih",
-    "pilihan",
-    "ppa",
-    "praktiknya",
-    "preferensi",
-    "prioritas",
-    "privasi",
-    "proses",
-    "proses.",
-    "relevan",
-    "rencana",
-    "rencanakan",
-    "retensi",
-    "risiko.",
-    "rumah",
-    "saat",
-    "sakit.",
-    "satu-satunya",
-    "sebagai",
-    "sebelum",
-    "secara",
-    "sederhana",
-    "sejauh",
-    "sensorik",
-    "sering",
-    "sesak",
-    "sesi",
-    "sesuai",
-    "sesuai.",
-    "sesuaikan",
-    "setelah",
-    "siap",
-    "siapa",
-    "singkat",
-    "takut",
-    "tampak",
-    "tanpa",
-    "tentukan",
-    "terbuka.",
-    "terganggu.",
-    "tetapi",
-    "tidak",
-    "tindakan",
-    "tinggi",
-    "tingkat",
-    "tujuan",
-    "tunda",
-    "ulang",
-    "ulang.",
-    "unit",
-    "untuk",
-    "urutan",
-    "waktu",
-    "waktu.",
-    "yang"
-  ],
-  "instrumentCodes": [
-    "KE 3"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    373
-  ],
-  "standardRef": "KE 3",
-  "searchText": "Mengkaji Kebutuhan dan Kesiapan Edukasi Kaji bahasa, literasi, emosi, kemampuan fisik, kognitif, dan pendamping. KE 3 Pengkajian kebutuhan dan kesiapan edukasi Edukasi dimulai setelah perawat mengetahui apa yang dibutuhkan dan bagaimana pasien dapat belajar. Kemampuan membaca/pendidikan Sesuaikan istilah, panjang materi, dan media. Bahasa Identifikasi kebutuhan penerjemah atau bahasa isyarat. Hambatan fisik/kognitif Penglihatan, pendengaran, memori, kesadaran, nyeri, dan kelelahan. Emosi dan motivasi Cemas, marah, takut, atau belum siap dapat menghambat belajar. Kesediaan menerima informasi Hormati waktu dan pilihan pasien; jadwalkan ulang bila perlu. Nilai dan preferensi Sesuaikan materi dengan budaya, keyakinan, tujuan, dan siapa yang dilibatkan. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Edukasi dimulai dari asesmen Materi dan metode ditentukan oleh kebutuhan pasien. Kesiapan dapat berubah Nyeri, sesak, cemas, mengantuk, atau berita buruk dapat menurunkan kemampuan belajar. Kemampuan baca bukan satu-satunya faktor Bahasa, kognitif, penglihatan, pendengaran, dan budaya juga penting. Penerima edukasi perlu ditentukan Pasien memilih keluarga/caregiver yang dilibatkan sejauh memungkinkan. Hasil asesmen didokumentasikan PPA lain dapat melanjutkan edukasi secara konsisten. 🧭 Alurnya gimana? Urutan kerja yang membantu menjaga keselamatan dan konsistensi. Tentukan kebutuhan Apa yang harus diketahui untuk keselamatan dan kemandirian. Nilai kesiapan Fisik, emosional, motivasi, dan waktu. Kenali hambatan Bahasa, sensorik, kognitif, literasi, dan nilai. Pilih penerima dan metode Pasien, keluarga, atau caregiver dengan media sesuai. Dokumentasikan Catat hambatan dan rencana edukasi. 💪 Praktiknya di unit Contoh tindakan yang dapat dijelaskan atau diperagakan. Pasien nyeri berat Atasi nyeri dan pilih waktu ulang. Pasien tidak bisa membaca Gunakan gambar dan demonstrasi. Pasien menggunakan bahasa daerah Gunakan penerjemah sesuai proses. Caregiver belum hadir Tunda bagian keterampilan rumah yang aman ditunda dan jadwalkan ulang. Pasien menolak informasi saat ini Hormati, gali alasan, dan rencanakan ulang bila memungkinkan. 💪 Perawat harus ngapain? Tindakan konkret sesuai kewenangan dan proses rumah sakit. Melakukan asesmen singkat Gunakan pertanyaan terbuka. Menentukan prioritas Dahulukan informasi keselamatan. Menyesuaikan waktu Bagi edukasi menjadi sesi kecil. Libatkan caregiver Sesuai persetujuan dan peran. Memperbarui asesmen Kesiapan dan kebutuhan berubah. 🚨 Apa yang sering keliru? Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko. Memberi edukasi karena checklist Tidak menjamin relevan atau dipahami. Menganggap tingkat pendidikan tinggi pasti paham Kondisi klinis memengaruhi. Menggunakan keluarga sebagai penerjemah tanpa pertimbangan Akurasi dan privasi dapat terganggu. Tidak mencatat hambatan PPA lain mengulang pendekatan yang gagal. Memaksa saat pasien tidak siap Menurunkan retensi dan kepercayaan."
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Asesmen Kebutuhan dan Kesiapan Edukasi Nilai apa yang perlu diketahui pasien dan apakah pasien/keluarga siap serta mampu menerima edukasi."
 }

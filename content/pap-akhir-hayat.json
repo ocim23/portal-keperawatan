@@ -3,46 +3,38 @@
   "group": "pap",
   "title": "Asuhan Menjelang Akhir Hayat",
   "short": "Asuhan Menjelang Akhir Hayat",
-  "desc": "Kenyamanan, martabat, komunikasi, dukungan keluarga, dan kebutuhan spiritual.",
+  "desc": "Berikan asuhan yang menjaga kenyamanan, martabat, nilai pasien, dan dukungan keluarga pada fase akhir kehidupan.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 18,
+  "minutes": 9,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Asuhan menjelang akhir hayat",
-      "caption": "Fokus pelayanan adalah kenyamanan, martabat, komunikasi, dan kebutuhan pasien serta keluarga.",
+      "title": "🌿 Kenali kebutuhan akhir hayat",
+      "caption": "Fokus bergeser pada kenyamanan dan tujuan yang bermakna bagi pasien.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Kenali kebutuhan individual",
-            "text": "Gejala fisik, psikologis, sosial, spiritual, budaya, dan kebutuhan keluarga."
+            "title": "Fisik",
+            "text": "Nyeri, sesak, sekret, mual, mulut, kulit, eliminasi, posisi, dan gejala lain."
           },
           {
-            "title": "Kendalikan gejala",
-            "text": "Pantau dan tindak lanjuti nyeri, sesak, sekret, mual, gelisah, kelemahan, dan masalah kenyamanan lain."
+            "title": "Psikologis/emosional",
+            "text": "Takut, cemas, kebutuhan komunikasi, dan rasa aman."
           },
           {
-            "title": "Jaga martabat dan privasi",
-            "text": "Batasi tindakan yang tidak bermanfaat, lindungi tubuh, dan hormati preferensi pasien."
+            "title": "Spiritual/budaya",
+            "text": "Nilai, keyakinan, ritual, dan preferensi yang relevan."
           },
           {
-            "title": "Komunikasi jujur dan empatik",
-            "text": "Sampaikan sesuai kewenangan, beri kesempatan bertanya, dan koordinasikan informasi tim."
-          },
-          {
-            "title": "DNR bukan tanpa perawatan",
-            "text": "Keputusan tidak melakukan resusitasi tidak otomatis menghentikan obat, kenyamanan, nutrisi, oksigen, atau asuhan lain."
-          },
-          {
-            "title": "Dukung keluarga",
-            "text": "Berikan informasi, akses, pendampingan, dan dukungan berduka sesuai kebutuhan."
+            "title": "Sosial/keluarga",
+            "text": "Kebutuhan caregiver, komunikasi keluarga, dan dukungan menghadapi kehilangan."
           }
         ],
         "columns": 2,
@@ -50,38 +42,27 @@
       }
     },
     {
-      "type": "image",
-      "title": "Pelayanan Menjelang Akhir Hayat dan DNR",
-      "caption": "DNR hanya berkaitan dengan CPR saat henti jantung/napas; pasien tetap berhak menerima perawatan, kenyamanan, dan dukungan yang sesuai.",
-      "image": "assets/images/v4/pap-akhir-hayat/pap-akhir-hayat-01.webp",
-      "thumbnail": "assets/images/thumb/v4/pap-akhir-hayat/pap-akhir-hayat-01.webp"
-    },
-    {
       "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "title": "🤲 Comfort, dignity, respect",
+      "caption": "Asuhan dasar tetap penting walau terapi kuratif dibatasi.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Palliative care",
-            "text": "Pendekatan untuk mencegah dan mengurangi penderitaan fisik, psikososial, dan spiritual pada penyakit serius."
+            "title": "Kenyamanan",
+            "text": "Atur posisi, kebersihan mulut/skin care, lingkungan tenang, dan kontrol gejala."
           },
           {
-            "title": "End-of-life care",
-            "text": "Asuhan pada fase ketika pasien mendekati akhir kehidupan, sesuai penilaian klinis dan tujuan perawatan."
+            "title": "Martabat",
+            "text": "Jaga privasi, bahasa yang hormat, dan hindari tindakan yang tidak memberi manfaat sesuai tujuan pelayanan."
           },
           {
-            "title": "DNR/DNACPR",
-            "text": "Tidak mencoba resusitasi jantung-paru saat henti; keputusan tidak otomatis menolak antibiotik, oksigen, analgesia, nutrisi, atau terapi lain."
+            "title": "Keputusan",
+            "text": "Libatkan pasien dan keluarga sesuai kapasitas, preferensi, serta rencana klinis."
           },
           {
-            "title": "Goal-concordant care",
-            "text": "Perawatan yang sesuai tujuan, nilai, dan preferensi pasien."
-          },
-          {
-            "title": "Capacity",
-            "text": "Kemampuan pasien memahami informasi, menimbang pilihan, dan menyampaikan keputusan untuk isu tertentu."
+            "title": "Dukungan keluarga",
+            "text": "Beri informasi yang jujur, kesempatan mendampingi sesuai kebijakan, dan dukungan berduka."
           }
         ],
         "columns": 2,
@@ -90,166 +71,26 @@
     },
     {
       "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Kenali kebutuhan",
-            "text": "Nilai gejala, fungsi, komunikasi, spiritual, dukungan, dan pemahaman keluarga."
-          },
-          {
-            "title": "Klarifikasi tujuan",
-            "text": "Tanyakan apa yang penting bagi pasien dan pahami keputusan tim terkait batas terapi."
-          },
-          {
-            "title": "Susun rencana gejala",
-            "text": "Tetapkan obat/intervensi, rute, PRN, monitoring, dan batas eskalasi."
-          },
-          {
-            "title": "Pastikan status DNR jelas",
-            "text": "Verifikasi dokumentasi dan komunikasi saat pergantian shift, transfer, atau perubahan kondisi."
-          },
-          {
-            "title": "Dampingi keluarga",
-            "text": "Jelaskan tanda perubahan, apa yang dapat dilakukan, dan siapa yang dihubungi."
-          },
-          {
-            "title": "Evaluasi terus",
-            "text": "Kebutuhan dan preferensi dapat berubah; rencana perlu ditinjau ulang."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Simulasi: merawat pasien akhir hayat dan memahami DNR",
-      "caption": "Fokus pada tujuan perawatan, kenyamanan, komunikasi, dan kejelasan dokumentasi.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Konfirmasi tujuan dan status",
-            "text": "Pastikan keputusan dan dokumentasi yang sah dapat dikenali tim; bila tidak jelas, segera eskalasi."
-          },
-          {
-            "title": "Nilai gejala",
-            "text": "Nyeri, sesak, delirium, sekresi, mual, kecemasan, kebutuhan mulut/kulit, dan kenyamanan posisi."
-          },
-          {
-            "title": "Berikan asuhan bermartabat",
-            "text": "Jaga privasi, kebersihan, komunikasi, kebutuhan spiritual/budaya, dan kehadiran keluarga sesuai keinginan."
-          },
-          {
-            "title": "Jelaskan DNR dengan tepat",
-            "text": "DNR berkaitan dengan resusitasi saat henti jantung/napas; bukan otomatis menghentikan seluruh perawatan."
-          },
-          {
-            "title": "Komunikasikan perubahan",
-            "text": "Sampaikan perubahan kondisi, respons, tujuan, dan kebutuhan keluarga kepada tim secara konsisten."
-          },
-          {
-            "title": "Dokumentasikan",
-            "text": "Catat penilaian, intervensi, respons, komunikasi, dan keputusan yang relevan."
-          }
-        ],
-        "columns": 2,
-        "note": "Perawat tidak menetapkan DNR sendiri; peran utamanya memastikan asuhan, komunikasi, dan dokumentasi berjalan aman."
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧩 Kalau situasinya berbeda?",
-      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "title": "Status DNR tidak jelas saat pasien memburuk",
-            "text": "Aktifkan respons sesuai proses fasilitas sambil segera melakukan klarifikasi; jangan membuat keputusan sendiri."
-          },
-          {
-            "title": "Keluarga meminta “semua dihentikan”",
-            "text": "Klarifikasi tujuan dan jenis terapi satu per satu; DNR bukan perintah menghentikan semua perawatan."
-          },
-          {
-            "title": "Pasien masih memiliki kapasitas",
-            "text": "Keinginan pasien menjadi pusat pembahasan dan keterlibatan keluarga mengikuti preferensinya."
-          },
-          {
-            "title": "Pasien tidak memiliki kapasitas",
-            "text": "Ikuti proses pengambilan keputusan pengganti dan pertimbangan terbaik sesuai hukum serta kebijakan."
-          },
-          {
-            "title": "Gejala sulit terkontrol",
-            "text": "Lakukan eskalasi ke tim yang kompeten dan jangan menerima penderitaan sebagai sesuatu yang tidak dapat ditolong."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Hadir dan dengarkan",
-            "text": "Komunikasi tidak selalu membutuhkan banyak kata; validasi kekhawatiran pasien dan keluarga."
-          },
-          {
-            "title": "Nilai kenyamanan secara aktif",
-            "text": "Jangan menunggu pasien meminta; beberapa pasien tidak mampu mengungkapkan gejala."
-          },
-          {
-            "title": "Jaga martabat",
-            "text": "Perawatan tubuh, privasi, kebersihan, posisi, dan lingkungan tetap penting."
-          },
-          {
-            "title": "Pastikan rencana dapat dilaksanakan",
-            "text": "Obat, akses, alat, nomor kontak, dan peran tersedia."
-          },
-          {
-            "title": "Dukung keluarga dan staf",
-            "text": "Kenali kebutuhan informasi, waktu, spiritual, dan debrief emosional."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "title": "📝 Reasesmen dan dokumentasi",
+      "caption": "Kebutuhan dapat berubah cepat.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Menganggap DNR = tidak dirawat",
-            "text": "Menyebabkan kebutuhan dasar dan kenyamanan terabaikan."
+            "title": "Pantau gejala",
+            "text": "Evaluasi efektivitas intervensi kenyamanan."
           },
           {
-            "title": "Menghindari pembicaraan",
-            "text": "Ketidakjelasan membuat keluarga dan tim tidak siap saat kondisi memburuk."
+            "title": "Koordinasi PPA",
+            "text": "Pastikan tujuan pelayanan dipahami tim."
           },
           {
-            "title": "Membahas di tempat tanpa privasi",
-            "text": "Mengurangi martabat dan kepercayaan."
+            "title": "Dokumentasi",
+            "text": "Catat preferensi, komunikasi penting, gejala, intervensi, dan respons."
           },
           {
-            "title": "Tidak menilai gejala berulang",
-            "text": "Kebutuhan dapat berubah cepat."
-          },
-          {
-            "title": "Status tidak diserahterimakan",
-            "text": "Tim dapat melakukan tindakan yang tidak sesuai rencana atau menunda respons yang diperlukan."
+            "title": "DNR/penolakan",
+            "text": "Aspek hak, consent, dan penolakan dibahas lebih rinci pada HPK agar tidak diulang di sini."
           }
         ],
         "columns": 2,
@@ -259,523 +100,77 @@
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Kenali kebutuhan individual: Gejala fisik, psikologis, sosial, spiritual, budaya, dan kebutuhan keluarga.",
-        "Kendalikan gejala: Pantau dan tindak lanjuti nyeri, sesak, sekret, mual, gelisah, kelemahan, dan masalah kenyamanan lain.",
-        "Jaga martabat dan privasi: Batasi tindakan yang tidak bermanfaat, lindungi tubuh, dan hormati preferensi pasien.",
-        "Komunikasi jujur dan empatik: Sampaikan sesuai kewenangan, beri kesempatan bertanya, dan koordinasikan informasi tim."
-      ]
-    },
-    {
-      "title": "DNR hanya tentang CPR",
-      "points": [
-        "Perawatan lain yang tepat tetap diberikan berdasarkan tujuan pasien."
-      ]
-    },
-    {
-      "title": "Kenyamanan aktif",
-      "points": [
-        "Nyeri, sesak, kecemasan, delirium, sekret, kulit, mulut, dan kebutuhan dasar perlu dinilai serta ditangani."
-      ]
-    },
-    {
-      "title": "Keputusan individual",
-      "points": [
-        "Tidak dibuat hanya berdasarkan usia, disabilitas, atau diagnosis kelompok."
-      ]
-    },
-    {
-      "title": "Komunikasi dan dokumentasi",
-      "points": [
-        "Status, tujuan, keputusan, dan rencana harus jelas pada seluruh transisi."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "Konfirmasi tujuan dan status: Pastikan keputusan dan dokumentasi yang sah dapat dikenali tim; bila tidak jelas, segera eskalasi.",
-        "Nilai gejala: Nyeri, sesak, delirium, sekresi, mual, kecemasan, kebutuhan mulut/kulit, dan kenyamanan posisi."
+        "Asuhan akhir hayat mencakup kebutuhan fisik, psikologis, spiritual, sosial, dan keluarga.",
+        "Utamakan kenyamanan, martabat, dan kontrol gejala.",
+        "Libatkan pasien/keluarga sesuai kapasitas dan preferensi.",
+        "Reasesmen dan dokumentasikan perubahan serta respons."
       ]
     }
   ],
   "do": [
-    "Verifikasi status dan rencana.",
-    "Nilai gejala secara berulang.",
-    "Libatkan pasien sesuai kapasitas dan preferensi.",
-    "Jaga privasi, martabat, dan kebutuhan dasar.",
-    "Serah terimakan keputusan serta batas terapi secara jelas.",
-    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
+    "Asuhan akhir hayat mencakup kebutuhan fisik, psikologis, spiritual, sosial, dan keluarga.",
+    "Utamakan kenyamanan, martabat, dan kontrol gejala.",
+    "Libatkan pasien/keluarga sesuai kapasitas dan preferensi.",
+    "Reasesmen dan dokumentasikan perubahan serta respons."
   ],
-  "dont": [
-    "Menganggap DNR berarti menghentikan semua perawatan.",
-    "Membuat keputusan sendiri tanpa kewenangan.",
-    "Menghindari komunikasi sulit.",
-    "Mengabaikan gejala karena pasien “sudah terminal”.",
-    "Membahas informasi sensitif tanpa privasi.",
-    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Pernyataan paling tepat tentang DNR adalah…",
+      "q": "Prioritas utama asuhan akhir hayat adalah…",
       "options": [
-        "Semua terapi dihentikan",
-        "CPR tidak dilakukan bila jantung/napas berhenti, sedangkan perawatan lain tetap sesuai tujuan",
-        "Pasien tidak boleh diberi oksigen",
-        "Keluarga tidak boleh mendampingi"
+        "Hanya tanda vital",
+        "Kenyamanan, martabat, kontrol gejala, dan kebutuhan pasien/keluarga",
+        "Mengurangi komunikasi",
+        "Menghindari keluarga"
       ],
       "answer": 1,
-      "why": "DNR membatasi CPR, bukan seluruh pelayanan."
+      "why": "Asuhan harus holistik dan berorientasi tujuan pasien."
     },
     {
-      "q": "Pasien DNR mengalami nyeri berat. Tindakan adalah…",
+      "q": "Pasien akhir hayat mengeluh mulut sangat kering. Perawatan mulut…",
       "options": [
-        "Tidak memberi analgesia",
-        "Menilai dan menangani nyeri sesuai rencana",
-        "Mengaktifkan CPR",
-        "Menunggu keluarga"
+        "Tidak relevan",
+        "Merupakan bagian comfort care",
+        "Dilarang",
+        "Hanya boleh setelah pasien pulang"
       ],
       "answer": 1,
-      "why": "Kenyamanan tetap menjadi kewajiban."
+      "why": "Perawatan dasar berpengaruh pada kenyamanan dan martabat."
     },
     {
-      "q": "Status DNR tidak jelas ketika pasien kolaps. Perawat seharusnya…",
+      "q": "Pembahasan DNR rinci ditempatkan terutama pada…",
       "options": [
-        "Memutuskan sendiri tidak melakukan RJP",
-        "Mengikuti respons emergensi fasilitas sambil segera mengklarifikasi status",
-        "Menunggu dokumen ditemukan tanpa tindakan",
-        "Meminta keluarga menandatangani saat itu"
+        "HPK tentang persetujuan/penolakan",
+        "PPI",
+        "PKPO",
+        "SKP 5"
       ],
-      "answer": 1,
-      "why": "Ketidakjelasan tidak boleh ditangani dengan keputusan individual tanpa kewenangan."
-    },
-    {
-      "q": "Palliative care bertujuan…",
-      "options": [
-        "Mempercepat kematian",
-        "Mengurangi penderitaan dan meningkatkan kualitas hidup pasien serta keluarga",
-        "Menghentikan semua obat",
-        "Hanya untuk kanker"
-      ],
-      "answer": 1,
-      "why": "Paliatif berfokus pada kualitas hidup dan dapat diberikan pada berbagai penyakit serius."
-    },
-    {
-      "q": "Keputusan DNR seharusnya…",
-      "options": [
-        "Dibuat otomatis untuk semua lansia",
-        "Individual, terdokumentasi, dikomunikasikan, dan ditinjau bila kondisi/keinginan berubah",
-        "Hanya diketahui dokter",
-        "Tidak perlu dijelaskan"
-      ],
-      "answer": 1,
-      "why": "Keputusan harus spesifik pasien dan dapat dikenali tim."
-    },
-    {
-      "q": "Keluarga berkata “kalau DNR berarti jangan beri apa-apa”. Respons terbaik adalah…",
-      "options": [
-        "Menyetujui",
-        "Menjelaskan bahwa DNR hanya tentang CPR dan mengklarifikasi tujuan terapi lain",
-        "Mengabaikan",
-        "Membatalkan status tanpa tim"
-      ],
-      "answer": 1,
-      "why": "Kesalahpahaman perlu diklarifikasi secara empatik."
-    },
-    {
-      "q": "Perawat dapat menjaga martabat dengan…",
-      "options": [
-        "Mengurangi kontak",
-        "Menjaga privasi, kebersihan, posisi, kenyamanan, dan komunikasi hormat",
-        "Membatasi keluarga tanpa alasan",
-        "Tidak membahas kebutuhan spiritual"
-      ],
-      "answer": 1,
-      "why": "Perawatan dasar dan penghormatan tetap penting sampai akhir hayat."
-    },
-    {
-      "q": "Mengapa status DNR harus diserahterimakan?",
-      "options": [
-        "Agar semua staf tahu diagnosis",
-        "Agar respons emergensi sesuai keputusan dan tidak terjadi tindakan yang bertentangan",
-        "Agar pasien dipindahkan",
-        "Untuk mengganti informed consent"
-      ],
-      "answer": 1,
-      "why": "Kejelasan status mencegah keterlambatan atau tindakan yang tidak sesuai."
-    },
-    {
-      "q": "Pasien berstatus DNR mengalami nyeri berat. Tindakan perawat adalah…",
-      "options": [
-        "Tidak memberikan terapi karena DNR",
-        "Tetap melakukan penilaian dan penanganan nyeri sesuai tujuan perawatan",
-        "Mengaktifkan RJP",
-        "Menghentikan semua pemantauan otomatis"
-      ],
-      "answer": 1,
-      "why": "DNR tidak berarti menghentikan seluruh perawatan; kenyamanan dan terapi lain tetap diberikan sesuai rencana."
+      "answer": 0,
+      "why": "Ini menghindari pengulangan dan menempatkan isu keputusan pasien pada konteks hak."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
       "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+      "url": "https://jdih.kemkes.go.id/"
     },
     {
-      "title": "WHO — Palliative Care",
-      "org": "World Health Organization",
-      "url": "https://www.who.int/news-room/fact-sheets/detail/palliative-care"
-    },
-    {
-      "title": "DNACPR decisions — care continues except CPR",
-      "org": "NHS",
-      "url": "https://www.nhs.uk/tests-and-treatments/do-not-attempt-cardiopulmonary-resuscitation-dnacpr-decisions/"
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
     }
   ],
-  "priority": "knowledge",
-  "priorityLabel": "Pengetahuan Wajib",
-  "instrumentCodes": [
-    "PAP 5"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    322,
-    323
-  ],
-  "standardRef": "PAP 5",
-  "keywords": [
-    "5",
-    "adalah",
-    "akhir",
-    "akses",
-    "aktif",
-    "aktifkan",
-    "alasan",
-    "alat",
-    "alurnya",
-    "aman.",
-    "analgesia",
-    "antibiotik",
-    "apa",
-    "asuhan",
-    "atau",
-    "bagi",
-    "banyak",
-    "batas",
-    "batasi",
-    "beberapa",
-    "berbeda",
-    "berduka",
-    "berhak",
-    "beri",
-    "berikan",
-    "berkaitan",
-    "bermanfaat",
-    "bermartabat",
-    "bertanya",
-    "berubah",
-    "berulang",
-    "bila",
-    "budaya",
-    "bukan",
-    "capacity",
-    "cara",
-    "care",
-    "catat",
-    "cepat.",
-    "cpr",
-    "dampingi",
-    "dan",
-    "dapat",
-    "dasar",
-    "debrief",
-    "delirium",
-    "dengan",
-    "dengarkan",
-    "di",
-    "dihentikan",
-    "dihubungi.",
-    "dikenali",
-    "dilaksanakan",
-    "dilakukan",
-    "dipahami",
-    "diperlukan.",
-    "dirawat",
-    "diserahterimakan",
-    "ditinjau",
-    "ditolong.",
-    "dnr",
-    "dnr/dnacpr",
-    "dokumentasi",
-    "dokumentasi.",
-    "dokumentasikan",
-    "dukung",
-    "dukungan",
-    "emosional.",
-    "empatik",
-    "end-of-life",
-    "eskalasi",
-    "eskalasi.",
-    "evaluasi",
-    "fase",
-    "fasilitas",
-    "fisik",
-    "fokus",
-    "fungsi",
-    "gejala",
-    "gejala.",
-    "gelisah",
-    "gimana",
-    "goal-concordant",
-    "hadir",
-    "hanya",
-    "harus",
-    "hayat",
-    "henti",
-    "hormati",
-    "hukum",
-    "ikuti",
-    "individual",
-    "informasi",
-    "intervensi",
-    "intinya",
-    "istilah",
-    "isu",
-    "jaga",
-    "jangan",
-    "jantung-paru",
-    "jantung/napas",
-    "jelas",
-    "jelaskan",
-    "jenis",
-    "jujur",
-    "kalau",
-    "kapasitas",
-    "kata",
-    "ke",
-    "kebersihan",
-    "kebijakan.",
-    "kebutuhan",
-    "kebutuhan.",
-    "kecemasan",
-    "kehadiran",
-    "kehidupan",
-    "keinginan",
-    "keinginan.",
-    "kejelasan",
-    "kekhawatiran",
-    "kelemahan",
-    "keliru",
-    "keluarga",
-    "keluarga.",
-    "kemampuan",
-    "kenali",
-    "kendalikan",
-    "kenyamanan",
-    "kepada",
-    "kepercayaan.",
-    "keputusan",
-    "kerja",
-    "kesempatan",
-    "keterlibatan",
-    "ketidakjelasan",
-    "ketika",
-    "kewenangan",
-    "klarifikasi",
-    "klinis",
-    "kompeten",
-    "komunikasi",
-    "komunikasikan",
-    "kondisi",
-    "kondisi.",
-    "konfirmasi",
-    "konkret",
-    "konsisten.",
-    "kontak",
-    "koordinasikan",
-    "lain.",
-    "lakukan",
-    "langkah",
-    "lanjut.",
-    "lanjuti",
-    "lebih",
-    "lindungi",
-    "lingkungan",
-    "mampu",
-    "martabat",
-    "masalah",
-    "masih",
-    "melakukan",
-    "memahami",
-    "membahas",
-    "membingungkan",
-    "membuat",
-    "memburuk",
-    "memburuk.",
-    "membutuhkan",
-    "memiliki",
-    "meminta",
-    "mencegah",
-    "mencoba",
-    "mendekati",
-    "menerapkan.",
-    "menerima",
-    "menerjemahkan",
-    "menganggap",
-    "menghentikan",
-    "menghindari",
-    "mengikuti",
-    "mengungkapkan",
-    "mengurangi",
-    "menilai",
-    "menimbang",
-    "menimbulkan",
-    "menjadi",
-    "menjelang",
-    "menolak",
-    "menunda",
-    "menunggu",
-    "menyampaikan",
-    "menyebabkan",
-    "merawat",
-    "monitoring",
-    "mual",
-    "mulut/kulit",
-    "ngapain",
-    "nilai",
-    "nomor",
-    "nutrisi",
-    "nyeri",
-    "obat",
-    "obat/intervensi",
-    "oksigen",
-    "otomatis",
-    "pada",
-    "pahami",
-    "palliative",
-    "pantau",
-    "pap",
-    "pasien",
-    "pasien.",
-    "pastikan",
-    "pelayanan",
-    "pelayanan.",
-    "pemahaman",
-    "pembahasan",
-    "pembicaraan",
-    "pendampingan",
-    "pendekatan",
-    "penderitaan",
-    "pengambilan",
-    "pengganti",
-    "penilaian",
-    "penting",
-    "penting.",
-    "penyakit",
-    "per",
-    "peran",
-    "perawat",
-    "perawatan",
-    "perawatan.",
-    "pergantian",
-    "perintah",
-    "perlu",
-    "pertimbangan",
-    "perubahan",
-    "pilihan",
-    "pola",
-    "posisi",
-    "posisi.",
-    "preferensi",
-    "preferensinya.",
-    "prinsip",
-    "privasi",
-    "prn",
-    "proses",
-    "psikologis",
-    "psikososial",
-    "pusat",
-    "relevan.",
-    "rencana",
-    "respons",
-    "resusitasi",
-    "risiko.",
-    "rute",
-    "saat",
-    "sah",
-    "sambil",
-    "sampaikan",
-    "satu",
-    "sebagai",
-    "sebelum",
-    "secara",
-    "segera",
-    "sekresi",
-    "sekret",
-    "selalu",
-    "seluruh",
-    "semua",
-    "sendiri.",
-    "sepele",
-    "sering",
-    "serius.",
-    "serta",
-    "sesak",
-    "sesuai",
-    "sesuai.",
-    "sesuatu",
-    "shift",
-    "siap",
-    "siapa",
-    "simulasi",
-    "situasinya",
-    "sosial",
-    "spiritual",
-    "spiritual.",
-    "spiritual/budaya",
-    "staf",
-    "status",
-    "sulit",
-    "susun",
-    "tampak",
-    "tanda",
-    "tanpa",
-    "tanyakan",
-    "tempat",
-    "tepat",
-    "terabaikan.",
-    "terapi",
-    "terapi.",
-    "terbaik",
-    "terkait",
-    "terkontrol",
-    "tersedia.",
-    "tertentu.",
-    "terus",
-    "tetap",
-    "tetapi",
-    "tetapkan",
-    "tidak",
-    "tim",
-    "tim.",
-    "tindak",
-    "tindakan",
-    "titik",
-    "transfer",
-    "tubuh",
-    "tujuan",
-    "ulang.",
-    "untuk",
-    "validasi",
-    "verifikasi",
-    "waktu",
-    "yang"
-  ],
-  "searchText": "Asuhan Menjelang Akhir Hayat Kenyamanan, martabat, komunikasi, dukungan keluarga, dan kebutuhan spiritual. PAP 5 Asuhan menjelang akhir hayat Fokus pelayanan adalah kenyamanan, martabat, komunikasi, dan kebutuhan pasien serta keluarga. Kenali kebutuhan individual Gejala fisik, psikologis, sosial, spiritual, budaya, dan kebutuhan keluarga. Kendalikan gejala Pantau dan tindak lanjuti nyeri, sesak, sekret, mual, gelisah, kelemahan, dan masalah kenyamanan lain. Jaga martabat dan privasi Batasi tindakan yang tidak bermanfaat, lindungi tubuh, dan hormati preferensi pasien. Komunikasi jujur dan empatik Sampaikan sesuai kewenangan, beri kesempatan bertanya, dan koordinasikan informasi tim. DNR bukan tanpa perawatan Keputusan tidak melakukan resusitasi tidak otomatis menghentikan obat, kenyamanan, nutrisi, oksigen, atau asuhan lain. Dukung keluarga Berikan informasi, akses, pendampingan, dan dukungan berduka sesuai kebutuhan. Pelayanan Menjelang Akhir Hayat dan DNR DNR hanya berkaitan dengan CPR saat henti jantung/napas; pasien tetap berhak menerima perawatan, kenyamanan, dan dukungan yang sesuai. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Palliative care Pendekatan untuk mencegah dan mengurangi penderitaan fisik, psikososial, dan spiritual pada penyakit serius. End-of-life care Asuhan pada fase ketika pasien mendekati akhir kehidupan, sesuai penilaian klinis dan tujuan perawatan. DNR/DNACPR Tidak mencoba resusitasi jantung-paru saat henti; keputusan tidak otomatis menolak antibiotik, oksigen, analgesia, nutrisi, atau terapi lain. Goal-concordant care Perawatan yang sesuai tujuan, nilai, dan preferensi pasien. Capacity Kemampuan pasien memahami informasi, menimbang pilihan, dan menyampaikan keputusan untuk isu tertentu. 🧭 Alurnya gimana? Cara menerjemahkan prinsip ke langkah kerja yang aman. Kenali kebutuhan Nilai gejala, fungsi, komunikasi, spiritual, dukungan, dan pemahaman keluarga. Klarifikasi tujuan Tanyakan apa yang penting bagi pasien dan pahami keputusan tim terkait batas terapi. Susun rencana gejala Tetapkan obat/intervensi, rute, PRN, monitoring, dan batas eskalasi. Pastikan status DNR jelas Verifikasi dokumentasi dan komunikasi saat pergantian shift, transfer, atau perubahan kondisi. Dampingi keluarga Jelaskan tanda perubahan, apa yang dapat dilakukan, dan siapa yang dihubungi. Evaluasi terus Kebutuhan dan preferensi dapat berubah; rencana perlu ditinjau ulang. Simulasi: merawat pasien akhir hayat dan memahami DNR Fokus pada tujuan perawatan, kenyamanan, komunikasi, dan kejelasan dokumentasi. Konfirmasi tujuan dan status Pastikan keputusan dan dokumentasi yang sah dapat dikenali tim; bila tidak jelas, segera eskalasi. Nilai gejala Nyeri, sesak, delirium, sekresi, mual, kecemasan, kebutuhan mulut/kulit, dan kenyamanan posisi. Berikan asuhan bermartabat Jaga privasi, kebersihan, komunikasi, kebutuhan spiritual/budaya, dan kehadiran keluarga sesuai keinginan. Jelaskan DNR dengan tepat DNR berkaitan dengan resusitasi saat henti jantung/napas; bukan otomatis menghentikan seluruh perawatan. Komunikasikan perubahan Sampaikan perubahan kondisi, respons, tujuan, dan kebutuhan keluarga kepada tim secara konsisten. Dokumentasikan Catat penilaian, intervensi, respons, komunikasi, dan keputusan yang relevan. 🧩 Kalau situasinya berbeda? Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut. Status DNR tidak jelas saat pasien memburuk Aktifkan respons sesuai proses fasilitas sambil segera melakukan klarifikasi; jangan membuat keputusan sendiri. Keluarga meminta “semua dihentikan” Klarifikasi tujuan dan jenis terapi satu per satu; DNR bukan perintah menghentikan semua perawatan. Pasien masih memiliki kapasitas Keinginan pasien menjadi pusat pembahasan dan keterlibatan keluarga mengikuti preferensinya. Pasien tidak memiliki kapasitas Ikuti proses pengambilan keputusan pengganti dan pertimbangan terbaik sesuai hukum serta kebijakan. Gejala sulit terkontrol Lakukan eskalasi ke tim yang kompeten dan jangan menerima penderitaan sebagai sesuatu yang tidak dapat ditolong. 💪 Perawat harus ngapain? Tindakan konkret yang dapat dilakukan di titik pelayanan. Hadir dan dengarkan Komunikasi tidak selalu membutuhkan banyak kata; validasi kekhawatiran pasien dan keluarga. Nilai kenyamanan secara aktif Jangan menunggu pasien meminta; beberapa pasien tidak mampu mengungkapkan gejala. Jaga martabat Perawatan tubuh, privasi, kebersihan, posisi, dan lingkungan tetap penting. Pastikan rencana dapat dilaksanakan Obat, akses, alat, nomor kontak, dan peran tersedia. Dukung keluarga dan staf Kenali kebutuhan informasi, waktu, spiritual, dan debrief emosional. 🚨 Apa yang sering keliru? Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko. Menganggap DNR = tidak dirawat Menyebabkan kebutuhan dasar dan kenyamanan terabaikan. Menghindari pembicaraan Ketidakjelasan membuat keluarga dan tim tidak siap saat kondisi memburuk. Membahas di tempat tanpa privasi Mengurangi martabat dan kepercayaan. Tidak menilai gejala berulang Kebutuhan dapat berubah cepat. Status tidak diserahterimakan Tim dapat melakukan tindakan yang tidak sesuai rencana atau menunda respons yang diperlukan."
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Asuhan Menjelang Akhir Hayat Berikan asuhan yang menjaga kenyamanan, martabat, nilai pasien, dan dukungan keluarga pada fase akhir kehidupan."
 }

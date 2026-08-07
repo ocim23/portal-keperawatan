@@ -3,113 +3,38 @@
   "group": "pp",
   "title": "Pengkajian Ulang Pasien",
   "short": "Pengkajian Ulang Pasien",
-  "desc": "Kaji ulang saat kondisi berubah dan catat hasilnya dalam alur pelayanan.",
+  "desc": "Nilai perkembangan pasien secara berkala dan saat kondisi berubah; dokumentasikan terintegrasi di rekam medis/CPPT.",
   "category": "PP",
-  "color": "#7B5EA7",
-  "soft": "#F4EEFF",
-  "icon": "clipboard",
-  "minutes": 20,
+  "color": "#0F766E",
+  "soft": "#E7F7F4",
+  "icon": "monitor",
+  "minutes": 9,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Kapan pengkajian ulang dilakukan?",
-      "caption": "Pengkajian ulang menilai respons pasien dan menentukan apakah rencana asuhan masih tepat.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Secara berkala",
-            "text": "Perawat minimal satu kali setiap shift atau lebih sering sesuai perkembangan pasien."
-          },
-          {
-            "title": "Setiap hari oleh DPJP",
-            "text": "Untuk pasien akut, termasuk akhir minggu/hari libur dan ketika kondisi berubah."
-          },
-          {
-            "title": "Saat kondisi berubah",
-            "text": "Lakukan segera bila terdapat perubahan signifikan, hasil kritis, atau masalah baru."
-          },
-          {
-            "title": "Saat diagnosis/rencana berubah",
-            "text": "Perbarui kebutuhan, intervensi, dan target asuhan."
-          },
-          {
-            "title": "Sebelum transfer/pulang",
-            "text": "Nilai keberhasilan terapi dan kesiapan transisi pelayanan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Isi CPPT yang bermakna",
-      "caption": "Catatan harus menunjukkan perkembangan, keputusan, dan tindak lanjut, bukan salinan berulang.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Data terbaru",
-            "text": "Keluhan, tanda vital, hasil pemantauan, dan temuan relevan."
-          },
-          {
-            "title": "Analisis",
-            "text": "Makna perubahan kondisi dan respons terhadap terapi."
-          },
-          {
-            "title": "Rencana",
-            "text": "Tindakan, pemantauan, edukasi, kolaborasi, atau eskalasi berikutnya."
-          },
-          {
-            "title": "Komunikasi antar-PPA",
-            "text": "Catatan dapat dipahami dan digunakan oleh seluruh tim."
-          },
-          {
-            "title": "Verifikasi/koordinasi",
-            "text": "DPJP meninjau integrasi asuhan dan membuat notasi sesuai kebutuhan."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "image",
-      "title": "Pengkajian Ulang dan CPPT",
-      "caption": "Catatan perkembangan harus menunjukkan apa yang berubah, apa artinya, apa yang dilakukan, dan bagaimana respons pasien.",
-      "image": "assets/images/v4/pp-ulang-cppt/pp-ulang-cppt-01.webp",
-      "thumbnail": "assets/images/thumb/v4/pp-ulang-cppt/pp-ulang-cppt-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "title": "🔁 Pengkajian ulang = menilai perkembangan",
+      "caption": "Bukan mengisi ulang seluruh formulir asesmen awal.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Pengkajian ulang",
-            "text": "Penilaian berulang untuk memahami perubahan kondisi dan respons terhadap asuhan."
+            "title": "Bandingkan kondisi",
+            "text": "Apa yang membaik, memburuk, baru muncul, atau belum tercapai?"
           },
           {
-            "title": "CPPT",
-            "text": "Catatan Perkembangan Pasien Terintegrasi yang mendukung komunikasi dan kesinambungan antar-PPA."
+            "title": "Nilai respons",
+            "text": "Evaluasi respons terhadap obat, tindakan, terapi, dan rencana asuhan."
           },
           {
-            "title": "Baseline",
-            "text": "Kondisi awal atau nilai pembanding untuk menilai tren."
+            "title": "Ubah rencana bila perlu",
+            "text": "Temuan baru harus memengaruhi prioritas dan rencana asuhan."
           },
           {
-            "title": "Respons",
-            "text": "Perubahan setelah intervensi, dapat berupa perbaikan, tidak berubah, efek samping, atau perburukan."
-          },
-          {
-            "title": "Evaluasi",
-            "text": "Menentukan apakah tujuan tercapai dan rencana masih tepat."
+            "title": "Kondisi berubah",
+            "text": "Reasesmen dilakukan saat itu juga; jangan menunggu jadwal rutin."
           }
         ],
         "columns": 2,
@@ -118,166 +43,54 @@
     },
     {
       "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Tentukan pemicu",
-            "text": "Lakukan sesuai jadwal dan setiap ada perubahan kondisi, intervensi penting, transfer, atau keluhan baru."
-          },
-          {
-            "title": "Kumpulkan data terkini",
-            "text": "Gunakan observasi, pemeriksaan, tanda vital, hasil penunjang, dan laporan pasien."
-          },
-          {
-            "title": "Bandingkan",
-            "text": "Nilai terhadap baseline, target terapi, batas aman, dan tren waktu."
-          },
-          {
-            "title": "Analisis dan tindakan",
-            "text": "Tulis masalah atau kemajuan, lakukan intervensi, komunikasi, dan eskalasi."
-          },
-          {
-            "title": "Evaluasi respons",
-            "text": "Catat hasil setelah tindakan pada waktu yang relevan."
-          },
-          {
-            "title": "Perbarui rencana",
-            "text": "Pastikan perubahan rencana terlihat oleh PPA lain dan diterapkan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktik: pengkajian ulang dan CPPT yang bermakna",
-      "caption": "Gunakan alur temuan–analisis–tindakan–respons–rencana berikutnya.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Temuan baru",
-            "text": "Catat perubahan subjektif dan objektif yang relevan, termasuk waktu dan pemicunya."
-          },
-          {
-            "title": "Analisis",
-            "text": "Jelaskan makna temuan: membaik, menetap, memburuk, atau muncul risiko baru."
-          },
-          {
-            "title": "Tindakan",
-            "text": "Catat intervensi mandiri, kolaborasi, eskalasi, dan komunikasi yang benar-benar dilakukan."
-          },
-          {
-            "title": "Respons",
-            "text": "Tulis respons pasien setelah intervensi dan kapan dinilai ulang."
-          },
-          {
-            "title": "Rencana berikutnya",
-            "text": "Tentukan pemantauan, target, tindakan lanjutan, serta kondisi yang memerlukan eskalasi."
-          },
-          {
-            "title": "Keterpaduan",
-            "text": "Pastikan catatan dapat dipahami PPA berikutnya dan tidak bertentangan dengan rencana bersama."
-          }
-        ],
-        "columns": 2,
-        "note": "Contoh singkat: “Nyeri 7/10 → analisis nyeri meningkat saat mobilisasi → analgesik sesuai program + posisi nyaman → 30 menit kemudian 3/10 → lanjut monitor dan edukasi.”"
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧩 Kalau situasinya berbeda?",
-      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "title": "Perubahan kecil tetapi berulang",
-            "text": "Tren dapat lebih penting daripada satu nilai; akumulasi perubahan perlu dianalisis."
-          },
-          {
-            "title": "Respons tidak sesuai harapan",
-            "text": "Periksa kepatuhan, diagnosis kerja, dosis, teknik, efek samping, atau kebutuhan intervensi lain."
-          },
-          {
-            "title": "PPA memberi rencana berbeda",
-            "text": "Klarifikasi dan integrasikan agar pasien tidak menerima instruksi yang bertentangan."
-          },
-          {
-            "title": "Transfer unit",
-            "text": "Lakukan kaji ulang sebelum/ sesudah transfer dan pastikan kondisi serta rencana terbaru ikut terbawa."
-          },
-          {
-            "title": "Dokumentasi terlambat",
-            "text": "Catat secepat mungkin dan jangan mengubah waktu kejadian agar rekam medis tetap dapat dipercaya."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Tulis spesifik dan terukur",
-            "text": "Gunakan angka, waktu, lokasi, karakteristik, dan perubahan dibanding sebelumnya."
-          },
-          {
-            "title": "Catat komunikasi",
-            "text": "Sebutkan pihak yang dihubungi, waktu, informasi, instruksi, dan tindak lanjut."
-          },
-          {
-            "title": "Tutup siklus",
-            "text": "Setelah intervensi, kembali nilai kondisi dan dokumentasikan hasil."
-          },
-          {
-            "title": "Baca sebelum menulis",
-            "text": "Pahami rencana PPA lain agar catatan menambah informasi, bukan mengulang."
-          },
-          {
-            "title": "Gunakan CPPT untuk koordinasi",
-            "text": "Soroti masalah aktif, target, dan tindakan yang masih harus dilakukan."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "title": "📝 CPPT dan SOAP",
+      "caption": "PPA mendokumentasikan perkembangan secara terintegrasi.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "CPPT berisi “keadaan umum baik”",
-            "text": "Tidak menjelaskan data, tren, masalah, atau tindak lanjut."
+            "title": "S — Subjective",
+            "text": "Keluhan atau informasi pasien/keluarga yang relevan."
           },
           {
-            "title": "Mengulang catatan lama",
-            "text": "Perkembangan pasien tidak terlihat dan risiko copy-paste meningkat."
+            "title": "O — Objective",
+            "text": "Temuan pemeriksaan dan data objektif."
           },
           {
-            "title": "Mencatat tindakan tanpa respons",
-            "text": "Tidak dapat dinilai apakah intervensi efektif atau aman."
+            "title": "A — Assessment",
+            "text": "Penilaian masalah/perkembangan."
           },
           {
-            "title": "Tidak membaca catatan PPA lain",
-            "text": "Rencana menjadi terpisah dan dapat saling bertentangan."
+            "title": "P — Plan",
+            "text": "Rencana tindak lanjut."
+          }
+        ],
+        "columns": 2,
+        "note": "Format dokumentasi mengikuti sistem rekam medis rumah sakit."
+      }
+    },
+    {
+      "type": "html",
+      "title": "⏱️ Frekuensi",
+      "caption": "Frekuensi mengikuti profesi, kondisi, dan kebijakan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Perawat",
+            "text": "Minimal setiap shift atau lebih sering bila kondisi membutuhkan."
           },
           {
-            "title": "Eskalasi tidak terdokumentasi",
-            "text": "Tim berikutnya tidak mengetahui siapa yang dihubungi dan keputusan apa yang dibuat."
+            "title": "DPJP",
+            "text": "Pada pasien akut rawat inap, evaluasi minimal setiap hari termasuk hari libur sesuai standar."
+          },
+          {
+            "title": "PPA lain",
+            "text": "Sesuai kebutuhan pasien dan rencana pelayanan."
+          },
+          {
+            "title": "Hindari copy-paste",
+            "text": "Catatan harus menggambarkan keadaan pasien saat itu, bukan menyalin progres lama."
           }
         ],
         "columns": 2,
@@ -287,492 +100,77 @@
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Secara berkala: Perawat minimal satu kali setiap shift atau lebih sering sesuai perkembangan pasien.",
-        "Setiap hari oleh DPJP: Untuk pasien akut, termasuk akhir minggu/hari libur dan ketika kondisi berubah.",
-        "Saat kondisi berubah: Lakukan segera bila terdapat perubahan signifikan, hasil kritis, atau masalah baru.",
-        "Saat diagnosis/rencana berubah: Perbarui kebutuhan, intervensi, dan target asuhan.",
-        "Data terbaru: Keluhan, tanda vital, hasil pemantauan, dan temuan relevan.",
-        "Analisis: Makna perubahan kondisi dan respons terhadap terapi."
-      ]
-    },
-    {
-      "title": "Pertanyaan inti",
-      "points": [
-        "Apa yang berubah? Apa maknanya? Apa tindakan saya? Bagaimana responsnya? Apa rencana berikutnya?"
-      ]
-    },
-    {
-      "title": "Catatan terintegrasi",
-      "points": [
-        "PPA saling membaca, menanggapi, dan menyelaraskan rencana."
-      ]
-    },
-    {
-      "title": "Tren lebih bermakna",
-      "points": [
-        "Bandingkan data dari waktu ke waktu, bukan menilai satu angka secara terpisah."
-      ]
-    },
-    {
-      "title": "Tutup siklus",
-      "points": [
-        "Setiap intervensi penting memerlukan evaluasi respons."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "Temuan baru: Catat perubahan subjektif dan objektif yang relevan, termasuk waktu dan pemicunya.",
-        "Analisis: Jelaskan makna temuan: membaik, menetap, memburuk, atau muncul risiko baru."
+        "Pengkajian ulang mengevaluasi perkembangan, bukan mengulang asesmen awal.",
+        "Perubahan kondisi = reasesmen segera.",
+        "Perawat minimal setiap shift atau sesuai kebutuhan yang lebih sering.",
+        "Dokumentasikan perkembangan secara terintegrasi, umumnya dengan SOAP sesuai sistem RS."
       ]
     }
   ],
   "do": [
-    "Bandingkan kondisi dengan baseline.",
-    "Dokumentasikan data dan analisis.",
-    "Catat komunikasi serta eskalasi.",
-    "Evaluasi respons setelah tindakan.",
-    "Perbarui rencana dan handover.",
-    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
+    "Pengkajian ulang mengevaluasi perkembangan, bukan mengulang asesmen awal.",
+    "Perubahan kondisi = reasesmen segera.",
+    "Perawat minimal setiap shift atau sesuai kebutuhan yang lebih sering.",
+    "Dokumentasikan perkembangan secara terintegrasi, umumnya dengan SOAP sesuai sistem RS."
   ],
-  "dont": [
-    "Menulis catatan generik.",
-    "Copy-paste tanpa verifikasi.",
-    "Mencatat tindakan tanpa hasil.",
-    "Mengabaikan catatan PPA lain.",
-    "Menunda dokumentasi sampai akhir shift.",
-    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Catatan “pasien tampak lebih baik” kurang bermakna karena…",
+      "q": "Pasien tiba-tiba sesak dua jam setelah asesmen rutin. Apa yang dilakukan?",
       "options": [
-        "Terlalu singkat",
-        "Tidak menyertakan data terukur dan pembanding",
-        "Tidak memakai istilah Inggris",
-        "Tidak mencantumkan keluarga"
+        "Menunggu shift berikutnya",
+        "Segera lakukan pengkajian ulang dan tindak lanjut",
+        "Menyalin SOAP sebelumnya",
+        "Hanya mencatat keluhan"
       ],
       "answer": 1,
-      "why": "Perkembangan perlu dibuktikan dengan data dan dibandingkan dengan kondisi sebelumnya."
+      "why": "Perubahan klinis memerlukan reasesmen segera."
     },
     {
-      "q": "Setelah analgesik diberikan, dokumentasi yang lengkap mencakup…",
+      "q": "Pengkajian ulang perawat rawat inap umumnya dilakukan…",
       "options": [
-        "Nama obat saja",
-        "Waktu, skala nyeri awal, intervensi, waktu reassessment, hasil, dan efek samping",
-        "Tanda tangan saja",
-        "Diagnosis pasien"
-      ],
-      "answer": 1,
-      "why": "Evaluasi respons menutup siklus asuhan."
-    },
-    {
-      "q": "Tujuan utama CPPT adalah…",
-      "options": [
-        "Menyimpan catatan per profesi secara terpisah",
-        "Mengintegrasikan perkembangan dan rencana antar-PPA",
-        "Menggantikan seluruh formulir",
-        "Mencatat administrasi pembayaran"
-      ],
-      "answer": 1,
-      "why": "CPPT mendukung komunikasi dan koordinasi interprofesional."
-    },
-    {
-      "q": "Tanda vital pasien masih dalam batas normal tetapi terus memburuk dari baseline. Tindakan terbaik adalah…",
-      "options": [
-        "Mengabaikan karena belum melewati batas",
-        "Menilai tren, kondisi klinis, dan melakukan eskalasi bila perlu",
-        "Menghapus nilai sebelumnya",
-        "Menunggu shift berikutnya"
-      ],
-      "answer": 1,
-      "why": "Tren dan kondisi klinis dapat menunjukkan perburukan sebelum batas ekstrem tercapai."
-    },
-    {
-      "q": "PPA A dan PPA B menulis rencana yang bertentangan. Perawat seharusnya…",
-      "options": [
-        "Memilih yang paling baru tanpa klarifikasi",
-        "Mengklarifikasi dan memastikan rencana terintegrasi",
-        "Menjalankan keduanya",
-        "Menghapus salah satu catatan"
-      ],
-      "answer": 1,
-      "why": "Rencana yang bertentangan harus diselesaikan agar pelayanan aman."
-    },
-    {
-      "q": "Kapan pengkajian ulang dilakukan?",
-      "options": [
-        "Hanya sekali sehari",
-        "Sesuai jadwal dan ketika kondisi, terapi, atau kebutuhan berubah",
-        "Hanya saat dokter meminta",
-        "Saat pasien pulang"
-      ],
-      "answer": 1,
-      "why": "Pengkajian ulang bersifat dinamis dan dipicu perubahan serta kebutuhan."
-    },
-    {
-      "q": "Dokumentasi eskalasi yang baik mencakup…",
-      "options": [
-        "“Dokter sudah tahu”",
-        "Waktu, pihak yang dihubungi, informasi penting, instruksi, dan tindak lanjut",
-        "Nama ruangan saja",
-        "Nomor telepon dokter"
-      ],
-      "answer": 1,
-      "why": "Informasi tersebut menunjukkan alur keputusan dan kesinambungan."
-    },
-    {
-      "q": "Copy-paste catatan berisiko karena…",
-      "options": [
-        "Membuat tulisan terlalu rapi",
-        "Membawa data tidak relevan atau salah dan menyamarkan perubahan pasien",
-        "Menghemat waktu",
-        "Meningkatkan ukuran font"
-      ],
-      "answer": 1,
-      "why": "Catatan harus mencerminkan kondisi aktual, bukan pengulangan otomatis."
-    },
-    {
-      "q": "Catatan “kondisi stabil, terapi lanjut” dinilai kurang bermakna karena…",
-      "options": [
-        "Terlalu singkat dan tidak menunjukkan temuan, analisis, respons, serta rencana",
-        "Tidak memakai huruf kapital",
-        "Tidak ditulis oleh dua profesi",
-        "Tidak menyebut nomor kamar"
+        "Minimal setiap shift atau lebih sering sesuai kebutuhan",
+        "Sebulan sekali",
+        "Hanya saat pulang",
+        "Hanya jika dokter meminta"
       ],
       "answer": 0,
-      "why": "CPPT harus memungkinkan PPA memahami perubahan, tindakan, respons, dan rencana berikutnya."
+      "why": "Pemantauan berkelanjutan adalah bagian inti asuhan keperawatan."
+    },
+    {
+      "q": "Catatan progres yang baik adalah…",
+      "options": [
+        "Copy-paste dari kemarin",
+        "Menggambarkan kondisi, respons, assessment, dan rencana saat ini",
+        "Hanya menulis “stabil”",
+        "Kosong bila tidak ada masalah baru"
+      ],
+      "answer": 1,
+      "why": "CPPT harus menunjukkan perkembangan pasien."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
       "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
     }
   ],
   "priority": "practice",
   "priorityLabel": "Praktik Wajib",
-  "instrumentCodes": [
-    "PP 2"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    282
-  ],
-  "standardRef": "PP 2",
-  "keywords": [
-    "2",
-    "ada",
-    "agar",
-    "akhir",
-    "aktif",
-    "akumulasi",
-    "akut",
-    "alasan",
-    "alur",
-    "alurnya",
-    "aman",
-    "aman.",
-    "analisis",
-    "angka",
-    "antar-ppa",
-    "antar-ppa.",
-    "apa",
-    "apakah",
-    "artinya",
-    "asuhan",
-    "asuhan.",
-    "atau",
-    "awal",
-    "baca",
-    "bagaimana",
-    "baik",
-    "bandingkan",
-    "baru",
-    "baru.",
-    "baseline",
-    "batas",
-    "benar-benar",
-    "berbeda",
-    "berikutnya",
-    "berikutnya.",
-    "berisi",
-    "berkala",
-    "bermakna",
-    "bersama.",
-    "bertentangan",
-    "bertentangan.",
-    "berubah",
-    "berubah.",
-    "berulang",
-    "berulang.",
-    "berupa",
-    "bila",
-    "bukan",
-    "cara",
-    "catat",
-    "catatan",
-    "copy-paste",
-    "cppt",
-    "dalam",
-    "dan",
-    "dapat",
-    "daripada",
-    "data",
-    "dengan",
-    "di",
-    "diagnosis",
-    "diagnosis/rencana",
-    "dianalisis.",
-    "dibanding",
-    "dibuat.",
-    "digunakan",
-    "dihubungi",
-    "dilakukan",
-    "dilakukan.",
-    "dinilai",
-    "dipahami",
-    "dipercaya.",
-    "diterapkan.",
-    "dokumentasi",
-    "dokumentasikan",
-    "dosis",
-    "dpjp",
-    "edukasi",
-    "efek",
-    "efektif",
-    "eskalasi",
-    "eskalasi.",
-    "evaluasi",
-    "gimana",
-    "gunakan",
-    "harapan",
-    "hari",
-    "harus",
-    "hasil",
-    "hasil.",
-    "hasilnya",
-    "ikut",
-    "informasi",
-    "instruksi",
-    "integrasi",
-    "integrasikan",
-    "intervensi",
-    "intinya",
-    "isi",
-    "istilah",
-    "jadwal",
-    "jangan",
-    "jelaskan",
-    "kaji",
-    "kalau",
-    "kali",
-    "kapan",
-    "karakteristik",
-    "ke",
-    "keadaan",
-    "keberhasilan",
-    "kebutuhan",
-    "kebutuhan.",
-    "kecil",
-    "kejadian",
-    "keliru",
-    "keluhan",
-    "kemajuan",
-    "kembali",
-    "kenali",
-    "kepatuhan",
-    "keputusan",
-    "kerja",
-    "kesiapan",
-    "kesinambungan",
-    "keterpaduan",
-    "ketika",
-    "klarifikasi",
-    "kolaborasi",
-    "komunikasi",
-    "kondisi",
-    "konkret",
-    "koordinasi",
-    "kritis",
-    "kumpulkan",
-    "lain",
-    "lain.",
-    "lakukan",
-    "lama",
-    "langkah",
-    "lanjut",
-    "lanjut.",
-    "lanjutan",
-    "laporan",
-    "lebih",
-    "libur",
-    "lokasi",
-    "makna",
-    "mandiri",
-    "masalah",
-    "masih",
-    "medis",
-    "memahami",
-    "membaca",
-    "membaik",
-    "memberi",
-    "membingungkan",
-    "membuat",
-    "memburuk",
-    "membutuhkan",
-    "memerlukan",
-    "menambah",
-    "mencatat",
-    "mendukung",
-    "menentukan",
-    "menerapkan.",
-    "menerima",
-    "menerjemahkan",
-    "menetap",
-    "mengetahui",
-    "mengubah",
-    "mengulang",
-    "mengulang.",
-    "menilai",
-    "menimbulkan",
-    "meningkat.",
-    "meninjau",
-    "menjadi",
-    "menjelaskan",
-    "menulis",
-    "menunjukkan",
-    "minggu/hari",
-    "minimal",
-    "muncul",
-    "mungkin",
-    "ngapain",
-    "nilai",
-    "notasi",
-    "objektif",
-    "observasi",
-    "oleh",
-    "pada",
-    "pahami",
-    "pasien",
-    "pasien.",
-    "pastikan",
-    "pelayanan.",
-    "pemantauan",
-    "pembanding",
-    "pemeriksaan",
-    "pemicu",
-    "pemicunya.",
-    "pengkajian",
-    "penilaian",
-    "penting",
-    "penunjang",
-    "perawat",
-    "perbaikan",
-    "perbarui",
-    "perburukan.",
-    "periksa",
-    "perkembangan",
-    "perlu",
-    "perubahan",
-    "pihak",
-    "pola",
-    "pp",
-    "ppa",
-    "praktik",
-    "prinsip",
-    "rekam",
-    "relevan",
-    "relevan.",
-    "rencana",
-    "respons",
-    "risiko",
-    "risiko.",
-    "saat",
-    "salinan",
-    "saling",
-    "samping",
-    "satu",
-    "sebelum",
-    "sebelum/",
-    "sebelumnya.",
-    "sebutkan",
-    "secara",
-    "secepat",
-    "segera",
-    "seluruh",
-    "sepele",
-    "sering",
-    "serta",
-    "sesuai",
-    "sesudah",
-    "setelah",
-    "setiap",
-    "shift",
-    "siapa",
-    "signifikan",
-    "siklus",
-    "situasinya",
-    "soroti",
-    "spesifik",
-    "subjektif",
-    "tampak",
-    "tanda",
-    "tanpa",
-    "target",
-    "teknik",
-    "temuan",
-    "tentukan",
-    "tepat.",
-    "terapi",
-    "terapi.",
-    "terbaru",
-    "terbawa.",
-    "tercapai",
-    "terdapat",
-    "terdokumentasi",
-    "terhadap",
-    "terintegrasi",
-    "terkini",
-    "terlambat",
-    "terlihat",
-    "termasuk",
-    "terpisah",
-    "terukur",
-    "tetap",
-    "tetapi",
-    "tidak",
-    "tim",
-    "tim.",
-    "tindak",
-    "tindakan",
-    "titik",
-    "transfer",
-    "transfer/pulang",
-    "transisi",
-    "tren",
-    "tren.",
-    "tujuan",
-    "tulis",
-    "tutup",
-    "ulang",
-    "ulang.",
-    "umum",
-    "unit",
-    "untuk",
-    "verifikasi/koordinasi",
-    "vital",
-    "waktu",
-    "waktu.",
-    "yang"
-  ],
-  "searchText": "Pengkajian Ulang Pasien Kaji ulang saat kondisi berubah dan catat hasilnya dalam alur pelayanan. PP 2 Kapan pengkajian ulang dilakukan? Pengkajian ulang menilai respons pasien dan menentukan apakah rencana asuhan masih tepat. Secara berkala Perawat minimal satu kali setiap shift atau lebih sering sesuai perkembangan pasien. Setiap hari oleh DPJP Untuk pasien akut, termasuk akhir minggu/hari libur dan ketika kondisi berubah. Saat kondisi berubah Lakukan segera bila terdapat perubahan signifikan, hasil kritis, atau masalah baru. Saat diagnosis/rencana berubah Perbarui kebutuhan, intervensi, dan target asuhan. Sebelum transfer/pulang Nilai keberhasilan terapi dan kesiapan transisi pelayanan. Isi CPPT yang bermakna Catatan harus menunjukkan perkembangan, keputusan, dan tindak lanjut, bukan salinan berulang. Data terbaru Keluhan, tanda vital, hasil pemantauan, dan temuan relevan. Analisis Makna perubahan kondisi dan respons terhadap terapi. Rencana Tindakan, pemantauan, edukasi, kolaborasi, atau eskalasi berikutnya. Komunikasi antar-PPA Catatan dapat dipahami dan digunakan oleh seluruh tim. Verifikasi/koordinasi DPJP meninjau integrasi asuhan dan membuat notasi sesuai kebutuhan. Pengkajian Ulang dan CPPT Catatan perkembangan harus menunjukkan apa yang berubah, apa artinya, apa yang dilakukan, dan bagaimana respons pasien. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Pengkajian ulang Penilaian berulang untuk memahami perubahan kondisi dan respons terhadap asuhan. CPPT Catatan Perkembangan Pasien Terintegrasi yang mendukung komunikasi dan kesinambungan antar-PPA. Baseline Kondisi awal atau nilai pembanding untuk menilai tren. Respons Perubahan setelah intervensi, dapat berupa perbaikan, tidak berubah, efek samping, atau perburukan. Evaluasi Menentukan apakah tujuan tercapai dan rencana masih tepat. 🧭 Alurnya gimana? Cara menerjemahkan prinsip ke langkah kerja yang aman. Tentukan pemicu Lakukan sesuai jadwal dan setiap ada perubahan kondisi, intervensi penting, transfer, atau keluhan baru. Kumpulkan data terkini Gunakan observasi, pemeriksaan, tanda vital, hasil penunjang, dan laporan pasien. Bandingkan Nilai terhadap baseline, target terapi, batas aman, dan tren waktu. Analisis dan tindakan Tulis masalah atau kemajuan, lakukan intervensi, komunikasi, dan eskalasi. Evaluasi respons Catat hasil setelah tindakan pada waktu yang relevan. Perbarui rencana Pastikan perubahan rencana terlihat oleh PPA lain dan diterapkan. 💪 Praktik: pengkajian ulang dan CPPT yang bermakna Gunakan alur temuan–analisis–tindakan–respons–rencana berikutnya. Temuan baru Catat perubahan subjektif dan objektif yang relevan, termasuk waktu dan pemicunya. Analisis Jelaskan makna temuan: membaik, menetap, memburuk, atau muncul risiko baru. Tindakan Catat intervensi mandiri, kolaborasi, eskalasi, dan komunikasi yang benar-benar dilakukan. Respons Tulis respons pasien setelah intervensi dan kapan dinilai ulang. Rencana berikutnya Tentukan pemantauan, target, tindakan lanjutan, serta kondisi yang memerlukan eskalasi. Keterpaduan Pastikan catatan dapat dipahami PPA berikutnya dan tidak bertentangan dengan rencana bersama. 🧩 Kalau situasinya berbeda? Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut. Perubahan kecil tetapi berulang Tren dapat lebih penting daripada satu nilai; akumulasi perubahan perlu dianalisis. Respons tidak sesuai harapan Periksa kepatuhan, diagnosis kerja, dosis, teknik, efek samping, atau kebutuhan intervensi lain. PPA memberi rencana berbeda Klarifikasi dan integrasikan agar pasien tidak menerima instruksi yang bertentangan. Transfer unit Lakukan kaji ulang sebelum/ sesudah transfer dan pastikan kondisi serta rencana terbaru ikut terbawa. Dokumentasi terlambat Catat secepat mungkin dan jangan mengubah waktu kejadian agar rekam medis tetap dapat dipercaya. 💪 Perawat harus ngapain? Tindakan konkret yang dapat dilakukan di titik pelayanan. Tulis spesifik dan terukur Gunakan angka, waktu, lokasi, karakteristik, dan perubahan dibanding sebelumnya. Catat komunikasi Sebutkan pihak yang dihubungi, waktu, informasi, instruksi, dan tindak lanjut. Tutup siklus Setelah intervensi, kembali nilai kondisi dan dokumentasikan hasil. Baca sebelum menulis Pahami rencana PPA lain agar catatan menambah informasi, bukan mengulang. Gunakan CPPT untuk koordinasi Soroti masalah aktif, target, dan tindakan yang masih harus dilakukan. 🚨 Apa yang sering keliru? Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko. CPPT berisi “keadaan umum baik” Tidak menjelaskan data, tren, masalah, atau tindak lanjut. Mengulang catatan lama Perkembangan pasien tidak terlihat dan risiko copy-paste meningkat. Mencatat tindakan tanpa respons Tidak dapat dinilai apakah intervensi efektif atau aman. Tidak membaca catatan PPA lain Rencana menjadi terpisah dan dapat saling bertentangan. Eskalasi tidak terdokumentasi Tim berikutnya tidak mengetahui siapa yang dihubungi dan keputusan apa yang dibuat."
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Pengkajian Ulang Pasien Nilai perkembangan pasien secara berkala dan saat kondisi berubah; dokumentasikan terintegrasi di rekam medis/CPPT."
 }

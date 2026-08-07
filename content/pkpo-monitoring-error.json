@@ -1,46 +1,40 @@
 {
   "id": "pkpo-monitoring-error",
   "group": "pkpo",
-  "title": "Memantau Efek Obat dan Melaporkan Kesalahan",
-  "short": "Memantau Efek Obat dan Melaporkan Kesalahan",
-  "desc": "Pantau respons, efek samping, alergi, dan keselamatan pasien.",
+  "title": "Pemantauan Efek Obat dan Kesalahan Medikasi",
+  "short": "Pemantauan Efek Obat dan Kesalahan Medikasi",
+  "desc": "Nilai apakah obat bekerja dan aman; bila terjadi kesalahan, prioritaskan pasien lalu laporkan agar sistem dapat diperbaiki.",
   "category": "PKPO",
   "color": "#6D48C7",
   "soft": "#F1ECFF",
   "icon": "rights",
-  "priority": "practice",
-  "priorityLabel": "Praktik Wajib",
-  "minutes": 15,
+  "minutes": 9,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Pemantauan terapi dan efek samping obat",
-      "caption": "Perawat menilai manfaat dan bahaya setelah obat diberikan.",
+      "title": "👀 Setelah obat: apakah bekerja dan aman?",
+      "caption": "Pemberian obat belum selesai saat tombol dokumentasi ditekan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Efek yang diharapkan",
-            "text": "Pantau perubahan gejala, tanda vital, fungsi, dan hasil laboratorium."
+            "title": "Efek terapi",
+            "text": "Nilai parameter klinis/laboratorium yang sesuai dengan tujuan obat."
           },
           {
-            "title": "Efek samping/toksisitas",
-            "text": "Kenali reaksi yang tidak diinginkan dan faktor risiko pasien."
+            "title": "Efek samping",
+            "text": "Kenali gejala yang mungkin berkaitan dengan obat."
           },
           {
-            "title": "Interaksi dan kepatuhan",
-            "text": "Amati interaksi obat-makanan/obat dan kemampuan pasien mengikuti terapi."
+            "title": "Alergi/reaksi",
+            "text": "Tangani reaksi akut sesuai kondisi dan perbarui informasi alergi sesuai sistem."
           },
           {
-            "title": "Dokumentasi di CPPT",
-            "text": "Catat respons, intervensi, komunikasi, dan rencana monitoring."
-          },
-          {
-            "title": "Pelaporan MESO",
-            "text": "Ikuti sistem rumah sakit untuk efek samping obat yang perlu dilaporkan."
+            "title": "MESO",
+            "text": "Reaksi obat yang perlu pemantauan/pelaporan mengikuti sistem farmakovigilans RS."
           }
         ],
         "columns": 2,
@@ -49,30 +43,26 @@
     },
     {
       "type": "html",
-      "title": "Medication error dan near miss",
-      "caption": "Efek samping tidak selalu berarti kesalahan obat; kesalahan adalah kegagalan dalam proses penggunaan obat.",
+      "title": "⚠️ Medication error",
+      "caption": "Kesalahan dapat terjadi di berbagai tahap proses obat.",
       "template": {
-        "style": "timeline",
+        "style": "cards",
         "items": [
           {
-            "title": "Contoh kesalahan",
-            "text": "Salah pasien, obat, dosis, rute, waktu, duplikasi, obat terlewat, atau instruksi disalahartikan."
+            "title": "Contoh",
+            "text": "Salah pasien, obat, dosis, rute, waktu, omission, duplikasi, atau pemberian tanpa order yang benar."
           },
           {
-            "title": "Near miss/KNC",
-            "text": "Kesalahan ditemukan sebelum mencapai pasien dan tetap harus dilaporkan sesuai sistem."
+            "title": "Near miss",
+            "text": "Kesalahan yang tertangkap sebelum mencapai pasien tetap berharga untuk pembelajaran."
           },
           {
             "title": "Prioritas pertama",
-            "text": "Amankan pasien dan lakukan penanganan klinis."
+            "text": "Bila sudah mencapai pasien, nilai dan amankan pasien terlebih dahulu."
           },
           {
-            "title": "Laporkan fakta",
-            "text": "Segera beri tahu pihak terkait, dokumentasikan secara objektif, dan buat laporan insiden."
-          },
-          {
-            "title": "Pembelajaran sistem",
-            "text": "Evaluasi penyebab dan perbaiki pertahanan agar kejadian tidak berulang."
+            "title": "Jangan sembunyikan",
+            "text": "Pelaporan membantu mencegah kejadian yang sama berulang."
           }
         ],
         "columns": 2,
@@ -81,158 +71,26 @@
     },
     {
       "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "title": "📣 Alur praktis bila terjadi kesalahan",
+      "caption": "Ikuti sistem RS tanpa menunda tindakan klinis.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Pemantauan mencakup manfaat dan risiko",
-            "text": "Nilai respons klinis, laboratorium, tanda vital, efek samping, interaksi, dan toksisitas."
+            "title": "1. Nilai pasien",
+            "text": "Cari dampak dan lakukan tindakan segera sesuai kondisi."
           },
           {
-            "title": "Efek samping bukan selalu kesalahan",
-            "text": "ESO dapat terjadi meski obat diberikan benar."
+            "title": "2. Laporkan klinis",
+            "text": "Hubungi PPA yang berwenang untuk instruksi/tata laksana."
           },
           {
-            "title": "Medication error adalah kegagalan proses",
-            "text": "Salah pasien, obat, dosis, rute, waktu, duplikasi, atau dosis terlewat dapat dicegah."
+            "title": "3. Dokumentasikan",
+            "text": "Catat fakta pelayanan dan respons pasien dengan benar."
           },
           {
-            "title": "Near miss tetap dilaporkan",
-            "text": "KNC menunjukkan kelemahan sistem sebelum pasien cedera."
-          },
-          {
-            "title": "Prioritas pertama adalah pasien",
-            "text": "Pelaporan tidak boleh menunda penanganan klinis."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Tetapkan parameter pemantauan",
-            "text": "Ketahui efek yang diharapkan dan tanda bahaya."
-          },
-          {
-            "title": "Nilai respons",
-            "text": "Bandingkan sebelum dan sesudah terapi."
-          },
-          {
-            "title": "Kenali kejadian",
-            "text": "Bedakan efek samping, alergi, kegagalan terapi, dan kesalahan proses."
-          },
-          {
-            "title": "Amankan dan eskalasi",
-            "text": "Hentikan/tahan sesuai kewenangan, lakukan ABC bila perlu, dan hubungi dokter."
-          },
-          {
-            "title": "Dokumentasi dan laporan",
-            "text": "Catat fakta klinis serta laporan insiden melalui sistem yang benar."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktiknya di unit",
-      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Pasien hipotensi setelah obat",
-            "text": "Nilai ABC, tanda vital, infus, dan laporkan segera."
-          },
-          {
-            "title": "Obat pasien lain hampir diberikan",
-            "text": "Hentikan, amankan, laporkan KNC, dan evaluasi penyebab."
-          },
-          {
-            "title": "Dosis terlewat",
-            "text": "Nilai dampak, hubungi pihak berwenang, jangan menggandakan tanpa instruksi."
-          },
-          {
-            "title": "Reaksi alergi",
-            "text": "Hentikan pajanan, aktifkan penanganan, dokumentasikan alergi dan kejadian."
-          },
-          {
-            "title": "Kesalahan sudah mencapai pasien",
-            "text": "Berikan penanganan, laporkan secara jujur, dan ikuti proses disclosure sesuai kebijakan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Menetapkan baseline",
-            "text": "Data sebelum obat membantu menilai respons."
-          },
-          {
-            "title": "Mengenali pola",
-            "text": "Waktu onset dan obat lain memberi petunjuk."
-          },
-          {
-            "title": "Berkomunikasi faktual",
-            "text": "Sampaikan apa, kapan, dosis, rute, respons, dan tindakan."
-          },
-          {
-            "title": "Melaporkan insiden",
-            "text": "Gunakan budaya adil dan non-punitif."
-          },
-          {
-            "title": "Mendukung pembelajaran",
-            "text": "Ikut tindak lanjut dan perubahan proses."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menyembunyikan near miss",
-            "text": "Sistem kehilangan kesempatan memperbaiki pertahanan."
-          },
-          {
-            "title": "Menganggap semua gejala akibat penyakit",
-            "text": "Waktu hubungan dengan obat perlu dinilai."
-          },
-          {
-            "title": "Menulis laporan insiden di rekam medis secara tidak tepat",
-            "text": "Rekam medis berisi fakta klinis; sistem insiden mengikuti kebijakan terpisah."
-          },
-          {
-            "title": "Mengubah catatan setelah kejadian",
-            "text": "Merusak integritas dokumentasi."
-          },
-          {
-            "title": "Mencari siapa yang salah terlebih dahulu",
-            "text": "Penanganan pasien dan pengamanan sistem harus didahulukan."
+            "title": "4. Laporkan insiden",
+            "text": "Gunakan sistem medication error/IKP untuk analisis dan perbaikan."
           }
         ],
         "columns": 2,
@@ -242,443 +100,77 @@
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Efek yang diharapkan: Pantau perubahan gejala, tanda vital, fungsi, dan hasil laboratorium.",
-        "Efek samping/toksisitas: Kenali reaksi yang tidak diinginkan dan faktor risiko pasien.",
-        "Interaksi dan kepatuhan: Amati interaksi obat-makanan/obat dan kemampuan pasien mengikuti terapi.",
-        "Dokumentasi di CPPT: Catat respons, intervensi, komunikasi, dan rencana monitoring.",
-        "Contoh kesalahan: Salah pasien, obat, dosis, rute, waktu, duplikasi, obat terlewat, atau instruksi disalahartikan.",
-        "Near miss/KNC: Kesalahan ditemukan sebelum mencapai pasien dan tetap harus dilaporkan sesuai sistem."
-      ]
-    },
-    {
-      "title": "Konsep utama",
-      "points": [
-        "Nilai respons klinis, laboratorium, tanda vital, efek samping, interaksi, dan toksisitas.",
-        "ESO dapat terjadi meski obat diberikan benar.",
-        "Salah pasien, obat, dosis, rute, waktu, duplikasi, atau dosis terlewat dapat dicegah."
-      ]
-    },
-    {
-      "title": "Alur aman",
-      "points": [
-        "Tetapkan parameter pemantauan: Ketahui efek yang diharapkan dan tanda bahaya.",
-        "Nilai respons: Bandingkan sebelum dan sesudah terapi.",
-        "Kenali kejadian: Bedakan efek samping, alergi, kegagalan terapi, dan kesalahan proses."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "Pasien hipotensi setelah obat: Nilai ABC, tanda vital, infus, dan laporkan segera.",
-        "Obat pasien lain hampir diberikan: Hentikan, amankan, laporkan KNC, dan evaluasi penyebab.",
-        "Dosis terlewat: Nilai dampak, hubungi pihak berwenang, jangan menggandakan tanpa instruksi."
-      ]
-    },
-    {
-      "title": "Peran perawat",
-      "points": [
-        "Data sebelum obat membantu menilai respons.",
-        "Waktu onset dan obat lain memberi petunjuk.",
-        "Sampaikan apa, kapan, dosis, rute, respons, dan tindakan."
+        "Pantau efek terapi, efek samping, dan alergi setelah pemberian obat.",
+        "Medication error dapat terjadi pada berbagai tahap dan near miss juga perlu dipelajari.",
+        "Jika error mencapai pasien: nilai/amankan pasien dahulu, kemudian lapor, dokumentasi, dan tindak lanjut.",
+        "Pelaporan bukan untuk menyembunyikan kesalahan, tetapi mencegah berulang."
       ]
     }
   ],
   "do": [
-    "Nilai ABC, tanda vital, infus, dan laporkan segera.",
-    "Hentikan, amankan, laporkan KNC, dan evaluasi penyebab.",
-    "Nilai dampak, hubungi pihak berwenang, jangan menggandakan tanpa instruksi.",
-    "Hentikan pajanan, aktifkan penanganan, dokumentasikan alergi dan kejadian.",
-    "Berikan penanganan, laporkan secara jujur, dan ikuti proses disclosure sesuai kebijakan."
+    "Pantau efek terapi, efek samping, dan alergi setelah pemberian obat.",
+    "Medication error dapat terjadi pada berbagai tahap dan near miss juga perlu dipelajari.",
+    "Jika error mencapai pasien: nilai/amankan pasien dahulu, kemudian lapor, dokumentasi, dan tindak lanjut.",
+    "Pelaporan bukan untuk menyembunyikan kesalahan, tetapi mencegah berulang."
   ],
-  "dont": [
-    "Sistem kehilangan kesempatan memperbaiki pertahanan.",
-    "Waktu hubungan dengan obat perlu dinilai.",
-    "Rekam medis berisi fakta klinis; sistem insiden mengikuti kebijakan terpisah.",
-    "Merusak integritas dokumentasi.",
-    "Penanganan pasien dan pengamanan sistem harus didahulukan."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Dalam situasi “Pasien hipotensi setelah obat”, tindakan yang paling tepat adalah…",
+      "q": "Obat salah sudah diberikan tetapi pasien belum mengeluh. Tindakan pertama adalah…",
       "options": [
-        "Nilai ABC, tanda vital, infus, dan laporkan segera.",
-        "Sistem kehilangan kesempatan memperbaiki pertahanan.",
-        "Waktu hubungan dengan obat perlu dinilai.",
-        "Rekam medis berisi fakta klinis; sistem insiden mengikuti kebijakan terpisah."
-      ],
-      "answer": 0,
-      "why": "Nilai ABC, tanda vital, infus, dan laporkan segera."
-    },
-    {
-      "q": "Dalam situasi “Obat pasien lain hampir diberikan”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Waktu hubungan dengan obat perlu dinilai.",
-        "Rekam medis berisi fakta klinis; sistem insiden mengikuti kebijakan terpisah.",
-        "Merusak integritas dokumentasi.",
-        "Hentikan, amankan, laporkan KNC, dan evaluasi penyebab."
-      ],
-      "answer": 3,
-      "why": "Hentikan, amankan, laporkan KNC, dan evaluasi penyebab."
-    },
-    {
-      "q": "Dalam situasi “Dosis terlewat”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Merusak integritas dokumentasi.",
-        "Penanganan pasien dan pengamanan sistem harus didahulukan.",
-        "Nilai dampak, hubungi pihak berwenang, jangan menggandakan tanpa instruksi.",
-        "Rekam medis berisi fakta klinis; sistem insiden mengikuti kebijakan terpisah."
-      ],
-      "answer": 2,
-      "why": "Nilai dampak, hubungi pihak berwenang, jangan menggandakan tanpa instruksi."
-    },
-    {
-      "q": "Dalam situasi “Reaksi alergi”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Sistem kehilangan kesempatan memperbaiki pertahanan.",
-        "Hentikan pajanan, aktifkan penanganan, dokumentasikan alergi dan kejadian.",
-        "Merusak integritas dokumentasi.",
-        "Penanganan pasien dan pengamanan sistem harus didahulukan."
+        "Menyembunyikan kejadian",
+        "Menilai pasien dan segera mengaktifkan tindak lanjut klinis",
+        "Menghapus dokumentasi",
+        "Menunggu gejala"
       ],
       "answer": 1,
-      "why": "Hentikan pajanan, aktifkan penanganan, dokumentasikan alergi dan kejadian."
+      "why": "Keselamatan pasien harus dinilai segera."
     },
     {
-      "q": "Dalam situasi “Kesalahan sudah mencapai pasien”, tindakan yang paling tepat adalah…",
+      "q": "Near miss medication error…",
       "options": [
-        "Berikan penanganan, laporkan secara jujur, dan ikuti proses disclosure sesuai kebijakan.",
-        "Penanganan pasien dan pengamanan sistem harus didahulukan.",
-        "Sistem kehilangan kesempatan memperbaiki pertahanan.",
-        "Waktu hubungan dengan obat perlu dinilai."
-      ],
-      "answer": 0,
-      "why": "Berikan penanganan, laporkan secara jujur, dan ikuti proses disclosure sesuai kebijakan."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Pemantauan mencakup manfaat dan risiko” adalah…",
-      "options": [
-        "Sistem kehilangan kesempatan memperbaiki pertahanan.",
-        "Nilai respons klinis, laboratorium, tanda vital, efek samping, interaksi, dan toksisitas.",
-        "Rekam medis berisi fakta klinis; sistem insiden mengikuti kebijakan terpisah.",
-        "Merusak integritas dokumentasi."
+        "Tidak perlu dipelajari karena tidak sampai pasien",
+        "Tetap penting dilaporkan/dianalisis sesuai sistem",
+        "Harus disembunyikan",
+        "Sama dengan keberhasilan"
       ],
       "answer": 1,
-      "why": "Nilai respons klinis, laboratorium, tanda vital, efek samping, interaksi, dan toksisitas."
+      "why": "Near miss menunjukkan celah sistem sebelum terjadi cedera."
     },
     {
-      "q": "Pernyataan yang paling tepat tentang “Efek samping bukan selalu kesalahan” adalah…",
+      "q": "Monitoring setelah pemberian obat bertujuan…",
       "options": [
-        "Waktu hubungan dengan obat perlu dinilai.",
-        "ESO dapat terjadi meski obat diberikan benar.",
-        "Merusak integritas dokumentasi.",
-        "Penanganan pasien dan pengamanan sistem harus didahulukan."
+        "Hanya melengkapi form",
+        "Menilai efek terapi dan mendeteksi efek tidak diinginkan",
+        "Mengganti rekonsiliasi",
+        "Menghitung stok"
       ],
       "answer": 1,
-      "why": "ESO dapat terjadi meski obat diberikan benar."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Medication error adalah kegagalan proses” adalah…",
-      "options": [
-        "Rekam medis berisi fakta klinis; sistem insiden mengikuti kebijakan terpisah.",
-        "Salah pasien, obat, dosis, rute, waktu, duplikasi, atau dosis terlewat dapat dicegah.",
-        "Penanganan pasien dan pengamanan sistem harus didahulukan.",
-        "Sistem kehilangan kesempatan memperbaiki pertahanan."
-      ],
-      "answer": 1,
-      "why": "Salah pasien, obat, dosis, rute, waktu, duplikasi, atau dosis terlewat dapat dicegah."
+      "why": "Respons pasien menentukan efektivitas dan keamanan terapi."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
-      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
-      "org": "Kementerian Kesehatan Republik Indonesia",
-      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
     },
     {
-      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
       "org": "Rumah sakit masing-masing",
       "url": ""
     }
   ],
-  "keywords": [
-    "7",
-    "7.1",
-    "abc",
-    "adalah",
-    "adil",
-    "agar",
-    "akibat",
-    "aktifkan",
-    "alasan",
-    "alergi",
-    "alurnya",
-    "amankan",
-    "amati",
-    "apa",
-    "atau",
-    "bahaya",
-    "bahaya.",
-    "bandingkan",
-    "baseline",
-    "bedakan",
-    "benar.",
-    "berarti",
-    "beri",
-    "berikan",
-    "berisi",
-    "berkomunikasi",
-    "berulang.",
-    "berwenang",
-    "bila",
-    "boleh",
-    "buat",
-    "budaya",
-    "bukan",
-    "catat",
-    "catatan",
-    "cedera.",
-    "contoh",
-    "cppt",
-    "dahulu",
-    "dalam",
-    "dampak",
-    "dan",
-    "dapat",
-    "data",
-    "dengan",
-    "di",
-    "diberikan",
-    "diberikan.",
-    "dicegah.",
-    "didahulukan.",
-    "diharapkan",
-    "diinginkan",
-    "dijelaskan",
-    "dilaporkan",
-    "dilaporkan.",
-    "dinilai.",
-    "dipahami",
-    "diperagakan.",
-    "disalahartikan.",
-    "disclosure",
-    "ditemukan",
-    "dokter.",
-    "dokumentasi",
-    "dokumentasi.",
-    "dokumentasikan",
-    "dosis",
-    "duplikasi",
-    "efek",
-    "error",
-    "eskalasi",
-    "eso",
-    "evaluasi",
-    "fakta",
-    "faktor",
-    "faktual",
-    "fungsi",
-    "gejala",
-    "gimana",
-    "gunakan",
-    "hampir",
-    "harus",
-    "hasil",
-    "hentikan",
-    "hentikan/tahan",
-    "hipotensi",
-    "hubungan",
-    "hubungi",
-    "ikut",
-    "ikuti",
-    "infus",
-    "insiden",
-    "insiden.",
-    "instruksi",
-    "instruksi.",
-    "integritas",
-    "interaksi",
-    "intervensi",
-    "intinya",
-    "istilah",
-    "jangan",
-    "jujur",
-    "kapan",
-    "kebiasaan",
-    "kebijakan",
-    "kebijakan.",
-    "kegagalan",
-    "kehilangan",
-    "kejadian",
-    "kejadian.",
-    "kelemahan",
-    "keliru",
-    "kemampuan",
-    "kenali",
-    "kepatuhan",
-    "kerja",
-    "kesalahan",
-    "keselamatan",
-    "kesempatan",
-    "ketahui",
-    "kewenangan",
-    "klinis",
-    "klinis.",
-    "knc",
-    "komunikasi",
-    "konkret",
-    "konsistensi.",
-    "laboratorium",
-    "laboratorium.",
-    "lain",
-    "lakukan",
-    "lanjut",
-    "laporan",
-    "laporkan",
-    "manfaat",
-    "medication",
-    "medis",
-    "melalui",
-    "melaporkan",
-    "memantau",
-    "membantu",
-    "memberi",
-    "memperbaiki",
-    "mencakup",
-    "mencapai",
-    "mencari",
-    "mendukung",
-    "menerapkan.",
-    "menetapkan",
-    "menganggap",
-    "mengenali",
-    "menggandakan",
-    "mengikuti",
-    "mengubah",
-    "menilai",
-    "meningkatkan",
-    "menjaga",
-    "menulis",
-    "menunda",
-    "menunjukkan",
-    "menyembunyikan",
-    "merusak",
-    "meski",
-    "meso",
-    "miss",
-    "miss/knc",
-    "monitoring.",
-    "near",
-    "ngapain",
-    "nilai",
-    "non-punitif.",
-    "obat",
-    "obat-makanan/obat",
-    "obat.",
-    "objektif",
-    "onset",
-    "pajanan",
-    "pantau",
-    "parameter",
-    "pasien",
-    "pasien.",
-    "pelaporan",
-    "pemantauan",
-    "pembelajaran",
-    "penanganan",
-    "pengamanan",
-    "penggunaan",
-    "penyakit",
-    "penyebab",
-    "penyebab.",
-    "perawat",
-    "perbaiki",
-    "perlu",
-    "pertahanan",
-    "pertahanan.",
-    "pertama",
-    "perubahan",
-    "petunjuk.",
-    "pihak",
-    "pkpo",
-    "pola",
-    "praktiknya",
-    "prioritas",
-    "proses",
-    "proses.",
-    "reaksi",
-    "rekam",
-    "rencana",
-    "respons",
-    "respons.",
-    "risiko",
-    "risiko.",
-    "rumah",
-    "rute",
-    "sakit",
-    "sakit.",
-    "salah",
-    "sampaikan",
-    "samping",
-    "samping/toksisitas",
-    "sebelum",
-    "secara",
-    "sederhana",
-    "segera",
-    "segera.",
-    "selalu",
-    "semua",
-    "sering",
-    "serta",
-    "sesuai",
-    "sesudah",
-    "setelah",
-    "siapa",
-    "sistem",
-    "sistem.",
-    "sudah",
-    "tahu",
-    "tampak",
-    "tanda",
-    "tanpa",
-    "tepat",
-    "terapi",
-    "terapi.",
-    "terjadi",
-    "terkait",
-    "terlebih",
-    "terlewat",
-    "terpisah.",
-    "tetap",
-    "tetapi",
-    "tetapkan",
-    "tidak",
-    "tindak",
-    "tindakan",
-    "tindakan.",
-    "toksisitas.",
-    "unit",
-    "untuk",
-    "urutan",
-    "vital",
-    "waktu",
-    "yang"
-  ],
-  "instrumentCodes": [
-    "PKPO 7",
-    "PKPO 7.1"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    366,
-    367,
-    368
-  ],
-  "standardRef": "PKPO 7 dan PKPO 7.1",
-  "searchText": "Memantau Efek Obat dan Melaporkan Kesalahan Pantau respons, efek samping, alergi, dan keselamatan pasien. PKPO 7 dan PKPO 7.1 Pemantauan terapi dan efek samping obat Perawat menilai manfaat dan bahaya setelah obat diberikan. Efek yang diharapkan Pantau perubahan gejala, tanda vital, fungsi, dan hasil laboratorium. Efek samping/toksisitas Kenali reaksi yang tidak diinginkan dan faktor risiko pasien. Interaksi dan kepatuhan Amati interaksi obat-makanan/obat dan kemampuan pasien mengikuti terapi. Dokumentasi di CPPT Catat respons, intervensi, komunikasi, dan rencana monitoring. Pelaporan MESO Ikuti sistem rumah sakit untuk efek samping obat yang perlu dilaporkan. Medication error dan near miss Efek samping tidak selalu berarti kesalahan obat; kesalahan adalah kegagalan dalam proses penggunaan obat. Contoh kesalahan Salah pasien, obat, dosis, rute, waktu, duplikasi, obat terlewat, atau instruksi disalahartikan. Near miss/KNC Kesalahan ditemukan sebelum mencapai pasien dan tetap harus dilaporkan sesuai sistem. Prioritas pertama Amankan pasien dan lakukan penanganan klinis. Laporkan fakta Segera beri tahu pihak terkait, dokumentasikan secara objektif, dan buat laporan insiden. Pembelajaran sistem Evaluasi penyebab dan perbaiki pertahanan agar kejadian tidak berulang. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Pemantauan mencakup manfaat dan risiko Nilai respons klinis, laboratorium, tanda vital, efek samping, interaksi, dan toksisitas. Efek samping bukan selalu kesalahan ESO dapat terjadi meski obat diberikan benar. Medication error adalah kegagalan proses Salah pasien, obat, dosis, rute, waktu, duplikasi, atau dosis terlewat dapat dicegah. Near miss tetap dilaporkan KNC menunjukkan kelemahan sistem sebelum pasien cedera. Prioritas pertama adalah pasien Pelaporan tidak boleh menunda penanganan klinis. 🧭 Alurnya gimana? Urutan kerja yang membantu menjaga keselamatan dan konsistensi. Tetapkan parameter pemantauan Ketahui efek yang diharapkan dan tanda bahaya. Nilai respons Bandingkan sebelum dan sesudah terapi. Kenali kejadian Bedakan efek samping, alergi, kegagalan terapi, dan kesalahan proses. Amankan dan eskalasi Hentikan/tahan sesuai kewenangan, lakukan ABC bila perlu, dan hubungi dokter. Dokumentasi dan laporan Catat fakta klinis serta laporan insiden melalui sistem yang benar. 💪 Praktiknya di unit Contoh tindakan yang dapat dijelaskan atau diperagakan. Pasien hipotensi setelah obat Nilai ABC, tanda vital, infus, dan laporkan segera. Obat pasien lain hampir diberikan Hentikan, amankan, laporkan KNC, dan evaluasi penyebab. Dosis terlewat Nilai dampak, hubungi pihak berwenang, jangan menggandakan tanpa instruksi. Reaksi alergi Hentikan pajanan, aktifkan penanganan, dokumentasikan alergi dan kejadian. Kesalahan sudah mencapai pasien Berikan penanganan, laporkan secara jujur, dan ikuti proses disclosure sesuai kebijakan. 💪 Perawat harus ngapain? Tindakan konkret sesuai kewenangan dan proses rumah sakit. Menetapkan baseline Data sebelum obat membantu menilai respons. Mengenali pola Waktu onset dan obat lain memberi petunjuk. Berkomunikasi faktual Sampaikan apa, kapan, dosis, rute, respons, dan tindakan. Melaporkan insiden Gunakan budaya adil dan non-punitif. Mendukung pembelajaran Ikut tindak lanjut dan perubahan proses. 🚨 Apa yang sering keliru? Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko. Menyembunyikan near miss Sistem kehilangan kesempatan memperbaiki pertahanan. Menganggap semua gejala akibat penyakit Waktu hubungan dengan obat perlu dinilai. Menulis laporan insiden di rekam medis secara tidak tepat Rekam medis berisi fakta klinis; sistem insiden mengikuti kebijakan terpisah. Mengubah catatan setelah kejadian Merusak integritas dokumentasi. Mencari siapa yang salah terlebih dahulu Penanganan pasien dan pengamanan sistem harus didahulukan."
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Pemantauan Efek Obat dan Kesalahan Medikasi Nilai apakah obat bekerja dan aman; bila terjadi kesalahan, prioritaskan pasien lalu laporkan agar sistem dapat diperbaiki."
 }

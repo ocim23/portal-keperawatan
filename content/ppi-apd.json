@@ -1,0 +1,219 @@
+{
+  "id": "ppi-apd",
+  "group": "ppi",
+  "title": "Pemilihan, Pemakaian, dan Pelepasan APD",
+  "short": "Pemilihan, Pemakaian, dan Pelepasan APD",
+  "desc": "Pilih APD sesuai risiko, gunakan sebelum pajanan, dan lepaskan tanpa mencemari diri atau lingkungan.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "minutes": 15,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 3,
+  "slides": [
+    {
+      "type": "html",
+      "title": "🧤 APD dipilih berdasarkan risiko",
+      "caption": "Bukan semua pasien harus memakai “APD lengkap”.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Sarung tangan",
+            "text": "Risiko kontak darah/cairan tubuh, mukosa, kulit tidak utuh, atau benda terkontaminasi."
+          },
+          {
+            "title": "Gaun/apron",
+            "text": "Risiko pakaian atau kulit terkena cairan/bahan terkontaminasi."
+          },
+          {
+            "title": "Masker + eye protection",
+            "text": "Risiko droplet atau percikan ke hidung, mulut, dan mata."
+          },
+          {
+            "title": "N95/setara",
+            "text": "Risiko airborne/aerosol sesuai indikasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "⬆️ Sebelum dan saat memakai",
+      "caption": "APD bekerja bila dipasang dan digunakan dengan benar.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Sebelum",
+            "text": "Hand hygiene, pilih ukuran/jenis, pastikan tidak rusak."
+          },
+          {
+            "title": "Urutan umum donning",
+            "text": "Gaun → masker/respirator → pelindung mata/wajah → sarung tangan; ikuti poster/SOP RS bila urutan lokal berbeda."
+          },
+          {
+            "title": "N95",
+            "text": "Lakukan fit check setiap kali memakai; fit test dilakukan melalui program RS."
+          },
+          {
+            "title": "Selama penggunaan",
+            "text": "Jangan menyentuh wajah atau membawa sarung tangan terkontaminasi ke area bersih."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "⬇️ Doffing = titik risiko kontaminasi",
+      "caption": "Permukaan luar APD dianggap berpotensi terkontaminasi.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Lepaskan terkontrol",
+            "text": "Hindari menyentuh permukaan luar dan jangan mengibaskan gaun."
+          },
+          {
+            "title": "Urutan umum",
+            "text": "Sarung tangan → pelindung mata/wajah → gaun → masker/respirator → hand hygiene; ikuti alur RS."
+          },
+          {
+            "title": "Airborne",
+            "text": "Respirator dilepas pada lokasi aman sesuai alur isolasi, umumnya setelah keluar area pajanan."
+          },
+          {
+            "title": "Setelah sarung tangan",
+            "text": "Hand hygiene tetap dilakukan; sarung tangan bukan pengganti kebersihan tangan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚨 Kesalahan yang sering terjadi",
+      "caption": "APD salah pakai dapat menjadi sumber kontaminasi.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Masker di dagu/leher",
+            "text": "Jangan menurunkan lalu memakai kembali secara sembarangan."
+          },
+          {
+            "title": "Sarung tangan antar-pasien",
+            "text": "Tidak boleh."
+          },
+          {
+            "title": "Fit check dilewati",
+            "text": "Dapat membuat seal respirator tidak optimal."
+          },
+          {
+            "title": "Menyentuh bagian depan masker",
+            "text": "Hindari bagian yang berpotensi terkontaminasi."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "image",
+      "title": "Poster — Memakai dan Melepas APD",
+      "caption": "Recap visual donning dan doffing.",
+      "image": "assets/images/posters/v6/memakai-dan-melepas-apd.webp",
+      "thumbnail": "assets/images/posters/v6/thumb/memakai-dan-melepas-apd.webp"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Inti materi — 1 menit",
+      "points": [
+        "Nilai risiko terlebih dahulu; pilih APD yang sesuai.",
+        "Hand hygiene dilakukan sebelum/ketika relevan dan setelah pelepasan.",
+        "Fit check N95 setiap kali digunakan; fit test melalui program RS.",
+        "Doffing sama pentingnya dengan donning."
+      ]
+    }
+  ],
+  "do": [
+    "Nilai risiko terlebih dahulu; pilih APD yang sesuai.",
+    "Hand hygiene dilakukan sebelum/ketika relevan dan setelah pelepasan.",
+    "Fit check N95 setiap kali digunakan; fit test melalui program RS.",
+    "Doffing sama pentingnya dengan donning."
+  ],
+  "dont": [],
+  "quiz": [
+    {
+      "q": "Dasar utama memilih APD adalah…",
+      "options": [
+        "Diagnosis tertulis saja",
+        "Risiko pajanan dari tindakan",
+        "Warna seragam",
+        "Lama bekerja"
+      ],
+      "answer": 1,
+      "why": "Risiko tindakan menentukan area tubuh yang harus dilindungi."
+    },
+    {
+      "q": "Apakah sarung tangan menggantikan hand hygiene?",
+      "options": [
+        "Ya",
+        "Tidak"
+      ],
+      "answer": 1,
+      "why": "Kebersihan tangan tetap diperlukan."
+    },
+    {
+      "q": "Fit check N95 dilakukan…",
+      "options": [
+        "Sekali seumur hidup",
+        "Setiap kali respirator dipakai",
+        "Hanya saat akreditasi",
+        "Setelah dilepas"
+      ],
+      "answer": 1,
+      "why": "Fit check menilai seal setiap pemakaian."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "WHO Infection Prevention and Control resources",
+      "org": "World Health Organization",
+      "url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control"
+    },
+    {
+      "title": "Transmission-Based Precautions and Infection Control",
+      "org": "CDC",
+      "url": "https://www.cdc.gov/infection-control/"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Pemilihan, Pemakaian, dan Pelepasan APD Pilih APD sesuai risiko, gunakan sebelum pajanan, dan lepaskan tanpa mencemari diri atau lingkungan."
+}

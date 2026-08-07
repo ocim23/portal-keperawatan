@@ -1,0 +1,207 @@
+{
+  "id": "ppi-dekontaminasi",
+  "group": "ppi",
+  "title": "Dekontaminasi Alat, Lingkungan, dan Linen",
+  "short": "Dekontaminasi Alat, Lingkungan, dan Linen",
+  "desc": "Proses alat sesuai tingkat risiko, jaga kebersihan lingkungan, dan tangani linen tanpa menyebarkan kontaminasi.",
+  "category": "PPI",
+  "color": "#1877C9",
+  "soft": "#EAF3FF",
+  "icon": "hands",
+  "minutes": 12,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 3,
+  "slides": [
+    {
+      "type": "html",
+      "title": "🧰 Alat tidak diproses dengan cara yang sama",
+      "caption": "Kategori Spaulding menghubungkan penggunaan alat dengan tingkat pemrosesan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kritikal",
+            "text": "Masuk jaringan steril/sistem vaskular → harus steril."
+          },
+          {
+            "title": "Semi-kritikal",
+            "text": "Menyentuh mukosa atau kulit tidak utuh → disinfeksi tingkat tinggi."
+          },
+          {
+            "title": "Non-kritikal",
+            "text": "Menyentuh kulit utuh → disinfeksi tingkat rendah sesuai material/prosedur."
+          },
+          {
+            "title": "Pembersihan",
+            "text": "Kotoran harus dibersihkan sebelum proses disinfeksi/sterilisasi efektif."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🔄 Setelah alat dipakai",
+      "caption": "Cegah alat pasien menjadi sumber penularan berikutnya.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Single-use",
+            "text": "Gunakan sesuai peruntukan dan jangan diproses ulang bila tidak diizinkan."
+          },
+          {
+            "title": "Reusable",
+            "text": "Kirim/proses sesuai kategori dan alur kotor-bersih."
+          },
+          {
+            "title": "Pasien isolasi",
+            "text": "Dekontaminasi sesuai risiko sebelum digunakan pada pasien lain."
+          },
+          {
+            "title": "Penyimpanan",
+            "text": "Alat bersih/steril disimpan kering, bersih, dan terlindung dari debu/kelembapan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🧹 Lingkungan",
+      "caption": "Permukaan sekitar pasien dapat menjadi reservoir mikroorganisme.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Rutin",
+            "text": "Bersihkan permukaan sesuai jadwal dan tingkat risiko."
+          },
+          {
+            "title": "High-touch",
+            "text": "Bedrail, meja, gagang, tombol, dan area sering disentuh perlu perhatian."
+          },
+          {
+            "title": "Terminal",
+            "text": "Lakukan pembersihan terminal setelah pasien keluar/pindah sesuai prosedur."
+          },
+          {
+            "title": "Peran perawat",
+            "text": "Jaga area tindakan, pisahkan bersih-kotor, dan laporkan kebutuhan pembersihan tambahan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🧺 Linen",
+      "caption": "Jangan membuat linen kotor mencemari area bersih.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Pilah",
+            "text": "Pisahkan linen bersih dan kotor di sumber."
+          },
+          {
+            "title": "Tangani",
+            "text": "Gunakan APD sesuai risiko dan jangan mengibaskan linen terkontaminasi."
+          },
+          {
+            "title": "Transport",
+            "text": "Gunakan wadah/alur yang ditetapkan; jangan membawa linen kotor menempel pada seragam."
+          },
+          {
+            "title": "Simpan",
+            "text": "Linen bersih disimpan terlindung dan tidak di lantai/area lembap."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Inti materi — 1 menit",
+      "points": [
+        "Kritikal → steril; semi-kritikal → DTT; non-kritikal → disinfeksi tingkat rendah.",
+        "Pembersihan mendahului disinfeksi/sterilisasi.",
+        "Lingkungan: pembersihan rutin dan terminal sesuai risiko.",
+        "Linen bersih dan kotor harus dipisahkan dan ditransport dengan aman."
+      ]
+    }
+  ],
+  "do": [
+    "Kritikal → steril; semi-kritikal → DTT; non-kritikal → disinfeksi tingkat rendah.",
+    "Pembersihan mendahului disinfeksi/sterilisasi.",
+    "Lingkungan: pembersihan rutin dan terminal sesuai risiko.",
+    "Linen bersih dan kotor harus dipisahkan dan ditransport dengan aman."
+  ],
+  "dont": [],
+  "quiz": [
+    {
+      "q": "Alat yang masuk jaringan steril memerlukan…",
+      "options": [
+        "Disinfeksi rendah saja",
+        "Sterilisasi",
+        "Hanya dilap",
+        "Air biasa"
+      ],
+      "answer": 1,
+      "why": "Alat kritikal harus steril."
+    },
+    {
+      "q": "Apa yang dilakukan sebelum disinfeksi/sterilisasi alat kotor?",
+      "options": [
+        "Langsung dibungkus",
+        "Pembersihan yang sesuai",
+        "Dimasukkan lemari",
+        "Dibiarkan kering"
+      ],
+      "answer": 1,
+      "why": "Bahan organik dapat mengganggu proses disinfeksi/sterilisasi."
+    },
+    {
+      "q": "Linen kotor boleh diletakkan di lantai sementara?",
+      "options": [
+        "Boleh",
+        "Tidak"
+      ],
+      "answer": 1,
+      "why": "Linen harus langsung dikelola dalam wadah/alur yang tepat."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "WHO Infection Prevention and Control resources",
+      "org": "World Health Organization",
+      "url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Dekontaminasi Alat, Lingkungan, dan Linen Proses alat sesuai tingkat risiko, jaga kebersihan lingkungan, dan tangani linen tanpa menyebarkan kontaminasi."
+}

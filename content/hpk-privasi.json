@@ -1,0 +1,189 @@
+{
+  "id": "hpk-privasi",
+  "group": "hpk",
+  "title": "Privasi, Kerahasiaan, dan Perlindungan Pasien",
+  "short": "Privasi, Kerahasiaan, dan Perlindungan Pasien",
+  "desc": "Jaga privasi fisik dan informasi, lindungi pasien rentan, serta kelola barang pasien melalui sistem yang aman.",
+  "category": "HPK",
+  "color": "#A33A75",
+  "soft": "#FCECF5",
+  "icon": "rights",
+  "minutes": 9,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 3,
+  "slides": [
+    {
+      "type": "html",
+      "title": "🔒 Privasi fisik dan informasi",
+      "caption": "Perawat sering berada paling dekat dengan titik rawan privasi.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Privasi fisik",
+            "text": "Gunakan tirai/pintu/penutup tubuh saat pemeriksaan atau tindakan; batasi orang yang tidak perlu."
+          },
+          {
+            "title": "Informasi",
+            "text": "Jangan membicarakan diagnosis/kondisi pasien di ruang publik atau kepada pihak yang tidak berhak."
+          },
+          {
+            "title": "Rekam medis",
+            "text": "Akses hanya untuk kebutuhan pelayanan dan sesuai kewenangan."
+          },
+          {
+            "title": "Foto/video",
+            "text": "Jangan memotret atau merekam pasien dengan perangkat pribadi tanpa dasar, tujuan, persetujuan, dan sistem yang sah."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🛡️ Perlindungan pasien",
+      "caption": "Pasien harus terlindungi dari kekerasan, pelecehan, penelantaran, dan risiko eksploitasi.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Kenali risiko",
+            "text": "Perhatikan tanda kekerasan/abuse, neglect, self-harm, trafficking, atau risiko lain sesuai konteks."
+          },
+          {
+            "title": "Populasi rentan",
+            "text": "Anak, lansia, disabilitas, gangguan mental, dan pasien dengan ketergantungan tinggi memerlukan perhatian khusus."
+          },
+          {
+            "title": "Laporkan/escalate",
+            "text": "Gunakan alur perlindungan pasien dan keamanan RS; jangan menangani sendiri situasi berisiko tinggi."
+          },
+          {
+            "title": "Nilai/keyakinan",
+            "text": "Hormati budaya, agama, dan nilai pasien sepanjang tidak membahayakan keselamatan atau melanggar hukum."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "👜 Barang milik pasien",
+      "caption": "Tujuannya mencegah kehilangan dan konflik.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Inventaris bila diperlukan",
+            "text": "Gunakan formulir/prosedur RS untuk barang berharga."
+          },
+          {
+            "title": "Serah terima",
+            "text": "Dokumentasikan penitipan/pengembalian bila sistem mengharuskan."
+          },
+          {
+            "title": "Jangan mengambil alih informal",
+            "text": "Hindari menyimpan barang pasien secara pribadi."
+          },
+          {
+            "title": "Jika hilang/bermasalah",
+            "text": "Laporkan melalui sistem keamanan/administrasi yang berlaku."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Inti materi — 1 menit",
+      "points": [
+        "Jaga privasi fisik saat tindakan dan kerahasiaan informasi pasien.",
+        "Foto/video pasien hanya melalui proses yang sah; hindari perangkat pribadi untuk dokumentasi tidak resmi.",
+        "Kenali dan eskalasi risiko kekerasan/penelantaran pada pasien rentan.",
+        "Barang pasien dikelola melalui sistem RS, bukan penitipan pribadi."
+      ]
+    }
+  ],
+  "do": [
+    "Jaga privasi fisik saat tindakan dan kerahasiaan informasi pasien.",
+    "Foto/video pasien hanya melalui proses yang sah; hindari perangkat pribadi untuk dokumentasi tidak resmi.",
+    "Kenali dan eskalasi risiko kekerasan/penelantaran pada pasien rentan.",
+    "Barang pasien dikelola melalui sistem RS, bukan penitipan pribadi."
+  ],
+  "dont": [],
+  "quiz": [
+    {
+      "q": "Perawat mendiskusikan diagnosis pasien dengan suara keras di lift. Apakah tepat?",
+      "options": [
+        "Ya",
+        "Tidak, itu berisiko melanggar kerahasiaan"
+      ],
+      "answer": 1,
+      "why": "Informasi kesehatan hanya dibagikan untuk kebutuhan yang sah."
+    },
+    {
+      "q": "Saat perawatan luka di ruang bersama, yang tepat adalah…",
+      "options": [
+        "Membuka tubuh seluas mungkin",
+        "Menggunakan tirai/penutup dan mengekspos hanya area yang perlu",
+        "Mengundang pengunjung melihat",
+        "Merekam dengan HP pribadi"
+      ],
+      "answer": 1,
+      "why": "Privasi fisik harus dijaga selama tindakan."
+    },
+    {
+      "q": "Jika dicurigai kekerasan pada pasien rentan, perawat sebaiknya…",
+      "options": [
+        "Mengabaikan",
+        "Mengikuti alur asesmen, perlindungan, dan eskalasi RS",
+        "Mengunggah ke media sosial",
+        "Menangani sendiri tanpa dokumentasi"
+      ],
+      "answer": 1,
+      "why": "Kasus perlindungan membutuhkan proses terstruktur."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "Undang-Undang Nomor 17 Tahun 2023 tentang Kesehatan",
+      "org": "Republik Indonesia",
+      "url": "https://peraturan.bpk.go.id/Details/258028/uu-no-17-tahun-2023"
+    },
+    {
+      "title": "Peraturan Pemerintah Nomor 28 Tahun 2024 — Peraturan Pelaksanaan UU 17/2023",
+      "org": "Republik Indonesia",
+      "url": "https://peraturan.bpk.go.id/Details/294077/pp-no-28-tahun-2024"
+    },
+    {
+      "title": "Permenkes Nomor 6 Tahun 2026 tentang Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Privasi, Kerahasiaan, dan Perlindungan Pasien Jaga privasi fisik dan informasi, lindungi pasien rentan, serta kelola barang pasien melalui sistem yang aman."
+}

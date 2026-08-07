@@ -1,7 +1,10 @@
-VALIDATION V5.0.0
-PASS
-- Kelompok: 9
-- Submateri: 67
-- Poster WebP: 15
-- Total slide: 480
-- Total bank soal: 532
+Portal Keperawatan v6.0.0 validation: PASS
+Groups: 9
+Topics: 40
+Content JSON: 40
+Poster assets: 15 (+ thumbnails)
+Group counts: {'skp': 6, 'pp': 4, 'pap': 8, 'ppi': 6, 'pkpo': 5, 'pmkp': 2, 'hpk': 3, 'ke': 2, 'mfk': 4}
+pemilahan-limbah-rs.webp: 1122x1402, 188 KB
+cara-menggunakan-apar.webp: 1024x1536, 242 KB
+
+Checks passed: JSON/schema essentials, 40-topic structure, title policy, no v4/v5 visual refs, image paths, 13 INM, IKP categories, current rights/duties list counts, JS syntax, PWA asset version, desktop back styling, slide reset.

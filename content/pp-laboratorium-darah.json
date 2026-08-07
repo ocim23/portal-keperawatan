@@ -1,50 +1,68 @@
 {
   "id": "pp-laboratorium-darah",
   "group": "pp",
-  "title": "Spesimen, Hasil Kritis, dan Pelayanan Darah",
-  "short": "Spesimen, Hasil Kritis, dan Pelayanan Darah",
-  "desc": "Persiapan spesimen, tindak lanjut hasil kritis, dan keselamatan pelayanan darah.",
+  "title": "Pelayanan Laboratorium dan Darah",
+  "short": "Pelayanan Laboratorium dan Darah",
+  "desc": "Pastikan pasien, permintaan, spesimen, label, transport, hasil kritis, dan pelayanan darah berjalan aman.",
   "category": "PP",
   "color": "#0F766E",
   "soft": "#E7F7F4",
   "icon": "monitor",
-  "priority": "knowledge",
-  "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 15,
+  "minutes": 9,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Peran perawat dalam pelayanan laboratorium",
-      "caption": "Fokus perawat berada pada keselamatan pasien, spesimen yang benar, dan tindak lanjut hasil.",
+      "title": "🧪 Sebelum sampai laboratorium",
+      "caption": "Kesalahan pra-analitik sering terjadi di titik pelayanan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Persiapan pasien",
-            "text": "Pastikan identitas, instruksi, puasa atau persiapan khusus, alergi, dan kondisi klinis."
+            "title": "Benar pasien dan pemeriksaan",
+            "text": "Cocokkan identitas dengan permintaan/order."
           },
           {
-            "title": "Pengambilan spesimen",
-            "text": "Gunakan teknik yang benar, identifikasi pasien sebelum mengambil, dan labeli di sisi pasien."
+            "title": "Spesimen benar",
+            "text": "Gunakan jenis wadah, volume, dan persiapan yang sesuai."
           },
           {
-            "title": "Pengiriman",
-            "text": "Gunakan wadah, waktu, suhu, dan jalur transportasi sesuai jenis pemeriksaan."
+            "title": "Label di dekat pasien",
+            "text": "Label setelah identitas diverifikasi; hindari tabung tanpa identitas."
           },
           {
-            "title": "Spesimen tidak layak",
-            "text": "Kenali label tidak lengkap, volume kurang, hemolisis, kontaminasi, atau keterlambatan; jangan memaksakan pemrosesan."
+            "title": "Transport",
+            "text": "Kirim sesuai ketentuan waktu, suhu, dan keamanan spesimen."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "📊 Hasil dan POCT",
+      "caption": "Hasil harus dapat digunakan dengan benar.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Nilai rujukan",
+            "text": "Interpretasikan hasil dalam konteks nilai rujukan dan kondisi klinis."
           },
           {
             "title": "Hasil kritis",
-            "text": "Terima, catat, baca kembali bila diperlukan, laporkan segera, dan dokumentasikan tindak lanjut."
+            "text": "Ikuti alur SKP 2: komunikasi cepat, read-back, dan eskalasi; tidak perlu diulang sebagai materi baru."
           },
           {
-            "title": "Keselamatan darah",
-            "text": "Untuk pelayanan darah, jaga identifikasi, rantai penyimpanan/transportasi, dan kesiapan transfusi."
+            "title": "POCT",
+            "text": "Hanya dilakukan oleh petugas yang kompeten/berwenang dengan alat dan kontrol mutu yang sesuai."
+          },
+          {
+            "title": "TAT",
+            "text": "Target rutin/cito mengikuti standar pelayanan rumah sakit; jangan menganggap satu angka berlaku untuk semua RS."
           }
         ],
         "columns": 2,
@@ -53,186 +71,26 @@
     },
     {
       "type": "html",
-      "title": "Hal yang harus dapat dijelaskan saat ditanya",
-      "caption": "Surveior dapat menelusur satu hasil atau spesimen dari awal sampai tindak lanjut.",
+      "title": "🩸 Pelayanan darah",
+      "caption": "Transfusi rinci dibahas pada PAP.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Bagaimana memastikan spesimen milik pasien yang benar?",
-            "text": "Jelaskan identifikasi aktif dan pelabelan di sisi pasien."
+            "title": "Permintaan dan persetujuan",
+            "text": "Pastikan order dan persetujuan yang dibutuhkan tersedia."
           },
           {
-            "title": "Apa yang dilakukan bila hasil kritis diterima?",
-            "text": "Sebutkan pelaporan cepat, read-back/konfirmasi, dokumentasi waktu, penerima, dan tindak lanjut."
+            "title": "Kompatibilitas",
+            "text": "Proses pemeriksaan golongan/crossmatch harus terhubung dengan identitas pasien yang benar."
           },
           {
-            "title": "Apa yang dilakukan bila spesimen ditolak?",
-            "text": "Ambil ulang secara aman setelah penyebab diperbaiki dan informasikan kepada pasien/tim."
+            "title": "Serah terima komponen",
+            "text": "Periksa data yang diperlukan saat menerima komponen darah."
           },
           {
-            "title": "Bagaimana menjaga keselamatan darah?",
-            "text": "Gunakan proses identifikasi, penyimpanan, transportasi, dan monitoring sesuai ketentuan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Pelayanan tersedia sesuai kebutuhan",
-            "text": "Pemeriksaan laboratorium dan pelayanan darah harus mendukung kebutuhan pasien, termasuk pelayanan darurat dan rujukan."
-          },
-          {
-            "title": "Spesimen harus dapat ditelusuri",
-            "text": "Identitas pasien, jenis spesimen, waktu pengambilan, dan kondisi pengiriman harus benar sejak sisi pasien."
-          },
-          {
-            "title": "Nilai kritis membutuhkan komunikasi cepat",
-            "text": "Hasil kritis diterima, dibaca kembali bila diperlukan, dilaporkan kepada pihak berwenang, dan ditindaklanjuti sesuai alur."
-          },
-          {
-            "title": "POCT memerlukan kompetensi",
-            "text": "Pemeriksaan di sisi pasien hanya dilakukan oleh petugas yang kompeten dengan alat, kontrol mutu, dan dokumentasi yang sesuai."
-          },
-          {
-            "title": "Pelayanan darah berisiko tinggi",
-            "text": "Identifikasi, penyimpanan, transportasi, pemberian, dan pemantauan reaksi harus mengikuti proses keselamatan yang ketat."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Verifikasi permintaan",
-            "text": "Pastikan pemeriksaan sesuai instruksi dan pasien yang benar."
-          },
-          {
-            "title": "Identifikasi di sisi pasien",
-            "text": "Gunakan minimal dua identitas sebelum mengambil dan melabel spesimen."
-          },
-          {
-            "title": "Ambil dan label dengan benar",
-            "text": "Gunakan wadah tepat; label dilakukan sesuai kebijakan tanpa meninggalkan sisi pasien."
-          },
-          {
-            "title": "Kirim dan pantau",
-            "text": "Jaga waktu, suhu, dan keamanan; tindak lanjuti hasil yang belum tersedia."
-          },
-          {
-            "title": "Eskalasi nilai kritis",
-            "text": "Catat waktu, pemberi, penerima, hasil read-back, dan tindakan berikutnya."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktiknya di unit",
-      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Praktik pengambilan spesimen",
-            "text": "Cocokkan pasien–permintaan–wadah, jelaskan tindakan, ambil dengan teknik aman, labeli, dan dokumentasikan."
-          },
-          {
-            "title": "Praktik menerima nilai kritis",
-            "text": "Tulis hasil lengkap, baca kembali, konfirmasi, laporkan segera, lalu dokumentasikan tindak lanjut."
-          },
-          {
-            "title": "Praktik POCT",
-            "text": "Periksa identitas, alat, bahan, kontrol mutu, lakukan sesuai kompetensi, dan masukkan hasil ke rekam medis."
-          },
-          {
-            "title": "Praktik pelayanan darah",
-            "text": "Lakukan verifikasi berlapis, observasi awal ketat, dan kenali tanda reaksi transfusi."
-          },
-          {
-            "title": "Bila spesimen tidak sesuai",
-            "text": "Jangan mengubah label atau menebak; hentikan proses dan ikuti alur penolakan/pengambilan ulang."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Menjaga identifikasi",
-            "text": "Perawat menghubungkan pasien, spesimen, hasil, dan tindakan secara benar."
-          },
-          {
-            "title": "Mengamati kondisi pasien",
-            "text": "Perubahan klinis lebih penting daripada angka laboratorium semata."
-          },
-          {
-            "title": "Menerapkan komunikasi efektif",
-            "text": "Gunakan TBaK/read-back untuk hasil kritis sesuai kebijakan."
-          },
-          {
-            "title": "Menjaga alat POCT",
-            "text": "Ikuti pemeliharaan, kontrol, dan pelaporan masalah."
-          },
-          {
-            "title": "Mendokumentasikan",
-            "text": "Catat tindakan, hasil, waktu, komunikasi, dan respons pasien."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Melabel jauh dari pasien",
-            "text": "Meningkatkan risiko salah identitas dan salah hasil."
-          },
-          {
-            "title": "Menganggap hasil kritis selesai setelah diterima",
-            "text": "Hasil belum aman sampai diteruskan dan ditindaklanjuti."
-          },
-          {
-            "title": "POCT tanpa kontrol mutu",
-            "text": "Hasil dapat tampak meyakinkan tetapi tidak dapat dipercaya."
-          },
-          {
-            "title": "Mengambil darah dari jalur infus tanpa penilaian",
-            "text": "Dapat mencemari atau mengencerkan spesimen."
-          },
-          {
-            "title": "Meneruskan transfusi saat dicurigai reaksi",
-            "text": "Keselamatan pasien harus diprioritaskan dan alur reaksi diaktifkan."
+            "title": "Transfusi",
+            "text": "Gunakan langkah transfusi aman pada materi Transfusi Darah Aman."
           }
         ],
         "columns": 2,
@@ -242,463 +100,77 @@
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Persiapan pasien: Pastikan identitas, instruksi, puasa atau persiapan khusus, alergi, dan kondisi klinis.",
-        "Pengambilan spesimen: Gunakan teknik yang benar, identifikasi pasien sebelum mengambil, dan labeli di sisi pasien.",
-        "Pengiriman: Gunakan wadah, waktu, suhu, dan jalur transportasi sesuai jenis pemeriksaan.",
-        "Spesimen tidak layak: Kenali label tidak lengkap, volume kurang, hemolisis, kontaminasi, atau keterlambatan; jangan memaksakan pemrosesan.",
-        "Bagaimana memastikan spesimen milik pasien yang benar?: Jelaskan identifikasi aktif dan pelabelan di sisi pasien.",
-        "Apa yang dilakukan bila hasil kritis diterima?: Sebutkan pelaporan cepat, read-back/konfirmasi, dokumentasi waktu, penerima, dan tindak lanjut."
-      ]
-    },
-    {
-      "title": "Konsep utama",
-      "points": [
-        "Pemeriksaan laboratorium dan pelayanan darah harus mendukung kebutuhan pasien, termasuk pelayanan darurat dan rujukan.",
-        "Identitas pasien, jenis spesimen, waktu pengambilan, dan kondisi pengiriman harus benar sejak sisi pasien.",
-        "Hasil kritis diterima, dibaca kembali bila diperlukan, dilaporkan kepada pihak berwenang, dan ditindaklanjuti sesuai alur."
-      ]
-    },
-    {
-      "title": "Alur aman",
-      "points": [
-        "Verifikasi permintaan: Pastikan pemeriksaan sesuai instruksi dan pasien yang benar.",
-        "Identifikasi di sisi pasien: Gunakan minimal dua identitas sebelum mengambil dan melabel spesimen.",
-        "Ambil dan label dengan benar: Gunakan wadah tepat; label dilakukan sesuai kebijakan tanpa meninggalkan sisi pasien."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "Praktik pengambilan spesimen: Cocokkan pasien–permintaan–wadah, jelaskan tindakan, ambil dengan teknik aman, labeli, dan dokumentasikan.",
-        "Praktik menerima nilai kritis: Tulis hasil lengkap, baca kembali, konfirmasi, laporkan segera, lalu dokumentasikan tindak lanjut.",
-        "Praktik POCT: Periksa identitas, alat, bahan, kontrol mutu, lakukan sesuai kompetensi, dan masukkan hasil ke rekam medis."
-      ]
-    },
-    {
-      "title": "Peran perawat",
-      "points": [
-        "Perawat menghubungkan pasien, spesimen, hasil, dan tindakan secara benar.",
-        "Perubahan klinis lebih penting daripada angka laboratorium semata.",
-        "Gunakan TBaK/read-back untuk hasil kritis sesuai kebijakan."
+        "Benar pasien, pemeriksaan, spesimen, label, dan transport.",
+        "Label spesimen dilakukan di dekat pasien setelah verifikasi identitas.",
+        "POCT hanya oleh petugas kompeten/berwenang.",
+        "Hasil kritis mengikuti alur komunikasi SKP 2; TAT operasional ditetapkan RS."
       ]
     }
   ],
   "do": [
-    "Cocokkan pasien–permintaan–wadah, jelaskan tindakan, ambil dengan teknik aman, labeli, dan dokumentasikan.",
-    "Tulis hasil lengkap, baca kembali, konfirmasi, laporkan segera, lalu dokumentasikan tindak lanjut.",
-    "Periksa identitas, alat, bahan, kontrol mutu, lakukan sesuai kompetensi, dan masukkan hasil ke rekam medis.",
-    "Lakukan verifikasi berlapis, observasi awal ketat, dan kenali tanda reaksi transfusi.",
-    "Jangan mengubah label atau menebak; hentikan proses dan ikuti alur penolakan/pengambilan ulang."
+    "Benar pasien, pemeriksaan, spesimen, label, dan transport.",
+    "Label spesimen dilakukan di dekat pasien setelah verifikasi identitas.",
+    "POCT hanya oleh petugas kompeten/berwenang.",
+    "Hasil kritis mengikuti alur komunikasi SKP 2; TAT operasional ditetapkan RS."
   ],
-  "dont": [
-    "Meningkatkan risiko salah identitas dan salah hasil.",
-    "Hasil belum aman sampai diteruskan dan ditindaklanjuti.",
-    "Hasil dapat tampak meyakinkan tetapi tidak dapat dipercaya.",
-    "Dapat mencemari atau mengencerkan spesimen.",
-    "Keselamatan pasien harus diprioritaskan dan alur reaksi diaktifkan."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Dalam situasi “Praktik pengambilan spesimen”, tindakan yang paling tepat adalah…",
+      "q": "Kapan tabung spesimen diberi label?",
       "options": [
-        "Cocokkan pasien–permintaan–wadah, jelaskan tindakan, ambil dengan teknik aman, labeli, dan dokumentasikan.",
-        "Meningkatkan risiko salah identitas dan salah hasil.",
-        "Hasil belum aman sampai diteruskan dan ditindaklanjuti.",
-        "Hasil dapat tampak meyakinkan tetapi tidak dapat dipercaya."
+        "Jauh sebelum bertemu pasien",
+        "Di dekat pasien setelah identitas diverifikasi",
+        "Setelah semua tabung satu ruangan terkumpul",
+        "Saat tiba di laboratorium"
       ],
-      "answer": 0,
-      "why": "Cocokkan pasien–permintaan–wadah, jelaskan tindakan, ambil dengan teknik aman, labeli, dan dokumentasikan."
+      "answer": 1,
+      "why": "Pelabelan dekat pasien menurunkan risiko tertukar."
     },
     {
-      "q": "Dalam situasi “Praktik menerima nilai kritis”, tindakan yang paling tepat adalah…",
+      "q": "POCT sebaiknya dilakukan oleh…",
       "options": [
-        "Hasil belum aman sampai diteruskan dan ditindaklanjuti.",
-        "Hasil dapat tampak meyakinkan tetapi tidak dapat dipercaya.",
-        "Dapat mencemari atau mengencerkan spesimen.",
-        "Tulis hasil lengkap, baca kembali, konfirmasi, laporkan segera, lalu dokumentasikan tindak lanjut."
+        "Siapa saja",
+        "Petugas yang kompeten/berwenang sesuai sistem RS",
+        "Keluarga",
+        "Petugas tanpa pelatihan"
       ],
-      "answer": 3,
-      "why": "Tulis hasil lengkap, baca kembali, konfirmasi, laporkan segera, lalu dokumentasikan tindak lanjut."
+      "answer": 1,
+      "why": "POCT membutuhkan kompetensi dan kontrol mutu."
     },
     {
-      "q": "Dalam situasi “Praktik POCT”, tindakan yang paling tepat adalah…",
+      "q": "Berapa TAT cito universal untuk semua pemeriksaan dan semua RS?",
       "options": [
-        "Dapat mencemari atau mengencerkan spesimen.",
-        "Keselamatan pasien harus diprioritaskan dan alur reaksi diaktifkan.",
-        "Periksa identitas, alat, bahan, kontrol mutu, lakukan sesuai kompetensi, dan masukkan hasil ke rekam medis.",
-        "Hasil dapat tampak meyakinkan tetapi tidak dapat dipercaya."
+        "10 menit",
+        "30 menit",
+        "Tidak ada satu angka universal; mengikuti standar layanan yang ditetapkan",
+        "2 jam"
       ],
       "answer": 2,
-      "why": "Periksa identitas, alat, bahan, kontrol mutu, lakukan sesuai kompetensi, dan masukkan hasil ke rekam medis."
-    },
-    {
-      "q": "Dalam situasi “Praktik pelayanan darah”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Meningkatkan risiko salah identitas dan salah hasil.",
-        "Lakukan verifikasi berlapis, observasi awal ketat, dan kenali tanda reaksi transfusi.",
-        "Dapat mencemari atau mengencerkan spesimen.",
-        "Keselamatan pasien harus diprioritaskan dan alur reaksi diaktifkan."
-      ],
-      "answer": 1,
-      "why": "Lakukan verifikasi berlapis, observasi awal ketat, dan kenali tanda reaksi transfusi."
-    },
-    {
-      "q": "Dalam situasi “Bila spesimen tidak sesuai”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Jangan mengubah label atau menebak; hentikan proses dan ikuti alur penolakan/pengambilan ulang.",
-        "Keselamatan pasien harus diprioritaskan dan alur reaksi diaktifkan.",
-        "Meningkatkan risiko salah identitas dan salah hasil.",
-        "Hasil belum aman sampai diteruskan dan ditindaklanjuti."
-      ],
-      "answer": 0,
-      "why": "Jangan mengubah label atau menebak; hentikan proses dan ikuti alur penolakan/pengambilan ulang."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Pelayanan tersedia sesuai kebutuhan” adalah…",
-      "options": [
-        "Meningkatkan risiko salah identitas dan salah hasil.",
-        "Pemeriksaan laboratorium dan pelayanan darah harus mendukung kebutuhan pasien, termasuk pelayanan darurat dan rujukan.",
-        "Hasil dapat tampak meyakinkan tetapi tidak dapat dipercaya.",
-        "Dapat mencemari atau mengencerkan spesimen."
-      ],
-      "answer": 1,
-      "why": "Pemeriksaan laboratorium dan pelayanan darah harus mendukung kebutuhan pasien, termasuk pelayanan darurat dan rujukan."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Spesimen harus dapat ditelusuri” adalah…",
-      "options": [
-        "Hasil belum aman sampai diteruskan dan ditindaklanjuti.",
-        "Identitas pasien, jenis spesimen, waktu pengambilan, dan kondisi pengiriman harus benar sejak sisi pasien.",
-        "Dapat mencemari atau mengencerkan spesimen.",
-        "Keselamatan pasien harus diprioritaskan dan alur reaksi diaktifkan."
-      ],
-      "answer": 1,
-      "why": "Identitas pasien, jenis spesimen, waktu pengambilan, dan kondisi pengiriman harus benar sejak sisi pasien."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Nilai kritis membutuhkan komunikasi cepat” adalah…",
-      "options": [
-        "Hasil dapat tampak meyakinkan tetapi tidak dapat dipercaya.",
-        "Hasil kritis diterima, dibaca kembali bila diperlukan, dilaporkan kepada pihak berwenang, dan ditindaklanjuti sesuai alur.",
-        "Keselamatan pasien harus diprioritaskan dan alur reaksi diaktifkan.",
-        "Meningkatkan risiko salah identitas dan salah hasil."
-      ],
-      "answer": 1,
-      "why": "Hasil kritis diterima, dibaca kembali bila diperlukan, dilaporkan kepada pihak berwenang, dan ditindaklanjuti sesuai alur."
+      "why": "Jenis pemeriksaan dan sistem layanan berbeda."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
-      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
-      "org": "Kementerian Kesehatan Republik Indonesia",
-      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
     },
     {
-      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
       "org": "Rumah sakit masing-masing",
       "url": ""
     }
   ],
-  "keywords": [
-    "3",
-    "3.3",
-    "3.5",
-    "3.6",
-    "3.9",
-    "aktif",
-    "alasan",
-    "alat",
-    "alergi",
-    "alur",
-    "alur.",
-    "alurnya",
-    "aman",
-    "ambil",
-    "angka",
-    "apa",
-    "atau",
-    "awal",
-    "baca",
-    "bagaimana",
-    "bahan",
-    "belum",
-    "benar",
-    "benar.",
-    "berada",
-    "berikutnya.",
-    "berisiko",
-    "berlapis",
-    "berwenang",
-    "bila",
-    "catat",
-    "cepat",
-    "cocokkan",
-    "contoh",
-    "dalam",
-    "dan",
-    "dapat",
-    "darah",
-    "darah.",
-    "dari",
-    "daripada",
-    "darurat",
-    "dengan",
-    "di",
-    "diaktifkan.",
-    "dibaca",
-    "dicurigai",
-    "dijelaskan",
-    "dilakukan",
-    "dilaporkan",
-    "dipahami",
-    "diperagakan.",
-    "diperbaiki",
-    "dipercaya.",
-    "diperlukan",
-    "diprioritaskan",
-    "ditanya",
-    "ditelusuri",
-    "diterima",
-    "diteruskan",
-    "ditindaklanjuti",
-    "ditindaklanjuti.",
-    "ditolak",
-    "dokumentasi",
-    "dokumentasikan",
-    "dokumentasikan.",
-    "dua",
-    "efektif",
-    "eskalasi",
-    "fokus",
-    "gimana",
-    "gunakan",
-    "hal",
-    "hanya",
-    "harus",
-    "hasil",
-    "hasil.",
-    "hemolisis",
-    "hentikan",
-    "identifikasi",
-    "identitas",
-    "ikuti",
-    "informasikan",
-    "infus",
-    "instruksi",
-    "intinya",
-    "istilah",
-    "jaga",
-    "jalur",
-    "jangan",
-    "jauh",
-    "jelaskan",
-    "jenis",
-    "ke",
-    "keamanan",
-    "kebiasaan",
-    "kebijakan",
-    "kebijakan.",
-    "kebutuhan",
-    "keliru",
-    "kembali",
-    "kenali",
-    "kepada",
-    "kerja",
-    "keselamatan",
-    "kesiapan",
-    "ketat",
-    "ketat.",
-    "ketentuan.",
-    "keterlambatan",
-    "kewenangan",
-    "khusus",
-    "kirim",
-    "klinis",
-    "klinis.",
-    "kompeten",
-    "kompetensi",
-    "komunikasi",
-    "kondisi",
-    "konfirmasi",
-    "konkret",
-    "konsistensi.",
-    "kontaminasi",
-    "kontrol",
-    "kritis",
-    "kurang",
-    "label",
-    "labeli",
-    "laboratorium",
-    "lakukan",
-    "lalu",
-    "lanjut",
-    "lanjut.",
-    "lanjuti",
-    "laporkan",
-    "layak",
-    "lebih",
-    "lengkap",
-    "masalah.",
-    "masukkan",
-    "medis.",
-    "melabel",
-    "memaksakan",
-    "memastikan",
-    "membantu",
-    "membutuhkan",
-    "memerlukan",
-    "mencemari",
-    "mendokumentasikan",
-    "mendukung",
-    "menebak",
-    "menelusur",
-    "menerapkan",
-    "menerapkan.",
-    "menerima",
-    "meneruskan",
-    "mengamati",
-    "mengambil",
-    "menganggap",
-    "mengencerkan",
-    "menghubungkan",
-    "mengikuti",
-    "mengubah",
-    "meninggalkan",
-    "meningkatkan",
-    "menjaga",
-    "meyakinkan",
-    "milik",
-    "minimal",
-    "monitoring",
-    "mutu",
-    "ngapain",
-    "nilai",
-    "observasi",
-    "oleh",
-    "pada",
-    "pantau",
-    "pasien",
-    "pasien.",
-    "pasien/tim.",
-    "pastikan",
-    "pelabelan",
-    "pelaporan",
-    "pelayanan",
-    "pemantauan",
-    "pemberi",
-    "pemberian",
-    "pemeliharaan",
-    "pemeriksaan",
-    "pemeriksaan.",
-    "pemrosesan.",
-    "penerima",
-    "pengambilan",
-    "pengiriman",
-    "penilaian",
-    "penolakan/pengambilan",
-    "penting",
-    "penyebab",
-    "penyimpanan",
-    "penyimpanan/transportasi",
-    "peran",
-    "perawat",
-    "periksa",
-    "perlu",
-    "permintaan",
-    "persiapan",
-    "perubahan",
-    "petugas",
-    "pihak",
-    "poct",
-    "pp",
-    "praktik",
-    "praktiknya",
-    "proses",
-    "puasa",
-    "rantai",
-    "read-back",
-    "read-back/konfirmasi",
-    "reaksi",
-    "rekam",
-    "respons",
-    "risiko",
-    "risiko.",
-    "rujukan.",
-    "rumah",
-    "saat",
-    "sakit.",
-    "salah",
-    "sampai",
-    "satu",
-    "sebelum",
-    "sebutkan",
-    "secara",
-    "sederhana",
-    "segera",
-    "sejak",
-    "selesai",
-    "semata.",
-    "sering",
-    "sesuai",
-    "sesuai.",
-    "setelah",
-    "sisi",
-    "spesimen",
-    "spesimen.",
-    "suhu",
-    "surveior",
-    "tampak",
-    "tanda",
-    "tanpa",
-    "tbak/read-back",
-    "teknik",
-    "tepat",
-    "terima",
-    "termasuk",
-    "tersedia",
-    "tersedia.",
-    "tetapi",
-    "tidak",
-    "tindak",
-    "tindakan",
-    "tinggi",
-    "transfusi",
-    "transfusi.",
-    "transportasi",
-    "tulis",
-    "ulang",
-    "ulang.",
-    "unit",
-    "untuk",
-    "urutan",
-    "verifikasi",
-    "volume",
-    "wadah",
-    "waktu",
-    "yang"
-  ],
-  "instrumentCodes": [
-    "PP 3",
-    "PP 3.3",
-    "PP 3.5",
-    "PP 3.6",
-    "PP 3.9"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    283,
-    286,
-    288,
-    289,
-    291
-  ],
-  "standardRef": "PP 3, PP 3.3, PP 3.5, PP 3.6, dan PP 3.9",
-  "searchText": "Spesimen, Hasil Kritis, dan Pelayanan Darah Persiapan spesimen, tindak lanjut hasil kritis, dan keselamatan pelayanan darah. PP 3, PP 3.3, PP 3.5, PP 3.6, dan PP 3.9 Peran perawat dalam pelayanan laboratorium Fokus perawat berada pada keselamatan pasien, spesimen yang benar, dan tindak lanjut hasil. Persiapan pasien Pastikan identitas, instruksi, puasa atau persiapan khusus, alergi, dan kondisi klinis. Pengambilan spesimen Gunakan teknik yang benar, identifikasi pasien sebelum mengambil, dan labeli di sisi pasien. Pengiriman Gunakan wadah, waktu, suhu, dan jalur transportasi sesuai jenis pemeriksaan. Spesimen tidak layak Kenali label tidak lengkap, volume kurang, hemolisis, kontaminasi, atau keterlambatan; jangan memaksakan pemrosesan. Hasil kritis Terima, catat, baca kembali bila diperlukan, laporkan segera, dan dokumentasikan tindak lanjut. Keselamatan darah Untuk pelayanan darah, jaga identifikasi, rantai penyimpanan/transportasi, dan kesiapan transfusi. Hal yang harus dapat dijelaskan saat ditanya Surveior dapat menelusur satu hasil atau spesimen dari awal sampai tindak lanjut. Bagaimana memastikan spesimen milik pasien yang benar? Jelaskan identifikasi aktif dan pelabelan di sisi pasien. Apa yang dilakukan bila hasil kritis diterima? Sebutkan pelaporan cepat, read-back/konfirmasi, dokumentasi waktu, penerima, dan tindak lanjut. Apa yang dilakukan bila spesimen ditolak? Ambil ulang secara aman setelah penyebab diperbaiki dan informasikan kepada pasien/tim. Bagaimana menjaga keselamatan darah? Gunakan proses identifikasi, penyimpanan, transportasi, dan monitoring sesuai ketentuan. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Pelayanan tersedia sesuai kebutuhan Pemeriksaan laboratorium dan pelayanan darah harus mendukung kebutuhan pasien, termasuk pelayanan darurat dan rujukan. Spesimen harus dapat ditelusuri Identitas pasien, jenis spesimen, waktu pengambilan, dan kondisi pengiriman harus benar sejak sisi pasien. Nilai kritis membutuhkan komunikasi cepat Hasil kritis diterima, dibaca kembali bila diperlukan, dilaporkan kepada pihak berwenang, dan ditindaklanjuti sesuai alur. POCT memerlukan kompetensi Pemeriksaan di sisi pasien hanya dilakukan oleh petugas yang kompeten dengan alat, kontrol mutu, dan dokumentasi yang sesuai. Pelayanan darah berisiko tinggi Identifikasi, penyimpanan, transportasi, pemberian, dan pemantauan reaksi harus mengikuti proses keselamatan yang ketat. 🧭 Alurnya gimana? Urutan kerja yang membantu menjaga keselamatan dan konsistensi. Verifikasi permintaan Pastikan pemeriksaan sesuai instruksi dan pasien yang benar. Identifikasi di sisi pasien Gunakan minimal dua identitas sebelum mengambil dan melabel spesimen. Ambil dan label dengan benar Gunakan wadah tepat; label dilakukan sesuai kebijakan tanpa meninggalkan sisi pasien. Kirim dan pantau Jaga waktu, suhu, dan keamanan; tindak lanjuti hasil yang belum tersedia. Eskalasi nilai kritis Catat waktu, pemberi, penerima, hasil read-back, dan tindakan berikutnya. 💪 Praktiknya di unit Contoh tindakan yang dapat dijelaskan atau diperagakan. Praktik pengambilan spesimen Cocokkan pasien–permintaan–wadah, jelaskan tindakan, ambil dengan teknik aman, labeli, dan dokumentasikan. Praktik menerima nilai kritis Tulis hasil lengkap, baca kembali, konfirmasi, laporkan segera, lalu dokumentasikan tindak lanjut. Praktik POCT Periksa identitas, alat, bahan, kontrol mutu, lakukan sesuai kompetensi, dan masukkan hasil ke rekam medis. Praktik pelayanan darah Lakukan verifikasi berlapis, observasi awal ketat, dan kenali tanda reaksi transfusi. Bila spesimen tidak sesuai Jangan mengubah label atau menebak; hentikan proses dan ikuti alur penolakan/pengambilan ulang. 💪 Perawat harus ngapain? Tindakan konkret sesuai kewenangan dan proses rumah sakit. Menjaga identifikasi Perawat menghubungkan pasien, spesimen, hasil, dan tindakan secara benar. Mengamati kondisi pasien Perubahan klinis lebih penting daripada angka laboratorium semata. Menerapkan komunikasi efektif Gunakan TBaK/read-back untuk hasil kritis sesuai kebijakan. Menjaga alat POCT Ikuti pemeliharaan, kontrol, dan pelaporan masalah. Mendokumentasikan Catat tindakan, hasil, waktu, komunikasi, dan respons pasien. 🚨 Apa yang sering keliru? Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko. Melabel jauh dari pasien Meningkatkan risiko salah identitas dan salah hasil. Menganggap hasil kritis selesai setelah diterima Hasil belum aman sampai diteruskan dan ditindaklanjuti. POCT tanpa kontrol mutu Hasil dapat tampak meyakinkan tetapi tidak dapat dipercaya. Mengambil darah dari jalur infus tanpa penilaian Dapat mencemari atau mengencerkan spesimen. Meneruskan transfusi saat dicurigai reaksi Keselamatan pasien harus diprioritaskan dan alur reaksi diaktifkan."
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Pelayanan Laboratorium dan Darah Pastikan pasien, permintaan, spesimen, label, transport, hasil kritis, dan pelayanan darah berjalan aman."
 }

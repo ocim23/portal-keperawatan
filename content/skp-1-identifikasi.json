@@ -1,40 +1,40 @@
 {
   "id": "skp-1-identifikasi",
   "group": "skp",
-  "title": "Identifikasi Pasien dengan Benar",
-  "short": "Identifikasi Pasien dengan Benar",
-  "desc": "Dua identitas, pertanyaan aktif, waktu identifikasi, dan situasi khusus.",
+  "title": "SKP 1 — Identifikasi Pasien dengan Benar",
+  "short": "SKP 1 — Identifikasi Pasien dengan Benar",
+  "desc": "Gunakan minimal dua identitas yang sah dan verifikasi aktif pada setiap titik pelayanan penting.",
   "category": "SKP",
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 20,
+  "minutes": 12,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "💡 Dua identitas dan pertanyaan aktif",
-      "caption": "Minta pasien menyebutkan identitasnya, lalu cocokkan dengan gelang dan dokumen/label.",
+      "title": "🎯 Dua identitas, ditanyakan secara aktif",
+      "caption": "Identifikasi bukan sekadar melihat gelang atau mengenali wajah.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Pertanyaan aktif — gunakan",
-            "text": "“Mohon sebutkan nama lengkap dan tanggal lahir Ibu.”"
-          },
-          {
-            "title": "Pertanyaan pasif — hindari",
-            "text": "“Ibu Siti, lahir 10 Mei, benar?” Pasien hanya perlu mengiyakan."
-          },
-          {
             "title": "Minimal dua identitas",
-            "text": "Gunakan pasangan identitas yang ditetapkan rumah sakit."
+            "text": "Gunakan dua identitas yang ditetapkan rumah sakit, misalnya nama lengkap dan tanggal lahir/nomor rekam medis."
+          },
+          {
+            "title": "Pertanyaan aktif",
+            "text": "Minta pasien menyebutkan identitasnya: “Mohon sebutkan nama lengkap dan tanggal lahir Ibu.”"
           },
           {
             "title": "Bukan nomor kamar",
-            "text": "Lokasi atau nomor tempat tidur tidak boleh menjadi identitas pasien."
+            "text": "Nomor kamar atau tempat tidur tidak boleh digunakan sebagai identitas pasien."
+          },
+          {
+            "title": "Bila tidak cocok",
+            "text": "Hentikan proses yang tidak emergen sampai ketidaksesuaian identitas diklarifikasi."
           }
         ],
         "columns": 2,
@@ -43,26 +43,54 @@
     },
     {
       "type": "html",
-      "title": "Prinsip identifikasi yang benar",
-      "caption": "Nama kamar, nomor tempat tidur, atau pengenalan wajah tidak boleh menjadi identitas utama.",
+      "title": "💪 Kapan identifikasi dilakukan?",
+      "caption": "Cocokkan orang yang benar dengan pelayanan yang benar.",
       "template": {
-        "style": "checklist",
+        "style": "cards",
         "items": [
           {
-            "title": "Gunakan minimal dua identitas",
-            "text": "Contohnya nama lengkap dan tanggal lahir atau nomor rekam medis sesuai regulasi rumah sakit."
+            "title": "Sebelum obat/terapi",
+            "text": "Termasuk obat, terapi, transfusi darah dan produk darah."
           },
           {
-            "title": "Tanyakan secara aktif",
-            "text": "Minta pasien menyebutkan identitasnya, lalu cocokkan dengan gelang dan dokumen."
+            "title": "Sebelum tindakan/pemeriksaan",
+            "text": "Termasuk prosedur, diagnostik, pengambilan darah, dan pemeriksaan penunjang."
           },
           {
-            "title": "Cocokkan semua sumber",
-            "text": "Identitas pada pasien, gelang, instruksi, label, formulir, dan spesimen harus konsisten."
+            "title": "Spesimen dan label",
+            "text": "Verifikasi sebelum pengambilan dan beri label di dekat pasien."
           },
           {
-            "title": "Hentikan bila tidak sesuai",
-            "text": "Jangan melanjutkan tindakan sampai ketidaksesuaian identitas diselesaikan."
+            "title": "Makanan/diet",
+            "text": "Pastikan makanan atau terapi nutrisi diberikan kepada pasien yang benar."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🧩 Jika pasien tidak dapat menjawab",
+      "caption": "Jangan menebak identitas.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Tidak sadar/afasia/kondisi lain",
+            "text": "Cocokkan gelang dengan sedikitnya dua sumber resmi seperti rekam medis, order, atau dokumen."
+          },
+          {
+            "title": "Keluarga/pendamping",
+            "text": "Dapat menjadi konfirmasi tambahan, tetapi bukan syarat wajib pada setiap verifikasi."
+          },
+          {
+            "title": "Identitas belum diketahui",
+            "text": "Gunakan identitas sementara yang unik sesuai sistem rumah sakit."
+          },
+          {
+            "title": "Nama sama/mirip",
+            "text": "Gunakan identitas tambahan dan tingkatkan kewaspadaan."
           }
         ],
         "columns": 2,
@@ -71,738 +99,86 @@
     },
     {
       "type": "image",
-      "title": "Ilustrasi identifikasi dua identitas",
-      "caption": "Gunakan pertanyaan aktif dan cocokkan minimal dua identitas.",
-      "image": "assets/images/posters/v5/identifikasi-dua-identitas.webp",
-      "thumbnail": "assets/images/posters/v5/thumb/identifikasi-dua-identitas.webp"
-    },
-    {
-      "type": "image",
-      "title": "SKP 1 — Identifikasi Pasien",
-      "caption": "Identifikasi menghubungkan orang yang benar dengan obat, tindakan, spesimen, diet, darah, dan informasi yang benar.",
-      "image": "assets/images/v4/skp-1-identifikasi/skp-1-identifikasi-01.webp",
-      "thumbnail": "assets/images/thumb/v4/skp-1-identifikasi/skp-1-identifikasi-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Identitas pasien",
-            "text": "Data yang secara khusus menghubungkan pasien dengan rekam medis dan pelayanan yang ditujukan kepadanya."
-          },
-          {
-            "title": "Identifikasi aktif",
-            "text": "Pasien diminta menyebut identitas, kemudian petugas mencocokkan dengan gelang, rekam medis, label, atau sumber resmi lain."
-          },
-          {
-            "title": "Identifikasi pasif",
-            "text": "Petugas hanya melihat wajah, tempat tidur, atau bertanya dengan jawaban yang sudah disebutkan; cara ini mudah menimbulkan salah pasien."
-          },
-          {
-            "title": "Penanda risiko",
-            "text": "Gelang atau simbol alergi, jatuh, dan kondisi khusus adalah lapisan pengaman tambahan; makna warna mengikuti ketentuan fasilitas."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Sebelum obat dan transfusi",
-            "text": "Cocokkan identitas pasien dengan instruksi, label obat, darah, atau komponen darah sebelum pemberian."
-          },
-          {
-            "title": "Sebelum tindakan",
-            "text": "Verifikasi sebelum tindakan invasif, prosedur diagnostik, pengambilan darah, pemasangan alat, atau terapi."
-          },
-          {
-            "title": "Saat mengambil dan melabel spesimen",
-            "text": "Label dilakukan di dekat pasien setelah identitas diverifikasi; jangan membawa tabung tanpa label ke banyak pasien."
-          },
-          {
-            "title": "Sebelum diet atau ASI perah",
-            "text": "Cocokkan pasien dengan jenis diet, pembatasan, atau produk yang akan diberikan."
-          },
-          {
-            "title": "Saat transfer dan serah terima",
-            "text": "Pastikan identitas dan tujuan transfer cocok serta risiko penting ikut disampaikan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktik: identifikasi pasien secara aktif",
-      "caption": "Urutan yang aman saat melakukan obat, spesimen, transfusi, diet, atau tindakan.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "1. Siapkan sumber pembanding",
-            "text": "Buka order, label, gelang, rekam medis, atau dokumen yang sah sebelum memulai."
-          },
-          {
-            "title": "2. Tanyakan identitas",
-            "text": "Minta pasien menyebutkan identitasnya; hindari pertanyaan yang hanya dijawab “ya/tidak”.",
-            "example": "“Mohon sebutkan nama lengkap dan tanggal lahir Bapak/Ibu.”"
-          },
-          {
-            "title": "3. Cocokkan minimal dua identitas",
-            "text": "Pastikan data yang disebut pasien sama dengan sumber pembanding. Nomor kamar atau bed bukan identitas."
-          },
-          {
-            "title": "4. Cocokkan dengan tindakan",
-            "text": "Pastikan obat, darah, spesimen, diet, atau prosedur memang ditujukan untuk pasien tersebut."
-          },
-          {
-            "title": "5. Tangani kondisi khusus",
-            "text": "Bila pasien tidak mampu menjawab, gunakan gelang/dokumen dan sumber lain yang sah sesuai kebijakan; jangan menebak."
-          },
-          {
-            "title": "6. Label di dekat pasien",
-            "text": "Label spesimen segera setelah pengambilan di hadapan/dekat pasien, lalu verifikasi kembali sebelum meninggalkan area."
-          }
-        ],
-        "columns": 2,
-        "note": "Gelang membantu, tetapi tidak menggantikan proses identifikasi aktif."
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧩 Kalau situasinya berbeda?",
-      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "title": "Pasien tidak sadar atau tidak mampu menjawab",
-            "text": "Gunakan gelang dan sumber resmi lain; verifikasi dengan keluarga atau petugas lain sebagai tambahan, bukan satu-satunya dasar."
-          },
-          {
-            "title": "Pasien tanpa identitas",
-            "text": "Gunakan identitas sementara yang unik sesuai sistem fasilitas dan cegah penggabungan data sebelum identitas dipastikan."
-          },
-          {
-            "title": "Bayi atau kembar",
-            "text": "Gunakan identitas khusus dan cocokkan dengan orang tua serta dokumen terkait; nama yang mirip meningkatkan kebutuhan verifikasi."
-          },
-          {
-            "title": "Nama sama atau mirip",
-            "text": "Gunakan identitas tambahan dan beri kewaspadaan pada sistem tanpa membuka informasi yang tidak perlu."
-          },
-          {
-            "title": "Ketidaksesuaian data",
-            "text": "Jangan mengoreksi sendiri tanpa proses; tahan pelayanan yang tidak emergen dan lakukan klarifikasi resmi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Jelaskan kepada pasien",
-            "text": "Sampaikan bahwa pertanyaan identitas berulang adalah langkah keselamatan, bukan karena petugas lupa."
-          },
-          {
-            "title": "Jaga keterbacaan penanda",
-            "text": "Laporkan gelang rusak, hilang, atau tidak sesuai dan lakukan penggantian melalui proses yang benar."
-          },
-          {
-            "title": "Lindungi privasi",
-            "text": "Gunakan suara yang wajar dan jangan mengumumkan identitas atau diagnosis lebih luas dari yang diperlukan."
-          },
-          {
-            "title": "Hentikan proses tidak aman",
-            "text": "Perawat berhak menahan obat, darah, diet, spesimen, atau tindakan sampai identitas cocok."
-          },
-          {
-            "title": "Dokumentasikan masalah",
-            "text": "Catat ketidaksesuaian dan tindak lanjut bila memengaruhi pelayanan atau keselamatan."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Mengandalkan wajah atau kamar",
-            "text": "Pasien dapat pindah tempat tidur dan petugas dapat keliru mengenali orang yang sudah sering dirawat."
-          },
-          {
-            "title": "Pertanyaan mengarahkan",
-            "text": "“Ibu Siti, ya?” dapat dijawab “ya” oleh pasien bingung atau kurang mendengar."
-          },
-          {
-            "title": "Label spesimen jauh dari pasien",
-            "text": "Meningkatkan risiko tertukar saat beberapa spesimen dikumpulkan bersamaan."
-          },
-          {
-            "title": "Gelang dianggap cukup",
-            "text": "Gelang dapat salah pasang, rusak, atau tidak terbaca; tetap perlu pencocokan aktif."
-          },
-          {
-            "title": "Melewati identifikasi saat sibuk",
-            "text": "Tekanan waktu justru meningkatkan risiko kesalahan dan membutuhkan disiplin verifikasi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
+      "title": "Poster — Identifikasi Dua Identitas",
+      "caption": "Recap visual: tanyakan aktif dan cocokkan minimal dua identitas.",
+      "image": "assets/images/posters/v6/identifikasi-dua-identitas.webp",
+      "thumbnail": "assets/images/posters/v6/thumb/identifikasi-dua-identitas.webp"
     }
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Sebelum pemberian obat: Cocokkan minimal dua identitas pasien dengan instruksi dan label obat.",
-        "Sebelum darah/produk darah: Verifikasi identitas pasien dan komponen darah sesuai proses rumah sakit.",
-        "Sebelum mengambil spesimen: Identifikasi pasien sebelum pengambilan dan beri label spesimen di sisi pasien.",
-        "Sebelum tindakan/prosedur: Pastikan pasien, prosedur, dan bila relevan sisi/lokasi yang benar.",
-        "Gunakan minimal dua identitas: Contohnya nama lengkap dan tanggal lahir atau nomor rekam medis sesuai regulasi rumah sakit.",
-        "Tanyakan secara aktif: Minta pasien menyebutkan identitasnya, lalu cocokkan dengan gelang dan dokumen."
-      ]
-    },
-    {
-      "title": "Dua tujuan identifikasi",
-      "points": [
-        "Memastikan orang yang benar.",
-        "Memastikan pelayanan, produk, dan informasi yang benar diberikan kepada orang tersebut."
-      ]
-    },
-    {
-      "title": "Titik kritis",
-      "points": [
-        "Obat, darah, spesimen, tindakan, diagnostik, diet, transfer, dan pelayanan lain yang berisiko salah pasien."
-      ]
-    },
-    {
-      "title": "Situasi khusus",
-      "points": [
-        "Tidak sadar, bayi, kembar, nama mirip, tanpa identitas, atau data tidak cocok memerlukan pengaman tambahan."
-      ]
-    },
-    {
-      "title": "Warna gelang",
-      "points": [
-        "Makna warna tidak boleh dianggap universal; ikuti ketentuan fasilitas dan tetap lakukan identifikasi aktif."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "1. Siapkan sumber pembanding: Buka order, label, gelang, rekam medis, atau dokumen yang sah sebelum memulai.",
-        "2. Tanyakan identitas: Minta pasien menyebutkan identitasnya; hindari pertanyaan yang hanya dijawab “ya/tidak”."
+        "Minimal dua identitas yang sah.",
+        "Tanyakan secara aktif, jangan menggiring jawaban.",
+        "Nomor kamar/bed bukan identitas.",
+        "Identifikasi sebelum obat, darah, tindakan, pemeriksaan, spesimen, dan makanan.",
+        "Pasien yang tidak dapat menjawab tetap diverifikasi dengan sumber resmi; jangan menebak."
       ]
     }
   ],
   "do": [
-    "Minta pasien menyebutkan identitas bila mampu.",
-    "Cocokkan minimal dua identitas dengan sumber resmi.",
-    "Lakukan verifikasi tepat sebelum pelayanan.",
-    "Label spesimen di dekat pasien setelah verifikasi.",
-    "Hentikan proses bila data tidak cocok.",
-    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
+    "Minimal dua identitas yang sah.",
+    "Tanyakan secara aktif, jangan menggiring jawaban.",
+    "Nomor kamar/bed bukan identitas.",
+    "Identifikasi sebelum obat, darah, tindakan, pemeriksaan, spesimen, dan makanan."
   ],
-  "dont": [
-    "Menggunakan nomor kamar atau lokasi.",
-    "Mengandalkan wajah atau ingatan.",
-    "Mengajukan pertanyaan yang mengarahkan.",
-    "Menganggap gelang risiko sebagai identitas.",
-    "Melabel spesimen jauh dari pasien.",
-    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Pasien sadar dan dapat berkomunikasi. Cara identifikasi paling aman sebelum pemberian obat adalah…",
+      "q": "Cara paling aman mengidentifikasi pasien sadar sebelum memberi obat adalah…",
       "options": [
-        "Melihat wajah dan nomor tempat tidur",
-        "Meminta pasien menyebut nama lengkap dan tanggal lahir lalu mencocokkan dengan sumber resmi",
-        "Bertanya “Bapak Rahman, ya?”",
-        "Meminta keluarga mengangguk"
+        "Meminta pasien menyebut nama dan tanggal lahir lalu mencocokkan dengan sumber resmi",
+        "Melihat nomor tempat tidur",
+        "Bertanya “Ibu Siti, ya?”",
+        "Mengandalkan wajah"
+      ],
+      "answer": 0,
+      "why": "Identifikasi aktif mengurangi risiko pasien sekadar mengiyakan."
+    },
+    {
+      "q": "Pasien tidak sadar dan keluarga belum datang. Apa yang dilakukan?",
+      "options": [
+        "Menunda semua pelayanan",
+        "Menggunakan gelang dan sedikitnya dua sumber resmi sesuai sistem RS",
+        "Menggunakan nomor kamar",
+        "Menebak dari wajah"
       ],
       "answer": 1,
-      "why": "Identifikasi aktif meminta pasien menyebut identitas dan mencocokkannya dengan sumber resmi."
+      "why": "Keluarga hanya tambahan; identifikasi tetap dapat dilakukan dengan sumber resmi."
     },
     {
-      "q": "Dua pasien memiliki nama yang sama. Langkah terbaik adalah…",
+      "q": "Kapan label spesimen sebaiknya dipasang?",
       "options": [
-        "Menggunakan nomor kamar sebagai pembeda",
-        "Memberi obat berdasarkan wajah",
-        "Menggunakan identitas tambahan seperti tanggal lahir atau nomor rekam medis",
-        "Menunggu keluarga salah satu pasien"
-      ],
-      "answer": 2,
-      "why": "Nama yang sama memerlukan identitas tambahan yang spesifik dan resmi."
-    },
-    {
-      "q": "Spesimen darah sudah diambil tetapi label tertinggal di meja perawat. Tindakan paling aman adalah…",
-      "options": [
-        "Melabel berdasarkan ingatan",
-        "Membawa semua tabung ke meja lalu menebak",
-        "Memastikan kembali identitas di dekat pasien dan mengikuti proses koreksi fasilitas",
-        "Menulis nomor kamar saja"
-      ],
-      "answer": 2,
-      "why": "Pelabelan harus dapat ditelusuri dan dilakukan setelah verifikasi dekat pasien; koreksi mengikuti proses yang sah."
-    },
-    {
-      "q": "Pasien tidak sadar dan keluarga belum datang. Identifikasi dilakukan dengan…",
-      "options": [
-        "Satu gelang saja tanpa pencocokan",
-        "Dua sumber identitas resmi yang tersedia sesuai sistem fasilitas",
-        "Nomor kamar dan diagnosis",
-        "Perkiraan usia dan jenis kelamin"
+        "Di ruang perawat setelah semua sampel terkumpul",
+        "Di dekat pasien setelah identitas diverifikasi",
+        "Sebelum bertemu pasien",
+        "Setelah hasil keluar"
       ],
       "answer": 1,
-      "why": "Pasien yang tidak mampu menjawab tetap memerlukan pencocokan dua sumber resmi yang tersedia."
-    },
-    {
-      "q": "Gelang kuning pada pasien berarti…",
-      "options": [
-        "Identitas pasien sudah pasti",
-        "Warna selalu berarti risiko jatuh di semua rumah sakit",
-        "Penanda risiko yang maknanya harus mengikuti kebijakan fasilitas dan tidak menggantikan identifikasi",
-        "Pasien tidak perlu asesmen ulang"
-      ],
-      "answer": 2,
-      "why": "Warna bukan standar universal dan hanya menjadi lapisan tambahan."
-    },
-    {
-      "q": "Sebelum memberikan diet, petugas melihat nama pada baki cocok tetapi tidak memverifikasi pasien. Risiko utamanya adalah…",
-      "options": [
-        "Baki menjadi dingin",
-        "Diet dapat diberikan kepada pasien yang salah",
-        "Dokumentasi menjadi terlalu panjang",
-        "Pasien terlambat pulang"
-      ],
-      "answer": 1,
-      "why": "Diet juga merupakan pelayanan yang perlu dihubungkan dengan pasien yang benar."
-    },
-    {
-      "q": "Saat gelang dan rekam medis menunjukkan tanggal lahir berbeda, perawat seharusnya…",
-      "options": [
-        "Memilih data yang tampak paling masuk akal",
-        "Menghapus salah satu data",
-        "Menahan proses nonemergensi dan melakukan klarifikasi resmi",
-        "Menanyakan kepada pasien lain di kamar"
-      ],
-      "answer": 2,
-      "why": "Ketidaksesuaian identitas harus diselesaikan sebelum proses berisiko dilanjutkan."
-    },
-    {
-      "q": "Mengapa nomor kamar tidak boleh menjadi identitas?",
-      "options": [
-        "Nomor kamar sulit diucapkan",
-        "Lokasi dapat berubah dan tidak spesifik untuk satu orang",
-        "Nomor kamar hanya boleh dipakai dokter",
-        "Karena gelang selalu benar"
-      ],
-      "answer": 1,
-      "why": "Nomor kamar adalah lokasi, bukan identitas person-spesifik."
-    },
-    {
-      "q": "Pasien menjawab “ya” saat ditanya “Bapak Andi, ya?” sebelum obat diberikan. Tindakan berikutnya adalah…",
-      "options": [
-        "Melanjutkan karena pasien sudah mengiyakan",
-        "Meminta pasien menyebutkan sendiri minimal dua identitas dan mencocokkan dengan order",
-        "Memakai nomor bed sebagai identitas kedua",
-        "Menanyakan kepada pasien di sebelahnya"
-      ],
-      "answer": 1,
-      "why": "Pertanyaan tertutup mudah menghasilkan konfirmasi yang keliru; identifikasi aktif meminta pasien menyebutkan data."
+      "why": "Pelabelan di dekat pasien mengurangi risiko tertukar."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
       "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
     }
   ],
   "priority": "practice",
   "priorityLabel": "Praktik Wajib",
-  "instrumentCodes": [
-    "SKP 1"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    380
-  ],
-  "standardRef": "SKP 1",
-  "keywords": [
-    ".",
-    "1",
-    "1.",
-    "10",
-    "2.",
-    "3.",
-    "4.",
-    "5.",
-    "6.",
-    "adalah",
-    "akan",
-    "aktif",
-    "aktif.",
-    "alasan",
-    "alat",
-    "alergi",
-    "alurnya",
-    "aman",
-    "aman.",
-    "apa",
-    "area.",
-    "asi",
-    "atau",
-    "bahwa",
-    "banyak",
-    "bapak/ibu.",
-    "bayi",
-    "beberapa",
-    "bed",
-    "benar",
-    "benar.",
-    "berbeda",
-    "berhak",
-    "beri",
-    "bersamaan.",
-    "bertanya",
-    "berulang",
-    "bila",
-    "bingung",
-    "boleh",
-    "buka",
-    "bukan",
-    "cara",
-    "catat",
-    "cegah",
-    "cocok",
-    "cocok.",
-    "cocokkan",
-    "contohnya",
-    "cukup",
-    "dan",
-    "dapat",
-    "darah",
-    "dari",
-    "dasar.",
-    "data",
-    "dekat",
-    "dengan",
-    "di",
-    "diagnosis",
-    "diagnostik",
-    "dianggap",
-    "diberikan.",
-    "diet",
-    "dijawab",
-    "dikumpulkan",
-    "dilakukan",
-    "diminta",
-    "dipahami",
-    "dipastikan.",
-    "diperlukan.",
-    "dirawat.",
-    "disampaikan.",
-    "disebut",
-    "disebutkan",
-    "diselesaikan.",
-    "disiplin",
-    "ditetapkan",
-    "ditujukan",
-    "diverifikasi",
-    "dokumen",
-    "dokumen.",
-    "dokumen/label.",
-    "dokumentasikan",
-    "dua",
-    "emergen",
-    "fasilitas",
-    "fasilitas.",
-    "formulir",
-    "gelang",
-    "gelang/dokumen",
-    "gimana",
-    "gunakan",
-    "hadapan/dekat",
-    "hanya",
-    "harus",
-    "hentikan",
-    "hilang",
-    "hindari",
-    "ibu",
-    "ibu.",
-    "identifikasi",
-    "identitas",
-    "identitas.",
-    "identitasnya",
-    "ikut",
-    "ilustrasi",
-    "informasi",
-    "ini",
-    "instruksi",
-    "intinya",
-    "invasif",
-    "istilah",
-    "jaga",
-    "jangan",
-    "jatuh",
-    "jauh",
-    "jawaban",
-    "jelaskan",
-    "jenis",
-    "justru",
-    "kalau",
-    "kamar",
-    "karena",
-    "ke",
-    "kebijakan",
-    "kebutuhan",
-    "keliru",
-    "keluarga",
-    "kembali",
-    "kembar",
-    "kemudian",
-    "kenali",
-    "kepada",
-    "kepadanya.",
-    "kerja",
-    "kesalahan",
-    "keselamatan",
-    "keselamatan.",
-    "ketentuan",
-    "keterbacaan",
-    "ketidaksesuaian",
-    "kewaspadaan",
-    "khusus",
-    "khusus.",
-    "klarifikasi",
-    "komponen",
-    "kondisi",
-    "konkret",
-    "konsisten.",
-    "kurang",
-    "label",
-    "lahir",
-    "lain",
-    "lain.",
-    "lakukan",
-    "lalu",
-    "langkah",
-    "lanjut",
-    "lanjut.",
-    "lapisan",
-    "laporkan",
-    "lebih",
-    "lengkap",
-    "lindungi",
-    "lokasi",
-    "luas",
-    "lupa.",
-    "makna",
-    "mampu",
-    "masalah",
-    "medis",
-    "mei",
-    "melabel",
-    "melakukan",
-    "melalui",
-    "melanjutkan",
-    "melewati",
-    "melihat",
-    "memang",
-    "membawa",
-    "membingungkan",
-    "membuka",
-    "membutuhkan",
-    "memengaruhi",
-    "memulai.",
-    "menahan",
-    "mencocokkan",
-    "mendengar.",
-    "menebak.",
-    "menerapkan.",
-    "menerjemahkan",
-    "mengambil",
-    "mengandalkan",
-    "mengarahkan",
-    "mengenali",
-    "menghubungkan",
-    "mengikuti",
-    "mengiyakan.",
-    "mengoreksi",
-    "mengumumkan",
-    "menimbulkan",
-    "meninggalkan",
-    "meningkatkan",
-    "menjadi",
-    "menjawab",
-    "menyebut",
-    "menyebutkan",
-    "minimal",
-    "minta",
-    "mirip",
-    "mohon",
-    "mudah",
-    "nama",
-    "ngapain",
-    "nomor",
-    "obat",
-    "oleh",
-    "orang",
-    "order",
-    "pada",
-    "pasang",
-    "pasangan",
-    "pasien",
-    "pasien.",
-    "pasif",
-    "pastikan",
-    "pelayanan",
-    "pelayanan.",
-    "pemasangan",
-    "pembanding",
-    "pembanding.",
-    "pembatasan",
-    "pemberian.",
-    "penanda",
-    "pencocokan",
-    "pengaman",
-    "pengambilan",
-    "pengenalan",
-    "penggabungan",
-    "penggantian",
-    "penilaian",
-    "penting",
-    "perah",
-    "perawat",
-    "perlu",
-    "perlu.",
-    "pertanyaan",
-    "petugas",
-    "pindah",
-    "pola",
-    "praktik",
-    "prinsip",
-    "privasi",
-    "produk",
-    "prosedur",
-    "proses",
-    "regulasi",
-    "rekam",
-    "resmi",
-    "resmi.",
-    "risiko",
-    "risiko.",
-    "rumah",
-    "rusak",
-    "saat",
-    "sadar",
-    "sah",
-    "sakit.",
-    "salah",
-    "sama",
-    "sampai",
-    "sampaikan",
-    "satu-satunya",
-    "sebagai",
-    "sebelum",
-    "sebutkan",
-    "secara",
-    "segera",
-    "sementara",
-    "semua",
-    "sendiri",
-    "sepele",
-    "serah",
-    "sering",
-    "serta",
-    "sesuai",
-    "setelah",
-    "siapkan",
-    "sibuk",
-    "simbol",
-    "sistem",
-    "siti",
-    "situasi",
-    "situasinya",
-    "skp",
-    "spesimen",
-    "suara",
-    "sudah",
-    "sumber",
-    "tabung",
-    "tahan",
-    "tambahan",
-    "tampak",
-    "tangani",
-    "tanggal",
-    "tanpa",
-    "tanyakan",
-    "tekanan",
-    "tempat",
-    "terapi.",
-    "terbaca",
-    "terima",
-    "terkait",
-    "tersebut.",
-    "tertukar",
-    "tetap",
-    "tetapi",
-    "tidak",
-    "tidur",
-    "tindak",
-    "tindakan",
-    "tindakan.",
-    "titik",
-    "transfer",
-    "transfusi",
-    "tua",
-    "tujuan",
-    "unik",
-    "untuk",
-    "urutan",
-    "utama.",
-    "verifikasi",
-    "verifikasi.",
-    "wajah",
-    "wajar",
-    "waktu",
-    "warna",
-    "ya",
-    "ya/tidak",
-    "yang"
-  ],
-  "searchText": "Identifikasi Pasien dengan Benar Dua identitas, pertanyaan aktif, waktu identifikasi, dan situasi khusus. SKP 1 💡 Dua identitas dan pertanyaan aktif Minta pasien menyebutkan identitasnya, lalu cocokkan dengan gelang dan dokumen/label. Pertanyaan aktif — gunakan “Mohon sebutkan nama lengkap dan tanggal lahir Ibu.” Pertanyaan pasif — hindari “Ibu Siti, lahir 10 Mei, benar?” Pasien hanya perlu mengiyakan. Minimal dua identitas Gunakan pasangan identitas yang ditetapkan rumah sakit. Bukan nomor kamar Lokasi atau nomor tempat tidur tidak boleh menjadi identitas pasien. Prinsip identifikasi yang benar Nama kamar, nomor tempat tidur, atau pengenalan wajah tidak boleh menjadi identitas utama. Gunakan minimal dua identitas Contohnya nama lengkap dan tanggal lahir atau nomor rekam medis sesuai regulasi rumah sakit. Tanyakan secara aktif Minta pasien menyebutkan identitasnya, lalu cocokkan dengan gelang dan dokumen. Cocokkan semua sumber Identitas pada pasien, gelang, instruksi, label, formulir, dan spesimen harus konsisten. Hentikan bila tidak sesuai Jangan melanjutkan tindakan sampai ketidaksesuaian identitas diselesaikan. Ilustrasi identifikasi dua identitas Gunakan pertanyaan aktif dan cocokkan minimal dua identitas. SKP 1 — Identifikasi Pasien Identifikasi menghubungkan orang yang benar dengan obat, tindakan, spesimen, diet, darah, dan informasi yang benar. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Identitas pasien Data yang secara khusus menghubungkan pasien dengan rekam medis dan pelayanan yang ditujukan kepadanya. Identifikasi aktif Pasien diminta menyebut identitas, kemudian petugas mencocokkan dengan gelang, rekam medis, label, atau sumber resmi lain. Identifikasi pasif Petugas hanya melihat wajah, tempat tidur, atau bertanya dengan jawaban yang sudah disebutkan; cara ini mudah menimbulkan salah pasien. Penanda risiko Gelang atau simbol alergi, jatuh, dan kondisi khusus adalah lapisan pengaman tambahan; makna warna mengikuti ketentuan fasilitas. 🧭 Alurnya gimana? Cara menerjemahkan prinsip ke langkah kerja yang aman. Sebelum obat dan transfusi Cocokkan identitas pasien dengan instruksi, label obat, darah, atau komponen darah sebelum pemberian. Sebelum tindakan Verifikasi sebelum tindakan invasif, prosedur diagnostik, pengambilan darah, pemasangan alat, atau terapi. Saat mengambil dan melabel spesimen Label dilakukan di dekat pasien setelah identitas diverifikasi; jangan membawa tabung tanpa label ke banyak pasien. Sebelum diet atau ASI perah Cocokkan pasien dengan jenis diet, pembatasan, atau produk yang akan diberikan. Saat transfer dan serah terima Pastikan identitas dan tujuan transfer cocok serta risiko penting ikut disampaikan. 💪 Praktik: identifikasi pasien secara aktif Urutan yang aman saat melakukan obat, spesimen, transfusi, diet, atau tindakan. 1. Siapkan sumber pembanding Buka order, label, gelang, rekam medis, atau dokumen yang sah sebelum memulai. 2. Tanyakan identitas Minta pasien menyebutkan identitasnya; hindari pertanyaan yang hanya dijawab “ya/tidak”. “Mohon sebutkan nama lengkap dan tanggal lahir Bapak/Ibu.” 3. Cocokkan minimal dua identitas Pastikan data yang disebut pasien sama dengan sumber pembanding. Nomor kamar atau bed bukan identitas. 4. Cocokkan dengan tindakan Pastikan obat, darah, spesimen, diet, atau prosedur memang ditujukan untuk pasien tersebut. 5. Tangani kondisi khusus Bila pasien tidak mampu menjawab, gunakan gelang/dokumen dan sumber lain yang sah sesuai kebijakan; jangan menebak. 6. Label di dekat pasien Label spesimen segera setelah pengambilan di hadapan/dekat pasien, lalu verifikasi kembali sebelum meninggalkan area. 🧩 Kalau situasinya berbeda? Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut. Pasien tidak sadar atau tidak mampu menjawab Gunakan gelang dan sumber resmi lain; verifikasi dengan keluarga atau petugas lain sebagai tambahan, bukan satu-satunya dasar. Pasien tanpa identitas Gunakan identitas sementara yang unik sesuai sistem fasilitas dan cegah penggabungan data sebelum identitas dipastikan. Bayi atau kembar Gunakan identitas khusus dan cocokkan dengan orang tua serta dokumen terkait; nama yang mirip meningkatkan kebutuhan verifikasi. Nama sama atau mirip Gunakan identitas tambahan dan beri kewaspadaan pada sistem tanpa membuka informasi yang tidak perlu. Ketidaksesuaian data Jangan mengoreksi sendiri tanpa proses; tahan pelayanan yang tidak emergen dan lakukan klarifikasi resmi. 💪 Perawat harus ngapain? Tindakan konkret yang dapat dilakukan di titik pelayanan. Jelaskan kepada pasien Sampaikan bahwa pertanyaan identitas berulang adalah langkah keselamatan, bukan karena petugas lupa. Jaga keterbacaan penanda Laporkan gelang rusak, hilang, atau tidak sesuai dan lakukan penggantian melalui proses yang benar. Lindungi privasi Gunakan suara yang wajar dan jangan mengumumkan identitas atau diagnosis lebih luas dari yang diperlukan. Hentikan proses tidak aman Perawat berhak menahan obat, darah, diet, spesimen, atau tindakan sampai identitas cocok. Dokumentasikan masalah Catat ketidaksesuaian dan tindak lanjut bila memengaruhi pelayanan atau keselamatan. 🚨 Apa yang sering keliru? Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko. Mengandalkan wajah atau kamar Pasien dapat pindah tempat tidur dan petugas dapat keliru mengenali orang yang sudah sering dirawat. Pertanyaan mengarahkan “Ibu Siti, ya?” dapat dijawab “ya” oleh pasien bingung atau kurang mendengar. Label spesimen jauh dari pasien Meningkatkan risiko tertukar saat beberapa spesimen dikumpulkan bersamaan. Gelang dianggap cukup Gelang dapat salah pasang, rusak, atau tidak terbaca; tetap perlu pencocokan aktif. Melewati identifikasi saat sibuk Tekanan waktu justru meningkatkan risiko kesalahan dan membutuhkan disiplin verifikasi."
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "SKP 1 — Identifikasi Pasien dengan Benar Gunakan minimal dua identitas yang sah dan verifikasi aktif pada setiap titik pelayanan penting."
 }

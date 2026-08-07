@@ -3,74 +3,38 @@
   "group": "pap",
   "title": "Mengenali Perburukan Kondisi dengan EWS",
   "short": "Mengenali Perburukan Kondisi dengan EWS",
-  "desc": "Deteksi dini, eskalasi, respons klinis, dan dokumentasi.",
+  "desc": "Gunakan EWS sesuai populasi untuk mengenali perburukan lebih dini, melihat tren, dan melakukan eskalasi yang tepat.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 20,
+  "minutes": 9,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Mengenali perburukan kondisi pasien",
-      "caption": "EWS membantu mendeteksi perubahan fisiologis dan memicu eskalasi yang tepat.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Ukur parameter lengkap",
-            "text": "Gunakan tanda vital dan parameter yang ditetapkan dalam sistem EWS rumah sakit."
-          },
-          {
-            "title": "Hitung skor dengan benar",
-            "text": "Jangan mengabaikan satu parameter atau mengubah nilai agar tampak lebih baik."
-          },
-          {
-            "title": "Ikuti respons berdasarkan skor",
-            "text": "Frekuensi observasi, pemberitahuan dokter, aktivasi tim respons cepat, atau tindakan lain mengikuti matriks eskalasi."
-          },
-          {
-            "title": "Gunakan penilaian klinis",
-            "text": "Kekhawatiran perawat tetap dapat memicu eskalasi meskipun skor belum tinggi."
-          },
-          {
-            "title": "Nilai ulang",
-            "text": "Dokumentasikan respons setelah intervensi dan lanjutkan pemantauan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "Tanda yang harus memicu perhatian segera",
-      "caption": "Perburukan tidak selalu menunggu skor total tinggi.",
+      "title": "📈 Sistem sesuai populasi",
+      "caption": "EWS membantu mendeteksi perubahan sebelum pasien jatuh ke kondisi lebih berat.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Perubahan kesadaran",
-            "text": "Gelisah baru, kebingungan, mengantuk, atau penurunan respons."
+            "title": "Dewasa — NEWS2",
+            "text": "RR, SpO₂, tekanan darah sistolik, nadi, kesadaran/new confusion, suhu; oksigen tambahan menambah skor."
           },
           {
-            "title": "Gangguan napas",
-            "text": "Peningkatan kerja napas, saturasi turun, atau kebutuhan oksigen meningkat."
+            "title": "Anak — PEWS",
+            "text": "Umumnya menilai perilaku, kardiovaskular, dan respirasi dengan chart sesuai usia."
           },
           {
-            "title": "Sirkulasi memburuk",
-            "text": "Hipotensi, takikardi/bradikardi, perfusi buruk, atau nyeri dada."
+            "title": "Maternal — MEOWS",
+            "text": "Dapat mencakup respirasi, SpO₂, tekanan darah, nadi, suhu, kesadaran, urine, dan pemicu obstetri."
           },
           {
-            "title": "Kekhawatiran klinis",
-            "text": "Perawat merasa pasien “tidak seperti biasanya” atau memburuk cepat."
-          },
-          {
-            "title": "Respons tidak adekuat",
-            "text": "Kondisi tidak membaik setelah tindakan awal."
+            "title": "Jangan mengganti clinical judgment",
+            "text": "Kekhawatiran klinis tetap dapat memicu eskalasi walau skor belum tinggi."
           }
         ],
         "columns": 2,
@@ -78,38 +42,31 @@
       }
     },
     {
-      "type": "image",
-      "title": "EWS / NEWS2 dan Eskalasi Klinis",
-      "caption": "NEWS2 membantu menyamakan bahasa risiko, tetapi tidak menggantikan penilaian klinis atau respons terhadap perburukan.",
-      "image": "assets/images/v4/pap-ews/pap-ews-01.webp",
-      "thumbnail": "assets/images/thumb/v4/pap-ews/pap-ews-01.webp"
-    },
-    {
       "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "title": "🔢 NEWS2 — interpretasi operasional",
+      "caption": "Nilai angka harus diikuti respons.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "NEWS2",
-            "text": "Sistem skor agregat untuk membantu mengenali dan mengomunikasikan derajat sakit akut pada pasien dewasa."
+            "title": "Skor 0",
+            "text": "Monitoring minimal setiap 12 jam."
           },
           {
-            "title": "New confusion",
-            "text": "Kebingungan, disorientasi, atau agitasi baru dibanding keadaan sebelumnya; mendapat skor 3."
+            "title": "Total 1–4",
+            "text": "Monitoring sekitar setiap 4–6 jam."
           },
           {
-            "title": "Aggregate score",
-            "text": "Jumlah skor seluruh parameter dan tambahan oksigen."
+            "title": "Satu parameter = 3",
+            "text": "Minimal setiap 1 jam dan butuh penilaian/eskalasi medis."
           },
           {
-            "title": "Single parameter trigger",
-            "text": "Satu nilai dengan skor 3 yang membutuhkan perhatian walaupun total belum tinggi."
+            "title": "Total 5–6",
+            "text": "Respons urgent dan monitoring minimal setiap 1 jam."
           },
           {
-            "title": "Escalation",
-            "text": "Peningkatan frekuensi observasi, komunikasi, penilaian klinis, dan tindakan sesuai tingkat risiko serta kebijakan fasilitas."
+            "title": "Total ≥7",
+            "text": "Monitoring kontinu dan respons emergensi/level tinggi; bukan otomatis berarti CPR atau Code Blue."
           }
         ],
         "columns": 2,
@@ -118,170 +75,26 @@
     },
     {
       "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Ukur dengan benar",
-            "text": "Gunakan alat dan teknik yang sesuai; nilai pasien, bukan hanya menyalin monitor."
-          },
-          {
-            "title": "Pilih skala SpO₂",
-            "text": "Gunakan Scale 1 secara umum; Scale 2 hanya bila ada keputusan klinis/target yang terdokumentasi."
-          },
-          {
-            "title": "Hitung semua komponen",
-            "text": "Masukkan oksigen suplemental dan kesadaran/new confusion."
-          },
-          {
-            "title": "Lihat total dan trigger",
-            "text": "Nilai skor total, skor tunggal 3, tren, dan kekhawatiran klinis."
-          },
-          {
-            "title": "Eskalasi",
-            "text": "Sampaikan dengan SBAR, tingkatkan observasi, dan aktifkan respons sesuai kebijakan."
-          },
-          {
-            "title": "Nilai respons",
-            "text": "Ulangi pengukuran setelah intervensi dan dokumentasikan perubahan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktik: menghitung dan mengeskalasi NEWS2",
-      "caption": "Skor membantu mengenali perburukan, tetapi tidak boleh mengalahkan kekhawatiran klinis.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "1. Ukur enam parameter",
-            "text": "Frekuensi napas, saturasi, tekanan sistolik, nadi, suhu, dan kesadaran/kebingungan baru."
-          },
-          {
-            "title": "2. Catat udara atau oksigen",
-            "text": "Tambahan oksigen memengaruhi skor; tulis perangkat dan aliran bila digunakan."
-          },
-          {
-            "title": "3. Pilih skala SpO₂ yang benar",
-            "text": "Scale 2 hanya bila ditetapkan klinisi kompeten untuk target 88–92% pada gagal napas hiperkapnik."
-          },
-          {
-            "title": "4. Beri skor tiap parameter",
-            "text": "Gunakan chart yang sah; periksa juga skor tunggal 3 dan data yang belum lengkap."
-          },
-          {
-            "title": "5. Jumlahkan dan lihat tren",
-            "text": "Bandingkan dengan skor sebelumnya; kenaikan cepat dapat lebih penting daripada satu angka."
-          },
-          {
-            "title": "6. Eskalasi",
-            "text": "Ikuti respons klinis fasilitas, sampaikan parameter abnormal, tren, intervensi, dan kekhawatiran."
-          },
-          {
-            "title": "7. Dokumentasikan respons",
-            "text": "Catat waktu kontak, pemberi respons, instruksi, tindakan, dan hasil penilaian ulang."
-          }
-        ],
-        "columns": 2,
-        "note": "Eskalasi tetap dilakukan bila kondisi mengkhawatirkan meskipun skor total rendah."
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧩 Kalau situasinya berbeda?",
-      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "title": "Skor rendah tetapi tampak sangat sakit",
-            "text": "Gunakan penilaian klinis dan eskalasi; NEWS2 bukan alasan menunda bantuan."
-          },
-          {
-            "title": "Kebutuhan oksigen meningkat",
-            "text": "Setiap peningkatan kebutuhan oksigen perlu perhatian walaupun skor saturasi tidak banyak berubah."
-          },
-          {
-            "title": "Pasien PPOK",
-            "text": "Diagnosis PPOK saja tidak otomatis menggunakan Scale 2; perlu target dan riwayat hiperkapnia yang dikonfirmasi."
-          },
-          {
-            "title": "Data tidak lengkap",
-            "text": "Cari dan lengkapi parameter segera bila memungkinkan; jangan menyimpulkan risiko dari skor parsial tanpa menyebut keterbatasan."
-          },
-          {
-            "title": "Baseline abnormal kronis",
-            "text": "Dokumentasikan target dan rencana individual oleh klinisi; tetap pantau perubahan dari baseline."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Validasi angka",
-            "text": "Ulangi pengukuran yang tidak sesuai kondisi dan periksa alat."
-          },
-          {
-            "title": "Komunikasikan tren",
-            "text": "Sebutkan skor saat ini, sebelumnya, parameter penyumbang, dan kebutuhan oksigen."
-          },
-          {
-            "title": "Gunakan SBAR",
-            "text": "Jelaskan kekhawatiran dan tindakan yang diminta."
-          },
-          {
-            "title": "Jangan menunggu skor",
-            "text": "Jika perawat khawatir, lakukan eskalasi meskipun skor belum tinggi."
-          },
-          {
-            "title": "Dokumentasikan respons",
-            "text": "Catat waktu eskalasi, pihak yang merespons, intervensi, dan skor ulang."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "title": "🫁 Dua detail NEWS2 yang sering tertukar",
+      "caption": "Pahami sebelum menghafal angka.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Menghitung tanpa melihat pasien",
-            "text": "Kesalahan alat atau kondisi klinis penting dapat terlewat."
+            "title": "ACVPU",
+            "text": "Alert, new Confusion, Voice, Pain, Unresponsive."
           },
           {
-            "title": "Menggunakan Scale 2 untuk semua PPOK",
-            "text": "Dapat mentoleransi hipoksemia yang sebenarnya tidak sesuai."
+            "title": "SpO₂ Scale 2",
+            "text": "Untuk pasien dengan target khusus karena risiko/keadaan hypercapnic respiratory failure atas keputusan klinis; bukan otomatis untuk semua COPD."
           },
           {
-            "title": "Mengabaikan skor tunggal 3",
-            "text": "Parameter ekstrem dapat menandakan risiko walaupun total rendah."
+            "title": "Tren",
+            "text": "Kenaikan skor berulang dapat lebih bermakna daripada satu angka tunggal."
           },
           {
-            "title": "Tidak mencatat oksigen",
-            "text": "Skor menjadi lebih rendah dari kondisi sebenarnya."
-          },
-          {
-            "title": "Skor tinggi tetapi tidak ada respons",
-            "text": "NEWS2 hanya bermanfaat bila terhubung dengan sistem eskalasi."
+            "title": "PEWS/MEOWS",
+            "text": "Cutoff, warna, dan interval mengikuti chart yang digunakan RS; jangan mengarang satu angka universal."
           }
         ],
         "columns": 2,
@@ -291,527 +104,82 @@
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Ukur parameter lengkap: Gunakan tanda vital dan parameter yang ditetapkan dalam sistem EWS rumah sakit.",
-        "Hitung skor dengan benar: Jangan mengabaikan satu parameter atau mengubah nilai agar tampak lebih baik.",
-        "Ikuti respons berdasarkan skor: Frekuensi observasi, pemberitahuan dokter, aktivasi tim respons cepat, atau tindakan lain mengikuti matriks eskalasi.",
-        "Gunakan penilaian klinis: Kekhawatiran perawat tetap dapat memicu eskalasi meskipun skor belum tinggi.",
-        "Perubahan kesadaran: Gelisah baru, kebingungan, mengantuk, atau penurunan respons.",
-        "Gangguan napas: Peningkatan kerja napas, saturasi turun, atau kebutuhan oksigen meningkat."
-      ]
-    },
-    {
-      "title": "Komponen",
-      "points": [
-        "RR, SpO₂, tekanan sistolik, nadi, suhu, kesadaran/new confusion, dan +2 untuk oksigen."
-      ]
-    },
-    {
-      "title": "Trigger",
-      "points": [
-        "Skor tunggal 3, total 5–6, total ≥7, tren meningkat, atau kekhawatiran klinis."
-      ]
-    },
-    {
-      "title": "Scale 2",
-      "points": [
-        "Bukan untuk semua PPOK; digunakan pada target 88–92% dengan gagal napas hiperkapnik yang dikonfirmasi."
-      ]
-    },
-    {
-      "title": "NEWS2 bukan diagnosis",
-      "points": [
-        "Skor membantu deteksi dan komunikasi, tetapi penyebab dan terapi tetap memerlukan penilaian klinis."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "1. Ukur enam parameter: Frekuensi napas, saturasi, tekanan sistolik, nadi, suhu, dan kesadaran/kebingungan baru.",
-        "2. Catat udara atau oksigen: Tambahan oksigen memengaruhi skor; tulis perangkat dan aliran bila digunakan."
+        "NEWS2 dewasa; PEWS anak; MEOWS maternal sesuai sistem RS.",
+        "NEWS2: 0 q12h, 1–4 q4–6h, single parameter 3 q1h, total 5–6 q1h urgent, ≥7 continuous/emergency response.",
+        "Skor tinggi tidak otomatis berarti Code Blue/CPR.",
+        "Tren dan kekhawatiran klinis tetap penting."
       ]
     }
   ],
   "do": [
-    "Ukur parameter dengan teknik benar.",
-    "Masukkan oksigen dan new confusion.",
-    "Nilai skor total, skor tunggal, dan tren.",
-    "Eskalasi bila khawatir walaupun skor rendah.",
-    "Ulangi setelah intervensi.",
-    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
+    "NEWS2 dewasa; PEWS anak; MEOWS maternal sesuai sistem RS.",
+    "NEWS2: 0 q12h, 1–4 q4–6h, single parameter 3 q1h, total 5–6 q1h urgent, ≥7 continuous/emergency response.",
+    "Skor tinggi tidak otomatis berarti Code Blue/CPR.",
+    "Tren dan kekhawatiran klinis tetap penting."
   ],
-  "dont": [
-    "Menggunakan Scale 2 tanpa dasar.",
-    "Mengabaikan kebutuhan oksigen meningkat.",
-    "Menunggu semua parameter ekstrem sebelum menghubungi.",
-    "Mencatat skor tanpa respons.",
-    "Menyalin nilai monitor tanpa memeriksa pasien.",
-    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Pasien memiliki NEWS2 total 3, seluruhnya berasal dari satu parameter dengan skor 3. Tindakan adalah…",
+      "q": "NEWS2 total 7 berarti…",
       "options": [
-        "Menganggap rendah karena total <5",
-        "Mengenali single parameter trigger dan melakukan respons sesuai kebijakan",
-        "Menghapus parameter tersebut",
-        "Menunggu skor menjadi 5"
+        "Otomatis mulai CPR",
+        "Butuh monitoring kontinu dan respons emergensi/level tinggi sesuai sistem",
+        "Tidak perlu tindakan",
+        "Boleh tunggu visite"
       ],
       "answer": 1,
-      "why": "Satu parameter ekstrem merupakan trigger tersendiri."
+      "why": "NEWS2 mendeteksi perburukan; cardiac arrest ditentukan oleh kondisi klinis, bukan skor semata."
     },
     {
-      "q": "SpO₂ Scale 2 digunakan pada…",
+      "q": "NEWS2 SpO₂ Scale 2 digunakan…",
       "options": [
-        "Semua pasien PPOK",
-        "Pasien dengan target 88–92% karena gagal napas hiperkapnik yang telah dikonfirmasi dan terdokumentasi",
-        "Semua pasien memakai oksigen",
-        "Pasien demam"
+        "Untuk semua pasien COPD otomatis",
+        "Untuk pasien dengan target oksigen khusus karena risiko/keadaan hiperkapnik atas keputusan klinis",
+        "Untuk semua anak",
+        "Untuk pasien tanpa masalah respirasi"
       ],
       "answer": 1,
-      "why": "Scale 2 memiliki indikasi khusus dan tidak otomatis untuk diagnosis PPOK."
+      "why": "Scale 2 bukan default untuk semua COPD."
     },
     {
-      "q": "Pasien mendapat oksigen suplemental tetapi kolom oksigen tidak diisi. Dampaknya adalah…",
+      "q": "Skor rendah tetapi perawat melihat pasien tampak sangat berbeda dan memburuk. Apa yang tepat?",
       "options": [
-        "Skor dapat terhitung terlalu rendah",
-        "Skor selalu bertambah 5",
-        "Tidak berpengaruh",
-        "Suhu menjadi salah"
-      ],
-      "answer": 0,
-      "why": "NEWS2 menambahkan 2 poin untuk oksigen suplemental."
-    },
-    {
-      "q": "Pasien tampak memburuk tetapi NEWS2 masih 2. Tindakan terbaik adalah…",
-      "options": [
-        "Menunggu skor naik",
-        "Menggunakan penilaian klinis dan melakukan eskalasi bila khawatir",
-        "Mengubah angka agar tinggi",
-        "Menghentikan observasi"
+        "Abaikan karena skor rendah",
+        "Lakukan penilaian dan eskalasi berdasarkan kekhawatiran klinis",
+        "Tunggu skor naik",
+        "Hapus hasil EWS"
       ],
       "answer": 1,
-      "why": "NEWS2 tidak menggantikan clinical judgment."
-    },
-    {
-      "q": "New confusion pada NEWS2 berarti…",
-      "options": [
-        "Demensia lama",
-        "Kebingungan/disorientasi/agitation yang baru dibanding baseline",
-        "Pasien tidur",
-        "Pasien tidak bisa bahasa Indonesia"
-      ],
-      "answer": 1,
-      "why": "Perubahan baru kesadaran mendapat skor dan memerlukan perhatian."
-    },
-    {
-      "q": "Saat menghubungi dokter, informasi NEWS2 yang paling berguna adalah…",
-      "options": [
-        "Skor total saja",
-        "Skor total, tren, parameter penyumbang, oksigen, kondisi, dan kekhawatiran",
-        "Nomor tempat tidur saja",
-        "Usia saja"
-      ],
-      "answer": 1,
-      "why": "Informasi lengkap membantu penilaian dan respons."
-    },
-    {
-      "q": "Kebutuhan oksigen meningkat dari 2 L ke 6 L tetapi saturasi tetap sama. Perawat seharusnya…",
-      "options": [
-        "Menganggap stabil karena saturasi sama",
-        "Mengenali peningkatan kebutuhan oksigen sebagai perburukan dan melakukan eskalasi",
-        "Mengurangi observasi",
-        "Menggunakan Scale 2 otomatis"
-      ],
-      "answer": 1,
-      "why": "Peningkatan kebutuhan oksigen dapat menunjukkan perburukan meskipun saturasi dipertahankan."
-    },
-    {
-      "q": "NEWS2 total 3 berasal dari satu parameter dengan skor 3. Tindakan adalah…",
-      "options": [
-        "Mengabaikan karena total di bawah 5",
-        "Mengikuti respons untuk skor tunggal 3 dan menilai kondisi klinis",
-        "Mengubah skor menjadi 0",
-        "Menunggu shift berikutnya"
-      ],
-      "answer": 1,
-      "why": "Skor tunggal 3 merupakan trigger klinis walaupun total belum tinggi."
+      "why": "EWS tidak menggantikan clinical judgment."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
       "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+      "url": "https://jdih.kemkes.go.id/"
     },
     {
-      "title": "National Early Warning Score (NEWS) 2",
+      "title": "National Early Warning Score (NEWS2)",
       "org": "Royal College of Physicians",
-      "url": "https://www.rcp.ac.uk/resources/national-early-warning-score-news-2/"
+      "url": "https://www.rcplondon.ac.uk/projects/outputs/national-early-warning-score-news-2"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
     }
   ],
   "priority": "practice",
   "priorityLabel": "Praktik Wajib",
-  "instrumentCodes": [
-    "PAP 2.5"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    315
-  ],
-  "standardRef": "PAP 2.5",
-  "keywords": [
-    "/",
-    "1",
-    "1.",
-    "2",
-    "2.",
-    "2.5",
-    "3",
-    "3.",
-    "4.",
-    "5.",
-    "6.",
-    "7.",
-    "88",
-    "92",
-    "abnormal",
-    "ada",
-    "adekuat",
-    "agar",
-    "aggregate",
-    "agitasi",
-    "agregat",
-    "aktifkan",
-    "aktivasi",
-    "akut",
-    "alasan",
-    "alat",
-    "alat.",
-    "aliran",
-    "alurnya",
-    "aman.",
-    "angka",
-    "angka.",
-    "apa",
-    "atau",
-    "awal.",
-    "bahasa",
-    "baik.",
-    "bandingkan",
-    "bantuan.",
-    "banyak",
-    "baru",
-    "baru.",
-    "baseline",
-    "baseline.",
-    "belum",
-    "benar",
-    "berbeda",
-    "berdasarkan",
-    "beri",
-    "bermanfaat",
-    "berubah.",
-    "biasanya",
-    "bila",
-    "boleh",
-    "bukan",
-    "buruk",
-    "cara",
-    "cari",
-    "catat",
-    "cepat",
-    "cepat.",
-    "chart",
-    "confusion",
-    "confusion.",
-    "dada.",
-    "dalam",
-    "dan",
-    "dapat",
-    "dari",
-    "daripada",
-    "data",
-    "dengan",
-    "derajat",
-    "deteksi",
-    "dewasa.",
-    "di",
-    "diagnosis",
-    "dibanding",
-    "digunakan.",
-    "dikonfirmasi.",
-    "dilakukan",
-    "diminta.",
-    "dini",
-    "dipahami",
-    "disorientasi",
-    "ditetapkan",
-    "dokter",
-    "dokumentasi.",
-    "dokumentasikan",
-    "ekstrem",
-    "enam",
-    "escalation",
-    "eskalasi",
-    "eskalasi.",
-    "ews",
-    "fasilitas",
-    "fasilitas.",
-    "fisiologis",
-    "frekuensi",
-    "gagal",
-    "gangguan",
-    "gelisah",
-    "gimana",
-    "gunakan",
-    "hanya",
-    "harus",
-    "hasil",
-    "hiperkapnia",
-    "hiperkapnik.",
-    "hipoksemia",
-    "hipotensi",
-    "hitung",
-    "ikuti",
-    "individual",
-    "ini",
-    "instruksi",
-    "intervensi",
-    "intinya",
-    "istilah",
-    "jangan",
-    "jelaskan",
-    "jika",
-    "juga",
-    "jumlah",
-    "jumlahkan",
-    "kalau",
-    "ke",
-    "keadaan",
-    "kebijakan",
-    "kebijakan.",
-    "kebingungan",
-    "kebutuhan",
-    "kekhawatiran",
-    "kekhawatiran.",
-    "keliru",
-    "kenaikan",
-    "kenali",
-    "keputusan",
-    "kerja",
-    "kesadaran",
-    "kesadaran/kebingungan",
-    "kesadaran/new",
-    "kesalahan",
-    "keterbatasan.",
-    "khawatir",
-    "klinis",
-    "klinis.",
-    "klinis/target",
-    "klinisi",
-    "kompeten",
-    "komponen",
-    "komunikasi",
-    "komunikasikan",
-    "kondisi",
-    "konkret",
-    "kontak",
-    "kronis",
-    "lain",
-    "lakukan",
-    "langkah",
-    "lanjut.",
-    "lanjutkan",
-    "lebih",
-    "lengkap",
-    "lengkap.",
-    "lengkapi",
-    "lihat",
-    "masukkan",
-    "matriks",
-    "melihat",
-    "membaik",
-    "membantu",
-    "membingungkan",
-    "memburuk",
-    "membutuhkan",
-    "memengaruhi",
-    "memicu",
-    "memungkinkan",
-    "menandakan",
-    "mencatat",
-    "mendapat",
-    "mendeteksi",
-    "menerapkan.",
-    "menerjemahkan",
-    "mengabaikan",
-    "mengalahkan",
-    "mengantuk",
-    "mengenali",
-    "mengeskalasi",
-    "menggantikan",
-    "menggunakan",
-    "menghitung",
-    "mengikuti",
-    "mengomunikasikan",
-    "mengubah",
-    "menimbulkan",
-    "meningkat",
-    "meningkat.",
-    "menjadi",
-    "mentoleransi",
-    "menunda",
-    "menunggu",
-    "menyalin",
-    "menyamakan",
-    "menyebut",
-    "menyimpulkan",
-    "merasa",
-    "merespons",
-    "meskipun",
-    "monitor.",
-    "nadi",
-    "napas",
-    "new",
-    "news2",
-    "ngapain",
-    "nilai",
-    "nyeri",
-    "observasi",
-    "oksigen",
-    "oksigen.",
-    "oleh",
-    "otomatis",
-    "pada",
-    "pantau",
-    "pap",
-    "parameter",
-    "parsial",
-    "pasien",
-    "pelayanan.",
-    "pemantauan.",
-    "pemberi",
-    "pemberitahuan",
-    "pengukuran",
-    "penilaian",
-    "peningkatan",
-    "penting",
-    "penurunan",
-    "penyumbang",
-    "perangkat",
-    "perawat",
-    "perburukan",
-    "perburukan.",
-    "perfusi",
-    "perhatian",
-    "periksa",
-    "perlu",
-    "perubahan",
-    "perubahan.",
-    "pihak",
-    "pilih",
-    "pola",
-    "ppok",
-    "praktik",
-    "prinsip",
-    "rencana",
-    "rendah",
-    "rendah.",
-    "respons",
-    "respons.",
-    "risiko",
-    "risiko.",
-    "riwayat",
-    "rumah",
-    "saat",
-    "sah",
-    "saja",
-    "sakit",
-    "sakit.",
-    "sampaikan",
-    "sangat",
-    "satu",
-    "saturasi",
-    "sbar",
-    "scale",
-    "score",
-    "sebelum",
-    "sebelumnya",
-    "sebenarnya",
-    "sebenarnya.",
-    "sebutkan",
-    "secara",
-    "segera",
-    "selalu",
-    "seluruh",
-    "semua",
-    "sepele",
-    "seperti",
-    "sering",
-    "serta",
-    "sesuai",
-    "sesuai.",
-    "setelah",
-    "setiap",
-    "single",
-    "sirkulasi",
-    "sistem",
-    "sistolik",
-    "situasinya",
-    "skala",
-    "skor",
-    "spo",
-    "suhu",
-    "suplemental",
-    "takikardi/bradikardi",
-    "tambahan",
-    "tampak",
-    "tanda",
-    "tanpa",
-    "target",
-    "tekanan",
-    "teknik",
-    "tepat.",
-    "terdokumentasi.",
-    "terhadap",
-    "terhubung",
-    "terlewat.",
-    "tetap",
-    "tetapi",
-    "tiap",
-    "tidak",
-    "tim",
-    "tindakan",
-    "tinggi",
-    "tinggi.",
-    "tingkat",
-    "tingkatkan",
-    "titik",
-    "total",
-    "tren",
-    "trigger",
-    "tulis",
-    "tunggal",
-    "turun",
-    "udara",
-    "ukur",
-    "ulang",
-    "ulang.",
-    "ulangi",
-    "umum",
-    "untuk",
-    "validasi",
-    "vital",
-    "waktu",
-    "walaupun",
-    "yang"
-  ],
-  "searchText": "Mengenali Perburukan Kondisi dengan EWS Deteksi dini, eskalasi, respons klinis, dan dokumentasi. PAP 2.5 Mengenali perburukan kondisi pasien EWS membantu mendeteksi perubahan fisiologis dan memicu eskalasi yang tepat. Ukur parameter lengkap Gunakan tanda vital dan parameter yang ditetapkan dalam sistem EWS rumah sakit. Hitung skor dengan benar Jangan mengabaikan satu parameter atau mengubah nilai agar tampak lebih baik. Ikuti respons berdasarkan skor Frekuensi observasi, pemberitahuan dokter, aktivasi tim respons cepat, atau tindakan lain mengikuti matriks eskalasi. Gunakan penilaian klinis Kekhawatiran perawat tetap dapat memicu eskalasi meskipun skor belum tinggi. Nilai ulang Dokumentasikan respons setelah intervensi dan lanjutkan pemantauan. Tanda yang harus memicu perhatian segera Perburukan tidak selalu menunggu skor total tinggi. Perubahan kesadaran Gelisah baru, kebingungan, mengantuk, atau penurunan respons. Gangguan napas Peningkatan kerja napas, saturasi turun, atau kebutuhan oksigen meningkat. Sirkulasi memburuk Hipotensi, takikardi/bradikardi, perfusi buruk, atau nyeri dada. Kekhawatiran klinis Perawat merasa pasien “tidak seperti biasanya” atau memburuk cepat. Respons tidak adekuat Kondisi tidak membaik setelah tindakan awal. EWS / NEWS2 dan Eskalasi Klinis NEWS2 membantu menyamakan bahasa risiko, tetapi tidak menggantikan penilaian klinis atau respons terhadap perburukan. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. NEWS2 Sistem skor agregat untuk membantu mengenali dan mengomunikasikan derajat sakit akut pada pasien dewasa. New confusion Kebingungan, disorientasi, atau agitasi baru dibanding keadaan sebelumnya; mendapat skor 3. Aggregate score Jumlah skor seluruh parameter dan tambahan oksigen. Single parameter trigger Satu nilai dengan skor 3 yang membutuhkan perhatian walaupun total belum tinggi. Escalation Peningkatan frekuensi observasi, komunikasi, penilaian klinis, dan tindakan sesuai tingkat risiko serta kebijakan fasilitas. 🧭 Alurnya gimana? Cara menerjemahkan prinsip ke langkah kerja yang aman. Ukur dengan benar Gunakan alat dan teknik yang sesuai; nilai pasien, bukan hanya menyalin monitor. Pilih skala SpO₂ Gunakan Scale 1 secara umum; Scale 2 hanya bila ada keputusan klinis/target yang terdokumentasi. Hitung semua komponen Masukkan oksigen suplemental dan kesadaran/new confusion. Lihat total dan trigger Nilai skor total, skor tunggal 3, tren, dan kekhawatiran klinis. Eskalasi Sampaikan dengan SBAR, tingkatkan observasi, dan aktifkan respons sesuai kebijakan. Nilai respons Ulangi pengukuran setelah intervensi dan dokumentasikan perubahan. 💪 Praktik: menghitung dan mengeskalasi NEWS2 Skor membantu mengenali perburukan, tetapi tidak boleh mengalahkan kekhawatiran klinis. 1. Ukur enam parameter Frekuensi napas, saturasi, tekanan sistolik, nadi, suhu, dan kesadaran/kebingungan baru. 2. Catat udara atau oksigen Tambahan oksigen memengaruhi skor; tulis perangkat dan aliran bila digunakan. 3. Pilih skala SpO₂ yang benar Scale 2 hanya bila ditetapkan klinisi kompeten untuk target 88–92% pada gagal napas hiperkapnik. 4. Beri skor tiap parameter Gunakan chart yang sah; periksa juga skor tunggal 3 dan data yang belum lengkap. 5. Jumlahkan dan lihat tren Bandingkan dengan skor sebelumnya; kenaikan cepat dapat lebih penting daripada satu angka. 6. Eskalasi Ikuti respons klinis fasilitas, sampaikan parameter abnormal, tren, intervensi, dan kekhawatiran. 7. Dokumentasikan respons Catat waktu kontak, pemberi respons, instruksi, tindakan, dan hasil penilaian ulang. 🧩 Kalau situasinya berbeda? Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut. Skor rendah tetapi tampak sangat sakit Gunakan penilaian klinis dan eskalasi; NEWS2 bukan alasan menunda bantuan. Kebutuhan oksigen meningkat Setiap peningkatan kebutuhan oksigen perlu perhatian walaupun skor saturasi tidak banyak berubah. Pasien PPOK Diagnosis PPOK saja tidak otomatis menggunakan Scale 2; perlu target dan riwayat hiperkapnia yang dikonfirmasi. Data tidak lengkap Cari dan lengkapi parameter segera bila memungkinkan; jangan menyimpulkan risiko dari skor parsial tanpa menyebut keterbatasan. Baseline abnormal kronis Dokumentasikan target dan rencana individual oleh klinisi; tetap pantau perubahan dari baseline. 💪 Perawat harus ngapain? Tindakan konkret yang dapat dilakukan di titik pelayanan. Validasi angka Ulangi pengukuran yang tidak sesuai kondisi dan periksa alat. Komunikasikan tren Sebutkan skor saat ini, sebelumnya, parameter penyumbang, dan kebutuhan oksigen. Gunakan SBAR Jelaskan kekhawatiran dan tindakan yang diminta. Jangan menunggu skor Jika perawat khawatir, lakukan eskalasi meskipun skor belum tinggi. Dokumentasikan respons Catat waktu eskalasi, pihak yang merespons, intervensi, dan skor ulang. 🚨 Apa yang sering keliru? Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko. Menghitung tanpa melihat pasien Kesalahan alat atau kondisi klinis penting dapat terlewat. Menggunakan Scale 2 untuk semua PPOK Dapat mentoleransi hipoksemia yang sebenarnya tidak sesuai. Mengabaikan skor tunggal 3 Parameter ekstrem dapat menandakan risiko walaupun total rendah. Tidak mencatat oksigen Skor menjadi lebih rendah dari kondisi sebenarnya. Skor tinggi tetapi tidak ada respons NEWS2 hanya bermanfaat bila terhubung dengan sistem eskalasi."
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Mengenali Perburukan Kondisi dengan EWS Gunakan EWS sesuai populasi untuk mengenali perburukan lebih dini, melihat tren, dan melakukan eskalasi yang tepat."
 }

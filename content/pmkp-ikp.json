@@ -1,0 +1,191 @@
+{
+  "id": "pmkp-ikp",
+  "group": "pmkp",
+  "title": "Insiden Keselamatan Pasien (IKP)",
+  "short": "Insiden Keselamatan Pasien (IKP)",
+  "desc": "Kenali jenis insiden dan lakukan pelaporan dengan fokus utama mengamankan pasien serta mencegah kejadian berulang.",
+  "category": "PMKP",
+  "color": "#D97706",
+  "soft": "#FFF7E8",
+  "icon": "target",
+  "minutes": 9,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 4,
+  "slides": [
+    {
+      "type": "html",
+      "title": "⚠️ Jenis insiden yang perlu dikenal",
+      "caption": "Gunakan kategori yang tercantum dalam instrumen akreditasi.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "KPCS",
+            "text": "Kondisi Potensial Cedera Signifikan: kondisi berbahaya yang berpotensi menimbulkan cedera signifikan."
+          },
+          {
+            "title": "KNC",
+            "text": "Kejadian Nyaris Cedera: insiden tertangkap sebelum mencapai pasien."
+          },
+          {
+            "title": "KTC",
+            "text": "Kejadian Tidak Cedera: insiden mencapai pasien tetapi tidak menimbulkan cedera."
+          },
+          {
+            "title": "KTD",
+            "text": "Kejadian Tidak Diharapkan: insiden menimbulkan cedera yang tidak diharapkan terkait pelayanan."
+          },
+          {
+            "title": "Sentinel",
+            "text": "Kejadian sangat serius sesuai definisi regulasi/RS yang membutuhkan respons dan analisis mendalam."
+          }
+        ],
+        "columns": 1,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "📣 Bila insiden terjadi",
+      "caption": "Urutan awal jangan dibalik: pasien dulu, laporan setelah tindakan segera dimulai.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "1. Amankan pasien",
+            "text": "Nilai kondisi dan lakukan penanganan klinis segera."
+          },
+          {
+            "title": "2. Informasikan/escalate",
+            "text": "Hubungi PPA/atasan yang diperlukan sesuai kondisi."
+          },
+          {
+            "title": "3. Dokumentasikan pelayanan",
+            "text": "Catat fakta klinis dan tindakan pada rekam medis dengan benar."
+          },
+          {
+            "title": "4. Laporkan IKP",
+            "text": "Masukkan kejadian melalui alur pelaporan insiden rumah sakit sesuai waktu dan sistem lokal."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🧠 Setelah laporan",
+      "caption": "Tujuan akhirnya belajar dan mencegah pengulangan.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Analisis sesuai tingkat risiko",
+            "text": "Grading/investigasi dilakukan oleh sistem/Tim Mutu sesuai kebijakan."
+          },
+          {
+            "title": "RCA",
+            "text": "Digunakan pada kejadian tertentu yang memerlukan analisis akar masalah, termasuk sentinel sesuai ketentuan."
+          },
+          {
+            "title": "Near miss juga bernilai",
+            "text": "KNC memberi kesempatan memperbaiki sistem sebelum pasien cedera."
+          },
+          {
+            "title": "Budaya keselamatan",
+            "text": "Speak up terhadap risiko dan jangan menyembunyikan insiden; fokus pada sistem dan perilaku aman."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Inti materi — 1 menit",
+      "points": [
+        "Kenali KPCS, KNC, KTC, KTD, dan sentinel.",
+        "Saat insiden: amankan pasien → eskalasi klinis → dokumentasikan → laporkan IKP.",
+        "Pelaporan insiden mengikuti sistem RS; jangan menunda penanganan klinis.",
+        "KNC/near miss tetap penting untuk pembelajaran dan pencegahan."
+      ]
+    }
+  ],
+  "do": [
+    "Kenali KPCS, KNC, KTC, KTD, dan sentinel.",
+    "Saat insiden: amankan pasien → eskalasi klinis → dokumentasikan → laporkan IKP.",
+    "Pelaporan insiden mengikuti sistem RS; jangan menunda penanganan klinis.",
+    "KNC/near miss tetap penting untuk pembelajaran dan pencegahan."
+  ],
+  "dont": [],
+  "quiz": [
+    {
+      "q": "Kesalahan obat tertangkap sebelum obat mencapai pasien disebut…",
+      "options": [
+        "KNC",
+        "KTD",
+        "KTC",
+        "Sentinel otomatis"
+      ],
+      "answer": 0,
+      "why": "KNC adalah kejadian nyaris cedera."
+    },
+    {
+      "q": "Insiden sudah mencapai pasien tetapi tidak menimbulkan cedera disebut…",
+      "options": [
+        "KTC",
+        "KNC",
+        "KPCS",
+        "Sentinel"
+      ],
+      "answer": 0,
+      "why": "KTC = kejadian tidak cedera."
+    },
+    {
+      "q": "Setelah insiden terjadi, prioritas pertama perawat adalah…",
+      "options": [
+        "Mengisi formulir insiden",
+        "Menilai dan mengamankan pasien",
+        "Menghapus bukti",
+        "Menunggu rapat mutu"
+      ],
+      "answer": 1,
+      "why": "Keselamatan klinis pasien selalu didahulukan."
+    },
+    {
+      "q": "Mengapa KNC perlu dilaporkan/dipelajari?",
+      "options": [
+        "Karena dapat menunjukkan celah sistem sebelum menimbulkan cedera",
+        "Tidak perlu karena pasien tidak cedera",
+        "Untuk menghukum pasien",
+        "Agar data terlihat banyak"
+      ],
+      "answer": 0,
+      "why": "Near miss adalah sumber belajar keselamatan yang penting."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Insiden Keselamatan Pasien (IKP) Kenali jenis insiden dan lakukan pelaporan dengan fokus utama mengamankan pasien serta mencegah kejadian berulang."
+}

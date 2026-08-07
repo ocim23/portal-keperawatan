@@ -3,208 +3,94 @@
   "group": "pkpo",
   "title": "Instruksi Pengobatan yang Aman",
   "short": "Instruksi Pengobatan yang Aman",
-  "desc": "Pastikan instruksi lengkap, jelas, terbaca, dan dapat ditindaklanjuti.",
+  "desc": "Pastikan instruksi obat lengkap, terbaca, tidak ambigu, dan dapat diverifikasi sebelum pemberian.",
   "category": "PKPO",
   "color": "#6D48C7",
   "soft": "#F1ECFF",
   "icon": "rights",
-  "priority": "knowledge",
-  "priorityLabel": "Pengetahuan Wajib",
-  "minutes": 13,
+  "minutes": 9,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Instruksi pengobatan yang aman",
-      "caption": "Perawat harus mampu mengenali instruksi yang belum lengkap atau berisiko.",
+      "title": "📝 Instruksi harus cukup lengkap",
+      "caption": "Perawat tidak boleh menebak bagian yang hilang.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Elemen dasar",
-            "text": "Identitas pasien, nama obat, dosis, rute, frekuensi/waktu, dan indikasi bila diperlukan."
+            "title": "Identitas pasien",
+            "text": "Order terkait dengan pasien yang benar."
           },
           {
-            "title": "Data pasien",
-            "text": "Alergi, berat badan, fungsi ginjal/hati, hasil laboratorium, dan kondisi klinis relevan."
+            "title": "Obat dan dosis",
+            "text": "Nama obat, dosis/kekuatan yang jelas."
           },
           {
-            "title": "Instruksi verbal/telepon",
-            "text": "Diterima hanya sesuai ketentuan; tulis, baca kembali, dan konfirmasi."
+            "title": "Rute dan frekuensi/waktu",
+            "text": "Cara pemberian dan jadwal dapat dipahami tanpa asumsi."
+          },
+          {
+            "title": "Instruksi khusus",
+            "text": "Indikasi PRN, parameter titrasi, kecepatan infus, batas dosis, atau monitoring bila diperlukan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "☎️ Verbal/telepon dan singkatan",
+      "caption": "Gunakan sistem komunikasi aman yang sudah dipelajari.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "TBaK",
+            "text": "Instruksi verbal/telepon: tulis/input → baca kembali → konfirmasi."
           },
           {
             "title": "Singkatan",
-            "text": "Gunakan hanya singkatan yang diizinkan; jangan menebak tulisan atau simbol ambigu."
+            "text": "Hindari singkatan yang dilarang/berisiko ambigu."
           },
+          {
+            "title": "Angka",
+            "text": "Waspadai penulisan dosis yang dapat salah dibaca; ikuti kaidah RS."
+          },
+          {
+            "title": "Tidak jelas",
+            "text": "Tahan pemberian yang tidak emergen dan klarifikasi; jangan menebak maksud prescriber."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "💉 PRN dan titrasi",
+      "caption": "Instruksi harus memiliki parameter klinis yang dapat digunakan.",
+      "template": {
+        "style": "cards",
+        "items": [
           {
             "title": "PRN",
-            "text": "Harus jelas indikasi, dosis, interval, dan batas maksimal bila diperlukan."
+            "text": "Indikasi dan batas penggunaan harus jelas, bukan hanya “bila perlu”."
           },
           {
-            "title": "Klarifikasi",
-            "text": "Tahan pemberian sampai instruksi yang tidak lengkap atau tidak masuk akal diselesaikan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Instruksi harus lengkap",
-            "text": "Identitas pasien, nama obat, dosis, rute, frekuensi/waktu, serta elemen lain sesuai obat dan kebijakan."
+            "title": "Titrasi",
+            "text": "Target/parameter dan langkah perubahan dosis harus dapat diikuti."
           },
           {
-            "title": "Alergi dan data klinis relevan",
-            "text": "Berat badan, fungsi ginjal, laboratorium, tekanan darah, atau parameter lain dapat menentukan keamanan."
+            "title": "Infus",
+            "text": "Kecepatan/konsentrasi dan kebutuhan monitoring ditetapkan sesuai obat."
           },
           {
-            "title": "Singkatan hanya yang diizinkan",
-            "text": "Singkatan berisiko dan desimal yang tidak jelas dapat menyebabkan kesalahan."
-          },
-          {
-            "title": "Instruksi ambigu harus diklarifikasi",
-            "text": "Perawat tidak boleh menebak maksud pemberi instruksi."
-          },
-          {
-            "title": "Instruksi verbal memiliki pembatasan",
-            "text": "Gunakan hanya pada kondisi yang diizinkan dan lakukan TBaK serta dokumentasi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Urutan kerja yang membantu menjaga keselamatan dan konsistensi.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Baca seluruh instruksi",
-            "text": "Jangan berhenti pada nama obat."
-          },
-          {
-            "title": "Cocokkan dengan pasien",
-            "text": "Tinjau alergi, diagnosis, parameter, dan obat lain."
-          },
-          {
-            "title": "Temukan ketidakjelasan",
-            "text": "Dosis, satuan, rute, frekuensi, atau batas PRN."
-          },
-          {
-            "title": "Klarifikasi",
-            "text": "Hubungi penulis atau jalur berwenang."
-          },
-          {
-            "title": "Dokumentasikan hasil",
-            "text": "Catat perubahan, konfirmasi, dan waktu."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktiknya di unit",
-      "caption": "Contoh tindakan yang dapat dijelaskan atau diperagakan.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Instruksi “insulin 5”",
-            "text": "Satuan tidak lengkap—jangan diberikan sebelum klarifikasi."
-          },
-          {
-            "title": "PRN tanpa indikasi/batas",
-            "text": "Klarifikasi parameter penggunaan."
-          },
-          {
-            "title": "Dosis tidak sesuai fungsi ginjal",
-            "text": "Tahan sesuai kewenangan dan diskusikan dengan dokter/farmasi."
-          },
-          {
-            "title": "Instruksi telepon",
-            "text": "Tulis, baca kembali, konfirmasi, dan dokumentasikan."
-          },
-          {
-            "title": "Tulisan tidak terbaca",
-            "text": "Jangan meminta rekan menebak; hubungi penulis."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret sesuai kewenangan dan proses rumah sakit.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Melakukan independent check",
-            "text": "Tinjau dengan sumber dan data pasien."
-          },
-          {
-            "title": "Berani menahan proses",
-            "text": "Ketidakjelasan adalah alasan sah untuk berhenti."
-          },
-          {
-            "title": "Menggunakan komunikasi terstruktur",
-            "text": "Sampaikan masalah dan rekomendasi."
-          },
-          {
-            "title": "Memantau parameter",
-            "text": "Pastikan syarat sebelum dan setelah obat."
-          },
-          {
-            "title": "Melaporkan pola instruksi berisiko",
-            "text": "Dorong perbaikan sistem."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Menganggap dosis biasa selalu benar",
-            "text": "Pasien dan indikasi berbeda."
-          },
-          {
-            "title": "Menggunakan trailing zero",
-            "text": "Dapat terbaca sepuluh kali lipat."
-          },
-          {
-            "title": "Menerima singkatan berisiko",
-            "text": "Makna dapat berbeda antarprofesi."
-          },
-          {
-            "title": "Memberikan dulu lalu klarifikasi",
-            "text": "Membalik prioritas keselamatan."
-          },
-          {
-            "title": "Menghapus instruksi lama tanpa jejak",
-            "text": "Perubahan harus dapat ditelusuri."
+            "title": "High-alert",
+            "text": "Pengamanan tambahan mengikuti SKP 3; tidak diulang di sini."
           }
         ],
         "columns": 2,
@@ -214,399 +100,77 @@
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Elemen dasar: Identitas pasien, nama obat, dosis, rute, frekuensi/waktu, dan indikasi bila diperlukan.",
-        "Data pasien: Alergi, berat badan, fungsi ginjal/hati, hasil laboratorium, dan kondisi klinis relevan.",
-        "Instruksi verbal/telepon: Diterima hanya sesuai ketentuan; tulis, baca kembali, dan konfirmasi.",
-        "Singkatan: Gunakan hanya singkatan yang diizinkan; jangan menebak tulisan atau simbol ambigu."
-      ]
-    },
-    {
-      "title": "Konsep utama",
-      "points": [
-        "Identitas pasien, nama obat, dosis, rute, frekuensi/waktu, serta elemen lain sesuai obat dan kebijakan.",
-        "Berat badan, fungsi ginjal, laboratorium, tekanan darah, atau parameter lain dapat menentukan keamanan.",
-        "Singkatan berisiko dan desimal yang tidak jelas dapat menyebabkan kesalahan."
-      ]
-    },
-    {
-      "title": "Alur aman",
-      "points": [
-        "Baca seluruh instruksi: Jangan berhenti pada nama obat.",
-        "Cocokkan dengan pasien: Tinjau alergi, diagnosis, parameter, dan obat lain.",
-        "Temukan ketidakjelasan: Dosis, satuan, rute, frekuensi, atau batas PRN."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "Instruksi “insulin 5”: Satuan tidak lengkap—jangan diberikan sebelum klarifikasi.",
-        "PRN tanpa indikasi/batas: Klarifikasi parameter penggunaan.",
-        "Dosis tidak sesuai fungsi ginjal: Tahan sesuai kewenangan dan diskusikan dengan dokter/farmasi."
-      ]
-    },
-    {
-      "title": "Peran perawat",
-      "points": [
-        "Tinjau dengan sumber dan data pasien.",
-        "Ketidakjelasan adalah alasan sah untuk berhenti.",
-        "Sampaikan masalah dan rekomendasi."
+        "Order obat harus lengkap dan tidak ambigu.",
+        "Instruksi verbal/telepon menggunakan TBaK.",
+        "PRN dan titrasi memerlukan parameter yang jelas.",
+        "Instruksi tidak jelas harus diklarifikasi, bukan ditebak."
       ]
     }
   ],
   "do": [
-    "Satuan tidak lengkap—jangan diberikan sebelum klarifikasi.",
-    "Klarifikasi parameter penggunaan.",
-    "Tahan sesuai kewenangan dan diskusikan dengan dokter/farmasi.",
-    "Tulis, baca kembali, konfirmasi, dan dokumentasikan.",
-    "Jangan meminta rekan menebak; hubungi penulis."
+    "Order obat harus lengkap dan tidak ambigu.",
+    "Instruksi verbal/telepon menggunakan TBaK.",
+    "PRN dan titrasi memerlukan parameter yang jelas.",
+    "Instruksi tidak jelas harus diklarifikasi, bukan ditebak."
   ],
-  "dont": [
-    "Pasien dan indikasi berbeda.",
-    "Dapat terbaca sepuluh kali lipat.",
-    "Makna dapat berbeda antarprofesi.",
-    "Membalik prioritas keselamatan.",
-    "Perubahan harus dapat ditelusuri."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Dalam situasi “Instruksi “insulin 5””, tindakan yang paling tepat adalah…",
+      "q": "Order tertulis “morphine PRN” tanpa indikasi/dosis yang jelas. Perawat sebaiknya…",
       "options": [
-        "Satuan tidak lengkap—jangan diberikan sebelum klarifikasi.",
-        "Pasien dan indikasi berbeda.",
-        "Dapat terbaca sepuluh kali lipat.",
-        "Makna dapat berbeda antarprofesi."
-      ],
-      "answer": 0,
-      "why": "Satuan tidak lengkap—jangan diberikan sebelum klarifikasi."
-    },
-    {
-      "q": "Dalam situasi “PRN tanpa indikasi/batas”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Dapat terbaca sepuluh kali lipat.",
-        "Makna dapat berbeda antarprofesi.",
-        "Membalik prioritas keselamatan.",
-        "Klarifikasi parameter penggunaan."
-      ],
-      "answer": 3,
-      "why": "Klarifikasi parameter penggunaan."
-    },
-    {
-      "q": "Dalam situasi “Dosis tidak sesuai fungsi ginjal”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Membalik prioritas keselamatan.",
-        "Perubahan harus dapat ditelusuri.",
-        "Tahan sesuai kewenangan dan diskusikan dengan dokter/farmasi.",
-        "Makna dapat berbeda antarprofesi."
-      ],
-      "answer": 2,
-      "why": "Tahan sesuai kewenangan dan diskusikan dengan dokter/farmasi."
-    },
-    {
-      "q": "Dalam situasi “Instruksi telepon”, tindakan yang paling tepat adalah…",
-      "options": [
-        "Pasien dan indikasi berbeda.",
-        "Tulis, baca kembali, konfirmasi, dan dokumentasikan.",
-        "Membalik prioritas keselamatan.",
-        "Perubahan harus dapat ditelusuri."
+        "Menebak dosis biasa",
+        "Klarifikasi sebelum pemberian",
+        "Memberikan dosis tertinggi",
+        "Meminta keluarga memilih"
       ],
       "answer": 1,
-      "why": "Tulis, baca kembali, konfirmasi, dan dokumentasikan."
+      "why": "PRN harus memiliki parameter yang cukup untuk pemberian aman."
     },
     {
-      "q": "Dalam situasi “Tulisan tidak terbaca”, tindakan yang paling tepat adalah…",
+      "q": "Instruksi telepon setelah ditulis harus…",
       "options": [
-        "Jangan meminta rekan menebak; hubungi penulis.",
-        "Perubahan harus dapat ditelusuri.",
-        "Pasien dan indikasi berbeda.",
-        "Dapat terbaca sepuluh kali lipat."
-      ],
-      "answer": 0,
-      "why": "Jangan meminta rekan menebak; hubungi penulis."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Instruksi harus lengkap” adalah…",
-      "options": [
-        "Pasien dan indikasi berbeda.",
-        "Identitas pasien, nama obat, dosis, rute, frekuensi/waktu, serta elemen lain sesuai obat dan kebijakan.",
-        "Makna dapat berbeda antarprofesi.",
-        "Membalik prioritas keselamatan."
+        "Langsung ditutup",
+        "Dibaca kembali dan dikonfirmasi",
+        "Dihapus",
+        "Hanya ditandatangani petugas kedua"
       ],
       "answer": 1,
-      "why": "Identitas pasien, nama obat, dosis, rute, frekuensi/waktu, serta elemen lain sesuai obat dan kebijakan."
+      "why": "TBaK menutup loop komunikasi."
     },
     {
-      "q": "Pernyataan yang paling tepat tentang “Alergi dan data klinis relevan” adalah…",
+      "q": "Instruksi titrasi aman memerlukan…",
       "options": [
-        "Dapat terbaca sepuluh kali lipat.",
-        "Berat badan, fungsi ginjal, laboratorium, tekanan darah, atau parameter lain dapat menentukan keamanan.",
-        "Membalik prioritas keselamatan.",
-        "Perubahan harus dapat ditelusuri."
+        "Hanya nama obat",
+        "Target/parameter dan aturan perubahan dosis yang jelas",
+        "Nomor kamar",
+        "Warna vial"
       ],
       "answer": 1,
-      "why": "Berat badan, fungsi ginjal, laboratorium, tekanan darah, atau parameter lain dapat menentukan keamanan."
-    },
-    {
-      "q": "Pernyataan yang paling tepat tentang “Singkatan hanya yang diizinkan” adalah…",
-      "options": [
-        "Makna dapat berbeda antarprofesi.",
-        "Singkatan berisiko dan desimal yang tidak jelas dapat menyebabkan kesalahan.",
-        "Perubahan harus dapat ditelusuri.",
-        "Pasien dan indikasi berbeda."
-      ],
-      "answer": 1,
-      "why": "Singkatan berisiko dan desimal yang tidak jelas dapat menyebabkan kesalahan."
+      "why": "Titrasi tanpa parameter meningkatkan variasi dan risiko."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
-      "title": "Instrumen Survei Akreditasi Rumah Sakit 2024",
-      "org": "Kementerian Kesehatan Republik Indonesia",
-      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
     },
     {
-      "title": "Regulasi, SPO, dan kebijakan rumah sakit yang berlaku",
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
       "org": "Rumah sakit masing-masing",
       "url": ""
     }
   ],
-  "keywords": [
-    "4.1",
-    "5",
-    "adalah",
-    "akal",
-    "alasan",
-    "alergi",
-    "alurnya",
-    "aman",
-    "ambigu",
-    "ambigu.",
-    "antarprofesi.",
-    "apa",
-    "atau",
-    "baca",
-    "badan",
-    "batas",
-    "belum",
-    "benar",
-    "berani",
-    "berat",
-    "berbeda",
-    "berbeda.",
-    "berhenti",
-    "berhenti.",
-    "berisiko",
-    "berisiko.",
-    "berwenang.",
-    "biasa",
-    "bila",
-    "boleh",
-    "catat",
-    "check",
-    "cocokkan",
-    "contoh",
-    "dan",
-    "dapat",
-    "darah",
-    "dasar",
-    "data",
-    "dengan",
-    "desimal",
-    "di",
-    "diagnosis",
-    "diberikan",
-    "diizinkan",
-    "dijelaskan",
-    "diklarifikasi",
-    "dipahami",
-    "diperagakan.",
-    "diperlukan.",
-    "diselesaikan.",
-    "diskusikan",
-    "ditelusuri.",
-    "diterima",
-    "ditindaklanjuti.",
-    "dokter/farmasi.",
-    "dokumentasi.",
-    "dokumentasikan",
-    "dokumentasikan.",
-    "dorong",
-    "dosis",
-    "dulu",
-    "elemen",
-    "frekuensi",
-    "frekuensi/waktu",
-    "fungsi",
-    "gimana",
-    "ginjal",
-    "ginjal/hati",
-    "gunakan",
-    "hanya",
-    "harus",
-    "hasil",
-    "hubungi",
-    "identitas",
-    "independent",
-    "indikasi",
-    "indikasi/batas",
-    "instruksi",
-    "instruksi.",
-    "insulin",
-    "interval",
-    "intinya",
-    "istilah",
-    "jalur",
-    "jangan",
-    "jejak",
-    "jelas",
-    "kali",
-    "keamanan.",
-    "kebiasaan",
-    "kebijakan.",
-    "keliru",
-    "kembali",
-    "kenali",
-    "kerja",
-    "kesalahan.",
-    "keselamatan",
-    "keselamatan.",
-    "ketentuan",
-    "ketidakjelasan",
-    "kewenangan",
-    "klarifikasi",
-    "klarifikasi.",
-    "klinis",
-    "komunikasi",
-    "kondisi",
-    "konfirmasi",
-    "konfirmasi.",
-    "konkret",
-    "konsistensi.",
-    "laboratorium",
-    "lain",
-    "lain.",
-    "lakukan",
-    "lalu",
-    "lama",
-    "lengkap",
-    "lipat.",
-    "makna",
-    "maksimal",
-    "maksud",
-    "mampu",
-    "masalah",
-    "masuk",
-    "melakukan",
-    "melaporkan",
-    "memantau",
-    "membalik",
-    "membantu",
-    "memberikan",
-    "memiliki",
-    "meminta",
-    "menahan",
-    "menebak",
-    "menentukan",
-    "menerapkan.",
-    "menerima",
-    "menganggap",
-    "mengenali",
-    "menggunakan",
-    "menghapus",
-    "meningkatkan",
-    "menjaga",
-    "menyebabkan",
-    "nama",
-    "ngapain",
-    "obat",
-    "obat.",
-    "pada",
-    "parameter",
-    "pasien",
-    "pasien.",
-    "pastikan",
-    "pembatasan",
-    "pemberi",
-    "pemberian",
-    "penggunaan.",
-    "pengobatan",
-    "penulis",
-    "penulis.",
-    "perawat",
-    "perbaikan",
-    "perlu",
-    "perubahan",
-    "pkpo",
-    "pola",
-    "praktiknya",
-    "prioritas",
-    "prn",
-    "prn.",
-    "proses",
-    "rekan",
-    "rekomendasi.",
-    "relevan",
-    "relevan.",
-    "risiko.",
-    "rumah",
-    "rute",
-    "sah",
-    "sakit.",
-    "sampai",
-    "sampaikan",
-    "satuan",
-    "sebelum",
-    "sederhana",
-    "selalu",
-    "seluruh",
-    "sepuluh",
-    "sering",
-    "serta",
-    "sesuai",
-    "setelah",
-    "simbol",
-    "singkatan",
-    "sistem.",
-    "sumber",
-    "syarat",
-    "tahan",
-    "tampak",
-    "tanpa",
-    "tbak",
-    "tekanan",
-    "telepon",
-    "temukan",
-    "terbaca",
-    "terstruktur",
-    "tetapi",
-    "tidak",
-    "tindakan",
-    "tinjau",
-    "trailing",
-    "tulis",
-    "tulisan",
-    "unit",
-    "untuk",
-    "urutan",
-    "verbal",
-    "verbal/telepon",
-    "waktu.",
-    "yang",
-    "zero"
-  ],
-  "instrumentCodes": [
-    "PKPO 4.1"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    359
-  ],
-  "standardRef": "PKPO 4.1",
-  "searchText": "Instruksi Pengobatan yang Aman Pastikan instruksi lengkap, jelas, terbaca, dan dapat ditindaklanjuti. PKPO 4.1 Instruksi pengobatan yang aman Perawat harus mampu mengenali instruksi yang belum lengkap atau berisiko. Elemen dasar Identitas pasien, nama obat, dosis, rute, frekuensi/waktu, dan indikasi bila diperlukan. Data pasien Alergi, berat badan, fungsi ginjal/hati, hasil laboratorium, dan kondisi klinis relevan. Instruksi verbal/telepon Diterima hanya sesuai ketentuan; tulis, baca kembali, dan konfirmasi. Singkatan Gunakan hanya singkatan yang diizinkan; jangan menebak tulisan atau simbol ambigu. PRN Harus jelas indikasi, dosis, interval, dan batas maksimal bila diperlukan. Klarifikasi Tahan pemberian sampai instruksi yang tidak lengkap atau tidak masuk akal diselesaikan. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Instruksi harus lengkap Identitas pasien, nama obat, dosis, rute, frekuensi/waktu, serta elemen lain sesuai obat dan kebijakan. Alergi dan data klinis relevan Berat badan, fungsi ginjal, laboratorium, tekanan darah, atau parameter lain dapat menentukan keamanan. Singkatan hanya yang diizinkan Singkatan berisiko dan desimal yang tidak jelas dapat menyebabkan kesalahan. Instruksi ambigu harus diklarifikasi Perawat tidak boleh menebak maksud pemberi instruksi. Instruksi verbal memiliki pembatasan Gunakan hanya pada kondisi yang diizinkan dan lakukan TBaK serta dokumentasi. 🧭 Alurnya gimana? Urutan kerja yang membantu menjaga keselamatan dan konsistensi. Baca seluruh instruksi Jangan berhenti pada nama obat. Cocokkan dengan pasien Tinjau alergi, diagnosis, parameter, dan obat lain. Temukan ketidakjelasan Dosis, satuan, rute, frekuensi, atau batas PRN. Klarifikasi Hubungi penulis atau jalur berwenang. Dokumentasikan hasil Catat perubahan, konfirmasi, dan waktu. 💪 Praktiknya di unit Contoh tindakan yang dapat dijelaskan atau diperagakan. Instruksi “insulin 5” Satuan tidak lengkap—jangan diberikan sebelum klarifikasi. PRN tanpa indikasi/batas Klarifikasi parameter penggunaan. Dosis tidak sesuai fungsi ginjal Tahan sesuai kewenangan dan diskusikan dengan dokter/farmasi. Instruksi telepon Tulis, baca kembali, konfirmasi, dan dokumentasikan. Tulisan tidak terbaca Jangan meminta rekan menebak; hubungi penulis. 💪 Perawat harus ngapain? Tindakan konkret sesuai kewenangan dan proses rumah sakit. Melakukan independent check Tinjau dengan sumber dan data pasien. Berani menahan proses Ketidakjelasan adalah alasan sah untuk berhenti. Menggunakan komunikasi terstruktur Sampaikan masalah dan rekomendasi. Memantau parameter Pastikan syarat sebelum dan setelah obat. Melaporkan pola instruksi berisiko Dorong perbaikan sistem. 🚨 Apa yang sering keliru? Kenali kebiasaan yang tampak sederhana tetapi meningkatkan risiko. Menganggap dosis biasa selalu benar Pasien dan indikasi berbeda. Menggunakan trailing zero Dapat terbaca sepuluh kali lipat. Menerima singkatan berisiko Makna dapat berbeda antarprofesi. Memberikan dulu lalu klarifikasi Membalik prioritas keselamatan. Menghapus instruksi lama tanpa jejak Perubahan harus dapat ditelusuri."
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Instruksi Pengobatan yang Aman Pastikan instruksi obat lengkap, terbaca, tidak ambigu, dan dapat diverifikasi sebelum pemberian."
 }

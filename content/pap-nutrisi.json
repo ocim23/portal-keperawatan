@@ -3,85 +3,38 @@
   "group": "pap",
   "title": "Makanan dan Terapi Nutrisi",
   "short": "Makanan dan Terapi Nutrisi",
-  "desc": "Diet, keamanan makanan, terapi nutrisi, edukasi, dan pemantauan.",
+  "desc": "Pastikan diet dan terapi nutrisi sesuai kebutuhan, benar pasien, aman, serta dievaluasi responsnya secara terintegrasi.",
   "category": "PAP",
   "color": "#C93B50",
   "soft": "#FFF0F2",
   "icon": "heart",
-  "minutes": 18,
+  "minutes": 9,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Alur asuhan nutrisi pasien",
-      "caption": "Skrining hanya langkah awal; pasien berisiko harus mendapat tindak lanjut.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Skrining risiko nutrisi",
-            "text": "Dilakukan sebagai bagian pengkajian awal menggunakan alat yang ditetapkan."
-          },
-          {
-            "title": "Pengkajian gizi",
-            "text": "Pasien berisiko dirujuk/dikaji oleh tenaga kompeten."
-          },
-          {
-            "title": "Rencana terapi nutrisi",
-            "text": "Diet, rute, kebutuhan, tekstur, suplementasi, atau terapi lain ditetapkan sesuai kondisi."
-          },
-          {
-            "title": "Pemberian makanan aman",
-            "text": "Pastikan identitas, jenis diet, alergi, kemampuan menelan, posisi, dan bantuan makan."
-          },
-          {
-            "title": "Pemantauan",
-            "text": "Nilai asupan, toleransi, berat badan/parameter klinis, dan respons terhadap intervensi."
-          },
-          {
-            "title": "Edukasi dan transisi",
-            "text": "Pasien/keluarga memahami diet dan kebutuhan nutrisi setelah pulang."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "image",
-      "title": "Skrining, Asuhan Nutrisi, dan Pemantauan",
-      "caption": "Risiko malnutrisi dan aspirasi harus ditemukan dini; diet yang benar tidak bermanfaat bila tidak masuk, tidak ditoleransi, atau diberikan kepada pasien yang salah.",
-      "image": "assets/images/v4/pap-nutrisi/pap-nutrisi-01.webp",
-      "thumbnail": "assets/images/thumb/v4/pap-nutrisi/pap-nutrisi-01.webp"
-    },
-    {
-      "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
+      "title": "🍽️ Makanan adalah bagian dari terapi",
+      "caption": "Diet tidak sekadar menu dapur.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Skrining nutrisi",
-            "text": "Penyaringan cepat untuk menentukan risiko malnutrisi."
+            "title": "Dasar diet",
+            "text": "Umur, diagnosis, kondisi nutrisi, rencana terapi, budaya, dan preferensi yang relevan."
           },
           {
-            "title": "Asesmen gizi",
-            "text": "Evaluasi lebih komprehensif untuk menentukan diagnosis dan rencana nutrisi."
+            "title": "Order diet",
+            "text": "Jenis diet harus terdokumentasi dan dapat ditelusuri."
           },
           {
-            "title": "Malnutrisi",
-            "text": "Kondisi kekurangan, ketidakseimbangan, atau gangguan pemanfaatan nutrisi yang berdampak pada fungsi dan hasil klinis."
+            "title": "Skrining",
+            "text": "Risiko nutrisi dinilai sejak asesmen awal; hasil positif ditindaklanjuti."
           },
           {
-            "title": "Aspirasi",
-            "text": "Masuknya makanan/cairan/sekret ke jalan napas."
-          },
-          {
-            "title": "Intake",
-            "text": "Jumlah nutrisi dan cairan yang benar-benar diterima pasien, bukan sekadar yang disediakan."
+            "title": "Benar pasien",
+            "text": "Cocokkan pasien dengan diet/pembatasan yang tepat sebelum diberikan."
           }
         ],
         "columns": 2,
@@ -90,166 +43,54 @@
     },
     {
       "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Skrining awal",
-            "text": "Gunakan alat yang sesuai populasi dan ulangi bila kondisi berubah."
-          },
-          {
-            "title": "Tindak lanjuti risiko",
-            "text": "Rujuk untuk asesmen, mulai intervensi awal, dan dokumentasikan."
-          },
-          {
-            "title": "Verifikasi sebelum memberi",
-            "text": "Cocokkan pasien, diet, tekstur, alergi, pembatasan, dan rute."
-          },
-          {
-            "title": "Siapkan posisi dan alat",
-            "text": "Pastikan posisi aman, kesadaran memadai, alat enteral terverifikasi, dan suction tersedia bila diperlukan."
-          },
-          {
-            "title": "Pantau konsumsi/toleransi",
-            "text": "Catat jumlah masuk, gejala, fungsi menelan, dan komplikasi."
-          },
-          {
-            "title": "Evaluasi hasil",
-            "text": "Tinjau berat badan, penyembuhan, kekuatan, laboratorium relevan, dan kemampuan memenuhi kebutuhan."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktik: skrining, rujuk, intervensi, dan pantau",
-      "caption": "Skrining cepat menentukan siapa yang memerlukan pengkajian nutrisi lebih mendalam.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "Lakukan skrining",
-            "text": "Gunakan instrumen sesuai populasi dan waktu yang ditetapkan; pahami arti hasilnya."
-          },
-          {
-            "title": "Kenali red flags",
-            "text": "Penurunan berat badan, intake rendah, disfagia, mual, kondisi katabolik, atau risiko aspirasi."
-          },
-          {
-            "title": "Rujuk/kolaborasi",
-            "text": "Sampaikan hasil positif kepada tenaga gizi/dokter/tim terkait sesuai urgensi."
-          },
-          {
-            "title": "Pastikan diet tepat",
-            "text": "Cocokkan jenis diet, tekstur, rute, alergi, posisi, dan kebutuhan bantuan makan."
-          },
-          {
-            "title": "Pantau toleransi dan asupan",
-            "text": "Catat jumlah asupan, mual/muntah, residu bila relevan, tanda aspirasi, dan perubahan berat."
-          },
-          {
-            "title": "Evaluasi dan modifikasi",
-            "text": "Nilai efektivitas rencana dan eskalasi bila target tidak tercapai."
-          }
-        ],
-        "columns": 2,
-        "note": "Skrining bukan diagnosis malnutrisi; hasil positif memicu proses lanjut."
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧩 Kalau situasinya berbeda?",
-      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "title": "Batuk atau suara basah saat makan",
-            "text": "Hentikan pemberian, nilai jalan napas dan menelan, serta lakukan eskalasi."
-          },
-          {
-            "title": "Pasien NPO tetapi mendapat baki",
-            "text": "Jangan memberikan; klarifikasi instruksi dan cegah kejadian berulang."
-          },
-          {
-            "title": "Asupan terus < kebutuhan",
-            "text": "Jangan hanya mencatat persentase; cari penyebab dan aktifkan kolaborasi."
-          },
-          {
-            "title": "Selang enteral berpindah atau pasien muntah",
-            "text": "Hentikan sementara sesuai kondisi, nilai posisi/komplikasi, dan klarifikasi sebelum melanjutkan."
-          },
-          {
-            "title": "Pasien membawa makanan luar",
-            "text": "Nilai kesesuaian diet, keamanan, alergi, dan edukasi tanpa mengabaikan preferensi pasien."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Amati proses makan",
-            "text": "Kemampuan mengunyah, menelan, kelelahan, batuk, dan kebutuhan bantuan terlihat saat pasien makan."
-          },
-          {
-            "title": "Catat akurat",
-            "text": "Bedakan jumlah disajikan, dikonsumsi, dan hilang karena muntah atau masalah lain."
-          },
-          {
-            "title": "Hubungkan dengan kondisi",
-            "text": "Demam, infeksi, luka, operasi, dan penyakit kronis mengubah kebutuhan."
-          },
-          {
-            "title": "Koordinasikan obat dan diet",
-            "text": "Waktu obat, interaksi makanan, glukosa, dan prosedur perlu diselaraskan."
-          },
-          {
-            "title": "Edukasi transisi",
-            "text": "Pastikan pasien/keluarga memahami diet, tekstur, rute, alat, dan tanda bahaya di rumah."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
+      "title": "🤝 Terapi nutrisi terintegrasi",
+      "caption": "Pasien berisiko membutuhkan proses lebih dari sekadar penyediaan makanan.",
       "template": {
         "style": "cards",
         "items": [
           {
-            "title": "Skrining positif hanya dicatat",
-            "text": "Risiko tidak menghasilkan intervensi."
+            "title": "Assess",
+            "text": "Nilai masalah dan kebutuhan nutrisi."
           },
           {
-            "title": "Menganggap baki habis berarti kebutuhan terpenuhi",
-            "text": "Komposisi, kebutuhan, dan toleransi tetap harus dinilai."
+            "title": "Plan",
+            "text": "Tentukan tujuan dan rencana bersama PPA terkait."
           },
           {
-            "title": "Tidak mencocokkan diet dan pasien",
-            "text": "Dapat menyebabkan alergi, aspirasi, atau terapi tidak sesuai."
+            "title": "Provide",
+            "text": "Berikan diet/enteral/parenteral sesuai rencana dan kewenangan."
           },
           {
-            "title": "Posisi makan tidak aman",
-            "text": "Meningkatkan risiko aspirasi."
+            "title": "Monitor & evaluate",
+            "text": "Pantau toleransi, intake, komplikasi, dan pencapaian tujuan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🥡 Makanan dari luar",
+      "caption": "Keamanan dan kesesuaian diet tetap harus dijaga.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Bila diperbolehkan",
+            "text": "Edukasi pembatasan diet dan cara penyimpanan/keamanan makanan."
           },
           {
-            "title": "Intake dicatat berdasarkan perkiraan",
-            "text": "Data tidak dapat digunakan untuk keputusan nutrisi."
+            "title": "Interaksi",
+            "text": "Perhatikan makanan yang dapat berinteraksi dengan obat atau kondisi klinis."
+          },
+          {
+            "title": "Kebijakan lokal",
+            "text": "Bila rumah sakit membatasi makanan luar, ikuti aturan tersebut."
+          },
+          {
+            "title": "Pasien berisiko",
+            "text": "Koordinasikan dengan ahli gizi/DPJP bila ada risiko aspirasi, malnutrisi, atau kebutuhan khusus."
           }
         ],
         "columns": 2,
@@ -259,500 +100,77 @@
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Skrining risiko nutrisi: Dilakukan sebagai bagian pengkajian awal menggunakan alat yang ditetapkan.",
-        "Pengkajian gizi: Pasien berisiko dirujuk/dikaji oleh tenaga kompeten.",
-        "Rencana terapi nutrisi: Diet, rute, kebutuhan, tekstur, suplementasi, atau terapi lain ditetapkan sesuai kondisi.",
-        "Pemberian makanan aman: Pastikan identitas, jenis diet, alergi, kemampuan menelan, posisi, dan bantuan makan."
-      ]
-    },
-    {
-      "title": "Skrining vs asesmen",
-      "points": [
-        "Skrining menemukan risiko; asesmen menentukan masalah dan rencana nutrisi."
-      ]
-    },
-    {
-      "title": "Keselamatan pemberian",
-      "points": [
-        "Benar pasien, diet, tekstur, alergi, rute, posisi, dan kemampuan menelan."
-      ]
-    },
-    {
-      "title": "Data yang bermakna",
-      "points": [
-        "Catat yang benar-benar masuk dan toleransi, bukan hanya baki diberikan."
-      ]
-    },
-    {
-      "title": "Tindak lanjut",
-      "points": [
-        "Risiko atau intake buruk memerlukan kolaborasi, intervensi, dan evaluasi hasil."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "Lakukan skrining: Gunakan instrumen sesuai populasi dan waktu yang ditetapkan; pahami arti hasilnya.",
-        "Kenali red flags: Penurunan berat badan, intake rendah, disfagia, mual, kondisi katabolik, atau risiko aspirasi."
+        "Diet adalah bagian dari rencana klinis dan harus benar pasien.",
+        "Skrining risiko nutrisi positif ditindaklanjuti dengan asesmen/terapi.",
+        "Terapi nutrisi: asesmen → rencana → pemberian → monitoring/evaluasi.",
+        "Makanan dari luar mengikuti pembatasan diet dan kebijakan RS."
       ]
     }
   ],
   "do": [
-    "Tindak lanjuti skrining positif.",
-    "Cocokkan diet dengan identitas dan kondisi.",
-    "Posisikan pasien dengan aman.",
-    "Pantau intake dan tanda aspirasi.",
-    "Koordinasikan perubahan dengan tim gizi dan medis.",
-    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
+    "Diet adalah bagian dari rencana klinis dan harus benar pasien.",
+    "Skrining risiko nutrisi positif ditindaklanjuti dengan asesmen/terapi.",
+    "Terapi nutrisi: asesmen → rencana → pemberian → monitoring/evaluasi.",
+    "Makanan dari luar mengikuti pembatasan diet dan kebijakan RS."
   ],
-  "dont": [
-    "Memberi diet tanpa verifikasi.",
-    "Melanjutkan makan saat ada tanda aspirasi.",
-    "Mencatat intake berdasarkan perkiraan.",
-    "Mengabaikan penurunan asupan berulang.",
-    "Menganggap skrining sama dengan asesmen lengkap.",
-    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Skrining nutrisi menunjukkan risiko. Langkah berikutnya adalah…",
+      "q": "Sebelum menyerahkan makanan pasien, langkah keselamatan dasar adalah…",
       "options": [
-        "Mencatat saja",
-        "Melakukan/merujuk asesmen gizi dan memulai tindak lanjut",
-        "Mengulang saat pulang",
-        "Menghentikan semua makanan"
+        "Melihat nomor kamar saja",
+        "Mencocokkan identitas pasien dan jenis diet",
+        "Menanyakan menu favorit saja",
+        "Memberikan diet pasien sebelah"
       ],
       "answer": 1,
-      "why": "Skrining positif memerlukan asesmen dan intervensi."
+      "why": "Diet yang salah dapat menimbulkan risiko klinis."
     },
     {
-      "q": "Pasien batuk dan suara menjadi basah saat minum. Tindakan adalah…",
+      "q": "Skrining nutrisi positif berarti…",
       "options": [
-        "Melanjutkan perlahan",
-        "Menghentikan pemberian, menilai, dan melakukan eskalasi",
-        "Memberi sedotan lebih besar",
-        "Membaringkan pasien"
+        "Tidak perlu tindak lanjut",
+        "Perlu asesmen/intervensi nutrisi lebih lanjut sesuai sistem",
+        "Diet bebas",
+        "Pasien harus puasa"
       ],
       "answer": 1,
-      "why": "Tanda tersebut dapat menunjukkan gangguan menelan/aspirasi."
+      "why": "Skrining adalah pintu masuk untuk tindakan lanjutan."
     },
     {
-      "q": "Baki makanan habis berarti…",
+      "q": "Makanan dari luar rumah sakit…",
       "options": [
-        "Kebutuhan nutrisi pasti terpenuhi",
-        "Hanya menunjukkan makanan yang disajikan mungkin dikonsumsi; kebutuhan dan toleransi tetap dinilai",
-        "Pasien tidak berisiko",
-        "Asesmen tidak diperlukan"
+        "Selalu bebas tanpa aturan",
+        "Mengikuti kebijakan RS dan pembatasan diet/keamanan pasien",
+        "Pasti dilarang nasional",
+        "Tidak perlu edukasi"
       ],
       "answer": 1,
-      "why": "Asupan dan kebutuhan tidak sama dengan baki habis."
-    },
-    {
-      "q": "Sebelum memberi diet, perawat harus memverifikasi…",
-      "options": [
-        "Nomor kamar saja",
-        "Identitas, diet, tekstur, alergi/pembatasan, dan kemampuan menelan",
-        "Nama keluarga",
-        "Warna baki saja"
-      ],
-      "answer": 1,
-      "why": "Kesalahan diet dapat menimbulkan dampak klinis."
-    },
-    {
-      "q": "Intake terus rendah selama dua hari. Tindakan terbaik adalah…",
-      "options": [
-        "Mencatat tanpa tindak lanjut",
-        "Mencari penyebab, mengomunikasikan, dan menyesuaikan rencana",
-        "Menghapus data",
-        "Memaksa pasien makan"
-      ],
-      "answer": 1,
-      "why": "Data harus digunakan untuk keputusan."
-    },
-    {
-      "q": "Pasien NPO mendapat baki. Perawat seharusnya…",
-      "options": [
-        "Memberikan sedikit",
-        "Menahan baki dan mengklarifikasi instruksi",
-        "Meminta keluarga memutuskan",
-        "Mengubah NPO sendiri"
-      ],
-      "answer": 1,
-      "why": "Instruksi dan diet harus cocok sebelum pemberian."
-    },
-    {
-      "q": "Perbedaan utama intake dan makanan disajikan adalah…",
-      "options": [
-        "Tidak ada",
-        "Intake adalah jumlah yang benar-benar diterima/dikonsumsi pasien",
-        "Intake hanya cairan",
-        "Makanan disajikan selalu lebih sedikit"
-      ],
-      "answer": 1,
-      "why": "Keputusan klinis memerlukan data konsumsi aktual."
-    },
-    {
-      "q": "Pada pasien dengan selang enteral, muntah dan distensi baru memerlukan…",
-      "options": [
-        "Melanjutkan laju yang sama",
-        "Menghentikan sementara sesuai kondisi, menilai komplikasi, dan mengklarifikasi",
-        "Menambah cairan",
-        "Mengabaikan bila tanda vital normal"
-      ],
-      "answer": 1,
-      "why": "Gejala baru dapat menandakan intoleransi atau komplikasi."
-    },
-    {
-      "q": "Skrining malnutrisi positif. Langkah berikutnya adalah…",
-      "options": [
-        "Menganggap pasien sudah terdiagnosis malnutrisi",
-        "Melanjutkan pengkajian/rujukan dan menyusun intervensi serta pemantauan",
-        "Mengulang skrining setiap jam tanpa tindakan",
-        "Memberi diet tinggi kalori untuk semua pasien"
-      ],
-      "answer": 1,
-      "why": "Skrining mengidentifikasi risiko dan memicu proses lanjut."
+      "why": "Detail izin dan penyimpanan adalah kebijakan lokal."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
       "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
     }
   ],
-  "priority": "knowledge",
-  "priorityLabel": "Pengetahuan Wajib",
-  "instrumentCodes": [
-    "PAP 3"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    319,
-    320
-  ],
-  "standardRef": "PAP 3",
-  "keywords": [
-    "3",
-    "aktifkan",
-    "akurat",
-    "alasan",
-    "alat",
-    "alergi",
-    "alur",
-    "alurnya",
-    "aman",
-    "aman.",
-    "amati",
-    "apa",
-    "arti",
-    "asesmen",
-    "aspirasi",
-    "aspirasi.",
-    "asuhan",
-    "asupan",
-    "atau",
-    "awal",
-    "badan",
-    "badan/parameter",
-    "bagian",
-    "bahaya",
-    "baki",
-    "bantuan",
-    "basah",
-    "batuk",
-    "bedakan",
-    "benar",
-    "benar-benar",
-    "berarti",
-    "berat",
-    "berat.",
-    "berbeda",
-    "berdampak",
-    "berdasarkan",
-    "berisiko",
-    "bermanfaat",
-    "berpindah",
-    "berubah.",
-    "berulang.",
-    "bila",
-    "bukan",
-    "cairan",
-    "cara",
-    "cari",
-    "catat",
-    "cegah",
-    "cepat",
-    "cocokkan",
-    "dan",
-    "dapat",
-    "data",
-    "demam",
-    "dengan",
-    "di",
-    "diagnosis",
-    "diberikan",
-    "dicatat",
-    "diet",
-    "digunakan",
-    "dikonsumsi",
-    "dilakukan",
-    "dini",
-    "dinilai.",
-    "dipahami",
-    "diperlukan.",
-    "dirujuk/dikaji",
-    "disajikan",
-    "disediakan.",
-    "diselaraskan.",
-    "disfagia",
-    "ditemukan",
-    "diterima",
-    "ditetapkan",
-    "ditetapkan.",
-    "ditoleransi",
-    "dokumentasikan.",
-    "edukasi",
-    "efektivitas",
-    "enteral",
-    "eskalasi",
-    "eskalasi.",
-    "evaluasi",
-    "flags",
-    "fungsi",
-    "gangguan",
-    "gejala",
-    "gimana",
-    "gizi",
-    "gizi/dokter/tim",
-    "glukosa",
-    "gunakan",
-    "habis",
-    "hanya",
-    "harus",
-    "hasil",
-    "hasilnya.",
-    "hentikan",
-    "hilang",
-    "hubungkan",
-    "identitas",
-    "infeksi",
-    "instruksi",
-    "instrumen",
-    "intake",
-    "interaksi",
-    "intervensi",
-    "intervensi.",
-    "intinya",
-    "istilah",
-    "jalan",
-    "jangan",
-    "jenis",
-    "jumlah",
-    "kalau",
-    "karena",
-    "katabolik",
-    "ke",
-    "keamanan",
-    "kebutuhan",
-    "kebutuhan.",
-    "kejadian",
-    "kekuatan",
-    "kekurangan",
-    "kelelahan",
-    "keliru",
-    "kemampuan",
-    "kenali",
-    "kepada",
-    "keputusan",
-    "kerja",
-    "kesadaran",
-    "kesesuaian",
-    "ketidakseimbangan",
-    "klarifikasi",
-    "klinis",
-    "klinis.",
-    "kolaborasi.",
-    "kompeten.",
-    "komplikasi.",
-    "komposisi",
-    "komprehensif",
-    "kondisi",
-    "kondisi.",
-    "konkret",
-    "konsumsi/toleransi",
-    "koordinasikan",
-    "kronis",
-    "laboratorium",
-    "lain",
-    "lain.",
-    "lakukan",
-    "langkah",
-    "lanjut.",
-    "lanjuti",
-    "lebih",
-    "luar",
-    "luka",
-    "makan",
-    "makan.",
-    "makanan",
-    "makanan/cairan/sekret",
-    "malnutrisi",
-    "malnutrisi.",
-    "masalah",
-    "masuk",
-    "masuknya",
-    "melanjutkan.",
-    "memadai",
-    "memahami",
-    "membawa",
-    "memberi",
-    "memberikan",
-    "membingungkan",
-    "membutuhkan",
-    "memenuhi",
-    "memerlukan",
-    "mencatat",
-    "mencocokkan",
-    "mendalam.",
-    "mendapat",
-    "menelan",
-    "menentukan",
-    "menerapkan.",
-    "menerjemahkan",
-    "mengabaikan",
-    "menganggap",
-    "menggunakan",
-    "menghasilkan",
-    "mengubah",
-    "mengunyah",
-    "menimbulkan",
-    "meningkatkan",
-    "menyebabkan",
-    "modifikasi",
-    "mual",
-    "mual/muntah",
-    "mulai",
-    "muntah",
-    "napas",
-    "napas.",
-    "ngapain",
-    "nilai",
-    "npo",
-    "nutrisi",
-    "nutrisi.",
-    "obat",
-    "oleh",
-    "operasi",
-    "pada",
-    "pahami",
-    "pantau",
-    "pap",
-    "pasien",
-    "pasien.",
-    "pasien/keluarga",
-    "pastikan",
-    "pelayanan.",
-    "pemanfaatan",
-    "pemantauan",
-    "pemantauan.",
-    "pembatasan",
-    "pemberian",
-    "pengkajian",
-    "penilaian",
-    "penurunan",
-    "penyakit",
-    "penyaringan",
-    "penyebab",
-    "penyembuhan",
-    "perawat",
-    "perkiraan",
-    "perlu",
-    "persentase",
-    "perubahan",
-    "pola",
-    "populasi",
-    "posisi",
-    "posisi/komplikasi",
-    "positif",
-    "praktik",
-    "preferensi",
-    "prinsip",
-    "prosedur",
-    "proses",
-    "pulang.",
-    "red",
-    "relevan",
-    "rencana",
-    "rendah",
-    "residu",
-    "respons",
-    "risiko",
-    "risiko.",
-    "rujuk",
-    "rujuk/kolaborasi",
-    "rumah.",
-    "rute",
-    "rute.",
-    "saat",
-    "salah.",
-    "sampaikan",
-    "sebagai",
-    "sebelum",
-    "sekadar",
-    "selang",
-    "sementara",
-    "sepele",
-    "sering",
-    "serta",
-    "sesuai",
-    "sesuai.",
-    "setelah",
-    "siapa",
-    "siapkan",
-    "situasinya",
-    "skrining",
-    "suara",
-    "suction",
-    "suplementasi",
-    "tampak",
-    "tanda",
-    "tanpa",
-    "target",
-    "tekstur",
-    "tenaga",
-    "tepat",
-    "terapi",
-    "tercapai.",
-    "terhadap",
-    "terkait",
-    "terlihat",
-    "terpenuhi",
-    "tersedia",
-    "terus",
-    "terverifikasi",
-    "tetap",
-    "tetapi",
-    "tidak",
-    "tindak",
-    "tindakan",
-    "tinjau",
-    "titik",
-    "toleransi",
-    "transisi",
-    "ulangi",
-    "untuk",
-    "urgensi.",
-    "verifikasi",
-    "waktu",
-    "yang"
-  ],
-  "searchText": "Makanan dan Terapi Nutrisi Diet, keamanan makanan, terapi nutrisi, edukasi, dan pemantauan. PAP 3 Alur asuhan nutrisi pasien Skrining hanya langkah awal; pasien berisiko harus mendapat tindak lanjut. Skrining risiko nutrisi Dilakukan sebagai bagian pengkajian awal menggunakan alat yang ditetapkan. Pengkajian gizi Pasien berisiko dirujuk/dikaji oleh tenaga kompeten. Rencana terapi nutrisi Diet, rute, kebutuhan, tekstur, suplementasi, atau terapi lain ditetapkan sesuai kondisi. Pemberian makanan aman Pastikan identitas, jenis diet, alergi, kemampuan menelan, posisi, dan bantuan makan. Pemantauan Nilai asupan, toleransi, berat badan/parameter klinis, dan respons terhadap intervensi. Edukasi dan transisi Pasien/keluarga memahami diet dan kebutuhan nutrisi setelah pulang. Skrining, Asuhan Nutrisi, dan Pemantauan Risiko malnutrisi dan aspirasi harus ditemukan dini; diet yang benar tidak bermanfaat bila tidak masuk, tidak ditoleransi, atau diberikan kepada pasien yang salah. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Skrining nutrisi Penyaringan cepat untuk menentukan risiko malnutrisi. Asesmen gizi Evaluasi lebih komprehensif untuk menentukan diagnosis dan rencana nutrisi. Malnutrisi Kondisi kekurangan, ketidakseimbangan, atau gangguan pemanfaatan nutrisi yang berdampak pada fungsi dan hasil klinis. Aspirasi Masuknya makanan/cairan/sekret ke jalan napas. Intake Jumlah nutrisi dan cairan yang benar-benar diterima pasien, bukan sekadar yang disediakan. 🧭 Alurnya gimana? Cara menerjemahkan prinsip ke langkah kerja yang aman. Skrining awal Gunakan alat yang sesuai populasi dan ulangi bila kondisi berubah. Tindak lanjuti risiko Rujuk untuk asesmen, mulai intervensi awal, dan dokumentasikan. Verifikasi sebelum memberi Cocokkan pasien, diet, tekstur, alergi, pembatasan, dan rute. Siapkan posisi dan alat Pastikan posisi aman, kesadaran memadai, alat enteral terverifikasi, dan suction tersedia bila diperlukan. Pantau konsumsi/toleransi Catat jumlah masuk, gejala, fungsi menelan, dan komplikasi. Evaluasi hasil Tinjau berat badan, penyembuhan, kekuatan, laboratorium relevan, dan kemampuan memenuhi kebutuhan. 💪 Praktik: skrining, rujuk, intervensi, dan pantau Skrining cepat menentukan siapa yang memerlukan pengkajian nutrisi lebih mendalam. Lakukan skrining Gunakan instrumen sesuai populasi dan waktu yang ditetapkan; pahami arti hasilnya. Kenali red flags Penurunan berat badan, intake rendah, disfagia, mual, kondisi katabolik, atau risiko aspirasi. Rujuk/kolaborasi Sampaikan hasil positif kepada tenaga gizi/dokter/tim terkait sesuai urgensi. Pastikan diet tepat Cocokkan jenis diet, tekstur, rute, alergi, posisi, dan kebutuhan bantuan makan. Pantau toleransi dan asupan Catat jumlah asupan, mual/muntah, residu bila relevan, tanda aspirasi, dan perubahan berat. Evaluasi dan modifikasi Nilai efektivitas rencana dan eskalasi bila target tidak tercapai. 🧩 Kalau situasinya berbeda? Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut. Batuk atau suara basah saat makan Hentikan pemberian, nilai jalan napas dan menelan, serta lakukan eskalasi. Pasien NPO tetapi mendapat baki Jangan memberikan; klarifikasi instruksi dan cegah kejadian berulang. Asupan terus < kebutuhan Jangan hanya mencatat persentase; cari penyebab dan aktifkan kolaborasi. Selang enteral berpindah atau pasien muntah Hentikan sementara sesuai kondisi, nilai posisi/komplikasi, dan klarifikasi sebelum melanjutkan. Pasien membawa makanan luar Nilai kesesuaian diet, keamanan, alergi, dan edukasi tanpa mengabaikan preferensi pasien. 💪 Perawat harus ngapain? Tindakan konkret yang dapat dilakukan di titik pelayanan. Amati proses makan Kemampuan mengunyah, menelan, kelelahan, batuk, dan kebutuhan bantuan terlihat saat pasien makan. Catat akurat Bedakan jumlah disajikan, dikonsumsi, dan hilang karena muntah atau masalah lain. Hubungkan dengan kondisi Demam, infeksi, luka, operasi, dan penyakit kronis mengubah kebutuhan. Koordinasikan obat dan diet Waktu obat, interaksi makanan, glukosa, dan prosedur perlu diselaraskan. Edukasi transisi Pastikan pasien/keluarga memahami diet, tekstur, rute, alat, dan tanda bahaya di rumah. 🚨 Apa yang sering keliru? Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko. Skrining positif hanya dicatat Risiko tidak menghasilkan intervensi. Menganggap baki habis berarti kebutuhan terpenuhi Komposisi, kebutuhan, dan toleransi tetap harus dinilai. Tidak mencocokkan diet dan pasien Dapat menyebabkan alergi, aspirasi, atau terapi tidak sesuai. Posisi makan tidak aman Meningkatkan risiko aspirasi. Intake dicatat berdasarkan perkiraan Data tidak dapat digunakan untuk keputusan nutrisi."
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Makanan dan Terapi Nutrisi Pastikan diet dan terapi nutrisi sesuai kebutuhan, benar pasien, aman, serta dievaluasi responsnya secara terintegrasi."
 }

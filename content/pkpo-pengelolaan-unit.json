@@ -1,0 +1,176 @@
+{
+  "id": "pkpo-pengelolaan-unit",
+  "group": "pkpo",
+  "title": "Penyimpanan dan Pengelolaan Obat di Unit",
+  "short": "Penyimpanan dan Pengelolaan Obat di Unit",
+  "desc": "Jaga obat di unit tetap aman, sesuai suhu, tidak kedaluwarsa, dan siap digunakan termasuk obat emergensi.",
+  "category": "PKPO",
+  "color": "#6D48C7",
+  "soft": "#F1ECFF",
+  "icon": "rights",
+  "minutes": 9,
+  "updated": "2026-08-07",
+  "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
+  "quizDisplayCount": 3,
+  "slides": [
+    {
+      "type": "html",
+      "title": "📦 Penyimpanan aman",
+      "caption": "Kondisi penyimpanan memengaruhi mutu dan risiko salah obat.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Akses",
+            "text": "Simpan di area terkendali sesuai jenis obat dan kewenangan."
+          },
+          {
+            "title": "Suhu/kelembapan/cahaya",
+            "text": "Ikuti persyaratan produk; obat kulkas dimonitor pada rentang yang ditetapkan."
+          },
+          {
+            "title": "Pemisahan",
+            "text": "Pisahkan obat pasien, high-alert/LASA, elektrolit konsentrat, dan obat khusus sesuai sistem."
+          },
+          {
+            "title": "Kedaluwarsa",
+            "text": "Lakukan pengecekan berkala dan prinsip FEFO bila diterapkan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🚑 Obat emergensi",
+      "caption": "Harus cepat tersedia tetapi tetap terkendali.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Siap pakai",
+            "text": "Troli/kit emergensi lengkap, mudah diakses saat keadaan darurat."
+          },
+          {
+            "title": "Segel/kontrol",
+            "text": "Segel dan daftar isi mengikuti sistem RS; setiap pembukaan ditindaklanjuti dengan pengecekan/pengisian ulang."
+          },
+          {
+            "title": "Kedaluwarsa",
+            "text": "Cek tanggal dan kondisi obat secara berkala."
+          },
+          {
+            "title": "Akses",
+            "text": "Kecepatan tidak berarti bebas diambil tanpa kontrol."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "📅 BUD, rusak, dan recall",
+      "caption": "Tanggal kedaluwarsa pabrik tidak sama dengan BUD setelah produk dibuka/diracik.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "BUD",
+            "text": "Beyond-use date mengikuti karakter produk, cara penyiapan, dan ketentuan farmasi/RS."
+          },
+          {
+            "title": "Obat rusak",
+            "text": "Jangan digunakan bila kemasan, warna, konsistensi, label, atau kondisi penyimpanan meragukan."
+          },
+          {
+            "title": "Recall",
+            "text": "Segera pisahkan/karantina obat yang ditarik dan ikuti instruksi farmasi."
+          },
+          {
+            "title": "Dokumentasi",
+            "text": "Catat pemeriksaan/pengembalian sesuai proses yang ditetapkan."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "Inti materi — 1 menit",
+      "points": [
+        "Simpan obat sesuai persyaratan dan akses terkendali.",
+        "Troli/obat emergensi harus lengkap, siap, dan diperiksa berkala.",
+        "BUD berbeda dari tanggal kedaluwarsa pabrik.",
+        "Obat rusak/recall tidak boleh tetap tersedia untuk pemberian."
+      ]
+    }
+  ],
+  "do": [
+    "Simpan obat sesuai persyaratan dan akses terkendali.",
+    "Troli/obat emergensi harus lengkap, siap, dan diperiksa berkala.",
+    "BUD berbeda dari tanggal kedaluwarsa pabrik.",
+    "Obat rusak/recall tidak boleh tetap tersedia untuk pemberian."
+  ],
+  "dont": [],
+  "quiz": [
+    {
+      "q": "Obat recall masih ada di lemari unit. Apa yang dilakukan?",
+      "options": [
+        "Tetap digunakan sampai habis",
+        "Pisahkan/karantina dan ikuti instruksi farmasi",
+        "Beri ke pasien pertama",
+        "Buang ke sampah biasa"
+      ],
+      "answer": 1,
+      "why": "Recall harus mencegah obat kembali diberikan."
+    },
+    {
+      "q": "Troli emergensi pernah dibuka. Setelah situasi selesai, yang tepat adalah…",
+      "options": [
+        "Dibiarkan terbuka",
+        "Cek isi, lengkapi kembali, dan segel sesuai sistem RS",
+        "Kunci selamanya",
+        "Pindahkan ke gudang"
+      ],
+      "answer": 1,
+      "why": "Kesiapan berikutnya harus dipulihkan."
+    },
+    {
+      "q": "BUD adalah…",
+      "options": [
+        "Selalu sama dengan expiry pabrik",
+        "Batas penggunaan setelah kondisi tertentu seperti dibuka/diracik sesuai ketentuan",
+        "Nomor batch",
+        "Nama dagang"
+      ],
+      "answer": 1,
+      "why": "BUD bergantung pada kondisi penggunaan/penyiapan produk."
+    }
+  ],
+  "references": [
+    {
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
+    },
+    {
+      "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
+      "org": "Kementerian Kesehatan RI",
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
+    }
+  ],
+  "priority": "practice",
+  "priorityLabel": "Praktik Wajib",
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "Penyimpanan dan Pengelolaan Obat di Unit Jaga obat di unit tetap aman, sesuai suhu, tidak kedaluwarsa, dan siap digunakan termasuk obat emergensi."
+}

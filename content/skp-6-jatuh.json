@@ -1,48 +1,96 @@
 {
   "id": "skp-6-jatuh",
   "group": "skp",
-  "title": "Pencegahan Pasien Jatuh",
-  "short": "Pencegahan Pasien Jatuh",
-  "desc": "Kaji risiko, terapkan intervensi, edukasi, dan kaji ulang.",
+  "title": "SKP 6 — Mengurangi Risiko Cedera Pasien Akibat Jatuh",
+  "short": "SKP 6 — Mengurangi Risiko Cedera Pasien Akibat Jatuh",
+  "desc": "Skrining/asesmen risiko jatuh, intervensi sesuai risiko, dan lakukan asesmen ulang saat kondisi berubah.",
   "category": "SKP",
   "color": "#0B7285",
   "soft": "#E6F7FA",
   "icon": "shield",
-  "minutes": 18,
+  "minutes": 12,
   "updated": "2026-08-07",
   "notice": "Materi ini fokus pada hal yang perlu perawat pahami, lakukan, dokumentasikan, jawab, atau peragakan di pelayanan.",
-  "quizDisplayCount": 5,
+  "quizDisplayCount": 3,
   "slides": [
     {
       "type": "html",
-      "title": "Siklus pencegahan jatuh",
-      "caption": "Risiko jatuh harus dinilai, ditindaklanjuti, dan dikaji ulang.",
+      "title": "📋 Skrining dan skala",
+      "caption": "Gunakan instrumen yang sesuai populasi dan sistem rumah sakit.",
       "template": {
-        "style": "timeline",
+        "style": "cards",
         "items": [
           {
-            "title": "Skrining awal",
-            "text": "Lakukan saat pasien masuk sesuai alat dan populasi yang ditetapkan."
+            "title": "Rawat inap",
+            "text": "Pasien dewasa dan anak dinilai risiko jatuh."
           },
           {
-            "title": "Pengkajian faktor risiko",
-            "text": "Nilai riwayat jatuh, mobilitas, kognitif, obat, eliminasi, penglihatan, alat bantu, dan lingkungan."
+            "title": "Rawat jalan",
+            "text": "Lakukan skrining pasien berisiko; pengamatan gait/kebutuhan bantuan penting."
           },
           {
-            "title": "Intervensi individual",
-            "text": "Sesuaikan pengawasan, bantuan mobilisasi, alas kaki, bel panggil, posisi tempat tidur, toileting, dan edukasi."
+            "title": "Contoh skala",
+            "text": "Humpty Dumpty (anak), Morse Fall Scale (dewasa), Ontario Modified Stratify–Sydney (geriatri)."
           },
           {
-            "title": "Komunikasi risiko",
-            "text": "Sampaikan saat serah terima dan gunakan penanda sesuai ketentuan rumah sakit."
+            "title": "GUGT",
+            "text": "Dapat digunakan sebagai skrining cepat gait pada konteks rawat jalan/IGD sesuai sistem RS; bukan satu-satunya metode nasional."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "💪 Intervensi sesuai risiko",
+      "caption": "Skor harus berubah menjadi tindakan nyata.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Lingkungan",
+            "text": "Bed rendah/terkunci, bel terjangkau, alas kaki aman, jalur bebas hambatan, pencahayaan cukup."
           },
           {
-            "title": "Pengkajian ulang",
-            "text": "Lakukan bila kondisi, obat, mobilitas, lokasi, atau tingkat kesadaran berubah dan setelah kejadian jatuh."
+            "title": "Mobilisasi",
+            "text": "Bantu sesuai kemampuan dan alat bantu pasien."
           },
           {
-            "title": "Evaluasi setelah jatuh",
-            "text": "Utamakan cedera, laporkan, dokumentasikan, dan perbaiki faktor penyebab."
+            "title": "Edukasi",
+            "text": "Beritahu pasien/keluarga cara meminta bantuan dan risiko spesifik."
+          },
+          {
+            "title": "Penanda",
+            "text": "Gelang/simbol/warna mengikuti kebijakan RS."
+          }
+        ],
+        "columns": 2,
+        "note": ""
+      }
+    },
+    {
+      "type": "html",
+      "title": "🔁 Kapan dinilai ulang?",
+      "caption": "Jangan menunggu jadwal bila risiko berubah.",
+      "template": {
+        "style": "cards",
+        "items": [
+          {
+            "title": "Pola operasional umum",
+            "text": "Risiko rendah: 2–3 hari hingga mingguan; sedang: minimal 24 jam; tinggi: setiap shift atau minimal 12 jam."
+          },
+          {
+            "title": "Segera asesmen ulang",
+            "text": "Setelah transfer, perubahan klinis/mental, perubahan obat yang meningkatkan risiko, operasi/anestesi/sedasi."
+          },
+          {
+            "title": "Setelah kejadian",
+            "text": "Segera setelah jatuh atau near miss."
+          },
+          {
+            "title": "Catatan",
+            "text": "Interval dapat berbeda sesuai kebijakan internal RS."
           }
         ],
         "columns": 2,
@@ -51,729 +99,83 @@
     },
     {
       "type": "image",
-      "title": "SKP 6 — Mengurangi Risiko Cedera Akibat Jatuh",
-      "caption": "Tanda risiko saja tidak mencegah jatuh; intervensi harus sesuai penyebab dan berubah mengikuti kondisi pasien.",
-      "image": "assets/images/v4/skp-6-jatuh/skp-6-jatuh-01.webp",
-      "thumbnail": "assets/images/thumb/v4/skp-6-jatuh/skp-6-jatuh-01.webp"
-    },
-    {
-      "type": "image",
-      "title": "Ilustrasi pencegahan pasien jatuh",
-      "caption": "Sesuaikan intervensi dengan hasil pengkajian dan kebijakan rumah sakit.",
-      "image": "assets/images/posters/v5/pencegahan-pasien-jatuh.webp",
-      "thumbnail": "assets/images/posters/v5/thumb/pencegahan-pasien-jatuh.webp"
-    },
-    {
-      "type": "html",
-      "title": "💡 Apa intinya?",
-      "caption": "Istilah dan alasan yang perlu dipahami sebelum menerapkan.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Skrining",
-            "text": "Penyaringan cepat untuk menentukan ada tidaknya risiko yang memerlukan penilaian lebih lanjut."
-          },
-          {
-            "title": "Asesmen risiko",
-            "text": "Penilaian faktor intrinsik dan ekstrinsik yang dapat menyebabkan jatuh."
-          },
-          {
-            "title": "Faktor intrinsik",
-            "text": "Kelemahan, gangguan keseimbangan, delirium, hipotensi, gangguan penglihatan, nyeri, atau penyakit."
-          },
-          {
-            "title": "Faktor ekstrinsik",
-            "text": "Lingkungan, alas kaki, kabel, pencahayaan, tempat tidur, alat bantu, dan akses toilet."
-          },
-          {
-            "title": "Intervensi individual",
-            "text": "Rencana yang menargetkan faktor risiko nyata pasien."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧭 Alurnya gimana?",
-      "caption": "Cara menerjemahkan prinsip ke langkah kerja yang aman.",
-      "template": {
-        "style": "timeline",
-        "items": [
-          {
-            "title": "Saat masuk",
-            "text": "Lakukan skrining/asesmen sesuai populasi dan kondisi, lalu dokumentasikan faktor serta rencana."
-          },
-          {
-            "title": "Rencanakan mobilisasi",
-            "text": "Tentukan kebutuhan bantuan, alat bantu, jumlah petugas, dan batas aktivitas."
-          },
-          {
-            "title": "Kelola lingkungan",
-            "text": "Tempatkan bel, barang penting, alas kaki, pencahayaan, dan jalur berjalan dalam kondisi aman."
-          },
-          {
-            "title": "Tinjau obat dan kondisi",
-            "text": "Perhatikan sedatif, antihipertensi, diuretik, hipoglikemia, delirium, atau perubahan hemodinamik."
-          },
-          {
-            "title": "Evaluasi",
-            "text": "Pantau kepatuhan, perubahan risiko, near fall, dan efektivitas intervensi."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Praktik: pencegahan jatuh dan mobilisasi aman",
-      "caption": "Intervensi harus mengikuti faktor risiko pasien, bukan hanya warna penanda.",
-      "template": {
-        "style": "practice",
-        "items": [
-          {
-            "title": "1. Nilai sebelum mobilisasi",
-            "text": "Tinjau kesadaran, kekuatan, nyeri, tekanan darah, obat, alat invasif, alas kaki, dan kebutuhan bantuan."
-          },
-          {
-            "title": "2. Jelaskan rencana",
-            "text": "Beritahu pasien cara meminta bantuan dan apa yang akan dilakukan saat berdiri/berjalan."
-          },
-          {
-            "title": "3. Siapkan lingkungan",
-            "text": "Kunci roda, atur tinggi bed, singkirkan hambatan, dekatkan bel, dan siapkan alat bantu."
-          },
-          {
-            "title": "4. Bantu bertahap",
-            "text": "Duduk di tepi bed, nilai toleransi, berdiri dengan teknik aman, lalu berjalan sesuai kemampuan."
-          },
-          {
-            "title": "5. Jangan tinggalkan pasien berisiko",
-            "text": "Pastikan pendampingan pada toilet, transfer, atau aktivitas yang telah diidentifikasi berisiko."
-          },
-          {
-            "title": "6. Asesmen ulang",
-            "text": "Ulangi setelah perubahan kondisi, obat sedatif, prosedur, transfer, atau kejadian hampir jatuh/jatuh."
-          },
-          {
-            "title": "7. Evaluasi dan dokumentasikan",
-            "text": "Catat faktor risiko, intervensi, edukasi, respons, dan tindak lanjut."
-          }
-        ],
-        "columns": 2,
-        "note": "Penanda risiko hanya pengingat; keselamatan ditentukan oleh intervensi yang benar-benar dilakukan."
-      }
-    },
-    {
-      "type": "html",
-      "title": "🧩 Kalau situasinya berbeda?",
-      "caption": "Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut.",
-      "template": {
-        "style": "bands",
-        "items": [
-          {
-            "title": "Pasien ingin ke toilet mendadak",
-            "text": "Respons cepat, nilai kemampuan, gunakan bantuan yang sesuai, dan jangan menyuruh menunggu tanpa alternatif aman."
-          },
-          {
-            "title": "Setelah sedasi atau prosedur",
-            "text": "Risiko dapat meningkat sementara; lakukan asesmen ulang sebelum mobilisasi."
-          },
-          {
-            "title": "Pasien menolak bantuan",
-            "text": "Jelaskan risiko, gali alasan, tawarkan pilihan aman, libatkan pihak terkait, dan dokumentasikan."
-          },
-          {
-            "title": "Pasien bingung atau impulsif",
-            "text": "Perkuat observasi, orientasi, lingkungan, dan keterlibatan keluarga sesuai kondisi."
-          },
-          {
-            "title": "Setelah jatuh",
-            "text": "Jangan segera memindahkan sebelum menilai cedera dan kondisi; aktifkan bantuan serta lakukan evaluasi penyebab."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "💪 Perawat harus ngapain?",
-      "caption": "Tindakan konkret yang dapat dilakukan di titik pelayanan.",
-      "template": {
-        "style": "checklist",
-        "items": [
-          {
-            "title": "Kenali pola",
-            "text": "Catat waktu, aktivitas, lokasi, obat, dan gejala yang berkaitan dengan near fall atau jatuh."
-          },
-          {
-            "title": "Sesuaikan intervensi",
-            "text": "Hubungkan setiap tindakan dengan faktor risiko yang ditemukan."
-          },
-          {
-            "title": "Libatkan pasien",
-            "text": "Tentukan tujuan mobilisasi yang aman dan realistis."
-          },
-          {
-            "title": "Komunikasikan risiko",
-            "text": "Serah terimakan tingkat bantuan, alat, pemicu, dan perubahan terbaru."
-          },
-          {
-            "title": "Pelajari kejadian",
-            "text": "Gunakan post-fall review untuk memperbaiki rencana pasien dan sistem unit."
-          }
-        ],
-        "columns": 1,
-        "note": ""
-      }
-    },
-    {
-      "type": "html",
-      "title": "🚨 Apa yang sering keliru?",
-      "caption": "Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko.",
-      "template": {
-        "style": "cards",
-        "items": [
-          {
-            "title": "Hanya memasang gelang atau tanda",
-            "text": "Penanda tidak mengubah faktor risiko tanpa tindakan nyata."
-          },
-          {
-            "title": "Semua pasien diberi intervensi sama",
-            "text": "Dapat mengabaikan penyebab utama dan membatasi pasien secara tidak perlu."
-          },
-          {
-            "title": "Tidak asesmen ulang",
-            "text": "Skor awal tidak mencerminkan perubahan obat, penyakit, atau mobilitas."
-          },
-          {
-            "title": "Bel tidak terjangkau",
-            "text": "Edukasi meminta bantuan tidak berguna bila pasien tidak dapat melakukannya."
-          },
-          {
-            "title": "Menyalahkan pasien",
-            "text": "Menghambat budaya belajar dan mengabaikan faktor sistem."
-          }
-        ],
-        "columns": 2,
-        "note": ""
-      }
+      "title": "Poster — Pencegahan Pasien Jatuh",
+      "caption": "Recap visual pencegahan jatuh.",
+      "image": "assets/images/posters/v6/pencegahan-pasien-jatuh.webp",
+      "thumbnail": "assets/images/posters/v6/thumb/pencegahan-pasien-jatuh.webp"
     }
   ],
   "summarySections": [
     {
-      "title": "Kompetensi inti perawat",
+      "title": "Inti materi — 1 menit",
       "points": [
-        "Skrining awal: Lakukan saat pasien masuk sesuai alat dan populasi yang ditetapkan.",
-        "Pengkajian faktor risiko: Nilai riwayat jatuh, mobilitas, kognitif, obat, eliminasi, penglihatan, alat bantu, dan lingkungan.",
-        "Intervensi individual: Sesuaikan pengawasan, bantuan mobilisasi, alas kaki, bel panggil, posisi tempat tidur, toileting, dan edukasi.",
-        "Komunikasi risiko: Sampaikan saat serah terima dan gunakan penanda sesuai ketentuan rumah sakit."
-      ]
-    },
-    {
-      "title": "Risiko dinamis",
-      "points": [
-        "Kondisi, obat, aktivitas, dan lingkungan dapat mengubah risiko dalam hitungan jam."
-      ]
-    },
-    {
-      "title": "Intervensi individual",
-      "points": [
-        "Tindakan harus menargetkan faktor risiko pasien, bukan hanya mengikuti skor."
-      ]
-    },
-    {
-      "title": "Penanda bukan intervensi",
-      "points": [
-        "Gelang/tanda membantu komunikasi tetapi tidak mencegah jatuh tanpa tindakan."
-      ]
-    },
-    {
-      "title": "Setelah jatuh",
-      "points": [
-        "Nilai cedera, tangani pasien, laporkan, analisis penyebab, dan revisi rencana."
-      ]
-    },
-    {
-      "title": "Saat diminta praktik",
-      "points": [
-        "1. Nilai sebelum mobilisasi: Tinjau kesadaran, kekuatan, nyeri, tekanan darah, obat, alat invasif, alas kaki, dan kebutuhan bantuan.",
-        "2. Jelaskan rencana: Beritahu pasien cara meminta bantuan dan apa yang akan dilakukan saat berdiri/berjalan."
+        "Gunakan skrining/skala sesuai populasi.",
+        "Intervensi harus sesuai tingkat dan penyebab risiko.",
+        "Reasesmen segera bila kondisi berubah atau setelah jatuh/near miss.",
+        "Interval rutin dapat berbeda sesuai kebijakan RS."
       ]
     }
   ],
   "do": [
-    "Lakukan asesmen ulang setelah perubahan kondisi atau terapi.",
-    "Pastikan bel dan barang penting terjangkau.",
-    "Tentukan bantuan mobilisasi yang jelas.",
-    "Serah terimakan faktor risiko dan intervensi.",
-    "Lakukan post-fall review.",
-    "Mulai dari keselamatan, verifikasi, dan urutan tindakan; jelaskan alasan pada setiap langkah."
+    "Gunakan skrining/skala sesuai populasi.",
+    "Intervensi harus sesuai tingkat dan penyebab risiko.",
+    "Reasesmen segera bila kondisi berubah atau setelah jatuh/near miss.",
+    "Interval rutin dapat berbeda sesuai kebijakan RS."
   ],
-  "dont": [
-    "Mengandalkan gelang atau skor saja.",
-    "Menggunakan restriksi tanpa alasan dan evaluasi.",
-    "Membiarkan pasien ke toilet tanpa bantuan yang diperlukan.",
-    "Tidak menilai cedera setelah jatuh.",
-    "Menyalahkan pasien atau keluarga.",
-    "Melakukan demonstrasi seperti hafalan tanpa menilai kondisi pasien, alat, atau lingkungan."
-  ],
+  "dont": [],
   "quiz": [
     {
-      "q": "Pasien awalnya risiko rendah, kemudian mendapat sedatif dan tampak goyah. Tindakan terbaik adalah…",
+      "q": "Pasien baru mendapat sedasi dan menjadi lebih mengantuk. Kapan risiko jatuh dinilai ulang?",
       "options": [
-        "Menunggu asesmen harian",
-        "Melakukan asesmen ulang dan menyesuaikan bantuan mobilisasi",
-        "Memasang tanda saja",
-        "Melarang semua aktivitas tanpa evaluasi"
+        "Minggu depan",
+        "Segera",
+        "Saat pulang saja",
+        "Tidak perlu"
       ],
       "answer": 1,
-      "why": "Perubahan obat dan kondisi memerlukan asesmen ulang."
+      "why": "Perubahan kondisi dan terapi dapat mengubah risiko secara cepat."
     },
     {
-      "q": "Intervensi paling tepat untuk pasien yang sering ingin ke toilet karena diuretik adalah…",
+      "q": "Skala yang umum untuk pasien anak adalah…",
       "options": [
-        "Menjauhkan bel",
-        "Toileting terjadwal dan bantuan yang cepat",
-        "Memasang gelang saja",
-        "Mengurangi minum tanpa instruksi"
+        "Humpty Dumpty",
+        "Morse",
+        "NEWS2",
+        "BPS"
+      ],
+      "answer": 0,
+      "why": "Humpty Dumpty digunakan untuk risiko jatuh pediatrik di banyak RS."
+    },
+    {
+      "q": "Apakah semua warna gelang risiko jatuh harus sama di setiap RS?",
+      "options": [
+        "Ya",
+        "Tidak, penanda mengikuti kebijakan internal RS"
       ],
       "answer": 1,
-      "why": "Intervensi menargetkan faktor eliminasi dan kebutuhan bantuan."
-    },
-    {
-      "q": "Setelah pasien ditemukan di lantai, langkah awal adalah…",
-      "options": [
-        "Segera mengangkat ke tempat tidur",
-        "Menilai kondisi dan kemungkinan cedera serta meminta bantuan",
-        "Meminta pasien berjalan",
-        "Menghapus tanda risiko"
-      ],
-      "answer": 1,
-      "why": "Pemindahan tanpa penilaian dapat memperburuk cedera."
-    },
-    {
-      "q": "Mengapa skor risiko saja tidak cukup?",
-      "options": [
-        "Skor selalu salah",
-        "Skor tidak menggantikan penilaian klinis dan intervensi individual",
-        "Skor hanya untuk dokter",
-        "Skor tidak perlu didokumentasikan"
-      ],
-      "answer": 1,
-      "why": "Faktor nyata pasien dan perubahan kondisi harus tetap dinilai."
-    },
-    {
-      "q": "Pasien menolak dibantu saat berjalan. Respons paling tepat adalah…",
-      "options": [
-        "Membiarkan tanpa penjelasan",
-        "Melarang dengan ancaman",
-        "Menjelaskan risiko, menggali alasan, menawarkan pilihan aman, dan mendokumentasikan",
-        "Memasang restrain langsung"
-      ],
-      "answer": 2,
-      "why": "Pendekatan kolaboratif menjaga keselamatan sekaligus menghormati pasien."
-    },
-    {
-      "q": "Gelang risiko jatuh berfungsi untuk…",
-      "options": [
-        "Menggantikan asesmen",
-        "Menjadi penanda komunikasi yang harus disertai intervensi",
-        "Mencegah jatuh secara otomatis",
-        "Menentukan diagnosis"
-      ],
-      "answer": 1,
-      "why": "Penanda hanya salah satu lapisan pengaman."
-    },
-    {
-      "q": "Handover risiko jatuh yang baik mencakup…",
-      "options": [
-        "Skor saja",
-        "Faktor risiko, tingkat bantuan, alat, pemicu, dan perubahan terbaru",
-        "Nama keluarga",
-        "Nomor tempat tidur"
-      ],
-      "answer": 1,
-      "why": "Penerima perlu informasi yang dapat ditindaklanjuti."
-    },
-    {
-      "q": "Tujuan post-fall review adalah…",
-      "options": [
-        "Menentukan siapa yang dihukum",
-        "Mencari penyebab dan memperbaiki rencana serta sistem",
-        "Menghapus laporan",
-        "Membuktikan pasien tidak patuh"
-      ],
-      "answer": 1,
-      "why": "Review berfokus pada pembelajaran dan pencegahan kejadian berulang."
-    },
-    {
-      "q": "Pasien awalnya risiko rendah, lalu mendapat sedatif dan tampak limbung. Tindakan yang tepat adalah…",
-      "options": [
-        "Mempertahankan skor awal sampai besok",
-        "Melakukan asesmen ulang dan menyesuaikan intervensi",
-        "Hanya memasang penanda risiko",
-        "Melarang pasien bergerak tanpa penilaian"
-      ],
-      "answer": 1,
-      "why": "Perubahan obat/kondisi adalah pemicu asesmen ulang dan intervensi individual."
+      "why": "Warna penanda adalah detail operasional lokal."
     }
   ],
   "references": [
     {
-      "title": "Kepdirjen HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
+      "title": "Kepdirjen Pelayanan Kesehatan HK.02.02/D/47104/2024 — Instrumen Survei Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
       "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1737603973_377193.pdf"
     },
     {
       "title": "KMK HK.01.07/MENKES/1596/2024 — Standar Akreditasi Rumah Sakit",
       "org": "Kementerian Kesehatan RI",
-      "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes15962024"
+      "url": "https://jdih.kemkes.go.id/"
+    },
+    {
+      "title": "SPO, kebijakan, dan sistem operasional rumah sakit yang berlaku",
+      "org": "Rumah sakit masing-masing",
+      "url": ""
     }
   ],
   "priority": "practice",
   "priorityLabel": "Praktik Wajib",
-  "instrumentCodes": [
-    "SKP 6",
-    "SKP 6.1"
-  ],
-  "instrumentSource": "Keputusan Direktur Jenderal Pelayanan Kesehatan Nomor HK.02.02/D/47104/2024",
-  "instrumentPages": [
-    394,
-    395
-  ],
-  "standardRef": "SKP 6 dan SKP 6.1",
-  "keywords": [
-    "1.",
-    "2.",
-    "3.",
-    "4.",
-    "5.",
-    "6",
-    "6.",
-    "6.1",
-    "7.",
-    "ada",
-    "akan",
-    "akibat",
-    "akses",
-    "aktifkan",
-    "aktivitas",
-    "aktivitas.",
-    "alas",
-    "alasan",
-    "alat",
-    "alternatif",
-    "alurnya",
-    "aman",
-    "aman.",
-    "antihipertensi",
-    "apa",
-    "asesmen",
-    "atau",
-    "atur",
-    "awal",
-    "bantu",
-    "bantu.",
-    "bantuan",
-    "bantuan.",
-    "barang",
-    "batas",
-    "bed",
-    "bel",
-    "belajar",
-    "berbeda",
-    "berdiri",
-    "berdiri/berjalan.",
-    "berguna",
-    "berisiko",
-    "berisiko.",
-    "beritahu",
-    "berjalan",
-    "berkaitan",
-    "bertahap",
-    "berubah",
-    "bila",
-    "bingung",
-    "budaya",
-    "bukan",
-    "cara",
-    "catat",
-    "cedera",
-    "cepat",
-    "dalam",
-    "dan",
-    "dapat",
-    "darah",
-    "dekatkan",
-    "delirium",
-    "dengan",
-    "di",
-    "diberi",
-    "diidentifikasi",
-    "dikaji",
-    "dilakukan",
-    "dinilai",
-    "dipahami",
-    "ditemukan.",
-    "ditetapkan.",
-    "ditindaklanjuti",
-    "diuretik",
-    "dokumentasikan",
-    "dokumentasikan.",
-    "duduk",
-    "edukasi",
-    "edukasi.",
-    "efektivitas",
-    "ekstrinsik",
-    "eliminasi",
-    "evaluasi",
-    "faktor",
-    "fall",
-    "gali",
-    "gangguan",
-    "gejala",
-    "gelang",
-    "gimana",
-    "gunakan",
-    "hambatan",
-    "hampir",
-    "hanya",
-    "harus",
-    "hasil",
-    "hemodinamik.",
-    "hipoglikemia",
-    "hipotensi",
-    "hubungkan",
-    "ilustrasi",
-    "impulsif",
-    "individual",
-    "ingin",
-    "intervensi",
-    "intervensi.",
-    "intinya",
-    "intrinsik",
-    "invasif",
-    "istilah",
-    "jalur",
-    "jangan",
-    "jatuh",
-    "jatuh.",
-    "jatuh/jatuh.",
-    "jelaskan",
-    "jumlah",
-    "kabel",
-    "kaji",
-    "kaki",
-    "kalau",
-    "ke",
-    "kebijakan",
-    "kebutuhan",
-    "kejadian",
-    "kekuatan",
-    "kelemahan",
-    "keliru",
-    "kelola",
-    "keluarga",
-    "kemampuan",
-    "kemampuan.",
-    "kenali",
-    "kepatuhan",
-    "kerja",
-    "kesadaran",
-    "keseimbangan",
-    "ketentuan",
-    "keterlibatan",
-    "kognitif",
-    "komunikasi",
-    "komunikasikan",
-    "kondisi",
-    "kondisi.",
-    "konkret",
-    "kunci",
-    "lakukan",
-    "lalu",
-    "langkah",
-    "lanjut.",
-    "laporkan",
-    "lebih",
-    "libatkan",
-    "lingkungan",
-    "lingkungan.",
-    "lokasi",
-    "masuk",
-    "melakukannya.",
-    "memasang",
-    "membatasi",
-    "membingungkan",
-    "membutuhkan",
-    "memerlukan",
-    "memindahkan",
-    "meminta",
-    "memperbaiki",
-    "menargetkan",
-    "mencegah",
-    "mencerminkan",
-    "mendadak",
-    "menentukan",
-    "menerapkan.",
-    "menerjemahkan",
-    "mengabaikan",
-    "menghambat",
-    "mengikuti",
-    "mengubah",
-    "mengurangi",
-    "menilai",
-    "menimbulkan",
-    "meningkat",
-    "menolak",
-    "menunggu",
-    "menyalahkan",
-    "menyebabkan",
-    "menyuruh",
-    "mobilisasi",
-    "mobilisasi.",
-    "mobilitas",
-    "mobilitas.",
-    "near",
-    "ngapain",
-    "nilai",
-    "nyata",
-    "nyata.",
-    "nyeri",
-    "obat",
-    "observasi",
-    "orientasi",
-    "pada",
-    "panggil",
-    "pantau",
-    "pasien",
-    "pasien.",
-    "pastikan",
-    "pelajari",
-    "pelayanan.",
-    "pemicu",
-    "penanda",
-    "penanda.",
-    "pencahayaan",
-    "pencegahan",
-    "pendampingan",
-    "pengawasan",
-    "pengkajian",
-    "penglihatan",
-    "penilaian",
-    "penting",
-    "penyakit",
-    "penyakit.",
-    "penyaringan",
-    "penyebab",
-    "penyebab.",
-    "perawat",
-    "perbaiki",
-    "perhatikan",
-    "perkuat",
-    "perlu",
-    "perlu.",
-    "perubahan",
-    "petugas",
-    "pihak",
-    "pilihan",
-    "pola",
-    "populasi",
-    "posisi",
-    "post-fall",
-    "praktik",
-    "prinsip",
-    "prosedur",
-    "realistis.",
-    "rencana",
-    "rencana.",
-    "rencanakan",
-    "respons",
-    "review",
-    "risiko",
-    "risiko.",
-    "riwayat",
-    "roda",
-    "rumah",
-    "saat",
-    "saja",
-    "sakit.",
-    "sama",
-    "sampaikan",
-    "sebelum",
-    "secara",
-    "sedasi",
-    "sedatif",
-    "segera",
-    "sementara",
-    "semua",
-    "sepele",
-    "serah",
-    "sering",
-    "serta",
-    "sesuai",
-    "sesuaikan",
-    "setelah",
-    "setiap",
-    "siapkan",
-    "siklus",
-    "singkirkan",
-    "sistem",
-    "sistem.",
-    "situasinya",
-    "skor",
-    "skp",
-    "skrining",
-    "skrining/asesmen",
-    "tampak",
-    "tanda",
-    "tanpa",
-    "tawarkan",
-    "tekanan",
-    "teknik",
-    "telah",
-    "tempat",
-    "tempatkan",
-    "tentukan",
-    "tepi",
-    "terapkan",
-    "terbaru.",
-    "terima",
-    "terimakan",
-    "terjangkau",
-    "terkait",
-    "tetapi",
-    "tidak",
-    "tidaknya",
-    "tidur",
-    "tindak",
-    "tindakan",
-    "tinggalkan",
-    "tinggi",
-    "tingkat",
-    "tinjau",
-    "titik",
-    "toilet",
-    "toilet.",
-    "toileting",
-    "toleransi",
-    "transfer",
-    "tujuan",
-    "ulang",
-    "ulang.",
-    "ulangi",
-    "unit.",
-    "untuk",
-    "utama",
-    "utamakan",
-    "waktu",
-    "warna",
-    "yang"
-  ],
-  "searchText": "Pencegahan Pasien Jatuh Kaji risiko, terapkan intervensi, edukasi, dan kaji ulang. SKP 6 dan SKP 6.1 Siklus pencegahan jatuh Risiko jatuh harus dinilai, ditindaklanjuti, dan dikaji ulang. Skrining awal Lakukan saat pasien masuk sesuai alat dan populasi yang ditetapkan. Pengkajian faktor risiko Nilai riwayat jatuh, mobilitas, kognitif, obat, eliminasi, penglihatan, alat bantu, dan lingkungan. Intervensi individual Sesuaikan pengawasan, bantuan mobilisasi, alas kaki, bel panggil, posisi tempat tidur, toileting, dan edukasi. Komunikasi risiko Sampaikan saat serah terima dan gunakan penanda sesuai ketentuan rumah sakit. Pengkajian ulang Lakukan bila kondisi, obat, mobilitas, lokasi, atau tingkat kesadaran berubah dan setelah kejadian jatuh. Evaluasi setelah jatuh Utamakan cedera, laporkan, dokumentasikan, dan perbaiki faktor penyebab. SKP 6 — Mengurangi Risiko Cedera Akibat Jatuh Tanda risiko saja tidak mencegah jatuh; intervensi harus sesuai penyebab dan berubah mengikuti kondisi pasien. Ilustrasi pencegahan pasien jatuh Sesuaikan intervensi dengan hasil pengkajian dan kebijakan rumah sakit. 💡 Apa intinya? Istilah dan alasan yang perlu dipahami sebelum menerapkan. Skrining Penyaringan cepat untuk menentukan ada tidaknya risiko yang memerlukan penilaian lebih lanjut. Asesmen risiko Penilaian faktor intrinsik dan ekstrinsik yang dapat menyebabkan jatuh. Faktor intrinsik Kelemahan, gangguan keseimbangan, delirium, hipotensi, gangguan penglihatan, nyeri, atau penyakit. Faktor ekstrinsik Lingkungan, alas kaki, kabel, pencahayaan, tempat tidur, alat bantu, dan akses toilet. Intervensi individual Rencana yang menargetkan faktor risiko nyata pasien. 🧭 Alurnya gimana? Cara menerjemahkan prinsip ke langkah kerja yang aman. Saat masuk Lakukan skrining/asesmen sesuai populasi dan kondisi, lalu dokumentasikan faktor serta rencana. Rencanakan mobilisasi Tentukan kebutuhan bantuan, alat bantu, jumlah petugas, dan batas aktivitas. Kelola lingkungan Tempatkan bel, barang penting, alas kaki, pencahayaan, dan jalur berjalan dalam kondisi aman. Tinjau obat dan kondisi Perhatikan sedatif, antihipertensi, diuretik, hipoglikemia, delirium, atau perubahan hemodinamik. Evaluasi Pantau kepatuhan, perubahan risiko, near fall, dan efektivitas intervensi. 💪 Praktik: pencegahan jatuh dan mobilisasi aman Intervensi harus mengikuti faktor risiko pasien, bukan hanya warna penanda. 1. Nilai sebelum mobilisasi Tinjau kesadaran, kekuatan, nyeri, tekanan darah, obat, alat invasif, alas kaki, dan kebutuhan bantuan. 2. Jelaskan rencana Beritahu pasien cara meminta bantuan dan apa yang akan dilakukan saat berdiri/berjalan. 3. Siapkan lingkungan Kunci roda, atur tinggi bed, singkirkan hambatan, dekatkan bel, dan siapkan alat bantu. 4. Bantu bertahap Duduk di tepi bed, nilai toleransi, berdiri dengan teknik aman, lalu berjalan sesuai kemampuan. 5. Jangan tinggalkan pasien berisiko Pastikan pendampingan pada toilet, transfer, atau aktivitas yang telah diidentifikasi berisiko. 6. Asesmen ulang Ulangi setelah perubahan kondisi, obat sedatif, prosedur, transfer, atau kejadian hampir jatuh/jatuh. 7. Evaluasi dan dokumentasikan Catat faktor risiko, intervensi, edukasi, respons, dan tindak lanjut. 🧩 Kalau situasinya berbeda? Kondisi yang sering membingungkan dan membutuhkan penilaian lebih lanjut. Pasien ingin ke toilet mendadak Respons cepat, nilai kemampuan, gunakan bantuan yang sesuai, dan jangan menyuruh menunggu tanpa alternatif aman. Setelah sedasi atau prosedur Risiko dapat meningkat sementara; lakukan asesmen ulang sebelum mobilisasi. Pasien menolak bantuan Jelaskan risiko, gali alasan, tawarkan pilihan aman, libatkan pihak terkait, dan dokumentasikan. Pasien bingung atau impulsif Perkuat observasi, orientasi, lingkungan, dan keterlibatan keluarga sesuai kondisi. Setelah jatuh Jangan segera memindahkan sebelum menilai cedera dan kondisi; aktifkan bantuan serta lakukan evaluasi penyebab. 💪 Perawat harus ngapain? Tindakan konkret yang dapat dilakukan di titik pelayanan. Kenali pola Catat waktu, aktivitas, lokasi, obat, dan gejala yang berkaitan dengan near fall atau jatuh. Sesuaikan intervensi Hubungkan setiap tindakan dengan faktor risiko yang ditemukan. Libatkan pasien Tentukan tujuan mobilisasi yang aman dan realistis. Komunikasikan risiko Serah terimakan tingkat bantuan, alat, pemicu, dan perubahan terbaru. Pelajari kejadian Gunakan post-fall review untuk memperbaiki rencana pasien dan sistem unit. 🚨 Apa yang sering keliru? Kenali pola yang tampak sepele tetapi dapat menimbulkan risiko. Hanya memasang gelang atau tanda Penanda tidak mengubah faktor risiko tanpa tindakan nyata. Semua pasien diberi intervensi sama Dapat mengabaikan penyebab utama dan membatasi pasien secara tidak perlu. Tidak asesmen ulang Skor awal tidak mencerminkan perubahan obat, penyakit, atau mobilitas. Bel tidak terjangkau Edukasi meminta bantuan tidak berguna bila pasien tidak dapat melakukannya. Menyalahkan pasien Menghambat budaya belajar dan mengabaikan faktor sistem."
+  "standardRef": "",
+  "keywords": [],
+  "searchText": "SKP 6 — Mengurangi Risiko Cedera Pasien Akibat Jatuh Skrining/asesmen risiko jatuh, intervensi sesuai risiko, dan lakukan asesmen ulang saat kondisi berubah."
 }
